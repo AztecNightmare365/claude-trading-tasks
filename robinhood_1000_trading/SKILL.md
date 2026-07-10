@@ -11,6 +11,20 @@ Execute all steps in order, then place all orders simultaneously.
 
 ---
 
+## PRE-MARKET BRIEF
+<!-- Updated by the 9:15 AM pre-market agent. Read before Step 1. -->
+
+No pre-market data yet — agent runs weekdays at 9:15 AM ET.
+
+---
+
+## LEARNED INSIGHTS
+<!-- Updated by weekly review agent every Saturday. Read before every session. -->
+
+No data yet — review agent runs Saturdays at 10 AM ET.
+
+---
+
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
@@ -113,28 +127,39 @@ Never use unsettled cash. Never let total invested positions exceed 75% of accou
 STEP 4 — Find morning momentum candidates
 You are looking for stocks showing confirmed momentum 30 minutes into the session, not just an opening spike. Cast a wide net — aim for 50+ raw candidates before filtering. Run all sources in parallel:
 
-Source A — Robinhood built-in lists:
-Call get_popular_lists to retrieve all available lists. Then call get_watchlist_items on every list that could contain movers: Daily Movers, 100 Most Popular, 52-Week Highs, Top Movers, sector lists (Tech, Healthcare, Energy, etc.), and any other active or badged lists. Extract and deduplicate all tickers.
+Source A — Polygon top movers (primary):
+Use Polygon's snapshot endpoint to get all US stocks sorted by gain % and relative volume. Filter for: change % ≥ 3%, relative volume ≥ 1.5× (actual, not estimated), price ≥ $5. This gives a clean, real-time ranked list — use it as the primary candidate pool.
 
-Source B — Web searches (run all in parallel):
+Source B — Robinhood built-in lists:
+Call get_popular_lists and get_watchlist_items on every list that could contain movers: Daily Movers, 100 Most Popular, 52-Week Highs, Top Movers, sector lists. Add any tickers not already in Source A.
+
+Source C — Web searches (run all in parallel):
 - "top stock gainers this morning [current date]"
-- "stocks with high volume at open today [current date]"
 - "stock market news today [current date] biggest movers"
 - "analyst upgrades today [current date]"
 - "earnings beats this morning [current date]"
-- "FDA approval [current date]" or "drug approval stock"
+- "FDA approval [current date]"
 - "merger acquisition announced today [current date]"
-Extract every ticker mentioned across all results and add any not already in Source A.
+Extract every ticker mentioned and add any not already in Sources A/B.
 
-Source C — Sector momentum check:
-Search "best performing sectors today [current date]" and note the top 1-2 sectors. Pull sector ETF tickers (XLK, XLV, XLE, XLF, XLI, XLC, etc.) for the leading sectors and find individual stocks within them that are moving.
+Source D — Sector momentum via Polygon:
+Use Polygon to get the top-performing sector ETFs (XLK, XLV, XLE, XLF, XLI, XLC) by change % today. For the top 1-2 sectors, pull individual stocks from those sectors via Polygon's ticker screener filtered by sector. Add any not already in the master list.
 
-Combine everything into a master candidate list. Get quotes for all candidates in batches. Then screen every candidate against all of the following:
+Combine into a master candidate list. For each candidate, fetch from Polygon:
+- Current price, change % from prior close
+- Actual relative volume (vs 30-day average) — do not estimate
+- VWAP
+- 5-minute OHLCV bars since market open (to assess trend quality)
+- Market cap and bid/ask spread
+
+Then screen every candidate against all of the following:
 
 Baseline filters:
 - Up at least 3% from yesterday's close
-- Volume in the first 30 minutes is on pace to exceed 1.5x the full-day 30-day average (multiply 30-minute volume by 13 to estimate full-day pace)
-- Market cap above $2 billion (disqualify OTC, pink sheets, ADRs with unverifiable float)
+- Actual relative volume ≥ 1.5× (from Polygon — no estimation)
+- Current price is ABOVE VWAP (confirms intraday momentum, not fading)
+- Price trend from 5-min bars shows higher highs or consolidation above open — not a fading spike
+- Market cap above $2 billion (disqualify OTC, pink sheets, ADRs)
 - Bid/ask spread below 1%
 - Not already in your portfolio
 
@@ -202,3 +227,22 @@ git push
 ```
 
 Note: after you write this block, the 12:00 PM midday reassessment agent will read it, potentially open or close positions, trail stops, and overwrite this same block with updated information. The 1 PM and 2 PM stop-loss monitors and the 3:15 PM agent will all read whichever version is most recent. Write your handoff cleanly so the 12 PM agent has accurate targets to work from.
+
+---
+
+STEP 9 — Append closed trades to trade log
+For every position you SOLD in this session (from Step 2 exits), append one row per trade to `trade_log.csv` in the repo root:
+
+Format: `date,ticker,shares,entry_price,exit_price,entry_session,exit_session,catalyst,sector,pnl_pct,pnl_dollar,exit_reason`
+
+- `entry_session`: the session that opened the position (from handoff — "3:15PM", "10AM", or "12PM")
+- `exit_session`: "10AM"
+- `exit_reason`: "stop_loss", "take_profit", or "discretionary"
+- `pnl_pct`: (exit_price - entry_price) / entry_price × 100, rounded to 2 decimal places
+- `pnl_dollar`: (exit_price - entry_price) × shares, rounded to 2 decimal places
+- `catalyst`: one word describing the original entry catalyst (earnings_beat / analyst_upgrade / fda / merger / sector_momentum / other)
+- `sector`: one word (tech / energy / healthcare / financials / consumer / industrial / other)
+
+Do NOT log positions that are still open — only completed (exited) trades.
+
+Include the trade_log.csv in the git commit from Step 8.

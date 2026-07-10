@@ -149,19 +149,21 @@ Never use unsettled cash. Never let total invested positions exceed 75% of accou
 STEP 4 — Find overnight momentum candidates
 You are looking specifically for stocks with strong overnight gap-up potential, not just stocks that moved today. Cast a wide net — aim for 50+ raw candidates before filtering. Run all sources in parallel:
 
-Source A — Robinhood built-in lists:
-Call get_popular_lists to retrieve all available lists. Then call get_watchlist_items on every list that could contain movers: Daily Movers, 100 Most Popular, 52-Week Highs, Top Movers, sector lists (Tech, Healthcare, Energy, etc.), and any other active or badged lists. Extract and deduplicate all tickers.
+Source A — Polygon top movers (primary):
+Use Polygon's snapshot endpoint to get US stocks with change % ≥ 3% and actual relative volume ≥ 1.5×. Also pull today's 52-week high list from Polygon. Sort by relative volume. This is your primary candidate pool.
 
-Source B — Web searches (run all in parallel):
+Source B — Robinhood built-in lists:
+Call get_popular_lists and get_watchlist_items on Daily Movers, 100 Most Popular, 52-Week Highs, Top Movers, sector lists. Add any tickers not already in Source A.
+
+Source C — Web searches (run all in parallel):
 - "top stock gainers today [current date]"
 - "stocks with after hours catalyst tonight [current date]"
 - "stock market news today [current date] biggest movers"
 - "analyst upgrades downgrades today [current date]"
 - "earnings after close tonight [current date] expected beat"
-- "FDA approval [current date]" or "drug trial results today"
+- "FDA approval [current date]"
 - "merger acquisition announced today [current date]"
-- "stocks making 52 week high today [current date]"
-Extract every ticker mentioned across all results and add any not already in Source A.
+Extract every ticker mentioned and add any not already in Sources A/B.
 
 Source C — After-hours catalyst research:
 Search "after hours earnings tonight [current date]" and "premarket catalyst tomorrow [current date]". Flag any candidates from Source A/B that have a known post-close event that could drive overnight movement. Also note any Federal Reserve comments, economic data releases, or geopolitical news expected before tomorrow's open that could impact overnight sentiment broadly.
@@ -169,12 +171,15 @@ Search "after hours earnings tonight [current date]" and "premarket catalyst tom
 Source D — Sector momentum check:
 Search "best performing sectors today [current date]" and identify the top 1-2 sectors. Pull relevant sector ETF tickers (XLK, XLV, XLE, XLF, XLI, XLC, etc.) and find individual stocks within the leading sectors that are closing strong.
 
-Combine everything into a master candidate list. Get quotes for all candidates in batches. Then screen every candidate against all of the following:
+Combine everything into a master candidate list. For each candidate, fetch from Polygon: current price, change %, actual relative volume, VWAP, today's intraday low (for stop-loss reference), and closing price trend from 5-min bars in the last hour (is it closing strong or fading?).
+
+Then screen every candidate against all of the following:
 
 Baseline filters:
 - Up at least 3% on the day
-- Volume at least 1.5x the 30-day average
-- Market cap above $2 billion (disqualify OTC, pink sheets, ADRs with unverifiable float)
+- Actual relative volume ≥ 1.5× (from Polygon — no estimation)
+- Current price is ABOVE VWAP (closing strong relative to day's average)
+- Market cap above $2 billion (disqualify OTC, pink sheets, ADRs)
 - Bid/ask spread below 1%
 - Not already in your portfolio
 
@@ -241,3 +246,28 @@ git add robinhood_1000_trading/SKILL.md
 git commit -m "3:15 PM handoff [DATE]"
 git push
 ```
+
+---
+
+STEP 9 — Append closed trades to trade log
+For every position you SOLD in this session, append one row per trade to `trade_log.csv`:
+
+Format: `date,ticker,shares,entry_price,exit_price,entry_session,exit_session,catalyst,sector,pnl_pct,pnl_dollar,exit_reason`
+
+- `entry_session`: from handoff ("3:15PM", "10AM", or "12PM")
+- `exit_session`: "3:15PM"
+- `exit_reason`: "stop_loss", "take_profit", or "discretionary"
+- `pnl_pct`: (exit_price - entry_price) / entry_price × 100
+- `pnl_dollar`: (exit_price - entry_price) × shares
+- `catalyst` and `sector`: from handoff notes (earnings_beat / analyst_upgrade / fda / merger / sector_momentum / other; tech / energy / healthcare / financials / consumer / industrial / other)
+
+Only log completed (exited) trades. Include trade_log.csv in the git commit from Step 8.
+
+---
+
+## LEARNED INSIGHTS
+<!-- Updated by weekly review agent every Saturday. Read before every session. -->
+
+No data yet — review agent runs Saturdays at 10 AM ET.
+
+---

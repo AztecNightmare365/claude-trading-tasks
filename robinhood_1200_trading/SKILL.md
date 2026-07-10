@@ -72,22 +72,29 @@ Never use unsettled cash. Never let total invested positions exceed 75% of accou
 STEP 4 — Find midday momentum candidates
 Only look for new positions if the morning session left meaningful dry powder and there are genuinely strong setups. Do not force trades. Cast a wide net — aim for 30+ raw candidates before filtering. Run all sources in parallel:
 
-Source A — Robinhood built-in lists:
-Call get_popular_lists to retrieve all available lists. Then call get_watchlist_items on every list that could contain movers: Daily Movers, 100 Most Popular, Top Movers, sector lists, and any other active or badged lists. Extract and deduplicate all tickers.
+Source A — Polygon top movers (primary):
+Use Polygon's snapshot endpoint to get US stocks with change % ≥ 3% and actual relative volume ≥ 1.5×. Sort by relative volume. This is your primary candidate pool.
 
-Source B — Web searches (run all in parallel):
+Source B — Robinhood built-in lists:
+Call get_popular_lists and get_watchlist_items on Daily Movers, 100 Most Popular, Top Movers, sector lists. Add any tickers not already in Source A.
+
+Source C — Web searches (run in parallel):
 - "top stock gainers midday [current date]"
 - "stock market news today [current date] biggest movers"
 - "analyst upgrades today [current date]"
-- "FDA approval [current date]" or "drug approval stock"
+- "FDA approval [current date]"
 - "merger acquisition announced today [current date]"
-Extract every ticker mentioned and add any not already in Source A.
+Extract every ticker mentioned and add any not already in Sources A/B.
 
-Combine into a master candidate list. Get quotes for all candidates in batches. Screen every candidate against all of the following:
+For each candidate, fetch from Polygon: current price, change %, actual relative volume, VWAP, 5-min bars since 10 AM open (to confirm sustained momentum, not a fading morning spike).
+
+Combine into a master candidate list. Screen every candidate against all of the following:
 
 Baseline filters:
 - Up at least 3% from yesterday's close
-- Volume on pace to exceed 1.5x the full-day 30-day average
+- Actual relative volume ≥ 1.5× (from Polygon)
+- Current price is ABOVE VWAP
+- 5-min bar trend since 10 AM shows momentum holding or building — not fading from open spike
 - Market cap above $2 billion
 - Bid/ask spread below 1%
 - Not already in your portfolio
@@ -156,3 +163,28 @@ git add robinhood_1515_trading/SKILL.md
 git commit -m "12 PM handoff [DATE]"
 git push
 ```
+
+---
+
+STEP 9 — Append closed trades to trade log
+For every position you SOLD in this session, append one row per trade to `trade_log.csv`:
+
+Format: `date,ticker,shares,entry_price,exit_price,entry_session,exit_session,catalyst,sector,pnl_pct,pnl_dollar,exit_reason`
+
+- `entry_session`: from handoff ("3:15PM", "10AM", or "12PM")
+- `exit_session`: "12PM"
+- `exit_reason`: "stop_loss", "take_profit", or "discretionary"
+- `pnl_pct`: (exit_price - entry_price) / entry_price × 100
+- `pnl_dollar`: (exit_price - entry_price) × shares
+- `catalyst` and `sector`: from handoff notes (earnings_beat / analyst_upgrade / fda / merger / sector_momentum / other; tech / energy / healthcare / financials / consumer / industrial / other)
+
+Only log completed (exited) trades. Include trade_log.csv in the git commit from Step 8.
+
+---
+
+## LEARNED INSIGHTS
+<!-- Updated by weekly review agent every Saturday. Read before every session. -->
+
+No data yet — review agent runs Saturdays at 10 AM ET.
+
+---
