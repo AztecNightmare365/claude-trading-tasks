@@ -226,7 +226,7 @@ Output a clean summary including:
 ---
 
 STEP 8 — Write handoff to the 10:00 AM prompt
-After completing the summary, overwrite the `## HANDOFF FROM LAST 3:15 PM SESSION` block in `C:\Users\aqmey\.claude\scheduled-tasks\robinhood-1000-trading\SKILL.md` with the following information:
+After completing the summary, overwrite the `## HANDOFF FROM LAST 3:15 PM SESSION` block in `robinhood_1000_trading/SKILL.md` (relative to the root of the cloned `claude-trading-tasks` repo) with the following information:
 - Today's date and time
 - Every open position being held overnight: ticker, shares, average entry price, stop-loss, take-profit, and the overnight thesis in one sentence
 - Settled cash remaining
@@ -234,3 +234,10 @@ After completing the summary, overwrite the `## HANDOFF FROM LAST 3:15 PM SESSIO
 - Any notes the 10:00 AM agent should know (e.g. catalysts to watch before open, earnings risk, sector news expected overnight, positions near targets)
 
 Replace the entire block from the `## HANDOFF FROM LAST 3:15 PM SESSION` line through the closing `---` with fresh content. Do not modify anything else in that file.
+
+After writing the file, commit and push it back to the repo:
+```
+git add robinhood_1000_trading/SKILL.md
+git commit -m "3:15 PM handoff [DATE]"
+git push
+```
