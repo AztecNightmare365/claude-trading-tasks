@@ -14,7 +14,61 @@ Execute all steps in order, then place all orders simultaneously.
 ## PRE-MARKET BRIEF
 <!-- Updated by the 9:15 AM pre-market agent. Read before Step 1. -->
 
-No pre-market data yet — agent runs weekdays at 9:15 AM ET.
+**Generated: 2026-07-11 ~9:15 AM ET**
+
+---
+
+### STALE HANDOFF WARNING
+The `## HANDOFF FROM LAST 3:15 PM SESSION` block below was last written on **2026-07-07** and is **4 trading days out of date**. Per cross-reference with `robinhood_1515_trading/SKILL.md` (updated 2026-07-10 ~4:15 PM ET), the July 7 XOM position was **sold by the user at the open on July 8 (+0.19%)**. No 3:15 PM session has run since July 7 to overwrite the handoff in this file. The 1515 SKILL.md handoff block is the current source of truth.
+
+---
+
+### OVERNIGHT POSITIONS: NONE
+
+No positions held overnight. Account is **100% cash** as of market close July 10. No stops to breach, no take-profits to trigger, no overnight thesis to evaluate.
+
+> The 1000 SKILL.md handoff will still show XOM — **ignore it**. Live Robinhood portfolio will confirm zero open positions.
+
+---
+
+### ACCOUNT STATE (from 1515 SKILL.md — last updated July 10 ~4:15 PM ET)
+- **Total account value:** ~$209.53
+- **Settled cash:** $114.82
+- **Unsettled (settling TODAY July 11):** $94.71 (MU sold by user July 10 at 9:44 AM)
+- **Full buying power available today:** ~$209.53 (settlement clears at open)
+- **75% cap → max investable:** ~$157
+
+---
+
+### MACRO CONTEXT (pre-market July 11)
+- **S&P 500 Futures (ES=F):** 7,626 (+0.08%) — flat, no overnight shock
+- **WTI Crude Oil:** $71.51 (+0.14%) — essentially unchanged; energy thesis remains faded
+- **10-Year Treasury Yield:** 4.569% (up slightly from 4.539%)
+- **Nikkei 225:** +1.2% | Hang Seng: +0.6% | Shanghai: -1.0% | DAX: -0.2% | FTSE: +0.24%
+- **Key event today:** SK Hynix begins US trading (large HBM/semiconductor IPO); could affect chip sector sentiment
+- **Earnings season:** Q2 2026 earnings season starting — increased binary event risk on individual names; no major earnings today pre-market
+- **No overnight macro shocks** — no surprise Fed statements, no major geopolitical escalation
+
+---
+
+### XOM REFERENCE (for context — no position held)
+- **July 10 close:** $138.88 | **July 9 close:** ~$137.46 | **Change July 9→10:** +1.03%
+- **Pre-market July 11:** ~$138.88 (flat vs prior close; no material overnight news)
+- **Most recent XOM news (July 10):** Wax market industry report — immaterial to thesis
+- **Energy sector note:** WTI $71.51, below $72 support mentioned in July 10 notes. Energy thesis from July 7 (geopolitical crude surge) has fully faded. 1515 notes explicitly say: "Do not re-enter OXY/COP/XOM without new geopolitical escalation."
+- **XOM earnings:** Still scheduled for July 31 — binary event risk horizon unchanged
+
+---
+
+### FLAGS
+| Ticker | Status | Pre-Mkt Price | Change% | Flag |
+|--------|--------|--------------|---------|------|
+| *(none)* | — | — | — | NO OVERNIGHT POSITIONS |
+
+---
+
+### ONE-LINE SUMMARY
+**0 positions on track, 0 flagged for immediate action. Account 100% cash. Full buying power (~$157 cap) available at open today as MU proceeds settle. Tech/AI sector (NVDA, META) was Friday's leader — monitor for continuation.**
 
 ---
 
