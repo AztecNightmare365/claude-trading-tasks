@@ -19,10 +19,9 @@ No pre-market data yet — agent runs weekdays at 9:15 AM ET.
 ---
 
 ## LEARNED INSIGHTS
-<!-- Updated by weekly review agent every Saturday. Read before every session. -->
+<!-- Updated by weekly review agent. Last updated: 2026-07-11. Insufficient data. -->
 
-No data yet — review agent runs Saturdays at 10 AM ET.
-
+Only 0 closed trades logged so far — need at least 5 for meaningful analysis. No rules yet; trade normally and the log will fill in.
 ---
 
 ## HANDOFF FROM LAST 3:15 PM SESSION
