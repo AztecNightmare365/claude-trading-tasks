@@ -185,9 +185,6 @@ Search "after hours earnings tonight [current date]" and "premarket catalyst tom
 Source E — Sector momentum check:
 Search "best performing sectors today [current date]" and identify the top 1-2 sectors. Pull relevant sector ETF tickers (XLK, XLV, XLE, XLF, XLI, XLC, etc.) and find individual stocks within the leading sectors that are closing strong.
 
-Source F — Unusual options flow (only if the unusual-whales MCP tools are available; skip silently if not connected):
-Query the unusual-whales flow feed for today's largest bullish call activity — sweeps and blocks with premium > $100k and volume > 5× the strike's open interest, especially flow expiring beyond this week (a sign of positioning for continuation, not a same-day gamble). Add tickers with strong bullish flow and TAG them "unusual_flow" for a scoring boost below.
-
 Combine everything into a master candidate list. For each candidate, fetch from Polygon: current price, change %, actual relative volume, VWAP, today's intraday low (for stop-loss reference), and closing price trend from 5-min bars in the last hour (is it closing strong or fading?).
 
 Then screen every candidate against all of the following:
@@ -214,7 +211,7 @@ Overnight-specific filters:
 
 For every candidate that passes all filters, do a brief news headline search ("[TICKER] stock news today") to confirm the catalyst is real and check for any negative counterweight stories.
 
-Score each qualifying candidate on: percentage gain + volume strength + catalyst quality + close strength + overnight risk profile. Add a scoring boost to any candidate TAGged "unusual_flow" from Source F — institutional call positioning into the close is a strong overnight-continuation signal. Rank and select up to 3 candidates. If no stock passes all filters, skip buying today and explain why.
+Score each qualifying candidate on: percentage gain + volume strength + catalyst quality + close strength + overnight risk profile. Rank and select up to 3 candidates. If no stock passes all filters, skip buying today and explain why.
 
 ---
 

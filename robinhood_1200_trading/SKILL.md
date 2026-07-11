@@ -100,9 +100,6 @@ Source C — Web searches (run in parallel):
 - "merger acquisition announced today [current date]"
 Extract every ticker mentioned and add any not already in Sources A/B.
 
-Source D — Unusual options flow (only if the unusual-whales MCP tools are available; skip silently if not connected):
-Query the unusual-whales flow feed for the largest bullish call activity in the last two hours — sweeps and blocks with premium > $100k and volume > 5× the strike's open interest. Add any tickers with strong bullish flow and TAG them "unusual_flow" for a scoring boost below.
-
 For each candidate, fetch from Polygon: current price, change %, actual relative volume, VWAP, 5-min bars since 10 AM open (to confirm sustained momentum, not a fading morning spike).
 
 Combine into a master candidate list. Screen every candidate against all of the following:
@@ -129,7 +126,7 @@ Midday-specific filters:
 
 For every candidate that passes all filters, do a brief news headline search ("[TICKER] stock news today") to confirm the catalyst and check for negative counterweight stories.
 
-Score each qualifying candidate on: percentage gain + volume pace + catalyst strength + price stability. Add a scoring boost to any candidate TAGged "unusual_flow" from Source D. Rank and select up to 2 candidates (be more conservative than the morning session — the best midday entries are rare). If no stock passes all filters, skip buying and explain why.
+Score each qualifying candidate on: percentage gain + volume pace + catalyst strength + price stability. Rank and select up to 2 candidates (be more conservative than the morning session — the best midday entries are rare). If no stock passes all filters, skip buying and explain why.
 
 ---
 

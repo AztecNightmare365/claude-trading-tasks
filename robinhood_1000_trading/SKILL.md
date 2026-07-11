@@ -165,9 +165,6 @@ Extract every ticker mentioned and add any not already in Sources A/B.
 Source D — Sector momentum via Polygon:
 Use Polygon to get the top-performing sector ETFs (XLK, XLV, XLE, XLF, XLI, XLC) by change % today. For the top 1-2 sectors, pull individual stocks from those sectors via Polygon's ticker screener filtered by sector. Add any not already in the master list.
 
-Source E — Unusual options flow (only if the unusual-whales MCP tools are available; skip silently if not connected):
-Query the unusual-whales flow feed for today's largest and most unusual bullish call activity — sweeps and blocks with premium > $100k and volume > 5× the strike's open interest. Institutional call buying often front-runs momentum by 30–60 minutes. Add any tickers with strong bullish flow to the master list, and TAG them as "unusual_flow" — these get a scoring boost below.
-
 Combine into a master candidate list. For each candidate, fetch from Polygon:
 - Current price, change % from prior close
 - Actual relative volume (vs 30-day average) — do not estimate
@@ -199,7 +196,7 @@ Morning-specific filters:
 
 For every candidate that passes all filters, do a brief news headline search ("[TICKER] stock news today") to confirm the catalyst and check for any negative counterweight stories.
 
-Score each qualifying candidate on: percentage gain + volume pace + catalyst strength + price stability since open. Add a scoring boost to any candidate TAGged "unusual_flow" from Source E — confirmed institutional call buying is a strong momentum signal. Rank and select up to 3 candidates. If no stock passes all filters, skip buying today and explain why.
+Score each qualifying candidate on: percentage gain + volume pace + catalyst strength + price stability since open. Rank and select up to 3 candidates. If no stock passes all filters, skip buying today and explain why.
 
 ---
 
