@@ -83,13 +83,6 @@ Retrieve current account state:
 - Any pending orders — cancel stale unfilled orders before proceeding
 - Note the broad market direction: check whether S&P 500 (SPY) and QQQ are up or down on the day so far
 
-PORTFOLIO SYNC — reconcile against the handoff before trusting it:
-Compare the LIVE Robinhood portfolio (source of truth) against the positions listed in the handoff block. The user frequently closes or opens positions manually between sessions, so the handoff may be stale.
-- Position in handoff but NOT in live portfolio → user sold it manually. Remove it from your working set. Note it: "[TICKER] closed manually since last session."
-- Position in live portfolio but NOT in handoff → user bought it manually. Add it to your working set with a conservative default stop (4% below current price) and treat its catalyst as unknown until you research it.
-- Share count or entry price differs → trust the live Robinhood values, not the handoff.
-Always trade against the live portfolio, never the handoff numbers, when they conflict.
-
 PORTFOLIO SYNC — reconcile before acting:
 Compare the ACTUAL Robinhood positions (from get_portfolio) against the positions listed in the handoff block you just read. The user frequently closes or opens positions manually between sessions, so the handoff may be stale.
 - If a position in the handoff is NOT in the actual portfolio: the user sold it manually. Note "USER CLOSED [TICKER] manually" and do not act on it. If you can determine the exit price from recent history, append it to trade_log.csv with exit_reason "user_manual".
