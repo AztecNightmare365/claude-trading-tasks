@@ -103,6 +103,13 @@ Retrieve current account state:
 - All open positions with entry price, current price, days held, and unrealized gain/loss %
 - Any pending orders — cancel stale unfilled limit orders from previous sessions before proceeding
 
+PORTFOLIO SYNC — reconcile against the handoff before trusting it:
+Compare the LIVE Robinhood portfolio (source of truth) against the positions in the handoff block. The user frequently opens or closes positions manually between sessions.
+- Position in handoff but NOT in live portfolio → user sold it manually. Remove it from your working set and note it.
+- Position in live portfolio but NOT in handoff → user bought it manually. Add it with a conservative default stop (5% below current price for an overnight hold); research its catalyst before deciding whether to hold it overnight.
+- Share count or entry price differs → trust the live Robinhood values.
+Always trade against the live portfolio, never the handoff numbers, when they conflict.
+
 ---
 
 STEP 2 — Evaluate existing positions for overnight hold or exit
@@ -144,6 +151,13 @@ After accounting for any planned sells from Step 2:
 
 Never use unsettled cash. Never let total invested positions exceed 75% of account value.
 
+MARKET REGIME GATE — check before opening new overnight positions:
+Use Polygon to get SPY's change % from prior close and how it is trending into the close.
+- If SPY is DOWN more than 1% on the day: risk-off regime. SKIP all new overnight buys (skip Steps 4 and 5, go to Step 6). Holding new longs overnight into a weak-market close carries elevated gap-down risk. Note "Market regime gate triggered — SPY down [X]%, no new overnight buys." You may still HOLD existing winners overnight if their individual thesis is strong.
+- If SPY is DOWN 0.5% to 1%: caution regime. You may open overnight positions but reduce sizes by 50% and require a strong, clearly-dated catalyst.
+- If SPY is flat or up: normal regime, proceed as usual.
+This gate does NOT affect sells — always honor stops and take-profits regardless of regime.
+
 ---
 
 STEP 4 — Find overnight momentum candidates
@@ -165,11 +179,14 @@ Source C — Web searches (run all in parallel):
 - "merger acquisition announced today [current date]"
 Extract every ticker mentioned and add any not already in Sources A/B.
 
-Source C — After-hours catalyst research:
+Source D — After-hours catalyst research:
 Search "after hours earnings tonight [current date]" and "premarket catalyst tomorrow [current date]". Flag any candidates from Source A/B that have a known post-close event that could drive overnight movement. Also note any Federal Reserve comments, economic data releases, or geopolitical news expected before tomorrow's open that could impact overnight sentiment broadly.
 
-Source D — Sector momentum check:
+Source E — Sector momentum check:
 Search "best performing sectors today [current date]" and identify the top 1-2 sectors. Pull relevant sector ETF tickers (XLK, XLV, XLE, XLF, XLI, XLC, etc.) and find individual stocks within the leading sectors that are closing strong.
+
+Source F — Unusual options flow (only if the unusual-whales MCP tools are available; skip silently if not connected):
+Query the unusual-whales flow feed for today's largest bullish call activity — sweeps and blocks with premium > $100k and volume > 5× the strike's open interest, especially flow expiring beyond this week (a sign of positioning for continuation, not a same-day gamble). Add tickers with strong bullish flow and TAG them "unusual_flow" for a scoring boost below.
 
 Combine everything into a master candidate list. For each candidate, fetch from Polygon: current price, change %, actual relative volume, VWAP, today's intraday low (for stop-loss reference), and closing price trend from 5-min bars in the last hour (is it closing strong or fading?).
 
@@ -197,7 +214,7 @@ Overnight-specific filters:
 
 For every candidate that passes all filters, do a brief news headline search ("[TICKER] stock news today") to confirm the catalyst is real and check for any negative counterweight stories.
 
-Score each qualifying candidate on: percentage gain + volume strength + catalyst quality + close strength + overnight risk profile. Rank and select up to 3 candidates. If no stock passes all filters, skip buying today and explain why.
+Score each qualifying candidate on: percentage gain + volume strength + catalyst quality + close strength + overnight risk profile. Add a scoring boost to any candidate TAGged "unusual_flow" from Source F — institutional call positioning into the close is a strong overnight-continuation signal. Rank and select up to 3 candidates. If no stock passes all filters, skip buying today and explain why.
 
 ---
 
@@ -227,6 +244,8 @@ Output a clean summary including:
 - Portfolio allocation after all orders: invested % vs cash %
 - Settled cash available for tomorrow morning
 - Brief overnight outlook: what to watch for before the 10:00 AM agent runs
+
+Then email this summary to yourself using the Gmail MCP tools. Send to aqmeyer123@gmail.com with subject "Robinhood 3:15 PM close — [DATE]". Body = the summary above in clean plain text. Lead with a one-line headline: end-of-day account value, day's total P&L, and what is being held overnight. Put any portfolio-sync or regime-gate flags at the top. This is the end-of-day wrap — make it the most complete of the day's emails.
 
 ---
 

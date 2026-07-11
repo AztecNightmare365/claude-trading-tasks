@@ -27,6 +27,13 @@ Retrieve current account state:
 - Any pending orders — cancel stale unfilled orders before proceeding
 - Broad market direction: check whether SPY and QQQ are up or down on the day and whether the trend has changed since the morning open
 
+PORTFOLIO SYNC — reconcile against the handoff before trusting it:
+Compare the LIVE Robinhood portfolio (source of truth) against the positions listed in the handoff block. The user frequently opens or closes positions manually between sessions.
+- Position in handoff but NOT in live portfolio → user sold it manually. Remove it from your working set and note it.
+- Position in live portfolio but NOT in handoff → user bought it manually. Add it with a conservative default stop (4% below current price); research its catalyst.
+- Share count or entry price differs → trust the live Robinhood values.
+Always trade against the live portfolio, never the handoff numbers, when they conflict.
+
 ---
 
 STEP 2 — Reassess open positions
@@ -67,6 +74,13 @@ After accounting for any planned sells from Step 2:
 
 Never use unsettled cash. Never let total invested positions exceed 75% of account value.
 
+MARKET REGIME GATE — check before buying:
+Use Polygon to get SPY's current change % from prior close.
+- If SPY is DOWN more than 1% on the day: risk-off regime. SKIP all new buys (skip Steps 4 and 5, go to Step 6). Note "Market regime gate triggered — SPY down [X]%, no new buys."
+- If SPY is DOWN 0.5% to 1%: caution regime. You may buy but reduce all position sizes by 50% and require a stronger-than-usual catalyst.
+- If SPY is flat or up: normal regime, proceed as usual.
+This gate does NOT affect sells or stop-trailing — always honor stops and take-profits regardless of regime.
+
 ---
 
 STEP 4 — Find midday momentum candidates
@@ -85,6 +99,9 @@ Source C — Web searches (run in parallel):
 - "FDA approval [current date]"
 - "merger acquisition announced today [current date]"
 Extract every ticker mentioned and add any not already in Sources A/B.
+
+Source D — Unusual options flow (only if the unusual-whales MCP tools are available; skip silently if not connected):
+Query the unusual-whales flow feed for the largest bullish call activity in the last two hours — sweeps and blocks with premium > $100k and volume > 5× the strike's open interest. Add any tickers with strong bullish flow and TAG them "unusual_flow" for a scoring boost below.
 
 For each candidate, fetch from Polygon: current price, change %, actual relative volume, VWAP, 5-min bars since 10 AM open (to confirm sustained momentum, not a fading morning spike).
 
@@ -112,7 +129,7 @@ Midday-specific filters:
 
 For every candidate that passes all filters, do a brief news headline search ("[TICKER] stock news today") to confirm the catalyst and check for negative counterweight stories.
 
-Score each qualifying candidate on: percentage gain + volume pace + catalyst strength + price stability. Rank and select up to 2 candidates (be more conservative than the morning session — the best midday entries are rare). If no stock passes all filters, skip buying and explain why.
+Score each qualifying candidate on: percentage gain + volume pace + catalyst strength + price stability. Add a scoring boost to any candidate TAGged "unusual_flow" from Source D. Rank and select up to 2 candidates (be more conservative than the morning session — the best midday entries are rare). If no stock passes all filters, skip buying and explain why.
 
 ---
 
@@ -142,6 +159,8 @@ Output a clean summary including:
 - Portfolio allocation after all orders: invested % vs cash %
 - Settled cash available
 - Broad market context at noon: SPY/QQQ direction and trend vs morning open
+
+Then email this summary to yourself using the Gmail MCP tools. Send to aqmeyer123@gmail.com with subject "Robinhood 12 PM session — [DATE]". Body = the summary above in clean plain text. Lead with a one-line headline: total account value, day's P&L so far, number of positions held, and any stops trailed. Put any portfolio-sync or regime-gate flags at the top.
 
 ---
 

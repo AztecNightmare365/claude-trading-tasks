@@ -68,3 +68,8 @@ git add robinhood_1000_trading/SKILL.md
 git commit -m "9:15 AM pre-market brief [DATE]"
 git push
 ```
+
+---
+
+STEP 6 — Email alert (only if a position is flagged)
+If any position is flagged STOP BREACH, TP BREACH, GAP DOWN WARNING, or THESIS BROKEN, email a heads-up to yourself via the Gmail MCP tools before the open. Send to aqmeyer123@gmail.com with subject "⚠ Robinhood pre-market alert — [DATE]". Body: the flagged positions with their pre-market price, flag, and one-line reason, plus what the 10 AM agent is expected to do. If everything is ON TRACK, do NOT send an email — no news is good news.

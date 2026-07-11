@@ -84,6 +84,19 @@ Retrieve current account state:
 - Any pending orders — cancel stale unfilled orders before proceeding
 - Note the broad market direction: check whether S&P 500 (SPY) and QQQ are up or down on the day so far
 
+PORTFOLIO SYNC — reconcile against the handoff before trusting it:
+Compare the LIVE Robinhood portfolio (source of truth) against the positions listed in the handoff block. The user frequently closes or opens positions manually between sessions, so the handoff may be stale.
+- Position in handoff but NOT in live portfolio → user sold it manually. Remove it from your working set. Note it: "[TICKER] closed manually since last session."
+- Position in live portfolio but NOT in handoff → user bought it manually. Add it to your working set with a conservative default stop (4% below current price) and treat its catalyst as unknown until you research it.
+- Share count or entry price differs → trust the live Robinhood values, not the handoff.
+Always trade against the live portfolio, never the handoff numbers, when they conflict.
+
+PORTFOLIO SYNC — reconcile before acting:
+Compare the ACTUAL Robinhood positions (from get_portfolio) against the positions listed in the handoff block you just read. The user frequently closes or opens positions manually between sessions, so the handoff may be stale.
+- If a position in the handoff is NOT in the actual portfolio: the user sold it manually. Note "USER CLOSED [TICKER] manually" and do not act on it. If you can determine the exit price from recent history, append it to trade_log.csv with exit_reason "user_manual".
+- If a position exists in the actual portfolio but is NOT in the handoff: the user bought it manually. Adopt it — get its current quote, estimate an entry (use user's average cost from portfolio), and manage it going forward. Note "ADOPTED user position [TICKER]".
+- The ACTUAL Robinhood portfolio is always the source of truth. Never place orders based on handoff data that contradicts the live portfolio.
+
 ---
 
 STEP 2 — Evaluate overnight positions
@@ -122,6 +135,13 @@ After accounting for any planned sells from Step 2:
 
 Never use unsettled cash. Never let total invested positions exceed 75% of account value.
 
+MARKET REGIME GATE — check before buying:
+Use Polygon to get SPY's current change % from prior close.
+- If SPY is DOWN more than 1% on the day: this is a risk-off regime. SKIP all new buys (skip Steps 4 and 5, go to Step 6). Momentum longs have a much lower win rate when the broad market is selling off. Note "Market regime gate triggered — SPY down [X]%, no new buys."
+- If SPY is DOWN 0.5% to 1%: caution regime. You may buy but reduce all position sizes by 50% and require a stronger-than-usual catalyst.
+- If SPY is flat or up: normal regime, proceed as usual.
+This gate does NOT affect sells — always honor stops and take-profits regardless of regime.
+
 ---
 
 STEP 4 — Find morning momentum candidates
@@ -144,6 +164,9 @@ Extract every ticker mentioned and add any not already in Sources A/B.
 
 Source D — Sector momentum via Polygon:
 Use Polygon to get the top-performing sector ETFs (XLK, XLV, XLE, XLF, XLI, XLC) by change % today. For the top 1-2 sectors, pull individual stocks from those sectors via Polygon's ticker screener filtered by sector. Add any not already in the master list.
+
+Source E — Unusual options flow (only if the unusual-whales MCP tools are available; skip silently if not connected):
+Query the unusual-whales flow feed for today's largest and most unusual bullish call activity — sweeps and blocks with premium > $100k and volume > 5× the strike's open interest. Institutional call buying often front-runs momentum by 30–60 minutes. Add any tickers with strong bullish flow to the master list, and TAG them as "unusual_flow" — these get a scoring boost below.
 
 Combine into a master candidate list. For each candidate, fetch from Polygon:
 - Current price, change % from prior close
@@ -176,7 +199,7 @@ Morning-specific filters:
 
 For every candidate that passes all filters, do a brief news headline search ("[TICKER] stock news today") to confirm the catalyst and check for any negative counterweight stories.
 
-Score each qualifying candidate on: percentage gain + volume pace + catalyst strength + price stability since open. Rank and select up to 3 candidates. If no stock passes all filters, skip buying today and explain why.
+Score each qualifying candidate on: percentage gain + volume pace + catalyst strength + price stability since open. Add a scoring boost to any candidate TAGged "unusual_flow" from Source E — confirmed institutional call buying is a strong momentum signal. Rank and select up to 3 candidates. If no stock passes all filters, skip buying today and explain why.
 
 ---
 
@@ -206,6 +229,8 @@ Output a clean summary including:
 - Portfolio allocation after all orders: invested % vs cash %
 - Settled cash available
 - Broad market context: SPY and QQQ direction, and whether it is helping or hurting positions today
+
+Then email this summary to yourself using the Gmail MCP tools. Send to aqmeyer123@gmail.com with subject "Robinhood 10 AM session — [DATE]". Body = the summary above, formatted cleanly in plain text. Lead with a one-line headline: total account value, day's P&L, and number of positions held. If the market regime gate or portfolio sync flagged anything notable, put it at the top.
 
 ---
 

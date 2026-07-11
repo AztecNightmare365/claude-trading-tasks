@@ -19,7 +19,9 @@ Check today's date. If today is Saturday, Sunday, or a US federal market holiday
 STEP 1 — Read current positions
 Read `robinhood_1515_trading/SKILL.md` from the cloned repo. Check the most recent handoff block (either `## HANDOFF FROM LAST 10 AM SESSION` — which may have been updated by the 12 PM agent or 1 PM monitor). Extract all open positions with stop-loss and take-profit targets.
 
-If there are no open positions, output "No open positions at 2 PM — no action needed." and stop.
+PORTFOLIO SYNC: Pull the LIVE Robinhood portfolio and treat it as the source of truth. If a handoff position is no longer in the live portfolio, the user closed it manually — drop it. If a live position is missing from the handoff, the user opened it manually — protect it with a 4% stop below current price until a real target is known. Trade against live holdings, not stale handoff numbers.
+
+If there are no open positions (live portfolio is empty of tradeable equities), output "No open positions at 2 PM — no action needed." and stop.
 
 ---
 
@@ -67,3 +69,8 @@ git add robinhood_1515_trading/SKILL.md trade_log.csv
 git commit -m "2 PM monitor [DATE]"
 git push
 ```
+
+---
+
+STEP 6 — Email alert (only if a sell was executed)
+If you placed any sell orders this session, email an alert to yourself via the Gmail MCP tools. Send to aqmeyer123@gmail.com with subject "⚠ Robinhood 2 PM stop triggered — [DATE]". Body: for each sold position — ticker, sell price, entry price, P&L %, and whether it was a stop-loss or take-profit. Keep it short. If no sells were placed, do NOT send any email — silence means all stops held.
