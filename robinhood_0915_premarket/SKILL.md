@@ -19,9 +19,11 @@ Check today's date. If today is Saturday or Sunday, stop immediately. If today i
 STEP 1 — Read current overnight positions
 Read `robinhood_1000_trading/SKILL.md` from the cloned repo. Extract the `## HANDOFF FROM LAST 3:15 PM SESSION` block — this contains all positions held overnight with entry prices, stop-loss targets, take-profit targets, and theses.
 
-If the block says no positions held overnight, write a brief that says "No overnight positions — no pre-market action needed." and stop.
+If the block says no positions held overnight, still write the `## PRE-MARKET BRIEF` block (Step 5) with "No overnight positions — no pre-market action needed." and complete the commit/push. Do NOT stop before pushing — the brief must always be written and pushed so downstream agents and the user see a fresh timestamp.
 
 ---
+
+IMPORTANT — never hang: If any Polygon or web-search call errors, times out, or returns nothing, do NOT retry indefinitely and do NOT stall. Note "Polygon unavailable" (or "news lookup failed") for that item in the brief and continue. You must always reach Step 5 and push a brief — a diagnostic brief noting a tool failure is far better than a silent hang.
 
 STEP 2 — Get pre-market quotes via Polygon
 For each overnight position, use Polygon to fetch pre-market data:
