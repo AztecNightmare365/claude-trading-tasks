@@ -110,6 +110,8 @@ NOTES FOR 3:15 PM AGENT (July 13, 2026):
 - **USER OVERRIDE PATTERN**: User has manually closed multiple agent positions (XOM, OXY, COP, MU). Agents should still place best-thesis positions.
 - **POLYGON API BROKEN ALL DAY**: Aggregates endpoint returning "invalid API key" — VWAP and 5-min bars unavailable. Verify volume via Robinhood get_equity_fundamentals: use volume / average_volume_2_weeks, adjusted for percent of trading day elapsed. At 3:15 PM (~95% through day), use near-raw volume / average_volume directly.
 
+1 PM monitor: all stops intact as of 1:00 PM ET.
+
 ---
 PRE-CHECK — Market day verification
 Before doing anything else, check today's date. If today is Saturday or Sunday, output "Market closed — weekend. No action taken." and stop immediately. Do not proceed to Step 1.
