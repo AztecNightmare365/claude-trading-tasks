@@ -49,7 +49,7 @@ Notes for 10:00 AM agent (June 25, 2026):
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. -->
 
-Last updated: 2026-07-13 (~12:06 PM ET — 12 PM reassessment complete)
+Last updated: 2026-07-13 (~2:05 PM ET — 2 PM monitor complete)
 
 Open positions: NONE. Account is 100% cash.
 
@@ -111,6 +111,25 @@ NOTES FOR 3:15 PM AGENT (July 13, 2026):
 - **POLYGON API BROKEN ALL DAY**: Aggregates endpoint returning "invalid API key" — VWAP and 5-min bars unavailable. Verify volume via Robinhood get_equity_fundamentals: use volume / average_volume_2_weeks, adjusted for percent of trading day elapsed. At 3:15 PM (~95% through day), use near-raw volume / average_volume directly.
 
 1 PM monitor: all stops intact as of 1:00 PM ET.
+
+---
+
+## 2 PM MONITOR NOTE (2026-07-13 ~2:05 PM ET)
+
+No open positions — no stop-loss or take-profit checks required. No sells executed.
+
+**NEAR STOP flags**: None (no positions)
+**NEAR TP flags**: None (no positions)
+
+**Broad market direction at 2 PM ET:**
+- SPY: $749.62 → **−0.71%** (caution zone; trending progressively worse: −0.31% at 10 AM → −0.50% at 12 PM → −0.71% now)
+- QQQ: $712.60 → **−1.78%** (deep in risk-off territory; tech weakness accelerating)
+
+**⚠️ REGIME WARNING FOR 3:15 PM AGENT**: SPY has been steadily sliding all day and is now at −0.71% with 75 minutes left. If this trend continues at even half the same pace, SPY could reach −1% or below by 3:15 PM, which triggers the regime gate (no new overnight buys). CHECK SPY FIRST before any buy decisions. QQQ at −1.78% confirms broad risk-off sentiment.
+
+**Energy sector**: Iran/Hormuz catalyst still active at 2 PM (no de-escalation news). Volume confirmation remains the key unknown — check energy fundamentals volume at 3:15 PM as the primary gating criterion.
+
+**No news to flag since 12 PM** (no sells executed, no new positions to monitor).
 
 ---
 PRE-CHECK — Market day verification
