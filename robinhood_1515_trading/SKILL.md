@@ -49,45 +49,56 @@ Notes for 10:00 AM agent (June 25, 2026):
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. -->
 
-Last updated: 2026-07-10 (~4:15 PM ET — 10 AM session ran late; 12 PM agent also ran late at ~4:08 PM)
+Last updated: 2026-07-13 (~10:25 AM ET — 10 AM session complete)
 
 Open positions: NONE. Account is 100% cash.
 
-Settled cash / buying power: $114.82
-Unsettled: $94.71 (MU sold by user 9:44 AM today, settles July 11)
+Settled cash / buying power: $209.53
+Unsettled: $0
 Total account value: $209.53
 Portfolio invested: 0% (100% cash)
-
-All buying power ($114.82 + $94.71 = $209.53) available Monday July 14. 75% cap = ~$157 max invested.
-
----
-
-WHAT HAPPENED (July 8–10 summary):
-- July 8 10 AM: Agent bought OXY ($54) + COP ($54) on Iran ceasefire collapse / oil surge. XOM sold by user at open (+0.19%).
-- July 9: USER manually sold OXY @ $52.365 (−1.89%) and COP @ $108.68 (−1.75%) before any agent session ran. Same session, user bought MU @ $1,019.56 ($100) into an earnings-driven surge.
-- July 10 9:44 AM: USER sold MU @ $965.58 (−5.3%, −$5.29). MU recovered to $979 by close — sold near session low.
-- Net P&L this week: approximately −$7 (from ~$217 to $209.53).
+75% cap → max investable: ~$157.15
 
 ---
 
-CANDIDATES SCREENED TODAY (full-day data, not actionable — for Monday watchlist):
+WHAT HAPPENED (10 AM session July 13, 2026):
 
-- **NVDA**: +4.03% ($202.78 → $210.96). Dual catalyst: Kyber chip delay DENIED (removes bear overhang) + Goldman "compelling" call at 21.7× forward P/E. Chip/AI sector leading Friday. No binary events expected next week. Earnings not until August. **Top conviction monitor for Monday.**
-- **META**: +5.99% on day. AI Compute Cloud + in-house "Iris" chip + $9.1B Canada datacenter announcement. Strong multi-pronged catalyst, mega-cap liquidity. (Per 12 PM agent screening.)
-- **CRCL**: +4.99%. OCC national trust bank approval, but Compass Point cut PT to $55 on Stripe stablecoin competition — choppier setup. (Per 12 PM agent.)
-- **STX**: +2.32% — Wells Fargo upgrade Equal→OW, PT $900→$1,100. Below 3% filter, but strong upgrade thesis.
-- **TWLO, SHOP, JBHT, TOL**: upgrades today but all CLOSED DOWN — upgrades were absorbed by sellers. Avoid Monday unless fresh catalyst.
+- No overnight positions to evaluate (account was 100% cash at session start).
+- Screened for morning momentum buys. Top candidates: MPC (+3.82%), TPL (+3.80%) on energy sector rally (WTI +4% from Iran-US military escalation, Strait of Hormuz closure threat).
+- BOTH FAILED relative volume filter: MPC rel_vol 0.14x, TPL rel_vol 0.14x (required ≥1.5x). Polygon aggregates API unavailable (invalid key). VWAP unconfirmable. NO BUYS PLACED.
+- Polygon API note: aggregates endpoint returning "invalid API key" — all 5-min bars and VWAP data unavailable. The 3:15 PM agent should be aware.
 
 ---
 
-NOTES FOR 3:15 PM AGENT (Monday July 14, 2026):
+ENERGY SECTOR IS TODAY'S LEADER:
 
-- **ENERGY THESIS FADING**: Iran reaching out to negotiate; WTI slipped under $72, Brent ~$76. Do not re-enter OXY/COP/XOM without new geopolitical escalation.
-- **TECH/AI SECTOR LEADING**: XLK +1.2% Friday, chip rebound from Thursday. NVDA and META are the Monday watchlist leaders.
-- **$800 DEPOSIT UNCONFIRMED**: Account has held at ~$209 since start. Verify via get_portfolio Monday before sizing. If cleared, max invest scales to ~$762.
-- **USER OVERRIDE PATTERN**: User has manually closed agent positions early on multiple occasions (XOM, OXY, COP, MU). Positions are being cut before stops trigger. Agent should still place best-thesis holds; be aware user may exit them.
-- **MU LESSON**: Do not buy into same-day earnings catalyst surges at 3 PM. If a stock surged on earnings today, evaluate it fresh at 10 AM next morning to confirm continuation vs exhaustion.
-- **BROAD MARKET**: SPY +0.42%, QQQ +0.31% Friday. Mild bull. Weekend holds not applicable (no positions).
+- XLE: +2.01%, XLK: −1.67%, QQQ: −1.40%, SPY: −0.31%
+- WTI crude +4% today. US-Iran military escalation: US carried out 4th strike against Iran in a week. Iran threatened Strait of Hormuz closure "until further notice." This is the active catalyst — NEW development today, not stale.
+- Top energy movers at 10 AM: MPC +3.82%, TPL +3.80%, EOG +2.55%, HAL +2.56%, FANG +2.47%, XOM +2.55%, COP +2.05%, VLO +2.99%, PSX +2.91%
+- All energy moves are broad sector rotation with LOW intraday volume — not individual-stock breakouts with elevated volume.
+- MPC earnings: August 4 (safe). TPL earnings: ~August 5 (safe). No binary event risk for energy names this week.
+
+---
+
+TECH/MEMORY SECTOR CRASH TODAY:
+
+- AMD: −3.74%, MU: −5.03% ("Memory Stock Mayhem" — SK Hynix debut week effect)
+- NVDA: −0.72%, META: −0.89%, QQQ: −1.40%
+- Friday's top conviction picks (NVDA, META) both DOWN today — thesis from July 10 handoff reversed.
+- **DO NOT chase tech/AI names today without fresh catalyst and volume confirmation.**
+
+---
+
+NOTES FOR 3:15 PM AGENT (July 13, 2026):
+
+- **ENERGY IS THE ONLY LIVE SECTOR**: If energy stocks maintain gains through the day with increasing volume into close, MPC/TPL/EOG/FANG are the strongest candidates for overnight hold. Verify relative volume at 3:15 PM — if it has reached 1.5x+, the buy case is valid. If still low volume, skip overnight hold in energy.
+- **IRAN-HORMUZ CATALYST**: The Strait of Hormuz closure threat is the dominant macro story today. Expect overnight oil price volatility. Energy longs have a strong binary risk profile — if Iran de-escalates, energy gaps down hard at open. Size accordingly.
+- **WFC EARNINGS TOMORROW**: Wells Fargo Q2 pre-market Tuesday July 14. AVOID all financials for overnight holds. XLF +0.35% today but this is a one-day trade, not overnight.
+- **MARKET REGIME GATE WARNING**: QQQ −1.40% at 10 AM. If QQQ continues lower into close, SPY may breach the 3:15 PM gate threshold (SPY was −0.31% at 10 AM). Check SPY near-close before buying any overnight positions.
+- **HAWKISH FED**: Fed Chair Warsh "prices are too high" — 52% probability of rate hike September 2026. Headwind for growth/tech stocks. Favorable context for energy (hard assets) and financials (rate spread), but WFC earnings tomorrow limits financials exposure.
+- **BUYING POWER**: Full $209.53 settled. Max invest = $157.15 (75% cap). No unsettled proceeds.
+- **USER OVERRIDE PATTERN**: User has manually closed multiple agent positions (XOM, OXY, COP, MU). Remains possible. Agent should still place best-thesis holds.
+- **SPY REGIME AT 10 AM**: −0.31% (normal regime, gate not triggered at 10 AM). Re-verify at 3:15 PM.
 
 ---
 PRE-CHECK — Market day verification
