@@ -49,56 +49,66 @@ Notes for 10:00 AM agent (June 25, 2026):
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. -->
 
-Last updated: 2026-07-13 (~10:25 AM ET — 10 AM session complete)
+Last updated: 2026-07-13 (~12:06 PM ET — 12 PM reassessment complete)
 
 Open positions: NONE. Account is 100% cash.
 
-Settled cash / buying power: $209.53
+⚠️ PORTFOLIO SYNC: Live account shows $825.74 vs handoff's $209.53 — user deposited ~$616.21 between sessions. All figures reflect live Robinhood values.
+
+Settled cash / buying power: $825.74
 Unsettled: $0
-Total account value: $209.53
+Total account value: $825.74
 Portfolio invested: 0% (100% cash)
-75% cap → max investable: ~$157.15
+75% cap → max investable: $619.31
 
 ---
 
-WHAT HAPPENED (10 AM session July 13, 2026):
+WHAT HAPPENED (12 PM reassessment, July 13, 2026):
 
-- No overnight positions to evaluate (account was 100% cash at session start).
-- Screened for morning momentum buys. Top candidates: MPC (+3.82%), TPL (+3.80%) on energy sector rally (WTI +4% from Iran-US military escalation, Strait of Hormuz closure threat).
-- BOTH FAILED relative volume filter: MPC rel_vol 0.14x, TPL rel_vol 0.14x (required ≥1.5x). Polygon aggregates API unavailable (invalid key). VWAP unconfirmable. NO BUYS PLACED.
-- Polygon API note: aggregates endpoint returning "invalid API key" — all 5-min bars and VWAP data unavailable. The 3:15 PM agent should be aware.
-
----
-
-ENERGY SECTOR IS TODAY'S LEADER:
-
-- XLE: +2.01%, XLK: −1.67%, QQQ: −1.40%, SPY: −0.31%
-- WTI crude +4% today. US-Iran military escalation: US carried out 4th strike against Iran in a week. Iran threatened Strait of Hormuz closure "until further notice." This is the active catalyst — NEW development today, not stale.
-- Top energy movers at 10 AM: MPC +3.82%, TPL +3.80%, EOG +2.55%, HAL +2.56%, FANG +2.47%, XOM +2.55%, COP +2.05%, VLO +2.99%, PSX +2.91%
-- All energy moves are broad sector rotation with LOW intraday volume — not individual-stock breakouts with elevated volume.
-- MPC earnings: August 4 (safe). TPL earnings: ~August 5 (safe). No binary event risk for energy names this week.
+- No positions to reassess (account was 100% cash from 10 AM session).
+- Screened for midday momentum buys. Energy sector leads: MPC (+4.01%), VLO (+4.06%), XOM (+3.58%), PSX (+3.40%), TPL (+3.39%), EOG (+3.15%), FANG (+3.06%), HAL (+3.01%).
+- ALL ENERGY STOCKS FAILED relative volume filter: adjusted midday volumes range 0.42x (TPL) to 0.72x (XOM). Required ≥1.5x. Same low-volume pattern as 10 AM session.
+- Polygon aggregates API still returning "invalid API key" — VWAP and 5-min bars unconfirmable.
+- Market regime: SPY −0.50% at 12 PM (caution zone, worsened from −0.31% at 10 AM). QQQ −1.45%.
+- NO BUYS PLACED.
 
 ---
 
-TECH/MEMORY SECTOR CRASH TODAY:
+ENERGY SECTOR STATUS AT 12 PM:
 
-- AMD: −3.74%, MU: −5.03% ("Memory Stock Mayhem" — SK Hynix debut week effect)
-- NVDA: −0.72%, META: −0.89%, QQQ: −1.40%
-- Friday's top conviction picks (NVDA, META) both DOWN today — thesis from July 10 handoff reversed.
-- **DO NOT chase tech/AI names today without fresh catalyst and volume confirmation.**
+- WTI crude ~$74/bbl (+3%). US-Iran escalation ongoing: new US strikes, Iran Hormuz closure threat remains active.
+- All energy names near day highs. MPC, VLO, PSX all at 52-WEEK HIGHS today.
+- Volume critically low across all energy names (0.42x-0.72x adjusted vs 1.5x required).
+- Catalyst is real and escalating, but no institutional volume confirmation.
+- Top energy prices at 12 PM: MPC $295.13, VLO $292.07, XOM $143.86, PSX $194.76, EOG $138.32, TPL $411.30, FANG $189.00, HAL $35.43.
+
+---
+
+TECH/MARKET STATUS AT 12 PM:
+
+- QQQ: −1.45%, AMD: −3.74%, MU: −5.03% (memory stock mayhem, SK Hynix debut effect continues)
+- NVDA: −2.40% (pushed back on Kyber delay, management says schedule intact — but stock still down)
+- SPY: −0.50% (caution regime, trending worse since 10 AM's −0.31%)
 
 ---
 
 NOTES FOR 3:15 PM AGENT (July 13, 2026):
 
-- **ENERGY IS THE ONLY LIVE SECTOR**: If energy stocks maintain gains through the day with increasing volume into close, MPC/TPL/EOG/FANG are the strongest candidates for overnight hold. Verify relative volume at 3:15 PM — if it has reached 1.5x+, the buy case is valid. If still low volume, skip overnight hold in energy.
-- **IRAN-HORMUZ CATALYST**: The Strait of Hormuz closure threat is the dominant macro story today. Expect overnight oil price volatility. Energy longs have a strong binary risk profile — if Iran de-escalates, energy gaps down hard at open. Size accordingly.
-- **WFC EARNINGS TOMORROW**: Wells Fargo Q2 pre-market Tuesday July 14. AVOID all financials for overnight holds. XLF +0.35% today but this is a one-day trade, not overnight.
-- **MARKET REGIME GATE WARNING**: QQQ −1.40% at 10 AM. If QQQ continues lower into close, SPY may breach the 3:15 PM gate threshold (SPY was −0.31% at 10 AM). Check SPY near-close before buying any overnight positions.
-- **HAWKISH FED**: Fed Chair Warsh "prices are too high" — 52% probability of rate hike September 2026. Headwind for growth/tech stocks. Favorable context for energy (hard assets) and financials (rate spread), but WFC earnings tomorrow limits financials exposure.
-- **BUYING POWER**: Full $209.53 settled. Max invest = $157.15 (75% cap). No unsettled proceeds.
-- **USER OVERRIDE PATTERN**: User has manually closed multiple agent positions (XOM, OXY, COP, MU). Remains possible. Agent should still place best-thesis holds.
-- **SPY REGIME AT 10 AM**: −0.31% (normal regime, gate not triggered at 10 AM). Re-verify at 3:15 PM.
+- **VOLUME IS THE GATEKEEPER**: Energy gains are confirmed and catalyst (Iran/Hormuz) is active. The ONLY missing piece is volume. Re-check at 3:15 PM with fresh Robinhood fundamentals volume vs average. If adjusted relative volume reaches 1.5x+, energy names are valid overnight candidates.
+  - MPC $295.13 (+4.01%): 52-wk high, oil refining, mkt cap $86B, earnings Aug 4 (safe)
+  - VLO $292.07 (+4.06%): 52-wk high, oil refining, mkt cap $87B, safe from earnings
+  - PSX $194.76 (+3.40%): 52-wk high, oil refining/midstream, mkt cap $78B, safe
+  - XOM $143.86 (+3.58%): large-cap $596B, best-adjusted volume today (0.72x), integrated oil
+  - EOG $138.32 (+3.15%): E&P, mkt cap $74B — NOTE: ex-div July 17, 4 days away
+  - FANG $189.00 (+3.06%): Permian E&P, mkt cap $53B
+  - HAL $35.43 (+3.01%): oilfield services, mkt cap $30B
+- **IRAN-HORMUZ BINARY RISK**: Overnight hold in energy carries real gap-down risk if Iran de-escalates. Size stops at 4-5% below entry (hard cap per SKILL). Each $3 risk cap per position applies.
+- **MARKET REGIME AT 12 PM**: SPY −0.50% (caution zone — worsening from 10 AM). If SPY hits −1% or worse at 3:15 PM, regime gate triggers: no new overnight buys. Check this FIRST.
+- **WFC EARNINGS TOMORROW**: Wells Fargo Q2 pre-market Tuesday July 14. AVOID all financials overnight.
+- **HAWKISH FED**: Fed Chair Warsh "prices are too high" — 52% rate hike probability September 2026. Headwind for growth/tech. Favorable for energy (hard assets).
+- **BUYING POWER**: $825.74 settled (user deposited ~$616.21 since 10 AM). Max invest = $619.31 (75% cap). No unsettled proceeds.
+- **USER OVERRIDE PATTERN**: User has manually closed multiple agent positions (XOM, OXY, COP, MU). Agents should still place best-thesis positions.
+- **POLYGON API BROKEN ALL DAY**: Aggregates endpoint returning "invalid API key" — VWAP and 5-min bars unavailable. Verify volume via Robinhood get_equity_fundamentals: use volume / average_volume_2_weeks, adjusted for percent of trading day elapsed. At 3:15 PM (~95% through day), use near-raw volume / average_volume directly.
 
 ---
 PRE-CHECK — Market day verification
