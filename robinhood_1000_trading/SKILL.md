@@ -67,45 +67,75 @@ Only 0 closed trades logged so far — need at least 5 for meaningful analysis. 
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-Last updated: 2026-07-07 (~7:19 PM ET — 3:15 PM session complete)
+Last updated: 2026-07-13 (~3:20 PM ET — 3:15 PM session complete)
 
-Open positions held overnight (1 total):
+Open positions held overnight: NONE. Account is 100% cash.
 
-- XOM: 0.568363 shares, entry $140.76, current $141.35, stop-loss $136.52, take-profit $153.49
-  vs entry: +0.42% | Overnight flag: YES
-  Thesis: Energy sector tailwind from geopolitical crude price surge. Q2 2026 earnings July 31 (later this month) expected 3× Q1 profit. Corporate redomiciliation completed July 1. No earnings tonight; no binary events. Closed strong into bell (+3.59% on day).
+Settled cash: $825.74
+Unsettled: $0
+Total account value: $825.74
+Portfolio invested: 0% (100% cash)
+75% cap → max investable: $619.31
 
-Sells executed at 3:15 PM (1 total, pending settlement):
+---
 
-- JNJ: 0.372239 shares sold at market ~$267.04
-  Reason: Hard leverage cap enforcement. Portfolio was 82.8% invested (75% cap violated). JNJ also carries earnings binary risk July 15 (8 days); position underwater -0.60% from entry ($268.64).
-  Expected proceeds: ~$99.33 (settles Wednesday July 8)
+WHAT HAPPENED (3:15 PM session, July 13, 2026):
 
-Settled cash remaining: ~$37.23 (at 3:15 PM close)
-Unsettled (settles July 8): ~$99.33 (JNJ sale)
-Total account value: ~$217
-Portfolio invested: ~37% (XOM only = $80.39 of $217)
+No positions to sell (account was 100% cash). No buys placed.
 
-Notes for 10:00 AM agent (July 8, 2026):
+Market regime at 3:15 PM:
+- SPY: $749.28 vs $754.95 prev close = -0.75% → CAUTION REGIME (50% size reduction required)
+- QQQ: $711.68 vs $725.51 = -1.91% (deep risk-off; tech selloff accelerated all day)
 
-- **XOM ENERGY THESIS INTACT**: Geopolitical crude tailwind that drove +3.59% close on July 7 likely to persist into overnight/premarket. Oil-sensitive energy stocks (XLE sector) rallied hard. No adverse overnight news expected; no binary earnings tonight. Sector momentum tail is active.
+Energy sector candidates (Iran-Hormuz catalyst): All names up 4-5%+ but ALL failed relative volume filter for the 3rd consecutive session (10 AM, 12 PM, 3:15 PM):
+- MPC: +5.01% | vol/avg2wk = 0.54x — FAIL (needs 1.5x)
+- VLO: +5.45% | 0.51x — FAIL
+- PSX: +5.30% | 0.59x — FAIL
+- XOM: +4.28% | 0.60x — FAIL
+- EOG: +4.38% | 0.42x — FAIL (also ex-div July 17)
+- FANG: +4.99% | 0.56x — FAIL
+- HAL: +2.91% — FAIL (below 3% threshold)
+- XLE (ETF): +3.22% | 1.14x — FAIL
 
-- **LEVERAGE FIXED**: Removed JNJ to comply with 75% cap. XOM alone is 37% invested, well under limit. Plenty of dry powder (~$82 in buying power) available for 10 AM momentum plays if opportunities surface.
+BIIB (Biogen): +4.84% on Truist upgrade to Buy (PT $235 from $190). HARD DISQUALIFIER: AAIC conference (London, July 13-15) presenting phase-2 Diranersen data (BIIB080, anti-tau Alzheimer's) — binary clinical readout risk. Also failed volume filter (0.88x). NOT traded.
 
-- **JNJ EXIT RATIONALE**: Despite positive clinical data (JAMA Neurology MEMBRANE trial), earnings July 15 creates 8-day binary event risk. Stock was down -0.60% from entry with no clear intraday momentum to justify overnight hold vs. compliance constraint. Clean exit at market.
+NO BUYS PLACED. Zero trades executed in this session.
 
-- **CASH SETTLEMENT TIMING**: JNJ proceeds ($99.33) settle July 8 (Wednesday, 10 AM). Full settled cash tomorrow will be ~$137 ($37.23 + $99.33), opening up $82+ for midday buys if sector momentum continues or new catalysts emerge.
+---
 
-- **SEMICONDUCTOR REVERSAL WATCH**: Late-day reversal in chip stocks (LRCX -8.65%, AMAT -8.26%, TER -12.11% despite earlier PT hikes) suggests profit-taking. Unrelated to XOM energy play but noteworthy for portfolio diversification if adding positions tomorrow.
+⚠️ CRITICAL OVERNIGHT CONTEXT — IRAN-HORMUZ ACTIVE MILITARY CONFLICT:
 
-- **USER DEPOSIT STATUS**: $800 arriving Tuesday July 8 morning (per prior note). Check settled cash at 10 AM Wednesday — deposit may or may not have cleared. If cleared, account scales from ~$217 to ~$1,017. Position sizing scales; 75% cap still applies.
+This has ESCALATED from a threat to active combat as of late July 13:
+- US launched 4th wave of strikes on Iran (first use of one-way drones at sea)
+- Iran struck US military bases in Bahrain, Kuwait, Oman, and Jordan
+- Iran declared Strait of Hormuz passage "not possible"
+- Strait crossings: 18-22/day normal → 6 vessels (sharp decline)
+- Brent crude +4.14% at $79.16/bbl; WTI +2.97% at $74.38/bbl
+- A ceasefire was attempted and "disintegrated" (CNN headline July 13)
+- Trump announced reinstatement of Iranian ship blockade
 
-Expected July 8 10:00 AM:
-- **XOM**: Monitor for gap-up on continued oil/geopolitical tailwind. Stop $136.52 is 3.68% below current. TP $153.49 is 8.61% above (healthy 1:2 risk/reward). If oil prices drop sharply overnight (OPEC reversal news), check for gap-down below stop. Otherwise expect to hold through close for overnight continuation.
-- **CASH MANAGEMENT**: $37.23 settled + $99.33 incoming (if JNJ fill confirmed) = ~$136.56 settled cash. 75% cap headroom ~$82. Conservative: wait for 10 AM open data before adding. Aggressive: hunt 2-3 gap-up plays from overnight energy/oil sector strength.
-- **DEPOSIT STATUS**: Confirm $800 arrival. If landed, cash rises to ~$936 (before JNJ settlement), max 75% position cap becomes ~$762 (plenty of room). Do not assume it's cleared — verify through get_portfolio first.
+Energy stocks failed volume filter (0.42x-0.60x) despite strong gains — suggesting institutional hesitation or options-driven demand. Gap risk at 10 AM is high in BOTH directions.
 
-High conviction hold: XOM (geopolitical tailwind intact, sector momentum, earnings safety window, closed strong).
+---
+
+NOTES FOR 10:00 AM AGENT (July 14, 2026):
+
+1. **CHECK IRAN NEWS FIRST**: Verify conflict status before any decisions. If active conflict continues → energy likely gap-up, check volumes. If ceasefire/de-escalation → energy likely gap-down, avoid sector.
+
+2. **WFC EARNINGS PRE-MARKET (TODAY JULY 14)**: Wells Fargo Q2 results due before today's open. Check WFC reaction; avoid ALL financials until sector tone is clear.
+
+3. **ENERGY VOLUME GATEKEEPER**: Iran catalyst is real but volume must reach 1.5x avg for entry. Required volumes (2-week avg):
+   - MPC (avg 2,466,033): needs ≥3,699,050 vol by 10 AM
+   - VLO (avg 3,124,859): needs ≥4,687,289
+   - PSX (avg 2,733,478): needs ≥4,100,217
+   - XOM (avg 16,032,038): needs ≥24,048,057 (most likely, was 0.60x yesterday)
+   - FANG (avg 2,444,031): needs ≥3,666,047
+
+4. **BIIB AAIC BINARY RISK**: Biogen may present phase-2 Diranersen (BIIB080) data at AAIC conference overnight/pre-market. Positive data → gap up 10-15%. Negative → gap down 15-20%. Do NOT chase pre-market. At 10 AM, if data positive and stock holding gains with volume ≥1.5x avg, may qualify. Current: $208.79, PT $235.
+
+5. **REGIME CHECK**: SPY ended at -0.75% (caution zone). Check SPY pre-market and at 10 AM. SPY < -1% triggers regime gate (no new buys).
+
+6. **BUYING POWER**: $825.74 fully settled cash. 75% cap → max investable $619.31. No unsettled proceeds.
 
 ---
 
