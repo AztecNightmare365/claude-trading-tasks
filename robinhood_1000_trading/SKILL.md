@@ -14,34 +14,47 @@ Execute all steps in order, then place all orders simultaneously.
 ## PRE-MARKET BRIEF
 <!-- Updated by the 9:15 AM pre-market agent. Read before Step 1. -->
 
-**Generated: 2026-07-13 ~9:15 AM ET**
+**Generated: 2026-07-14 ~9:15 AM ET**
 
 ---
 
 ### OVERNIGHT POSITIONS: NONE
 
-No positions held overnight. Account is **100% cash** ($209.53 total value, $209.53 buying power confirmed via Robinhood). No stops to breach, no take-profits to trigger.
+No positions held overnight. Account is **100% cash** ($825.74 total value). No stops to breach, no take-profits to trigger.
 
-> **Settlement confirmed**: MU proceeds (~$94.71) sold July 10 (Friday, T+1) settled today July 13 (Monday). Full buying power $209.53 available. 75% cap → max investable **~$157**.
+> **Buying power**: $825.74 fully settled. 75% cap → max investable **$619.31**.
 
 ---
 
-### MACRO CONTEXT (pre-market July 13, 2026)
+### MACRO CONTEXT (pre-market July 14, 2026)
 
-| Index/Stock | Prev Close | Pre-Mkt Price | Change% |
-|-------------|-----------|--------------|---------|
-| SPY | $754.95 | ~$752.54 | **-0.32%** |
-| QQQ | $725.51 | ~$717.60 | **-1.09%** |
-| NVDA | $210.96 | ~$207.88 | **-1.46%** |
-| META | $669.21 | ~$662.87 | **-0.95%** |
+| Index | July 13 Close | Pre-Mkt Price | Change% vs Jul 13 |
+|-------|--------------|--------------|-------------------|
+| SPY | $749.17 | ~$751.49 | **+0.31%** |
+| QQQ | $711.74 | ~$720.23 | **+1.19%** |
+| Brent Crude | ~$83.00 est | ~$87.00 | **+4.8%** |
+| WTI Crude | ~$78.00 est | ~$81.00 | **+3.6%** |
 
-- **QQQ gap-down -1.09%**: Nasdaq/tech starting the week under notable pressure. NVDA and META (Friday's top watchlist names from 1515 handoff) both down 1–1.5% pre-market. Broad tech sector weakness to start the week.
-- **SPY gap-down -0.32%**: Mild broad market pullback — not yet at the 1% regime-gate threshold but trending lower.
-- **10 AM Market Regime Gate note**: SPY must be down >1% at 10 AM to trigger the buy-skip gate. Pre-market SPY is -0.32%; could recover or worsen by open. QQQ -1.09% warns that tech specifically is soft. Verify SPY % at 10 AM before any new buys.
-- **WFC earnings TOMORROW (Tuesday July 14, pre-market)**: Wells Fargo Q2 report due tomorrow morning. Financial sector could see volatility; avoid financials for overnight holds today.
-- **SPCX (SpaceX) down 4.51%**: AI infrastructure/valuation concerns noted in pre-market news. Bearish tone on high-multiple AI names.
-- **No major overnight macro shock**: No Fed surprise, no geopolitical escalation, no surprise economic data release.
-- **From 1515 handoff watchlist**: NVDA and META were top Monday conviction picks — both gapping down pre-market. Re-evaluate at 10 AM open (30 min into trading) whether they recover or continue lower.
+---
+
+### KEY OVERNIGHT DEVELOPMENTS — READ CAREFULLY
+
+**1. ⚠️ IRAN-HORMUZ CEASEFIRE COLLAPSED — BLOCKADE RESTARTS 4 PM ET TODAY**
+The US-Iran ceasefire (agreed ~June 17) has definitively broken down overnight. Iran's Revolutionary Guard struck two supertankers in the Strait of Hormuz. The US announced it will reinstate its full naval blockade of Iranian ports at **4 PM ET today (July 14)** and impose a 20% fee on all Strait cargo. Brent crude surged +4.8% to ~$87/bbl (highest since June 12); WTI +3.6% to ~$81/bbl. **This is the day energy stocks may finally clear the 1.5x volume filter** — the catalyst is now sharply binary and unambiguous. Check XOM, MPC, VLO, PSX, FANG volumes at 10 AM against the required thresholds from the 3:15 PM handoff.
+- MPC needs ≥3,699,050 vol by 10 AM
+- VLO needs ≥4,687,289
+- PSX needs ≥4,100,217
+- XOM needs ≥24,048,057 (most likely — largest float)
+- FANG needs ≥3,666,047
+
+**2. 📉 CPI JUNE 2026: 3.5% vs 3.8% EXPECTED (COOLER THAN EXPECTED)**
+Core inflation decelerated in June, coming in below the Wall Street consensus of 3.8%. This is a Fed relief print — reduced pressure for rate hikes. Tech/QQQ bouncing +1.19% pre-market in response. SPY broadly flat (+0.31%). **Regime gate likely clear at 10 AM** but verify SPY live change % vs July 13 close before buying.
+
+**3. 🏦 MAJOR BANK EARNINGS REPORTED PRE-MARKET TODAY (JPM, WFC, C, GS, BAC)**
+Five of the largest US banks all report Q2 earnings this morning. Key: Wells Fargo (WFC) delivered a strong beat — EPS $2.00 vs consensus $1.72 (+16.4%), revenue $22.62B vs est $21.9B, NII +5% YoY. Stock up ~0.59% to $87.67 pre-market. CEO raised Q3 dividend 11% to $0.50/share and repurchased ~$7B H1 stock. JPM, C, GS, BAC results unknown at time of writing — monitor. **Financial sector tone is highly uncertain until all results are digested at 10 AM. Avoid financials for now per prior handoff guidance.**
+
+**4. 💊 BIIB AAIC DIRANERSEN DATA — MIXED (MISSED PRIMARY, BIOMARKERS POSITIVE)**
+Biogen presented Phase 2 CELIA Diranersen (BIIB080) results at the AAIC 2026 conference (today 2–3:30 PM BST = 9–10:30 AM ET). Trial MISSED its primary endpoint, but showed meaningful reductions in tau protein and slowing of cognitive decline; Biogen will continue into registrational development. Stock UP ~1.3% to $201.63 pre-market (vs July 13 close ~$199) — market relieved by continuation plan. **BIIB no longer a hard disqualifier binary risk — data is now known. But the drug miss means thesis is partially deflated; use caution. Truist Buy rating / $235 PT still in place.**
 
 ---
 
@@ -54,7 +67,7 @@ No positions held overnight. Account is **100% cash** ($209.53 total value, $209
 ---
 
 ### ONE-LINE SUMMARY
-**0 positions on track, 0 flagged for immediate action. Account 100% cash (~$157 investable cap). Tech sector gapping down pre-market (QQQ -1.09%, NVDA -1.46%, META -0.95%) — check market regime gate at open before any new buys.**
+**0 positions on track, 0 flagged for immediate action. Account 100% cash ($619.31 investable cap). Regime gate likely clear (SPY +0.31% pre-mkt, CPI relief). PRIMARY FOCUS AT 10 AM: energy stocks (XOM, MPC, VLO) — Hormuz ceasefire collapsed, oil +4.8%, blockade at 4 PM ET — check volume filter. Bank earnings mixed picture; avoid financials until tone clear.**
 
 ---
 
