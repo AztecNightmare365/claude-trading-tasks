@@ -80,75 +80,57 @@ Only 0 closed trades logged so far — need at least 5 for meaningful analysis. 
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-Last updated: 2026-07-13 (~3:20 PM ET — 3:15 PM session complete)
+Last updated: 2026-07-14 (~3:25 PM ET — 3:15 PM session complete)
 
-Open positions held overnight: NONE. Account is 100% cash.
+Open positions held overnight (3 total):
 
-Settled cash: $825.74
-Unsettled: $0
-Total account value: $825.74
-Portfolio invested: 0% (100% cash)
-75% cap → max investable: $619.31
+- GS: 0.064601 shares, entry $1,130.01, stop-loss $1,082.00, take-profit $1,226.00
+  vs entry at close: +0.36% ($1,134.13) | Overnight flag: YES
+  Thesis: Q2 2026 massive EPS beat ($20.98 vs $14.54 consensus, +44%); all 5 major banks beat today. IBM -25% collapse reinforces GS investment banking pipeline. Banking sector tailwind into earnings season. Entry session: 10AM.
+  - If GS ≥ $1,226 at 10 AM: sell immediately (take-profit). Lock ~8.5% gain.
+  - If GS ≤ $1,082 at 10 AM: sell immediately (stop-loss). Hard exit.
+  - Trail stop to $1,130 (breakeven) or recent intraday support if GS trades above $1,155 (+2% from entry) at 10 AM.
 
----
+- OKTA: 0.499222 shares, entry $154.24 (live avg cost), stop-loss $148.24, take-profit $165.22
+  vs entry at close: +0.05% ($154.32) | Overnight flag: YES
+  Thesis: Scotiabank upgraded to Outperform $165 PT + KeyBanc raised PT to $175 (both July 14); AI agent identity security theme strong with CRWD +11.5% sector wave; 23 analysts revised estimates upward. Closed ABOVE $154 — full confidence hold per 2 PM monitor. Entry session: 12PM.
+  - If OKTA ≥ $165.22 at 10 AM: sell immediately (take-profit). Lock ~7.4% gain.
+  - If OKTA ≤ $148.24 at 10 AM: sell immediately (stop-loss). Hard exit.
+  - Trail stop to $153.90 (near breakeven) if OKTA trades above $159 at 10 AM.
 
-WHAT HAPPENED (3:15 PM session, July 13, 2026):
+- NTSK: 4.446010 shares, entry ~$14.17 (market order filled ~3:25 PM ET), stop-loss $13.535, take-profit $15.44
+  vs entry at close: flat (placed near close) | Overnight flag: YES
+  Thesis: AI security sector wave (CRWD +11.5%, OKTA +10.2%, S +6.2% today). Below-consensus June CPI + Russia state-sponsored cyber threat alert drove broad cybersecurity buying. Netskope rode the sector tailwind; low since 10 AM was $13.535 (within 5% of entry, qualifying per 12 PM modified volatility check). Entry session: 3:15PM.
+  - If NTSK ≥ $15.44 at 10 AM: sell immediately (take-profit).
+  - If NTSK ≤ $13.535 at 10 AM: sell immediately (stop-loss). Hard exit.
+  - ⚠️ LOWER CONVICTION: No company-specific NTSK catalyst — purely a sector wave play. If AI security sector fades at open or NTSK shows weakness on open, EXIT DISCRETIONARY regardless of stop. Dollar risk capped at $2.82 (4.446 × $0.635).
 
-No positions to sell (account was 100% cash). No buys placed.
+Sells executed at 3:15 PM: NONE
 
-Market regime at 3:15 PM:
-- SPY: $749.28 vs $754.95 prev close = -0.75% → CAUTION REGIME (50% size reduction required)
-- QQQ: $711.68 vs $725.51 = -1.91% (deep risk-off; tech selloff accelerated all day)
-
-Energy sector candidates (Iran-Hormuz catalyst): All names up 4-5%+ but ALL failed relative volume filter for the 3rd consecutive session (10 AM, 12 PM, 3:15 PM):
-- MPC: +5.01% | vol/avg2wk = 0.54x — FAIL (needs 1.5x)
-- VLO: +5.45% | 0.51x — FAIL
-- PSX: +5.30% | 0.59x — FAIL
-- XOM: +4.28% | 0.60x — FAIL
-- EOG: +4.38% | 0.42x — FAIL (also ex-div July 17)
-- FANG: +4.99% | 0.56x — FAIL
-- HAL: +2.91% — FAIL (below 3% threshold)
-- XLE (ETF): +3.22% | 1.14x — FAIL
-
-BIIB (Biogen): +4.84% on Truist upgrade to Buy (PT $235 from $190). HARD DISQUALIFIER: AAIC conference (London, July 13-15) presenting phase-2 Diranersen data (BIIB080, anti-tau Alzheimer's) — binary clinical readout risk. Also failed volume filter (0.88x). NOT traded.
-
-NO BUYS PLACED. Zero trades executed in this session.
+Settled cash remaining: $612.74 (was $675.74; $63.00 deployed to NTSK)
+Total account value: ~$826
+Portfolio invested: ~25.8% (GS ~$73 + OKTA ~$77 + NTSK ~$63 = ~$213)
+75% cap → max investable remaining: ~$406
 
 ---
 
-⚠️ CRITICAL OVERNIGHT CONTEXT — IRAN-HORMUZ ACTIVE MILITARY CONFLICT:
+NOTES FOR 10:00 AM AGENT (July 15, 2026):
 
-This has ESCALATED from a threat to active combat as of late July 13:
-- US launched 4th wave of strikes on Iran (first use of one-way drones at sea)
-- Iran struck US military bases in Bahrain, Kuwait, Oman, and Jordan
-- Iran declared Strait of Hormuz passage "not possible"
-- Strait crossings: 18-22/day normal → 6 vessels (sharp decline)
-- Brent crude +4.14% at $79.16/bbl; WTI +2.97% at $74.38/bbl
-- A ceasefire was attempted and "disintegrated" (CNN headline July 13)
-- Trump announced reinstatement of Iranian ship blockade
+1. **MS EARNINGS TONIGHT**: Morgan Stanley reported Q2 earnings AFTER CLOSE on July 14. Check MS result at 10 AM — positive MS reinforces banking/GS hold thesis; a miss could signal sector rotation risk heading into GS hold decision.
 
-Energy stocks failed volume filter (0.42x-0.60x) despite strong gains — suggesting institutional hesitation or options-driven demand. Gap risk at 10 AM is high in BOTH directions.
+2. **GS STOP/TP**: Entry $1,130.01. Close $1,134.13. Stop $1,082 (4.6% buffer). TP $1,226 (8.1% away). Trail stop to $1,130 if GS above $1,155 at 10 AM. GS already reported Q2 — no binary events tonight. Banking sector broadly strong.
 
----
+3. **OKTA STOP/TP**: Live avg entry $154.24. Close $154.32. Stop $148.24 (3.9% buffer). TP $165.22 (7.1% away). Trail stop to $153.90 if above $159 at 10 AM. Dual analyst upgrades (Scotiabank $165 + KeyBanc $175 PT) remain fresh catalysts. AI identity security theme intact.
 
-NOTES FOR 10:00 AM AGENT (July 14, 2026):
+4. **NTSK STOP/TP**: Entry ~$14.17. Stop $13.535 (4.5% below entry). TP $15.44 (9.0% above entry). LOW CONVICTION position — if NTSK opens below $14.00 or AI security sector is broadly flat/down at 10 AM, sell discretionary. Only hold if sector maintains momentum from July 14.
 
-1. **CHECK IRAN NEWS FIRST**: Verify conflict status before any decisions. If active conflict continues → energy likely gap-up, check volumes. If ceasefire/de-escalation → energy likely gap-down, avoid sector.
+5. **CYBERSECURITY SECTOR WATCH**: CRWD and OKTA led the day (+11.5% and +10.2%). Key overnight questions: (1) Does the Russia state-sponsored cyber threat alert sustain security spending narrative? (2) Does below-consensus CPI keep growth/tech bid alive? Check CIBR or BUG ETF at 10 AM for sector health.
 
-2. **WFC EARNINGS PRE-MARKET (TODAY JULY 14)**: Wells Fargo Q2 results due before today's open. Check WFC reaction; avoid ALL financials until sector tone is clear.
+6. **IRAN BLOCKADE**: Blockade officially began 4 PM ET July 14. Crude prices may gap overnight. If oil spikes >5% by 10 AM and energy volume finally meets 1.5x threshold, energy may qualify as new buys. XOM, MPC, VLO relevant. But check actual volumes — sector has failed the 1.5x filter repeatedly.
 
-3. **ENERGY VOLUME GATEKEEPER**: Iran catalyst is real but volume must reach 1.5x avg for entry. Required volumes (2-week avg):
-   - MPC (avg 2,466,033): needs ≥3,699,050 vol by 10 AM
-   - VLO (avg 3,124,859): needs ≥4,687,289
-   - PSX (avg 2,733,478): needs ≥4,100,217
-   - XOM (avg 16,032,038): needs ≥24,048,057 (most likely, was 0.60x yesterday)
-   - FANG (avg 2,444,031): needs ≥3,666,047
+7. **BUYING POWER**: $612.74 settled cash. Account ~$826 total. 75% cap → max new investable ~$406 (after current $213 invested).
 
-4. **BIIB AAIC BINARY RISK**: Biogen may present phase-2 Diranersen (BIIB080) data at AAIC conference overnight/pre-market. Positive data → gap up 10-15%. Negative → gap down 15-20%. Do NOT chase pre-market. At 10 AM, if data positive and stock holding gains with volume ≥1.5x avg, may qualify. Current: $208.79, PT $235.
-
-5. **REGIME CHECK**: SPY ended at -0.75% (caution zone). Check SPY pre-market and at 10 AM. SPY < -1% triggers regime gate (no new buys).
-
-6. **BUYING POWER**: $825.74 fully settled cash. 75% cap → max investable $619.31. No unsettled proceeds.
+8. **REGIME CHECK**: SPY ended +0.39% on July 14 (normal regime). Check SPY at 10 AM July 15. If SPY down >1%, regime gate triggers (no new buys, may hold winners).
 
 ---
 
