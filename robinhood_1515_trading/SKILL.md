@@ -49,59 +49,61 @@ Notes for 10:00 AM agent (June 25, 2026):
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. -->
 
-Last updated: 2026-07-14 (~10:20 AM ET — 10 AM session complete)
+Last updated: 2026-07-14 (~12:16 PM ET — 12 PM reassessment complete)
 
-Open positions: 1
+Open positions: 2
 
-- GS: 0.064601 shares, entry $1,130.00, stop-loss $1,082.00, take-profit $1,226.00
-  Thesis: Q2 2026 earnings massive beat (EPS $20.98 vs $14.54 consensus +44%; rev $20.34B vs $16.4B +24%); confirmed intraday uptrend from $1,082 open low to $1,130 at fill; above VWAP; sector tone clear (all 5 major banks reported positive).
+- GS: 0.064601 shares, entry $1,130.01, stop-loss $1,082.00, take-profit $1,226.00
+  Thesis: Q2 2026 earnings massive beat (EPS $20.98 vs $14.54 consensus +44%; rev $20.34B vs $16.4B +24%). All 5 major banks beat today. Entry session: 10AM.
 
-Settled cash remaining: ~$752.74
-Total account value: ~$825.74
-Portfolio invested: 8.84% ($73 in GS)
-75% cap → max investable remaining: ~$546 (if 3:15 PM adds positions)
+- OKTA: 0.500320 shares, entry $153.90, stop-loss $148.24, take-profit $165.22
+  Overnight hold flag: YES
+  Thesis: Scotiabank upgraded to Outperform $165 PT + KeyBanc raised PT to $175 (both today); stock hit 52-week high $155.09; AI agent identity security theme aligns with CRWD's 9% surge; 23 analysts revised estimates upward. Entry session: 12PM reassessment.
+
+Settled cash remaining: ~$675.74
+Total account value: ~$825.41
+Portfolio invested: 18.1% (GS ~$72.67 + OKTA ~$77.00 = ~$149.67)
+75% cap → max investable remaining: ~$469 (if 3:15 PM adds positions)
 
 ---
 
-WHAT HAPPENED (10 AM session, July 14, 2026):
+WHAT HAPPENED (12 PM session, July 14, 2026):
 
-No overnight positions to exit (account was 100% cash from July 13).
+GS held: -0.46% vs entry ($1,124.82 vs $1,130.01), stop at $1,082 not triggered, stop trail not triggered (requires +2% from entry). Well within range.
 
-Broad market: SPY +0.15% (normal regime). QQQ +0.74% (CPI 3.5% vs 3.8% expected driving tech relief).
+OKTA bought: $77 market order (0.500320 shares @ $153.90). Stop $148.24, TP $165.22. Overnight YES.
 
-25+ stocks screened. Only GS passed all filters.
+Broad market at noon: SPY +0.16% (normal regime, no gate). QQQ +0.96% (tech continuing higher on CPI relief). Iran blockade begins 4 PM ET — energy still not clearing 3%+ with 1.5x volume.
 
-SKIPPED candidates:
-- TSEM (+10.4%): $3B Japan expansion catalyst — GOOD but fading from $273 open to $254 by 10 AM → failed morning momentum filter
-- AMD (+3.6%): CPI macro catalyst — fading from $567 open to $551 → failed momentum filter
-- CRWD (+8.5%): AI security momentum — uptrend confirmed but 30-min low $189.46 is 7.1% below entry $204 → exceeded 4% volatility cap → skipped per rule
-- SHLS (+9.5%): Revenue guidance raise catalyst — uptrend confirmed but 30-min low $9.90 is 5.17% below entry $10.44 → exceeded 4% cap → skipped per rule
-- CLSK, SMTC: Both fading from gap-up opens → failed momentum filter
-- FCEL: Speculative + just completed dilutive stock offering → hard disqualifier
-- Energy (XOM, MPC, VLO, PSX, FANG): All below 3% threshold despite crude +4.8% (Iran blockade at 4 PM ET)
-- IBM: -24.3% (massive earnings miss — loser)
-- BIIB: -7.26% (AAIC phase 2 Diranersen missed primary endpoint — selling off despite "mixed" framing)
+35+ candidates screened. Only OKTA passed all filters (S and NTSK failed 4% volatility cap by small margin; CRWD failed relative volume; TSEM failed volatility cap; SKHY is ADR; NTAP/AMD/SHLS below relative volume threshold; crypto miners fading from opens).
 
 ---
 
 NOTES FOR 3:15 PM AGENT (July 14, 2026):
 
-1. GS STOP/TP CHECK: At 3:15 PM check GS vs stop $1,082 and TP $1,226. Current entry $1,130.
-   - If GS ≥ $1,226: sell (take-profit). Lock gain.
-   - If GS ≤ $1,082: sell (stop-loss). Hard exit, no exceptions.
-   - If GS between $1,082–$1,226: evaluate for overnight hold. GS has ongoing earnings tailwind and banking sector broadly positive. Strong case to hold overnight if still above $1,100 and trending up.
+1. GS STOP/TP CHECK: At 3:15 PM check GS vs stop $1,082 and TP $1,226. Entry $1,130.01.
+   - If GS ≥ $1,226: sell (take-profit). Lock ~8.5% gain.
+   - If GS ≤ $1,082: sell (stop-loss). Hard exit.
+   - If between: Evaluate for overnight hold. Banking sector tone broadly positive (all 5 major banks beat Q2). Strong hold candidate if still above $1,100 and trending up at close.
+   - If GS is above $1,155 at 3:15 PM (+2% from entry), TRAIL STOP up to entry $1,130 or recent intraday support (higher of the two).
 
-2. ENERGY SECTOR: Iran blockade officially begins 4 PM ET today. Watch energy at 3:15 PM — if XOM, MPC, VLO finally clear 1.5x relative volume filter AND are above 3%, they become valid overnight candidates (catalyst is fresh and binary: blockade either holds or breaks).
+2. OKTA STOP/TP CHECK: At 3:15 PM check OKTA vs stop $148.24 and TP $165.22. Entry $153.90. Overnight flag: YES.
+   - If OKTA ≥ $165.22: sell (take-profit). Lock ~7.4% gain.
+   - If OKTA ≤ $148.24: sell (stop-loss). Hard exit.
+   - If between: Overnight hold is STRONGLY supported — dual analyst upgrades ($165 + $175 PT), no earnings tonight, AI security narrative has legs. Hold if still above $151+ at close.
+   - Trail stop to $153.90 (breakeven) if OKTA trades above $159+ at 3:15 PM (+2% from $153.90 entry).
 
-3. BIIB SELLING OFF: Was -7.26% at 10 AM. Do not buy. Phase 2 Diranersen miss.
+3. ENERGY SECTOR — CRITICAL AT 3:15 PM: Iran blockade begins 4 PM ET today. If XOM, MPC, VLO clear 1.5x relative volume AND 3%+ at 3:15 PM, they are valid overnight candidates (5% overnight stop rule is slightly more permissive than 4% intraday). This is a binary, clearly-dated catalyst — blockade holds or breaks overnight.
 
-4. IBM: Do not buy. -24% on earnings miss. Sector overhang for enterprise software (ORCL -2.2%, MSFT -1.9%, WDAY -6%).
+4. AI SECURITY WAVE: CRWD +9%, OKTA +10% today. SentinelOne (S) and Netskope (NTSK) failed 4% intraday volatility cap at noon but may compress by 3:15 PM. If S intraday low since 10 AM has risen above $19.24 (within 5% of $20), it becomes a valid overnight candidate (5% overnight rule). Same check for NTSK: if low since 10 AM is above $13.47 (within 5% of $14.17), evaluate.
 
-5. CRWD and SHLS: If relative volume remains elevated and stocks hold above their 30-min lows at 3:15 PM, they may become valid overnight candidates (the 5% overnight stop rule is slightly more permissive than today's 4% intraday rule).
+5. IBM: Do not buy. -24% earnings miss. Enterprise software headwind (ORCL, MSFT, WDAY all down).
 
-6. BUYING POWER: $752.74 settled cash. 75% cap → max additional investment ~$546 after GS position.
+6. BIIB: Do not buy. Phase 2 Diranersen miss.
 
-7. MARKET REGIME: SPY +0.15% at 10 AM. Watch for continued CPI relief or Iran-blockade reversal impacting the close.
+7. BUYING POWER: $675.74 settled cash. 75% cap → max additional investment ~$469 after GS+OKTA positions.
+
+8. MARKET REGIME: SPY +0.16% at noon. Check at 3:15 PM — if SPY falls below -1% by close, regime gate triggers (no new overnight buys, though existing positions may be held).
 
 ---
 
