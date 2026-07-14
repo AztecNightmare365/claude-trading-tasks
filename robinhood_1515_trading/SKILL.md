@@ -107,24 +107,36 @@ NOTES FOR 3:15 PM AGENT (July 14, 2026):
 
 1 PM monitor: all stops intact as of 1:00 PM ET. GS $1,125.73 (stop $1,082.00 / TP $1,226.00 — HOLD). OKTA $155.46 (stop $148.24 / TP $165.22 — HOLD). Portfolio sync: OKTA live 0.499222 shares @ $154.24 avg (handoff showed 0.500320 @ $153.90 — using live). No sells executed.
 
+2 PM monitor: all stops intact as of 2:10 PM ET. GS $1,127.69 (stop $1,082.00 / TP $1,226.00 — HOLD, 4.1% above stop, 8.7% below TP). OKTA $153.66 (stop $148.24 / TP $165.22 — HOLD, 3.5% above stop, 7.5% below TP). OKTA drifted from $155.46 (1 PM) → $153.66 — slight pullback, still well above stop. No NEAR STOP or NEAR TP flags. No sells executed.
+
 ---
 
-## 2 PM MONITOR NOTE (2026-07-13 ~2:05 PM ET)
+## 2 PM MONITOR NOTE (2026-07-14 ~2:10 PM ET)
 
-No open positions — no stop-loss or take-profit checks required. No sells executed.
+No sells executed. Both positions HOLD — stops and take-profits not triggered.
 
-**NEAR STOP flags**: None (no positions)
-**NEAR TP flags**: None (no positions)
+**NEAR STOP flags**: None
+**NEAR TP flags**: None
+
+**Position status at 2 PM ET:**
+- GS: $1,127.69 (+7.80% vs prev close $1,045.91). Entry $1,130.01 (−0.21% vs entry). Stop $1,082.00 (4.1% buffer). TP $1,226.00 (8.7% away). Holding the earnings gap well. VWAP unavailable (Polygon API key error — use Robinhood historicals at 3:15 PM).
+- OKTA: $153.66 (+10.07% vs prev close $139.53). Live avg entry $154.24 (−0.38% vs live avg). Stop $148.24 (3.5% buffer). TP $165.22 (7.5% away). Slight pullback from 1 PM high of $155.46 — normal consolidation after strong open. VWAP unavailable (same API issue).
 
 **Broad market direction at 2 PM ET:**
-- SPY: $749.62 → **−0.71%** (caution zone; trending progressively worse: −0.31% at 10 AM → −0.50% at 12 PM → −0.71% now)
-- QQQ: $712.60 → **−1.78%** (deep in risk-off territory; tech weakness accelerating)
+- SPY: $752.44 → **+0.44%** (positive regime, no gate concerns; dramatic reversal from yesterday's −0.71% close)
+- QQQ: $721.56 → **+1.38%** (strong tech/growth bid — directly aligned with OKTA's AI security thesis)
 
-**⚠️ REGIME WARNING FOR 3:15 PM AGENT**: SPY has been steadily sliding all day and is now at −0.71% with 75 minutes left. If this trend continues at even half the same pace, SPY could reach −1% or below by 3:15 PM, which triggers the regime gate (no new overnight buys). CHECK SPY FIRST before any buy decisions. QQQ at −1.78% confirms broad risk-off sentiment.
+**News since noon (July 14, 2026):**
+- GS: Motley Fool (1:01 PM ET) — "Goldman Sachs Saves the Dow From IBM's Worst Day in 39 Years." GS +7.4% on Q2 earnings beat, added 459 Dow points offsetting IBM's −24.9% collapse. Earnings thesis fully intact. No negative GS-specific news found.
+- OKTA: No new July 14 OKTA news. Dual analyst upgrade thesis (Scotiabank $165 PT + KeyBanc $175 PT from this morning) remains unchallenged. Pullback from $155.46 → $153.66 is likely normal profit-taking/consolidation after a 10%+ gap.
+- IBM: −24.9% on CEO profit warning (enterprise software budgets shifting to hardware). DOES NOT affect OKTA — OKTA is identity/cybersecurity, not IBM's software vertical. IBM weakness actually reinforces hardware/AI spend thesis (GS investment banking pipeline).
 
-**Energy sector**: Iran/Hormuz catalyst still active at 2 PM (no de-escalation news). Volume confirmation remains the key unknown — check energy fundamentals volume at 3:15 PM as the primary gating criterion.
-
-**No news to flag since 12 PM** (no sells executed, no new positions to monitor).
+**⚠️ NOTES FOR 3:15 PM AGENT:**
+- OKTA DRIFT: Slipped from $155.46 (1 PM) to $153.66 (2 PM), now slightly below live avg cost of $154.24. Watch close trend — if OKTA continues fading and is below $152 at 3:15 PM, re-evaluate overnight thesis (though stop at $148.24 is still the hard floor). Above $154 at 3:15 PM = full confidence hold.
+- GS STRONG: Holding $1,127+ with strong banking sector tailwind from Q2 earnings season (all 5 major banks beat). Strong overnight hold candidate if stays above $1,110.
+- REGIME GATE: SPY +0.44%, QQQ +1.38% — bullish backdrop. No regime gate concerns for new overnight buys.
+- ENERGY/IRAN BLOCKADE: Blockade begins 4 PM ET. Check XOM/MPC/VLO at 3:15 PM — if 1.5x relative volume AND 3%+ gain, valid overnight candidates per 12 PM note.
+- AI SECURITY: CRWD/OKTA both strong today. Check S (SentinelOne) — if intraday low since 10 AM above $19.24, it may qualify as overnight buy (per 12 PM note).
 
 ---
 PRE-CHECK — Market day verification
