@@ -49,28 +49,28 @@ Notes for 10:00 AM agent (June 25, 2026):
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. -->
 
-Last updated: 2026-07-15 (~12:11 PM ET — 12 PM reassessment complete)
+Last updated: 2026-07-15 (~2:09 PM ET — 2 PM monitor complete)
 
 Open positions: 3
 
 - GS: 0.064601 shares, entry $1,130.01, stop-loss $1,082.00, take-profit $1,226.00
-  Current ~$1,136.83 (+0.60% vs entry, -0.28% on day). Stop trail NOT triggered (need +2% from entry = $1,152.61).
+  2 PM status: $1,144.03 (+1.24% vs entry). HOLD. Strong afternoon recovery from intraday low of ~$1,117.53 (hit ~12:25 PM ET). Now trending up — above est. VWAP (~$1,135-$1,136 from 1 PM reading). Distance to stop: 5.7% ($62.03 buffer). Distance to TP: 7.2% ($81.97). Intraday range: $1,117.53 - $1,153.47. Volume declining into afternoon (normal large-cap pattern). Above VWAP.
   Thesis: Q2 2026 EPS beat ($20.98 vs $14.54 consensus +44%); all 5 major banks beat; banking sweep intact. Entry session: 10AM.
 
 - OKTA: 0.499222 shares, entry $154.24, stop-loss $148.24, take-profit $165.22
-  Current ~$151.10 (-2.04% vs entry, -2.27% on day). Only $2.86 above hard stop (1.9% buffer).
-  ⚠️ WATCH CLOSELY: Weakest cybersecurity peer at noon (CRWD -0.69%, PANW +1.64%, ZS -1.04%, OKTA -2.27%). QQQ -0.89%.
-  Thesis: Scotiabank upgraded to Outperform $165 PT + KeyBanc raised PT to $175 (July 14). Analyst thesis intact — no new negative OKTA news at noon.
-  Entry session: 12PM (July 14). Overnight flag: YES (per 12 PM July 14 agent).
+  2 PM status: $150.005 (-2.75% vs entry). HOLD. ⚠️ NEAR STOP — only $1.77 (1.18%) above hard stop $148.24. Intraday LOW: $148.60 (~1:00 PM ET) — came within $0.36 of triggering the hard stop. Currently recovering to $150. Below VWAP (est. ~$151-$152). Opened at $156, sold off all day; underperforming cybersecurity peers. Distance to TP: 10.1% ($15.22).
+  Thesis: Scotiabank Outperform $165 PT + KeyBanc $175 PT (July 14). Analyst thesis intact — no new negative news, but price action very weak. Entry session: 12PM (July 14). Overnight flag: YES.
 
 - BLK: 0.068552 shares, entry $1,094.06, stop-loss $1,050.00, take-profit $1,182.00
-  Current ~$1,098.46 (+0.40% vs entry, +7.12% on day). Stop trail NOT triggered (need +2% from entry = $1,115.94).
-  Thesis: Q2 EPS beat today ($13.91 vs $12.59 expected, +10.5%). Largest asset manager; $158.9B market cap. Financials supportive. Entry session: 10AM (July 15).
+  2 PM status: $1,090.03 (-0.37% vs entry). HOLD. Fading from noon highs (~$1,103-$1,104). Slightly below entry. Below est. VWAP (~$1,095-$1,100). Distance to stop: 3.7% ($40.03 buffer). Distance to TP: 8.4% ($91.97). Intraday range: ~$1,078.00 - $1,109.99. Volume low; normal afternoon pattern. Stop at $1,050 provides ample buffer.
+  Thesis: Q2 EPS beat (+10.5% EPS vs estimate, $13.91 vs $12.59). Financials sector broadly strong. Entry session: 10AM (July 15).
+
+No sells executed at 2 PM. All stops intact.
 
 Settled cash remaining: ~$537.74 (NTSK proceeds ~$61.71 unsettled, settle July 16)
-Total account value: ~$823
-Portfolio invested: ~27% (GS ~$73 + OKTA ~$75 + BLK ~$75 = ~$223)
-75% cap → max additional investable: ~$394 (limited by settled cash $537.74)
+Total account value: ~$821 (GS ~$73.87 + OKTA ~$74.85 + BLK ~$74.70 + cash ~$537.74)
+Portfolio invested: ~27%
+75% cap → max additional investable: ~$393
 
 ---
 
@@ -80,46 +80,50 @@ NTSK SOLD (discretionary): 4.446044 shares at market ~$13.88/share. P&L: -$1.29 
 
 No new positions opened. Polygon aggregates API error (invalid API key) prevented verification of required filters (VWAP, relative volume >= 1.5x, 5-min trend). PYPL disqualified (pending Stripe/Advent M&A binary event — board has not accepted $60.50 bid). 35+ raw candidates screened.
 
-Market regime: SPY -0.003% (flat, normal). QQQ -0.89% (caution range — factored into conservatism).
+Market regime at noon: SPY -0.003% (flat, normal). QQQ -0.89% (caution range — factored into conservatism).
 
 ---
 
 NOTES FOR 3:15 PM AGENT (July 15, 2026):
 
-1. GS STOP/TP: Entry $1,130.01. Stop $1,082.00. TP $1,226.00. At noon: $1,136.83.
+1. GS STOP/TP: Entry $1,130.01. Stop $1,082.00. TP $1,226.00. At 2 PM: $1,144.03 (+1.24% vs entry).
    - If >= $1,226: sell (take-profit).
    - If <= $1,082: sell (stop-loss).
-   - Trail stop to $1,130 (breakeven) if GS above $1,155 at 3:15 PM (+2% from entry).
+   - Trail stop to $1,130 (breakeven) if GS above $1,152.61 at 3:15 PM (+2% from entry).
    - Banking sector strong (all 5 major banks beat Q2). Strong overnight hold candidate.
 
-2. OKTA STOP/TP: Entry $154.24. Stop $148.24. TP $165.22. At noon: $151.10.
-   ⚠️ CRITICAL: If STILL BELOW $152 AND underperforming cybersecurity peers at 3:15 PM → DISCRETIONARY EXIT (per 10 AM handoff instructions).
+2. OKTA STOP/TP: Entry $154.24. Stop $148.24. TP $165.22. At 2 PM: $150.005 (-2.75% vs entry).
+   ⚠️ CRITICAL: If below $150 at 3:15 PM → STRONG DISCRETIONARY EXIT SIGNAL (only $1.76 from hard stop).
+   ⚠️ CRITICAL: If STILL BELOW $152 AND underperforming cybersecurity peers at 3:15 PM → DISCRETIONARY EXIT.
    - If >= $165.22: sell (take-profit).
    - If <= $148.24: sell (stop-loss). HARD EXIT — do not hesitate.
-   - If below $150 at 3:15 PM: strong discretionary exit signal (only $1.76 from hard stop).
-   - Trail stop to $153.90 (breakeven) if above $159 at 3:15 PM.
-   - PANW +1.64% at noon suggests cybersecurity theme not dead — evaluate peers at 3:15 PM.
+   - INTRADAY LOW TODAY: $148.60 (hit ~1:00 PM). Hard stop nearly triggered — position is fragile.
+   - Trail stop to $153.90 (breakeven) only if above $159 at 3:15 PM (very unlikely given current price).
+   - Check cybersecurity peers (CRWD, PANW, ZS) at 3:15 PM to assess relative strength.
 
-3. BLK STOP/TP: Entry $1,094.06. Stop $1,050.00. TP $1,182.00. At noon: $1,098.46.
-   Strong Q2 earnings beat (+10.5% EPS vs estimate). +7.12% on day at noon.
+3. BLK STOP/TP: Entry $1,094.06. Stop $1,050.00. TP $1,182.00. At 2 PM: $1,090.03 (-0.37% vs entry).
    - If >= $1,182: sell (take-profit).
    - If <= $1,050: sell (stop-loss).
    - Trail stop to $1,094 (breakeven) if BLK above $1,115.94 at 3:15 PM (+2% from entry).
+   - Currently below entry and fading — evaluate momentum at close. Q2 earnings beat supports thesis.
    - Strong overnight hold candidate if financials sector remains constructive at close.
 
-4. BUYING POWER: ~$537.74 settled cash. Account ~$823. 75% cap -> ~$394 more investable.
+4. BUYING POWER: ~$537.74 settled cash. Account ~$821. 75% cap -> ~$393 more investable.
    NTSK proceeds (~$61.71) unsettled today, settle July 16. Do not use as buying power today.
 
-5. MARKET REGIME at noon: SPY -0.003% (flat, normal). QQQ -0.89% (caution range).
-   Check at 3:15 PM: if SPY falls to -1%, regime gate triggers (no new overnight buys).
+5. MARKET REGIME at 2 PM: SPY +0.35% (normal — no gate). QQQ -0.24% (slightly negative).
+   If SPY falls to -1% by 3:15 PM, regime gate triggers (no new overnight buys).
 
-6. PYPL: Stripe + Advent International bid $60.50/share (~$53B). Board NOT accepted — binary event. Do NOT buy. Stock at ~$54.92 (+15.95%). Could gap down sharply if deal rejected.
+6. PYPL: Stripe + Advent International bid $60.50/share (~$53B). Board NOT accepted — binary event. Do NOT buy.
 
 7. NTSK EXITED at 12 PM. Proceeds ~$61.71 unsettled (settle July 16).
 
 8. MACRO: PPI June -0.3% MoM (cool). Banking sector Q2 fully swept. MS beat record results.
 
-1 PM monitor: all stops intact as of 1:00 PM ET. GS $1,132.03 (stop $1,082, below VWAP $1,136.30). OKTA $149.09 ⚠ NEAR STOP — only $0.85 / 0.57% above hard stop $148.24 (bid $148.94), below VWAP $152.16. BLK $1,101.18 (stop $1,050, above VWAP $1,099.19). No sells executed.
+9. NOTE: Polygon aggregates API returning invalid API key errors all day. VWAP/relative volume estimated from Robinhood intraday bars. This has been consistent since the 12 PM session.
+
+2 PM MONITOR NOTE:
+All stops intact at 2:09 PM ET. GS $1,144.03 (stop $1,082, above est. VWAP — trending up). OKTA $150.005 ⚠ NEAR STOP — 1.18% above hard stop $148.24, touched intraday low $148.60 at ~1 PM, below VWAP. BLK $1,090.03 (stop $1,050, slightly below entry, below est. VWAP, fading). SPY +0.35% (normal). QQQ -0.24%. No sells executed.
 
 ---
 PRE-CHECK — Market day verification
