@@ -119,6 +119,8 @@ NOTES FOR 3:15 PM AGENT (July 15, 2026):
 
 8. MACRO: PPI June -0.3% MoM (cool). Banking sector Q2 fully swept. MS beat record results.
 
+1 PM monitor: all stops intact as of 1:00 PM ET. GS $1,132.03 (stop $1,082, below VWAP $1,136.30). OKTA $149.09 ⚠ NEAR STOP — only $0.85 / 0.57% above hard stop $148.24 (bid $148.94), below VWAP $152.16. BLK $1,101.18 (stop $1,050, above VWAP $1,099.19). No sells executed.
+
 ---
 PRE-CHECK — Market day verification
 Before doing anything else, check today's date. If today is Saturday or Sunday, output "Market closed — weekend. No action taken." and stop immediately. Do not proceed to Step 1.
