@@ -14,60 +14,74 @@ Execute all steps in order, then place all orders simultaneously.
 ## PRE-MARKET BRIEF
 <!-- Updated by the 9:15 AM pre-market agent. Read before Step 1. -->
 
-**Generated: 2026-07-14 ~9:15 AM ET**
+**Generated: 2026-07-15 ~9:15 AM ET**
 
 ---
 
-### OVERNIGHT POSITIONS: NONE
+### OVERNIGHT POSITIONS: 3 HELD
 
-No positions held overnight. Account is **100% cash** ($825.74 total value). No stops to breach, no take-profits to trigger.
+| Ticker | Shares | Entry | Stop | TP | Pre-Mkt Price | vs Jul 14 Close | Flag |
+|--------|--------|-------|------|-----|--------------|----------------|------|
+| GS | 0.064601 | $1,130.01 | $1,082.00 | $1,226.00 | ~$1,140.00 | +$5.87 (+0.52%) | **ON TRACK** |
+| OKTA | 0.499222 | $154.24 | $148.24 | $165.22 | ~$154.62 | +$0.30 (+0.19%) | **ON TRACK** |
+| NTSK | 4.446010 | $14.17 | $13.535 | $15.44 | ~$14.27 | +$0.10 (+0.70%) | **ON TRACK** ⚠️ LOW CONVICTION |
 
-> **Buying power**: $825.74 fully settled. 75% cap → max investable **$619.31**.
+> **Cash remaining**: $612.74 settled. Total account ~$826. 75% cap → max new investable ~$406.
 
 ---
 
-### MACRO CONTEXT (pre-market July 14, 2026)
+### POSITION DETAIL
 
-| Index | July 13 Close | Pre-Mkt Price | Change% vs Jul 13 |
-|-------|--------------|--------------|-------------------|
-| SPY | $749.17 | ~$751.49 | **+0.31%** |
-| QQQ | $711.74 | ~$720.23 | **+1.19%** |
-| Brent Crude | ~$83.00 est | ~$87.00 | **+4.8%** |
-| WTI Crude | ~$78.00 est | ~$81.00 | **+3.6%** |
+**GS — ON TRACK**
+Pre-market ~$1,140 (+0.52% vs July 14 close of $1,134.13). Stop $1,082 is 5.1% below current pre-market price — ample buffer. TP $1,226 is 7.5% away. **Thesis intact and strengthening**: GS Q2 2026 EPS confirmed at $20.98 vs $14.91 consensus (+40.7% beat), revenue $20.34B vs $16.6B expected. Banking sector broadly strong (JPM, WFC, BAC, C all beat July 14). Morgan Stanley filed an 8-K today (July 15, likely Q2 earnings) — check the result at 10 AM; a positive MS report further reinforces banking tailwind for GS hold. No adverse news overnight. **Trail stop to $1,130 (breakeven) if GS is above $1,155 at 10 AM.**
+
+**OKTA — ON TRACK**
+Pre-market ~$154.62 (+0.19% vs July 14 close of $154.32). Stop $148.24 is 4.1% below current price — adequate buffer. TP $165.22 is 6.8% away. **Thesis intact**: Scotiabank upgrade to Outperform ($165 PT) and KeyBanc PT raise to $175 from July 14 remain fresh. AI identity security theme supported by QQQ +1.12% pre-market. No adverse news from Polygon news scan (most recent OKTA-specific coverage is from May-June 2026 — strong earnings beat and 52-week high). No material negative developments overnight. **Trail stop to $153.90 (near breakeven) if OKTA is above $159 at 10 AM.**
+
+**NTSK — ON TRACK (LOW CONVICTION — WATCH CLOSELY)**
+Pre-market ~$14.27 (+0.70% vs entry of $14.17, entered near July 14 close). Stop $13.535 is 5.2% below current price. TP $15.44 is 8.2% away. **No company-specific NTSK catalyst overnight** — purely an AI cybersecurity sector wave play. Sector is holding (QQQ +1.12% pre-market). Key decision at 10 AM: if NTSK shows weakness at open or AI security sector (CRWD, PANW, ZS) is broadly flat/down, **EXIT DISCRETIONARY regardless of stop** per handoff instructions. Dollar risk capped at $2.82 (4.446 × $0.635).
+
+---
+
+### MACRO CONTEXT (pre-market July 15, 2026)
+
+| Index | Jul 14 Close | Pre-Mkt Price | Change% vs Jul 14 |
+|-------|-------------|--------------|-------------------|
+| SPY | $749.17 | ~$751.83 | **+0.36%** |
+| QQQ | $711.72 | ~$719.71 | **+1.12%** |
+
+**Regime gate: CLEAR** — SPY +0.36% pre-market, normal regime, new buys allowed if candidates qualify.
 
 ---
 
 ### KEY OVERNIGHT DEVELOPMENTS — READ CAREFULLY
 
-**1. ⚠️ IRAN-HORMUZ CEASEFIRE COLLAPSED — BLOCKADE RESTARTS 4 PM ET TODAY**
-The US-Iran ceasefire (agreed ~June 17) has definitively broken down overnight. Iran's Revolutionary Guard struck two supertankers in the Strait of Hormuz. The US announced it will reinstate its full naval blockade of Iranian ports at **4 PM ET today (July 14)** and impose a 20% fee on all Strait cargo. Brent crude surged +4.8% to ~$87/bbl (highest since June 12); WTI +3.6% to ~$81/bbl. **This is the day energy stocks may finally clear the 1.5x volume filter** — the catalyst is now sharply binary and unambiguous. Check XOM, MPC, VLO, PSX, FANG volumes at 10 AM against the required thresholds from the 3:15 PM handoff.
-- MPC needs ≥3,699,050 vol by 10 AM
-- VLO needs ≥4,687,289
-- PSX needs ≥4,100,217
-- XOM needs ≥24,048,057 (most likely — largest float)
-- FANG needs ≥3,666,047
+**1. 🏦 MORGAN STANLEY Q2 EARNINGS — 8-K FILED TODAY (CHECK BEFORE ACTING)**
+Morgan Stanley filed an 8-K on July 15 (today), strongly suggesting they reported Q2 2026 earnings before the open. Specific EPS and revenue figures not yet confirmed. **Check MS price at 10 AM**: a positive MS result reinforces the banking sector tailwind for GS. A miss or guidance cut would create sector rotation risk — consider trailing GS stop tighter if MS is down more than 2% at open.
 
-**2. 📉 CPI JUNE 2026: 3.5% vs 3.8% EXPECTED (COOLER THAN EXPECTED)**
-Core inflation decelerated in June, coming in below the Wall Street consensus of 3.8%. This is a Fed relief print — reduced pressure for rate hikes. Tech/QQQ bouncing +1.19% pre-market in response. SPY broadly flat (+0.31%). **Regime gate likely clear at 10 AM** but verify SPY live change % vs July 13 close before buying.
+**2. ✅ BANKING SECTOR: ALL MAJOR BANKS BEAT Q2 2026 (CONFIRMED)**
+GS: EPS $20.98 vs $14.91 est (+40.7%) | JPM: $6.14 vs $5.91 | WFC: $2.00 vs $1.74 (+15%) | BAC: $1.21 vs $1.14 | C: $3.15 vs $2.80. This is a clean sector sweep — GS thesis strongly intact. IBM missed Q2 and fell 24.9%, but that is software/hardware rotation, not banking contagion.
 
-**3. 🏦 MAJOR BANK EARNINGS REPORTED PRE-MARKET TODAY (JPM, WFC, C, GS, BAC)**
-Five of the largest US banks all report Q2 earnings this morning. Key: Wells Fargo (WFC) delivered a strong beat — EPS $2.00 vs consensus $1.72 (+16.4%), revenue $22.62B vs est $21.9B, NII +5% YoY. Stock up ~0.59% to $87.67 pre-market. CEO raised Q3 dividend 11% to $0.50/share and repurchased ~$7B H1 stock. JPM, C, GS, BAC results unknown at time of writing — monitor. **Financial sector tone is highly uncertain until all results are digested at 10 AM. Avoid financials for now per prior handoff guidance.**
+**3. 🛢️ IRAN-HORMUZ BLOCKADE OFFICIALLY ACTIVE (AS OF 4 PM ET JULY 14)**
+US naval blockade of Iranian ports began July 14. Crude prices elevated. Energy sector may show follow-through today — check XOM, MPC, VLO volumes at 10 AM if looking for new buys. The portfolio has no energy exposure, so this is a new-buy opportunity watch, not a risk to current positions.
 
-**4. 💊 BIIB AAIC DIRANERSEN DATA — MIXED (MISSED PRIMARY, BIOMARKERS POSITIVE)**
-Biogen presented Phase 2 CELIA Diranersen (BIIB080) results at the AAIC 2026 conference (today 2–3:30 PM BST = 9–10:30 AM ET). Trial MISSED its primary endpoint, but showed meaningful reductions in tau protein and slowing of cognitive decline; Biogen will continue into registrational development. Stock UP ~1.3% to $201.63 pre-market (vs July 13 close ~$199) — market relieved by continuation plan. **BIIB no longer a hard disqualifier binary risk — data is now known. But the drug miss means thesis is partially deflated; use caution. Truist Buy rating / $235 PT still in place.**
+**4. 📉 CPI JUNE 2026 RELIEF INTACT (3.5% vs 3.8% EXPECTED)**
+June CPI deceleration confirmed — no Fed rate hike pressure. Tech/growth theme (QQQ +1.12%) benefits OKTA and NTSK holds. Macro tailwind continues.
 
 ---
 
 ### FLAGS
 
-| Ticker | Status | Pre-Mkt Price | Change% | Flag |
-|--------|--------|--------------|---------|------|
-| *(none)* | — | — | — | NO OVERNIGHT POSITIONS |
+| Ticker | Status | Pre-Mkt Price | vs Jul 14 Close | Flag |
+|--------|--------|--------------|----------------|------|
+| GS | 0.064601 sh @ entry $1,130.01 | ~$1,140.00 | +0.52% | **ON TRACK** |
+| OKTA | 0.499222 sh @ entry $154.24 | ~$154.62 | +0.19% | **ON TRACK** |
+| NTSK | 4.446010 sh @ entry $14.17 | ~$14.27 | +0.70% | **ON TRACK** ⚠️ |
 
 ---
 
 ### ONE-LINE SUMMARY
-**0 positions on track, 0 flagged for immediate action. Account 100% cash ($619.31 investable cap). Regime gate likely clear (SPY +0.31% pre-mkt, CPI relief). PRIMARY FOCUS AT 10 AM: energy stocks (XOM, MPC, VLO) — Hormuz ceasefire collapsed, oil +4.8%, blockade at 4 PM ET — check volume filter. Bank earnings mixed picture; avoid financials until tone clear.**
+**3 positions on track, 0 flagged for immediate action. Regime gate clear (SPY +0.36%). Banking thesis intact (all 5 major banks beat Q2). AI/tech theme intact (QQQ +1.12%). KEY FOCUS AT 10 AM: (1) check MS earnings result for GS thesis read-through; (2) NTSK sector health — exit discretionary if AI security fades at open; (3) trail GS stop to $1,130 if above $1,155, trail OKTA stop to $153.90 if above $159.**
 
 ---
 
