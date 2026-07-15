@@ -49,21 +49,61 @@ Notes for 10:00 AM agent (June 25, 2026):
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. -->
 
-Last updated: 2026-07-14 (~12:16 PM ET — 12 PM reassessment complete)
+Last updated: 2026-07-15 (~10:15 AM ET — 10 AM session complete)
 
-Open positions: 2
+Open positions: 4
 
 - GS: 0.064601 shares, entry $1,130.01, stop-loss $1,082.00, take-profit $1,226.00
-  Thesis: Q2 2026 earnings massive beat (EPS $20.98 vs $14.54 consensus +44%; rev $20.34B vs $16.4B +24%). All 5 major banks beat today. Entry session: 10AM.
+  Thesis: Q2 2026 massive EPS beat ($20.98 vs $14.54 consensus +44%); all 5 major banks beat; MS also beat Q2 today (EPS $3.46 vs $2.94 record results). Banking sweep intact. Entry session: 10AM.
 
-- OKTA: 0.500320 shares, entry $153.90, stop-loss $148.24, take-profit $165.22
-  Overnight hold flag: YES
-  Thesis: Scotiabank upgraded to Outperform $165 PT + KeyBanc raised PT to $175 (both today); stock hit 52-week high $155.09; AI agent identity security theme aligns with CRWD's 9% surge; 23 analysts revised estimates upward. Entry session: 12PM reassessment.
+- OKTA: 0.499222 shares, entry $154.24, stop-loss $148.24, take-profit $165.22
+  Thesis: Scotiabank upgraded to Outperform $165 PT + KeyBanc raised PT to $175 (July 14). AI identity security theme supported (CIBR +0.43% today).
+  ⚠️ NOTE: OKTA at $152.38 at 10 AM — below entry by 1.21%, underperforming peers (CRWD +0.37%, PANW +1.70%). Not at stop. Dual upgrades intact. Monitor closely at 3:15 PM. Entry session: 12PM.
 
-Settled cash remaining: ~$675.74
-Total account value: ~$825.41
-Portfolio invested: 18.1% (GS ~$72.67 + OKTA ~$77.00 = ~$149.67)
-75% cap → max investable remaining: ~$469 (if 3:15 PM adds positions)
+- NTSK: 4.446044 shares, entry $14.17, stop-loss $13.535, take-profit $15.44
+  Thesis: AI cybersecurity sector momentum (CIBR +0.43%, PANW +1.70% at 10 AM). +2.42% on day at session time. LOW CONVICTION — sector wave play only, no company-specific catalyst. Entry session: 3:15PM (July 14).
+
+- BLK: 0.068550 shares, entry ~$1,094, stop-loss ~$1,050, take-profit ~$1,182
+  Thesis: Q2 EPS beat today ($13.91 vs $12.59 expected, +10.5%). Largest asset manager; $158.9B market cap. Financials sector supportive (XLF +0.42%). Entry session: 10AM (July 15).
+
+Settled cash remaining: ~$537.74
+Total account value: ~$827
+Portfolio invested: ~35% (GS ~$74 + OKTA ~$76 + NTSK ~$65 + BLK ~$75 = ~$290)
+75% cap → max investable remaining: ~$330 (if 3:15 PM adds positions)
+
+---
+
+NOTES FOR 3:15 PM AGENT (July 15, 2026):
+
+1. GS STOP/TP: Entry $1,130.01. Stop $1,082.00. TP $1,226.00. At 10 AM: $1,138.63.
+   - If ≥ $1,226: sell (take-profit).
+   - If ≤ $1,082: sell (stop-loss).
+   - Trail stop to $1,130 (breakeven) if GS above $1,155 at 3:15 PM.
+
+2. OKTA STOP/TP: Entry $154.24. Stop $148.24. TP $165.22. At 10 AM: $152.38 (BELOW ENTRY).
+   ⚠️ WATCH CLOSELY. Underperforming CRWD/PANW/ZS at 10 AM.
+   - If ≥ $165.22: sell (take-profit).
+   - If ≤ $148.24: sell (stop-loss). Hard exit.
+   - If still below $152 AND underperforming cybersecurity peers at 3:15 PM → consider discretionary exit.
+   - Trail stop to $153.90 if above $159 at 3:15 PM.
+
+3. NTSK STOP/TP: Entry $14.17. Stop $13.535. TP $15.44. At 10 AM: $14.615 (+3.14%).
+   LOW CONVICTION. Exit discretionary if AI security sector broadly fades by 3:15 PM.
+   - If ≥ $15.44: sell (take-profit).
+   - If ≤ $13.535: sell (stop-loss).
+   - Trail stop to $14.17 (breakeven) if NTSK above $14.80 at 3:15 PM.
+
+4. BLK STOP/TP: Entry ~$1,094. Stop ~$1,050. TP ~$1,182. NEW POSITION (July 15).
+   Q2 earnings beat today. Overnight hold only if banking/financials sector still constructive at close.
+   - If ≥ $1,182: sell (take-profit).
+   - If ≤ $1,050: sell (stop-loss).
+   - If fades below entry by 3:15 PM with volume drying up: consider discretionary exit.
+
+5. BUYING POWER: ~$537.74 settled cash. Account ~$827. 75% cap → ~$330 more investable.
+
+6. MARKET REGIME (at 10 AM): SPY +0.40%. Check at 3:15 PM — if SPY falls to -1%, regime gate triggers (no new overnight buys).
+
+7. MACRO: PPI June -0.3% MoM (cooler than expected). MS beat Q2 (record results). Banking sector fully swept.
 
 ---
 
