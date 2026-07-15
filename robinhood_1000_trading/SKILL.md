@@ -94,57 +94,65 @@ Only 0 closed trades logged so far — need at least 5 for meaningful analysis. 
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-Last updated: 2026-07-14 (~3:25 PM ET — 3:15 PM session complete)
+Last updated: 2026-07-15 (~3:25 PM ET — 3:15 PM session complete)
 
 Open positions held overnight (3 total):
 
 - GS: 0.064601 shares, entry $1,130.01, stop-loss $1,082.00, take-profit $1,226.00
-  vs entry at close: +0.36% ($1,134.13) | Overnight flag: YES
-  Thesis: Q2 2026 massive EPS beat ($20.98 vs $14.54 consensus, +44%); all 5 major banks beat today. IBM -25% collapse reinforces GS investment banking pipeline. Banking sector tailwind into earnings season. Entry session: 10AM.
-  - If GS ≥ $1,226 at 10 AM: sell immediately (take-profit). Lock ~8.5% gain.
+  Close ~$1,147.58 | vs entry: +1.55% | Overnight flag: YES
+  Thesis: Q2 2026 EPS beat ($20.98 vs $14.54 consensus, +44%); all 5 major banks beat Q2. Banking sector sweep complete. MS also reported record Q2 today (equities trading $6.3B). No binary events overnight. Entry session: 10AM.
+  - If GS ≥ $1,226 at 10 AM: sell immediately (take-profit).
   - If GS ≤ $1,082 at 10 AM: sell immediately (stop-loss). Hard exit.
-  - Trail stop to $1,130 (breakeven) or recent intraday support if GS trades above $1,155 (+2% from entry) at 10 AM.
+  - Trail stop to $1,130 (breakeven) if GS trades above $1,152.61 (+2% from entry) at 10 AM.
 
-- OKTA: 0.499222 shares, entry $154.24 (live avg cost), stop-loss $148.24, take-profit $165.22
-  vs entry at close: +0.05% ($154.32) | Overnight flag: YES
-  Thesis: Scotiabank upgraded to Outperform $165 PT + KeyBanc raised PT to $175 (both July 14); AI agent identity security theme strong with CRWD +11.5% sector wave; 23 analysts revised estimates upward. Closed ABOVE $154 — full confidence hold per 2 PM monitor. Entry session: 12PM.
-  - If OKTA ≥ $165.22 at 10 AM: sell immediately (take-profit). Lock ~7.4% gain.
-  - If OKTA ≤ $148.24 at 10 AM: sell immediately (stop-loss). Hard exit.
-  - Trail stop to $153.90 (near breakeven) if OKTA trades above $159 at 10 AM.
+- BLK: 0.068552 shares, entry $1,094.06, stop-loss $1,050.00, take-profit $1,182.00
+  Close ~$1,086.62 | vs entry: -0.68% | Overnight flag: YES
+  Thesis: Q2 2026 EPS beat (+10.5% vs estimate, $13.91 vs $12.59); financials sector broadly strong; BLK up +5.96% on day on earnings pop. Faded from highs ($1,109.99) but thesis intact; stop at $1,050 provides $36.62 buffer. Entry session: 10AM (July 15).
+  - If BLK ≥ $1,182 at 10 AM: sell immediately (take-profit).
+  - If BLK ≤ $1,050 at 10 AM: sell immediately (stop-loss). Hard exit.
+  - Trail stop to $1,094 (breakeven) if BLK trades above $1,115.94 (+2% from entry) at 10 AM.
 
-- NTSK: 4.446010 shares, entry ~$14.17 (market order filled ~3:25 PM ET), stop-loss $13.535, take-profit $15.44
-  vs entry at close: flat (placed near close) | Overnight flag: YES
-  Thesis: AI security sector wave (CRWD +11.5%, OKTA +10.2%, S +6.2% today). Below-consensus June CPI + Russia state-sponsored cyber threat alert drove broad cybersecurity buying. Netskope rode the sector tailwind; low since 10 AM was $13.535 (within 5% of entry, qualifying per 12 PM modified volatility check). Entry session: 3:15PM.
-  - If NTSK ≥ $15.44 at 10 AM: sell immediately (take-profit).
-  - If NTSK ≤ $13.535 at 10 AM: sell immediately (stop-loss). Hard exit.
-  - ⚠️ LOWER CONVICTION: No company-specific NTSK catalyst — purely a sector wave play. If AI security sector fades at open or NTSK shows weakness on open, EXIT DISCRETIONARY regardless of stop. Dollar risk capped at $2.82 (4.446 × $0.635).
+- AAPL: 0.28821 shares, entry ~$327.50, stop-loss $317.32, take-profit $347.86
+  Close ~$327.50 | vs entry: flat (just entered) | Overnight flag: YES
+  Thesis: Apple Intelligence received Chinese regulatory approval (cyberspace regulator, July 15), integrating Alibaba's Qwen AI model. China = ~15% of Apple sales; Q2 China shipments already +24.4% YoY before this approval — unlocks structural new revenue from 1.4B consumer market. Stock hit 52-week all-time high of $328.70 at 3:05 PM ET, closed in 93rd percentile of day range at $327.50. No binary events — next earnings July 30. Entry session: 3:15PM.
+  - If AAPL ≥ $347.86 at 10 AM: sell immediately (take-profit).
+  - If AAPL ≤ $317.32 at 10 AM: sell immediately (stop-loss). Hard exit.
+  - Trail stop to $327.50 (breakeven) if AAPL trades above $337.86 (+3.2% from entry) at 10 AM.
 
-Sells executed at 3:15 PM: NONE
+Sells executed at 3:15 PM (1 total):
+- OKTA: 0.499222 shares sold at market ~$151.00
+  Reason: Discretionary exit — below $152 at 3:15 PM AND underperforming 2/3 cybersecurity peers (CRWD -1.99%, PANW +0.66% vs OKTA -2.10%). Intraday low today was $148.60, only $0.36 from hard stop. Position too fragile for overnight hold.
+  P&L: ~-$1.62 (-2.10% vs entry $154.24). Proceeds ~$75.27 UNSETTLED (settle July 16).
 
-Settled cash remaining: $612.74 (was $675.74; $63.00 deployed to NTSK)
-Total account value: ~$826
-Portfolio invested: ~25.8% (GS ~$73 + OKTA ~$77 + NTSK ~$63 = ~$213)
-75% cap → max investable remaining: ~$406
+Settled cash remaining: ~$443.35
+Unsettled (settle July 16): ~$136.98 (NTSK ~$61.71 + OKTA ~$75.27)
+Total account value: ~$823 (GS ~$74 + BLK ~$74 + AAPL ~$94 + settled $443 + unsettled $137)
+Portfolio invested: ~29.5% (well under 75% cap)
+75% cap → max additional investable: ~$374 (using settled cash only)
 
 ---
 
-NOTES FOR 10:00 AM AGENT (July 15, 2026):
+NOTES FOR 10:00 AM AGENT (July 16, 2026):
 
-1. **MS EARNINGS TONIGHT**: Morgan Stanley reported Q2 earnings AFTER CLOSE on July 14. Check MS result at 10 AM — positive MS reinforces banking/GS hold thesis; a miss could signal sector rotation risk heading into GS hold decision.
+1. **AAPL CRITICAL — OVERNIGHT THESIS**: Apple Intelligence China approval is the fresh catalyst (announced July 15). Alibaba Qwen AI model integration into iOS/macOS. AAPL closed at 52-week high $327.50. Check premarket closely — if gap up touches $347.86 before open, sell immediately (0.28821 shares, market order). If gap DOWN to $317.32 or below, sell immediately (stop breach). Otherwise hold for the China momentum to extend.
 
-2. **GS STOP/TP**: Entry $1,130.01. Close $1,134.13. Stop $1,082 (4.6% buffer). TP $1,226 (8.1% away). Trail stop to $1,130 if GS above $1,155 at 10 AM. GS already reported Q2 — no binary events tonight. Banking sector broadly strong.
+2. **GS STOP/TP**: Entry $1,130.01. Close ~$1,147.58 (+1.55%). Stop $1,082 (5.7% buffer). TP $1,226 (6.8% away). Trail stop to $1,130 (breakeven) if GS above $1,152.61 at 10 AM. Banking sector fully swept Q2 — no new binary events. Strong overnight hold.
 
-3. **OKTA STOP/TP**: Live avg entry $154.24. Close $154.32. Stop $148.24 (3.9% buffer). TP $165.22 (7.1% away). Trail stop to $153.90 if above $159 at 10 AM. Dual analyst upgrades (Scotiabank $165 + KeyBanc $175 PT) remain fresh catalysts. AI identity security theme intact.
+3. **BLK STOP/TP**: Entry $1,094.06. Close ~$1,086.62 (-0.68%). Stop $1,050 (3.4% buffer). TP $1,182 (8.8% away). Trail stop to $1,094 (breakeven) if BLK above $1,115.94 at 10 AM. BLK up +5.96% on day from Q2 beat but faded from highs. Watch if financials broadly continue or rotate. Earnings catalyst already absorbed — pure price action at open matters.
 
-4. **NTSK STOP/TP**: Entry ~$14.17. Stop $13.535 (4.5% below entry). TP $15.44 (9.0% above entry). LOW CONVICTION position — if NTSK opens below $14.00 or AI security sector is broadly flat/down at 10 AM, sell discretionary. Only hold if sector maintains momentum from July 14.
+4. **OKTA EXITED**: Sold discretionary at ~$151.00 (-2.10%). Cybersecurity sector broadly weak (CRWD -2%, ZS -2.8%) and OKTA nearly hit its hard stop ($148.24) during the session with intraday low $148.60. Exit protected from further downside.
 
-5. **CYBERSECURITY SECTOR WATCH**: CRWD and OKTA led the day (+11.5% and +10.2%). Key overnight questions: (1) Does the Russia state-sponsored cyber threat alert sustain security spending narrative? (2) Does below-consensus CPI keep growth/tech bid alive? Check CIBR or BUG ETF at 10 AM for sector health.
+5. **BUYING POWER**: ~$443.35 settled cash at open July 16. Additional ~$136.98 unsettled (NTSK + OKTA proceeds settle July 16 — should be available as cash by 10 AM). Total spendable ~$580 if both batches clear settlement. Confirm buying power from Robinhood before using.
 
-6. **IRAN BLOCKADE**: Blockade officially began 4 PM ET July 14. Crude prices may gap overnight. If oil spikes >5% by 10 AM and energy volume finally meets 1.5x threshold, energy may qualify as new buys. XOM, MPC, VLO relevant. But check actual volumes — sector has failed the 1.5x filter repeatedly.
+6. **APPLE INTELLIGENCE SECTOR READ-THROUGH**: Check BABA and BIDU premarket — both are Apple Intelligence China partners (Qwen/Baidu AI). Strong premarket in these confirms overnight thesis continuation for AAPL. MU was down -8% today on China chip competition fears — unrelated to AAPL's consumer AI business.
 
-7. **BUYING POWER**: $612.74 settled cash. Account ~$826 total. 75% cap → max new investable ~$406 (after current $213 invested).
+7. **MARKET REGIME**: SPY +0.255% at close (normal). QQQ -0.495% (slight weakness). Technology sector led (+1.29%). No macro headwinds except QQQ mild softness. CPI June -0.3% MoM (cool) — inflation not a concern.
 
-8. **REGIME CHECK**: SPY ended +0.39% on July 14 (normal regime). Check SPY at 10 AM July 15. If SPY down >1%, regime gate triggers (no new buys, may hold winners).
+8. **PYPL**: Stripe + Advent International bid $60.50/share (~$53B) still open; board has NOT accepted. Binary event — do NOT buy. PYPL up 17% on the bid news today but disqualified.
+
+9. **UAL earnings tonight** (July 15 after close) — 97% implied probability of beat (prediction markets). If UAL beats with strong guidance, airline/travel sector momentum could emerge as a new buy candidate at 10 AM July 16. Check UAL result before screening.
+
+10. **Polygon aggregates API**: Has been returning invalid API key errors all day (confirmed across 10 AM, 12 PM, and 3:15 PM sessions). Use Robinhood equity historicals for intraday data until resolved.
 
 ---
 
