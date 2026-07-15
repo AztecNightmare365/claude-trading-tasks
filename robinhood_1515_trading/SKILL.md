@@ -49,134 +49,75 @@ Notes for 10:00 AM agent (June 25, 2026):
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. -->
 
-Last updated: 2026-07-15 (~10:15 AM ET — 10 AM session complete)
+Last updated: 2026-07-15 (~12:11 PM ET — 12 PM reassessment complete)
 
-Open positions: 4
+Open positions: 3
 
 - GS: 0.064601 shares, entry $1,130.01, stop-loss $1,082.00, take-profit $1,226.00
-  Thesis: Q2 2026 massive EPS beat ($20.98 vs $14.54 consensus +44%); all 5 major banks beat; MS also beat Q2 today (EPS $3.46 vs $2.94 record results). Banking sweep intact. Entry session: 10AM.
+  Current ~$1,136.83 (+0.60% vs entry, -0.28% on day). Stop trail NOT triggered (need +2% from entry = $1,152.61).
+  Thesis: Q2 2026 EPS beat ($20.98 vs $14.54 consensus +44%); all 5 major banks beat; banking sweep intact. Entry session: 10AM.
 
 - OKTA: 0.499222 shares, entry $154.24, stop-loss $148.24, take-profit $165.22
-  Thesis: Scotiabank upgraded to Outperform $165 PT + KeyBanc raised PT to $175 (July 14). AI identity security theme supported (CIBR +0.43% today).
-  ⚠️ NOTE: OKTA at $152.38 at 10 AM — below entry by 1.21%, underperforming peers (CRWD +0.37%, PANW +1.70%). Not at stop. Dual upgrades intact. Monitor closely at 3:15 PM. Entry session: 12PM.
+  Current ~$151.10 (-2.04% vs entry, -2.27% on day). Only $2.86 above hard stop (1.9% buffer).
+  ⚠️ WATCH CLOSELY: Weakest cybersecurity peer at noon (CRWD -0.69%, PANW +1.64%, ZS -1.04%, OKTA -2.27%). QQQ -0.89%.
+  Thesis: Scotiabank upgraded to Outperform $165 PT + KeyBanc raised PT to $175 (July 14). Analyst thesis intact — no new negative OKTA news at noon.
+  Entry session: 12PM (July 14). Overnight flag: YES (per 12 PM July 14 agent).
 
-- NTSK: 4.446044 shares, entry $14.17, stop-loss $13.535, take-profit $15.44
-  Thesis: AI cybersecurity sector momentum (CIBR +0.43%, PANW +1.70% at 10 AM). +2.42% on day at session time. LOW CONVICTION — sector wave play only, no company-specific catalyst. Entry session: 3:15PM (July 14).
+- BLK: 0.068552 shares, entry $1,094.06, stop-loss $1,050.00, take-profit $1,182.00
+  Current ~$1,098.46 (+0.40% vs entry, +7.12% on day). Stop trail NOT triggered (need +2% from entry = $1,115.94).
+  Thesis: Q2 EPS beat today ($13.91 vs $12.59 expected, +10.5%). Largest asset manager; $158.9B market cap. Financials supportive. Entry session: 10AM (July 15).
 
-- BLK: 0.068550 shares, entry ~$1,094, stop-loss ~$1,050, take-profit ~$1,182
-  Thesis: Q2 EPS beat today ($13.91 vs $12.59 expected, +10.5%). Largest asset manager; $158.9B market cap. Financials sector supportive (XLF +0.42%). Entry session: 10AM (July 15).
+Settled cash remaining: ~$537.74 (NTSK proceeds ~$61.71 unsettled, settle July 16)
+Total account value: ~$823
+Portfolio invested: ~27% (GS ~$73 + OKTA ~$75 + BLK ~$75 = ~$223)
+75% cap → max additional investable: ~$394 (limited by settled cash $537.74)
 
-Settled cash remaining: ~$537.74
-Total account value: ~$827
-Portfolio invested: ~35% (GS ~$74 + OKTA ~$76 + NTSK ~$65 + BLK ~$75 = ~$290)
-75% cap → max investable remaining: ~$330 (if 3:15 PM adds positions)
+---
+
+WHAT HAPPENED (12 PM session, July 15, 2026):
+
+NTSK SOLD (discretionary): 4.446044 shares at market ~$13.88/share. P&L: -$1.29 (-2.05%). Entry $14.17 (3:15 PM July 14). Exit reason: Morning momentum completely reversed — was +3.14% vs entry at 10 AM, faded to -2.05% by noon. Low conviction sector wave play, no company-specific catalyst. AI cybersecurity broadly weak (QQQ -0.89%).
+
+No new positions opened. Polygon aggregates API error (invalid API key) prevented verification of required filters (VWAP, relative volume >= 1.5x, 5-min trend). PYPL disqualified (pending Stripe/Advent M&A binary event — board has not accepted $60.50 bid). 35+ raw candidates screened.
+
+Market regime: SPY -0.003% (flat, normal). QQQ -0.89% (caution range — factored into conservatism).
 
 ---
 
 NOTES FOR 3:15 PM AGENT (July 15, 2026):
 
-1. GS STOP/TP: Entry $1,130.01. Stop $1,082.00. TP $1,226.00. At 10 AM: $1,138.63.
-   - If ≥ $1,226: sell (take-profit).
-   - If ≤ $1,082: sell (stop-loss).
-   - Trail stop to $1,130 (breakeven) if GS above $1,155 at 3:15 PM.
+1. GS STOP/TP: Entry $1,130.01. Stop $1,082.00. TP $1,226.00. At noon: $1,136.83.
+   - If >= $1,226: sell (take-profit).
+   - If <= $1,082: sell (stop-loss).
+   - Trail stop to $1,130 (breakeven) if GS above $1,155 at 3:15 PM (+2% from entry).
+   - Banking sector strong (all 5 major banks beat Q2). Strong overnight hold candidate.
 
-2. OKTA STOP/TP: Entry $154.24. Stop $148.24. TP $165.22. At 10 AM: $152.38 (BELOW ENTRY).
-   ⚠️ WATCH CLOSELY. Underperforming CRWD/PANW/ZS at 10 AM.
-   - If ≥ $165.22: sell (take-profit).
-   - If ≤ $148.24: sell (stop-loss). Hard exit.
-   - If still below $152 AND underperforming cybersecurity peers at 3:15 PM → consider discretionary exit.
-   - Trail stop to $153.90 if above $159 at 3:15 PM.
+2. OKTA STOP/TP: Entry $154.24. Stop $148.24. TP $165.22. At noon: $151.10.
+   ⚠️ CRITICAL: If STILL BELOW $152 AND underperforming cybersecurity peers at 3:15 PM → DISCRETIONARY EXIT (per 10 AM handoff instructions).
+   - If >= $165.22: sell (take-profit).
+   - If <= $148.24: sell (stop-loss). HARD EXIT — do not hesitate.
+   - If below $150 at 3:15 PM: strong discretionary exit signal (only $1.76 from hard stop).
+   - Trail stop to $153.90 (breakeven) if above $159 at 3:15 PM.
+   - PANW +1.64% at noon suggests cybersecurity theme not dead — evaluate peers at 3:15 PM.
 
-3. NTSK STOP/TP: Entry $14.17. Stop $13.535. TP $15.44. At 10 AM: $14.615 (+3.14%).
-   LOW CONVICTION. Exit discretionary if AI security sector broadly fades by 3:15 PM.
-   - If ≥ $15.44: sell (take-profit).
-   - If ≤ $13.535: sell (stop-loss).
-   - Trail stop to $14.17 (breakeven) if NTSK above $14.80 at 3:15 PM.
+3. BLK STOP/TP: Entry $1,094.06. Stop $1,050.00. TP $1,182.00. At noon: $1,098.46.
+   Strong Q2 earnings beat (+10.5% EPS vs estimate). +7.12% on day at noon.
+   - If >= $1,182: sell (take-profit).
+   - If <= $1,050: sell (stop-loss).
+   - Trail stop to $1,094 (breakeven) if BLK above $1,115.94 at 3:15 PM (+2% from entry).
+   - Strong overnight hold candidate if financials sector remains constructive at close.
 
-4. BLK STOP/TP: Entry ~$1,094. Stop ~$1,050. TP ~$1,182. NEW POSITION (July 15).
-   Q2 earnings beat today. Overnight hold only if banking/financials sector still constructive at close.
-   - If ≥ $1,182: sell (take-profit).
-   - If ≤ $1,050: sell (stop-loss).
-   - If fades below entry by 3:15 PM with volume drying up: consider discretionary exit.
+4. BUYING POWER: ~$537.74 settled cash. Account ~$823. 75% cap -> ~$394 more investable.
+   NTSK proceeds (~$61.71) unsettled today, settle July 16. Do not use as buying power today.
 
-5. BUYING POWER: ~$537.74 settled cash. Account ~$827. 75% cap → ~$330 more investable.
+5. MARKET REGIME at noon: SPY -0.003% (flat, normal). QQQ -0.89% (caution range).
+   Check at 3:15 PM: if SPY falls to -1%, regime gate triggers (no new overnight buys).
 
-6. MARKET REGIME (at 10 AM): SPY +0.40%. Check at 3:15 PM — if SPY falls to -1%, regime gate triggers (no new overnight buys).
+6. PYPL: Stripe + Advent International bid $60.50/share (~$53B). Board NOT accepted — binary event. Do NOT buy. Stock at ~$54.92 (+15.95%). Could gap down sharply if deal rejected.
 
-7. MACRO: PPI June -0.3% MoM (cooler than expected). MS beat Q2 (record results). Banking sector fully swept.
+7. NTSK EXITED at 12 PM. Proceeds ~$61.71 unsettled (settle July 16).
 
----
-
-WHAT HAPPENED (12 PM session, July 14, 2026):
-
-GS held: -0.46% vs entry ($1,124.82 vs $1,130.01), stop at $1,082 not triggered, stop trail not triggered (requires +2% from entry). Well within range.
-
-OKTA bought: $77 market order (0.500320 shares @ $153.90). Stop $148.24, TP $165.22. Overnight YES.
-
-Broad market at noon: SPY +0.16% (normal regime, no gate). QQQ +0.96% (tech continuing higher on CPI relief). Iran blockade begins 4 PM ET — energy still not clearing 3%+ with 1.5x volume.
-
-35+ candidates screened. Only OKTA passed all filters (S and NTSK failed 4% volatility cap by small margin; CRWD failed relative volume; TSEM failed volatility cap; SKHY is ADR; NTAP/AMD/SHLS below relative volume threshold; crypto miners fading from opens).
-
----
-
-NOTES FOR 3:15 PM AGENT (July 14, 2026):
-
-1. GS STOP/TP CHECK: At 3:15 PM check GS vs stop $1,082 and TP $1,226. Entry $1,130.01.
-   - If GS ≥ $1,226: sell (take-profit). Lock ~8.5% gain.
-   - If GS ≤ $1,082: sell (stop-loss). Hard exit.
-   - If between: Evaluate for overnight hold. Banking sector tone broadly positive (all 5 major banks beat Q2). Strong hold candidate if still above $1,100 and trending up at close.
-   - If GS is above $1,155 at 3:15 PM (+2% from entry), TRAIL STOP up to entry $1,130 or recent intraday support (higher of the two).
-
-2. OKTA STOP/TP CHECK: At 3:15 PM check OKTA vs stop $148.24 and TP $165.22. Entry $153.90. Overnight flag: YES.
-   - If OKTA ≥ $165.22: sell (take-profit). Lock ~7.4% gain.
-   - If OKTA ≤ $148.24: sell (stop-loss). Hard exit.
-   - If between: Overnight hold is STRONGLY supported — dual analyst upgrades ($165 + $175 PT), no earnings tonight, AI security narrative has legs. Hold if still above $151+ at close.
-   - Trail stop to $153.90 (breakeven) if OKTA trades above $159+ at 3:15 PM (+2% from $153.90 entry).
-
-3. ENERGY SECTOR — CRITICAL AT 3:15 PM: Iran blockade begins 4 PM ET today. If XOM, MPC, VLO clear 1.5x relative volume AND 3%+ at 3:15 PM, they are valid overnight candidates (5% overnight stop rule is slightly more permissive than 4% intraday). This is a binary, clearly-dated catalyst — blockade holds or breaks overnight.
-
-4. AI SECURITY WAVE: CRWD +9%, OKTA +10% today. SentinelOne (S) and Netskope (NTSK) failed 4% intraday volatility cap at noon but may compress by 3:15 PM. If S intraday low since 10 AM has risen above $19.24 (within 5% of $20), it becomes a valid overnight candidate (5% overnight rule). Same check for NTSK: if low since 10 AM is above $13.47 (within 5% of $14.17), evaluate.
-
-5. IBM: Do not buy. -24% earnings miss. Enterprise software headwind (ORCL, MSFT, WDAY all down).
-
-6. BIIB: Do not buy. Phase 2 Diranersen miss.
-
-7. BUYING POWER: $675.74 settled cash. 75% cap → max additional investment ~$469 after GS+OKTA positions.
-
-8. MARKET REGIME: SPY +0.16% at noon. Check at 3:15 PM — if SPY falls below -1% by close, regime gate triggers (no new overnight buys, though existing positions may be held).
-
-1 PM monitor: all stops intact as of 1:00 PM ET. GS $1,125.73 (stop $1,082.00 / TP $1,226.00 — HOLD). OKTA $155.46 (stop $148.24 / TP $165.22 — HOLD). Portfolio sync: OKTA live 0.499222 shares @ $154.24 avg (handoff showed 0.500320 @ $153.90 — using live). No sells executed.
-
-2 PM monitor: all stops intact as of 2:10 PM ET. GS $1,127.69 (stop $1,082.00 / TP $1,226.00 — HOLD, 4.1% above stop, 8.7% below TP). OKTA $153.66 (stop $148.24 / TP $165.22 — HOLD, 3.5% above stop, 7.5% below TP). OKTA drifted from $155.46 (1 PM) → $153.66 — slight pullback, still well above stop. No NEAR STOP or NEAR TP flags. No sells executed.
-
----
-
-## 2 PM MONITOR NOTE (2026-07-14 ~2:10 PM ET)
-
-No sells executed. Both positions HOLD — stops and take-profits not triggered.
-
-**NEAR STOP flags**: None
-**NEAR TP flags**: None
-
-**Position status at 2 PM ET:**
-- GS: $1,127.69 (+7.80% vs prev close $1,045.91). Entry $1,130.01 (−0.21% vs entry). Stop $1,082.00 (4.1% buffer). TP $1,226.00 (8.7% away). Holding the earnings gap well. VWAP unavailable (Polygon API key error — use Robinhood historicals at 3:15 PM).
-- OKTA: $153.66 (+10.07% vs prev close $139.53). Live avg entry $154.24 (−0.38% vs live avg). Stop $148.24 (3.5% buffer). TP $165.22 (7.5% away). Slight pullback from 1 PM high of $155.46 — normal consolidation after strong open. VWAP unavailable (same API issue).
-
-**Broad market direction at 2 PM ET:**
-- SPY: $752.44 → **+0.44%** (positive regime, no gate concerns; dramatic reversal from yesterday's −0.71% close)
-- QQQ: $721.56 → **+1.38%** (strong tech/growth bid — directly aligned with OKTA's AI security thesis)
-
-**News since noon (July 14, 2026):**
-- GS: Motley Fool (1:01 PM ET) — "Goldman Sachs Saves the Dow From IBM's Worst Day in 39 Years." GS +7.4% on Q2 earnings beat, added 459 Dow points offsetting IBM's −24.9% collapse. Earnings thesis fully intact. No negative GS-specific news found.
-- OKTA: No new July 14 OKTA news. Dual analyst upgrade thesis (Scotiabank $165 PT + KeyBanc $175 PT from this morning) remains unchallenged. Pullback from $155.46 → $153.66 is likely normal profit-taking/consolidation after a 10%+ gap.
-- IBM: −24.9% on CEO profit warning (enterprise software budgets shifting to hardware). DOES NOT affect OKTA — OKTA is identity/cybersecurity, not IBM's software vertical. IBM weakness actually reinforces hardware/AI spend thesis (GS investment banking pipeline).
-
-**⚠️ NOTES FOR 3:15 PM AGENT:**
-- OKTA DRIFT: Slipped from $155.46 (1 PM) to $153.66 (2 PM), now slightly below live avg cost of $154.24. Watch close trend — if OKTA continues fading and is below $152 at 3:15 PM, re-evaluate overnight thesis (though stop at $148.24 is still the hard floor). Above $154 at 3:15 PM = full confidence hold.
-- GS STRONG: Holding $1,127+ with strong banking sector tailwind from Q2 earnings season (all 5 major banks beat). Strong overnight hold candidate if stays above $1,110.
-- REGIME GATE: SPY +0.44%, QQQ +1.38% — bullish backdrop. No regime gate concerns for new overnight buys.
-- ENERGY/IRAN BLOCKADE: Blockade begins 4 PM ET. Check XOM/MPC/VLO at 3:15 PM — if 1.5x relative volume AND 3%+ gain, valid overnight candidates per 12 PM note.
-- AI SECURITY: CRWD/OKTA both strong today. Check S (SentinelOne) — if intraday low since 10 AM above $19.24, it may qualify as overnight buy (per 12 PM note).
+8. MACRO: PPI June -0.3% MoM (cool). Banking sector Q2 fully swept. MS beat record results.
 
 ---
 PRE-CHECK — Market day verification
