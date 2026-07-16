@@ -47,85 +47,98 @@ Notes for 10:00 AM agent (June 25, 2026):
 ---
 
 ## HANDOFF FROM LAST 10 AM SESSION
-<!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. -->
+<!-- Updated by 12 PM reassessment agent. Last updated: 2026-07-16 (~4 PM ET — 12 PM session ran post-market). -->
 
-Last updated: 2026-07-16 (~10:20 AM ET — 10 AM session complete)
+Last updated: 2026-07-16 (~4 PM ET — 12 PM reassessment complete; session executed after market close)
 
-Open positions: 4
+Open positions: 4 (all held — no exits, no new buys)
 
 - BLK: 0.068552 shares, entry $1,094.06, stop-loss $1,050.00, take-profit $1,182.00
-  10 AM status: $1,106.31 (+1.12% vs entry). HOLD. Above stop, below TP. No trail triggered.
+  Close: $1,095.89 (+0.17% vs entry). HOLD. Above stop, below TP. Trail trigger $1,115.94 — not reached.
   Thesis: Q2 EPS beat (+10.5% vs estimate, $13.91 vs $12.59). Financials sector. Entry session: 10AM (July 15).
-  Trail stop: If BLK >= $1,115.94 at 3:15 PM → trail stop to $1,094.00 (breakeven).
+  Overnight hold flag: YES.
 
 - AAPL: 0.288213 shares, entry $327.50, stop-loss $317.32, take-profit $347.86
-  10 AM status: $330.13 (+0.80% vs entry). HOLD. Above stop, below TP. No trail triggered.
-  Thesis: Apple Intelligence China approval + Alibaba Qwen integration. Entry session: 3:15PM (July 15).
-  Trail stop: If AAPL >= $337.86 at 3:15 PM → trail stop to $327.50 (breakeven).
+  Close: $331.50 (+1.22% vs entry). HOLD. Above stop, below TP. Trail trigger $337.86 — not reached.
+  Thesis: Apple Intelligence China approval + Alibaba Qwen integration. Showed relative strength vs QQQ (-1.17%).
+  Entry session: 3:15PM (July 15). Overnight hold flag: YES.
 
-- RHI: 2.107870 shares, entry $40.23, stop-loss $38.77, take-profit $43.15
-  10 AM status: FRESHLY ENTERED ~10:15 AM. Consolidating above open at time of entry.
-  Thesis: Staffing sector momentum — MAN Q2 beat confirmed sustained workforce demand. Catalyst: sector_momentum.
-  Entry session: 10AM (July 16). Dollar risk: ~$3.08. No trail trigger defined.
+- RHI: 2.104745 shares, entry $40.29 (live fill), stop-loss $38.77, take-profit $43.15
+  Close: $40.97 (+1.67% vs entry). HOLD. Above stop, below TP. Trail trigger $41.10 — $0.13 short at close.
+  Thesis: Staffing sector momentum — MAN Q2 beat confirmed sustained workforce demand. Entry session: 10AM (July 16).
+  Note: RHI +11.63% from yesterday's close $36.70 — strong sector day. No earnings tonight.
+  Overnight hold flag: YES. Opened by 12 PM reassessment (confirmed hold from 10 AM).
 
-- CTAS: 0.489230 shares, entry $203.38, stop-loss $197.34, take-profit $215.46
-  10 AM status: FRESHLY ENTERED ~10:15 AM. Consolidating in $202.50-$204.50 range at time of entry.
-  Thesis: Cintas Q2 earnings beat — $1.29 vs $1.26 estimate (+2.4% surprise). Catalyst: earnings_beat.
-  Entry session: 10AM (July 16). Dollar risk: ~$2.95. No trail trigger defined.
+- CTAS: 0.488943 shares, entry $203.50 (live fill), stop-loss $197.34, take-profit $215.46
+  Close: $204.97 (+0.72% vs entry). HOLD. Above stop, below TP. No trail trigger defined.
+  Thesis: Cintas Q2 earnings beat — $1.29 vs $1.26 estimate (+2.4% surprise). Entry session: 10AM (July 16).
+  Note: CTAS +6.55% from yesterday's close $192.37. No earnings tonight.
+  Overnight hold flag: YES. Opened by 12 PM reassessment (confirmed hold from 10 AM).
 
-GS SOLD this morning (discretionary): 0.064601 sh at ~$1,116.56. P&L: -$0.87 (-1.19%). Gap-down exit (>3% below prior close). Fed hawkish shift news confirmed thesis no longer intact.
+GS SOLD this morning (discretionary, 10 AM session): 0.064601 sh at ~$1,116.56. P&L: -$0.87 (-1.19%). Gap-down exit. GS proceeds (~$72) UNSETTLED — settle July 17.
 
-Settled cash remaining: ~$395.93
-GS proceeds (~$72): UNSETTLED — settle July 17. Do NOT use as buying power today.
-Total account value: ~$823
-Portfolio invested: ~43% ($355 / $823)
-75% cap → max additional investable: ~$265
+Settled cash remaining: $395.93
+Unsettled cash: ~$72.05 (GS proceeds, settles July 17 — do NOT use as buying power today)
+Total account value: $825.27
+Portfolio invested: $357.29 (43.3% — well under 75% cap)
+75% cap → max additional investable: ~$261.66
 
 ---
 
-WHAT HAPPENED (10 AM session, July 16, 2026):
+WHAT HAPPENED (12 PM reassessment, July 16, 2026):
 
-GS SOLD (discretionary): 0.064601 shares at market ~$1,116.56/share. P&L: -$0.87 (-1.19%). Entry $1,130.01 (10AM July 15). Exit reason: Gapped down 3.72% at open (hard rule: >3% gap = exit). Fed hawkish pivot news (rate increase signals 2026) = macro headwind directly undercuts financials thesis.
+12 PM session executed after market close (~4 PM ET). Prices reflect end-of-day close values.
+No exits triggered — no stops hit, no TPs hit. No new buys placed (market closed at execution time).
+All four positions held with stops and take-profits unchanged from 10 AM session.
 
-RHI BOUGHT: 2.107870 shares at $40.23 (dollar order $84.80). Catalyst: MAN Q2 staffing beat confirms sector demand. Stop: $38.77 (30-min low, 3.5% below entry). TP: $43.15 (2× stop distance). Risk: $3.08.
+Trail stop analysis: No trail triggered.
+  BLK:  close $1,095.89 vs trigger $1,115.94 — not reached.
+  AAPL: close $331.50   vs trigger $337.86   — not reached (showing strength vs QQQ).
+  RHI:  close $40.97    vs trigger $41.10    — $0.13 short; watch for trail at open tomorrow.
+  CTAS: no trail trigger defined.
 
-CTAS BOUGHT: 0.489230 shares at $203.38 (dollar order $99.50). Catalyst: Cintas Q2 earnings beat ($1.29 vs $1.26). Stop: $197.34 (30-min low, 3.01% below entry). TP: $215.46 (2× stop distance). Risk: $2.95.
-
-Market regime at 10 AM: SPY -0.24% (normal — no gate). QQQ -0.31%.
+Market at close: SPY -0.25% (normal regime), QQQ -1.17% (moderate weakness).
 
 ---
 
 NOTES FOR 3:15 PM AGENT (July 16, 2026):
 
-1. BLK STOP/TP: Entry $1,094.06. Stop $1,050.00. TP $1,182.00. At 10 AM: $1,106.31 (+1.12% vs entry).
+NOTE: The 12 PM session ran post-market. Assess positions using current prices.
+
+1. BLK STOP/TP: Entry $1,094.06. Stop $1,050.00. TP $1,182.00.
+   Close: $1,095.89 (+0.17% vs entry). No change from 10 AM levels.
    - If >= $1,182: sell (take-profit).
    - If <= $1,050: sell (stop-loss).
-   - Trail stop to $1,094 (breakeven) if BLK above $1,115.94 at 3:15 PM (+2% from entry).
+   - Trail stop to $1,094.06 (breakeven) if BLK reaches $1,115.94 (+2% from entry).
 
-2. AAPL STOP/TP: Entry $327.50. Stop $317.32. TP $347.86. At 10 AM: $330.13 (+0.80% vs entry).
+2. AAPL STOP/TP: Entry $327.50. Stop $317.32. TP $347.86.
+   Close: $331.50 (+1.22% vs entry). Relative strength vs QQQ selloff — bullish overnight signal.
    - If >= $347.86: sell (take-profit).
    - If <= $317.32: sell (stop-loss).
-   - Trail stop to $327.50 (breakeven) if AAPL above $337.86 at 3:15 PM (+3.15% from entry).
+   - Trail stop to $327.50 (breakeven) if AAPL reaches $337.86 (+3.15% from entry).
 
-3. RHI STOP/TP: Entry $40.23. Stop $38.77. TP $43.15. Freshly entered this morning.
+3. RHI STOP/TP: Entry $40.29 (live fill). Stop $38.77. TP $43.15.
+   Close: $40.97 (+1.67% vs entry). Trail trigger at $41.10 — very close.
    - If >= $43.15: sell (take-profit).
    - If <= $38.77: sell (stop-loss).
-   - No trail trigger defined. No earnings tonight.
+   - Trail stop to $40.29 (breakeven) if RHI reaches $41.10 (+2% from entry).
+   - RHI up +11.63% from yesterday — strong sector momentum. No earnings tonight.
 
-4. CTAS STOP/TP: Entry $203.38. Stop $197.34. TP $215.46. Freshly entered this morning.
+4. CTAS STOP/TP: Entry $203.50 (live fill). Stop $197.34. TP $215.46.
+   Close: $204.97 (+0.72% vs entry).
    - If >= $215.46: sell (take-profit).
    - If <= $197.34: sell (stop-loss).
    - No trail trigger defined. No earnings tonight.
 
-5. BUYING POWER: ~$395.93 settled cash. Account ~$823. 75% cap → ~$265 more investable.
+5. BUYING POWER: $395.93 settled cash. Account $825.27. 75% cap → ~$261.66 more investable.
    GS proceeds (~$72) unsettled today, settle July 17. Do not use as buying power today.
 
-6. MARKET REGIME at 10 AM: SPY -0.24% (normal — no gate). QQQ -0.31%.
-   If SPY falls to -1% by 3:15 PM, regime gate triggers (no new overnight buys).
+6. MARKET AT CLOSE: SPY -0.25% (normal regime). QQQ -1.17% (moderate weakness).
+   AAPL showing relative strength vs QQQ — individual thesis intact. No macro emergency.
 
-7. GS exited this morning. Financials macro headwind: Fed officials signaling potential rate increases in 2026 (hawkish shift).
+7. No earnings tonight for RHI, CTAS. BLK and AAPL earnings already reported.
 
-8. No earnings tonight for RHI or CTAS. BLK and AAPL earnings already reported.
+8. GS exits (10 AM session) confirmed financials macro headwind: Fed officials signaling rate increases 2026.
 
 ---
 PRE-CHECK — Market day verification
