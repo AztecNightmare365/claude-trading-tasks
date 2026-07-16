@@ -14,74 +14,77 @@ Execute all steps in order, then place all orders simultaneously.
 ## PRE-MARKET BRIEF
 <!-- Updated by the 9:15 AM pre-market agent. Read before Step 1. -->
 
-**Generated: 2026-07-15 ~9:15 AM ET**
+**Generated: 2026-07-16 ~9:17 AM ET**
 
 ---
 
 ### OVERNIGHT POSITIONS: 3 HELD
 
-| Ticker | Shares | Entry | Stop | TP | Pre-Mkt Price | vs Jul 14 Close | Flag |
+| Ticker | Shares | Entry | Stop | TP | Pre-Mkt Price | vs Jul 15 Close | Flag |
 |--------|--------|-------|------|-----|--------------|----------------|------|
-| GS | 0.064601 | $1,130.01 | $1,082.00 | $1,226.00 | ~$1,140.00 | +$5.87 (+0.52%) | **ON TRACK** |
-| OKTA | 0.499222 | $154.24 | $148.24 | $165.22 | ~$154.62 | +$0.30 (+0.19%) | **ON TRACK** |
-| NTSK | 4.446010 | $14.17 | $13.535 | $15.44 | ~$14.27 | +$0.10 (+0.70%) | **ON TRACK** ⚠️ LOW CONVICTION |
+| GS | 0.064601 | $1,130.01 | $1,082.00 | $1,226.00 | ~$1,143.06 | -$9.01 (-0.78%) | **ON TRACK** |
+| BLK | 0.068552 | $1,094.06 | $1,050.00 | $1,182.00 | ~$1,101.70 | +$8.30 (+0.76%) | **ON TRACK** |
+| AAPL | 0.28821 | $327.50 | $317.32 | $347.86 | ~$328.52 | +$1.02 (+0.31%) | **ON TRACK** |
 
-> **Cash remaining**: $612.74 settled. Total account ~$826. 75% cap → max new investable ~$406.
+> **Cash remaining**: ~$443.35 settled (+ ~$136.98 unsettled settling today, July 16). Total account ~$823.
 
 ---
 
 ### POSITION DETAIL
 
 **GS — ON TRACK**
-Pre-market ~$1,140 (+0.52% vs July 14 close of $1,134.13). Stop $1,082 is 5.1% below current pre-market price — ample buffer. TP $1,226 is 7.5% away. **Thesis intact and strengthening**: GS Q2 2026 EPS confirmed at $20.98 vs $14.91 consensus (+40.7% beat), revenue $20.34B vs $16.6B expected. Banking sector broadly strong (JPM, WFC, BAC, C all beat July 14). Morgan Stanley filed an 8-K today (July 15, likely Q2 earnings) — check the result at 10 AM; a positive MS report further reinforces banking tailwind for GS hold. No adverse news overnight. **Trail stop to $1,130 (breakeven) if GS is above $1,155 at 10 AM.**
+Pre-market ~$1,143.06 (-0.78% vs July 15 close of $1,152.07; bid/ask $1,143/$1,146). Stop $1,082 is 5.6% below current pre-market price — ample buffer. TP $1,226 is 7.1% away. **Thesis intact**: Q2 2026 EPS $20.98 beat (+40.7% vs consensus $14.48) remains in force. Multiple analyst PT raises on July 16: BMO Capital $1,190, Barclays $1,245, Wells Fargo $1,325 (all above current price). One cautious note: Citizens reiterated Market Perform, warning "massive rally may limit future upside" after GS hit 52-week high ($1,153.99 intraday yesterday) — minority view, not a thesis breaker. Mild pre-market pullback from a 52-week high is normal consolidation. Banking sector catalyst fully absorbed; now pure price action. **Trail stop to $1,130 (breakeven) if GS is above $1,152.61 at 10 AM.**
 
-**OKTA — ON TRACK**
-Pre-market ~$154.62 (+0.19% vs July 14 close of $154.32). Stop $148.24 is 4.1% below current price — adequate buffer. TP $165.22 is 6.8% away. **Thesis intact**: Scotiabank upgrade to Outperform ($165 PT) and KeyBanc PT raise to $175 from July 14 remain fresh. AI identity security theme supported by QQQ +1.12% pre-market. No adverse news from Polygon news scan (most recent OKTA-specific coverage is from May-June 2026 — strong earnings beat and 52-week high). No material negative developments overnight. **Trail stop to $153.90 (near breakeven) if OKTA is above $159 at 10 AM.**
+**BLK — ON TRACK**
+Pre-market ~$1,101.70 (+0.76% vs July 15 close of $1,093.40; bid/ask $1,096/$1,102.68). Now above entry $1,094.06 (+0.70%). Stop $1,050 is 4.9% below current price — adequate buffer. TP $1,182 is 7.3% away. **Thesis strengthening**: Q2 EPS beat ($13.91 vs $12.57) already absorbed on July 15; July 16 brings a new catalyst — BlackRock is expanding into tokenized ETFs and Treasury funds, citing potential to bring investment products directly into digital wallets and dramatically expand addressable market. AUM record $15.3T confirmed. Pre-market bid/ask is tight ($1,096/$1,102.68), suggesting orderly trading. **Trail stop to $1,094 (breakeven) if BLK is above $1,115.94 at 10 AM.**
 
-**NTSK — ON TRACK (LOW CONVICTION — WATCH CLOSELY)**
-Pre-market ~$14.27 (+0.70% vs entry of $14.17, entered near July 14 close). Stop $13.535 is 5.2% below current price. TP $15.44 is 8.2% away. **No company-specific NTSK catalyst overnight** — purely an AI cybersecurity sector wave play. Sector is holding (QQQ +1.12% pre-market). Key decision at 10 AM: if NTSK shows weakness at open or AI security sector (CRWD, PANW, ZS) is broadly flat/down, **EXIT DISCRETIONARY regardless of stop** per handoff instructions. Dollar risk capped at $2.82 (4.446 × $0.635).
+**AAPL — ON TRACK**
+Pre-market ~$328.52 (+0.31% vs July 15 close of $327.50; bid/ask $328.53/$328.60). Stop $317.32 is 3.5% below current price — adequate buffer. TP $347.86 is 5.9% away. **Thesis intact**: Apple Intelligence China regulatory approval (Alibaba Qwen) confirmed and intact; AAPL is showing relative strength (+0.31%) vs QQQ (-0.81% pre-market) — a constructive sign that the China AI thesis is holding vs broader tech weakness. Additional July 16 catalyst: Apple is exploring acquisitions of AI chip companies for server processors (positive AI investment signal). Bid/ask is extremely tight ($328.53/$328.60). Caution: AAPL's intraday low on July 15 was exactly $317.32 — the stop was touched at the lows. Today's pre-market gain suggests that was the floor. **Trail stop to $327.50 (breakeven) if AAPL is above $337.86 at 10 AM.**
 
 ---
 
-### MACRO CONTEXT (pre-market July 15, 2026)
+### MACRO CONTEXT (pre-market July 16, 2026)
 
-| Index | Jul 14 Close | Pre-Mkt Price | Change% vs Jul 14 |
+| Index | Jul 15 Close | Pre-Mkt Price | Change% vs Jul 15 |
 |-------|-------------|--------------|-------------------|
-| SPY | $749.17 | ~$751.83 | **+0.36%** |
-| QQQ | $711.72 | ~$719.71 | **+1.12%** |
+| SPY | $754.81 | ~$752.85 | **-0.26%** |
+| QQQ | $717.74 | ~$711.91 | **-0.81%** |
 
-**Regime gate: CLEAR** — SPY +0.36% pre-market, normal regime, new buys allowed if candidates qualify.
+**Regime gate: CLEAR** — SPY -0.26% pre-market, within normal range (gate triggers at -1%+). Mild giveback after strong two-day rally. QQQ -0.81% reflects chip sector pressure. Not a risk-off regime — new buys remain allowed if candidates qualify, but require a strong catalyst given the slight headwind.
 
 ---
 
-### KEY OVERNIGHT DEVELOPMENTS — READ CAREFULLY
+### KEY OVERNIGHT/PRE-MARKET DEVELOPMENTS — READ CAREFULLY
 
-**1. 🏦 MORGAN STANLEY Q2 EARNINGS — 8-K FILED TODAY (CHECK BEFORE ACTING)**
-Morgan Stanley filed an 8-K on July 15 (today), strongly suggesting they reported Q2 2026 earnings before the open. Specific EPS and revenue figures not yet confirmed. **Check MS price at 10 AM**: a positive MS result reinforces the banking sector tailwind for GS. A miss or guidance cut would create sector rotation risk — consider trailing GS stop tighter if MS is down more than 2% at open.
+**1. 📊 PPI DATA EXPECTED TODAY (JULY 16)**
+June PPI release expected this morning. Investors are pausing ahead of it; Polymarket implies only 37% probability of an up open. If PPI comes in hotter than expected, watch for rate-hike chatter — could pressure GS (rate-sensitive financials) and BLK (AUM/fee sensitivity). If in line or cool, continuation rally likely. Check PPI print and market reaction before evaluating new buys.
 
-**2. ✅ BANKING SECTOR: ALL MAJOR BANKS BEAT Q2 2026 (CONFIRMED)**
-GS: EPS $20.98 vs $14.91 est (+40.7%) | JPM: $6.14 vs $5.91 | WFC: $2.00 vs $1.74 (+15%) | BAC: $1.21 vs $1.14 | C: $3.15 vs $2.80. This is a clean sector sweep — GS thesis strongly intact. IBM missed Q2 and fell 24.9%, but that is software/hardware rotation, not banking contagion.
+**2. 📉 CHIP STOCKS UNDER PRESSURE PRE-MARKET**
+Broader semiconductor/tech weakness in pre-market; QQQ -0.81%. AAPL is diverging positively (+0.31%) due to its AI chip acquisition news, but general tech sector is soft. This is relevant context for any new buy candidates in tech/chips.
 
-**3. 🛢️ IRAN-HORMUZ BLOCKADE OFFICIALLY ACTIVE (AS OF 4 PM ET JULY 14)**
-US naval blockade of Iranian ports began July 14. Crude prices elevated. Energy sector may show follow-through today — check XOM, MPC, VLO volumes at 10 AM if looking for new buys. The portfolio has no energy exposure, so this is a new-buy opportunity watch, not a risk to current positions.
+**3. 🛢️ IRAN-HORMUZ BLOCKADE CONTINUES**
+US naval blockade of Iranian ports (began July 14) continues. Energy sector still elevated. No portfolio exposure — this is a new-buy opportunity watch only.
 
-**4. 📉 CPI JUNE 2026 RELIEF INTACT (3.5% vs 3.8% EXPECTED)**
-June CPI deceleration confirmed — no Fed rate hike pressure. Tech/growth theme (QQQ +1.12%) benefits OKTA and NTSK holds. Macro tailwind continues.
+**4. ✅ BANKING SECTOR SWEEP COMPLETE — THESIS ABSORBED**
+GS, JPM, WFC, BAC, C, BLK, MS all beat Q2 2026. Morgan Stanley reported record Q2 equities trading ($6.3B). Analyst PT raises on GS arriving this morning (BMO $1,190, Barclays $1,245, Wells Fargo $1,325) confirm sentiment. The Q2 earnings catalyst is now fully absorbed — GS and BLK are now trading on forward momentum, not surprise.
+
+**5. 🇨🇳 AAPL CHINA AI APPROVAL — STILL FRESH**
+Apple Intelligence / Alibaba Qwen regulatory approval (announced July 15) is only 1 day old. Continue to monitor BABA and BIDU premarket as China AI proxy indicators for AAPL thesis health.
 
 ---
 
 ### FLAGS
 
-| Ticker | Status | Pre-Mkt Price | vs Jul 14 Close | Flag |
+| Ticker | Status | Pre-Mkt Price | vs Jul 15 Close | Flag |
 |--------|--------|--------------|----------------|------|
-| GS | 0.064601 sh @ entry $1,130.01 | ~$1,140.00 | +0.52% | **ON TRACK** |
-| OKTA | 0.499222 sh @ entry $154.24 | ~$154.62 | +0.19% | **ON TRACK** |
-| NTSK | 4.446010 sh @ entry $14.17 | ~$14.27 | +0.70% | **ON TRACK** ⚠️ |
+| GS | 0.064601 sh @ entry $1,130.01 | ~$1,143.06 | -0.78% | **ON TRACK** |
+| BLK | 0.068552 sh @ entry $1,094.06 | ~$1,101.70 | +0.76% | **ON TRACK** |
+| AAPL | 0.28821 sh @ entry $327.50 | ~$328.52 | +0.31% | **ON TRACK** |
 
 ---
 
 ### ONE-LINE SUMMARY
-**3 positions on track, 0 flagged for immediate action. Regime gate clear (SPY +0.36%). Banking thesis intact (all 5 major banks beat Q2). AI/tech theme intact (QQQ +1.12%). KEY FOCUS AT 10 AM: (1) check MS earnings result for GS thesis read-through; (2) NTSK sector health — exit discretionary if AI security fades at open; (3) trail GS stop to $1,130 if above $1,155, trail OKTA stop to $153.90 if above $159.**
+**3 positions on track, 0 flagged for immediate action. SPY -0.26% pre-market (regime gate clear). All positions well above stops: GS 5.6% buffer, BLK 4.9% buffer, AAPL 3.5% buffer. KEY FOCUS AT 10 AM: (1) check PPI data impact on financials; (2) trail GS stop to $1,130 if above $1,152.61; (3) trail BLK stop to $1,094 if above $1,115.94; (4) trail AAPL stop to $327.50 if above $337.86; (5) check BABA/BIDU for AAPL China thesis health.**
 
 ---
 
