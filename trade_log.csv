@@ -1,3 +1,4 @@
 date,ticker,shares,entry_price,exit_price,entry_session,exit_session,catalyst,sector,pnl_pct,pnl_dollar,exit_reason
 2026-07-15,NTSK,4.446044,14.17,13.88,3:15PM,12PM,sector_momentum,tech,-2.05,-1.29,discretionary
 2026-07-15,OKTA,0.499222,154.24,151.00,12PM,3:15PM,analyst_upgrade,tech,-2.10,-1.62,discretionary
+2026-07-16,GS,0.064601,1130.01,1116.56,10AM,10AM,earnings_beat,financials,-1.19,-0.87,discretionary

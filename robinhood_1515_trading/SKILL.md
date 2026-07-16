@@ -49,81 +49,83 @@ Notes for 10:00 AM agent (June 25, 2026):
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. -->
 
-Last updated: 2026-07-15 (~2:09 PM ET — 2 PM monitor complete)
+Last updated: 2026-07-16 (~10:20 AM ET — 10 AM session complete)
 
-Open positions: 3
-
-- GS: 0.064601 shares, entry $1,130.01, stop-loss $1,082.00, take-profit $1,226.00
-  2 PM status: $1,144.03 (+1.24% vs entry). HOLD. Strong afternoon recovery from intraday low of ~$1,117.53 (hit ~12:25 PM ET). Now trending up — above est. VWAP (~$1,135-$1,136 from 1 PM reading). Distance to stop: 5.7% ($62.03 buffer). Distance to TP: 7.2% ($81.97). Intraday range: $1,117.53 - $1,153.47. Volume declining into afternoon (normal large-cap pattern). Above VWAP.
-  Thesis: Q2 2026 EPS beat ($20.98 vs $14.54 consensus +44%); all 5 major banks beat; banking sweep intact. Entry session: 10AM.
-
-- OKTA: 0.499222 shares, entry $154.24, stop-loss $148.24, take-profit $165.22
-  2 PM status: $150.005 (-2.75% vs entry). HOLD. ⚠️ NEAR STOP — only $1.77 (1.18%) above hard stop $148.24. Intraday LOW: $148.60 (~1:00 PM ET) — came within $0.36 of triggering the hard stop. Currently recovering to $150. Below VWAP (est. ~$151-$152). Opened at $156, sold off all day; underperforming cybersecurity peers. Distance to TP: 10.1% ($15.22).
-  Thesis: Scotiabank Outperform $165 PT + KeyBanc $175 PT (July 14). Analyst thesis intact — no new negative news, but price action very weak. Entry session: 12PM (July 14). Overnight flag: YES.
+Open positions: 4
 
 - BLK: 0.068552 shares, entry $1,094.06, stop-loss $1,050.00, take-profit $1,182.00
-  2 PM status: $1,090.03 (-0.37% vs entry). HOLD. Fading from noon highs (~$1,103-$1,104). Slightly below entry. Below est. VWAP (~$1,095-$1,100). Distance to stop: 3.7% ($40.03 buffer). Distance to TP: 8.4% ($91.97). Intraday range: ~$1,078.00 - $1,109.99. Volume low; normal afternoon pattern. Stop at $1,050 provides ample buffer.
-  Thesis: Q2 EPS beat (+10.5% EPS vs estimate, $13.91 vs $12.59). Financials sector broadly strong. Entry session: 10AM (July 15).
+  10 AM status: $1,106.31 (+1.12% vs entry). HOLD. Above stop, below TP. No trail triggered.
+  Thesis: Q2 EPS beat (+10.5% vs estimate, $13.91 vs $12.59). Financials sector. Entry session: 10AM (July 15).
+  Trail stop: If BLK >= $1,115.94 at 3:15 PM → trail stop to $1,094.00 (breakeven).
 
-No sells executed at 2 PM. All stops intact.
+- AAPL: 0.288213 shares, entry $327.50, stop-loss $317.32, take-profit $347.86
+  10 AM status: $330.13 (+0.80% vs entry). HOLD. Above stop, below TP. No trail triggered.
+  Thesis: Apple Intelligence China approval + Alibaba Qwen integration. Entry session: 3:15PM (July 15).
+  Trail stop: If AAPL >= $337.86 at 3:15 PM → trail stop to $327.50 (breakeven).
 
-Settled cash remaining: ~$537.74 (NTSK proceeds ~$61.71 unsettled, settle July 16)
-Total account value: ~$821 (GS ~$73.87 + OKTA ~$74.85 + BLK ~$74.70 + cash ~$537.74)
-Portfolio invested: ~27%
-75% cap → max additional investable: ~$393
+- RHI: 2.107870 shares, entry $40.23, stop-loss $38.77, take-profit $43.15
+  10 AM status: FRESHLY ENTERED ~10:15 AM. Consolidating above open at time of entry.
+  Thesis: Staffing sector momentum — MAN Q2 beat confirmed sustained workforce demand. Catalyst: sector_momentum.
+  Entry session: 10AM (July 16). Dollar risk: ~$3.08. No trail trigger defined.
+
+- CTAS: 0.489230 shares, entry $203.38, stop-loss $197.34, take-profit $215.46
+  10 AM status: FRESHLY ENTERED ~10:15 AM. Consolidating in $202.50-$204.50 range at time of entry.
+  Thesis: Cintas Q2 earnings beat — $1.29 vs $1.26 estimate (+2.4% surprise). Catalyst: earnings_beat.
+  Entry session: 10AM (July 16). Dollar risk: ~$2.95. No trail trigger defined.
+
+GS SOLD this morning (discretionary): 0.064601 sh at ~$1,116.56. P&L: -$0.87 (-1.19%). Gap-down exit (>3% below prior close). Fed hawkish shift news confirmed thesis no longer intact.
+
+Settled cash remaining: ~$395.93
+GS proceeds (~$72): UNSETTLED — settle July 17. Do NOT use as buying power today.
+Total account value: ~$823
+Portfolio invested: ~43% ($355 / $823)
+75% cap → max additional investable: ~$265
 
 ---
 
-WHAT HAPPENED (12 PM session, July 15, 2026):
+WHAT HAPPENED (10 AM session, July 16, 2026):
 
-NTSK SOLD (discretionary): 4.446044 shares at market ~$13.88/share. P&L: -$1.29 (-2.05%). Entry $14.17 (3:15 PM July 14). Exit reason: Morning momentum completely reversed — was +3.14% vs entry at 10 AM, faded to -2.05% by noon. Low conviction sector wave play, no company-specific catalyst. AI cybersecurity broadly weak (QQQ -0.89%).
+GS SOLD (discretionary): 0.064601 shares at market ~$1,116.56/share. P&L: -$0.87 (-1.19%). Entry $1,130.01 (10AM July 15). Exit reason: Gapped down 3.72% at open (hard rule: >3% gap = exit). Fed hawkish pivot news (rate increase signals 2026) = macro headwind directly undercuts financials thesis.
 
-No new positions opened. Polygon aggregates API error (invalid API key) prevented verification of required filters (VWAP, relative volume >= 1.5x, 5-min trend). PYPL disqualified (pending Stripe/Advent M&A binary event — board has not accepted $60.50 bid). 35+ raw candidates screened.
+RHI BOUGHT: 2.107870 shares at $40.23 (dollar order $84.80). Catalyst: MAN Q2 staffing beat confirms sector demand. Stop: $38.77 (30-min low, 3.5% below entry). TP: $43.15 (2× stop distance). Risk: $3.08.
 
-Market regime at noon: SPY -0.003% (flat, normal). QQQ -0.89% (caution range — factored into conservatism).
+CTAS BOUGHT: 0.489230 shares at $203.38 (dollar order $99.50). Catalyst: Cintas Q2 earnings beat ($1.29 vs $1.26). Stop: $197.34 (30-min low, 3.01% below entry). TP: $215.46 (2× stop distance). Risk: $2.95.
+
+Market regime at 10 AM: SPY -0.24% (normal — no gate). QQQ -0.31%.
 
 ---
 
-NOTES FOR 3:15 PM AGENT (July 15, 2026):
+NOTES FOR 3:15 PM AGENT (July 16, 2026):
 
-1. GS STOP/TP: Entry $1,130.01. Stop $1,082.00. TP $1,226.00. At 2 PM: $1,144.03 (+1.24% vs entry).
-   - If >= $1,226: sell (take-profit).
-   - If <= $1,082: sell (stop-loss).
-   - Trail stop to $1,130 (breakeven) if GS above $1,152.61 at 3:15 PM (+2% from entry).
-   - Banking sector strong (all 5 major banks beat Q2). Strong overnight hold candidate.
-
-2. OKTA STOP/TP: Entry $154.24. Stop $148.24. TP $165.22. At 2 PM: $150.005 (-2.75% vs entry).
-   ⚠️ CRITICAL: If below $150 at 3:15 PM → STRONG DISCRETIONARY EXIT SIGNAL (only $1.76 from hard stop).
-   ⚠️ CRITICAL: If STILL BELOW $152 AND underperforming cybersecurity peers at 3:15 PM → DISCRETIONARY EXIT.
-   - If >= $165.22: sell (take-profit).
-   - If <= $148.24: sell (stop-loss). HARD EXIT — do not hesitate.
-   - INTRADAY LOW TODAY: $148.60 (hit ~1:00 PM). Hard stop nearly triggered — position is fragile.
-   - Trail stop to $153.90 (breakeven) only if above $159 at 3:15 PM (very unlikely given current price).
-   - Check cybersecurity peers (CRWD, PANW, ZS) at 3:15 PM to assess relative strength.
-
-3. BLK STOP/TP: Entry $1,094.06. Stop $1,050.00. TP $1,182.00. At 2 PM: $1,090.03 (-0.37% vs entry).
+1. BLK STOP/TP: Entry $1,094.06. Stop $1,050.00. TP $1,182.00. At 10 AM: $1,106.31 (+1.12% vs entry).
    - If >= $1,182: sell (take-profit).
    - If <= $1,050: sell (stop-loss).
    - Trail stop to $1,094 (breakeven) if BLK above $1,115.94 at 3:15 PM (+2% from entry).
-   - Currently below entry and fading — evaluate momentum at close. Q2 earnings beat supports thesis.
-   - Strong overnight hold candidate if financials sector remains constructive at close.
 
-4. BUYING POWER: ~$537.74 settled cash. Account ~$821. 75% cap -> ~$393 more investable.
-   NTSK proceeds (~$61.71) unsettled today, settle July 16. Do not use as buying power today.
+2. AAPL STOP/TP: Entry $327.50. Stop $317.32. TP $347.86. At 10 AM: $330.13 (+0.80% vs entry).
+   - If >= $347.86: sell (take-profit).
+   - If <= $317.32: sell (stop-loss).
+   - Trail stop to $327.50 (breakeven) if AAPL above $337.86 at 3:15 PM (+3.15% from entry).
 
-5. MARKET REGIME at 2 PM: SPY +0.35% (normal — no gate). QQQ -0.24% (slightly negative).
+3. RHI STOP/TP: Entry $40.23. Stop $38.77. TP $43.15. Freshly entered this morning.
+   - If >= $43.15: sell (take-profit).
+   - If <= $38.77: sell (stop-loss).
+   - No trail trigger defined. No earnings tonight.
+
+4. CTAS STOP/TP: Entry $203.38. Stop $197.34. TP $215.46. Freshly entered this morning.
+   - If >= $215.46: sell (take-profit).
+   - If <= $197.34: sell (stop-loss).
+   - No trail trigger defined. No earnings tonight.
+
+5. BUYING POWER: ~$395.93 settled cash. Account ~$823. 75% cap → ~$265 more investable.
+   GS proceeds (~$72) unsettled today, settle July 17. Do not use as buying power today.
+
+6. MARKET REGIME at 10 AM: SPY -0.24% (normal — no gate). QQQ -0.31%.
    If SPY falls to -1% by 3:15 PM, regime gate triggers (no new overnight buys).
 
-6. PYPL: Stripe + Advent International bid $60.50/share (~$53B). Board NOT accepted — binary event. Do NOT buy.
+7. GS exited this morning. Financials macro headwind: Fed officials signaling potential rate increases in 2026 (hawkish shift).
 
-7. NTSK EXITED at 12 PM. Proceeds ~$61.71 unsettled (settle July 16).
-
-8. MACRO: PPI June -0.3% MoM (cool). Banking sector Q2 fully swept. MS beat record results.
-
-9. NOTE: Polygon aggregates API returning invalid API key errors all day. VWAP/relative volume estimated from Robinhood intraday bars. This has been consistent since the 12 PM session.
-
-2 PM MONITOR NOTE:
-All stops intact at 2:09 PM ET. GS $1,144.03 (stop $1,082, above est. VWAP — trending up). OKTA $150.005 ⚠ NEAR STOP — 1.18% above hard stop $148.24, touched intraday low $148.60 at ~1 PM, below VWAP. BLK $1,090.03 (stop $1,050, slightly below entry, below est. VWAP, fading). SPY +0.35% (normal). QQQ -0.24%. No sells executed.
+8. No earnings tonight for RHI or CTAS. BLK and AAPL earnings already reported.
 
 ---
 PRE-CHECK — Market day verification
