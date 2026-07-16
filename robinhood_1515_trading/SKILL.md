@@ -47,100 +47,110 @@ Notes for 10:00 AM agent (June 25, 2026):
 ---
 
 ## HANDOFF FROM LAST 10 AM SESSION
-<!-- Updated by 12 PM reassessment agent. Last updated: 2026-07-16 (~4 PM ET — 12 PM session ran post-market). -->
+<!-- Updated by 2 PM stop-loss monitor. Last updated: 2026-07-16 (~2:10 PM ET — 2 PM monitor complete). -->
 
-Last updated: 2026-07-16 (~4 PM ET — 12 PM reassessment complete; session executed after market close)
+Last updated: 2026-07-16 (~2:10 PM ET — 2 PM stop-loss monitor complete)
 
-Open positions: 4 (all held — no exits, no new buys)
+Open positions: 4 (all held — no exits triggered at 2 PM check)
 
 - BLK: 0.068552 shares, entry $1,094.06, stop-loss $1,050.00, take-profit $1,182.00
-  Close: $1,095.89 (+0.17% vs entry). HOLD. Above stop, below TP. Trail trigger $1,115.94 — not reached.
-  Thesis: Q2 EPS beat (+10.5% vs estimate, $13.91 vs $12.59). Financials sector. Entry session: 10AM (July 15).
-  Overnight hold flag: YES.
+  2 PM price: $1,081.87 (-1.11% vs entry). HOLD. Above stop ($1,050), below TP ($1,182).
+  VWAP $1,100.18 — price BELOW VWAP by $18.31 (bearish). Intraday range $1,080.08–$1,125.00.
+  Near day LOW (top 4% of range from bottom). Relative volume ~0.20x 30-day avg (very low).
+  Trend: declining all day. Opened $1,125 → now $1,082. Consistent intraday downtrend.
+  Thesis: Q2 EPS beat (+10.5%). Entry session: 10AM (July 15). Overnight hold flag: YES.
+  ⚠ TRAIL TRIGGER REACHED: Intraday high $1,125 exceeded trigger $1,115.94 (+2% from entry).
+    Per handoff notes, trail stop = $1,094.06 (breakeven). Current $1,081.87 is BELOW this level.
+    Formal hard stop $1,050 not breached. 3:15 PM agent: evaluate discretionary exit — BLK is
+    below trail breakeven, below VWAP, near day low, in clear downtrend. Thesis needs reassessment.
+  - If >= $1,182: sell (take-profit).
+  - If <= $1,050: sell (stop-loss — hard stop).
+  - Trail stop already triggered: consider treating $1,094.06 as effective stop.
 
 - AAPL: 0.288213 shares, entry $327.50, stop-loss $317.32, take-profit $347.86
-  Close: $331.50 (+1.22% vs entry). HOLD. Above stop, below TP. Trail trigger $337.86 — not reached.
-  Thesis: Apple Intelligence China approval + Alibaba Qwen integration. Showed relative strength vs QQQ (-1.17%).
-  Entry session: 3:15PM (July 15). Overnight hold flag: YES.
+  2 PM price: $331.74 (+1.29% vs entry). HOLD. Above stop ($317.32), below TP ($347.86).
+  VWAP $330.35 — price ABOVE VWAP by $1.39 (bullish). Intraday range $326.79–$333.55.
+  At 73% of range from low — upper half. Relative volume ~0.35x 30-day avg (low but normal mid-day).
+  Trend: dipped morning then recovered; consolidating $330–$332 range all afternoon.
+  Relative strength vs QQQ: AAPL +1.29% vs QQQ -1.58% = +2.87% outperformance. Bullish signal.
+  Thesis: Apple Intelligence China approval + Alibaba Qwen integration. Entry session: 3:15PM (July 15).
+  Overnight hold flag: YES. Trail trigger $337.86 — not reached.
+  - If >= $347.86: sell (take-profit).
+  - If <= $317.32: sell (stop-loss).
+  - Trail stop to $327.50 (breakeven) if AAPL reaches $337.86.
 
-- RHI: 2.104745 shares, entry $40.29 (live fill), stop-loss $38.77, take-profit $43.15
-  Close: $40.97 (+1.67% vs entry). HOLD. Above stop, below TP. Trail trigger $41.10 — $0.13 short at close.
-  Thesis: Staffing sector momentum — MAN Q2 beat confirmed sustained workforce demand. Entry session: 10AM (July 16).
-  Note: RHI +11.63% from yesterday's close $36.70 — strong sector day. No earnings tonight.
-  Overnight hold flag: YES. Opened by 12 PM reassessment (confirmed hold from 10 AM).
+- RHI: 2.104745 shares, entry $40.29, stop-loss $38.77, take-profit $43.15
+  2 PM price: $41.42 (+2.80% vs entry). HOLD. Above stop ($38.77), below TP ($43.15).
+  VWAP $40.70 — price ABOVE VWAP by $0.72 (bullish). Intraday range $38.77–$41.73.
+  At 89% of range from low — near day high. Relative volume ~0.65x 30-day avg (moderate).
+  Trend: strong. Opened at stop-loss level → surged, held gains, trending near day high.
+  Thesis: Staffing sector momentum — MAN Q2 beat. Entry session: 10AM (July 16). No earnings tonight.
+  Overnight hold flag: YES. Opened by 12 PM reassessment.
+  ⚠ STOP TESTED AT OPEN: RHI intraday low $38.77 = stop-loss exactly. Recovered immediately.
+  ⚠ TRAIL TRIGGER REACHED: RHI crossed $41.10 today (~11:35 AM). 3:15 PM agent should update
+    working stop from $38.77 to $40.29 (breakeven per handoff notes). Position is strong.
+  - If >= $43.15: sell (take-profit).
+  - If <= $38.77: sell (hard stop — update to $40.29 breakeven trail immediately).
+  - Trail stop to $40.29 (breakeven) — TRIGGERED TODAY. Update stop immediately.
 
-- CTAS: 0.488943 shares, entry $203.50 (live fill), stop-loss $197.34, take-profit $215.46
-  Close: $204.97 (+0.72% vs entry). HOLD. Above stop, below TP. No trail trigger defined.
-  Thesis: Cintas Q2 earnings beat — $1.29 vs $1.26 estimate (+2.4% surprise). Entry session: 10AM (July 16).
-  Note: CTAS +6.55% from yesterday's close $192.37. No earnings tonight.
-  Overnight hold flag: YES. Opened by 12 PM reassessment (confirmed hold from 10 AM).
+- CTAS: 0.488943 shares, entry $203.50, stop-loss $197.34, take-profit $215.46
+  2 PM price: $206.28 (+1.37% vs entry). HOLD. Above stop ($197.34), below TP ($215.46).
+  VWAP $204.43 — price ABOVE VWAP by $1.85 (bullish). Intraday range $197.34–$206.82.
+  At 94% of range from low — near day high. Relative volume ~0.55x 30-day avg (below avg).
+  Trend: strong. Opened near stop-level → surged, holding near day high.
+  Thesis: Q2 earnings beat ($1.29 vs $1.26 est). Entry session: 10AM (July 16). No earnings tonight.
+  Overnight hold flag: YES. Opened by 12 PM reassessment.
+  ⚠ STOP NEAR-TESTED AT OPEN: Intraday low $197.3375 vs stop $197.34 — margin was $0.0025.
+    Recovered strongly to 94% of intraday range. Earnings catalyst still intact.
+  No trail trigger defined for CTAS.
+  - If >= $215.46: sell (take-profit).
+  - If <= $197.34: sell (stop-loss).
 
-GS SOLD this morning (discretionary, 10 AM session): 0.064601 sh at ~$1,116.56. P&L: -$0.87 (-1.19%). Gap-down exit. GS proceeds (~$72) UNSETTLED — settle July 17.
+GS SOLD this morning (discretionary, 10 AM session): 0.064601 sh at ~$1,116.56. P&L: -$0.87 (-1.19%). Gap-down exit. GS proceeds (~$72.05) UNSETTLED — settle July 17.
 
 Settled cash remaining: $395.93
 Unsettled cash: ~$72.05 (GS proceeds, settles July 17 — do NOT use as buying power today)
-Total account value: $825.27
-Portfolio invested: $357.29 (43.3% — well under 75% cap)
-75% cap → max additional investable: ~$261.66
+Total account value: ~$825.79 (equity $357.81 + cash $467.98)
+Portfolio invested: $357.81 (43.3% — well under 75% cap; ~$261.66 additional investable from settled cash)
 
 ---
 
-WHAT HAPPENED (12 PM reassessment, July 16, 2026):
+2 PM MONITOR NOTE (July 16, 2026 — ~2:10 PM ET):
 
-12 PM session executed after market close (~4 PM ET). Prices reflect end-of-day close values.
-No exits triggered — no stops hit, no TPs hit. No new buys placed (market closed at execution time).
-All four positions held with stops and take-profits unchanged from 10 AM session.
+SELLS EXECUTED: None. All 4 positions held. No hard stops or take-profits triggered.
+NEAR STOP FLAGS: None (BLK nearest at 2.95% above formal stop $1,050; others ≥4%).
+NEAR TP FLAGS: None (CTAS nearest at 4.26% below TP $215.46).
 
-Trail stop analysis: No trail triggered.
-  BLK:  close $1,095.89 vs trigger $1,115.94 — not reached.
-  AAPL: close $331.50   vs trigger $337.86   — not reached (showing strength vs QQQ).
-  RHI:  close $40.97    vs trigger $41.10    — $0.13 short; watch for trail at open tomorrow.
-  CTAS: no trail trigger defined.
+BROAD MARKET: SPY $750.71 (-0.54% day), QQQ $706.44 (-1.58% day). Moderate weakness.
 
-Market at close: SPY -0.25% (normal regime), QQQ -1.17% (moderate weakness).
+CRITICAL ALERTS FOR 3:15 PM AGENT:
 
----
+1. ⚠⚠ BLK TRAIL BREAKEVEN TRIGGERED — PRICE NOW BELOW TRAIL STOP:
+   BLK intraday high $1,125.00 exceeded the $1,115.94 trail trigger. Per the trail rule, the
+   effective stop should have moved to $1,094.06 (breakeven). Current price $1,081.87 is $12.19
+   BELOW that trail stop. The formal hard stop at $1,050 was not breached. However:
+   - BLK is below VWAP, trading near its day LOW, declining all session
+   - The Q2 earnings beat thesis has not held intraday — stock is down 1.11% vs entry
+   - SPY -0.54%, QQQ -1.58% — macro headwind for financials
+   - 3:15 PM agent should strongly consider a discretionary exit before close
 
-NOTES FOR 3:15 PM AGENT (July 16, 2026):
+2. ⚠ RHI TRAIL TRIGGERED — UPDATE STOP TO BREAKEVEN NOW:
+   RHI crossed $41.10 trail trigger today. Current $41.42, ABOVE VWAP, near day high. Strong.
+   3:15 PM agent: immediately update working stop from $38.77 to $40.29 (breakeven).
+   No earnings tonight. Staffing sector thesis intact. Good overnight candidate with trail protection.
 
-NOTE: The 12 PM session ran post-market. Assess positions using current prices.
+3. RHI & CTAS STOPS TESTED AT OPEN AND HELD — BULLISH SIGNAL:
+   RHI low $38.77 = stop, CTAS low $197.3375 ≈ stop ($0.0025 above). Both recovered sharply.
+   Both are now at 89–94% of their intraday range. Classic shakeout-and-recovery pattern.
+   High conviction for continued momentum.
 
-1. BLK STOP/TP: Entry $1,094.06. Stop $1,050.00. TP $1,182.00.
-   Close: $1,095.89 (+0.17% vs entry). No change from 10 AM levels.
-   - If >= $1,182: sell (take-profit).
-   - If <= $1,050: sell (stop-loss).
-   - Trail stop to $1,094.06 (breakeven) if BLK reaches $1,115.94 (+2% from entry).
+4. AAPL STRONG RELATIVE PERFORMANCE:
+   AAPL +1.29% on a day QQQ is -1.58% (+2.87% relative). Above VWAP, upper portion of range.
+   Apple Intelligence China thesis remains intact. Strong overnight candidate.
 
-2. AAPL STOP/TP: Entry $327.50. Stop $317.32. TP $347.86.
-   Close: $331.50 (+1.22% vs entry). Relative strength vs QQQ selloff — bullish overnight signal.
-   - If >= $347.86: sell (take-profit).
-   - If <= $317.32: sell (stop-loss).
-   - Trail stop to $327.50 (breakeven) if AAPL reaches $337.86 (+3.15% from entry).
+5. NEWS: No news check performed by 2 PM monitor. 3:15 PM agent should check for any afternoon
+   developments on BLK (significant intraday decline warrants investigation), AAPL, RHI, CTAS.
 
-3. RHI STOP/TP: Entry $40.29 (live fill). Stop $38.77. TP $43.15.
-   Close: $40.97 (+1.67% vs entry). Trail trigger at $41.10 — very close.
-   - If >= $43.15: sell (take-profit).
-   - If <= $38.77: sell (stop-loss).
-   - Trail stop to $40.29 (breakeven) if RHI reaches $41.10 (+2% from entry).
-   - RHI up +11.63% from yesterday — strong sector momentum. No earnings tonight.
-
-4. CTAS STOP/TP: Entry $203.50 (live fill). Stop $197.34. TP $215.46.
-   Close: $204.97 (+0.72% vs entry).
-   - If >= $215.46: sell (take-profit).
-   - If <= $197.34: sell (stop-loss).
-   - No trail trigger defined. No earnings tonight.
-
-5. BUYING POWER: $395.93 settled cash. Account $825.27. 75% cap → ~$261.66 more investable.
-   GS proceeds (~$72) unsettled today, settle July 17. Do not use as buying power today.
-
-6. MARKET AT CLOSE: SPY -0.25% (normal regime). QQQ -1.17% (moderate weakness).
-   AAPL showing relative strength vs QQQ — individual thesis intact. No macro emergency.
-
-7. No earnings tonight for RHI, CTAS. BLK and AAPL earnings already reported.
-
-8. GS exits (10 AM session) confirmed financials macro headwind: Fed officials signaling rate increases 2026.
-
-1 PM monitor: all stops intact as of 1:00 PM ET. BLK $1,089.54 (stop $1,050.00), AAPL $332.04 (stop $317.32), RHI $41.57 (stop $38.77), CTAS $205.89 (stop $197.34). No triggers. No sells executed.
 
 ---
 PRE-CHECK — Market day verification
