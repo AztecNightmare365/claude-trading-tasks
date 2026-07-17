@@ -115,6 +115,8 @@ NOTES FOR 3:15 PM AGENT (July 17, 2026):
 
 8. BUYING POWER: $456.22 fully settled. Investable up to $250.23 within 75% cap (or ~$125 at half-size in caution regime). Require strong overnight catalyst for any 3:15 PM buys.
 
+1 PM monitor: all stops intact as of 1:00 PM ET. Prices — AAPL $330.15 (stop $317.32), RHI $41.09 (stop $40.29), CTAS $202.37 (stop $197.34), ABT $100.06 (stop $98.62). No sells executed.
+
 ---
 PRE-CHECK — Market day verification
 Before doing anything else, check today's date. If today is Saturday or Sunday, output "Market closed — weekend. No action taken." and stop immediately. Do not proceed to Step 1.
