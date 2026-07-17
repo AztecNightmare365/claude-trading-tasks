@@ -14,77 +14,84 @@ Execute all steps in order, then place all orders simultaneously.
 ## PRE-MARKET BRIEF
 <!-- Updated by the 9:15 AM pre-market agent. Read before Step 1. -->
 
-**Generated: 2026-07-16 ~9:17 AM ET**
+**Generated: 2026-07-17 ~9:17 AM ET**
 
 ---
 
-### OVERNIGHT POSITIONS: 3 HELD
+### OVERNIGHT POSITIONS: 4 HELD
 
-| Ticker | Shares | Entry | Stop | TP | Pre-Mkt Price | vs Jul 15 Close | Flag |
+| Ticker | Shares | Entry | Stop | TP | Pre-Mkt Price | vs Jul 16 Close | Flag |
 |--------|--------|-------|------|-----|--------------|----------------|------|
-| GS | 0.064601 | $1,130.01 | $1,082.00 | $1,226.00 | ~$1,143.06 | -$9.01 (-0.78%) | **ON TRACK** |
-| BLK | 0.068552 | $1,094.06 | $1,050.00 | $1,182.00 | ~$1,101.70 | +$8.30 (+0.76%) | **ON TRACK** |
-| AAPL | 0.28821 | $327.50 | $317.32 | $347.86 | ~$328.52 | +$1.02 (+0.31%) | **ON TRACK** |
+| AAPL | 0.288213 | $327.50 | $317.32 | $347.86 | ~$333.44 | +$0.18 (+0.05%) | **ON TRACK** |
+| RHI | 2.104745 | $40.29 (trail) | $40.29 | $43.15 | ~$40.85 (bid $40.70) | -$0.48 (-1.16%) | **⚠ GAP DOWN WARNING** |
+| CTAS | 0.488943 | $203.50 | $197.34 | $215.46 | ~$208.00 | +$1.75 (+0.85%) | **ON TRACK** |
+| ABT | 0.872030 | $98.62 | $94.99 | $105.88 | ~$99.85 (bid $99.60) | +$1.02 (+1.04%) | **ON TRACK** |
 
-> **Cash remaining**: ~$443.35 settled (+ ~$136.98 unsettled settling today, July 16). Total account ~$823.
+> **Cash**: ~$309.93 settled + ~$146.32 unsettled (BLK ~$74.27 + GS ~$72.05 — settle today July 17, confirm with Robinhood before use)
+
+> **Note**: Polygon aggregates returned invalid API key errors (persistent issue confirmed July 16–17). Pre-market prices sourced from Robinhood extended-hours quotes (`last_non_reg_trade_price`).
 
 ---
 
 ### POSITION DETAIL
 
-**GS — ON TRACK**
-Pre-market ~$1,143.06 (-0.78% vs July 15 close of $1,152.07; bid/ask $1,143/$1,146). Stop $1,082 is 5.6% below current pre-market price — ample buffer. TP $1,226 is 7.1% away. **Thesis intact**: Q2 2026 EPS $20.98 beat (+40.7% vs consensus $14.48) remains in force. Multiple analyst PT raises on July 16: BMO Capital $1,190, Barclays $1,245, Wells Fargo $1,325 (all above current price). One cautious note: Citizens reiterated Market Perform, warning "massive rally may limit future upside" after GS hit 52-week high ($1,153.99 intraday yesterday) — minority view, not a thesis breaker. Mild pre-market pullback from a 52-week high is normal consolidation. Banking sector catalyst fully absorbed; now pure price action. **Trail stop to $1,130 (breakeven) if GS is above $1,152.61 at 10 AM.**
-
-**BLK — ON TRACK**
-Pre-market ~$1,101.70 (+0.76% vs July 15 close of $1,093.40; bid/ask $1,096/$1,102.68). Now above entry $1,094.06 (+0.70%). Stop $1,050 is 4.9% below current price — adequate buffer. TP $1,182 is 7.3% away. **Thesis strengthening**: Q2 EPS beat ($13.91 vs $12.57) already absorbed on July 15; July 16 brings a new catalyst — BlackRock is expanding into tokenized ETFs and Treasury funds, citing potential to bring investment products directly into digital wallets and dramatically expand addressable market. AUM record $15.3T confirmed. Pre-market bid/ask is tight ($1,096/$1,102.68), suggesting orderly trading. **Trail stop to $1,094 (breakeven) if BLK is above $1,115.94 at 10 AM.**
-
 **AAPL — ON TRACK**
-Pre-market ~$328.52 (+0.31% vs July 15 close of $327.50; bid/ask $328.53/$328.60). Stop $317.32 is 3.5% below current price — adequate buffer. TP $347.86 is 5.9% away. **Thesis intact**: Apple Intelligence China regulatory approval (Alibaba Qwen) confirmed and intact; AAPL is showing relative strength (+0.31%) vs QQQ (-0.81% pre-market) — a constructive sign that the China AI thesis is holding vs broader tech weakness. Additional July 16 catalyst: Apple is exploring acquisitions of AI chip companies for server processors (positive AI investment signal). Bid/ask is extremely tight ($328.53/$328.60). Caution: AAPL's intraday low on July 15 was exactly $317.32 — the stop was touched at the lows. Today's pre-market gain suggests that was the floor. **Trail stop to $327.50 (breakeven) if AAPL is above $337.86 at 10 AM.**
+Pre-market $333.44 (+0.05% vs July 16 close $333.26; bid/ask $333.38/$333.45). Stop $317.32 is 4.8% below current pre-market — ample buffer. TP $347.86 is 4.3% away. Trail trigger $337.86 not yet reached. **Thesis intact**: Apple Intelligence / Alibaba Qwen China regulatory approval (announced July 15) is 2 days old and holding — no adverse China AI news overnight. AAPL is showing relative strength vs QQQ (-1.97% pre-market) and SPY (-1.04%). No AAPL-specific adverse news found. Next earnings July 30 — no binary event risk this week. AAPL is the safest overnight hold. **Trail stop to $327.50 (breakeven) if AAPL reaches $337.86 intraday.**
+
+**RHI — ⚠ GAP DOWN WARNING**
+Pre-market last trade $40.85 at 8:32 AM ET (-1.16% vs July 16 close $41.33; bid $40.70 / ask $41.25 — wide spread). Trail stop is $40.29 (breakeven, updated July 16). The bid of $40.70 is only **$0.41 above the trail stop** ($40.29). In the current risk-off environment (SPY -1.04%, QQQ -1.97%), RHI faces a high probability of trading at or below $40.29 at open. The staffing thesis (MAN Q2 beat) was already absorbed July 16 — no new positive catalyst to support the position against macro headwinds. No adverse RHI-specific news overnight, but broad market sell-off pressure is sufficient concern. **At 10 AM: if RHI is at or below $40.29, sell immediately (2.104745 shares, market order). If RHI opens above $41.10 with positive momentum, the trail stop already provides breakeven protection — can hold.**
+
+**CTAS — ON TRACK**
+Pre-market $208.00 (+0.85% vs July 16 close $206.25; bid/ask $207.32/$208.80). Stop $197.34 is 5.1% below current pre-market — strong buffer. TP $215.46 is 3.6% away. **Thesis intact**: Q2 beat ($1.29 vs $1.26 est) + fresh analyst upgrade holding. Cintas-UniFirst acquisition pending regulatory approval (expected H2 2026, UniFirst shareholders approved 99%+) remains a positive long-term catalyst. CTAS is a defensive industrial with consistent dividend growth — not correlated to NFLX guidance miss or chip sell-off. No adverse news overnight. **No trail trigger defined for CTAS; hold with original stop $197.34.**
+
+**ABT — ON TRACK**
+Pre-market $99.854 at 9:07 AM ET (+1.04% vs July 16 close $98.83; bid $99.60 / ask $100.00). Stop $94.99 is 4.9% below current pre-market — adequate buffer. TP $105.88 is 6.1% away. **Thesis intact**: Q2 earnings beat ($1.31 vs $1.28) + full-year EPS guidance raised to $5.45–$5.60 still fresh (reported July 16, stock up +10.4% on that day). Healthcare is acting as a defensive haven today — confirms ABT thesis is working in the current risk-off environment. ABT was mentioned positively in July 16 recap articles ("surged over 10% on strong earnings"). No adverse news overnight. The fade from intraday high ($101.87) to close ($98.83) on July 16 is normal post-spike consolidation; pre-market bounce to $99.85 is constructive. **No trail trigger defined; hold with stop $94.99.**
 
 ---
 
-### MACRO CONTEXT (pre-market July 16, 2026)
+### MACRO CONTEXT (pre-market July 17, 2026)
 
-| Index | Jul 15 Close | Pre-Mkt Price | Change% vs Jul 15 |
-|-------|-------------|--------------|-------------------|
-| SPY | $754.81 | ~$752.85 | **-0.26%** |
-| QQQ | $717.74 | ~$711.91 | **-0.81%** |
+| Index | Jul 16 Close | Pre-Mkt Price | Change% vs Jul 16 | Regime Gate |
+|-------|-------------|--------------|-------------------|-------------|
+| SPY | $750.72 | ~$742.88 | **-1.04%** | ⚠ **TRIGGERED** |
+| QQQ | $705.94 | ~$692.03 | **-1.97%** | — |
 
-**Regime gate: CLEAR** — SPY -0.26% pre-market, within normal range (gate triggers at -1%+). Mild giveback after strong two-day rally. QQQ -0.81% reflects chip sector pressure. Not a risk-off regime — new buys remain allowed if candidates qualify, but require a strong catalyst given the slight headwind.
+**Regime gate: TRIGGERED** — SPY -1.04% pre-market exceeds -1% threshold. At 10 AM, **SKIP ALL NEW BUYS** (Steps 4 and 5). Momentum longs have a much lower win rate in risk-off conditions. Focus the entire 10 AM session on evaluating overnight positions and honoring stops.
 
 ---
 
 ### KEY OVERNIGHT/PRE-MARKET DEVELOPMENTS — READ CAREFULLY
 
-**1. 📊 PPI DATA EXPECTED TODAY (JULY 16)**
-June PPI release expected this morning. Investors are pausing ahead of it; Polymarket implies only 37% probability of an up open. If PPI comes in hotter than expected, watch for rate-hike chatter — could pressure GS (rate-sensitive financials) and BLK (AUM/fee sensitivity). If in line or cool, continuation rally likely. Check PPI print and market reaction before evaluating new buys.
+**1. 🎬 NFLX EARNINGS — GUIDANCE MISS → RISK-OFF TRIGGER**
+Netflix reported Q2 2026 after close July 16: record revenue $12.56B (+13% YoY, slight beat) BUT Q3 guidance missed ($12.86B guidance vs $13B consensus, EPS $0.82 vs $0.84 consensus). Stock fell ~9% after hours. This is the primary driver of today's pre-market risk-off: Communication Services sector sold off, dragging QQQ (-1.97%). None of our positions are in streaming/media, but the NFLX guidance miss signals slowing growth sentiment broadly — amplified by a fourth consecutive day of chip-sector weakness.
 
-**2. 📉 CHIP STOCKS UNDER PRESSURE PRE-MARKET**
-Broader semiconductor/tech weakness in pre-market; QQQ -0.81%. AAPL is diverging positively (+0.31%) due to its AI chip acquisition news, but general tech sector is soft. This is relevant context for any new buy candidates in tech/chips.
+**2. 📉 SEMICONDUCTOR SELL-OFF CONTINUES (DAY 4)**
+TSM, Micron (-6%), Nvidia (-2.7%), Broadcom (-3.6%) all declined July 16 on concerns about AI capex sustainability. The sell-off is accelerating into today. This is NOT directly relevant to our positions (healthcare and staffing, not semiconductors), but confirms the QQQ -1.97% read.
 
 **3. 🛢️ IRAN-HORMUZ BLOCKADE CONTINUES**
-US naval blockade of Iranian ports (began July 14) continues. Energy sector still elevated. No portfolio exposure — this is a new-buy opportunity watch only.
+US naval blockade of Iranian ports (began July 14) continues. Energy sector remains elevated. No portfolio exposure.
 
-**4. ✅ BANKING SECTOR SWEEP COMPLETE — THESIS ABSORBED**
-GS, JPM, WFC, BAC, C, BLK, MS all beat Q2 2026. Morgan Stanley reported record Q2 equities trading ($6.3B). Analyst PT raises on GS arriving this morning (BMO $1,190, Barclays $1,245, Wells Fargo $1,325) confirm sentiment. The Q2 earnings catalyst is now fully absorbed — GS and BLK are now trading on forward momentum, not surprise.
+**4. ✅ AAPL CHINA AI APPROVAL — DAY 2, STILL INTACT**
+Apple Intelligence / Alibaba Qwen regulatory approval (announced July 15) is 2 days old. AAPL pre-market is flat (+0.05%) vs QQQ -1.97% — strong relative strength, confirming the China AI thesis is holding even in a risk-off macro. No adverse China/regulatory news found overnight.
 
-**5. 🇨🇳 AAPL CHINA AI APPROVAL — STILL FRESH**
-Apple Intelligence / Alibaba Qwen regulatory approval (announced July 15) is only 1 day old. Continue to monitor BABA and BIDU premarket as China AI proxy indicators for AAPL thesis health.
+**5. 💊 HEALTHCARE DEFENSIVE BID**
+ABT (+1.04%), CTAS (+0.85%) are both holding up well pre-market. Healthcare is a flight-to-safety destination on risk-off days. This confirms both positions' overnight behavior. ABT is benefiting from the same sector rotation that drove its +10.4% move on July 16.
 
 ---
 
 ### FLAGS
 
-| Ticker | Status | Pre-Mkt Price | vs Jul 15 Close | Flag |
-|--------|--------|--------------|----------------|------|
-| GS | 0.064601 sh @ entry $1,130.01 | ~$1,143.06 | -0.78% | **ON TRACK** |
-| BLK | 0.068552 sh @ entry $1,094.06 | ~$1,101.70 | +0.76% | **ON TRACK** |
-| AAPL | 0.28821 sh @ entry $327.50 | ~$328.52 | +0.31% | **ON TRACK** |
+| Ticker | Shares @ Entry | Pre-Mkt Price | vs Jul 16 Close | Stop Distance | Flag |
+|--------|---------------|--------------|----------------|---------------|------|
+| AAPL | 0.288213 @ $327.50 | ~$333.44 | +0.05% | $16.12 (4.8%) above stop $317.32 | **ON TRACK** |
+| RHI | 2.104745 @ $40.29 | ~$40.85 (bid $40.70) | -1.16% | $0.56 (1.4%) above stop $40.29 — bid only $0.41 away | **⚠ GAP DOWN WARNING** |
+| CTAS | 0.488943 @ $203.50 | ~$208.00 | +0.85% | $10.66 (5.1%) above stop $197.34 | **ON TRACK** |
+| ABT | 0.872030 @ $98.62 | ~$99.85 | +1.04% | $4.86 (4.9%) above stop $94.99 | **ON TRACK** |
 
 ---
 
 ### ONE-LINE SUMMARY
-**3 positions on track, 0 flagged for immediate action. SPY -0.26% pre-market (regime gate clear). All positions well above stops: GS 5.6% buffer, BLK 4.9% buffer, AAPL 3.5% buffer. KEY FOCUS AT 10 AM: (1) check PPI data impact on financials; (2) trail GS stop to $1,130 if above $1,152.61; (3) trail BLK stop to $1,094 if above $1,115.94; (4) trail AAPL stop to $327.50 if above $337.86; (5) check BABA/BIDU for AAPL China thesis health.**
+**3 positions on track, 1 flagged for immediate attention (RHI GAP DOWN WARNING). SPY -1.04% pre-market — REGIME GATE TRIGGERED, no new buys at 10 AM. KEY FOCUS: (1) CHECK RHI first — if at or below $40.29 at open, sell immediately; (2) AAPL, CTAS, ABT all well-buffered and thesis intact; (3) unsettled cash (~$146.32) from BLK/GS proceeds should clear today — confirm with Robinhood.**
 
 ---
 
