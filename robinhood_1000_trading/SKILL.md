@@ -194,11 +194,11 @@ Hard exits — sell immediately (market order) if:
 
 Note: Robinhood does not support stop or limit trigger orders on fractional shares. There are no standing stop-loss orders in the market — this manual check at session open IS the stop-loss mechanism. Always check prices against handoff targets before doing anything else.
 
-Discretionary exits — sell if any of the following apply:
-- Stock gapped up at open but is now fading — sell into the strength before it reverses fully
-- The opening momentum was weak and the stock is drifting sideways with low volume
-- Broad market is down significantly and the stock is not showing relative strength
-- The overnight catalyst has played out and there is no remaining reason to hold
+Discretionary exits — sell only if there is a real thesis break, not just red noise. "Broad market is down" or "not beating SPY today" is NOT by itself a reason to sell — that is normal noise and the defined stop-loss exists to handle real downside. A discretionary exit requires BOTH the price condition AND the thesis condition below:
+- Price condition: the stock has round-tripped more than half of an opening gap-up, OR is down more than 1.5% from entry (moves smaller than 1.5% against entry are noise — hold and let the stop do its job)
+- Thesis condition: the original catalyst has concretely failed or reversed (negative news, downgrade, guidance cut, sector-specific bad news) — not merely "the market is red" or "no relative strength" with nothing else behind it
+
+If only the price condition is met but the thesis is still intact, hold — do not exit on price action alone.
 
 Hold and monitor if:
 - Stock gapped up and is continuing to trend higher with strong volume — let it run

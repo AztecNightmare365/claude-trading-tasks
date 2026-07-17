@@ -51,11 +51,11 @@ Trail the stop on winners:
 - Do not widen a stop — only move it in the direction of the position
 - Update the stop-loss in the handoff you write at the end of this session
 
-Discretionary exits — sell if any of the following apply:
-- The stock gapped up at open but has been fading steadily since — the morning momentum has failed
-- Volume is drying up significantly mid-session with no new catalyst — the move is exhausting
-- Broad market has reversed sharply and this stock is showing no relative strength
-- The morning thesis has materially weakened based on new information
+Discretionary exits — sell only if there is a real thesis break, not just red noise. "Broad market reversed" or "no relative strength" is NOT by itself a reason to sell. A discretionary exit requires BOTH the price condition AND the thesis condition below:
+- Price condition: the stock has faded steadily since the open (round-tripped more than half a gap-up), OR is down more than 1.5% from entry (smaller moves against entry are noise — hold, let the stop do its job)
+- Thesis condition: the morning catalyst has materially and concretely weakened based on new information (negative news, downgrade, guidance cut) — not merely "the market is down" or "no relative strength" with nothing else behind it
+
+If only the price condition is met but the thesis is still intact, hold — do not exit on price action alone.
 
 Hold if:
 - Position is trending well, momentum is intact, and broad market is supportive

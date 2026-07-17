@@ -173,13 +173,11 @@ Hard exits — sell immediately (market order) if:
 
 Note: Robinhood does not support stop or limit trigger orders on fractional shares. There are no standing stop-loss orders in the market — this manual check IS the stop-loss mechanism. Always check prices against handoff targets before doing anything else.
 
-Discretionary exits — sell if any of the following apply:
-- The stock closed its intraday gap and has lost momentum heading into close
-- Volume is fading into the close rather than increasing — weak close suggests weak overnight
-- Broad market (S&P 500 or QQQ) is showing significant weakness late in the day
-- News or unusual activity suggests elevated overnight downside risk
-- The thesis for holding has weakened since entry
+Discretionary exits — sell only if there is a real thesis break or concrete overnight risk, not just red noise. "Broad market weak late in the day" is NOT by itself a reason to sell an otherwise-intact position — that is normal noise and the defined stop-loss (with extra overnight room) exists to handle real downside. Sell discretionarily if any of the following apply:
+- News or unusual activity suggests concrete elevated overnight downside risk (not just "market is down")
+- The specific thesis for holding has concretely weakened since entry (negative news, downgrade, guidance cut) — not merely broad-market softness
 - Position was flagged NO for overnight hold by the 12 PM agent and there is no new overnight catalyst to justify holding
+- The stock closed its intraday gap AND is down more than 1.5% from entry with no catalyst left to support a rebound (price fade alone, without a thesis break, is not enough — hold and let the stop do its job)
 
 Hold overnight if:
 - The stock is still trending up with increasing or sustained volume into the close
