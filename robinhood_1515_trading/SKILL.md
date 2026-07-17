@@ -202,9 +202,9 @@ Never use unsettled cash. Never let total invested positions exceed 75% of accou
 
 MARKET REGIME GATE — check before opening new overnight positions:
 Use Polygon to get SPY's change % from prior close and how it is trending into the close.
-- If SPY is DOWN more than 1% on the day: risk-off regime. SKIP all new overnight buys (skip Steps 4 and 5, go to Step 6). Holding new longs overnight into a weak-market close carries elevated gap-down risk. Note "Market regime gate triggered — SPY down [X]%, no new overnight buys." You may still HOLD existing winners overnight if their individual thesis is strong.
-- If SPY is DOWN 0.5% to 1%: caution regime. You may open overnight positions but reduce sizes by 50% and require a strong, clearly-dated catalyst.
-- If SPY is flat or up: normal regime, proceed as usual.
+- If SPY is DOWN more than 2% on the day: risk-off regime. SKIP all new overnight buys (skip Steps 4 and 5, go to Step 6). Holding new longs overnight into a weak-market close carries elevated gap-down risk. Note "Market regime gate triggered — SPY down [X]%, no new overnight buys." You may still HOLD existing winners overnight if their individual thesis is strong.
+- If SPY is DOWN 1% to 2%: caution regime. You may open overnight positions but reduce sizes by 50% and require a strong, clearly-dated catalyst.
+- If SPY is flat, up, or down less than 1%: normal regime, proceed as usual — a mild broad-market dip is not a reason to sit out individual stocks with real, confirmed momentum.
 This gate does NOT affect sells — always honor stops and take-profits regardless of regime.
 
 ---
@@ -241,7 +241,7 @@ Then screen every candidate against all of the following:
 Baseline filters:
 - Up at least 3% on the day
 - Actual relative volume ≥ 1.5× (from Polygon — no estimation)
-- Current price is ABOVE VWAP (closing strong relative to day's average)
+- Current price is ABOVE VWAP and closing near/above its intraday high (closing strong, not fading into the bell)
 - Market cap above $2 billion (disqualify OTC, pink sheets, ADRs)
 - Bid/ask spread below 1%
 - Not already in your portfolio
@@ -260,12 +260,12 @@ Overnight-specific filters:
 
 For every candidate that passes all filters, do a brief news headline search ("[TICKER] stock news today") to confirm the catalyst is real and check for any negative counterweight stories.
 
-Score each qualifying candidate on: percentage gain + volume strength + catalyst quality + close strength + overnight risk profile. Rank and select up to 3 candidates. If no stock passes all filters, skip buying today and explain why.
+Score each qualifying candidate on: percentage gain + volume strength + catalyst quality + close strength + overnight risk profile. Rank and select up to 4 candidates. If no stock passes all filters, skip buying today and explain why.
 
 ---
 
 STEP 5 — Size and place overnight buys
-Select up to 3 candidates from Step 4. Divide the buyable amount from Step 3 evenly across them (e.g., 3 picks = each gets one-third of buyable cash), but cap any single position at 25% of total account value. If only 1 or 2 candidates qualify, split the buyable amount across those instead.
+Select up to 4 candidates from Step 4. Divide the buyable amount from Step 3 evenly across them (e.g., 4 picks = each gets one-quarter of buyable cash), but cap any single position at 25% of total account value. If fewer candidates qualify, split the buyable amount across those instead.
 
 For each position, set stop-loss and take-profit as follows:
 - Stop-loss: use today's intraday low as a reference, but hard cap at 5% below entry price. Overnight positions get slightly more room than intraday (5% vs 4%) to absorb normal gap volatility at open, but no more — if the intraday low is more than 5% below your intended entry, the stock is too volatile to hold overnight, skip it.

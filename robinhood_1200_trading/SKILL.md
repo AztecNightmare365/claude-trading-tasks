@@ -76,9 +76,9 @@ Never use unsettled cash. Never let total invested positions exceed 75% of accou
 
 MARKET REGIME GATE — check before buying:
 Use Polygon to get SPY's current change % from prior close.
-- If SPY is DOWN more than 1% on the day: risk-off regime. SKIP all new buys (skip Steps 4 and 5, go to Step 6). Note "Market regime gate triggered — SPY down [X]%, no new buys."
-- If SPY is DOWN 0.5% to 1%: caution regime. You may buy but reduce all position sizes by 50% and require a stronger-than-usual catalyst.
-- If SPY is flat or up: normal regime, proceed as usual.
+- If SPY is DOWN more than 2% on the day: risk-off regime. SKIP all new buys (skip Steps 4 and 5, go to Step 6). Note "Market regime gate triggered — SPY down [X]%, no new buys."
+- If SPY is DOWN 1% to 2%: caution regime. You may buy but reduce all position sizes by 50% and require a stronger-than-usual catalyst.
+- If SPY is flat, up, or down less than 1%: normal regime, proceed as usual — a mild broad-market dip is not a reason to sit out individual stocks with real, confirmed momentum.
 This gate does NOT affect sells or stop-trailing — always honor stops and take-profits regardless of regime.
 
 ---
@@ -107,7 +107,7 @@ Combine into a master candidate list. Screen every candidate against all of the 
 Baseline filters:
 - Up at least 3% from yesterday's close
 - Actual relative volume ≥ 1.5× (from Polygon)
-- Current price is ABOVE VWAP
+- Current price is ABOVE VWAP and above its post-10AM range high
 - 5-min bar trend since 10 AM shows momentum holding or building — not fading from open spike
 - Market cap above $2 billion
 - Bid/ask spread below 1%
@@ -126,7 +126,7 @@ Midday-specific filters:
 
 For every candidate that passes all filters, do a brief news headline search ("[TICKER] stock news today") to confirm the catalyst and check for negative counterweight stories.
 
-Score each qualifying candidate on: percentage gain + volume pace + catalyst strength + price stability. Rank and select up to 2 candidates (be more conservative than the morning session — the best midday entries are rare). If no stock passes all filters, skip buying and explain why.
+Score each qualifying candidate on: percentage gain + volume pace + catalyst strength + price stability. Rank and select up to 3 candidates (still more selective than the morning session — the best midday entries are rarer). If no stock passes all filters, skip buying and explain why.
 
 ---
 

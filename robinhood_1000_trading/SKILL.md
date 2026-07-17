@@ -221,9 +221,9 @@ Never use unsettled cash. Never let total invested positions exceed 75% of accou
 
 MARKET REGIME GATE — check before buying:
 Use Polygon to get SPY's current change % from prior close.
-- If SPY is DOWN more than 1% on the day: this is a risk-off regime. SKIP all new buys (skip Steps 4 and 5, go to Step 6). Momentum longs have a much lower win rate when the broad market is selling off. Note "Market regime gate triggered — SPY down [X]%, no new buys."
-- If SPY is DOWN 0.5% to 1%: caution regime. You may buy but reduce all position sizes by 50% and require a stronger-than-usual catalyst.
-- If SPY is flat or up: normal regime, proceed as usual.
+- If SPY is DOWN more than 2% on the day: this is a risk-off regime. SKIP all new buys (skip Steps 4 and 5, go to Step 6). Momentum longs have a much lower win rate when the broad market is selling off hard. Note "Market regime gate triggered — SPY down [X]%, no new buys."
+- If SPY is DOWN 1% to 2%: caution regime. You may buy but reduce all position sizes by 50% and require a stronger-than-usual catalyst.
+- If SPY is flat, up, or down less than 1%: normal regime, proceed as usual — a mild broad-market dip is not a reason to sit out individual stocks with real, confirmed momentum.
 This gate does NOT affect sells — always honor stops and take-profits regardless of regime.
 
 ---
@@ -261,7 +261,7 @@ Then screen every candidate against all of the following:
 Baseline filters:
 - Up at least 3% from yesterday's close
 - Actual relative volume ≥ 1.5× (from Polygon — no estimation)
-- Current price is ABOVE VWAP (confirms intraday momentum, not fading)
+- Current price is ABOVE VWAP and above the 9:30-10:00 AM opening range high (confirms it's still trending up right now, not just popped and stalled)
 - Price trend from 5-min bars shows higher highs or consolidation above open — not a fading spike
 - Market cap above $2 billion (disqualify OTC, pink sheets, ADRs)
 - Bid/ask spread below 1%
@@ -280,12 +280,12 @@ Morning-specific filters:
 
 For every candidate that passes all filters, do a brief news headline search ("[TICKER] stock news today") to confirm the catalyst and check for any negative counterweight stories.
 
-Score each qualifying candidate on: percentage gain + volume pace + catalyst strength + price stability since open. Rank and select up to 3 candidates. If no stock passes all filters, skip buying today and explain why.
+Score each qualifying candidate on: percentage gain + volume pace + catalyst strength + price stability since open. Rank and select up to 4 candidates. If no stock passes all filters, skip buying today and explain why.
 
 ---
 
 STEP 5 — Size and place morning buys
-Select up to 3 candidates from Step 4. Divide the buyable amount from Step 3 evenly across them (e.g., 3 picks = each gets one-third of buyable cash), but cap any single position at 25% of total account value. If only 1 or 2 candidates qualify, split the buyable amount across those instead.
+Select up to 4 candidates from Step 4. Divide the buyable amount from Step 3 evenly across them (e.g., 4 picks = each gets one-quarter of buyable cash), but cap any single position at 25% of total account value. If fewer candidates qualify, split the buyable amount across those instead.
 
 For each position, set stop-loss and take-profit as follows:
 - Stop-loss: use the opening 30-minute low as a reference, but hard cap at 4% below entry price. If the 30-minute low is more than 4% below your intended entry, the stock is too volatile for the current monitoring cadence — skip it.
