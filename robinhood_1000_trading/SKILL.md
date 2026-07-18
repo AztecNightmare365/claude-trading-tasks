@@ -96,9 +96,25 @@ ABT (+1.04%), CTAS (+0.85%) are both holding up well pre-market. Healthcare is a
 ---
 
 ## LEARNED INSIGHTS
-<!-- Updated by weekly review agent. Last updated: 2026-07-11. Insufficient data. -->
+<!-- Updated by weekly review agent. Last updated: 2026-07-18. Based on 5 closed trades. -->
 
-Only 0 closed trades logged so far — need at least 5 for meaningful analysis. No rules yet; trade normally and the log will fill in.
+OVERALL: Win rate 0%, profit factor 0.00, net P&L -$4.85
+
+TOP RULES (read before every session):
+1. 10AM entries had the smallest losses (avg -0.83%, N=3) vs 12PM (-2.10%, N=1) and 3:15PM (-2.05%, N=1) — prefer 10AM entries; raise the bar sharply for midday and late-session buys until sample grows.
+2. earnings_beat catalyst had the smallest average loss (-0.83%, N=3) vs analyst_upgrade (-2.10%) and sector_momentum (-2.05%) — prioritize earnings beats; treat upgrades and sector-momentum entries with extra scrutiny in current conditions.
+3. All 5 exits were discretionary losses — 0% stop_loss trigger rate, 0% TP hit rate (N=5). Positions are being cut before stops or TPs are reached. Do not exit discretionarily unless the thesis has concretely broken; let stops do their job.
+
+AVOID: All 5 trades were entered or managed during a sustained macro risk-off regime (SPY -1%+ multiple days, semiconductor sell-off, Netflix guidance miss). Every trade ended in a discretionary loss. When the regime gate is triggered, entering new positions compounds losses — honor the gate strictly; it exists for exactly this scenario.
+
+LEAN INTO: earnings_beat catalyst with 10AM entry in a neutral or positive macro regime. CTAS (earnings_beat, 10AM entry) had the smallest loss (-0.36%) and its exit was purely macro-driven — the fundamental thesis remained intact. This catalyst + session combination should outperform meaningfully when macro conditions normalize.
+
+RAW STATS:
+- Best catalyst: earnings_beat (0% win rate, -0.83% avg loss, N=3)
+- Best sector: industrial (0% win rate, -0.36% avg loss, N=1 — insufficient data for confidence)
+- Best session to open: 10AM (0% win rate, -0.83% avg loss, N=3)
+- Stop triggered rate: 0% of trades (target: <40%)
+- TP hit rate: 0% of trades (target: >30%)
 ---
 
 ## HANDOFF FROM LAST 3:15 PM SESSION
