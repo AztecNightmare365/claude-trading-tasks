@@ -120,60 +120,57 @@ RAW STATS:
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-Last updated: 2026-07-17 (~3:18 PM ET — 3:15 PM session complete)
+Last updated: 2026-07-20 (~3:28 PM ET — 3:15 PM session complete)
 
-Open positions held overnight (3 total):
+Open positions held overnight (2 total):
 
 - AAPL: 0.288213 shares, entry $327.50, stop-loss $317.32, take-profit $347.86
-  Close ~$333.64 | vs entry: +1.88% | Overnight flag: YES
-  Thesis: Apple Intelligence / Alibaba Qwen China AI regulatory approval (intact, day 2) + HSBC Buy upgrade (PT $366). Apple reclaimed world's most valuable company from NVIDIA. No earnings until July 30. Trail trigger $337.86 NOT yet reached — stop still $317.32.
+  Close ~$328.60 | vs entry: +0.34% | Overnight flag: YES
+  Thesis: Apple Intelligence / Alibaba Qwen China AI regulatory approval + HSBC Buy upgrade (PT $366). No earnings until July 30. Trail trigger $337.86 not yet reached — stop unchanged at $317.32.
   - If AAPL >= $347.86 at open/10 AM: sell immediately (take-profit).
   - If AAPL <= $317.32 at open/10 AM: sell immediately (stop-loss).
   - Trail stop to $327.50 (breakeven) if AAPL reaches $337.86 intraday.
 
-- RHI: 2.104745 shares, entry $40.29, stop-loss $40.29 (TRAIL AT BREAKEVEN), take-profit $43.15
-  Close ~$41.24 | vs entry: +2.36% | Overnight flag: YES
-  Thesis: Staffing sector momentum from MAN Q2 beat. Risk-free position (stop at breakeven = zero downside). Buffer to stop: $0.95.
-  - If RHI >= $43.15 at open/10 AM: sell immediately (take-profit).
-  - If RHI <= $40.29 at open/10 AM: sell immediately (breakeven stop).
-
-- ABT: 0.872034 shares, entry $98.62, stop-loss $98.62 (TRAIL AT BREAKEVEN), take-profit $105.88
-  Close ~$99.815 | vs entry: +1.21% | Overnight flag: YES
-  Thesis: Q2 2026 earnings beat ($1.31 vs $1.28 est) + full-year EPS guidance raised to $5.45–$5.60. Healthcare defensive outperforming in risk-off (ABT +0.99% today vs SPY -1.08% — 2.07% relative outperformance). Risk-free position. BofA PT $115 (Buy).
+- ABT: 0.872034 shares, entry $98.62, stop-loss $101.00 (TRAILED UP from $100.84), take-profit $105.88
+  Close ~$101.76 | vs entry: +3.18% | Overnight flag: YES
+  Thesis: Q2 2026 earnings beat ($1.31 vs $1.28 est) + full-year EPS guidance raised to $5.45-$5.60. Healthcare sector outperforming. BofA Buy PT $115. Stop trailed up from $100.84 to $101.00 to protect gains.
   - If ABT >= $105.88 at open/10 AM: sell immediately (take-profit).
-  - If ABT <= $98.62 at open/10 AM: sell immediately (breakeven stop).
+  - If ABT <= $101.00 at open/10 AM: sell immediately (stop-loss — trailed up).
 
 Sells executed at 3:15 PM (1 total):
-- CTAS: 0.488943 shares sold at market ~$202.76
-  Reason: Discretionary exit — below entry (-0.36%), no relative strength in risk-off tape (CTAS -1.69% vs SPY -1.08%). Market moved from -0.85% at 2 PM to -1.08% at close, as 2 PM monitor predicted and warned about. Despite solid Q4 FY2026 earnings beat (Jul 15) + Goldman Buy PT $231 + BofA upgrade + Wells Fargo PT $250, stock failed to hold gains. FTC Second Request overhang on UniFirst acquisition added uncertainty.
-  P&L: ~-0.36% (-$0.36 vs entry $203.50). Proceeds ~$99.14 UNSETTLED (settle July 20).
+- RHI: 2.104745 shares sold at market ~$41.745
+  Reason: Discretionary exit — earnings July 23 PM (binary event risk). Locked in +3.61% gain before binary event.
+  P&L: +3.61% (+$3.06 vs entry $40.29). Proceeds ~$87.85 UNSETTLED (settle July 21).
 
-Settled cash remaining: $456.22 (unchanged — CTAS proceeds unsettled)
-Unsettled (settle July 20): ~$99.14 (CTAS proceeds)
-Total account value: ~$825.35 (equity ~$269.98 at close + settled cash $456.22 + unsettled $99.14)
-Portfolio invested: ~32.7% (well under 75% cap — significant dry powder when CTAS settles)
+New buys: NONE — no candidates cleared all baseline filters. Polygon API still broken (invalid key since July 16). Using Robinhood volume proxy: all candidates with >3% gain today (ELF +6.95%, VG +4.13%, GLXY +8.27%, MRVL +3.12%, AXTI +5.23%) showed relative volume below the required 1.5x threshold. Best candidate was VG (Venture Global LNG) at 1.34x 30-day average — fell just short. Learned insights say "raise the bar sharply for 3:15 PM entries."
+
+Settled cash remaining: $555.46
+Unsettled (settles July 21): ~$87.85 (RHI proceeds)
+Total account value: ~$827 (~$183 equity + $555 settled + $88 unsettled)
+Portfolio invested: ~22.2% (AAPL $94.71 + ABT $88.74 = $183.45 / $827)
 
 ---
 
-NOTES FOR 10:00 AM AGENT (July 18, 2026):
+NOTES FOR 10:00 AM AGENT (July 21, 2026):
 
-1. MACRO: SPY closed -1.08% July 17. Semiconductor sell-off Day 5 (TSM, MU, NVDA, AVGO all weak). Netflix -10%+ on Q3 guidance miss. Oil +2% on Iran-Hormuz blockade. Healthcare/defensives outperformed. Risk-off regime triggered at both 2 PM and 3:15 PM sessions today — no new buys were opened.
+1. MACRO TODAY (July 20): SPY -0.19% (NORMAL regime, no gate triggered). QQQ +0.21% (tech recovering). First green day after multi-day sell-off. Geopolitical: U.S. airstrikes on Iran resumed, oil back above $80 — inflation concern, but markets resilient. Chip sector rebounded 3-5% on Goldman AMD upgrade (PT $640) and SK Hynix Korea catalyst.
 
-2. REGIME GATE STATUS: SPY -1.08% triggered risk-off gate. Check Friday July 18 pre-market SPY direction before considering any new buys. End of week could bring relief bounce OR continued selling. Regime gate guidance: SPY up -> normal; SPY -0.5% to -1% -> caution (50% size); SPY < -1% -> skip all new buys.
+2. EARNINGS THIS WEEK — BINARY EVENT RISKS:
+   - July 21 PM: IBM earnings — may affect tech sentiment Tuesday night
+   - July 22 PM: Tesla + Alphabet earnings — Mag 7 binary events, major market movers
+   - July 23 PM: Intel (INTC) earnings — chip sector binary event (15% implied move!)
+   - AAPL: No binary event (earnings July 30). Safe to hold.
+   - ABT: No binary event (earnings estimated August). Safe to hold.
 
-3. AAPL BEST POSITION: $333.64, +1.88% vs entry $327.50. Stop $317.32 = $16.32 buffer (4.97%). HSBC PT $366, China AI thesis intact. Trail trigger $337.86 not hit — if AAPL opens above $337.86, trail stop to $327.50 (breakeven) immediately. Next earnings July 30 — no binary event risk.
+3. ABT CRITICAL — TIGHT STOP: Stop $101.00 is only $0.76 below Monday's close ($101.76). ABT made intraday highs of $102.46 (1:50 PM) then faded to $101.76 at close. Thesis completely intact (Q2 beat, raised guidance, BofA PT $115, healthcare outperforming). If ABT opens at or above $101.00 and shows positive momentum, consider trailing stop to $101.50. If ABT gaps DOWN below $101.00 at open, sell immediately (0.872034 shares, market order — stop-loss triggered).
 
-4. ABT OUTPERFORMING — WATCH CLOSELY: $99.815, +1.21% vs entry. Healthcare sector showed defensive strength all day (ABT +0.99% vs SPY -1.08%). Risk-free (stop at $98.62 = breakeven). BofA Buy PT $115. If healthcare bid continues into Friday, ABT could push toward TP $105.88 (still 6.1% away). If risk-off deepens and ABT touches $98.62, stop will trigger — no loss.
+4. AAPL MUTED BUT HOLDING: Closed $328.60, down 1.54% from Friday close ($333.74), but up 0.34% vs entry $327.50. Stop $317.32 = $11.28 below close (3.44% buffer) — safe. No AAPL-specific negative news. Trail trigger $337.86 not reached — stop unchanged at $317.32. QQQ +0.21% on July 20 suggests tech recovery underway; if it continues Tuesday, AAPL should follow.
 
-5. RHI RISK-FREE: $41.24, +2.36% vs entry. Breakeven stop at $40.29 = $0.95 buffer. Staffing thesis intact. MAN Q2 beat catalyst was July 16 — some catalyst fade risk on Day 2. If opens flat or down and tests $40.29, stop triggers at breakeven.
+5. BEST NEW BUY CANDIDATE TO WATCH: VG (Venture Global LNG) — +4.13% on July 20, $35.7B market cap, Iran conflict breakdown driving LNG price surge, raised EBITDA guidance $8.2-8.5B, EnBW 820K TPA contract, analyst avg PT $16.68 vs current $14.37 (+16% upside). Passed all qualitative filters but volume was 1.34x (threshold 1.5x). Monitor at 10 AM July 21 for continuation with higher volume as a potential earnings-beat-caliber entry.
 
-6. CTAS EXITED DISCRETIONARILY: Sold at ~$202.76 (-0.36%). Fundamental thesis is actually strong (Goldman Buy $231, BofA Buy, WF PT $250, Q4 beat, FY27 guidance 7.4-8.7% growth) — exit was purely about price action failing in risk-off tape. If market stabilizes Friday and CTAS recovers above $205, could be a re-entry candidate for next week with fresh sizing.
+6. POLYGON API: Still broken (invalid key since July 16). Use Robinhood historicals and web searches for intraday data. Check if resolved at 10 AM.
 
-7. BUYING POWER: $456.22 fully settled. CTAS proceeds (~$99.14) settle July 20 (Monday). Total available July 18: $456.22. At 75% cap and $269.98 invested: investable = $619.01 - $269.98 = $349.03, capped by settled cash $456.22. Available ~$349 if regime allows.
-
-8. POLYGON API: Has been returning invalid API key errors since July 16. Use Robinhood equity historicals or web search for intraday data. Check at 10 AM if resolved.
-
-9. NO EARNINGS RISK: AAPL (July 30), RHI (August), ABT (already reported July 16). No binary events expected overnight into July 18.
+7. BUYING POWER: $555.46 settled now. After RHI settles July 21 (~$87.85), total cash ~$643. With $183 invested, investable = ($827 x 0.75) - $183 = $437. Ample dry powder for strong 10 AM earnings-beat entries.
 
 ---
 
