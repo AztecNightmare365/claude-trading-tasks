@@ -75,7 +75,7 @@ After accounting for any planned sells from Step 2:
 Never use unsettled cash. Never let total invested positions exceed 75% of account value.
 
 MARKET REGIME GATE — check before buying:
-Use Polygon to get SPY's current change % from prior close.
+Get SPY's current change % from prior close via get_equity_quotes(["SPY"]): (last_trade_price - adjusted_previous_close) / adjusted_previous_close.
 - If SPY is DOWN more than 2% on the day: risk-off regime. SKIP all new buys (skip Steps 4 and 5, go to Step 6). Note "Market regime gate triggered — SPY down [X]%, no new buys."
 - If SPY is DOWN 1% to 2%: caution regime. You may buy but reduce all position sizes by 50% and require a stronger-than-usual catalyst.
 - If SPY is flat, up, or down less than 1%: normal regime, proceed as usual — a mild broad-market dip is not a reason to sit out individual stocks with real, confirmed momentum.
@@ -86,8 +86,8 @@ This gate does NOT affect sells or stop-trailing — always honor stops and take
 STEP 4 — Find midday momentum candidates
 Only look for new positions if the morning session left meaningful dry powder and there are genuinely strong setups. Do not force trades. Cast a wide net — aim for 30+ raw candidates before filtering. Run all sources in parallel:
 
-Source A — Polygon top movers (primary):
-Use Polygon's snapshot endpoint to get US stocks with change % ≥ 3% and actual relative volume ≥ 1.5×. Sort by relative volume. This is your primary candidate pool.
+Source A — Robinhood scanner (primary):
+Call run_scan with scan_id "9934ccf8-02c4-4ed0-a32e-1a1b2bc44b63" (saved scan: % change ≥ 3%, relative volume ≥ 1.5× 30-day average, market cap > $2B, live-evaluated). This is your primary candidate pool. Zero results means the bar genuinely isn't being cleared right now — don't force it.
 
 Source B — Robinhood built-in lists:
 Call get_popular_lists and get_watchlist_items on Daily Movers, 100 Most Popular, Top Movers, sector lists. Add any tickers not already in Source A.
@@ -100,13 +100,13 @@ Source C — Web searches (run in parallel):
 - "merger acquisition announced today [current date]"
 Extract every ticker mentioned and add any not already in Sources A/B.
 
-For each candidate, fetch from Polygon: current price, change %, actual relative volume, VWAP, 5-min bars since 10 AM open (to confirm sustained momentum, not a fading morning spike).
+For each candidate not already scored by Source A, fetch: current price/change % (get_equity_quotes), relative volume vs 30-day average (get_equity_historicals), VWAP (get_equity_technical_indicators, type="vwap", interval="5minute"), 5-min bars since 10 AM open (get_equity_historicals, interval="5minute") to confirm sustained momentum, not a fading morning spike.
 
 Combine into a master candidate list. Screen every candidate against all of the following:
 
 Baseline filters:
 - Up at least 3% from yesterday's close
-- Actual relative volume ≥ 1.5× (from Polygon)
+- Actual relative volume ≥ 1.5× (from the scanner or get_equity_historicals)
 - Current price is ABOVE VWAP and above its post-10AM range high
 - 5-min bar trend since 10 AM shows momentum holding or building — not fading from open spike
 - Market cap above $2 billion

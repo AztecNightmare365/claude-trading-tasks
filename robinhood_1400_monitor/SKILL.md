@@ -26,12 +26,11 @@ If there are no open positions (live portfolio is empty of tradeable equities), 
 ---
 
 STEP 2 — Get current quotes and context
-Use Polygon to get for each position:
-- Current price
-- VWAP
-- Volume vs 30-day average (actual relative volume)
-- Distance from intraday high and low
-- Whether price is above or below VWAP
+For each position:
+- Current price — get_equity_quotes
+- VWAP, and whether price is above or below it — get_equity_technical_indicators (type="vwap", interval="5minute", start_time=today's market open)
+- Volume vs 30-day average (actual relative volume) — get_equity_historicals (30 days daily bars for the average, today's 5-minute bars for current)
+- Distance from intraday high and low — get_equity_historicals (interval="5minute", start_time=today's market open)
 
 ---
 

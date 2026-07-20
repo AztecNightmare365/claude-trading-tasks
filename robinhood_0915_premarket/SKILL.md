@@ -23,14 +23,14 @@ If the block says no positions held overnight, still write the `## PRE-MARKET BR
 
 ---
 
-IMPORTANT — never hang: If any Polygon or web-search call errors, times out, or returns nothing, do NOT retry indefinitely and do NOT stall. Note "Polygon unavailable" (or "news lookup failed") for that item in the brief and continue. You must always reach Step 5 and push a brief — a diagnostic brief noting a tool failure is far better than a silent hang.
+IMPORTANT — never hang: If any data or web-search call errors, times out, or returns nothing, do NOT retry indefinitely and do NOT stall. Note "data unavailable" (or "news lookup failed") for that item in the brief and continue. You must always reach Step 5 and push a brief — a diagnostic brief noting a tool failure is far better than a silent hang.
 
-STEP 2 — Get pre-market quotes via Polygon
-For each overnight position, use Polygon to fetch pre-market data:
-- Current pre-market price (last trade or bid)
-- Pre-market high and low
-- Pre-market volume
-- Overnight change % from prior close
+STEP 2 — Get pre-market quotes via Robinhood
+For each overnight position, use get_equity_quotes to fetch pre-market data:
+- Current pre-market price: last_non_reg_trade_price (fall back to bid_price if unavailable)
+- Pre-market high and low: get_equity_historicals with bounds="extended", interval="5minute", start_time = today's pre-market open
+- Overnight change % from prior close: (last_non_reg_trade_price - adjusted_previous_close) / adjusted_previous_close
+Note: get_equity_quotes does not return pre-market volume; skip that field or note it as unavailable.
 
 Note whether each position is trading above, below, or near its stop-loss and take-profit levels.
 

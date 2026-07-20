@@ -24,7 +24,7 @@ If there are no open positions (live portfolio is empty of tradeable equities), 
 ---
 
 STEP 2 — Get current quotes
-Use Polygon to get the current price for each open position. Also pull the current VWAP and whether the stock is above or below VWAP.
+Use get_equity_quotes to get the current price for each open position. Use get_equity_technical_indicators (type="vwap", interval="5minute", start_time=today's market open) to pull the current VWAP and whether the stock is above or below it.
 
 ---
 

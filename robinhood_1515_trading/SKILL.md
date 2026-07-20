@@ -182,7 +182,7 @@ After accounting for any planned sells from Step 2:
 Never use unsettled cash. Never let total invested positions exceed 75% of account value.
 
 MARKET REGIME GATE — check before opening new overnight positions:
-Use Polygon to get SPY's change % from prior close and how it is trending into the close.
+Get SPY's change % from prior close via get_equity_quotes(["SPY"]): (last_trade_price - adjusted_previous_close) / adjusted_previous_close.
 - If SPY is DOWN more than 2% on the day: risk-off regime. SKIP all new overnight buys (skip Steps 4 and 5, go to Step 6). Holding new longs overnight into a weak-market close carries elevated gap-down risk. Note "Market regime gate triggered — SPY down [X]%, no new overnight buys." You may still HOLD existing winners overnight if their individual thesis is strong.
 - If SPY is DOWN 1% to 2%: caution regime. You may open overnight positions but reduce sizes by 50% and require a strong, clearly-dated catalyst.
 - If SPY is flat, up, or down less than 1%: normal regime, proceed as usual — a mild broad-market dip is not a reason to sit out individual stocks with real, confirmed momentum.
@@ -193,8 +193,8 @@ This gate does NOT affect sells — always honor stops and take-profits regardle
 STEP 4 — Find overnight momentum candidates
 You are looking specifically for stocks with strong overnight gap-up potential, not just stocks that moved today. Cast a wide net — aim for 50+ raw candidates before filtering. Run all sources in parallel:
 
-Source A — Polygon top movers (primary):
-Use Polygon's snapshot endpoint to get US stocks with change % ≥ 3% and actual relative volume ≥ 1.5×. Also pull today's 52-week high list from Polygon. Sort by relative volume. This is your primary candidate pool.
+Source A — Robinhood scanner (primary):
+Call run_scan with scan_id "9934ccf8-02c4-4ed0-a32e-1a1b2bc44b63" (saved scan: % change ≥ 3%, relative volume ≥ 1.5× 30-day average, market cap > $2B, live-evaluated). This is your primary candidate pool. Zero results means the bar genuinely isn't being cleared right now — don't force it.
 
 Source B — Robinhood built-in lists:
 Call get_popular_lists and get_watchlist_items on Daily Movers, 100 Most Popular, 52-Week Highs, Top Movers, sector lists. Add any tickers not already in Source A.
@@ -215,13 +215,13 @@ Search "after hours earnings tonight [current date]" and "premarket catalyst tom
 Source E — Sector momentum check:
 Search "best performing sectors today [current date]" and identify the top 1-2 sectors. Pull relevant sector ETF tickers (XLK, XLV, XLE, XLF, XLI, XLC, etc.) and find individual stocks within the leading sectors that are closing strong.
 
-Combine everything into a master candidate list. For each candidate, fetch from Polygon: current price, change %, actual relative volume, VWAP, today's intraday low (for stop-loss reference), and closing price trend from 5-min bars in the last hour (is it closing strong or fading?).
+Combine everything into a master candidate list. For each candidate not already scored by Source A, fetch: current price/change % (get_equity_quotes), actual relative volume vs 30-day average (get_equity_historicals), VWAP (get_equity_technical_indicators, type="vwap", interval="5minute"), today's intraday low (get_equity_historicals, for stop-loss reference), and closing price trend from 5-min bars in the last hour (get_equity_historicals, interval="5minute") — is it closing strong or fading?
 
 Then screen every candidate against all of the following:
 
 Baseline filters:
 - Up at least 3% on the day
-- Actual relative volume ≥ 1.5× (from Polygon — no estimation)
+- Actual relative volume ≥ 1.5× (from the scanner or get_equity_historicals — no estimation)
 - Current price is ABOVE VWAP and closing near/above its intraday high (closing strong, not fading into the bell)
 - Market cap above $2 billion (disqualify OTC, pink sheets, ADRs)
 - Bid/ask spread below 1%
