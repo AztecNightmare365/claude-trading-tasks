@@ -86,8 +86,11 @@ This gate does NOT affect sells or stop-trailing — always honor stops and take
 STEP 4 — Find midday momentum candidates
 Only look for new positions if the morning session left meaningful dry powder and there are genuinely strong setups. Do not force trades. Cast a wide net — aim for 30+ raw candidates before filtering. Run all sources in parallel:
 
-Source A — Robinhood scanner (primary):
-Call run_scan with scan_id "9934ccf8-02c4-4ed0-a32e-1a1b2bc44b63" (saved scan: % change ≥ 3%, relative volume ≥ 1.5× 30-day average, market cap > $2B, live-evaluated). This is your primary candidate pool. Zero results means the bar genuinely isn't being cleared right now — don't force it.
+Source A — Robinhood scanners (primary):
+Call run_scan on BOTH saved scans and union the results:
+1. scan_id "9934ccf8-02c4-4ed0-a32e-1a1b2bc44b63" — % change ≥ 3%, relative volume ≥ 1.2× 30-day average, market cap > $750M. Confirmed-momentum pool.
+2. scan_id "38cc0924-7945-40c0-adb9-79048afa6d67" — % change ≥ 6%, market cap > $500M, no volume filter. Catches big obvious movers a lagging relative-volume reading would otherwise exclude.
+Zero on both means the bar genuinely isn't being cleared right now — don't force it.
 
 Source B — Robinhood built-in lists:
 Call get_popular_lists and get_watchlist_items on Daily Movers, 100 Most Popular, Top Movers, sector lists. Add any tickers not already in Source A.
@@ -104,14 +107,16 @@ For each candidate not already scored by Source A, fetch: current price/change %
 
 Combine into a master candidate list. Screen every candidate against all of the following:
 
-Baseline filters:
-- Up at least 3% from yesterday's close
-- Actual relative volume ≥ 1.5× (from the scanner or get_equity_historicals)
-- Current price is ABOVE VWAP and above its post-10AM range high
-- 5-min bar trend since 10 AM shows momentum holding or building — not fading from open spike
-- Market cap above $2 billion
+Baseline filters (hard requirements):
+- Up at least 3% from yesterday's close (or came from the 6%+ big-mover scan)
+- Market cap above $500 million
 - Bid/ask spread below 1%
 - Not already in your portfolio
+
+Trend-quality scoring (weigh these, don't hard-reject for missing one):
+- Relative volume ≥ 1.2× is a positive signal, ≥ 1.5× strong. A big mover (≥6%) with weak volume data is still eligible.
+- Price above VWAP and above its post-10AM range high is a strong signal; a near-miss with a real catalyst still ranks, just lower.
+- 5-min bar trend since 10 AM shows momentum holding or building, not a hard fade from the open spike.
 
 Hard disqualifiers — reject immediately, no exceptions:
 - Any pending binary event: FDA decision, clinical trial readout, foreign regulatory clearance, court ruling

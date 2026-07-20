@@ -193,8 +193,11 @@ This gate does NOT affect sells — always honor stops and take-profits regardle
 STEP 4 — Find overnight momentum candidates
 You are looking specifically for stocks with strong overnight gap-up potential, not just stocks that moved today. Cast a wide net — aim for 50+ raw candidates before filtering. Run all sources in parallel:
 
-Source A — Robinhood scanner (primary):
-Call run_scan with scan_id "9934ccf8-02c4-4ed0-a32e-1a1b2bc44b63" (saved scan: % change ≥ 3%, relative volume ≥ 1.5× 30-day average, market cap > $2B, live-evaluated). This is your primary candidate pool. Zero results means the bar genuinely isn't being cleared right now — don't force it.
+Source A — Robinhood scanners (primary):
+Call run_scan on BOTH saved scans and union the results:
+1. scan_id "9934ccf8-02c4-4ed0-a32e-1a1b2bc44b63" — % change ≥ 3%, relative volume ≥ 1.2× 30-day average, market cap > $750M. Confirmed-momentum pool.
+2. scan_id "38cc0924-7945-40c0-adb9-79048afa6d67" — % change ≥ 6%, market cap > $500M, no volume filter. Catches big obvious movers a lagging relative-volume reading would otherwise exclude.
+Zero on both means the bar genuinely isn't being cleared right now — don't force it.
 
 Source B — Robinhood built-in lists:
 Call get_popular_lists and get_watchlist_items on Daily Movers, 100 Most Popular, 52-Week Highs, Top Movers, sector lists. Add any tickers not already in Source A.
@@ -219,13 +222,15 @@ Combine everything into a master candidate list. For each candidate not already 
 
 Then screen every candidate against all of the following:
 
-Baseline filters:
-- Up at least 3% on the day
-- Actual relative volume ≥ 1.5× (from the scanner or get_equity_historicals — no estimation)
-- Current price is ABOVE VWAP and closing near/above its intraday high (closing strong, not fading into the bell)
-- Market cap above $2 billion (disqualify OTC, pink sheets, ADRs)
+Baseline filters (hard requirements):
+- Up at least 3% on the day (or came from the 6%+ big-mover scan)
+- Market cap above $500 million (disqualify OTC, pink sheets, ADRs)
 - Bid/ask spread below 1%
 - Not already in your portfolio
+
+Trend-quality scoring (weigh these, don't hard-reject for missing one):
+- Relative volume ≥ 1.2× is a positive signal, ≥ 1.5× strong. A big mover (≥6%) with weak volume data is still eligible.
+- Price above VWAP and closing near/above its intraday high is a strong "closing strong" signal; a near-miss with a real catalyst still ranks, just lower.
 
 Hard disqualifiers — reject immediately, no exceptions:
 - Any pending binary event that could resolve overnight or before tomorrow's open: FDA decision, foreign government merger/acquisition regulatory clearance (e.g. China SAMR, EU approval), clinical trial readout, court ruling. These can gap -15% or more at open with no ability to react until the 10:00 AM agent runs.

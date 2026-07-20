@@ -244,8 +244,11 @@ This gate does NOT affect sells — always honor stops and take-profits regardle
 STEP 4 — Find morning momentum candidates
 You are looking for stocks showing confirmed momentum 30 minutes into the session, not just an opening spike. Cast a wide net — aim for 50+ raw candidates before filtering. Run all sources in parallel:
 
-Source A — Robinhood scanner (primary):
-Call run_scan with scan_id "9934ccf8-02c4-4ed0-a32e-1a1b2bc44b63" (saved scan: % change ≥ 3%, relative volume ≥ 1.5× 30-day average, market cap > $2B, all live-evaluated). This is the primary candidate pool. If it returns zero results, the bar genuinely isn't being cleared right now — do not lower it ad hoc to force candidates.
+Source A — Robinhood scanners (primary):
+Call run_scan on BOTH saved scans and union the results:
+1. scan_id "9934ccf8-02c4-4ed0-a32e-1a1b2bc44b63" — % change ≥ 3%, relative volume ≥ 1.2× 30-day average, market cap > $750M. Confirmed-momentum pool.
+2. scan_id "38cc0924-7945-40c0-adb9-79048afa6d67" — % change ≥ 6%, market cap > $500M, no volume filter. Catches big obvious movers that a noisy or lagging relative-volume reading would otherwise exclude (a stock up 8% on real news is a candidate regardless of what its volume ratio says).
+If both return zero, the bar genuinely isn't being cleared right now — do not lower it ad hoc to force candidates.
 
 Source B — Robinhood built-in lists:
 Call get_popular_lists and get_watchlist_items on every list that could contain movers: Daily Movers, 100 Most Popular, 52-Week Highs, Top Movers, sector lists. Add any tickers not already in Source A.
@@ -271,14 +274,16 @@ Combine into a master candidate list. For each candidate not already scored by S
 
 Then screen every candidate against all of the following:
 
-Baseline filters:
-- Up at least 3% from yesterday's close
-- Actual relative volume ≥ 1.5× (from the scanner or get_equity_historicals — no estimation)
-- Current price is ABOVE VWAP and above the 9:30-10:00 AM opening range high (confirms it's still trending up right now, not just popped and stalled)
-- Price trend from 5-min bars shows higher highs or consolidation above open — not a fading spike
-- Market cap above $2 billion (disqualify OTC, pink sheets, ADRs)
+Baseline filters (hard requirements — every candidate must pass all of these):
+- Up at least 3% from yesterday's close (or came from the 6%+ big-mover scan)
+- Market cap above $500 million (disqualify OTC, pink sheets, ADRs)
 - Bid/ask spread below 1%
 - Not already in your portfolio
+
+Trend-quality scoring (not a hard gate — weigh these when ranking candidates, don't reject solely for missing one):
+- Actual relative volume ≥ 1.2× is a positive signal; ≥ 1.5× is a strong signal. A candidate with a big move (≥6%) and weak relative volume is still eligible — the price move itself is the momentum signal when volume data is thin or lagging.
+- Price above VWAP and above the 9:30-10:00 AM opening range high is a strong "still trending, not fading" signal — prefer these, but a candidate slightly below one of these with a strong catalyst and no signs of reversal is still worth including, just ranked lower.
+- Price trend from 5-min bars shows higher highs or consolidation above open, not a hard fade to new lows.
 
 Hard disqualifiers — reject immediately, no exceptions:
 - Any pending binary event: FDA decision, foreign government merger/acquisition regulatory clearance (e.g. China SAMR, EU approval), clinical trial readout, court ruling. These can gap -15% or more with zero warning and no time to react before the next monitoring window.
