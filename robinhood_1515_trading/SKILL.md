@@ -47,96 +47,71 @@ Notes for 10:00 AM agent (June 25, 2026):
 ---
 
 ## HANDOFF FROM LAST 10 AM SESSION
-<!-- Updated by 2 PM monitor. Last updated: 2026-07-17 (~2:10 PM ET — 2 PM monitor complete). -->
+<!-- Updated by 10 AM agent. Last updated: 2026-07-20 (~10:20 AM ET — 10 AM session complete). -->
 
-Last updated: 2026-07-17 (~2:10 PM ET — 2 PM monitor complete)
+Last updated: 2026-07-20 (~10:20 AM ET — 10 AM session complete)
 
-Open positions (4 total — no sells, no new buys):
+Open positions (3 total — no sells, no new buys):
 
 - AAPL: 0.288213 shares, entry $327.50, stop-loss $317.32, take-profit $347.86, overnight flag: YES
-  2 PM price: ~$331.94 (+1.36% vs entry, -0.40% vs Jul 16 close $333.26)
-  Status: HOLD. Buffer to stop: $14.62 (4.5%). Buffer to TP: $15.92 (4.8%).
-  HSBC Buy (PT $366) upgrade intact — Apple reclaimed world's most valuable company from NVIDIA intraday today.
+  10 AM price: $328.28 (+0.24% vs entry, -1.64% vs Jul 17 close $333.74)
+  Status: HOLD. Buffer to stop: $10.96 (3.34%). Buffer to TP: $19.58 (5.97%).
+  Thesis: Apple Intelligence / Alibaba Qwen China AI regulatory approval + HSBC Buy upgrade (PT $366). AAPL showing relative weakness today vs QQQ +0.77% — down -1.64% from Friday close despite up market. No adverse AAPL-specific news found. Normal Monday retracement after strong 12% monthly gain.
   Trail trigger $337.86 not yet reached. Stop unchanged at $317.32.
-  Thesis: Apple Intelligence / Alibaba Qwen China regulatory approval + HSBC Buy upgrade.
   No earnings until July 30.
   - If AAPL >= $347.86: sell immediately (take-profit)
   - If AAPL <= $317.32: sell immediately (stop-loss)
   - Trail stop to $327.50 (breakeven) if AAPL reaches $337.86 intraday
 
 - RHI: 2.104745 shares, entry $40.29, stop-loss $40.29 (TRAIL AT BREAKEVEN), take-profit $43.15, overnight flag: YES
-  2 PM price: ~$41.245 (+2.37% vs entry, -0.21% vs Jul 16 close $41.33)
-  Status: HOLD. Buffer to breakeven stop: $0.955 (2.37%). Buffer to TP: $1.905 (4.62%).
-  Risk-free position. Recovered from 12 PM low of $40.75 to $41.245 — buffer expanded from $0.46 to $0.955.
-  Thesis: Staffing sector momentum from MAN Q2 beat. Breakeven stop = zero downside risk.
+  10 AM price: $41.13 (+2.09% vs entry, -1.60% vs Jul 17 close $41.80)
+  Status: HOLD. Buffer to breakeven stop: $0.84 (2.09%). Risk-free position.
+  ⚠️ EARNINGS RISK: RHI reports Q2 2026 earnings July 23 PM (Thursday). Stop is at breakeven = zero dollar loss if triggered, but gap risk through stop at open is possible. 3:15 PM session: strongly consider closing RHI today to lock in +2.09% gain and avoid binary event risk.
+  Thesis: Staffing sector momentum from MAN Q2 beat.
   - If RHI >= $43.15: sell immediately (take-profit)
   - If RHI <= $40.29: sell immediately (breakeven stop)
 
-- CTAS: 0.488943 shares, entry $203.50, stop-loss $197.34, take-profit $215.46, overnight flag: YES
-  2 PM price: ~$202.90 (-0.30% vs entry, -1.62% vs Jul 16 close $206.25)
-  Status: HOLD. Buffer to stop: $5.56 (2.74%). Buffer to TP: $12.56 (5.84%).
-  Still below entry. Goldman Sachs Buy (PT $231) intact. FTC Second Request for UniFirst acquisition extends timeline.
-  Thesis: Q4 FY2026 earnings beat (revenue +8.9% YoY, EPS +15.6%) + Goldman upgrade.
-  - If CTAS >= $215.46: sell immediately (take-profit)
-  - If CTAS <= $197.34: sell immediately (stop-loss)
-
-- ABT: 0.872034 shares, entry $98.62, stop-loss $98.62 (TRAILED TO BREAKEVEN), take-profit $105.88, overnight flag: YES
-  2 PM price: ~$99.815 (+1.21% vs entry, +0.99% vs Jul 16 close $98.83)
-  Status: ⚠️ NEAR STOP. Buffer to breakeven stop: $1.195 (1.21%) — within 1.5% flag threshold.
-  Drifted down from 12 PM price of $100.593. Healthcare bid still present but fading.
-  Thesis: Q2 earnings beat ($1.31 vs $1.28 est) + full-year EPS guidance raised. Risk-free (stop at breakeven).
+- ABT: 0.872034 shares, entry $98.62, stop-loss $98.62 (TRAIL AT BREAKEVEN), take-profit $105.88, overnight flag: YES
+  10 AM price: $101.02 (+2.43% vs entry, +0.34% vs Jul 17 close $100.68)
+  Status: HOLD. Buffer to breakeven stop: $2.40 (2.43%). Risk-free position.
+  Thesis: Q2 2026 earnings beat ($1.31 vs $1.28 est) + full-year EPS guidance raised to $5.45-$5.60. Healthcare sector outperforming today. BofA Buy PT $115.
   - If ABT >= $105.88: sell immediately (take-profit)
   - If ABT <= $98.62: sell immediately (breakeven stop)
 
-Sells at 2 PM: NONE
-New buys at 2 PM: NONE
+Sells at 10 AM: NONE
+New buys at 10 AM: NONE (no candidates passed all hard filters — see notes below)
 
-Settled cash: $456.22 (unchanged)
+Settled cash: $555.46 (CTAS proceeds ~$99.14 settled today July 20 as expected)
 Unsettled cash: $0
-Total account value: ~$822 (equity ~$366 at 2 PM prices + cash $456.22)
-Portfolio invested: ~44.5% (well under 75% cap)
+Total account value: ~$824.69 (equity ~$269.22 + cash $555.46)
+Portfolio invested: ~32.7% ($349.30 investable within 75% cap)
 
 ---
 
-## 2 PM MONITOR NOTE
+NOTES FOR 3:15 PM AGENT (July 20, 2026):
 
-ALL STOPS INTACT AS OF ~2:10 PM ET. No sells executed.
+1. MARKET TODAY: SPY +0.25%, QQQ +0.77% — first green day after 4-day risk-off regime. Regime gate NOT triggered. Week has major earnings: GOOGL/TSLA/IBM (Jul 22 PM), INTC/RHI/LMT (Jul 23 AM/PM), TXN (Jul 22 PM).
 
-Prices at 2 PM — AAPL $331.94 (stop $317.32, buffer +4.5%), RHI $41.245 (stop $40.29, buffer +2.37%), CTAS $202.90 (stop $197.34, buffer +2.74%), ABT $99.815 (stop $98.62, buffer +1.21%).
+2. ⚠️ RHI EARNINGS THURSDAY: RHI reports Q2 2026 earnings July 23 PM. Current stop is at breakeven ($40.29) = zero dollar loss if triggered, but a gap through the stop at open is possible. Position is +2.09% ($41.13 vs entry $40.29). Strongly consider closing RHI at 3:15 PM to lock in the gain and avoid the binary event. Would be the first winning closed trade (win rate currently 0% on all 5 prior trades).
 
-⚠️ ABT NEAR STOP: $99.815 vs breakeven stop $98.62 — only $1.195 (1.21%) buffer, inside 1.5% threshold. Drifted down from $100.593 at noon. Healthcare bid holding but weakening into afternoon. Risk is zero (breakeven stop = no loss), but thin buffer means a small dip triggers exit. 3:15 PM agent should assess whether to hold or close discretionarily ahead of overnight.
+3. AAPL RELATIVE WEAKNESS: AAPL down -1.64% from Friday close ($333.74 → $328.28) despite QQQ +0.77% — notable underperformance. Motley Fool published a sell recommendation citing expensive valuation and slow growth. No hard thesis break (China AI regulatory approval still intact, HSBC PT $366). Stop $317.32 is $10.96 (3.34%) away. Hold thesis intact but monitor — if AAPL fails to participate in afternoon recovery, evaluate.
 
-BROAD MARKET (2 PM): SPY -0.85% vs prev close (Robinhood live), QQQ -1.11%. Semiconductor sell-off Day 5 continues — sector down ~20% from highs. Netflix double-digit losses on Q3 guidance miss. Oil up 2% to ~$80 on Middle East conflict escalation. Tech/growth under sustained pressure; healthcare/defensives outperforming.
+4. ABT PERFORMING WELL: $101.02 (+2.43% vs entry). Healthcare outperforming again (defensive strength on tech earnings uncertainty). TP $105.88 is $4.86 (4.8%) away. Risk-free (stop at breakeven). Consider trailing stop toward $100 if ABT extends gains intraday.
 
-AAPL POSITIVE: HSBC Buy (PT $366) confirmed. Apple reclaimed world's most valuable company from NVIDIA intraday. Thesis strengthening. Trail trigger $337.86 not yet hit — would trail stop to $327.50 (breakeven) if reached.
+5. NO NEW BUYS TAKEN THIS MORNING — reasons:
+   - AMD (+2.77%): Microsoft Helios partnership catalyst. Fading hard below opening range low ($509.47 vs OR low $510.63). SKIP.
+   - INTC (+2.91%): Major upgrade ($80→$115 PT by Susquehanna). Binary event — reports earnings July 23. HARD DISQUALIFY.
+   - DPZ (+3.47%): Revenue beat this morning. But mixed earnings (missed EPS and same-store sales), fading hard from $343 open to $332 — down 3%+ from open. SKIP.
+   - STLD (-0.82%): Pre-market strength faded. Earnings today PM. HARD DISQUALIFY.
+   - AMC (+11.86%): Earnings beat. Market cap ~$217M — below $2B floor. HARD DISQUALIFY.
+   - IREN (+15.17%): Bitcoin miner, strong move. Relative volume 0.55x (requires 1.5x). SKIP.
+   - All other scanner gainers: micro-caps below $2B market cap floor.
 
-RHI IMPROVING FROM NOON: Recovered $40.75 → $41.245 since noon — buffer expanded from $0.46 to $0.955. Still risk-free. Staffing sector intact. Elevated close would be constructive.
+6. BUYING POWER: $555.46 settled cash, $349.30 investable within 75% cap ($824.69 × 0.75 - $269.22 invested). Normal regime — if strong catalyst emerges afternoon, can enter 1-3 positions at $87-$116 each with room to spare.
 
-CTAS STILL WEAK: -0.30% below entry in a weak tape. -1.62% from prev close. FTC overhang on UniFirst deal. Goldman Buy (PT $231) intact but position has no relative strength. If market continues lower into close, 3:15 PM agent should evaluate discretionary exit.
+7. WEEK EARNINGS RISK FOR NEW POSITION SELECTION: Avoid longs in sectors with imminent earnings this week: growth/tech (GOOGL Jul 22), EV/energy (TSLA Jul 22), semiconductors (INTC Jul 23), staffing (RHI Jul 23). Safe sectors: healthcare, industrials, consumer staples.
 
-Note: Polygon VWAP/volume data unavailable at 2 PM (API access error). VWAP relationship and relative volume not assessable this session.
-
----
-
-NOTES FOR 3:15 PM AGENT (July 17, 2026):
-
-1. MACRO: SPY -0.85%, QQQ -1.11% at 2 PM. Semiconductor sell-off Day 5. Netflix -10%+. Oil +2% on Middle East. Risk-off regime holds. None of our 4 positions in semis/tech — portfolio holding relative to market.
-
-2. AAPL BEST POSITION: $331.94, +1.36% vs entry. HSBC PT $366 upgrade this morning. Apple most valuable company intraday. Trail trigger $337.86 not yet hit. No earnings until July 30. Strong overnight thesis.
-
-3. ABT PRIORITY WATCH ⚠️: $99.815 vs breakeven stop $98.62 — only $1.195 buffer. If market accelerates lower into close, stop could trigger. Risk-free position so no loss, but evaluate whether to hold through overnight or close discretionarily. Healthcare defensive strength is the only backstop.
-
-4. RHI RECOVERED — STILL WATCH: $41.245, buffer $0.955 from breakeven stop. Risk-free. Recovered from noon stress. If staffing sector holds, overnight hold is viable; TP $43.15 requires +4.6% from here.
-
-5. CTAS UNDERPERFORMING — EVALUATE: $202.90, -0.30% below entry ($203.50). Still $5.56 from stop. Goldman Buy intact but no relative strength in weak market. Assess discretionary exit if broad market continues weak into close. FTC Second Request on UniFirst is ongoing overhang.
-
-6. TRV RE-EVALUATION (from noon): TRV was +7.87% (~$364-365) on Q2 earnings beat at noon. Morgan Stanley Underweight/$290 is key overhang. If TRV closes well above $360 with strong volume and MS downgrade absorbed, could consider overnight hold — but require confirmed intraday low above $350. Do not chase if volatile.
-
-7. BUYING POWER: $456.22 fully settled. SPY -0.85% = caution regime at 2 PM (50% size reduction required, strong catalyst needed). Investable ~$125 at half-size within caution regime guidelines.
-
-1 PM monitor: all stops intact as of 1:00 PM ET. Prices — AAPL $330.15 (stop $317.32), RHI $41.09 (stop $40.29), CTAS $202.37 (stop $197.34), ABT $100.06 (stop $98.62). No sells executed.
-
-2 PM monitor: all stops intact as of ~2:10 PM ET. Prices — AAPL $331.94 (stop $317.32), RHI $41.245 (stop $40.29), CTAS $202.90 (stop $197.34), ABT $99.815 (stop $98.62). No sells executed. ⚠️ ABT NEAR STOP (1.21% buffer).
+8. POLYGON API: Still broken (invalid API key, persistent since July 16). Use Robinhood historicals for intraday bars and scanner for relative volume.
 
 ---
 PRE-CHECK — Market day verification
