@@ -5,3 +5,4 @@ date,ticker,shares,entry_price,exit_price,entry_session,exit_session,catalyst,se
 2026-07-16,BLK,0.068552,1094.06,1083.78,10AM,3:15PM,earnings_beat,financials,-0.94,-0.71,discretionary
 2026-07-17,CTAS,0.488943,203.50,202.76,10AM,3:15PM,earnings_beat,industrial,-0.36,-0.36,discretionary
 2026-07-20,RHI,2.104745,40.29,41.745,10AM,3:15PM,sector_momentum,industrial,3.61,3.06,discretionary
+2026-07-21,ABT,0.872034,98.62,100.8401,10AM,12PM,earnings_beat,healthcare,2.25,1.94,stop_loss
