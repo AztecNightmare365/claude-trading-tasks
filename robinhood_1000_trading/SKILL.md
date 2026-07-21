@@ -14,84 +14,76 @@ Execute all steps in order, then place all orders simultaneously.
 ## PRE-MARKET BRIEF
 <!-- Updated by the 9:15 AM pre-market agent. Read before Step 1. -->
 
-**Generated: 2026-07-17 ~9:17 AM ET**
+**Generated: 2026-07-21 ~9:15 AM ET**
 
 ---
 
-### OVERNIGHT POSITIONS: 4 HELD
+### OVERNIGHT POSITIONS: 2 HELD
 
-| Ticker | Shares | Entry | Stop | TP | Pre-Mkt Price | vs Jul 16 Close | Flag |
+| Ticker | Shares | Entry | Stop | TP | Pre-Mkt Price | vs Jul 20 Close | Flag |
 |--------|--------|-------|------|-----|--------------|----------------|------|
-| AAPL | 0.288213 | $327.50 | $317.32 | $347.86 | ~$333.44 | +$0.18 (+0.05%) | **ON TRACK** |
-| RHI | 2.104745 | $40.29 (trail) | $40.29 | $43.15 | ~$40.85 (bid $40.70) | -$0.48 (-1.16%) | **⚠ GAP DOWN WARNING** |
-| CTAS | 0.488943 | $203.50 | $197.34 | $215.46 | ~$208.00 | +$1.75 (+0.85%) | **ON TRACK** |
-| ABT | 0.872030 | $98.62 | $94.99 | $105.88 | ~$99.85 (bid $99.60) | +$1.02 (+1.04%) | **ON TRACK** |
+| AAPL | 0.288213 | $327.50 | $317.32 | $347.86 | ~$325.46 | -$1.13 (-0.37%) | **ON TRACK** |
+| ABT | 0.872034 | $98.62 | $101.00 (trail) | $105.88 | ~$100.72 | -$0.94 (-0.93%) | **STOP BREACH** |
 
-> **Cash**: ~$309.93 settled + ~$146.32 unsettled (BLK ~$74.27 + GS ~$72.05 — settle today July 17, confirm with Robinhood before use)
+> **Cash**: $555.46 settled + ~$87.85 unsettled (RHI proceeds, settles today July 21 — confirm with Robinhood before use)
 
-> **Note**: Polygon aggregates returned invalid API key errors (persistent issue confirmed July 16–17). Pre-market prices sourced from Robinhood extended-hours quotes (`last_non_reg_trade_price`).
+> **Note**: Polygon API still broken (invalid key — persistent since July 16). Pre-market prices sourced from Robinhood extended-hours quotes (`last_non_reg_trade_price`).
 
 ---
 
 ### POSITION DETAIL
 
 **AAPL — ON TRACK**
-Pre-market $333.44 (+0.05% vs July 16 close $333.26; bid/ask $333.38/$333.45). Stop $317.32 is 4.8% below current pre-market — ample buffer. TP $347.86 is 4.3% away. Trail trigger $337.86 not yet reached. **Thesis intact**: Apple Intelligence / Alibaba Qwen China regulatory approval (announced July 15) is 2 days old and holding — no adverse China AI news overnight. AAPL is showing relative strength vs QQQ (-1.97% pre-market) and SPY (-1.04%). No AAPL-specific adverse news found. Next earnings July 30 — no binary event risk this week. AAPL is the safest overnight hold. **Trail stop to $327.50 (breakeven) if AAPL reaches $337.86 intraday.**
+Pre-market $325.46 (range since 9:00 AM: $324.90–$325.47; -0.37% vs July 20 close $326.59; bid/ask $325.40/$325.48). Stop $317.32 is $8.07 (2.5%) below current pre-market — adequate buffer. TP $347.86 is 6.9% away. Trail trigger $337.86 not reached — stop unchanged at $317.32. **Thesis intact**: Apple Intelligence / Alibaba Qwen China AI approval holding; HSBC Buy PT $366; Citi and Evercore ISI reiterated $365 PTs. No adverse AAPL-specific news overnight. Earnings July 30 — no binary event this week. QQQ +1.30% pre-market (chip recovery, Iran ceasefire talks) is constructive for AAPL. The KeyBanc Underweight ($250 PT, July 14) is the only bear note and remains unchanged. **Hold — thesis intact, stop well-buffered.**
 
-**RHI — ⚠ GAP DOWN WARNING**
-Pre-market last trade $40.85 at 8:32 AM ET (-1.16% vs July 16 close $41.33; bid $40.70 / ask $41.25 — wide spread). Trail stop is $40.29 (breakeven, updated July 16). The bid of $40.70 is only **$0.41 above the trail stop** ($40.29). In the current risk-off environment (SPY -1.04%, QQQ -1.97%), RHI faces a high probability of trading at or below $40.29 at open. The staffing thesis (MAN Q2 beat) was already absorbed July 16 — no new positive catalyst to support the position against macro headwinds. No adverse RHI-specific news overnight, but broad market sell-off pressure is sufficient concern. **At 10 AM: if RHI is at or below $40.29, sell immediately (2.104745 shares, market order). If RHI opens above $41.10 with positive momentum, the trail stop already provides breakeven protection — can hold.**
-
-**CTAS — ON TRACK**
-Pre-market $208.00 (+0.85% vs July 16 close $206.25; bid/ask $207.32/$208.80). Stop $197.34 is 5.1% below current pre-market — strong buffer. TP $215.46 is 3.6% away. **Thesis intact**: Q2 beat ($1.29 vs $1.26 est) + fresh analyst upgrade holding. Cintas-UniFirst acquisition pending regulatory approval (expected H2 2026, UniFirst shareholders approved 99%+) remains a positive long-term catalyst. CTAS is a defensive industrial with consistent dividend growth — not correlated to NFLX guidance miss or chip sell-off. No adverse news overnight. **No trail trigger defined for CTAS; hold with original stop $197.34.**
-
-**ABT — ON TRACK**
-Pre-market $99.854 at 9:07 AM ET (+1.04% vs July 16 close $98.83; bid $99.60 / ask $100.00). Stop $94.99 is 4.9% below current pre-market — adequate buffer. TP $105.88 is 6.1% away. **Thesis intact**: Q2 earnings beat ($1.31 vs $1.28) + full-year EPS guidance raised to $5.45–$5.60 still fresh (reported July 16, stock up +10.4% on that day). Healthcare is acting as a defensive haven today — confirms ABT thesis is working in the current risk-off environment. ABT was mentioned positively in July 16 recap articles ("surged over 10% on strong earnings"). No adverse news overnight. The fade from intraday high ($101.87) to close ($98.83) on July 16 is normal post-spike consolidation; pre-market bounce to $99.85 is constructive. **No trail trigger defined; hold with stop $94.99.**
+**ABT — STOP BREACH**
+Pre-market $100.72 (range since 9:00 AM: $100.62–$100.77; -0.93% vs July 20 close $101.66; bid $100.72 / ask $101.45 — wide spread). **The trailed stop-loss of $101.00 is breached — entire pre-market range has been below $101.00 since 9:00 AM.** No new adverse ABT-specific news overnight; multiple analyst upgrades (JPMorgan PT $120, Piper Sandler $118, Citi $112, BofA $115) remain in place from July 17. The breach appears to be routine post-earnings fade in thin pre-market rather than a thesis break — ABT fundamental thesis (Q2 beat, raised EPS guidance $5.45–$5.60, healthcare outperforming) remains intact. However, the trailed stop exists to protect the +2.1% gain vs entry, and the handoff instruction is explicit. **10 AM AGENT: CHECK ABT FIRST — if ABT is at or below $101.00 at 10 AM, sell immediately (0.872034 shares, market order, stop-loss triggered). If ABT has recovered above $101.00 with positive momentum at open, discretionary hold is defensible — but the stop must be honored if price has not recovered.**
 
 ---
 
-### MACRO CONTEXT (pre-market July 17, 2026)
+### MACRO CONTEXT (pre-market July 21, 2026)
 
-| Index | Jul 16 Close | Pre-Mkt Price | Change% vs Jul 16 | Regime Gate |
+| Index | Jul 20 Close | Pre-Mkt Price | Change% vs Jul 20 | Regime Gate |
 |-------|-------------|--------------|-------------------|-------------|
-| SPY | $750.72 | ~$742.88 | **-1.04%** | ⚠ **TRIGGERED** |
-| QQQ | $705.94 | ~$692.03 | **-1.97%** | — |
+| SPY | $742.09 | ~$745.10 | **+0.41%** | CLEAR |
+| QQQ | $696.06 | ~$705.14 | **+1.30%** | — |
 
-**Regime gate: TRIGGERED** — SPY -1.04% pre-market exceeds -1% threshold. At 10 AM, **SKIP ALL NEW BUYS** (Steps 4 and 5). Momentum longs have a much lower win rate in risk-off conditions. Focus the entire 10 AM session on evaluating overnight positions and honoring stops.
+**Regime gate: CLEAR** — SPY +0.41% pre-market. Normal regime: new buys are permissible at 10 AM if candidates pass all filters.
 
 ---
 
-### KEY OVERNIGHT/PRE-MARKET DEVELOPMENTS — READ CAREFULLY
+### KEY OVERNIGHT/PRE-MARKET DEVELOPMENTS
 
-**1. 🎬 NFLX EARNINGS — GUIDANCE MISS → RISK-OFF TRIGGER**
-Netflix reported Q2 2026 after close July 16: record revenue $12.56B (+13% YoY, slight beat) BUT Q3 guidance missed ($12.86B guidance vs $13B consensus, EPS $0.82 vs $0.84 consensus). Stock fell ~9% after hours. This is the primary driver of today's pre-market risk-off: Communication Services sector sold off, dragging QQQ (-1.97%). None of our positions are in streaming/media, but the NFLX guidance miss signals slowing growth sentiment broadly — amplified by a fourth consecutive day of chip-sector weakness.
+**1. MARKETS RECOVERING — TECH LEADS**
+Nasdaq-100 futures +1.3%, S&P 500 futures +0.4% pre-market July 21. Chip stocks rebounding after last week's sell-off. QQQ +1.30% confirms broad tech recovery underway. Polymarket implies 95% probability S&P 500 opens higher today.
 
-**2. 📉 SEMICONDUCTOR SELL-OFF CONTINUES (DAY 4)**
-TSM, Micron (-6%), Nvidia (-2.7%), Broadcom (-3.6%) all declined July 16 on concerns about AI capex sustainability. The sell-off is accelerating into today. This is NOT directly relevant to our positions (healthcare and staffing, not semiconductors), but confirms the QQQ -1.97% read.
+**2. IRAN CEASEFIRE TALKS — OIL EASING**
+Reports of renewed Washington-Tehran diplomatic efforts; mediators pushing for a 10-day ceasefire. Crude prices edging lower. Reduces inflation tail risk. Net positive for growth equities.
 
-**3. 🛢️ IRAN-HORMUZ BLOCKADE CONTINUES**
-US naval blockade of Iranian ports (began July 14) continues. Energy sector remains elevated. No portfolio exposure.
+**3. IBM EARNINGS TONIGHT (BINARY EVENT — no exposure)**
+IBM reports Q2 2026 after close July 21. Potential tech sentiment driver for tomorrow's open — no direct portfolio exposure, but may affect QQQ/tech overnight July 21→22.
 
-**4. ✅ AAPL CHINA AI APPROVAL — DAY 2, STILL INTACT**
-Apple Intelligence / Alibaba Qwen regulatory approval (announced July 15) is 2 days old. AAPL pre-market is flat (+0.05%) vs QQQ -1.97% — strong relative strength, confirming the China AI thesis is holding even in a risk-off macro. No adverse China/regulatory news found overnight.
+**4. BIG BINARY EVENTS TOMORROW AND THURSDAY**
+- July 22 PM: Tesla + Alphabet earnings — Mag 7 events, major QQQ movers
+- July 23 PM: Intel (INTC) — chip sector binary, 15% implied move
+These do not affect today's session but any position held overnight July 21→22 faces elevated Mag-7 volatility risk.
 
-**5. 💊 HEALTHCARE DEFENSIVE BID**
-ABT (+1.04%), CTAS (+0.85%) are both holding up well pre-market. Healthcare is a flight-to-safety destination on risk-off days. This confirms both positions' overnight behavior. ABT is benefiting from the same sector rotation that drove its +10.4% move on July 16.
+**5. AAPL APPROACHING EARNINGS (JULY 30)**
+AAPL at 11x sales peak per Benzinga — historically elevated valuation. Earnings July 30 remain the next binary event (9 days away). No new adverse news overnight. Bull case (China AI, Services monetization) intact.
 
 ---
 
 ### FLAGS
 
-| Ticker | Shares @ Entry | Pre-Mkt Price | vs Jul 16 Close | Stop Distance | Flag |
+| Ticker | Shares @ Entry | Pre-Mkt Price | vs Jul 20 Close | Stop Distance | Flag |
 |--------|---------------|--------------|----------------|---------------|------|
-| AAPL | 0.288213 @ $327.50 | ~$333.44 | +0.05% | $16.12 (4.8%) above stop $317.32 | **ON TRACK** |
-| RHI | 2.104745 @ $40.29 | ~$40.85 (bid $40.70) | -1.16% | $0.56 (1.4%) above stop $40.29 — bid only $0.41 away | **⚠ GAP DOWN WARNING** |
-| CTAS | 0.488943 @ $203.50 | ~$208.00 | +0.85% | $10.66 (5.1%) above stop $197.34 | **ON TRACK** |
-| ABT | 0.872030 @ $98.62 | ~$99.85 | +1.04% | $4.86 (4.9%) above stop $94.99 | **ON TRACK** |
+| AAPL | 0.288213 @ $327.50 | ~$325.46 | -0.37% | $8.07 (2.5%) above stop $317.32 | **ON TRACK** |
+| ABT | 0.872034 @ $98.62 | ~$100.72 | -0.93% | **$0.28 (0.3%) BELOW stop $101.00 — BREACHED** | **STOP BREACH** |
 
 ---
 
 ### ONE-LINE SUMMARY
-**3 positions on track, 1 flagged for immediate attention (RHI GAP DOWN WARNING). SPY -1.04% pre-market — REGIME GATE TRIGGERED, no new buys at 10 AM. KEY FOCUS: (1) CHECK RHI first — if at or below $40.29 at open, sell immediately; (2) AAPL, CTAS, ABT all well-buffered and thesis intact; (3) unsettled cash (~$146.32) from BLK/GS proceeds should clear today — confirm with Robinhood.**
+**1 position on track, 1 STOP BREACH for immediate action. ABT pre-market $100.72 is below trailed stop $101.00 — 10 AM agent must sell ABT (0.872034 shares, market order) if at or below $101.00 at open. AAPL solid with 2.5% stop buffer, thesis intact. SPY +0.41%, QQQ +1.30% pre-market — REGIME GATE CLEAR, new buys permissible. RHI proceeds (~$87.85) settle today July 21.**
 
 ---
 
