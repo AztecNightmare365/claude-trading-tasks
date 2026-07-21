@@ -47,15 +47,16 @@ Notes for 10:00 AM agent (June 25, 2026):
 ---
 
 ## HANDOFF FROM LAST 10 AM SESSION
-<!-- Updated by 12 PM reassessment agent. Last updated: 2026-07-21 (~12:07 PM ET — 12 PM session complete). -->
+<!-- Updated by 2 PM monitor agent. Last updated: 2026-07-21 (~2:09 PM ET — 2 PM session complete). -->
 
-Last updated: 2026-07-21 (~12:07 PM ET — 12 PM reassessment complete)
+Last updated: 2026-07-21 (~2:09 PM ET — 2 PM monitor complete)
 
-Open positions (4 total — ABT sold at stop, 4 carried forward):
+Open positions (4 total — no changes at 2 PM):
 
 - AAPL: 0.288213 shares, entry $327.50, stop-loss $317.32, take-profit $347.86, overnight flag: YES
-  12 PM price: $328.615 (+0.34% vs entry; +0.62% vs Jul 20 close $326.59)
+  2 PM price: $327.295 (-0.06% vs entry; +0.21% vs Jul 20 close $326.59)
   Status: HOLD. Trail trigger $337.86 not reached. Stop unchanged at $317.32.
+  VWAP: $326.53 — price ABOVE VWAP ✓
   Thesis: Apple Intelligence / Alibaba Qwen China AI regulatory approval + HSBC Buy PT $366.
   Earnings July 30 (9 days away — no immediate binary risk).
   - If AAPL >= $347.86: sell immediately (take-profit)
@@ -63,58 +64,71 @@ Open positions (4 total — ABT sold at stop, 4 carried forward):
   - Trail stop to $327.50 (breakeven) if AAPL reaches $337.86 intraday
 
 - MMM: 0.474448 shares, entry $174.94, stop-loss $169.00, take-profit $186.82, overnight flag: YES
-  12 PM price: $172.21 (-1.57% vs entry; +8.2% vs Jul 20 close $159.11)
-  Status: HOLD. Price below entry but thesis fully intact. Buffer to stop: $3.21 (1.86%).
+  2 PM price: $170.07 (-2.78% vs entry; +6.89% vs Jul 20 close $159.11)
+  Status: ⚠️ NEAR STOP — only $1.07 (0.63%) above stop $169.00. MONITOR CLOSELY AT CLOSE.
+  VWAP: $173.22 — price BELOW VWAP ✗ (bearish intraday signal — consolidating lower all afternoon)
+  Intraday high was $176.15 at ~10:10 AM ET. Faded steadily since then.
   Thesis: Q2 2026 earnings beat ($2.40 EPS vs $2.27 est, +5.7%), organic sales +5.4% YoY,
-  FY EPS guidance raised to $8.80-$8.95 (from $8.50-$8.70). Industrial sector.
-  Trail trigger $178.44 not reached. Intraday: opened $169, ran to $176.15, consolidated to $172.
-  Note: -1.57% below entry is PRICE condition only — thesis intact, do not exit on price alone.
-  Opened by 10 AM session July 21.
+  FY EPS guidance raised to $8.80-$8.95 (from $8.50-$8.70). Industrial sector. Still intact.
+  News today: Motley Fool confirms "Extended post-earnings rally to 9.8%... bullish second-half guidance."
+  Stop unchanged at $169.00 — thesis intact, no discretionary exit. Do not widen stop.
+  3:15 PM agent: HIGHEST PRIORITY DECISION. If price reaches $169.00 before close, execute stop IMMEDIATELY.
   - If MMM >= $186.82: sell immediately (take-profit)
-  - If MMM <= $169.00: sell immediately (stop-loss)
-  Tesla + Alphabet earnings TOMORROW July 22 PM — MMM (industrial) has low QQQ correlation.
+  - If MMM <= $169.00: sell immediately (stop-loss — CRITICAL, price only $1.07 away)
 
 - GM: 1.321866 shares, entry $78.677, stop-loss $76.29, take-profit $83.45, overnight flag: YES
-  12 PM price: $79.73 (+1.34% vs entry; +5.2% vs Jul 20 close $75.80)
-  Status: HOLD. Trail trigger $80.25 not yet reached ($0.52 away).
+  2 PM price: $79.66 (+1.25% vs entry; +5.08% vs Jul 20 close $75.80)
+  Status: HOLD. Trail trigger $80.25 still not reached (intraday high $80.10 — only $0.15 short).
+  VWAP: $78.66 — price ABOVE VWAP ✓
   Thesis: Q2 2026 earnings beat ($3.57 EPS vs $3.29 est, +8.5%), raised FY EBIT guidance to $14-16B.
-  Consumer/Auto sector. Buffer to stop: $3.44 (4.3%).
+  Consumer/Auto sector. Buffer to stop: $3.37 (4.23%).
   Opened by 10 AM session July 21.
   - If GM >= $83.45: sell immediately (take-profit)
   - If GM <= $76.29: sell immediately (stop-loss)
-  Note: If GM trades above $80.25 at any point, trail stop to $78.677 (breakeven).
+  - If GM trades above $80.25 AT ANY POINT: trail stop to $78.677 (breakeven) IMMEDIATELY.
 
-- NBIS: 0.409230 shares, entry $202.82, stop-loss $204.90 (TRAILED — up from $194.71), take-profit $219.04, overnight flag: YES
-  12 PM price: $209.24 (+3.16% vs entry; +14.6% vs Jul 20 close $182.62)
-  Status: HOLD. Stop trailed to intraday support $204.90 (above breakeven $202.82). Position risk-free.
+- NBIS: 0.409230 shares, entry $202.82, stop-loss $211.92 (TRAILED — up from $204.90), take-profit $219.04, overnight flag: YES (pending 3:15 PM evaluation)
+  2 PM price: $213.98 (+5.50% vs entry; +17.18% vs Jul 20 close $182.62)
+  Status: HOLD. Stop TRAILED from $204.90 to $211.92 (intraday support at 1 PM ET low).
+  VWAP: $204.34 — price WELL ABOVE VWAP ✓✓ (strong bullish signal, momentum sustained all day)
   Thesis: Nvidia 9.3% ownership stake + AI collaboration agreement + $775M secured debt financing
   for AI infrastructure expansion. Analyst avg "Buy," PT $258.71 (+41%). Sector: Technology/AI.
+  IBM Q2 miss (pre-announced Jul 20): customers shifting spend TOWARD AI servers — BULLISH for NBIS.
+  Today's AI/semiconductor rally (MU +10.1%, AMD +6.1%, SOXX +5.2%) reinforces thesis.
+  Distance to TP: $5.06 (2.36%) — APPROACHING but not yet NEAR TP (threshold is 1.5%).
   Opened by 10 AM session July 21. 52-week range $49-$300 — HIGH VOLATILITY.
-  ⚠️ IBM earnings TONIGHT (July 21 PM) — may affect AI/tech/QQQ overnight. Watch NBIS pre-market.
   ⚠️ Tesla + Alphabet earnings TOMORROW (July 22 PM) — NBIS most QQQ-sensitive position.
-  3:15 PM agent: evaluate NBIS overnight hold carefully given IBM earnings risk tonight.
+  ⚠️ IBM formal earnings tonight possible (pre-announced Jul 20 with miss). Bad news largely priced in.
+     If IBM formal release surprises POSITIVELY on AI, NBIS could gap up further.
+  3:15 PM agent: IBM thesis shift (spend toward AI compute) actually supports NBIS overnight hold.
+  Key question: hold through TSLA/GOOGL earnings tomorrow? Stop $211.92 keeps position risk-free.
   - If NBIS >= $219.04: sell immediately (take-profit)
-  - If NBIS <= $204.90: sell immediately (stop-loss — TRAILED)
+  - If NBIS <= $211.92: sell immediately (stop-loss — TRAILED)
 
-Sells at 12 PM: ABT — 0.872034 shares @ $100.8401 avg fill (stop-loss, +$1.94 / +2.25%)
-New buys at 12 PM: NONE (both scanners returned 0 results; no qualifying candidates)
+Sells at 2 PM: NONE
+New buys at 2 PM: NONE — both scanners returned 0 results; 2 PM selectivity bar strictly applied.
 
-Settled cash remaining: ~$373.25
+Settled cash remaining: ~$373.25 (unchanged — no trades executed at 2 PM)
 Unsettled cash: ~$87.94 (ABT proceeds, settles July 22 at open)
-Total account value: ~$828.75
-Portfolio invested: ~44.3% (4 positions, ~$367.44 at 12 PM market value)
-12 PM session P&L: +$1.94 realized (ABT). Unrealized: AAPL +$0.32, MMM -$1.30, GM +$1.39, NBIS +$2.63 (~+$3.04 total unrealized)
+Total account value: ~$828.91
+Portfolio invested: ~44.4% (4 positions, ~$367.89 at 2 PM prices)
+2 PM session P&L: $0 realized. Unrealized: AAPL -$0.06, MMM -$2.31, GM +$1.30, NBIS +$4.57 (~+$3.50 total unrealized)
 
-Notes for 3:15 PM agent (July 21):
-- ABT EXITED AT STOP: Trailed stop $101.00 breached ($100.84 fill). Profitable exit +2.25%. Thesis was intact but stop-loss rule strictly honored per learned insights (rule #3: let stops do their job).
-- NBIS STOP TRAILED to $204.90: Position now risk-free above breakeven. TP $219.04 is 4.7% away. Key decision at 3:15 PM: hold overnight through IBM earnings risk? Evaluate AI/tech sentiment at close.
-- MMM BELOW ENTRY but thesis intact: Earnings-day consolidation after large gap-up (+8.2%). Stop $169.00 provides room. Do not discretionary-exit unless thesis breaks (new negative news, guidance reversal).
-- GM NEAR TRAIL TRIGGER: $80.25 trail trigger is only $0.52 away. If GM trades above $80.25 before/at close, trail stop to breakeven ($78.677).
-- AAPL steady: No triggers reached. Momentum intact. Earnings July 30.
-- BUYING POWER: ~$254.14 available (against $373.25 settled). Look for afternoon momentum setups if regime holds.
-- BROAD MARKET at noon: SPY +0.79%, QQQ +1.74% — normal regime, tech outperforming.
-- IBM EARNINGS TONIGHT: Direct risk to NBIS overnight hold. If IBM disappoints and AI/tech sells off after-hours, NBIS could gap down past stop.
-- Tesla + Alphabet TOMORROW: Major tech event. Weigh overnight tech exposure at 3:15 PM.
+## 2 PM SESSION NOTE (for 3:15 PM agent):
+- ⚠️ MMM NEAR STOP: $170.07 vs stop $169.00 — only $1.07 away (0.63%). Below VWAP all afternoon.
+  Thesis intact (no negative news). Stop at $169.00 must be honored if breached. HIGHEST PRIORITY.
+- NBIS STOP TRAILED to $211.92 (from $204.90): Position risk-free above breakeven $202.82.
+  TP $219.04 is $5.06 away (2.36%). Momentum strong — closed in upper 25% of intraday range.
+- GM TRAIL TRIGGER JUST MISSED: Intraday high was $80.10, trigger is $80.25 ($0.15 gap). If GM
+  makes a late-day push above $80.25 before close, trail stop to breakeven $78.677 immediately.
+- IBM EARNINGS UPDATE: IBM pre-announced Q2 MISS on Jul 20 (stock -25%, revenue $17.2B vs $17.86B est).
+  The miss was because customers shifted spend TOWARD AI servers/memory — directly BULLISH for NBIS.
+  Market confirmed this: MU +10.1%, AMD +6.1%, SOXX +5.2% today. IBM risk for NBIS effectively inverted.
+- BROAD MARKET at 2 PM: SPY +0.86%, QQQ +1.97% — normal regime. Semiconductor-driven rally.
+  Morgan Stanley predicted memory prices could rise 25% from AI demand (catalyst for today's rally).
+- TSLA + GOOGL EARNINGS TOMORROW: Major tech event. NBIS and AAPL most exposed. 3:15 PM agent
+  must weigh overnight tech exposure carefully — especially for NBIS given its QQQ sensitivity.
+- SCANNERS: Both returned 0 results at 2 PM — no qualifying new candidates. No buys executed.
 
 ---
 PRE-CHECK — Market day verification
