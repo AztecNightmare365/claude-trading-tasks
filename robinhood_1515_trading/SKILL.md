@@ -47,79 +47,74 @@ Notes for 10:00 AM agent (June 25, 2026):
 ---
 
 ## HANDOFF FROM LAST 10 AM SESSION
-<!-- Updated by 2 PM stop-loss monitor. Last updated: 2026-07-20 (~2:10 PM ET — 2 PM monitor complete). -->
+<!-- Updated by 10 AM agent. Last updated: 2026-07-21 (~10:15 AM ET — 10 AM session complete). -->
 
-Last updated: 2026-07-20 (~2:10 PM ET — 2 PM stop-loss monitor complete)
+Last updated: 2026-07-21 (~10:15 AM ET — 10 AM session complete)
 
-Open positions (3 total — no sells, no new buys):
+Open positions (5 total — 2 held from overnight, 3 new buys this session):
+
+OVERNIGHT HOLDS:
 
 - AAPL: 0.288213 shares, entry $327.50, stop-loss $317.32, take-profit $347.86, overnight flag: YES
-  2 PM price: $325.395 (-0.64% vs entry, -2.50% vs Jul 17 close $333.74)
-  Status: HOLD. Buffer to stop: $8.075 (2.48%). Buffer to TP: $22.465 (6.89%).
-  VWAP: $326.90 — price BELOW VWAP (-$1.51 / -0.46%)
-  Intraday range: Low $323.70 (12:40 PM ET), High $333.71 (9:30 AM open)
-  Trend: Sold off steadily from open $333.03 to $323.70 by 12:40 PM. Recovery to $325.40 since; consolidating $324–$326 range with tapering volume. Below VWAP all afternoon.
-  Thesis: Apple Intelligence / Alibaba Qwen China AI regulatory approval + HSBC Buy upgrade (PT $366). No thesis break found; underperformance likely macro/sector rotation. No earnings until July 30.
+  10 AM price: $324.51 (-0.91% vs entry; -0.64% vs Jul 20 close $326.59)
+  Status: HOLD. Buffer to stop: $7.19 (2.21%). Buffer to TP: $23.35 (7.19%).
+  Pre-market was ON TRACK at $325.46. Regular open confirmed no stop trigger.
+  Thesis: Apple Intelligence / Alibaba Qwen China AI regulatory approval + HSBC Buy PT $366.
+  No thesis break found. Earnings July 30 (9 days away, no immediate binary risk).
   Stop unchanged at $317.32 — trail trigger $337.86 not yet reached.
   - If AAPL >= $347.86: sell immediately (take-profit)
   - If AAPL <= $317.32: sell immediately (stop-loss)
   - Trail stop to $327.50 (breakeven) if AAPL reaches $337.86 intraday
 
-- RHI: 2.104745 shares, entry $40.29, stop-loss $40.81 (TRAILED UP from $40.29 breakeven), take-profit $43.15, overnight flag: YES
-  2 PM price: $41.675 (+3.44% vs entry, -0.30% vs Jul 17 close $41.80)
-  Status: HOLD. Buffer to stop: $0.865 (2.08%). Buffer to TP: $1.475 (3.54%).
-  VWAP: $41.577 — price ABOVE VWAP (+$0.098 / +0.24%)
-  Intraday range: Low $40.53 (9:35 AM ET), High $42.135 (11:55 AM ET)
-  Trend: Weak open to $40.53, then strong rally to $42.135 by 11:55 AM. Consolidating around $41.67–$41.85 since noon. Volume: notable spikes at 12:05 PM (38K shares) and 1:40 PM (22K). Trending sideways-to-up.
-  ⚠️ EARNINGS RISK: RHI reports Q2 2026 earnings July 23 PM (Thursday). STRONG RECOMMENDATION: close RHI at 3:15 PM to lock in +3.44% and avoid binary event. Would be first winning closed trade (win rate currently 0% on 5 trades).
-  Thesis: Staffing sector momentum from MAN Q2 beat.
-  - If RHI >= $43.15: sell immediately (take-profit)
-  - If RHI <= $40.81: sell immediately (stop-loss — trailed up)
-
-- ABT: 0.872034 shares, entry $98.62, stop-loss $100.84 (TRAILED UP from $98.62 breakeven), take-profit $105.88, overnight flag: YES
-  2 PM price: $102.23 (+3.67% vs entry, +1.54% vs Jul 17 close $100.68)
-  Status: ⚠️ NEAR STOP — buffer $1.39 (1.36%); within 1.5% threshold. NOTE: stock is bullish and near session highs — tight trailing stop creates the flag, not deteriorating price action.
-  VWAP: $101.515 — price ABOVE VWAP (+$0.715 / +0.70%)
-  Intraday range: Low $100.03 (9:30 AM ET), High $102.46 (1:50 PM ET)
-  Trend: Rallied throughout the day; made new intraday highs as recently as 1:50 PM ($102.46). Currently $102.23 — near session highs. Heavy institutional volume spike at 11:25 AM (566K shares/5-min bar). Overall volume well above average.
-  Thesis: Q2 2026 earnings beat ($1.31 vs $1.28 est) + full-year EPS guidance raised to $5.45–$5.60. Healthcare sector outperforming. BofA Buy PT $115.
-  ACTION CHOICE FOR 3:15 PM: (a) trail stop up to $101.50–$102.00 to protect more gain while giving room for TP run, OR (b) keep $100.84 tight stop and let it ride. Given bullish intraday trend, consider trailing up.
+- ABT: 0.872034 shares, entry $98.62, stop-loss $101.00 (TRAILED UP — confirmed by 10 AM agent), take-profit $105.88, overnight flag: YES
+  10 AM price: $101.68 (+3.10% vs entry; +0.02% vs Jul 20 close $101.66)
+  Status: HOLD. Pre-market STOP BREACH at $100.72 (below $101.00 stop), BUT regular
+  market open recovered to $101.68 — above stop level. Discretionary hold is defensible
+  per pre-market brief protocol.
+  Thesis: Q2 2026 earnings beat ($1.31 vs $1.28 est) + raised EPS guidance $5.45-$5.60.
+  Healthcare sector outperforming. BofA PT $115, JPMorgan PT $120.
+  RECOMMENDATION: consider trailing stop from $101.00 to $101.30 at 3:15 PM given recovery.
   - If ABT >= $105.88: sell immediately (take-profit)
-  - If ABT <= $100.84: sell immediately (stop-loss — trailed up)
+  - If ABT <= $101.00: sell immediately (stop-loss)
 
-Sells at 2 PM: NONE
-New buys at 2 PM: NONE (monitor only — does not open positions)
-Stops trailed: NONE (3:15 PM agent should evaluate trailing ABT stop given strong upward move)
+NEW BUYS (opened at 10 AM today, July 21):
 
-Settled cash: $555.46
-Unsettled cash: $0
-Total account value: ~$826.11 (equity ~$270.65 + cash $555.46)
-Portfolio invested: ~32.8%
-Day P&L vs Friday close at 2 PM: ~-$1.32 (AAPL -$2.40, RHI -$0.26, ABT +$1.35)
-Unrealized P&L vs entry: +$5.46 (AAPL -$0.61, RHI +$2.92, ABT +$3.15)
+- MMM: 0.474448 shares, entry $174.94 (avg fill), stop-loss $169.00, take-profit $186.82, overnight flag: YES
+  Catalyst: Q2 2026 earnings beat ($2.40 EPS vs $2.27 est, +5.7%), organic sales +5.4% YoY,
+  FY EPS guidance raised to $8.80-$8.95 (from $8.50-$8.70). New intraday highs at entry,
+  above VWAP $173.22 by $2.08. Sector: Industrial.
+  Max $ risk: $2.82. No earnings tonight or tomorrow.
+  - If MMM >= $186.82: sell immediately (take-profit)
+  - If MMM <= $169.00: sell immediately (stop-loss)
+  Tesla + Alphabet earnings TOMORROW July 22 PM — MMM (industrial) has low QQQ correlation.
 
----
+- GM: 1.321866 shares, entry $78.677 (avg fill), stop-loss $76.29, take-profit $83.45, overnight flag: YES
+  Catalyst: Q2 2026 earnings beat ($3.57 EPS vs $3.29 est, +8.5%), raised FY EBIT guidance
+  to $14-16B (+$500M). Post-auction uptrend, consolidating above VWAP $77.80 at entry.
+  Sector: Consumer/Auto. Max $ risk: ~$3.00. No earnings tonight.
+  Note: Opening-auction first-minute spike to $74.80 was aberration; stop based on
+  post-auction support at $76.29.
+  - If GM >= $83.45: sell immediately (take-profit)
+  - If GM <= $76.29: sell immediately (stop-loss)
 
-2 PM MONITOR NOTE (July 20, 2026):
+- NBIS: 0.409230 shares, entry $202.82 (avg fill), stop-loss $194.71 (4% hard cap), take-profit $219.04, overnight flag: YES
+  Catalyst: Nvidia disclosed 9.3% ownership stake in Nebius AI neocloud + AI collaboration
+  agreement on infrastructure/fleet management. Freedom Capital upgraded to Buy.
+  Sector: Technology/AI. Max $ risk: $3.32. No earnings scheduled.
+  52-week range $49-$300 — HIGH VOLATILITY position. Stop at 4% hard cap.
+  - If NBIS >= $219.04: sell immediately (take-profit)
+  - If NBIS <= $194.71: sell immediately (stop-loss — 4% hard cap)
+  ⚠️ IBM earnings TONIGHT (July 21 PM) may affect AI/tech/QQQ overnight — watch NBIS pre-market.
+  ⚠️ Tesla + Alphabet earnings TOMORROW (July 22 PM) — NBIS most QQQ-sensitive of all positions.
+  3:15 PM agent: evaluate NBIS overnight hold risk carefully before market close.
 
-NEAR STOP FLAGS:
-- ⚠️ ABT: Stop $100.84 only $1.39 (1.36%) below current $102.23. HOWEVER, ABT is near its intraday HIGH ($102.46 at 1:50 PM) and trending bullish. The flag is from a tight trailing stop, not price weakness. 3:15 PM agent should consider trailing stop higher.
+Sells at 10 AM: NONE
+New buys at 10 AM: MMM $83, GM $104, NBIS $83 (total $270 deployed)
 
-NEAR TP FLAGS: None.
-
-BROAD MARKET AT 2 PM:
-- SPY: $744.90 (+0.22% from Friday close $743.29) — mild positive
-- QQQ: $701.00 (+0.82% from Friday close $695.33) — tech recovering
-- Normal regime, no risk-off signal. First green day after multi-day sell-off.
-
-NEWS SINCE NOON: No major new catalysts identified. Geopolitical backdrop unchanged (U.S. airstrikes on Iran reported at noon; oil remains lower -2%, easing inflation concerns). No new AAPL/RHI/ABT-specific news found this session.
-
-KEY DECISIONS FOR 3:15 PM AGENT:
-1. RHI: CLOSE at 3:15 PM — earnings July 23 PM, binary event risk outweighs remaining +$1.47 to TP.
-2. ABT: Consider trailing stop from $100.84 to $101.50–$102.00 given +3.67% gain and bullish trend.
-3. AAPL: Below VWAP, underperforming market. Evaluate overnight hold carefully — stop at $317.32 is safe but thesis requires monitoring if no afternoon recovery.
-
-POLYGON API: Broken (invalid API key, persistent since July 16). Used Robinhood historicals for intraday bars and VWAP. Relative volume vs 30-day average not calculable.
+Settled cash remaining: ~$373 (was $643.25; deployed $270 in new buys today)
+Total account value: ~$825
+Portfolio invested: ~54.8% (5 positions, ~$452 at entry)
+10 AM session P&L: $0 closed trades — no exits. Unrealized: AAPL -$0.86, ABT +$2.67.
 
 ---
 PRE-CHECK — Market day verification
