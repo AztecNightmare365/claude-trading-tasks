@@ -228,6 +228,24 @@ Search "after hours earnings tonight [current date]" and "premarket catalyst tom
 Source E — Sector momentum check:
 Search "best performing sectors today [current date]" and identify the top 1-2 sectors. Pull relevant sector ETF tickers (XLK, XLV, XLE, XLF, XLI, XLC, etc.) and find individual stocks within the leading sectors that are closing strong.
 
+Source F — Catalyst watch list for tomorrow morning (run in parallel with other sources):
+Search the following in parallel:
+- "earnings before market open [TOMORROW'S DATE]"
+- "earnings before bell [TOMORROW'S DATE] consensus beat expected"
+- "FDA PDUFA date [TOMORROW'S DATE] OR [DATE+2]"
+- "analyst day investor day event [TOMORROW'S DATE]"
+
+For each result, identify the ticker and assess:
+- Catalyst timing: tonight AH or tomorrow BMO? If neither, skip it.
+- Directional bias: is there a clear consensus expectation (earnings beat expected, approval likely based on analyst consensus)? Flag as WATCH if yes.
+- Binary risk: FDA decision, foreign regulatory clearance (China SAMR, EU), clinical trial readout, court ruling? Flag as HIGH RISK — include for awareness but the 10 AM agent must require strong open confirmation and may choose to skip entirely.
+- Recent move: has the stock already moved >15% in the past 5 days on pre-positioning? If yes, remove — the easy gain is likely already in the price.
+
+Build a CATALYST WATCH LIST of up to 5 entries in this format:
+  TICKER | Catalyst type | Timing (AH tonight / BMO tomorrow) | Direction bias | Risk level (LOW / MEDIUM / HIGH)
+
+Do NOT buy these today. Pass this list to the 10 AM agent via the handoff block. The 10 AM agent is authorized to enter catalyst watch list tickers at a 1–2% open confirmation threshold (instead of the standard 3% bar) if: (a) the catalyst resolved positively overnight, (b) the stock is trending up at 10:00 AM — not fading from the open spike — and (c) all hard disqualifiers are still clear. A failed catalyst (miss, adverse outcome, no result) disqualifies the entry entirely — do not enter on a failed catalyst regardless of price action.
+
 Combine everything into a master candidate list. For each candidate not already scored by Source A, fetch: current price/change % (get_equity_quotes), actual relative volume vs 30-day average (get_equity_historicals), VWAP (get_equity_technical_indicators, type="vwap", interval="5minute"), today's intraday low (get_equity_historicals, for stop-loss reference), and closing price trend from 5-min bars in the last hour (get_equity_historicals, interval="5minute") — is it closing strong or fading?
 
 Then screen every candidate against all of the following:
@@ -286,6 +304,7 @@ Output a clean summary including:
 - Portfolio allocation after all orders: invested % vs cash %
 - Settled cash available for tomorrow morning
 - Brief overnight outlook: what to watch for before the 10:00 AM agent runs
+- Catalyst watch list for tomorrow: every ticker on the watch list with catalyst, timing, direction bias, and risk level
 
 Then email this summary to yourself using the Gmail MCP tools. Send to aqmeyer123@gmail.com with subject "Robinhood 3:15 PM close — [DATE]". Body = the summary above in clean plain text. Lead with a one-line headline: end-of-day account value, day's total P&L, and what is being held overnight. Put any portfolio-sync or regime-gate flags at the top. This is the end-of-day wrap — make it the most complete of the day's emails.
 
@@ -298,6 +317,7 @@ After completing the summary, overwrite the `## HANDOFF FROM LAST 3:15 PM SESSIO
 - Settled cash remaining
 - Total account value
 - Any notes the 10:00 AM agent should know (e.g. catalysts to watch before open, earnings risk, sector news expected overnight, positions near targets)
+- Catalyst watch list from Source F: each entry as TICKER | Catalyst | Timing | Direction bias | Risk level. If none were identified, write "Catalyst watch list: none."
 
 Replace the entire block from the `## HANDOFF FROM LAST 3:15 PM SESSION` line through the closing `---` with fresh content. Do not modify anything else in that file.
 

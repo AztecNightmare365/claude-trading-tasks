@@ -252,6 +252,17 @@ This gate does NOT affect sells — always honor stops and take-profits regardle
 STEP 4 — Find morning momentum candidates
 You are looking for stocks showing confirmed momentum 30 minutes into the session, not just an opening spike. Cast a wide net — aim for 50+ raw candidates before filtering. Run all sources in parallel:
 
+Catalyst Watch List — check this BEFORE running the scanners:
+Read the catalyst watch list from the `## HANDOFF FROM LAST 3:15 PM SESSION` block. For each ticker on the list:
+1. Search "[TICKER] news [today's date]" to determine whether the catalyst resolved overnight and in which direction.
+2. Get the current quote via get_equity_quotes.
+3. If the catalyst confirmed positively AND the stock is up at open AND still trending up (not fading back toward yesterday's close) at 10:00 AM:
+   - Add it to the master candidate list. It is eligible to enter at 1–2% above yesterday's close — the standard 3% bar does not apply to confirmed catalyst watch list entries.
+   - Still apply all hard disqualifiers: market cap >$500M, bid/ask spread <1%, no new binary event, no earnings today AH.
+   - Use the same stop-loss / take-profit framework as Step 5: 30-minute low as reference, hard cap 4% below entry, dollar risk cap ≤$3.
+4. If the catalyst did NOT confirm (earnings miss, adverse outcome, no material news): skip this ticker. Do not enter on a failed catalyst regardless of price action.
+5. If the handoff contains no catalyst watch list, or it is empty ("none"), proceed directly to Source A.
+
 Source A — Robinhood scanners (primary):
 Call run_scan on BOTH saved scans and union the results:
 1. scan_id "9934ccf8-02c4-4ed0-a32e-1a1b2bc44b63" — % change ≥ 3%, relative volume ≥ 1.2× 30-day average, market cap > $750M. Confirmed-momentum pool.
