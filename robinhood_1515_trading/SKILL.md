@@ -47,92 +47,87 @@ Notes for 10:00 AM agent (June 25, 2026):
 ---
 
 ## HANDOFF FROM LAST 10 AM SESSION
-<!-- Updated by 12 PM agent. Last updated: 2026-07-22 (~12:12 PM ET — 12 PM reassessment complete). -->
+<!-- Updated by 2 PM agent. Last updated: 2026-07-22 (~2:13 PM ET — 2 PM session complete). -->
 
-Last updated: 2026-07-22 (~12:12 PM ET — 12 PM reassessment)
+Last updated: 2026-07-22 (~2:13 PM ET — 2 PM session)
 
-Open positions (5 total — 1 new SMCI position opened at 12 PM):
+Open positions (4 total — SMCI stopped out at 2 PM):
 
 - AAPL: 0.288213 shares, entry $327.50, stop-loss $317.32, take-profit $347.86, overnight flag: YES
-  12 PM price: $324.57 (-0.90% vs entry; -0.97% vs Jul 21 close $327.74)
-  Status: HOLD. Down 0.90% from entry — within noise (below 1.5% discretionary exit threshold). Stop unchanged.
-  Trail trigger $337.86 not reached.
+  2 PM price: $323.94 (-1.09% vs entry; -1.16% vs Jul 21 close $327.74)
+  Status: HOLD. Down 1.09% from entry — within noise (below 1.5% discretionary exit threshold). Stop unchanged.
   Thesis: Apple Intelligence / Alibaba Qwen China AI regulatory approval + HSBC Buy PT $366. Intact.
   Earnings July 30 (8 days away — no immediate binary risk).
+  GOOGL earnings tonight (July 22 AH) — broad tech sentiment could affect AAPL. Evaluate for discretionary
+  exit ONLY if BOTH: AAPL breaks below entry AND a GOOGL miss concretely weakens the AI thesis.
   - If AAPL >= $347.86: sell immediately (take-profit)
   - If AAPL <= $317.32: sell immediately (stop-loss)
   - Trail stop to $327.50 (breakeven) if AAPL reaches $337.86 intraday
 
 - MMM: 0.474448 shares, entry $174.94, stop-loss $169.00, take-profit $186.82, overnight flag: YES
-  12 PM price: $172.27 (-1.53% vs entry; +0.88% vs Jul 21 close $170.76)
-  Status: HOLD. Down 1.53% from entry — at discretionary exit threshold but thesis intact. No negative news.
-  Stop unchanged at $169.00. No trail (position not up from entry).
+  2 PM price: $170.34 (-2.63% vs entry; -0.25% vs Jul 21 close $170.76)
+  Status: HOLD. Down 2.63% from entry — above 1.5% discretionary threshold but NO thesis break. No new
+  negative news since entry. Earnings beat + raised FY guidance catalyst fully intact. Let stop work.
   Thesis: Q2 2026 earnings beat ($2.40 EPS vs $2.27 est, +5.7%), FY EPS guidance raised to $8.80-$8.95. Intact.
   - If MMM >= $186.82: sell immediately (take-profit)
   - If MMM <= $169.00: sell immediately (stop-loss)
 
-- GM: 1.321866 shares, entry $78.677, stop-loss $82.22 (TRAILED from $78.677), take-profit $83.45, overnight flag: YES
-  12 PM price: $82.79 (+5.23% vs entry; +4.11% vs Jul 21 close $79.52)
-  Status: HOLD. Stop TRAILED from breakeven $78.677 → $82.22 (11 AM ET consolidation support).
-  NOTE: TP $83.45 was briefly exceeded intraday (9:35 AM bar high $83.52) but price pulled back before 10 AM agent ran.
-  TP is $0.66 away from current $82.79. TSLA earnings tonight = auto sector risk.
+- GM: 1.321866 shares, entry $78.677, stop-loss $82.32 (TRAILED from $82.22 — 2 PM intraday low), take-profit $83.45, overnight flag: YES
+  2 PM price: $82.37 (+4.70% vs entry; +3.58% vs Jul 21 close $79.52)
+  Status: HOLD. Stop trailed $82.22 → $82.32 (intraday low at 2:05 PM ET bar). BELOW VWAP $82.73. Fading.
+  NEAR STOP: $82.37 vs stop $82.32 — only $0.05 buffer (0.06% above stop).
+  NEAR TP: $82.37 vs TP $83.45 — $1.08 away (1.31%).
   Thesis: Q2 2026 earnings beat ($3.57 EPS vs $3.29 est, +8.5%), raised FY EBIT guidance $14-16B. Intact.
   Opened by 10 AM session July 21.
-  - If GM >= $83.45: sell immediately (take-profit — only $0.66 away!)
-  - If GM <= $82.22: sell immediately (stop-loss — TRAILED)
+  - If GM >= $83.45: sell immediately (take-profit)
+  - If GM <= $82.32: sell immediately (stop-loss — TRAILED)
 
-- WDC: 0.110219 shares, entry $544.37, stop-loss $553.57 (TRAILED from $517.15), take-profit $598.81, overnight flag: YES
-  12 PM price: $561.54 (+3.15% vs entry; +2.40% vs Jul 21 close $548.39)
-  Status: HOLD. Stop TRAILED from $517.15 → $553.57 (absolute intraday low since 10 AM recovery). Now above breakeven.
+- WDC: 0.110219 shares, entry $544.37, stop-loss $555.63 (TRAILED from $553.57 — 1:50 PM ET afternoon low), take-profit $598.81, overnight flag: YES
+  2 PM price: $558.00 (+2.50% vs entry; +1.75% vs Jul 21 close $548.39)
+  Status: HOLD. Stop trailed $553.57 → $555.63 (intraday low at 1:50 PM ET). ABOVE VWAP $555.00. Holding.
+  NEAR STOP: $558.00 vs stop $555.63 — $2.37 buffer (0.43% above stop).
   Thesis: AI/HDD/NAND storage demand, IBM AI infrastructure shift, HDD sold out through 2028, Citi PT $800. Intact.
   ⚠️ WDC earnings July 29 (next Tuesday) — BINARY EVENT. MUST close before Friday July 25 close.
   - If WDC >= $598.81: sell immediately (take-profit)
-  - If WDC <= $553.57: sell immediately (stop-loss — TRAILED)
+  - If WDC <= $555.63: sell immediately (stop-loss — TRAILED)
 
-- SMCI: 2.887630 shares, entry ~$31.86, stop-loss $30.90, take-profit $33.78, overnight flag: YES
-  OPENED BY 12 PM REASSESSMENT. Order ID: 6a60ebbd-b1b6-4730-aea3-32539e03377a
-  12 PM price: ~$31.86 (market order placed ~12:11 PM ET; avg fill TBD)
-  Dollar risk: ~$2.77 | Risk/reward: 1:2 | Dollar amount: $92.00
-  Thesis: Preliminary Q4 FY2026 update (July 21 AH) — $60B+ new order backlog (record), gross margins
-    15-17% (nearly double prior guidance). AI hardware demand confirmed. Tight bull-flag consolidation
-    in $31.15-$31.94 range since 10:30 AM ET. Intraday low since 10 AM: $30.90 (3.26% below entry).
-  No earnings tonight. Next earnings: Aug 11, 2026.
-  - If SMCI >= $33.78: sell immediately (take-profit)
-  - If SMCI <= $30.90: sell immediately (stop-loss)
+Sells at 2 PM: SMCI — 2.887642 shares, market order, filled at $30.812 avg (-3.29% from entry $31.8599, -$3.03)
+  Stop-loss triggered: SMCI faded from $31.94 intraday high (12:45 PM ET) and broke below $30.90 stop.
+  Bull-flag consolidation failed; pattern broke down.
+New buys at 2 PM: NONE (scanners returned 0 for third consecutive time today; QQQ -0.19%; pre-earnings caution)
 
-Sells at 12 PM: NONE
-New buys at 12 PM: SMCI — $92 market order, 2.887630 shares at ~$31.86
-
-Settled cash: ~$415.01 (was $507.01 — $92 deployed to SMCI)
-Total account value: ~$853.59
-Portfolio invested: ~51.4% (5 positions, ~$439 equity)
+Settled cash: ~$415.01 (SMCI proceeds $88.97 UNSETTLED — settles July 23)
+Total account value: ~$848.54 (~$415.01 settled + $88.97 unsettled + $344.56 equity in 4 positions)
+Portfolio invested: ~40.6% (4 positions, ~$344.56 equity)
 
 ---
-NOTES FOR 3:15 PM AGENT (July 22, 2026):
+2 PM SESSION NOTE (for 3:15 PM agent — July 22, 2026):
 
-1. ⚡ GM TP ALERT: At $82.79 at 12 PM — $0.66 from TP $83.45. Stop now TRAILED to $82.22.
-   Execute sell immediately if GM >= $83.45 at any point this afternoon.
-   TSLA earnings tonight — if GM fades hard after 2:30 PM and TSLA sentiment turns negative,
-   a discretionary exit is reasonable (price + thesis condition: auto sector catalyst weakening).
+1. ⚠️ GM CRITICAL — NEAR STOP AND NEAR TP: At $82.37, stop $82.32 (0.06% buffer), TP $83.45 (1.31% away).
+   Hit intraday high of $84.33 at 9:55 AM, then faded all afternoon. Currently below VWAP $82.73.
+   TSLA earnings tonight (AH): auto sector volatility risk. Recommend at 3:15 PM:
+   - If GM >= $82.60 and holding into close → hold overnight (stop at $82.32 protects above breakeven)
+   - If GM fading below $82.45 with TSLA sentiment turning negative → discretionary exit reasonable
+   Stop WILL likely trigger overnight on a TSLA miss. Be prepared.
 
-2. ⚠️ TSLA EARNINGS TONIGHT (July 22 AH): Auto sector volatility risk for GM.
-   GOOGL also reports tonight — broad tech sentiment could affect AAPL and WDC.
+2. ⚠️ WDC PRIORITY — MUST EXIT BY FRIDAY JULY 25: Earnings July 29 (binary event).
+   WDC near stop at $558.00 vs stop $555.63 (0.43% buffer). Thesis intact, above VWAP.
+   STRONG RECOMMENDATION: Close WDC at 3:15 PM today to lock in +2.50% and avoid carrying the binary
+   risk over the weekend. If you hold, set a hard exit plan for no later than Thursday July 24 close.
 
-3. ⚠️ WDC EARNINGS JULY 29 — MUST EXIT BY FRIDAY JULY 25: Binary event next Tuesday.
-   Stop now trailed to $553.57 (above breakeven $544.37). Do NOT hold WDC through the weekend.
-   Priority at 3:15 PM: close WDC before close if holding through the weekend is the only alternative.
+3. ⚠️ TSLA + GOOGL EARNINGS TONIGHT (July 22 AH):
+   - GM: direct auto sector exposure to TSLA result
+   - AAPL/WDC: broad tech sentiment exposure to GOOGL result
+   - SMCI: already stopped out — no exposure
 
-4. SMCI NEW POSITION (12 PM entry, 2.887630 sh @ ~$31.86): Stop $30.90, TP $33.78. Overnight YES.
-   $60B order catalyst supports continuation. No earnings tonight (next: Aug 11).
-   At 3:15 PM, check if SMCI is still holding above $31.50 and above VWAP before confirming overnight hold.
-   If SMCI has faded below $31.20 or the consolidation pattern has broken down, consider same-day exit.
+4. SMCI STOPPED OUT at 2 PM: Sold 2.887642 shares at $30.812 (-3.29%, -$3.03). Stop-loss hit.
+   Bull-flag pattern failed. Proceeds $88.97 unsettled (settles July 23).
 
-5. AAPL/MMM UNDERPERFORMING: Both in slight losses (-0.90% and -1.53%). GOOGL earnings tonight
-   could affect broad tech sentiment and AAPL specifically. If GOOGL disappoints, AAPL AI thesis may
-   weaken — evaluate for discretionary exit if BOTH price condition AND thesis condition are met.
+5. AAPL/MMM STILL UNDERPERFORMING: AAPL -1.09%, MMM -2.63% from entry. Both above stops. No thesis breaks.
+   Hold and let stops work. Do NOT exit discretionarily without a concrete thesis break.
 
-6. SPY +0.17%, QQQ +0.02% at 12 PM — normal regime. Scanners returned 0 both sessions today.
-   SMCI is the only standout mover with a genuine company-specific catalyst.
+6. BROAD MARKET (2 PM ET): SPY +0.03% (flat), QQQ -0.19% (slightly negative). Normal regime.
+   Scanners returned 0 for the THIRD consecutive time today across both scans. No new positions opened.
 ---
 PRE-CHECK — Market day verification
 Before doing anything else, check today's date. If today is Saturday or Sunday, output "Market closed — weekend. No action taken." and stop immediately. Do not proceed to Step 1.
