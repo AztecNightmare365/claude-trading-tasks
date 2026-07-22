@@ -119,72 +119,66 @@ RAW STATS:
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-Last updated: 2026-07-21 (~3:25 PM ET — 3:15 PM session complete)
+Last updated: 2026-07-22 (~3:22 PM ET — 3:15 PM session complete)
 
-Open positions held overnight (4 total):
+Open positions held overnight (2 total):
 
 - AAPL: 0.288213 shares, entry $327.50, stop-loss $317.32, take-profit $347.86, overnight flag: YES
-  Close ~$327.59 | vs entry: +$0.09 (+0.03%)
-  Thesis: Apple Intelligence / Alibaba Qwen China AI regulatory approval + HSBC Buy PT $366. No earnings until July 30.
+  3:15 PM price: $324.49 | vs entry: -$3.01 (-0.92%)
+  Thesis: Apple Intelligence / Alibaba Qwen China AI regulatory approval (confirmed overnight July 22) + HSBC Buy PT $366. No earnings until July 30 (8 days).
+  GOOGL reported AH tonight — if GOOGL beat on AI/cloud, positive for AAPL AI sentiment. Evaluate for discretionary exit ONLY if BOTH: (a) AAPL below entry $327.50 at open AND (b) GOOGL miss concretely weakens Apple AI thesis.
   Trail trigger $337.86 not reached — stop unchanged at $317.32.
   - If AAPL >= $347.86: sell immediately (take-profit).
   - If AAPL <= $317.32: sell immediately (stop-loss).
   - If AAPL reaches $337.86 intraday: trail stop to $327.50 (breakeven) immediately.
 
 - MMM: 0.474448 shares, entry $174.94, stop-loss $169.00, take-profit $186.82, overnight flag: YES
-  Close ~$170.82 | vs entry: -$4.12 (-2.36%) | ⚠️ NEAR STOP: only $1.82 above stop $169.00
-  Thesis: Q2 2026 earnings beat ($2.40 EPS vs $2.27 est, +5.7%), organic sales +5.4% YoY, FY EPS guidance raised to $8.80-$8.95. Industrial sector. Thesis intact — no negative news.
+  3:15 PM price: $170.43 | vs entry: -$4.51 (-2.58%) | vs Jul 21 close: -$0.33 (-0.19%)
+  Thesis: Q2 2026 earnings beat ($2.40 EPS vs $2.27 est, +5.7%), organic sales +5.4% YoY, FY EPS guidance raised to $8.80-$8.95. Industrial sector. Thesis fully intact — no negative news.
   Stop unchanged at $169.00. Do NOT widen.
   - If MMM >= $186.82: sell immediately (take-profit).
-  - If MMM <= $169.00: sell immediately (stop-loss — CRITICAL, only $1.82 buffer).
+  - If MMM <= $169.00: sell immediately (stop-loss — ⚠️ CRITICAL: only $1.43 buffer, watch closely at open).
 
-- GM: 1.321866 shares, entry $78.677, stop-loss $76.29, take-profit $83.45, overnight flag: YES
-  Close ~$79.77 | vs entry: +$1.09 (+1.39%)
-  Thesis: Q2 2026 earnings beat ($3.57 EPS vs $3.29 est, +8.5%), raised FY EBIT guidance to $14-16B. Consumer/Auto sector.
-  Trail trigger $80.25 never reached today — stop unchanged at $76.29.
-  - If GM >= $83.45: sell immediately (take-profit).
-  - If GM <= $76.29: sell immediately (stop-loss).
-  - If GM trades above $80.25 AT ANY POINT: trail stop to $78.677 (breakeven) IMMEDIATELY.
+Sells executed at 3:15 PM (2 total):
 
-- WDC: 0.110219 shares, entry $544.37, stop-loss $517.15, take-profit $598.81, overnight flag: YES
-  Opened at 3:24 PM ET | Close ~$543.89 | vs entry: ~flat
-  Thesis: AI/HDD/NAND storage demand confirmed by IBM Q2 miss (customers shifted spend TO AI infrastructure/memory); Q3 EPS beat ($2.72 vs $2.39 est); HDD production sold out through 2028; Citi PT $800, avg analyst PT $897. Sector rally: MU +11.4%, AMD +7.6% today on same IBM thesis.
-  - If WDC >= $598.81: sell immediately (take-profit).
-  - If WDC <= $517.15: sell immediately (stop-loss).
+- GM: 1.321866 shares sold at market, filled $81.4501 avg
+  Entry: $78.677 (10 AM session July 21). Trailing stop trailed to $82.32 at 2 PM session.
+  Price at 3:15 PM: $81.44 — BELOW trailed stop $82.32. Hard stop-loss exit executed.
+  Realized P&L: +$3.67 (+3.53%). Proceeds: ~$107.67 UNSETTLED (settle July 23).
 
-Sells executed at 3:15 PM (1 total):
-- NBIS: 0.409230 shares sold at market $211.73 avg fill
-  Entry: $202.82 (10 AM session July 21). Stop trailed from $204.90 to $211.92 at 2 PM.
-  Price fell to $211.24 at 3:15 PM — below trailed stop $211.92. Hard exit executed.
-  Realized P&L: +$3.65 (+4.40%). Proceeds: ~$86.67 UNSETTLED (settle July 22).
+- WDC: 0.110219 shares sold at market, filled $557.80 avg
+  Entry: $544.37 (3:15 PM session July 21). Trailing stop at $555.63.
+  Discretionary exit: 2 PM agent strongly recommended closing today. WDC earnings July 29 (binary event — hard rule: must close before July 25). Only $1.42 buffer above stop at evaluation ($557.05 vs stop $555.63). Locked in +2.47% rather than carry binary earnings risk.
+  Realized P&L: +$1.48 (+2.47%). Proceeds: ~$61.47 UNSETTLED (settle July 23).
 
-New buys: WDC $60 (0.110219 shares at $544.37) — AI storage demand play (details above).
+No new buys: Both momentum scanners returned 0 for 4th consecutive time today. CRWV (+4.69%) and DOCN (+3.19%) were the only candidates clearing the 3% bar (both analyst upgrades). Analyst upgrade catalyst has historically underperformed in this account (-2.10% avg loss). GOOGL earnings AH tonight created direct AI/cloud sector uncertainty for both. Did not clear the raised bar for late-session overnight buys.
 
-Settled cash remaining: ~$313.25 (buying power per Robinhood at close)
-Unsettled cash: ~$86.67 (NBIS proceeds, settle July 22)
-Total cash shown by Robinhood: ~$487.84
-Total account value: ~$828.67
-Portfolio invested: ~41.1% (4 positions, ~$340.83 equity)
+Settled cash remaining: $415.01 (GM and WDC proceeds unsettled — settle July 23)
+Unsettled cash: ~$258.11 (SMCI $88.97 + GM $107.67 + WDC $61.47 — ALL settle July 23)
+Total cash shown by Robinhood: ~$673.12
+Total account value: ~$847.50
+Portfolio invested: ~20.6% (2 positions, ~$174.38 equity)
 
 ---
 
-NOTES FOR 10:00 AM AGENT (July 22, 2026):
+NOTES FOR 10:00 AM AGENT (July 23, 2026):
 
-1. ⚠️ MMM NEAR STOP — HIGHEST PRIORITY: Close ~$170.82, stop $169.00. Only $1.82 buffer (1.06%). Thesis intact (Q2 earnings beat, raised FY EPS guidance). If MMM gaps down below $169.00 at open, sell immediately (0.474448 shares, market order). Do NOT widen stop.
+1. ⚠️ CHECK GOOGL + TSLA EARNINGS RESULTS FIRST: Both reported AH tonight (July 22). This sets the context for AAPL.
+   - GOOGL beat on AI/cloud → positive for AAPL AI thesis (Alibaba Qwen/Apple Intelligence). Hold AAPL.
+   - GOOGL missed on AI/cloud → BOTH conditions for AAPL discretionary exit may now be met (AAPL was already below entry $327.50 at 3:15 PM close). Evaluate immediately at open.
+   - TSLA: No current direct portfolio exposure (GM was stopped out). Broad market tone only.
 
-2. WDC OVERNIGHT CATALYST THESIS: IBM Q2 miss confirmed customers shifted spend FROM traditional software TO AI infrastructure/memory — directly bullish for WDC HDD and NAND. Watch for IBM formal earnings release tonight (may provide positive AI-specific data). Also watch for any AI capex announcements from hyperscalers. If WDC gaps up significantly, check TP $598.81 before acting.
+2. ⚠️ MMM NEAR STOP — CRITICAL: 3:15 PM close $170.43, stop $169.00. Only $1.43 buffer (0.84%). Thesis intact (Q2 earnings beat + raised FY EPS guidance). If MMM gaps down below $169.00 at open, sell immediately (0.474448 shares, market order). Do NOT widen stop.
 
-3. GM TRAIL TRIGGER: $80.25 never hit today (close ~$79.77). If GM opens or trades above $80.25, trail stop to breakeven $78.677 IMMEDIATELY.
+3. LARGE BUYING POWER UNLOCKS JULY 23: ~$258.11 in proceeds settle at open (SMCI $88.97 + GM $107.67 + WDC $61.47). Total buying power available: ~$673 settled. Strong dry powder — prioritize earnings-beat candidates at 10 AM.
 
-4. TSLA + GOOGL EARNINGS TONIGHT (July 22 AH): These report AFTER MARKET CLOSE July 22 — they will not have reported by 10 AM July 22. Market positioning ahead of these events may move QQQ and AAPL early in the session on July 22. Be alert to premarket tech sentiment shifts.
+4. AAPL CONTEXT: Closed at $324.49 (-0.92% vs entry $327.50, well above stop $317.32). Down on the day with broad tech weakness (QQQ -0.30%). Apple Intelligence/Alibaba Qwen thesis confirmed overnight. Exit rule: ONLY if BOTH AAPL below entry AND GOOGL miss concretely weakens Apple AI thesis. Price noise alone is not grounds for exit.
 
-5. IBM FORMAL EARNINGS: Pre-announced miss July 20. Formal release possible tonight July 21. Bad news already priced in (IBM -25%). Positive AI revenue data in formal release = additional WDC/MU tailwind.
+5. OIL AT $88 (WTI): 11th consecutive night of US airstrikes on Iran. Oil/inflation risk elevated. Energy is the leading sector. If oil names clear 3%+ bar, they are legitimate candidates for next 10 AM buy.
 
-6. BROAD MARKET AT CLOSE: SPY +0.84% (normal regime). Semiconductor sector led (SOXX +4.5%). Nasdaq +~1.5%. US-Iran tensions (ongoing airstrikes) are background risk — monitor overnight for escalation.
+6. EARNINGS SEASON ACTIVE (July 23): 166 companies report. Look for morning earnings-beat movers — the best catalyst type in this account's history (-0.83% avg loss, per Learned Insights).
 
-7. NBIS UNSETTLED CASH: $86.67 settles July 22 at open, boosting buying power to ~$400. Strong dry powder for 10 AM earnings-beat entries if qualified candidates emerge.
-
-8. SCANNERS returned 0 today at 3:15 PM despite WDC/MU both up 10%+ (likely data lag). Run scans fresh at 10 AM — expect normal results.
+7. SECTOR CONTEXT: Tech underperformed today (QQQ -0.30%). Utilities and Energy led. GOOGL/TSLA results tonight will determine whether tech recovers tomorrow.
 
 ---
 

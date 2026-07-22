@@ -8,3 +8,5 @@ date,ticker,shares,entry_price,exit_price,entry_session,exit_session,catalyst,se
 2026-07-21,ABT,0.872034,98.62,100.8401,10AM,12PM,earnings_beat,healthcare,2.25,1.94,stop_loss
 2026-07-21,NBIS,0.409230,202.82,211.73,10AM,3:15PM,other,tech,4.39,3.65,stop_loss
 2026-07-22,SMCI,2.887642,31.8599,30.812,12PM,2PM,other,tech,-3.29,-3.03,stop_loss
+2026-07-22,GM,1.321866,78.677,81.4501,10AM,3:15PM,earnings_beat,consumer,3.52,3.67,stop_loss
+2026-07-22,WDC,0.110219,544.37,557.80,3:15PM,3:15PM,analyst_upgrade,tech,2.47,1.48,discretionary
