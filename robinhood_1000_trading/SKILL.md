@@ -14,76 +14,83 @@ Execute all steps in order, then place all orders simultaneously.
 ## PRE-MARKET BRIEF
 <!-- Updated by the 9:15 AM pre-market agent. Read before Step 1. -->
 
-**Generated: 2026-07-21 ~9:15 AM ET**
+**Generated: 2026-07-22 ~9:15 AM ET**
 
 ---
 
-### OVERNIGHT POSITIONS: 2 HELD
+### OVERNIGHT POSITIONS: 4 HELD
 
-| Ticker | Shares | Entry | Stop | TP | Pre-Mkt Price | vs Jul 20 Close | Flag |
+| Ticker | Shares | Entry | Stop | TP | Pre-Mkt Price | vs Jul 21 Close | Flag |
 |--------|--------|-------|------|-----|--------------|----------------|------|
-| AAPL | 0.288213 | $327.50 | $317.32 | $347.86 | ~$325.46 | -$1.13 (-0.37%) | **ON TRACK** |
-| ABT | 0.872034 | $98.62 | $101.00 (trail) | $105.88 | ~$100.72 | -$0.94 (-0.93%) | **STOP BREACH** |
+| AAPL | 0.288213 | $327.50 | $317.32 | $347.86 | ~$327.56 | -$0.18 (-0.05%) | **ON TRACK** |
+| MMM | 0.474448 | $174.94 | $169.00 | $186.82 | ~$170.95 | +$0.19 (+0.11%) | **ON TRACK** ⚠️ narrow stop |
+| GM | 1.321866 | $78.677 | $76.29 | $83.45 | ~$80.19 | +$0.67 (+0.84%) | **ON TRACK** — trail trigger $80.25 within $0.06 |
+| WDC | 0.110219 | $544.37 | $517.15 | $598.81 | ~$522.92 | -$25.47 (-4.64%) | **⚠️ GAP DOWN WARNING** |
 
-> **Cash**: $555.46 settled + ~$87.85 unsettled (RHI proceeds, settles today July 21 — confirm with Robinhood before use)
-
-> **Note**: Polygon API still broken (invalid key — persistent since July 16). Pre-market prices sourced from Robinhood extended-hours quotes (`last_non_reg_trade_price`).
+> **Cash**: ~$313.25 settled + ~$86.67 unsettled (NBIS proceeds, settle July 22 at open — usable at 10 AM)
+> **Note**: Polygon API unavailable. Pre-market prices from Robinhood extended-hours quotes (`last_non_reg_trade_price`).
 
 ---
 
 ### POSITION DETAIL
 
 **AAPL — ON TRACK**
-Pre-market $325.46 (range since 9:00 AM: $324.90–$325.47; -0.37% vs July 20 close $326.59; bid/ask $325.40/$325.48). Stop $317.32 is $8.07 (2.5%) below current pre-market — adequate buffer. TP $347.86 is 6.9% away. Trail trigger $337.86 not reached — stop unchanged at $317.32. **Thesis intact**: Apple Intelligence / Alibaba Qwen China AI approval holding; HSBC Buy PT $366; Citi and Evercore ISI reiterated $365 PTs. No adverse AAPL-specific news overnight. Earnings July 30 — no binary event this week. QQQ +1.30% pre-market (chip recovery, Iran ceasefire talks) is constructive for AAPL. The KeyBanc Underweight ($250 PT, July 14) is the only bear note and remains unchanged. **Hold — thesis intact, stop well-buffered.**
+Pre-market $327.56 (-0.05% vs Jul 21 close $327.74; bid $327.55/ask $327.75 — tight spread). Stop $317.32 is $10.24 (3.1%) below — solid buffer. TP $347.86 is 6.2% away. Trail trigger $337.86 not reached — stop unchanged at $317.32. **Thesis strengthened overnight**: Apple received China regulatory approval for Alibaba Qwen AI integration — the core bull thesis confirmed. Separately, reports of Apple exploring AI chip company acquisitions. Earnings July 30 (8 days) — no binary event this week. Market dragged by TSLA/GOOGL earnings positioning (QQQ -0.86% pre-market) but AAPL-specific catalyst is positive. **Hold — thesis strengthened, stop well-buffered.**
 
-**ABT — STOP BREACH**
-Pre-market $100.72 (range since 9:00 AM: $100.62–$100.77; -0.93% vs July 20 close $101.66; bid $100.72 / ask $101.45 — wide spread). **The trailed stop-loss of $101.00 is breached — entire pre-market range has been below $101.00 since 9:00 AM.** No new adverse ABT-specific news overnight; multiple analyst upgrades (JPMorgan PT $120, Piper Sandler $118, Citi $112, BofA $115) remain in place from July 17. The breach appears to be routine post-earnings fade in thin pre-market rather than a thesis break — ABT fundamental thesis (Q2 beat, raised EPS guidance $5.45–$5.60, healthcare outperforming) remains intact. However, the trailed stop exists to protect the +2.1% gain vs entry, and the handoff instruction is explicit. **10 AM AGENT: CHECK ABT FIRST — if ABT is at or below $101.00 at 10 AM, sell immediately (0.872034 shares, market order, stop-loss triggered). If ABT has recovered above $101.00 with positive momentum at open, discretionary hold is defensible — but the stop must be honored if price has not recovered.**
+**MMM — ON TRACK (NARROW STOP BUFFER)**
+Pre-market $170.95 (data as of 8:30 AM ET; +0.11% vs Jul 21 close $170.76; bid $170.00/ask $172.00 — very wide spread, thin pre-market). Stop $169.00 is $1.95 (1.14%) below. Thesis intact — Q2 earnings beat $2.40 EPS vs $2.27 est, raised FY EPS to $8.80–$8.95 (already known from yesterday). No new adverse MMM-specific news overnight. Broad market slightly lower (SPY -0.32%, Nasdaq futures -1.26%) — monitor for gap-down risk at open. **Hold — stop NOT breached, thesis intact. Do NOT widen stop. Sell immediately if MMM opens at or below $169.00.**
+
+**GM — ON TRACK (TRAIL TRIGGER $80.25 IMMINENT)**
+Pre-market $80.19 (+0.84% vs Jul 21 close $79.52; bid $77.66/ask $80.20 — wide spread). Stop $76.29 is $3.90 (4.88%) below — adequate. Trail trigger $80.25 only $0.06 away. Earnings already reported (Q2 EPS $3.57 vs $3.29 est, raised FY EBIT $14–16B). Broad market cautious pre-TSLA/GOOGL earnings — pre-market auto pricing muted. **10 AM AGENT: If GM trades at or above $80.25 at any point, immediately trail stop to breakeven $78.677. Watch GM early.**
+
+**WDC — ⚠️ GAP DOWN WARNING (STOP $517.15 ONLY $5.77 AWAY)**
+Pre-market $522.92 (-$25.47, -4.64% vs Jul 21 close $548.39; bid $522.00/ask $523.00). Stop $517.15 has only $5.77 (1.1%) buffer. Pre-market range reportedly included lows near $516.80 — potentially touching below stop transiently. **Driver: SK Hynix suffered >15% single-day collapse overnight** (worst in company history) after Q2 earnings estimates came in 8% below consensus, raising fears the memory supercycle is slowing. TSMC capex reset amplifying concerns across chip sector. WDC directly exposed as a memory/storage play. **Additional risks: WDC earnings July 29 (next Wednesday) is a binary event one week out. Kioxia merger discussions add uncertainty.** The 4.64% pre-market drop directly challenges the AI storage demand thesis (while HDD thesis may still hold, the sector-wide reassessment is damaging). **10 AM AGENT: CHECK WDC IMMEDIATELY. If WDC at or below $517.15 at open — sell (0.110219 shares, market order, stop triggered). If above stop but below $530, discretionary exit is strongly warranted given sector thesis risk and upcoming binary event. If recovered above $530, reassess thesis before holding.**
 
 ---
 
-### MACRO CONTEXT (pre-market July 21, 2026)
+### MACRO CONTEXT (pre-market July 22, 2026)
 
-| Index | Jul 20 Close | Pre-Mkt Price | Change% vs Jul 20 | Regime Gate |
-|-------|-------------|--------------|-------------------|-------------|
-| SPY | $742.09 | ~$745.10 | **+0.41%** | CLEAR |
-| QQQ | $696.06 | ~$705.14 | **+1.30%** | — |
+| Index | Jul 21 Close | Pre-Mkt Price | Change% vs Jul 21 | Note |
+|-------|-------------|--------------|-------------------|------|
+| SPY | $748.28 | ~$745.90 | **-0.32%** | Futures lower |
+| QQQ | $708.97 | ~$702.89 | **-0.86%** | Tech profit-taking |
 
-**Regime gate: CLEAR** — SPY +0.41% pre-market. Normal regime: new buys are permissible at 10 AM if candidates pass all filters.
+**Regime gate status**: SPY -0.32% pre-market — below the -2% hard trigger. Normal regime technically, but market is negative. 10 AM agent: apply extra caution on new buys; no new buys in memory/chip sector.
 
 ---
 
 ### KEY OVERNIGHT/PRE-MARKET DEVELOPMENTS
 
-**1. MARKETS RECOVERING — TECH LEADS**
-Nasdaq-100 futures +1.3%, S&P 500 futures +0.4% pre-market July 21. Chip stocks rebounding after last week's sell-off. QQQ +1.30% confirms broad tech recovery underway. Polymarket implies 95% probability S&P 500 opens higher today.
+**1. TSLA + GOOGL EARNINGS TONIGHT — TECH PROFIT-TAKING IN PROGRESS**
+Tesla and Alphabet report Q2 2026 after close today. Nasdaq futures -1.26%, QQQ -0.86% pre-market as investors take profits ahead of earnings volatility. Primary macro headwind for today's session. No direct portfolio exposure but creates broad tech pressure on AAPL and WDC.
 
-**2. IRAN CEASEFIRE TALKS — OIL EASING**
-Reports of renewed Washington-Tehran diplomatic efforts; mediators pushing for a 10-day ceasefire. Crude prices edging lower. Reduces inflation tail risk. Net positive for growth equities.
+**2. SK HYNIX COLLAPSES >15% — MEMORY SECTOR ROUT (CRITICAL FOR WDC)**
+SK Hynix suffered its largest single-day drop ever. KIS Securities estimates came in 8% below consensus, signaling the memory supercycle may be peaking. Global chip/memory stocks under pressure. WDC -4.64% pre-market is the direct portfolio casualty. MU, INTC also likely lower.
 
-**3. IBM EARNINGS TONIGHT (BINARY EVENT — no exposure)**
-IBM reports Q2 2026 after close July 21. Potential tech sentiment driver for tomorrow's open — no direct portfolio exposure, but may affect QQQ/tech overnight July 21→22.
+**3. AAPL CHINA AI APPROVAL — POSITIVE CATALYST CONFIRMED**
+Apple received Chinese regulatory approval for Alibaba Qwen AI integration overnight — the core thesis for AAPL overnight hold confirmed. Thesis strengthened. Offsets broad tech weakness for AAPL specifically.
 
-**4. BIG BINARY EVENTS TOMORROW AND THURSDAY**
-- July 22 PM: Tesla + Alphabet earnings — Mag 7 events, major QQQ movers
-- July 23 PM: Intel (INTC) — chip sector binary, 15% implied move
-These do not affect today's session but any position held overnight July 21→22 faces elevated Mag-7 volatility risk.
+**4. OIL/MIDDLE EAST TENSIONS ESCALATING**
+Oil prices at 6-week highs as Middle East tensions renewed (opposite of yesterday's ceasefire hopes). Adds macro risk premium to the session. Negative for growth equities broadly.
 
-**5. AAPL APPROACHING EARNINGS (JULY 30)**
-AAPL at 11x sales peak per Benzinga — historically elevated valuation. Earnings July 30 remain the next binary event (9 days away). No new adverse news overnight. Bull case (China AI, Services monetization) intact.
+**5. NBIS PROCEEDS SETTLE TODAY**
+~$86.67 from NBIS sale (July 21) settles at open July 22, boosting buying power to ~$400 total. Confirm with Robinhood before using.
 
 ---
 
 ### FLAGS
 
-| Ticker | Shares @ Entry | Pre-Mkt Price | vs Jul 20 Close | Stop Distance | Flag |
+| Ticker | Shares @ Entry | Pre-Mkt Price | vs Jul 21 Close | Stop Distance | Flag |
 |--------|---------------|--------------|----------------|---------------|------|
-| AAPL | 0.288213 @ $327.50 | ~$325.46 | -0.37% | $8.07 (2.5%) above stop $317.32 | **ON TRACK** |
-| ABT | 0.872034 @ $98.62 | ~$100.72 | -0.93% | **$0.28 (0.3%) BELOW stop $101.00 — BREACHED** | **STOP BREACH** |
+| AAPL | 0.288213 @ $327.50 | ~$327.56 | -0.05% | $10.24 (3.1%) above stop $317.32 | **ON TRACK** |
+| MMM | 0.474448 @ $174.94 | ~$170.95 | +0.11% | $1.95 (1.14%) above stop $169.00 | **ON TRACK** ⚠️ narrow |
+| GM | 1.321866 @ $78.677 | ~$80.19 | +0.84% | $3.90 (4.88%) above stop $76.29 | **ON TRACK** — trail $80.25 imminent |
+| WDC | 0.110219 @ $544.37 | ~$522.92 | -4.64% | **$5.77 (1.1%) above stop $517.15** | **⚠️ GAP DOWN WARNING** |
 
 ---
 
 ### ONE-LINE SUMMARY
-**1 position on track, 1 STOP BREACH for immediate action. ABT pre-market $100.72 is below trailed stop $101.00 — 10 AM agent must sell ABT (0.872034 shares, market order) if at or below $101.00 at open. AAPL solid with 2.5% stop buffer, thesis intact. SPY +0.41%, QQQ +1.30% pre-market — REGIME GATE CLEAR, new buys permissible. RHI proceeds (~$87.85) settle today July 21.**
+**3 positions ON TRACK, 1 GAP DOWN WARNING. WDC pre-market -4.64% ($522.92) on SK Hynix memory sector collapse — stop $517.15 only $5.77 (1.1%) away; 10 AM agent sell immediately if at/below stop, discretionary exit if below $530. AAPL thesis strengthened (China AI approval). MMM stop buffer $1.95 — do not widen. GM trail trigger $80.25 within $0.06. SPY -0.32%, QQQ -0.86% — regime gate not triggered but market cautious pre-TSLA/GOOGL earnings.**
 
 ---
 
