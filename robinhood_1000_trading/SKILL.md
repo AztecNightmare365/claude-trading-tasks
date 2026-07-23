@@ -14,83 +14,82 @@ Execute all steps in order, then place all orders simultaneously.
 ## PRE-MARKET BRIEF
 <!-- Updated by the 9:15 AM pre-market agent. Read before Step 1. -->
 
-**Generated: 2026-07-22 ~9:15 AM ET**
+**Generated: 2026-07-23 ~9:15 AM ET**
 
 ---
 
-### OVERNIGHT POSITIONS: 4 HELD
+### OVERNIGHT POSITIONS: 2 HELD
 
-| Ticker | Shares | Entry | Stop | TP | Pre-Mkt Price | vs Jul 21 Close | Flag |
+| Ticker | Shares | Entry | Stop | TP | Pre-Mkt Price | vs Jul 22 Close | Flag |
 |--------|--------|-------|------|-----|--------------|----------------|------|
-| AAPL | 0.288213 | $327.50 | $317.32 | $347.86 | ~$327.56 | -$0.18 (-0.05%) | **ON TRACK** |
-| MMM | 0.474448 | $174.94 | $169.00 | $186.82 | ~$170.95 | +$0.19 (+0.11%) | **ON TRACK** ⚠️ narrow stop |
-| GM | 1.321866 | $78.677 | $76.29 | $83.45 | ~$80.19 | +$0.67 (+0.84%) | **ON TRACK** — trail trigger $80.25 within $0.06 |
-| WDC | 0.110219 | $544.37 | $517.15 | $598.81 | ~$522.92 | -$25.47 (-4.64%) | **⚠️ GAP DOWN WARNING** |
+| AAPL | 0.288213 | $327.50 | $317.32 | $347.86 | $324.00 | -$1.89 (-0.58%) | **ON TRACK** |
+| MMM | 0.474448 | $174.94 | $169.00 | $186.82 | $170.00 | -$0.76 (-0.45%) | **ON TRACK** ⚠️ CRITICAL — bid $169.10, $0.10 above stop |
 
-> **Cash**: ~$313.25 settled + ~$86.67 unsettled (NBIS proceeds, settle July 22 at open — usable at 10 AM)
-> **Note**: Polygon API unavailable. Pre-market prices from Robinhood extended-hours quotes (`last_non_reg_trade_price`).
+> **Note**: AAPL price from Robinhood extended-hours (`last_non_reg_trade_price`) as of 9:15 AM ET. MMM last non-reg trade $170.00 as of 8:44 AM ET; current bid $169.10 (9:13 AM ET) — only $0.10 above stop $169.00.
+> **Polygon API unavailable** — all pre-market prices sourced from Robinhood quotes.
+> **Cash**: ~$673 total shown by Robinhood; ~$415.01 settled + ~$258.11 unsettled (GM $107.67 + WDC $61.47 + SMCI $88.97 proceeds, ALL settle at open July 23 → full ~$673 usable at 10 AM).
 
 ---
 
 ### POSITION DETAIL
 
 **AAPL — ON TRACK**
-Pre-market $327.56 (-0.05% vs Jul 21 close $327.74; bid $327.55/ask $327.75 — tight spread). Stop $317.32 is $10.24 (3.1%) below — solid buffer. TP $347.86 is 6.2% away. Trail trigger $337.86 not reached — stop unchanged at $317.32. **Thesis strengthened overnight**: Apple received China regulatory approval for Alibaba Qwen AI integration — the core bull thesis confirmed. Separately, reports of Apple exploring AI chip company acquisitions. Earnings July 30 (8 days) — no binary event this week. Market dragged by TSLA/GOOGL earnings positioning (QQQ -0.86% pre-market) but AAPL-specific catalyst is positive. **Hold — thesis strengthened, stop well-buffered.**
+Pre-market $324.00 (-0.58% vs Jul 22 close $325.89; bid $323.90/ask $323.98 — tight spread). Stop $317.32 is $6.68 (2.06%) below — adequate buffer. TP $347.86 is 7.4% away. Entry $327.50; currently $3.50 (-1.07%) below entry.
 
-**MMM — ON TRACK (NARROW STOP BUFFER)**
-Pre-market $170.95 (data as of 8:30 AM ET; +0.11% vs Jul 21 close $170.76; bid $170.00/ask $172.00 — very wide spread, thin pre-market). Stop $169.00 is $1.95 (1.14%) below. Thesis intact — Q2 earnings beat $2.40 EPS vs $2.27 est, raised FY EPS to $8.80–$8.95 (already known from yesterday). No new adverse MMM-specific news overnight. Broad market slightly lower (SPY -0.32%, Nasdaq futures -1.26%) — monitor for gap-down risk at open. **Hold — stop NOT breached, thesis intact. Do NOT widen stop. Sell immediately if MMM opens at or below $169.00.**
+Overnight context: GOOGL Q2 reported AH July 22 — revenue +24% ($119.8B) and Google Cloud +82% ($24.8B), both beats. EPS $9.11 vs $2.88 est (massive beat). GOOGL stock is DOWN -3.63% pre-market not on AI/cloud miss but on capex overhang ($195–205B full-year 2026 projection). This is NOT a miss on AI/cloud execution — it is an investment cost concern. Per the handoff exit rule: GOOGL beat on AI/cloud → **positive for AAPL AI thesis** — the "GOOGL miss weakens Apple AI" condition is NOT met. AAPL discretionary exit is NOT triggered (condition b fails). Alibaba Qwen/China AI approval thesis remains intact. Earnings July 30 (7 days) — no binary event this week.
 
-**GM — ON TRACK (TRAIL TRIGGER $80.25 IMMINENT)**
-Pre-market $80.19 (+0.84% vs Jul 21 close $79.52; bid $77.66/ask $80.20 — wide spread). Stop $76.29 is $3.90 (4.88%) below — adequate. Trail trigger $80.25 only $0.06 away. Earnings already reported (Q2 EPS $3.57 vs $3.29 est, raised FY EBIT $14–16B). Broad market cautious pre-TSLA/GOOGL earnings — pre-market auto pricing muted. **10 AM AGENT: If GM trades at or above $80.25 at any point, immediately trail stop to breakeven $78.677. Watch GM early.**
+**Hold — AAPL stop well-buffered, thesis intact. Do NOT discretionary-exit on broad tech weakness alone. Stop unchanged at $317.32.**
 
-**WDC — ⚠️ GAP DOWN WARNING (STOP $517.15 ONLY $5.77 AWAY)**
-Pre-market $522.92 (-$25.47, -4.64% vs Jul 21 close $548.39; bid $522.00/ask $523.00). Stop $517.15 has only $5.77 (1.1%) buffer. Pre-market range reportedly included lows near $516.80 — potentially touching below stop transiently. **Driver: SK Hynix suffered >15% single-day collapse overnight** (worst in company history) after Q2 earnings estimates came in 8% below consensus, raising fears the memory supercycle is slowing. TSMC capex reset amplifying concerns across chip sector. WDC directly exposed as a memory/storage play. **Additional risks: WDC earnings July 29 (next Wednesday) is a binary event one week out. Kioxia merger discussions add uncertainty.** The 4.64% pre-market drop directly challenges the AI storage demand thesis (while HDD thesis may still hold, the sector-wide reassessment is damaging). **10 AM AGENT: CHECK WDC IMMEDIATELY. If WDC at or below $517.15 at open — sell (0.110219 shares, market order, stop triggered). If above stop but below $530, discretionary exit is strongly warranted given sector thesis risk and upcoming binary event. If recovered above $530, reassess thesis before holding.**
+**MMM — ON TRACK (⚠️ CRITICAL STOP PROXIMITY)**
+Pre-market last trade $170.00 (-0.45% vs Jul 22 close $170.76; data as of 8:44 AM ET). Current bid $169.10 / ask $171.99 (as of 9:13 AM ET — very wide spread, thin pre-market). Stop $169.00 is $1.00 (0.59%) above last trade; bid is $169.10 — only **$0.10 above stop on the bid side**.
 
----
+No new adverse MMM-specific news found for July 23. Thesis intact: Q2 earnings beat ($2.40 EPS vs $2.27 est, raised FY EPS $8.80–$8.95). Broad market weakness (SPY -1.03%) creates gap-down risk at open.
 
-### MACRO CONTEXT (pre-market July 22, 2026)
-
-| Index | Jul 21 Close | Pre-Mkt Price | Change% vs Jul 21 | Note |
-|-------|-------------|--------------|-------------------|------|
-| SPY | $748.28 | ~$745.90 | **-0.32%** | Futures lower |
-| QQQ | $708.97 | ~$702.89 | **-0.86%** | Tech profit-taking |
-
-**Regime gate status**: SPY -0.32% pre-market — below the -2% hard trigger. Normal regime technically, but market is negative. 10 AM agent: apply extra caution on new buys; no new buys in memory/chip sector.
+**⚠️ 10 AM AGENT: CHECK MMM FIRST AT OPEN. Stop is $169.00. With bid at $169.10 pre-market, MMM may open at or below stop. If MMM at or below $169.00 at open — sell immediately (0.474448 shares, market order, stop triggered). Do NOT widen stop. Do NOT wait to see if it recovers.**
 
 ---
 
-### KEY OVERNIGHT/PRE-MARKET DEVELOPMENTS
+### MACRO CONTEXT (pre-market July 23, 2026)
 
-**1. TSLA + GOOGL EARNINGS TONIGHT — TECH PROFIT-TAKING IN PROGRESS**
-Tesla and Alphabet report Q2 2026 after close today. Nasdaq futures -1.26%, QQQ -0.86% pre-market as investors take profits ahead of earnings volatility. Primary macro headwind for today's session. No direct portfolio exposure but creates broad tech pressure on AAPL and WDC.
+| Index | Jul 22 Close | Pre-Mkt Price | Change% | Note |
+|-------|-------------|--------------|---------|------|
+| SPY | $747.41 | $739.70 | **-1.03%** | TSLA/GOOGL earnings drag |
+| QQQ | $705.35 | $694.75 | **-1.50%** | Tech under pressure |
 
-**2. SK HYNIX COLLAPSES >15% — MEMORY SECTOR ROUT (CRITICAL FOR WDC)**
-SK Hynix suffered its largest single-day drop ever. KIS Securities estimates came in 8% below consensus, signaling the memory supercycle may be peaking. Global chip/memory stocks under pressure. WDC -4.64% pre-market is the direct portfolio casualty. MU, INTC also likely lower.
+**Regime gate status**: SPY -1.03% pre-market — in the CAUTION ZONE (1–2% down). NOT triggering the hard -2% gate. 10 AM agent: reduce new buy sizes by 50%, require stronger-than-usual catalyst for any new entries today.
 
-**3. AAPL CHINA AI APPROVAL — POSITIVE CATALYST CONFIRMED**
-Apple received Chinese regulatory approval for Alibaba Qwen AI integration overnight — the core thesis for AAPL overnight hold confirmed. Thesis strengthened. Offsets broad tech weakness for AAPL specifically.
+---
 
-**4. OIL/MIDDLE EAST TENSIONS ESCALATING**
-Oil prices at 6-week highs as Middle East tensions renewed (opposite of yesterday's ceasefire hopes). Adds macro risk premium to the session. Negative for growth equities broadly.
+### KEY OVERNIGHT DEVELOPMENTS
 
-**5. NBIS PROCEEDS SETTLE TODAY**
-~$86.67 from NBIS sale (July 21) settles at open July 22, boosting buying power to ~$400 total. Confirm with Robinhood before using.
+**1. GOOGL EARNINGS BEAT — STOCK DOWN ON CAPEX OVERHANG (AAPL READ-THROUGH: POSITIVE)**
+Alphabet Q2: Revenue +24% ($119.8B, beat), Google Cloud +82% ($24.8B, massive beat), EPS $9.11 vs $2.88 est. However, company projected $195–205B CapEx for full year 2026 — investors selling on investment cost burden. GOOGL -3.63% pre-market. Key point: the AI/cloud business itself is accelerating, which validates the AI spending thesis and is positive for AAPL's Apple Intelligence/AI positioning. This is NOT a GOOGL AI miss — it's an overspend concern. AAPL discretionary exit condition NOT triggered.
+
+**2. TSLA EARNINGS MISS — BROAD TECH PRESSURE**
+Tesla Q2: EPS $0.33 vs $0.44 est (miss). Revenue beat (auto +23%), deliveries 480K record. Stock -5.52% pre-market. No direct portfolio exposure (GM stopped out July 22). Broad Nasdaq headwind — amplifying QQQ -1.50%.
+
+**3. MMM STOP NEARLY AT BID — CRITICAL FOR OPEN**
+MMM bid $169.10 as of 9:13 AM ET, stop $169.00. With SPY -1.03% and broad market negative, MMM faces gap-down risk at 9:30 AM open. No adverse MMM-specific news. 10 AM agent must check MMM immediately at open.
+
+**4. LARGE BUYING POWER UNLOCKS TODAY**
+~$258.11 in proceeds (GM $107.67 + WDC $61.47 + SMCI $88.97) settle at open July 23. Total available buying power ~$673. Strong dry powder for 10 AM session — prioritize earnings-beat candidates.
+
+**5. EARNINGS SEASON ACTIVE (JULY 23)**
+ServiceNow (NOW) +7.25% pre-market after Q2 beat — no direct portfolio exposure but signals SaaS/enterprise software is working. 166 companies reporting today. Active earnings-beat environment.
 
 ---
 
 ### FLAGS
 
-| Ticker | Shares @ Entry | Pre-Mkt Price | vs Jul 21 Close | Stop Distance | Flag |
+| Ticker | Shares @ Entry | Pre-Mkt Price | vs Jul 22 Close | Stop Distance | Flag |
 |--------|---------------|--------------|----------------|---------------|------|
-| AAPL | 0.288213 @ $327.50 | ~$327.56 | -0.05% | $10.24 (3.1%) above stop $317.32 | **ON TRACK** |
-| MMM | 0.474448 @ $174.94 | ~$170.95 | +0.11% | $1.95 (1.14%) above stop $169.00 | **ON TRACK** ⚠️ narrow |
-| GM | 1.321866 @ $78.677 | ~$80.19 | +0.84% | $3.90 (4.88%) above stop $76.29 | **ON TRACK** — trail $80.25 imminent |
-| WDC | 0.110219 @ $544.37 | ~$522.92 | -4.64% | **$5.77 (1.1%) above stop $517.15** | **⚠️ GAP DOWN WARNING** |
+| AAPL | 0.288213 @ $327.50 | $324.00 | -0.58% | $6.68 (2.06%) above stop $317.32 | **ON TRACK** |
+| MMM | 0.474448 @ $174.94 | $170.00 (bid $169.10) | -0.45% | **$1.00 (0.59%) above stop $169.00; bid $0.10 above stop** | **ON TRACK** ⚠️ CRITICAL |
 
 ---
 
 ### ONE-LINE SUMMARY
-**3 positions ON TRACK, 1 GAP DOWN WARNING. WDC pre-market -4.64% ($522.92) on SK Hynix memory sector collapse — stop $517.15 only $5.77 (1.1%) away; 10 AM agent sell immediately if at/below stop, discretionary exit if below $530. AAPL thesis strengthened (China AI approval). MMM stop buffer $1.95 — do not widen. GM trail trigger $80.25 within $0.06. SPY -0.32%, QQQ -0.86% — regime gate not triggered but market cautious pre-TSLA/GOOGL earnings.**
+**2 positions ON TRACK, 0 formally flagged; MMM pre-market bid $169.10 is $0.10 above stop $169.00 — check MMM first at open and sell immediately if at/below $169.00. AAPL -0.58% ($324.00) — GOOGL beat on AI/cloud means discretionary exit NOT triggered; hold. SPY -1.03%, QQQ -1.50% (TSLA miss + GOOGL capex overhang) — caution regime, 50% position sizing on new buys. ~$673 buying power available (unsettled proceeds settle at open).**
 
 ---
 
