@@ -362,6 +362,7 @@ After completing the summary, overwrite the `## HANDOFF FROM LAST 10 AM SESSION`
 - Settled cash remaining
 - Total account value
 - Any notes the 3:15 PM agent should know (e.g. positions approaching targets, catalysts still developing, anything unusual)
+- Catalyst status carry-forward: for every ticker that was on the catalyst watch list, note how it resolved — "ENTERED at [price]" if you bought it, "CONFIRMED but not entered ([one-line reason])" if the catalyst was positive but you passed (flat at open, ranked out), or "FAILED — do not chase" if the catalyst missed. The 12 PM / 1 PM / 2 PM sessions use this to give a confirmed-catalyst ticker a scoring boost if it shows up in their scanners later. If there was no watch list, write "Catalyst watch list: none."
 
 Replace the entire block from the `## HANDOFF FROM LAST 10 AM SESSION` line through the closing `---` with fresh content. Do not modify anything else in that file.
 

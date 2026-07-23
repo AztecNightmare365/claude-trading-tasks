@@ -95,6 +95,10 @@ Zero on both means the bar genuinely isn't being cleared right now — don't for
 Priority sector watchlist — always check directly, regardless of scanner results:
 SNDK, MU, INTC, WDC, AMAT, QCOM (memory/semiconductor). Historically the account's strongest-performing sector — big moves on green tech days. Pull each via get_equity_quotes: if QQQ is up on the day and the ticker is up 2%+ from prior close, add it to the candidate list even if it doesn't independently clear the general 3% bar. Give these a scoring boost over an equal-quality non-watchlist candidate when ranking. Still must clear every hard disqualifier below — check the earnings date before buying, this sector reports often.
 
+Catalyst-confirmed boost — check the handoff's catalyst carry-forward:
+Read the catalyst status carry-forward in the `## HANDOFF FROM LAST 10 AM SESSION` block. Any ticker marked "CONFIRMED but not entered" had a real, dated catalyst resolve in its favor this morning (BMO earnings beat, FDA approval, positive analyst-day/guidance event). If such a ticker appears in your scanners or lists today, give it a scoring boost over an equal-quality momentum candidate — a stock moving on a known, dated catalyst is higher-conviction than an undiagnosed momentum spike. Skip anything marked "FAILED — do not chase" regardless of price.
+IMPORTANT — the boost affects ranking, NOT the entry bar. The 1–2% early-entry threshold from the catalyst watch list applies ONLY at the 10 AM open. After the open, a catalyst-confirmed ticker must still clear the full 3% baseline bar below to be bought. This keeps the intraday bar high, per the Learned Insights (raise the bar sharply for midday buys).
+
 Source B — Robinhood built-in lists:
 Call get_popular_lists and get_watchlist_items on Daily Movers, 100 Most Popular, Top Movers, sector lists. Add any tickers not already in Source A.
 
@@ -176,6 +180,7 @@ After completing the summary, overwrite the `## HANDOFF FROM LAST 10 AM SESSION`
 - Settled cash remaining
 - Total account value
 - Notes for the 3:15 PM agent (positions near targets, catalysts developing, anything unusual, broad market trend at noon)
+- Catalyst status carry-forward: pass through any "CONFIRMED but not entered" or "FAILED" catalyst tickers from the 10 AM handoff that are still relevant, so the 1 PM and 2 PM sessions keep tracking them. If none, omit.
 
 For any positions opened by this agent, mark them as "Opened by 12 PM reassessment" so the 3:15 PM agent can apply appropriate scrutiny.
 
