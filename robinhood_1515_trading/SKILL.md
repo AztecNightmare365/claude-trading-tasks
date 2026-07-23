@@ -47,97 +47,97 @@ Notes for 10:00 AM agent (June 25, 2026):
 ---
 
 ## HANDOFF FROM LAST 10 AM SESSION
-<!-- Updated by 12 PM agent. Last updated: 2026-07-23 (~12:12 PM ET — 12 PM reassessment complete). -->
+<!-- Updated by 1 PM agent. Last updated: 2026-07-23 (~1:15 PM ET — 1 PM session complete). -->
 
-Last updated: 2026-07-23 (~12:12 PM ET — 12 PM reassessment complete)
+Last updated: 2026-07-23 (~1:15 PM ET — 1 PM session complete)
 
-Open positions (3 total — 1 new position opened this session):
+Open positions (3 total — no new positions opened this session):
 
 - AAPL: 0.288213 shares, entry $327.50, stop-loss $317.32, take-profit $347.86, overnight flag: YES
-  12 PM price: $320.735 (-2.06% vs entry; -1.58% vs Jul 22 close $325.89)
-  Status: HOLD. Stop NOT triggered ($3.44 buffer above $317.32). Thesis intact.
+  1 PM price: $320.53 (-2.13% vs entry; -1.64% vs Jul 22 close $325.89)
+  Status: HOLD. Stop NOT triggered ($3.21 buffer above $317.32). Thesis intact.
   Thesis: Apple Intelligence / Alibaba Qwen China AI regulatory approval + HSBC Buy PT $366.
-  GOOGL AI/cloud beat confirms read-through. Earnings July 30 (7 days — do NOT hold through earnings).
+  Morgan Stanley raised AAPL PT today — additional positive signal. Earnings July 30 (7 days — do NOT hold through earnings).
   entry_type: scanner
-  Trail trigger $337.86 NOT reached — stop unchanged at $317.32.
+  Trail trigger $337.86 NOT reached — stop unchanged at $317.32. Below VWAP ($321.13).
+  Market caution (SPY -1.23%) driving weakness, NOT a thesis break.
   - If AAPL >= $347.86: sell immediately (take-profit)
   - If AAPL <= $317.32: sell immediately (stop-loss)
   - If AAPL reaches $337.86 intraday: trail stop to $327.50 (breakeven) immediately
 
 - MMM: 0.474448 shares, entry $174.94, stop-loss $169.00, take-profit $186.82, overnight flag: YES
-  12 PM price: $169.670 (-3.01% vs entry; -0.64% vs Jul 22 close $170.76)
-  Status: HOLD. Stop NOT triggered ($0.67 buffer above $169.00).
-  ⚠️ CRITICAL: Only $0.67 above stop. Drifted down from $170.335 at 10 AM to $169.67 at noon.
-  Thesis: Q2 2026 earnings beat ($2.40 EPS vs $2.27 est, +5.7%), FY EPS guidance raised $8.80-$8.95.
-  Intact — no adverse news today. Caution regime (SPY -1.26%) driving general market weakness, NOT a thesis break.
+  1 PM price: $169.98 (-2.83% vs entry; -0.46% vs Jul 22 close $170.76)
+  Status: HOLD. Stop NOT triggered at 1 PM check ($0.98 buffer above $169.00).
+  ⚠️ CRITICAL: Intraday low was $168.62 — stop BREACHED intraday but RECOVERED to $169.98. Thesis intact.
+  Thesis: Q2 2026 earnings beat ($2.40 EPS vs $2.24 est., +7.1%), FY EPS guidance raised $8.80-$8.95.
+  No adverse news today. Caution regime (SPY -1.23%) driving weakness, NOT a thesis break.
   DO NOT discretionary exit — let the stop work at $169.00.
   entry_type: scanner
   - If MMM >= $186.82: sell immediately (take-profit)
   - If MMM <= $169.00: sell immediately (stop-loss)
 
-- ALLE: 0.52 shares, entry ~$158.07 (market order est. fill), stop-loss $154.68, take-profit $164.85, overnight flag: YES
+- ALLE: 0.520000 shares, entry $157.79 (live Robinhood avg cost), stop-loss $154.68, take-profit $164.85, overnight flag: YES
   Opened by 12 PM reassessment
-  12 PM price: ~$157.66 (making new session highs at order time)
-  Catalyst: Q2 2026 earnings beat ($2.40 adj. EPS vs $2.22 est., +8.1%); organic revenue +6.9%;
-  operating margin 22.1% vs 21.5%; FY guidance raised to $8.85-$9.00. Reported BMO today.
-  Momentum confirmed sustained — making new session highs at noon. Consolidated $154.68-$158 since
-  10:35 AM; opening spike low ($148.715) irrelevant per 10 AM agent note.
-  Stop rationale: $154.68 = 2-hour midday consolidation floor (11 AM-noon), well above $151.26 hard cap.
-  TP rationale: $158.07 + 2 x $3.39 risk = $164.85
+  1 PM price: $158.62 (+0.52% vs entry; +13.34% vs Jul 22 close $139.95)
+  Status: HOLD. Stop NOT triggered ($3.94 buffer above $154.68). Well above VWAP ($154.48). Strong.
+  Trail trigger ($160.95 = 2% above entry $157.79) not yet reached — stop unchanged at $154.68.
+  Catalyst: Q2 2026 earnings beat ($2.40 adj. EPS vs $2.22 est., +8.1%); organic revenue +6.9%; FY guidance raised.
   entry_type: scanner
   - If ALLE >= $164.85: sell immediately (take-profit)
   - If ALLE <= $154.68: sell immediately (stop-loss)
+  - If ALLE reaches $160.95 intraday: trail stop to $157.79 (breakeven) immediately
 
 Sells this session: NONE
-Buys this session: ALLE — 0.52 shares at market (~$158.07 est., $82.20 deployed)
+Buys this session: NONE
 
-Settled cash: ~$590.93 (was $673.13; $82.20 deployed to ALLE)
-Total account value: ~$846.05
-Portfolio invested: ~30.1% (3 positions, ~$255.12 equity)
+Settled cash: ~$591.08
+Total account value: ~$846
+Portfolio invested: ~30.2% (3 positions, ~$255 equity)
 
 ---
 
 NOTES FOR 3:15 PM AGENT (July 23, 2026):
 
-1. ⚠️ MMM CRITICAL PROXIMITY TO STOP:
-   MMM at $169.67, stop $169.00 — only $0.67 buffer at noon. Drifted down from $170.335 at 10 AM.
-   Thesis (Q2 earnings beat + guidance raise) intact — no adverse news today. Caution regime (SPY -1.26%)
-   driving general weakness, not a thesis break. DO NOT discretionary exit — let the stop work.
-   At 3:15 PM: if MMM is at or below $169.00, sell immediately (stop_loss). Otherwise hold.
+1. ⚠️ MMM STOP BREACHED INTRADAY — WATCH CLOSELY:
+   MMM intraday low was $168.62 (below stop $169.00) but recovered to $169.98 at 1 PM check.
+   Thesis (Q2 earnings beat + guidance raise) still intact — no adverse news today. Caution regime.
+   At 3:15 PM: if MMM is at or below $169.00, sell immediately (stop_loss). Otherwise hold overnight.
+   Stop breach risk is elevated — do NOT widen the stop.
 
-2. ALLE — NEWLY OPENED 12 PM POSITION:
-   0.52 shares, entry ~$158.07, stop $154.68, TP $164.85. Overnight flag YES.
-   Catalyst: Q2 earnings beat (reported BMO today), industrial sector, exact historical template.
-   For 3:15 PM overnight evaluation: hold if above $154.68 and thesis intact. Stop triggered if at or below $154.68.
-   Risk/position: $1.50 total dollar risk. Caution-sized (50% of full position due to caution regime).
+2. ALLE — STRONG POSITION, TRAIL WATCH:
+   $158.62 at 1 PM, well above stop $154.68, well above VWAP ($154.48). Thesis holding.
+   Trail trigger: if ALLE reaches $160.95 (2% above entry $157.79), trail stop to $157.79 (breakeven).
+   At 3:15 PM: evaluate for overnight hold — industrial sector, confirmed earnings catalyst, overnight flag YES.
 
-3. URI — EVALUATE FOR 3:15 PM OVERNIGHT BUY:
-   United Rentals (URI): +11.91%, Q2 2026 earnings beat (EPS $12.76 vs $11.59 est.), guidance raised to
-   $17.5B-$17.8B revenue. 52-week high day ($1,177.67). At noon consolidating $1,150-$1,165.
-   12 PM agent did NOT buy: midday momentum sideways (not building to new highs vs ALLE which was).
-   By 3:15 PM, if URI is closing strong (above $1,157 and trending up), it warrants evaluation.
-   Stop reference: $1,150 midday low; overnight hard cap 5% below entry.
-   Sector: industrial/equipment rental. earnings_beat catalyst. No earnings tonight. High quality setup.
+3. URI — HIGH PRIORITY EVALUATE FOR 3:15 PM OVERNIGHT BUY:
+   United Rentals (URI): Q2 2026 earnings beat (EPS $12.76 vs $11.57 est., +10.3%), guidance raised to
+   $17.5B-$17.8B. Multiple analyst PT hikes (Citi $1,270, Morgan Stanley $1,165, Baird $1,275). 1 PM price $1,158.48.
+   Both 12 PM and 1 PM agents passed — momentum sideways since open (VWAP flat $1,157-$1,158, 3+ hours).
+   By 3:15 PM, if URI is closing strong (above $1,165 and trending up), it warrants serious overnight evaluation.
+   Stop reference: $1,150 midday consolidation floor; overnight hard cap 5% below entry.
+   Sector: industrial. Catalyst: earnings_beat. No earnings tonight. Highest-quality setup of the day.
 
 4. AAPL EARNINGS WATCH:
-   AAPL reports July 30 (7 days). Stock at $320.74, well below entry $327.50.
-   If AAPL does NOT recover above entry by July 28-29, the July 29 3:15 PM agent should exit BEFORE
-   earnings to avoid binary event risk. Do NOT hold through earnings unless above $327.50 AND thesis
-   has materially strengthened.
+   AAPL at $320.53, well below entry $327.50 at 1 PM. Earnings July 30 (7 days).
+   Morgan Stanley raised AAPL PT today — thesis still positive.
+   If AAPL does NOT recover above $327.50 by July 28-29, the July 29 3:15 PM agent should exit BEFORE
+   earnings to avoid binary event risk. Do NOT hold through earnings unless above entry AND thesis strengthened.
 
-5. MARKET REGIME AT NOON:
-   SPY -1.26%, QQQ -1.88%. CAUTION regime (not at -2% hard gate). Oil surge (Brent >$100) on
-   escalating Iran war driving inflation fears and Treasury yield spike. Leading sectors: industrial, energy.
-   Tech lagging. Both scanners returned 0 results — 6th consecutive zero-scanner session.
+5. MARKET REGIME AT 1 PM:
+   SPY -1.23%, QQQ -1.87%. CAUTION regime (not at -2% hard gate). Oil surge (Brent >$100) on
+   escalating Iran war driving inflation fears and Treasury yield spike. Megacap tech worst day since
+   April 2025 tariff shock. Industrial/energy sectors most resilient. Both scanners returned 0 results
+   — 7th consecutive zero-scanner session.
    If SPY recovers toward -0.5% by 3:15 PM, ease catalyst requirements accordingly.
 
 6. CATALYST STATUS CARRY-FORWARD:
-   - ALLE: ENTERED at 12 PM (~$158.07). Thesis live — track stop $154.68 / TP $164.85.
-   - URI: CONFIRMED — not entered at 12 PM (midday momentum sideways). Evaluate for 3:15 PM overnight.
+   - ALLE: ENTERED at 12 PM (~$157.79 live cost). Thesis live — track stop $154.68 / TP $164.85.
+   - URI: CONFIRMED — not entered at 12 PM or 1 PM (momentum sideways). Evaluate for 3:15 PM overnight.
    - MU: CONFIRMED — not entered (caution regime + tech trap sector). Valid thesis, sub-bar catalyst.
-   - TMO: CONFIRMED — not entered (momentum faded hard at open). Failed — do not chase.
-   - SMCI: Hard disqualifier — do NOT enter (>15% move on same catalyst yesterday).
-   - NOW: Failed momentum. Below prior close at noon ($94.51 vs $95.46). Do not enter.
+   - TMO: FAILED — do not chase (momentum faded hard at open).
+   - SMCI: Hard disqualifier — do NOT enter (>15% move on same catalyst).
+   - NOW: Failed momentum. Do not enter.
+   - SNDK: SKIP — hard disqualifier (>15% 5-day move; 14% surge Tuesday + 4% today, no fresh today catalyst).
 
 Catalyst watch list: none.
 ---
