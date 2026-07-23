@@ -253,8 +253,8 @@ STEP 4 — Find morning momentum candidates
 You are looking for stocks showing confirmed momentum 30 minutes into the session, not just an opening spike. Cast a wide net — aim for 50+ raw candidates before filtering. Run all sources in parallel:
 
 Catalyst Watch List — check this BEFORE running the scanners:
-Read the catalyst watch list from the `## HANDOFF FROM LAST 3:15 PM SESSION` block. For each ticker on the list:
-1. Search "[TICKER] news [today's date]" to determine whether the catalyst resolved overnight and in which direction.
+Read the catalyst watch list from the `## HANDOFF FROM LAST 3:15 PM SESSION` block. First check the `## PRE-MARKET BRIEF`'s "Catalyst Watch List Status" subsection (written by the 9:15 AM agent) — it already resolved each ticker's overnight catalyst and pre-market gap into CATALYST CONFIRMED — GAP UP / CONFIRMED — FLAT/DOWN / FAILED / PENDING / NO DATA. Use that as your starting point, then re-confirm at 10 AM (news can develop after 9:15, and you must verify the stock is still trending up now, not just pre-market). If the brief has no such subsection, resolve each ticker yourself. For each ticker on the list:
+1. Confirm whether the catalyst resolved overnight and in which direction — start from the brief's status, then search "[TICKER] news [today's date]" to catch anything since 9:15. Treat a brief status of FAILED as disqualifying unless fresh news clearly reverses it; treat PENDING / NO DATA as "must resolve now before entry."
 2. Get the current quote via get_equity_quotes.
 3. If the catalyst confirmed positively AND the stock is up at open AND still trending up (not fading back toward yesterday's close) at 10:00 AM:
    - Add it to the master candidate list. It is eligible to enter at 1–2% above yesterday's close — the standard 3% bar does not apply to confirmed catalyst watch list entries.
