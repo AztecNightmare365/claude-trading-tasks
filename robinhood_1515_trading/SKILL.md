@@ -47,17 +47,17 @@ Notes for 10:00 AM agent (June 25, 2026):
 ---
 
 ## HANDOFF FROM LAST 10 AM SESSION
-<!-- Updated by 10 AM agent. Last updated: 2026-07-23 (~10:13 AM ET — 10 AM session complete). -->
+<!-- Updated by 12 PM agent. Last updated: 2026-07-23 (~12:12 PM ET — 12 PM reassessment complete). -->
 
-Last updated: 2026-07-23 (~10:13 AM ET — 10 AM session complete)
+Last updated: 2026-07-23 (~12:12 PM ET — 12 PM reassessment complete)
 
-Open positions (2 total — no changes this session):
+Open positions (3 total — 1 new position opened this session):
 
 - AAPL: 0.288213 shares, entry $327.50, stop-loss $317.32, take-profit $347.86, overnight flag: YES
-  10 AM price: $320.775 (-2.05% vs entry; -1.57% vs Jul 22 close $325.89)
-  Status: HOLD. Stop NOT triggered ($3.46 buffer above $317.32). Both conditions for discretionary exit NOT
-  met: AAPL below entry (a) ✓, but GOOGL beat on AI/cloud (EPS $9.11, Cloud +82%) — thesis NOT weakened (b) ✗.
-  Thesis: Apple Intelligence / Alibaba Qwen China AI regulatory approval + HSBC Buy PT $366. Intact. Earnings July 30 (7 days).
+  12 PM price: $320.735 (-2.06% vs entry; -1.58% vs Jul 22 close $325.89)
+  Status: HOLD. Stop NOT triggered ($3.44 buffer above $317.32). Thesis intact.
+  Thesis: Apple Intelligence / Alibaba Qwen China AI regulatory approval + HSBC Buy PT $366.
+  GOOGL AI/cloud beat confirms read-through. Earnings July 30 (7 days — do NOT hold through earnings).
   entry_type: scanner
   Trail trigger $337.86 NOT reached — stop unchanged at $317.32.
   - If AAPL >= $347.86: sell immediately (take-profit)
@@ -65,61 +65,81 @@ Open positions (2 total — no changes this session):
   - If AAPL reaches $337.86 intraday: trail stop to $327.50 (breakeven) immediately
 
 - MMM: 0.474448 shares, entry $174.94, stop-loss $169.00, take-profit $186.82, overnight flag: YES
-  10 AM price: $170.335 (-2.63% vs entry; -0.25% vs Jul 22 close $170.76)
-  Status: HOLD. Stop NOT triggered (bid $170.15, $1.15 above stop $169.00). Pre-market CRITICAL warning
-  RESOLVED — MMM confirmed above stop at open. No adverse news.
-  Thesis: Q2 2026 earnings beat ($2.40 EPS vs $2.27 est, +5.7%), FY EPS guidance raised $8.80-$8.95. Intact.
-  Industrial sector (XLI) leading today +2.09%.
+  12 PM price: $169.670 (-3.01% vs entry; -0.64% vs Jul 22 close $170.76)
+  Status: HOLD. Stop NOT triggered ($0.67 buffer above $169.00).
+  ⚠️ CRITICAL: Only $0.67 above stop. Drifted down from $170.335 at 10 AM to $169.67 at noon.
+  Thesis: Q2 2026 earnings beat ($2.40 EPS vs $2.27 est, +5.7%), FY EPS guidance raised $8.80-$8.95.
+  Intact — no adverse news today. Caution regime (SPY -1.26%) driving general market weakness, NOT a thesis break.
+  DO NOT discretionary exit — let the stop work at $169.00.
   entry_type: scanner
   - If MMM >= $186.82: sell immediately (take-profit)
   - If MMM <= $169.00: sell immediately (stop-loss)
 
-Sells this session: NONE
-Buys this session: NONE (5th consecutive session with zero new entries)
+- ALLE: 0.52 shares, entry ~$158.07 (market order est. fill), stop-loss $154.68, take-profit $164.85, overnight flag: YES
+  Opened by 12 PM reassessment
+  12 PM price: ~$157.66 (making new session highs at order time)
+  Catalyst: Q2 2026 earnings beat ($2.40 adj. EPS vs $2.22 est., +8.1%); organic revenue +6.9%;
+  operating margin 22.1% vs 21.5%; FY guidance raised to $8.85-$9.00. Reported BMO today.
+  Momentum confirmed sustained — making new session highs at noon. Consolidated $154.68-$158 since
+  10:35 AM; opening spike low ($148.715) irrelevant per 10 AM agent note.
+  Stop rationale: $154.68 = 2-hour midday consolidation floor (11 AM-noon), well above $151.26 hard cap.
+  TP rationale: $158.07 + 2 x $3.39 risk = $164.85
+  entry_type: scanner
+  - If ALLE >= $164.85: sell immediately (take-profit)
+  - If ALLE <= $154.68: sell immediately (stop-loss)
 
-Settled cash: $673.13 (all unsettled proceeds from GM/WDC/SMCI fully settled at open today as expected)
-Total account value: $846.38
-Portfolio invested: ~20.5% (2 positions, ~$173.27 equity)
+Sells this session: NONE
+Buys this session: ALLE — 0.52 shares at market (~$158.07 est., $82.20 deployed)
+
+Settled cash: ~$590.93 (was $673.13; $82.20 deployed to ALLE)
+Total account value: ~$846.05
+Portfolio invested: ~30.1% (3 positions, ~$255.12 equity)
 
 ---
 
 NOTES FOR 3:15 PM AGENT (July 23, 2026):
 
-1. BOTH POSITIONS HOLD — NO CHANGES THIS SESSION:
-   MMM pre-market critical warning (bid $169.10, $0.10 above stop) RESOLVED. MMM opened above stop,
-   now $170.335, stop $169.00 intact. No adverse news.
-   AAPL GOOGL read-through confirmed: GOOGL beat on AI/cloud metrics → AAPL AI thesis intact.
-   Broad tech weakness is noise, not a thesis break. Do NOT discretionary exit AAPL.
+1. ⚠️ MMM CRITICAL PROXIMITY TO STOP:
+   MMM at $169.67, stop $169.00 — only $0.67 buffer at noon. Drifted down from $170.335 at 10 AM.
+   Thesis (Q2 earnings beat + guidance raise) intact — no adverse news today. Caution regime (SPY -1.26%)
+   driving general weakness, not a thesis break. DO NOT discretionary exit — let the stop work.
+   At 3:15 PM: if MMM is at or below $169.00, sell immediately (stop_loss). Otherwise hold.
 
-2. NO NEW BUYS — 5th CONSECUTIVE ZERO-ENTRY SESSION:
-   Both scanners (3%+/RelVol 1.2x and 6%+) returned 0 results.
-   Three candidates found via web search, all rejected:
-   - ALLE +10.89% (earnings_beat, industrial): 30-min low $148.715 > 4% cap below entry $155 — SKIPPED
-     *** CONSIDER FOR 3:15 PM: By afternoon the opening spike low is irrelevant; use session consolidation
-     range as stop reference. ALLE = earnings_beat + industrial (best account sector) = exact template.
-     If ALLE is holding above $152 at 3:15 PM, it warrants serious evaluation for overnight hold. ***
-   - TMO +9.12% (earnings_beat, healthcare): Faded hard to new intraday lows below VWAP — SKIPPED
-   - MU +3.29% (sector_momentum, semiconductor): Caution regime requires stronger catalyst — SKIPPED
+2. ALLE — NEWLY OPENED 12 PM POSITION:
+   0.52 shares, entry ~$158.07, stop $154.68, TP $164.85. Overnight flag YES.
+   Catalyst: Q2 earnings beat (reported BMO today), industrial sector, exact historical template.
+   For 3:15 PM overnight evaluation: hold if above $154.68 and thesis intact. Stop triggered if at or below $154.68.
+   Risk/position: $1.50 total dollar risk. Caution-sized (50% of full position due to caution regime).
 
-3. MARKET REGIME — CAUTION (SPY -1.13%, QQQ -1.63%):
-   NOT at hard gate (-2%). Reduce new position sizes by 50%, require stronger-than-usual catalyst.
-   Leading sectors: XLI (industrials) +2.09%, XLE (energy) +1.78%.
-   Energy thesis: WTI $88, 11th consecutive night of US airstrikes on Iran. Energy remains in play.
-   If SPY recovers to near -0.5% by 3:15 PM, ease the catalyst requirement accordingly.
+3. URI — EVALUATE FOR 3:15 PM OVERNIGHT BUY:
+   United Rentals (URI): +11.91%, Q2 2026 earnings beat (EPS $12.76 vs $11.59 est.), guidance raised to
+   $17.5B-$17.8B revenue. 52-week high day ($1,177.67). At noon consolidating $1,150-$1,165.
+   12 PM agent did NOT buy: midday momentum sideways (not building to new highs vs ALLE which was).
+   By 3:15 PM, if URI is closing strong (above $1,157 and trending up), it warrants evaluation.
+   Stop reference: $1,150 midday low; overnight hard cap 5% below entry.
+   Sector: industrial/equipment rental. earnings_beat catalyst. No earnings tonight. High quality setup.
 
 4. AAPL EARNINGS WATCH:
-   AAPL reports July 30 (7 days). If AAPL remains below entry $327.50 through July 28-29, the
-   July 29 3:15 PM agent should evaluate exiting BEFORE earnings to avoid binary event risk.
-   Do NOT hold through earnings unless AAPL has recovered above entry AND thesis has strengthened.
+   AAPL reports July 30 (7 days). Stock at $320.74, well below entry $327.50.
+   If AAPL does NOT recover above entry by July 28-29, the July 29 3:15 PM agent should exit BEFORE
+   earnings to avoid binary event risk. Do NOT hold through earnings unless above $327.50 AND thesis
+   has materially strengthened.
 
-5. CATALYST STATUS CARRY-FORWARD:
-   - ALLE: CONFIRMED — not entered (30-min volatility cap). Scout for 3:15 PM entry. Priority candidate.
-   - TMO: CONFIRMED — not entered (momentum faded hard). Failed — do not chase.
+5. MARKET REGIME AT NOON:
+   SPY -1.26%, QQQ -1.88%. CAUTION regime (not at -2% hard gate). Oil surge (Brent >$100) on
+   escalating Iran war driving inflation fears and Treasury yield spike. Leading sectors: industrial, energy.
+   Tech lagging. Both scanners returned 0 results — 6th consecutive zero-scanner session.
+   If SPY recovers toward -0.5% by 3:15 PM, ease catalyst requirements accordingly.
+
+6. CATALYST STATUS CARRY-FORWARD:
+   - ALLE: ENTERED at 12 PM (~$158.07). Thesis live — track stop $154.68 / TP $164.85.
+   - URI: CONFIRMED — not entered at 12 PM (midday momentum sideways). Evaluate for 3:15 PM overnight.
    - MU: CONFIRMED — not entered (caution regime + tech trap sector). Valid thesis, sub-bar catalyst.
-   - SMCI: Hard disqualifier — do NOT enter (>15% move yesterday on same catalyst).
-   - NOW: Failed momentum — open $99.76, now $97.37, below prior close. Do not enter.
+   - TMO: CONFIRMED — not entered (momentum faded hard at open). Failed — do not chase.
+   - SMCI: Hard disqualifier — do NOT enter (>15% move on same catalyst yesterday).
+   - NOW: Failed momentum. Below prior close at noon ($94.51 vs $95.46). Do not enter.
 
-Catalyst watch list: none (no formal watch list from prior session; above are today's resolved candidates).
+Catalyst watch list: none.
 ---
 PRE-CHECK — Market day verification
 Before doing anything else, check today's date. If today is Saturday or Sunday, output "Market closed — weekend. No action taken." and stop immediately. Do not proceed to Step 1.
