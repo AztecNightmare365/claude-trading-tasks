@@ -25,7 +25,7 @@ Retrieve current account state:
 - Any pending orders — cancel stale unfilled orders before proceeding
 - Broad market direction: whether SPY and QQQ are up or down on the day and how the trend has moved since 1 PM
 
-PORTFOLIO SYNC: Pull the LIVE Robinhood portfolio and treat it as the source of truth. If a handoff position is no longer in the live portfolio, the user closed it manually — drop it. If a live position is missing from the handoff, the user opened it manually — protect it with a 4% stop below current price until a real target is known. Trade against live holdings, not stale handoff numbers.
+PORTFOLIO SYNC: Pull the LIVE Robinhood portfolio and treat it as the source of truth. If a handoff position is no longer in the live portfolio, the user closed it manually — drop it. If a live position is missing from the handoff, the user opened it manually — protect it with a 4% stop below current price until a real target is known, and tag it entry_type=manual. Trade against live holdings, not stale handoff numbers.
 
 ---
 
@@ -141,7 +141,8 @@ Place all sell orders from Step 3 and all buy orders from Step 6 at the same tim
 
 STEP 8 — Append closed trades to trade log
 For each position sold this session, append a row to `trade_log.csv`:
-Format: `date,ticker,shares,entry_price,exit_price,entry_session,exit_session,catalyst,sector,pnl_pct,pnl_dollar,exit_reason`
+Format: `date,ticker,shares,entry_price,exit_price,entry_session,entry_type,exit_session,catalyst,sector,pnl_pct,pnl_dollar,exit_reason`
+- `entry_session` and `entry_type`: from the handoff — the session that opened the position and how it was sourced ("catalyst_watch" / "scanner" / "manual"). Default entry_type to "scanner" if the handoff doesn't specify.
 - `exit_session`: "2PM"
 - `exit_reason`: "stop_loss", "take_profit", or "discretionary"
 - `pnl_pct` = (exit_price - entry_price) / entry_price × 100
@@ -152,7 +153,7 @@ Format: `date,ticker,shares,entry_price,exit_price,entry_session,exit_session,ca
 STEP 9 — Update handoff for the 3:15 PM agent
 Overwrite the `## HANDOFF FROM LAST 10 AM SESSION` block in `robinhood_1515_trading/SKILL.md`:
 - Today's date and time (note: "2 PM session")
-- Every open position: ticker, shares, entry price, current stop-loss (updated if trailed), take-profit, overnight hold flag, thesis in one sentence
+- Every open position: ticker, shares, entry price, current stop-loss (updated if trailed), take-profit, overnight hold flag, thesis in one sentence, and its entry_type tag (catalyst_watch / scanner / manual — carry forward unchanged for inherited positions; set it when you open a position, scanner for your 2 PM buys)
 - For any position opened this session, mark it "Opened by 2 PM session"
 - Settled cash remaining, total account value
 - A "2 PM SESSION NOTE" section with: any NEAR STOP or NEAR TP flags, broad market direction (SPY/QQQ), any news since 1 PM, and any still-relevant catalyst carry-forward tickers ("CONFIRMED but not entered" / "FAILED") passed through from earlier sessions

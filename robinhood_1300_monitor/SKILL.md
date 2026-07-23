@@ -29,7 +29,7 @@ Retrieve current account state:
 PORTFOLIO SYNC — reconcile against the handoff before trusting it:
 Compare the LIVE Robinhood portfolio (source of truth) against the positions listed in the handoff block. The user frequently opens or closes positions manually between sessions.
 - Position in handoff but NOT in live portfolio → user sold it manually. Remove it from your working set and note it.
-- Position in live portfolio but NOT in handoff → user bought it manually. Add it with a conservative default stop (4% below current price); research its catalyst.
+- Position in live portfolio but NOT in handoff → user bought it manually. Add it with a conservative default stop (4% below current price); research its catalyst. Tag it entry_type=manual.
 - Share count or entry price differs → trust the live Robinhood values.
 Always trade against the live portfolio, never the handoff numbers, when they conflict.
 
@@ -169,7 +169,7 @@ Then email this summary to yourself using the Gmail MCP tools. Send to aqmeyer12
 STEP 8 — Update handoff for the next session
 After the summary, overwrite the `## HANDOFF FROM LAST 10 AM SESSION` block in `robinhood_1515_trading/SKILL.md` with:
 - Today's date and time (note: "1 PM session")
-- Every open position: ticker, shares, average entry price, current stop-loss (updated if trailed), current take-profit, overnight hold flag (YES/NO), and thesis in one sentence
+- Every open position: ticker, shares, average entry price, current stop-loss (updated if trailed), current take-profit, overnight hold flag (YES/NO), thesis in one sentence, and its entry_type tag (catalyst_watch / scanner / manual — carry forward unchanged for inherited positions; set it when you open a position, scanner for your 1 PM buys)
 - Settled cash remaining
 - Total account value
 - Notes for the next session (positions near targets, catalysts developing, anything unusual, broad market trend)
@@ -191,9 +191,10 @@ git push
 STEP 9 — Append closed trades to trade log
 For every position you SOLD this session, append one row per trade to `trade_log.csv`:
 
-Format: `date,ticker,shares,entry_price,exit_price,entry_session,exit_session,catalyst,sector,pnl_pct,pnl_dollar,exit_reason`
+Format: `date,ticker,shares,entry_price,exit_price,entry_session,entry_type,exit_session,catalyst,sector,pnl_pct,pnl_dollar,exit_reason`
 
 - `entry_session`: from handoff ("3:15PM", "10AM", "12PM", or "1PM")
+- `entry_type`: how the position was originally sourced (from handoff) — "catalyst_watch" (catalyst watch list early-entry path), "scanner" (standard momentum/scanner entry), or "manual" (opened by the user, detected via portfolio sync). Default to "scanner" if the handoff doesn't specify.
 - `exit_session`: "1PM"
 - `exit_reason`: "stop_loss", "take_profit", or "discretionary"
 - `pnl_pct`: (exit_price - entry_price) / entry_price × 100

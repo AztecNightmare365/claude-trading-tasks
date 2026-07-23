@@ -41,6 +41,10 @@ Calculate win rate and average P&L for each:
 By session that opened the trade (10AM / 12PM / 1PM / 2PM / 3:15PM):
 - Which session produces the best entries?
 
+By entry type (catalyst_watch / scanner / manual):
+- Does the catalyst watch list early-entry path (1–2% threshold) beat standard 3% scanner entries? This is the key measure of whether "buy earlier in the move" is working. Compare win rate and average P&L of catalyst_watch vs scanner.
+- Note: all trades before 2026-07-23 are backfilled as "scanner" (the catalyst watch list did not exist yet). Weight the comparison by sample size, and if catalyst_watch N is still under 3, say so explicitly rather than drawing a conclusion.
+
 By catalyst type (earnings_beat / analyst_upgrade / fda / merger / sector_momentum / other):
 - Which catalysts convert most reliably?
 
