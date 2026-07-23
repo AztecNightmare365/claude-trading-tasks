@@ -36,6 +36,24 @@ Note whether each position is trading above, below, or near its stop-loss and ta
 
 ---
 
+STEP 2B — Check catalyst watch list tickers (run in parallel with Step 2)
+Read the `## HANDOFF FROM LAST 3:15 PM SESSION` block in `robinhood_1000_trading/SKILL.md`. Look for the "Catalyst watch list" section. If none exists or it says "none", skip this step.
+
+For each ticker on the catalyst watch list:
+1. Search "[TICKER] news [today's date]" and "[TICKER] earnings results [today's date]" to determine whether the catalyst resolved overnight. Was the earnings beat confirmed? Was the FDA decision announced? Was the analyst day commentary positive?
+2. Fetch pre-market price via get_equity_quotes: `last_non_reg_trade_price` (fall back to `bid_price`).
+3. Calculate gap %: (pre-market price − prior close) / prior close × 100.
+4. Classify each watch list ticker as one of:
+   - CATALYST CONFIRMED — GAP UP: catalyst resolved positively, stock gapping up pre-market. Flag for 10 AM entry at 1–2% above prior close if still trending up at open.
+   - CATALYST CONFIRMED — FLAT/DOWN: catalyst resolved positively but stock is not gapping meaningfully. Include in brief; 10 AM agent will decide.
+   - CATALYST FAILED: catalyst resolved negatively (miss, failed trial, downgrade) or is unresolvable. Flag as SKIP — do not enter regardless of price.
+   - CATALYST PENDING: no news found; catalyst timing was BMO but results not yet released. Flag as MONITOR — 10 AM agent should check again at open.
+   - NO CATALYST DATA: could not find resolution. Note "news lookup failed" and flag as MONITOR.
+
+Include all watch list ticker results in the PRE-MARKET BRIEF (Step 5), in a dedicated "Catalyst Watch List Status" subsection. The 10 AM agent relies on this to know which pre-identified tickers are actionable at open.
+
+---
+
 STEP 3 — Check overnight news
 For each position, search "[TICKER] news overnight [current date]" and "[TICKER] premarket [current date]". Look for:
 - Earnings surprises or guidance changes
@@ -59,8 +77,9 @@ STEP 5 — Write pre-market brief
 Overwrite the `## PRE-MARKET BRIEF` block in `robinhood_1000_trading/SKILL.md` with:
 - Timestamp
 - For each position: pre-market price, change %, flag status (STOP BREACH / TP BREACH / GAP DOWN WARNING / THESIS BROKEN / ON TRACK), and one sentence of context
+- Catalyst Watch List Status subsection (omit if no watch list in handoff): for each ticker — pre-market price, gap %, catalyst resolution status (CATALYST CONFIRMED — GAP UP / CATALYST CONFIRMED — FLAT / CATALYST FAILED / CATALYST PENDING / NO CATALYST DATA), and one sentence of context. This is what the 10 AM agent reads to decide whether to enter at the 1–2% threshold.
 - Any overnight macro news that affects the broad market (futures direction, major news events)
-- One-line summary: "X positions on track, Y flagged for immediate action"
+- One-line summary: "X positions on track, Y flagged for immediate action; Z catalyst watch list tickers actionable / W skipped"
 
 Replace the entire block from `## PRE-MARKET BRIEF` through its closing `---` with fresh content. Do not modify any other block.
 
