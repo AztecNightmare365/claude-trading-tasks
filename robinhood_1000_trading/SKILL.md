@@ -122,66 +122,91 @@ RAW STATS:
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-Last updated: 2026-07-22 (~3:22 PM ET — 3:15 PM session complete)
+Last updated: 2026-07-23 (~3:25 PM ET — 3:15 PM session complete)
 
-Open positions held overnight (2 total):
+Open positions held overnight (4 total):
 
 - AAPL: 0.288213 shares, entry $327.50, stop-loss $317.32, take-profit $347.86, overnight flag: YES
-  3:15 PM price: $324.49 | vs entry: -$3.01 (-0.92%)
-  Thesis: Apple Intelligence / Alibaba Qwen China AI regulatory approval (confirmed overnight July 22) + HSBC Buy PT $366. No earnings until July 30 (8 days).
-  GOOGL reported AH tonight — if GOOGL beat on AI/cloud, positive for AAPL AI sentiment. Evaluate for discretionary exit ONLY if BOTH: (a) AAPL below entry $327.50 at open AND (b) GOOGL miss concretely weakens Apple AI thesis.
-  Trail trigger $337.86 not reached — stop unchanged at $317.32.
-  - If AAPL >= $347.86: sell immediately (take-profit).
-  - If AAPL <= $317.32: sell immediately (stop-loss).
-  - If AAPL reaches $337.86 intraday: trail stop to $327.50 (breakeven) immediately.
+  3:15 PM price: $320.815 | vs entry: -$6.69 (-2.04%)
+  Thesis: Apple Intelligence / Alibaba Qwen China AI regulatory approval + HSBC Buy PT $366 + Morgan Stanley PT raise today. Tim Cook CEO transition (Sept 1, 2026 → John Ternus) assessed as smooth/planned — NOT a thesis break. Broad market weakness (SPY -1.41%, QQQ -2.19%) driving lower, not AAPL-specific news.
+  Trail trigger $337.86 NOT reached — stop unchanged at $317.32.
+  ⚠️ EARNINGS JULY 30: Must NOT hold through July 30 earnings. The July 29 3:15 PM agent MUST exit AAPL before close if not already stopped/TP'd.
+  entry_type: scanner
+  - If AAPL >= $347.86: sell immediately (take-profit)
+  - If AAPL <= $317.32: sell immediately (stop-loss)
+  - If AAPL reaches $337.86 intraday: trail stop to $327.50 (breakeven) immediately
 
 - MMM: 0.474448 shares, entry $174.94, stop-loss $169.00, take-profit $186.82, overnight flag: YES
-  3:15 PM price: $170.43 | vs entry: -$4.51 (-2.58%) | vs Jul 21 close: -$0.33 (-0.19%)
-  Thesis: Q2 2026 earnings beat ($2.40 EPS vs $2.27 est, +5.7%), organic sales +5.4% YoY, FY EPS guidance raised to $8.80-$8.95. Industrial sector. Thesis fully intact — no negative news.
-  Stop unchanged at $169.00. Do NOT widen.
-  - If MMM >= $186.82: sell immediately (take-profit).
-  - If MMM <= $169.00: sell immediately (stop-loss — ⚠️ CRITICAL: only $1.43 buffer, watch closely at open).
+  3:15 PM price: $169.52 | vs entry: -$5.42 (-3.10%)
+  ⚠️⚠️ CRITICAL: Only $0.52 (0.31%) above stop. MMM breached $169.00 intraday TWICE today (low $168.62) and recovered both times. Oil at $100/barrel (Brent) + Iran war escalation are macro headwinds overnight. Very high probability of stop trigger at tomorrow's open.
+  Thesis: Q2 2026 earnings beat ($2.40 EPS vs $2.24 est.), FY EPS guidance raised $8.80-$8.95. No adverse MMM news. Broad-market pressure only — NOT a thesis break.
+  DO NOT widen stop. Let the stop work at $169.00.
+  entry_type: scanner
+  - If MMM >= $186.82: sell immediately (take-profit)
+  - If MMM <= $169.00: sell immediately (stop-loss — VERY HIGH PROBABILITY)
 
-Sells executed at 3:15 PM (2 total):
+- ALLE: 0.520000 shares, entry $157.79 (live Robinhood avg cost), stop-loss $154.68, take-profit $164.85, overnight flag: YES
+  Opened by 12 PM reassessment
+  3:15 PM price: $155.51 | vs entry: -$2.28 (-1.44%) | vs Jul 22 close $139.95: +$15.56 (+11.11%)
+  ⚠️ NEAR STOP: Only $0.83 (0.53%) above stop. Fading from 1:05 PM high of $159.27.
+  Thesis: Q2 2026 earnings beat ($2.40 adj. EPS vs $2.22 est., +8.1%); organic revenue +6.9%; FY guidance raised. Allegion (commercial security products) — not directly tied to oil/Iran. Thesis intact.
+  Trail trigger $160.95 (2% above entry) NOT reached — stop unchanged at $154.68.
+  entry_type: scanner
+  - If ALLE >= $164.85: sell immediately (take-profit)
+  - If ALLE <= $154.68: sell immediately (stop-loss)
+  - If ALLE reaches $160.95 intraday: trail stop to $157.79 (breakeven) immediately
 
-- GM: 1.321866 shares sold at market, filled $81.4501 avg
-  Entry: $78.677 (10 AM session July 21). Trailing stop trailed to $82.32 at 2 PM session.
-  Price at 3:15 PM: $81.44 — BELOW trailed stop $82.32. Hard stop-loss exit executed.
-  Realized P&L: +$3.67 (+3.53%). Proceeds: ~$107.67 UNSETTLED (settle July 23).
+- HON: 0.243810 shares, entry ~$245.27 (market GFD placed ~3:24 PM ET, order ID: 6a626a78-94e1-4c7d-aa2a-f771d0d04bde), stop-loss $233.01, take-profit $269.79, overnight flag: YES
+  NEW POSITION — entered 3:15 PM session July 23, 2026
+  3:15 PM price: ~$245.27 | vs entry: ~flat (just entered)
+  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.80 est., +8.3%); revenue $9.72B (massive beat); FY 2026 EPS guidance raised $8.05-$8.35 (+25-29% YoY growth); Q3 guidance $2.05-$2.20. Industrial sector (XLI +1.50% today, outperforming SPY -1.41% by 2.9%). No binary events tonight. Volume 1.35× 30-day average.
+  Dollar risk cap applied: $2.99 risk per trade (0.243810 shares × $12.26/share). Caution regime buy (50% size reduction).
+  Trail trigger $250.18 (2% above entry) → if reached, trail stop to $245.27 (breakeven)
+  entry_type: scanner
+  - If HON >= $269.79: sell immediately (take-profit)
+  - If HON <= $233.01: sell immediately (stop-loss)
 
-- WDC: 0.110219 shares sold at market, filled $557.80 avg
-  Entry: $544.37 (3:15 PM session July 21). Trailing stop at $555.63.
-  Discretionary exit: 2 PM agent strongly recommended closing today. WDC earnings July 29 (binary event — hard rule: must close before July 25). Only $1.42 buffer above stop at evaluation ($557.05 vs stop $555.63). Locked in +2.47% rather than carry binary earnings risk.
-  Realized P&L: +$1.48 (+2.47%). Proceeds: ~$61.47 UNSETTLED (settle July 23).
+Sells executed this session: NONE
 
-No new buys: Both momentum scanners returned 0 for 4th consecutive time today. CRWV (+4.69%) and DOCN (+3.19%) were the only candidates clearing the 3% bar (both analyst upgrades). Analyst upgrade catalyst has historically underperformed in this account (-2.10% avg loss). GOOGL earnings AH tonight created direct AI/cloud sector uncertainty for both. Did not clear the raised bar for late-session overnight buys.
-
-Settled cash remaining: $415.01 (GM and WDC proceeds unsettled — settle July 23)
-Unsettled cash: ~$258.11 (SMCI $88.97 + GM $107.67 + WDC $61.47 — ALL settle July 23)
-Total cash shown by Robinhood: ~$673.12
-Total account value: ~$847.50
-Portfolio invested: ~20.6% (2 positions, ~$174.38 equity)
+Settled cash remaining: ~$531.28 ($591.08 minus $59.80 HON buy)
+Total account value: ~$844.83
+Portfolio invested: ~37.1% (4 positions, ~$313.55 equity at 3:15 PM prices)
 
 ---
 
-NOTES FOR 10:00 AM AGENT (July 23, 2026):
+NOTES FOR 10:00 AM AGENT (July 24, 2026):
 
-1. ⚠️ CHECK GOOGL + TSLA EARNINGS RESULTS FIRST: Both reported AH tonight (July 22). This sets the context for AAPL.
-   - GOOGL beat on AI/cloud → positive for AAPL AI thesis (Alibaba Qwen/Apple Intelligence). Hold AAPL.
-   - GOOGL missed on AI/cloud → BOTH conditions for AAPL discretionary exit may now be met (AAPL was already below entry $327.50 at 3:15 PM close). Evaluate immediately at open.
-   - TSLA: No current direct portfolio exposure (GM was stopped out). Broad market tone only.
+1. ⚠️⚠️ CHECK MMM FIRST — CRITICAL STOP:
+   MMM at $169.52 vs stop $169.00. Only $0.52 buffer (0.31%). Breached stop TWICE intraday today (low $168.62). Oil at $100/barrel (Brent) from Iran war escalation creates overnight gap-down risk.
+   If MMM at or below $169.00 at open: sell immediately (0.474448 shares, market order). Do NOT widen stop.
 
-2. ⚠️ MMM NEAR STOP — CRITICAL: 3:15 PM close $170.43, stop $169.00. Only $1.43 buffer (0.84%). Thesis intact (Q2 earnings beat + raised FY EPS guidance). If MMM gaps down below $169.00 at open, sell immediately (0.474448 shares, market order). Do NOT widen stop.
+2. ⚠️ ALLE NEAR STOP:
+   ALLE at $155.51 vs stop $154.68 — only $0.83 buffer. Fading since 1:05 PM high. Thesis (earnings beat, guidance raised) intact. Let stop work. If ALLE at or below $154.68: sell immediately (0.520000 shares, market).
 
-3. LARGE BUYING POWER UNLOCKS JULY 23: ~$258.11 in proceeds settle at open (SMCI $88.97 + GM $107.67 + WDC $61.47). Total buying power available: ~$673 settled. Strong dry powder — prioritize earnings-beat candidates at 10 AM.
+3. ⚠️ AAPL NEAR STOP + EARNINGS TIMELINE:
+   AAPL at $320.815 vs stop $317.32 — $3.495 buffer. Down -2.04% from entry. Thesis intact (AI/China approval). EARNINGS JULY 30: if AAPL has not recovered above entry $327.50 by the July 29 3:15 PM session, that agent MUST exit before close — do NOT hold through a binary event while underwater.
 
-4. AAPL CONTEXT: Closed at $324.49 (-0.92% vs entry $327.50, well above stop $317.32). Down on the day with broad tech weakness (QQQ -0.30%). Apple Intelligence/Alibaba Qwen thesis confirmed overnight. Exit rule: ONLY if BOTH AAPL below entry AND GOOGL miss concretely weakens Apple AI thesis. Price noise alone is not grounds for exit.
+4. HON — NEW OVERNIGHT POSITION:
+   HON entered at ~$245.27 (0.243810 shares, $59.80). Industrial sector outperformed SPY by 2.9% today. Thesis: Q2 earnings beat + guidance raised (+25-29% EPS growth). No binary events tonight or tomorrow morning. Stop $233.01, TP $269.79.
 
-5. OIL AT $88 (WTI): 11th consecutive night of US airstrikes on Iran. Oil/inflation risk elevated. Energy is the leading sector. If oil names clear 3%+ bar, they are legitimate candidates for next 10 AM buy.
+5. MARKET CONTEXT:
+   SPY -1.41%, QQQ -2.19% at close. Oil surged to $100/barrel (Brent) on Iran war escalation — inflation fears. Tesla -14%, Alphabet -6% post-earnings. Industrial (XLI +1.50%) outperforming. Risk-off environment — apply caution to new Friday buys (historically 2/6 win rate for Wed-Fri entries per Learned Insights).
 
-6. EARNINGS SEASON ACTIVE (July 23): 166 companies report. Look for morning earnings-beat movers — the best catalyst type in this account's history (-0.83% avg loss, per Learned Insights).
+6. AH EARNINGS TONIGHT (July 23) — CATALYST WATCH:
+   INTC: Reporting AH tonight. Down -2.67% today on caution. If INTC beats, could gap up at 10 AM. Check 5-day move before entry (INTC up 327% YTD — verify it doesn't violate the >20% 5-day disqualifier; today's -2.67% is NOT earnings-related). Use 1-2% open confirmation threshold (catalyst watch entry).
+   RTX + LMT: Both reporting AH tonight. Defense sector (Iran war tailwind). Check results at 10 AM.
+   TMUS: Reporting AH tonight, EPS est. $2.61.
 
-7. SECTOR CONTEXT: Tech underperformed today (QQQ -0.30%). Utilities and Energy led. GOOGL/TSLA results tonight will determine whether tech recovers tomorrow.
+7. TOMORROW BMO (July 24):
+   AXP (American Express) reports BMO tomorrow — financial sector, consumer spending theme. Evaluate at 10 AM open if beat confirmed.
+
+8. SCANNERS: 0 results for 9th consecutive session. Market regime hostile for momentum entries. Only HON from web research qualified tonight.
+
+Catalyst watch list:
+INTC | Q2 2026 earnings (AH tonight July 23) | AH tonight → evaluate 10 AM July 24 | Positive (server demand, foundry progress; stock down -2.67% today on caution) | HIGH (binary ~12% expected swing; check 5-day move; 327% YTD run — confirm disqualifier clear before entry)
+AXP | Q2 2026 earnings (BMO July 24) | BMO tomorrow → evaluate 10 AM July 24 | Neutral-positive (consumer resilient vs. inflation) | MEDIUM
+RTX | Q2 2026 earnings (AH tonight July 23) | AH tonight → evaluate 10 AM July 24 | Positive (defense, Iran war demand) | MEDIUM
+LMT | Q2 2026 earnings (AH tonight July 23) | AH tonight → evaluate 10 AM July 24 | Positive (defense contracts, Iran war) | MEDIUM
 
 ---
 
