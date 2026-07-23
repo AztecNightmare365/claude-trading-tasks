@@ -47,87 +47,79 @@ Notes for 10:00 AM agent (June 25, 2026):
 ---
 
 ## HANDOFF FROM LAST 10 AM SESSION
-<!-- Updated by 2 PM agent. Last updated: 2026-07-22 (~2:13 PM ET — 2 PM session complete). -->
+<!-- Updated by 10 AM agent. Last updated: 2026-07-23 (~10:13 AM ET — 10 AM session complete). -->
 
-Last updated: 2026-07-22 (~2:13 PM ET — 2 PM session)
+Last updated: 2026-07-23 (~10:13 AM ET — 10 AM session complete)
 
-Open positions (4 total — SMCI stopped out at 2 PM):
+Open positions (2 total — no changes this session):
 
 - AAPL: 0.288213 shares, entry $327.50, stop-loss $317.32, take-profit $347.86, overnight flag: YES
-  2 PM price: $323.94 (-1.09% vs entry; -1.16% vs Jul 21 close $327.74)
-  Status: HOLD. Down 1.09% from entry — within noise (below 1.5% discretionary exit threshold). Stop unchanged.
-  Thesis: Apple Intelligence / Alibaba Qwen China AI regulatory approval + HSBC Buy PT $366. Intact.
-  Earnings July 30 (8 days away — no immediate binary risk).
-  GOOGL earnings tonight (July 22 AH) — broad tech sentiment could affect AAPL. Evaluate for discretionary
-  exit ONLY if BOTH: AAPL breaks below entry AND a GOOGL miss concretely weakens the AI thesis.
+  10 AM price: $320.775 (-2.05% vs entry; -1.57% vs Jul 22 close $325.89)
+  Status: HOLD. Stop NOT triggered ($3.46 buffer above $317.32). Both conditions for discretionary exit NOT
+  met: AAPL below entry (a) ✓, but GOOGL beat on AI/cloud (EPS $9.11, Cloud +82%) — thesis NOT weakened (b) ✗.
+  Thesis: Apple Intelligence / Alibaba Qwen China AI regulatory approval + HSBC Buy PT $366. Intact. Earnings July 30 (7 days).
+  entry_type: scanner
+  Trail trigger $337.86 NOT reached — stop unchanged at $317.32.
   - If AAPL >= $347.86: sell immediately (take-profit)
   - If AAPL <= $317.32: sell immediately (stop-loss)
-  - Trail stop to $327.50 (breakeven) if AAPL reaches $337.86 intraday
+  - If AAPL reaches $337.86 intraday: trail stop to $327.50 (breakeven) immediately
 
 - MMM: 0.474448 shares, entry $174.94, stop-loss $169.00, take-profit $186.82, overnight flag: YES
-  2 PM price: $170.34 (-2.63% vs entry; -0.25% vs Jul 21 close $170.76)
-  Status: HOLD. Down 2.63% from entry — above 1.5% discretionary threshold but NO thesis break. No new
-  negative news since entry. Earnings beat + raised FY guidance catalyst fully intact. Let stop work.
-  Thesis: Q2 2026 earnings beat ($2.40 EPS vs $2.27 est, +5.7%), FY EPS guidance raised to $8.80-$8.95. Intact.
+  10 AM price: $170.335 (-2.63% vs entry; -0.25% vs Jul 22 close $170.76)
+  Status: HOLD. Stop NOT triggered (bid $170.15, $1.15 above stop $169.00). Pre-market CRITICAL warning
+  RESOLVED — MMM confirmed above stop at open. No adverse news.
+  Thesis: Q2 2026 earnings beat ($2.40 EPS vs $2.27 est, +5.7%), FY EPS guidance raised $8.80-$8.95. Intact.
+  Industrial sector (XLI) leading today +2.09%.
+  entry_type: scanner
   - If MMM >= $186.82: sell immediately (take-profit)
   - If MMM <= $169.00: sell immediately (stop-loss)
 
-- GM: 1.321866 shares, entry $78.677, stop-loss $82.32 (TRAILED from $82.22 — 2 PM intraday low), take-profit $83.45, overnight flag: YES
-  2 PM price: $82.37 (+4.70% vs entry; +3.58% vs Jul 21 close $79.52)
-  Status: HOLD. Stop trailed $82.22 → $82.32 (intraday low at 2:05 PM ET bar). BELOW VWAP $82.73. Fading.
-  NEAR STOP: $82.37 vs stop $82.32 — only $0.05 buffer (0.06% above stop).
-  NEAR TP: $82.37 vs TP $83.45 — $1.08 away (1.31%).
-  Thesis: Q2 2026 earnings beat ($3.57 EPS vs $3.29 est, +8.5%), raised FY EBIT guidance $14-16B. Intact.
-  Opened by 10 AM session July 21.
-  - If GM >= $83.45: sell immediately (take-profit)
-  - If GM <= $82.32: sell immediately (stop-loss — TRAILED)
+Sells this session: NONE
+Buys this session: NONE (5th consecutive session with zero new entries)
 
-- WDC: 0.110219 shares, entry $544.37, stop-loss $555.63 (TRAILED from $553.57 — 1:50 PM ET afternoon low), take-profit $598.81, overnight flag: YES
-  2 PM price: $558.00 (+2.50% vs entry; +1.75% vs Jul 21 close $548.39)
-  Status: HOLD. Stop trailed $553.57 → $555.63 (intraday low at 1:50 PM ET). ABOVE VWAP $555.00. Holding.
-  NEAR STOP: $558.00 vs stop $555.63 — $2.37 buffer (0.43% above stop).
-  Thesis: AI/HDD/NAND storage demand, IBM AI infrastructure shift, HDD sold out through 2028, Citi PT $800. Intact.
-  ⚠️ WDC earnings July 29 (next Tuesday) — BINARY EVENT. MUST close before Friday July 25 close.
-  - If WDC >= $598.81: sell immediately (take-profit)
-  - If WDC <= $555.63: sell immediately (stop-loss — TRAILED)
-
-Sells at 2 PM: SMCI — 2.887642 shares, market order, filled at $30.812 avg (-3.29% from entry $31.8599, -$3.03)
-  Stop-loss triggered: SMCI faded from $31.94 intraday high (12:45 PM ET) and broke below $30.90 stop.
-  Bull-flag consolidation failed; pattern broke down.
-New buys at 2 PM: NONE (scanners returned 0 for third consecutive time today; QQQ -0.19%; pre-earnings caution)
-
-Settled cash: ~$415.01 (SMCI proceeds $88.97 UNSETTLED — settles July 23)
-Total account value: ~$848.54 (~$415.01 settled + $88.97 unsettled + $344.56 equity in 4 positions)
-Portfolio invested: ~40.6% (4 positions, ~$344.56 equity)
+Settled cash: $673.13 (all unsettled proceeds from GM/WDC/SMCI fully settled at open today as expected)
+Total account value: $846.38
+Portfolio invested: ~20.5% (2 positions, ~$173.27 equity)
 
 ---
-2 PM SESSION NOTE (for 3:15 PM agent — July 22, 2026):
 
-1. ⚠️ GM CRITICAL — NEAR STOP AND NEAR TP: At $82.37, stop $82.32 (0.06% buffer), TP $83.45 (1.31% away).
-   Hit intraday high of $84.33 at 9:55 AM, then faded all afternoon. Currently below VWAP $82.73.
-   TSLA earnings tonight (AH): auto sector volatility risk. Recommend at 3:15 PM:
-   - If GM >= $82.60 and holding into close → hold overnight (stop at $82.32 protects above breakeven)
-   - If GM fading below $82.45 with TSLA sentiment turning negative → discretionary exit reasonable
-   Stop WILL likely trigger overnight on a TSLA miss. Be prepared.
+NOTES FOR 3:15 PM AGENT (July 23, 2026):
 
-2. ⚠️ WDC PRIORITY — MUST EXIT BY FRIDAY JULY 25: Earnings July 29 (binary event).
-   WDC near stop at $558.00 vs stop $555.63 (0.43% buffer). Thesis intact, above VWAP.
-   STRONG RECOMMENDATION: Close WDC at 3:15 PM today to lock in +2.50% and avoid carrying the binary
-   risk over the weekend. If you hold, set a hard exit plan for no later than Thursday July 24 close.
+1. BOTH POSITIONS HOLD — NO CHANGES THIS SESSION:
+   MMM pre-market critical warning (bid $169.10, $0.10 above stop) RESOLVED. MMM opened above stop,
+   now $170.335, stop $169.00 intact. No adverse news.
+   AAPL GOOGL read-through confirmed: GOOGL beat on AI/cloud metrics → AAPL AI thesis intact.
+   Broad tech weakness is noise, not a thesis break. Do NOT discretionary exit AAPL.
 
-3. ⚠️ TSLA + GOOGL EARNINGS TONIGHT (July 22 AH):
-   - GM: direct auto sector exposure to TSLA result
-   - AAPL/WDC: broad tech sentiment exposure to GOOGL result
-   - SMCI: already stopped out — no exposure
+2. NO NEW BUYS — 5th CONSECUTIVE ZERO-ENTRY SESSION:
+   Both scanners (3%+/RelVol 1.2x and 6%+) returned 0 results.
+   Three candidates found via web search, all rejected:
+   - ALLE +10.89% (earnings_beat, industrial): 30-min low $148.715 > 4% cap below entry $155 — SKIPPED
+     *** CONSIDER FOR 3:15 PM: By afternoon the opening spike low is irrelevant; use session consolidation
+     range as stop reference. ALLE = earnings_beat + industrial (best account sector) = exact template.
+     If ALLE is holding above $152 at 3:15 PM, it warrants serious evaluation for overnight hold. ***
+   - TMO +9.12% (earnings_beat, healthcare): Faded hard to new intraday lows below VWAP — SKIPPED
+   - MU +3.29% (sector_momentum, semiconductor): Caution regime requires stronger catalyst — SKIPPED
 
-4. SMCI STOPPED OUT at 2 PM: Sold 2.887642 shares at $30.812 (-3.29%, -$3.03). Stop-loss hit.
-   Bull-flag pattern failed. Proceeds $88.97 unsettled (settles July 23).
+3. MARKET REGIME — CAUTION (SPY -1.13%, QQQ -1.63%):
+   NOT at hard gate (-2%). Reduce new position sizes by 50%, require stronger-than-usual catalyst.
+   Leading sectors: XLI (industrials) +2.09%, XLE (energy) +1.78%.
+   Energy thesis: WTI $88, 11th consecutive night of US airstrikes on Iran. Energy remains in play.
+   If SPY recovers to near -0.5% by 3:15 PM, ease the catalyst requirement accordingly.
 
-5. AAPL/MMM STILL UNDERPERFORMING: AAPL -1.09%, MMM -2.63% from entry. Both above stops. No thesis breaks.
-   Hold and let stops work. Do NOT exit discretionarily without a concrete thesis break.
+4. AAPL EARNINGS WATCH:
+   AAPL reports July 30 (7 days). If AAPL remains below entry $327.50 through July 28-29, the
+   July 29 3:15 PM agent should evaluate exiting BEFORE earnings to avoid binary event risk.
+   Do NOT hold through earnings unless AAPL has recovered above entry AND thesis has strengthened.
 
-6. BROAD MARKET (2 PM ET): SPY +0.03% (flat), QQQ -0.19% (slightly negative). Normal regime.
-   Scanners returned 0 for the THIRD consecutive time today across both scans. No new positions opened.
+5. CATALYST STATUS CARRY-FORWARD:
+   - ALLE: CONFIRMED — not entered (30-min volatility cap). Scout for 3:15 PM entry. Priority candidate.
+   - TMO: CONFIRMED — not entered (momentum faded hard). Failed — do not chase.
+   - MU: CONFIRMED — not entered (caution regime + tech trap sector). Valid thesis, sub-bar catalyst.
+   - SMCI: Hard disqualifier — do NOT enter (>15% move yesterday on same catalyst).
+   - NOW: Failed momentum — open $99.76, now $97.37, below prior close. Do not enter.
+
+Catalyst watch list: none (no formal watch list from prior session; above are today's resolved candidates).
 ---
 PRE-CHECK — Market day verification
 Before doing anything else, check today's date. If today is Saturday or Sunday, output "Market closed — weekend. No action taken." and stop immediately. Do not proceed to Step 1.
