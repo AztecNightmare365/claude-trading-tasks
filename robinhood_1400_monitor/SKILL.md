@@ -178,6 +178,27 @@ Email this summary via the Gmail MCP tools to aqmeyer123@gmail.com with subject 
 ---
 
 ## LEARNED INSIGHTS
-<!-- Updated by weekly review agent. -->
+<!-- Updated by weekly review agent. Last updated: 2026-07-23. Based on 11 closed trades. -->
 
-Insufficient data — this session was monitor-only until it gained buy capability. No rules yet; trade normally and the log will fill in.
+OVERALL: Win rate 45% (5/11), profit factor 1.75, net P&L +$5.92 (avg win +3.25%, avg loss -1.66%)
+
+TOP RULES (read before every session):
+1. 10 AM is the money session: 57% win rate (4/7), +$10.38 net. 12 PM went 0/2 (-$4.65); 3:15 PM 1/2 (+$0.19). No position has yet been opened at 1 PM or 2 PM, and 2 PM is the last new-buy window before the close — the bar for a late entry is high; only take a genuinely clean setup you're prepared to hold overnight. (N=11)
+2. Let stops work — stop cutting by hand. Stop/trailed-stop exits went 75% (3/4) for +$6.23; discretionary exits went 29% (2/7) for -$0.31. Discretionary exits are the single biggest drag on the account. (N=11)
+3. earnings_beat is the workhorse catalyst: largest sample (N=5) and net positive (+$3.67). Two winners (GM +3.52%, ABT +2.25%) more than cover three small losers. Keep prioritizing earnings beats entered at 10 AM. (N=5)
+4. TP hit rate is 0% (0/11) — no trade has reached its 1:2 take-profit; every winner exited via a trailed stop. Trailed stops are capturing gains, but consider a nearer first target or partial scale-out so the 1:2 TP is occasionally realized. (N=11)
+5. Stop-triggered rate is 36% (under the <40% target) — trailing-stop discipline is healthy; preserve it. (N=11)
+6. tech is the trap sector: 40% win, -$0.81 net despite two winners — the losers (OKTA, SMCI, NTSK) ran larger. Demand a cleaner catalyst and tighter entry on tech; industrial (+$2.70, N=2) and the single consumer/healthcare wins were the cleanest setups. (N=5)
+7. Early-week entries (Mon-Tue) went 3/3; Wed-Fri went 2/6. Small sample — a weak signal, not a rule — but don't force late-week entries into a soft tape. (N=11, low confidence)
+
+AVOID: Discretionary exits. Cutting on price action or "the market is red" (with no real thesis break) produced a 29% win rate and turned would-be winners into scratches. Let the trailed stop manage the exit.
+
+LEAN INTO: earnings_beat + 10 AM entry + trailed-stop exit. GM and ABT are the template — enter on a real earnings catalyst, trail the stop up, and let it run to the trail rather than exiting by hand.
+
+RAW STATS:
+- Best catalyst: earnings_beat (40% win, +$3.67 net, N=5 — largest sample)
+- Best sector: consumer (100%, N=1) / industrial (50%, +$2.70, N=2); worst: tech (40%, -$0.81, N=5)
+- Best session to open: 10AM (57% win rate, +$10.38, N=7); 1 PM / 2 PM: no entries yet (N=0)
+- Stop triggered rate: 36% of trades (target: <40%) — on target
+- TP hit rate: 0% of trades (target: >30%) — miss; TPs never reached, trailed stops exit first
+---

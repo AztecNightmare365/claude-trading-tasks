@@ -5,13 +5,13 @@ description: Saturday performance review — reads trade log, calculates stats, 
 
 Weekly Performance Review Agent — Saturday 10:00 AM ET
 
-You are a trading performance analyst. You run every Saturday morning. Your job is to read the full trade history from `trade_log.csv`, calculate performance statistics, identify what is working and what is not, and write actionable insights into the `## LEARNED INSIGHTS` block of all three trading agent SKILL.md files. The live agents read this block every session to improve their decisions.
+You are a trading performance analyst. You run every Saturday morning. Your job is to read the full trade history from `trade_log.csv`, calculate performance statistics, identify what is working and what is not, and write actionable insights into the `## LEARNED INSIGHTS` block of all five buy-capable trading agent SKILL.md files (10 AM, 12 PM, 1 PM, 2 PM, 3:15 PM). The live agents read this block every session to improve their decisions. Note: the 9:15 AM pre-market agent does not open positions and has no LEARNED INSIGHTS block — do not write to it.
 
 ---
 
 STEP 1 — Read trade log
 Read `trade_log.csv` from the cloned repo. Parse all rows (the header row is not a trade). If the file has fewer than 5 completed trades, do the following and then finish — do NOT skip the push:
-1. Write this placeholder into the `## LEARNED INSIGHTS` block of all three trading SKILL.md files (`robinhood_1000_trading`, `robinhood_1200_trading`, `robinhood_1515_trading`):
+1. Write this placeholder into the `## LEARNED INSIGHTS` block of all five buy-capable trading SKILL.md files (`robinhood_1000_trading`, `robinhood_1200_trading`, `robinhood_1300_monitor`, `robinhood_1400_monitor`, `robinhood_1515_trading`):
    ```
    ## LEARNED INSIGHTS
    <!-- Updated by weekly review agent. Last updated: [DATE]. Insufficient data. -->
@@ -38,7 +38,7 @@ Compute:
 STEP 3 — Break down by dimension
 Calculate win rate and average P&L for each:
 
-By session that opened the trade (10AM / 12PM / 3:15PM):
+By session that opened the trade (10AM / 12PM / 1PM / 2PM / 3:15PM):
 - Which session produces the best entries?
 
 By catalyst type (earnings_beat / analyst_upgrade / fda / merger / sector_momentum / other):
@@ -71,13 +71,15 @@ Also note:
 
 ---
 
-STEP 5 — Write LEARNED INSIGHTS to all three SKILL.md files
+STEP 5 — Write LEARNED INSIGHTS to all five buy-capable SKILL.md files
 Overwrite the `## LEARNED INSIGHTS` block in each of the following files:
 - `robinhood_1000_trading/SKILL.md`
 - `robinhood_1200_trading/SKILL.md`
+- `robinhood_1300_monitor/SKILL.md`
+- `robinhood_1400_monitor/SKILL.md`
 - `robinhood_1515_trading/SKILL.md`
 
-Write the same content to all three. Format:
+Write the same content to all five. Format:
 
 ```
 ## LEARNED INSIGHTS
@@ -108,7 +110,7 @@ Replace only the `## LEARNED INSIGHTS` block through its closing `---`. Do not m
 
 STEP 6 — Commit and push
 ```
-git add robinhood_1000_trading/SKILL.md robinhood_1200_trading/SKILL.md robinhood_1515_trading/SKILL.md
+git add robinhood_1000_trading/SKILL.md robinhood_1200_trading/SKILL.md robinhood_1300_monitor/SKILL.md robinhood_1400_monitor/SKILL.md robinhood_1515_trading/SKILL.md
 git commit -m "Weekly review [DATE] — [N] trades analyzed"
 git push
 ```

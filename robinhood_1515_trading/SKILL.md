@@ -347,23 +347,27 @@ Only log completed (exited) trades. Include trade_log.csv in the git commit from
 ---
 
 ## LEARNED INSIGHTS
-<!-- Updated by weekly review agent. Last updated: 2026-07-18. Based on 5 closed trades. -->
+<!-- Updated by weekly review agent. Last updated: 2026-07-23. Based on 11 closed trades. -->
 
-OVERALL: Win rate 0%, profit factor 0.00, net P&L -$4.85
+OVERALL: Win rate 45% (5/11), profit factor 1.75, net P&L +$5.92 (avg win +3.25%, avg loss -1.66%)
 
 TOP RULES (read before every session):
-1. 10AM entries had the smallest losses (avg -0.83%, N=3) vs 12PM (-2.10%, N=1) and 3:15PM (-2.05%, N=1) — prefer 10AM entries; raise the bar sharply for midday and late-session buys until sample grows.
-2. earnings_beat catalyst had the smallest average loss (-0.83%, N=3) vs analyst_upgrade (-2.10%) and sector_momentum (-2.05%) — prioritize earnings beats; treat upgrades and sector-momentum entries with extra scrutiny in current conditions.
-3. All 5 exits were discretionary losses — 0% stop_loss trigger rate, 0% TP hit rate (N=5). Positions are being cut before stops or TPs are reached. Do not exit discretionarily unless the thesis has concretely broken; let stops do their job.
+1. 10 AM is the money session: 57% win rate (4/7), +$10.38 net. 12 PM went 0/2 (-$4.65); 3:15 PM 1/2 (+$0.19). Keep the 10 AM open as the primary entry window and hold midday/late buys to a much higher bar. (N=11)
+2. Let stops work — stop cutting by hand. Stop/trailed-stop exits went 75% (3/4) for +$6.23; discretionary exits went 29% (2/7) for -$0.31. Discretionary exits are the single biggest drag on the account. (N=11)
+3. earnings_beat is the workhorse catalyst: largest sample (N=5) and net positive (+$3.67). Two winners (GM +3.52%, ABT +2.25%) more than cover three small losers. Keep prioritizing earnings beats entered at 10 AM. (N=5)
+4. TP hit rate is 0% (0/11) — no trade has reached its 1:2 take-profit; every winner exited via a trailed stop. Trailed stops are capturing gains, but consider a nearer first target or partial scale-out so the 1:2 TP is occasionally realized. (N=11)
+5. Stop-triggered rate is 36% (under the <40% target) — trailing-stop discipline is healthy; preserve it. (N=11)
+6. tech is the trap sector: 40% win, -$0.81 net despite two winners — the losers (OKTA, SMCI, NTSK) ran larger. Demand a cleaner catalyst and tighter entry on tech; industrial (+$2.70, N=2) and the single consumer/healthcare wins were the cleanest setups. (N=5)
+7. Early-week entries (Mon-Tue) went 3/3; Wed-Fri went 2/6. Small sample — a weak signal, not a rule — but don't force late-week entries into a soft tape. (N=11, low confidence)
 
-AVOID: All 5 trades were entered or managed during a sustained macro risk-off regime (SPY -1%+ multiple days, semiconductor sell-off, Netflix guidance miss). Every trade ended in a discretionary loss. When the regime gate is triggered, entering new positions compounds losses — honor the gate strictly; it exists for exactly this scenario.
+AVOID: Discretionary exits. Cutting on price action or "the market is red" (with no real thesis break) produced a 29% win rate and turned would-be winners into scratches. The prior review's core lesson holds and is now backed by more data: let the trailed stop manage the exit.
 
-LEAN INTO: earnings_beat catalyst with 10AM entry in a neutral or positive macro regime. CTAS (earnings_beat, 10AM entry) had the smallest loss (-0.36%) and its exit was purely macro-driven — the fundamental thesis remained intact. This catalyst + session combination should outperform meaningfully when macro conditions normalize.
+LEAN INTO: earnings_beat + 10 AM entry + trailed-stop exit. GM and ABT are the template — enter at 10 AM on a real earnings catalyst, trail the stop up, and let it run to the trail rather than exiting by hand.
 
 RAW STATS:
-- Best catalyst: earnings_beat (0% win rate, -0.83% avg loss, N=3)
-- Best sector: industrial (0% win rate, -0.36% avg loss, N=1 — insufficient data for confidence)
-- Best session to open: 10AM (0% win rate, -0.83% avg loss, N=3)
-- Stop triggered rate: 0% of trades (target: <40%)
-- TP hit rate: 0% of trades (target: >30%)
+- Best catalyst: earnings_beat (40% win, +$3.67 net, N=5 — largest sample)
+- Best sector: consumer (100%, N=1) / industrial (50%, +$2.70, N=2); worst: tech (40%, -$0.81, N=5)
+- Best session to open: 10AM (57% win rate, +$10.38, N=7)
+- Stop triggered rate: 36% of trades (target: <40%) — on target
+- TP hit rate: 0% of trades (target: >30%) — miss; TPs never reached, trailed stops exit first
 ---
