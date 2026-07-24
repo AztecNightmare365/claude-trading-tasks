@@ -57,7 +57,7 @@ Open positions (4 total):
   2 PM price: $332.79 | vs avg entry: +$2.52 (+0.76%) | day change: +3.46% from prev close $321.66
   VWAP (day): ~$330.53 — price ABOVE VWAP ✓
   Thesis: Apple Intelligence / Alibaba Qwen China AI regulatory approval + analyst PT raises (HSBC Buy $366, MS raised). Exceptional relative strength — biggest index driver on the day.
-  ⚠️ EARNINGS JULY 30: July 29 3:15 PM agent MUST exit AAPL before close if not already stopped/TP'd. Do NOT hold through earnings.
+  ⚠️ EARNINGS JULY 30 AMC: July 30 3:15 PM agent MUST exit AAPL before close if not already stopped/TP'd. Do NOT hold through earnings. (Earnings are AFTER market close on July 30 — exit before the July 30 close, NOT July 29.)
   Trail trigger $337.86 NOT reached ($5.07 above 2 PM price) — stop unchanged at $317.32.
   entry_type: scanner (original) / manual (add-on)
   - If AAPL >= $347.86: sell immediately (take-profit)

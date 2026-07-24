@@ -161,7 +161,7 @@ Open positions held overnight (4 total):
   3:15 PM price: $320.815 | vs entry: -$6.69 (-2.04%)
   Thesis: Apple Intelligence / Alibaba Qwen China AI regulatory approval + HSBC Buy PT $366 + Morgan Stanley PT raise today. Tim Cook CEO transition (Sept 1, 2026 → John Ternus) assessed as smooth/planned — NOT a thesis break. Broad market weakness (SPY -1.41%, QQQ -2.19%) driving lower, not AAPL-specific news.
   Trail trigger $337.86 NOT reached — stop unchanged at $317.32.
-  ⚠️ EARNINGS JULY 30: Must NOT hold through July 30 earnings. The July 29 3:15 PM agent MUST exit AAPL before close if not already stopped/TP'd.
+  ⚠️ EARNINGS JULY 30 AMC: Must NOT hold through July 30 earnings. The July 30 3:15 PM agent MUST exit AAPL before close if not already stopped/TP'd. (Earnings are AFTER market close on July 30 — exit before the July 30 close, NOT July 29.)
   entry_type: scanner
   - If AAPL >= $347.86: sell immediately (take-profit)
   - If AAPL <= $317.32: sell immediately (stop-loss)
@@ -215,7 +215,7 @@ NOTES FOR 10:00 AM AGENT (July 24, 2026):
    ALLE at $155.51 vs stop $154.68 — only $0.83 buffer. Fading since 1:05 PM high. Thesis (earnings beat, guidance raised) intact. Let stop work. If ALLE at or below $154.68: sell immediately (0.520000 shares, market).
 
 3. ⚠️ AAPL NEAR STOP + EARNINGS TIMELINE:
-   AAPL at $320.815 vs stop $317.32 — $3.495 buffer. Down -2.04% from entry. Thesis intact (AI/China approval). EARNINGS JULY 30: if AAPL has not recovered above entry $327.50 by the July 29 3:15 PM session, that agent MUST exit before close — do NOT hold through a binary event while underwater.
+   AAPL at $320.815 vs stop $317.32 — $3.495 buffer. Down -2.04% from entry. Thesis intact (AI/China approval). EARNINGS JULY 30 AMC: the July 30 3:15 PM agent MUST exit before close — do NOT hold through a binary event. (Earnings are AMC on July 30, NOT BMO on July 31.)
 
 4. HON — NEW OVERNIGHT POSITION:
    HON entered at ~$245.27 (0.243810 shares, $59.80). Industrial sector outperformed SPY by 2.9% today. Thesis: Q2 earnings beat + guidance raised (+25-29% EPS growth). No binary events tonight or tomorrow morning. Stop $233.01, TP $269.79.
@@ -248,7 +248,14 @@ Also check if today is a US federal market holiday (New Year's Day, MLK Day, Pre
 ---
 
 STEP 1 — Account snapshot
-Retrieve current account state:
+Before pulling live data, read the following blocks from this file in order (they may already contain actions taken by earlier agents this morning):
+1. `## OVERNIGHT BRIEF` (written by the 7 AM overnight watch agent) — check for any pre-market sells or severe flags. Note which positions, if any, it already sold.
+2. `## OPEN REACTION UPDATE` (written by the 9:30 AM open reaction agent) — check for stop/TP sells at the open print and any catalyst watch list entries it already made. Positions marked "SOLD BY 9:30 AM AGENT" in the handoff must NOT be re-actioned.
+3. `## PRE-MARKET BRIEF` (written by the 9:15 AM agent) — flags for STOP BREACH, TP BREACH, THESIS BROKEN, and the Catalyst Watch List Status subsection.
+
+If these blocks don't exist yet (agents haven't run), proceed directly with the raw `## HANDOFF FROM LAST 3:15 PM SESSION` data.
+
+Then retrieve current account state:
 - Total account value (settled cash + all open position market values)
 - Settled cash only — never count unsettled funds from recent sales
 - All open positions with entry price, current price, overnight change %, current day change %, and unrealized gain/loss %
@@ -312,7 +319,9 @@ STEP 4 — Find morning momentum candidates
 You are looking for stocks showing confirmed momentum 30 minutes into the session, not just an opening spike. Cast a wide net — aim for 50+ raw candidates before filtering. Run all sources in parallel:
 
 Catalyst Watch List — check this BEFORE running the scanners:
-Read the catalyst watch list from the `## HANDOFF FROM LAST 3:15 PM SESSION` block. First check the `## PRE-MARKET BRIEF`'s "Catalyst Watch List Status" subsection (written by the 9:15 AM agent) — it already resolved each ticker's overnight catalyst and pre-market gap into CATALYST CONFIRMED — GAP UP / CONFIRMED — FLAT/DOWN / FAILED / PENDING / NO DATA. Use that as your starting point, then re-confirm at 10 AM (news can develop after 9:15, and you must verify the stock is still trending up now, not just pre-market). If the brief has no such subsection, resolve each ticker yourself. For each ticker on the list:
+First check the `## OPEN REACTION UPDATE` block (written by the 9:30 AM agent) — it may have already entered one or more CATALYST CONFIRMED — GAP UP tickers at the open print. If a ticker was already entered by the 9:30 AM agent, do NOT re-enter it; just adopt it as an open position and manage its stop/TP going forward.
+
+Read the catalyst watch list from the `## HANDOFF FROM LAST 3:15 PM SESSION` block. Then check the `## PRE-MARKET BRIEF`'s "Catalyst Watch List Status" subsection (written by the 9:15 AM agent) — it already resolved each ticker's overnight catalyst and pre-market gap into CATALYST CONFIRMED — GAP UP / CONFIRMED — FLAT/DOWN / FAILED / PENDING / NO DATA. Use that as your starting point, then re-confirm at 10 AM (news can develop after 9:15, and you must verify the stock is still trending up now, not just pre-market). If the brief has no such subsection, resolve each ticker yourself. For each ticker on the list:
 1. Confirm whether the catalyst resolved overnight and in which direction — start from the brief's status, then search "[TICKER] news [today's date]" to catch anything since 9:15. Treat a brief status of FAILED as disqualifying unless fresh news clearly reverses it; treat PENDING / NO DATA as "must resolve now before entry."
 2. Get the current quote via get_equity_quotes.
 3. If the catalyst confirmed positively AND the stock is up at open AND still trending up (not fading back toward yesterday's close) at 10:00 AM:

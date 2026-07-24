@@ -77,11 +77,15 @@ STEP 5 — Write pre-market brief
 Overwrite the `## PRE-MARKET BRIEF` block in `robinhood_1000_trading/SKILL.md` with:
 - Timestamp
 - For each position: pre-market price, change %, flag status (STOP BREACH / TP BREACH / GAP DOWN WARNING / THESIS BROKEN / ON TRACK), and one sentence of context
-- Catalyst Watch List Status subsection (omit if no watch list in handoff): for each ticker — pre-market price, gap %, catalyst resolution status (CATALYST CONFIRMED — GAP UP / CATALYST CONFIRMED — FLAT/DOWN / CATALYST FAILED / CATALYST PENDING / NO CATALYST DATA), and one sentence of context. This is what the 10 AM agent reads to decide whether to enter at the 1–2% threshold.
+- Catalyst Watch List Status subsection (omit if no watch list in handoff): for each ticker — pre-market price, gap %, catalyst resolution status (CATALYST CONFIRMED — GAP UP / CATALYST CONFIRMED — FLAT/DOWN / CATALYST FAILED / CATALYST PENDING / NO CATALYST DATA), and one sentence of context.
+  - CATALYST CONFIRMED — GAP UP tickers will be actioned by the 9:30 AM open reaction agent at the open print (not the 10 AM agent). Flag them clearly so the 9:30 AM agent can act immediately.
+  - The 10 AM agent reads this brief 30 minutes later and uses FLAT/DOWN and PENDING results for its full momentum scan.
 - Any overnight macro news that affects the broad market (futures direction, major news events)
 - One-line summary: "X positions on track, Y flagged for immediate action; Z catalyst watch list tickers actionable / W skipped"
 
-Replace the entire block from `## PRE-MARKET BRIEF` through its closing `---` with fresh content. Do not modify any other block.
+Also check if the `## OVERNIGHT BRIEF` block exists (written by the 7 AM overnight watch agent). If it does, note any pre-market sells or position updates it already actioned — do NOT re-flag positions already sold by the 7 AM agent.
+
+Replace the entire block from `## PRE-MARKET BRIEF` through its closing `---` with fresh content. Do not modify the `## OVERNIGHT BRIEF` block if it exists.
 
 After writing, commit and push:
 ```
@@ -93,4 +97,4 @@ git push
 ---
 
 STEP 6 — Email alert (only if a position is flagged)
-If any position is flagged STOP BREACH, TP BREACH, GAP DOWN WARNING, or THESIS BROKEN, email a heads-up to yourself via the Gmail MCP tools before the open. Send to aqmeyer123@gmail.com with subject "⚠ Robinhood pre-market alert — [DATE]". Body: the flagged positions with their pre-market price, flag, and one-line reason, plus what the 10 AM agent is expected to do. If everything is ON TRACK, do NOT send an email — no news is good news.
+If any position is flagged STOP BREACH, TP BREACH, GAP DOWN WARNING, or THESIS BROKEN, email a heads-up to yourself via the Gmail MCP tools before the open. Send to aqmeyer123@gmail.com with subject "⚠ Robinhood pre-market alert — [DATE]". Body: the flagged positions with their pre-market price, flag, and one-line reason. Note that the 9:30 AM open reaction agent will handle STOP BREACH, TP BREACH, and CATALYST CONFIRMED — GAP UP entries at the open print; the 10 AM agent handles the rest. If everything is ON TRACK, do NOT send an email — no news is good news.
