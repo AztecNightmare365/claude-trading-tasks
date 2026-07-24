@@ -242,8 +242,38 @@ NOTES FOR 10:00 AM AGENT (Monday July 27, 2026):
 
 Catalyst watch list:
 BKR | Q2 2026 earnings | BMO Monday July 27 (verify exact timing) | POSITIVE bias — energy services Q2 demand validates SLB thesis; if BKR beats, SLB thesis strengthened | MEDIUM risk
-AZN | Q2 2026 earnings | BMO Monday July 27 | Unknown direction — large pharma ($200B+ mkt cap); healthcare sector leading monthly | MEDIUM risk — enter only on >1% gap-up with sustained 10 AM momentum
-CDNS | Q2 2026 earnings | AMC Monday July 27 | POSITIVE bias — Cadence EDA software, AI chip design demand tailwind | LOW-MEDIUM risk (NOTE: AMC — affects Tuesday 10 AM evaluation, NOT Monday open)
+AZN | Q2 2026 earnings | BMO Monday July 27 (confirmed via earnings calendar) | Unknown direction — large pharma ($200B+ mkt cap); healthcare sector leading monthly | MEDIUM risk — enter only on >1% gap-up with sustained 10 AM momentum
+CDNS | Q2 2026 earnings | AMC Monday July 27 (confirmed via earnings calendar) | POSITIVE bias — Cadence EDA software, AI chip design demand tailwind | LOW-MEDIUM risk (NOTE: AMC — affects Tuesday 10 AM evaluation, NOT Monday open)
+
+---
+
+## AFTER-HOURS UPDATE
+<!-- Written by the 5 PM after-hours agent. -->
+
+Timestamp: 2026-07-24 ~5:20 PM ET (5 PM AH session complete)
+
+⚠️ WEEKEND HOLD IN EFFECT: All 4 positions below are held through the weekend (next trading day Monday July 27, 2026). Portfolio sync at 5 PM confirmed live Robinhood holdings exactly match the 3:15 PM handoff — no manual changes.
+
+AH sells placed: NONE.
+
+Positive AH events: NONE.
+
+Adverse AH events: NONE.
+
+Position-by-position AH check (all four overnight flag: YES, all confirmed via get_equity_quotes/get_equity_historicals extended-hours data ~5:15 PM ET):
+- AAPL: AH $333.33 vs today's close $333.07 (+0.08%). Stop $317.32 / TP $347.86 — well inside range. Earnings confirmed July 30 PM (not tonight). No news since 3:15 PM. NO EVENT — thesis intact, hold.
+- MMM: AH $171.10 vs today's close $172.60 (-0.87%, thin AH volume). Stop $169.00 / TP $186.82 — buffer $2.10 (1.2%), narrower than ideal for a weekend hold but still above stop. Q2 earnings already reported July 21 (priced in) — no report tonight. No adverse news found. NO EVENT — thesis intact, hold per 3:15 PM instruction (do not widen stop).
+- HON: AH $243.15 vs today's close $243.13 (flat). Stop $233.01 / TP $269.79 — ample buffer. Q2 earnings already reported July 23 (priced in) — no report tonight. No adverse news. NO EVENT — thesis intact, hold.
+- SLB: AH $52.35 vs today's close $52.455 (-0.20%). Stop $49.755 / TP $55.44 — ample buffer. Q2 earnings already reported this morning July 24 (the entry catalyst, already priced in) — no report tonight. Oil/Iran-peace-talks weekend risk already flagged by 3:15 PM session; no incremental adverse move in AH. NO EVENT — thesis intact, hold.
+
+Broad AH market: SPY flat on the day (+0.05%), Nasdaq -0.64% on a semiconductor selloff, Dow +0.46%. Brent crude retreating from $100 on Iran peace-talk optimism. No macro AH developments beyond what the 3:15 PM handoff already captured.
+
+Catalyst watch list for Monday July 27 (carried forward unchanged from 3:15 PM handoff — none of the three have reported yet, all still PENDING):
+BKR | Q2 earnings | BMO Monday | POSITIVE bias (validates SLB thesis) | MEDIUM risk
+AZN | Q2 earnings | BMO Monday (confirmed) | Unknown direction | MEDIUM risk
+CDNS | Q2 earnings | AMC Monday (confirmed, affects Tuesday 10 AM not Monday open) | POSITIVE bias | LOW-MEDIUM risk
+
+Summary: 0 AH sells, 0 positive events, 3 catalyst tickers for Monday (unchanged from 3:15 PM).
 
 ---
 
