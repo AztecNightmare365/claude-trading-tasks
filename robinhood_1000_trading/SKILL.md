@@ -14,82 +14,113 @@ Execute all steps in order, then place all orders simultaneously.
 ## PRE-MARKET BRIEF
 <!-- Updated by the 9:15 AM pre-market agent. Read before Step 1. -->
 
-**Generated: 2026-07-23 ~9:15 AM ET**
+**Generated: 2026-07-24 ~9:15 AM ET**
 
 ---
 
-### OVERNIGHT POSITIONS: 2 HELD
+### OVERNIGHT POSITIONS: 4 HELD
 
-| Ticker | Shares | Entry | Stop | TP | Pre-Mkt Price | vs Jul 22 Close | Flag |
+| Ticker | Shares | Entry | Stop | TP | Pre-Mkt Price | vs Jul 23 Close | Flag |
 |--------|--------|-------|------|-----|--------------|----------------|------|
-| AAPL | 0.288213 | $327.50 | $317.32 | $347.86 | $324.00 | -$1.89 (-0.58%) | **ON TRACK** |
-| MMM | 0.474448 | $174.94 | $169.00 | $186.82 | $170.00 | -$0.76 (-0.45%) | **ON TRACK** ⚠️ CRITICAL — bid $169.10, $0.10 above stop |
+| AAPL | 0.288213 | $327.50 | $317.32 | $347.86 | $321.58 | -$0.08 (-0.02%) | **ON TRACK** |
+| MMM | 0.474448 | $174.94 | $169.00 | $186.82 | $171.21 (8:47 AM) | +$1.62 (+0.96%) | **ON TRACK** |
+| ALLE | 0.520000 | $157.79 | $154.68 | $164.85 | $154.57 (no pre-mkt) | -$0.11 | **⛔ STOP BREACH** |
+| HON | 0.243810 | $245.27 | $233.01 | $269.79 | $246.13 (7:00 AM) | -$0.14 (-0.06%) | **ON TRACK** |
 
-> **Note**: AAPL price from Robinhood extended-hours (`last_non_reg_trade_price`) as of 9:15 AM ET. MMM last non-reg trade $170.00 as of 8:44 AM ET; current bid $169.10 (9:13 AM ET) — only $0.10 above stop $169.00.
-> **Polygon API unavailable** — all pre-market prices sourced from Robinhood quotes.
-> **Cash**: ~$673 total shown by Robinhood; ~$415.01 settled + ~$258.11 unsettled (GM $107.67 + WDC $61.47 + SMCI $88.97 proceeds, ALL settle at open July 23 → full ~$673 usable at 10 AM).
+> **Data sources**: All prices from Robinhood extended-hours (`last_non_reg_trade_price`). ALLE has NO pre-market activity today — last trade was 5 PM ET July 23 at $154.57, which is below its stop of $154.68. MMM last trade 8:47 AM; HON last trade 7:00 AM. Bid/ask spreads are wide in thin pre-market — use `last_non_reg_trade_price` (not bid) as the reference price except where noted.
 
 ---
 
 ### POSITION DETAIL
 
 **AAPL — ON TRACK**
-Pre-market $324.00 (-0.58% vs Jul 22 close $325.89; bid $323.90/ask $323.98 — tight spread). Stop $317.32 is $6.68 (2.06%) below — adequate buffer. TP $347.86 is 7.4% away. Entry $327.50; currently $3.50 (-1.07%) below entry.
+Pre-market $321.58 (-0.02% vs Jul 23 close $321.66; bid $321.57/ask $321.71 — tight spread). Stop $317.32 is $4.26 (1.32%) below — adequate buffer. TP $347.86 is 8.2% away. Entry $327.50; currently $5.92 (-1.81%) below entry. No adverse AAPL-specific news overnight. Earnings still July 30 (6 days). Thesis intact — Apple Intelligence / China AI regulatory approval.
 
-Overnight context: GOOGL Q2 reported AH July 22 — revenue +24% ($119.8B) and Google Cloud +82% ($24.8B), both beats. EPS $9.11 vs $2.88 est (massive beat). GOOGL stock is DOWN -3.63% pre-market not on AI/cloud miss but on capex overhang ($195–205B full-year 2026 projection). This is NOT a miss on AI/cloud execution — it is an investment cost concern. Per the handoff exit rule: GOOGL beat on AI/cloud → **positive for AAPL AI thesis** — the "GOOGL miss weakens Apple AI" condition is NOT met. AAPL discretionary exit is NOT triggered (condition b fails). Alibaba Qwen/China AI approval thesis remains intact. Earnings July 30 (7 days) — no binary event this week.
+**Hold — thesis intact, stop well-buffered. Do NOT exit on broad-market noise. Stop unchanged at $317.32.**
 
-**Hold — AAPL stop well-buffered, thesis intact. Do NOT discretionary-exit on broad tech weakness alone. Stop unchanged at $317.32.**
+**MMM — ON TRACK (RECOVERED)**
+Pre-market last trade $171.21 (+0.96% vs Jul 23 close $169.59; data as of 8:47 AM ET). Wide bid/ask ($165.24/$171.99) reflects thin pre-market — last TRADE at $171.21 is the reliable reference. Stop $169.00 is $2.21 (1.29%) below last trade — buffer improved vs yesterday. Note: insider selling by two MMM executives on July 23 (EVP CLO 7,669 shares, Group President 4,902 shares) — worth monitoring but NOT a thesis break; Q2 earnings beat thesis ($2.40 EPS, guidance raised) intact.
 
-**MMM — ON TRACK (⚠️ CRITICAL STOP PROXIMITY)**
-Pre-market last trade $170.00 (-0.45% vs Jul 22 close $170.76; data as of 8:44 AM ET). Current bid $169.10 / ask $171.99 (as of 9:13 AM ET — very wide spread, thin pre-market). Stop $169.00 is $1.00 (0.59%) above last trade; bid is $169.10 — only **$0.10 above stop on the bid side**.
+**Hold — stop buffer adequate, thesis intact. Check live price at open; if MMM prints at/below $169.00 sell immediately (0.474448 shares, market order).**
 
-No new adverse MMM-specific news found for July 23. Thesis intact: Q2 earnings beat ($2.40 EPS vs $2.27 est, raised FY EPS $8.80–$8.95). Broad market weakness (SPY -1.03%) creates gap-down risk at open.
+**ALLE — ⛔ STOP BREACH**
+Jul 23 close $154.57 is BELOW stop of $154.68 by $0.11. No pre-market activity today (last non-reg trade was 5 PM ET yesterday at $154.57). Bid $123.92/ask $155.92 — stale, ultra-wide spread. ALLE's thesis (Q2 beat: EPS $2.40 vs $2.22, guidance raised) remains valid, but the stock closed below the defined stop after fading from the 3:15 PM price of $155.51. The stop must be honored.
 
-**⚠️ 10 AM AGENT: CHECK MMM FIRST AT OPEN. Stop is $169.00. With bid at $169.10 pre-market, MMM may open at or below stop. If MMM at or below $169.00 at open — sell immediately (0.474448 shares, market order, stop triggered). Do NOT widen stop. Do NOT wait to see if it recovers.**
+**⛔ 10 AM AGENT: SELL ALLE IMMEDIATELY AT OPEN — 0.520000 shares, market order. Stop triggered (closed $154.57 below stop $154.68). Do NOT widen stop. Do NOT wait for recovery.**
+
+**HON — ON TRACK**
+Pre-market $246.13 (-0.06% vs Jul 23 close $246.27; data as of 7:00 AM ET). Stop $233.01 is $13.12 (5.33%) below — excellent buffer. Entry $245.27; currently +$0.86 (+0.35%) above entry. Thesis intact: Q2 beat confirmed ($1.95 EPS vs $1.82 est, automation orders +16%, FY guidance raised). Shares advanced pre-market even as U.S. futures were mixed.
+
+**Hold — thesis intact, ample stop buffer. Trail trigger $250.18 not yet reached; stop unchanged at $233.01.**
 
 ---
 
-### MACRO CONTEXT (pre-market July 23, 2026)
+### CATALYST WATCH LIST STATUS
 
-| Index | Jul 22 Close | Pre-Mkt Price | Change% | Note |
+| Ticker | Pre-Mkt | vs Jul 23 Close | Gap% | Catalyst Status | Action |
+|--------|---------|----------------|------|-----------------|--------|
+| INTC | $102.70 | $100.23 | +2.47% | CATALYST CONFIRMED — FLAT/DOWN | MONITOR |
+| AXP | $324.30 | $340.84 | -4.85% | CATALYST FAILED | SKIP |
+| RTX | $210.34 | $209.16 | +0.56% | CATALYST CONFIRMED — FLAT/DOWN | MONITOR |
+| LMT | $570.00 | $568.59 | +0.25% | CATALYST CONFIRMED — FLAT/DOWN | MONITOR |
+
+**INTC — CATALYST CONFIRMED — FLAT/DOWN**
+Q2 beat confirmed: EPS $0.42 vs $0.22 est (+93.9%), Revenue $16.13B vs $14.45B est, revenue +25% YoY (fastest growth in 15 years). Stock surged 12–13% in initial AH reaction to ~$110+, then gave back more than half by pre-market; now +2.47% above prior close. The fade from the initial spike is a caution signal. Note: $11B net loss due to accounting charges (transformation costs). 327% YTD run — 10 AM agent must check 5-day % move to verify not disqualified by >15% 5-day run rule. At +2.47%, technically within the 1–2% above prior close catalyst watch entry range, but momentum is fading. 10 AM agent should verify INTC is still trending up (not continuing to fade) before considering entry.
+
+**AXP — CATALYST FAILED**
+Reported BMO today (July 24). EPS $4.53 vs $4.45 est (small beat), but Revenue $19.64B missed estimates of $19.90B by $259M. Full-year revenue guidance raised to 10% growth; EPS guidance unchanged. Market treating this as a miss — stock down -4.85% pre-market ($324.30 vs close $340.84). Do NOT enter AXP regardless of price action at open. SKIP.
+
+**RTX — CATALYST CONFIRMED — FLAT/DOWN**
+Q2 beat confirmed (reported BMO July 23 — catalyst already fully priced in from yesterday's session). EPS $1.89 (+21% YoY), Revenue $24.7B (+14%), guidance raised, backlog $289B. Stock surged ~5% on July 23 open; Jul 23 close $209.16. Today pre-market +0.56% — no new catalyst for July 24. Treat as a standard momentum candidate (not catalyst watch) for 10 AM scanner review.
+
+**LMT — CATALYST CONFIRMED — FLAT/DOWN**
+Q2 beat confirmed (reported BMO July 23 — catalyst already priced in). EPS $7.94 vs $7.20 est (+10.3%), Revenue $20.1B vs $19.6B est, guidance raised, record $230B backlog. Stock rose ~5% during July 23 session; today pre-market only +0.25% — no new catalyst for July 24. Same as RTX — treat as standard momentum candidate at open, not a catalyst watch entry.
+
+---
+
+### MACRO CONTEXT (pre-market July 24, 2026)
+
+| Index | Jul 23 Close | Pre-Mkt Price | Change% | Note |
 |-------|-------------|--------------|---------|------|
-| SPY | $747.41 | $739.70 | **-1.03%** | TSLA/GOOGL earnings drag |
-| QQQ | $705.35 | $694.75 | **-1.50%** | Tech under pressure |
+| SPY | $738.18 | $739.13 | **+0.13%** | Recovery from Thursday selloff |
+| QQQ | $691.96 | $691.67 | **-0.04%** | Essentially flat |
 
-**Regime gate status**: SPY -1.03% pre-market — in the CAUTION ZONE (1–2% down). NOT triggering the hard -2% gate. 10 AM agent: reduce new buy sizes by 50%, require stronger-than-usual catalyst for any new entries today.
+**Regime gate status**: SPY +0.13% — NORMAL REGIME. Full position sizing permitted. No regime gate constraints for 10 AM session.
 
 ---
 
 ### KEY OVERNIGHT DEVELOPMENTS
 
-**1. GOOGL EARNINGS BEAT — STOCK DOWN ON CAPEX OVERHANG (AAPL READ-THROUGH: POSITIVE)**
-Alphabet Q2: Revenue +24% ($119.8B, beat), Google Cloud +82% ($24.8B, massive beat), EPS $9.11 vs $2.88 est. However, company projected $195–205B CapEx for full year 2026 — investors selling on investment cost burden. GOOGL -3.63% pre-market. Key point: the AI/cloud business itself is accelerating, which validates the AI spending thesis and is positive for AAPL's Apple Intelligence/AI positioning. This is NOT a GOOGL AI miss — it's an overspend concern. AAPL discretionary exit condition NOT triggered.
+**1. INTC Q2 EARNINGS BEAT — FADED FROM INITIAL SURGE**
+Intel Q2: EPS $0.42 vs $0.22 est, Revenue $16.13B vs $14.45B, +25% YoY. Initial AH surge 12–13% (to ~$110+) faded to +2.47% by pre-market. Data Center/AI revenue +59%, Foundry +31%. $11B net loss (accounting charges). INTC up 327% YTD — check 5-day disqualifier before entry.
 
-**2. TSLA EARNINGS MISS — BROAD TECH PRESSURE**
-Tesla Q2: EPS $0.33 vs $0.44 est (miss). Revenue beat (auto +23%), deliveries 480K record. Stock -5.52% pre-market. No direct portfolio exposure (GM stopped out July 22). Broad Nasdaq headwind — amplifying QQQ -1.50%.
+**2. AXP Q2 MIXED RESULTS — STOCK DOWN 4.85%**
+American Express BMO today: EPS small beat ($4.53 vs $4.45), revenue miss ($19.64B vs $19.90B). Full-year guidance raised but market punishing the revenue miss. AXP catalyst FAILED for long entry purposes.
 
-**3. MMM STOP NEARLY AT BID — CRITICAL FOR OPEN**
-MMM bid $169.10 as of 9:13 AM ET, stop $169.00. With SPY -1.03% and broad market negative, MMM faces gap-down risk at 9:30 AM open. No adverse MMM-specific news. 10 AM agent must check MMM immediately at open.
+**3. RTX + LMT Q2 EARNINGS BEATS — ALREADY PRICED IN**
+RTX: EPS $1.89 (+21% YoY), revenue +14%, guidance raised. LMT: EPS $7.94 vs $7.20 est, revenue $20.1B, record $230B backlog. Both reported BMO July 23 and surged ~5% during yesterday's session. Today they're effectively flat pre-market — catalyst watch window closed.
 
-**4. LARGE BUYING POWER UNLOCKS TODAY**
-~$258.11 in proceeds (GM $107.67 + WDC $61.47 + SMCI $88.97) settle at open July 23. Total available buying power ~$673. Strong dry powder for 10 AM session — prioritize earnings-beat candidates.
+**4. ALLE STOP TRIGGERED AT CLOSE**
+ALLE faded from 3:15 PM price ($155.51) to close at $154.57, crossing the stop of $154.68. 10 AM agent must sell ALLE immediately at open (0.520000 shares, market order). Thesis intact but stop must be honored.
 
-**5. EARNINGS SEASON ACTIVE (JULY 23)**
-ServiceNow (NOW) +7.25% pre-market after Q2 beat — no direct portfolio exposure but signals SaaS/enterprise software is working. 166 companies reporting today. Active earnings-beat environment.
+**5. OIL / MACRO HEADWINDS**
+Brent crude briefly above $100/barrel on Red Sea tanker attacks (Iran war escalation continues). 10-year Treasury yield briefly above 4.7%. New Trump tariffs (10–12.5% rates on top trading partners) took effect overnight. These create broad inflationary headwinds but market is recovering modestly pre-market (SPY +0.13%).
 
 ---
 
 ### FLAGS
 
-| Ticker | Shares @ Entry | Pre-Mkt Price | vs Jul 22 Close | Stop Distance | Flag |
+| Ticker | Shares @ Entry | Pre-Mkt Price | vs Jul 23 Close | Stop Distance | Flag |
 |--------|---------------|--------------|----------------|---------------|------|
-| AAPL | 0.288213 @ $327.50 | $324.00 | -0.58% | $6.68 (2.06%) above stop $317.32 | **ON TRACK** |
-| MMM | 0.474448 @ $174.94 | $170.00 (bid $169.10) | -0.45% | **$1.00 (0.59%) above stop $169.00; bid $0.10 above stop** | **ON TRACK** ⚠️ CRITICAL |
+| AAPL | 0.288213 @ $327.50 | $321.58 | -0.02% | $4.26 (1.32%) above stop $317.32 | **ON TRACK** |
+| MMM | 0.474448 @ $174.94 | $171.21 (8:47 AM) | +0.96% | $2.21 (1.29%) above stop $169.00 | **ON TRACK** |
+| ALLE | 0.520000 @ $157.79 | $154.57 (no pre-mkt) | -0.07% | CLOSED BELOW STOP $154.68 | **⛔ STOP BREACH** |
+| HON | 0.243810 @ $245.27 | $246.13 (7:00 AM) | -0.06% | $13.12 (5.33%) above stop $233.01 | **ON TRACK** |
 
 ---
 
 ### ONE-LINE SUMMARY
-**2 positions ON TRACK, 0 formally flagged; MMM pre-market bid $169.10 is $0.10 above stop $169.00 — check MMM first at open and sell immediately if at/below $169.00. AAPL -0.58% ($324.00) — GOOGL beat on AI/cloud means discretionary exit NOT triggered; hold. SPY -1.03%, QQQ -1.50% (TSLA miss + GOOGL capex overhang) — caution regime, 50% position sizing on new buys. ~$673 buying power available (unsettled proceeds settle at open).**
+**3 positions ON TRACK (AAPL, MMM, HON), 1 STOP BREACH (ALLE — closed $154.57 below stop $154.68 — sell at open); 0 catalyst watch tickers actionable (AXP FAILED -4.85%; INTC/RTX/LMT all FLAT/DOWN — monitor at open). SPY +0.13% pre-market — NORMAL REGIME, full position sizing. Oil $100+/barrel and new tariffs are macro headwinds but market recovering from Thursday selloff.**
 
 ---
 
