@@ -1,0 +1,21 @@
+{
+  "ts": "2026-07-24T23:53:58Z",
+  "source": "city_market_watch",
+  "portfolio": {
+    "totalValue": 849.85479334,
+    "cash": 436.81,
+    "equityValue": 413.04479334,
+    "buyingPower": 356.28,
+    "positions": [
+      { "ticker": "AAPL", "shares": 0.58858, "entry": 330.27, "current": 333.697, "plPct": 1.04 },
+      { "ticker": "MMM", "shares": 0.474448, "entry": 174.94, "current": 171.10, "plPct": -2.20 },
+      { "ticker": "HON", "shares": 0.243604, "entry": 245.48, "current": 244.87, "plPct": -0.25 },
+      { "ticker": "SLB", "shares": 1.452, "entry": 51.65, "current": 52.2094, "plPct": 1.08 }
+    ]
+  },
+  "fills": [
+    { "id": "6a637459-0d50-4e57-bc55-fa774277fb3d", "side": "sell", "ticker": "ALLE", "qty": 0.52, "price": 154.8601, "at": "2026-07-24T14:19:05.821Z" },
+    { "id": "6a63745a-d3d6-4671-b00c-8017346b4696", "side": "buy", "ticker": "SLB", "qty": 1.452, "price": 51.6499, "at": "2026-07-24T14:19:07.044Z" },
+    { "id": "6a63885a-5214-43e3-aa3a-5655e77cf59d", "side": "buy", "ticker": "AAPL", "qty": 0.300367, "price": 332.925, "at": "2026-07-24T15:44:26.314Z" }
+  ]
+}
