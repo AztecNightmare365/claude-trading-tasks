@@ -10,3 +10,4 @@ date,ticker,shares,entry_price,exit_price,entry_session,entry_type,exit_session,
 2026-07-22,SMCI,2.887642,31.8599,30.812,12PM,scanner,2PM,other,tech,-3.29,-3.03,stop_loss
 2026-07-22,GM,1.321866,78.677,81.4501,10AM,scanner,3:15PM,earnings_beat,consumer,3.52,3.67,stop_loss
 2026-07-22,WDC,0.110219,544.37,557.80,3:15PM,scanner,3:15PM,analyst_upgrade,tech,2.47,1.48,discretionary
+2026-07-24,ALLE,0.520000,157.79,154.86,12PM,scanner,10AM,earnings_beat,industrial,-1.86,-1.52,stop_loss
