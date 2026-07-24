@@ -47,39 +47,39 @@ Notes for 10:00 AM agent (June 25, 2026):
 ---
 
 ## HANDOFF FROM LAST 10 AM SESSION
-<!-- Updated by 1 PM session. Last updated: 2026-07-24 (~1:12 PM ET — 1 PM session complete). -->
+<!-- Updated by 2 PM session. Last updated: 2026-07-24 (~2:10 PM ET — 2 PM session complete). -->
 
-Last updated: 2026-07-24 (~1:12 PM ET — 1 PM session complete)
+Last updated: 2026-07-24 (~2:10 PM ET — 2 PM session complete)
 
 Open positions (4 total):
 
 - AAPL: 0.588580 shares, avg entry $330.27, stop-loss $317.32, take-profit $347.86, overnight flag: YES
-  1 PM price: $332.68 | vs avg entry: +$2.41 (+0.73%) | day change: +3.43% from prev close $321.66
-  VWAP: $330.24 — price ABOVE VWAP ✓
-  Thesis: Apple Intelligence / Alibaba Qwen China AI regulatory approval + analyst PT raises (HSBC Buy $366, MS raised). AAPL is the single biggest index driver today (+3.43%), showing exceptional relative strength vs weak tech tape.
+  2 PM price: $332.79 | vs avg entry: +$2.52 (+0.76%) | day change: +3.46% from prev close $321.66
+  VWAP (day): ~$330.53 — price ABOVE VWAP ✓
+  Thesis: Apple Intelligence / Alibaba Qwen China AI regulatory approval + analyst PT raises (HSBC Buy $366, MS raised). Exceptional relative strength — biggest index driver on the day.
   ⚠️ EARNINGS JULY 30: July 29 3:15 PM agent MUST exit AAPL before close if not already stopped/TP'd. Do NOT hold through earnings.
-  Trail trigger $337.86 NOT reached ($5.18 above 1 PM price) — stop unchanged at $317.32.
+  Trail trigger $337.86 NOT reached ($5.07 above 2 PM price) — stop unchanged at $317.32.
   entry_type: scanner (original) / manual (add-on)
   - If AAPL >= $347.86: sell immediately (take-profit)
   - If AAPL <= $317.32: sell immediately (stop-loss)
   - If AAPL reaches $337.86 intraday: trail stop to $330.27 (avg entry / breakeven) immediately
 
 - MMM: 0.474448 shares, entry $174.94, stop-loss $169.00, take-profit $186.82, overnight flag: YES
-  1 PM price: $171.19 | vs entry: -$3.75 (-2.15%) | day change: +$1.60 (+0.94%) from prev close $169.59
-  VWAP: $171.68 — price slightly BELOW VWAP (by $0.49)
-  Stop buffer: $2.19 (1.28%) — THIN. Any afternoon sell-off could test $169.00.
-  Thesis: Q2 2026 earnings beat ($2.40 EPS vs $2.24 est., +7.1%); FY EPS guidance raised $8.80–$8.95. Industrial sector holding. No negative MMM-specific news.
+  2 PM price: $170.60 | vs entry: -$4.34 (-2.48%) | day change: +0.60% from prev close $169.59
+  VWAP (day): ~$171.51 — price BELOW VWAP ✗
+  Stop buffer: $1.60 (0.94%) — ⚠️ NEAR STOP — stop test imminent on any afternoon weakness
+  Thesis: Q2 2026 earnings beat ($2.40 EPS vs $2.24 est., +7.1%); FY EPS guidance raised $8.80–$8.95. Industrial sector holding. No negative MMM-specific news confirmed at 2 PM. Thesis intact.
   DO NOT widen stop. Let stop work at $169.00.
   entry_type: scanner
   - If MMM >= $186.82: sell immediately (take-profit)
   - If MMM <= $169.00: sell immediately (stop-loss)
 
 - HON: 0.243604 shares, avg entry $245.48, stop-loss $233.01, take-profit $269.79, overnight flag: YES
-  1 PM price: $241.24 | vs entry: -$4.24 (-1.73%) | day change: -$5.03 (-2.04%) from prev close $246.27
-  VWAP: $243.18 — price BELOW VWAP (by $1.94)
+  2 PM price: $241.24 | vs entry: -$4.24 (-1.73%) | day change: -2.04% from prev close $246.27
+  VWAP (day): ~$242.95 — price BELOW VWAP ✗
   Stop buffer: $8.23 (3.41%) — comfortable
-  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est., +7.1%); automation orders +16%; FY 2026 EPS guidance raised $8.05–$8.35. No negative HON-specific news at 1 PM. Thesis intact.
-  1 PM DECISION: HOLD. Price at -1.73% from entry (price condition met) but NO thesis break identified. No HON-specific negative news. Let stop at $233.01 do its job.
+  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est., +7.1%); automation orders +16%; FY 2026 EPS guidance raised $8.05–$8.35. No negative HON-specific news confirmed at 2 PM. Thesis intact.
+  2 PM DECISION: HOLD. Price at -1.73% from entry but NO thesis break identified. Let stop at $233.01 do its job.
   Trail trigger $250.18 NOT reached — stop unchanged at $233.01.
   entry_type: scanner
   - If HON >= $269.79: sell immediately (take-profit)
@@ -88,47 +88,54 @@ Open positions (4 total):
 
 - SLB: 1.452000 shares, entry $51.65, stop-loss $49.755, take-profit $55.44, overnight flag: YES (reassess at 3:15 PM — see note below)
   Opened by 10 AM session July 24, 2026. entry_type: catalyst_watch
-  1 PM price: $52.0956 | vs entry: +$0.4456 (+0.86%) | Day gain from prev close: +$4.8756 (+10.32%)
-  VWAP: $51.42 — price ABOVE VWAP ✓
-  ⚠️ OIL THESIS REVERSED: Oil is DOWN 4% to $95/bbl on Iran peace negotiations (Pakistan/China brokered). The Houthi attack oil spike that drove SLB's gap this morning has UNWOUND. Q2 earnings beat ($EPS beat, oilfield services demand) is still intact, but the dual-catalyst advantage is now single-catalyst only.
-  Trail trigger $52.70 NOT yet reached ($0.60 above 1 PM price) — stop unchanged at $49.755.
+  2 PM price: $52.26 | vs entry: +$0.61 (+1.18%) | Day gain from prev close: +10.67%
+  VWAP (day): ~$51.48 — price ABOVE VWAP ✓
+  ⚠️ OIL THESIS REVERSED: Oil continues falling on Iran peace negotiations. Q2 earnings beat (oilfield services demand) is still intact, but the dual-catalyst advantage is now single-catalyst only.
+  Trail trigger $52.70 NOT yet reached ($0.44 above 2 PM price) — stop unchanged at $49.755.
   - If SLB >= $55.44: sell immediately (take-profit)
   - If SLB <= $49.755: sell immediately (stop-loss)
   - If SLB reaches $52.70 intraday: trail stop to $51.65 (breakeven) immediately
 
-Sells executed this session (0): None. No stops or TPs triggered at 1 PM prices.
-Buys executed this session (0): None. Both momentum scanners returned 0 results. All semiconductor watchlist names DOWN sharply (SNDK -7.6%, MU -5.9%, INTC -4.5%, WDC -5.5%, AMAT -2.9%, QCOM -1.7%). No qualifying 1 PM candidates with confirmed catalysts found.
+Sells executed this session (0): None. No stops or TPs triggered at 2 PM prices.
+Buys executed this session (0): Both momentum scanners returned 0 results. All semiconductor watchlist names deeply negative (SNDK -9.1%, MU -6.5%, INTC -5.1%, WDC -5.6%, AMAT -3.4%, QCOM -1.8%). QQQ down -0.54% — semiconductor boost condition not met. No qualifying 2 PM candidates with confirmed catalysts found.
 
 Settled cash remaining: ~$356.28 (buying_power / settled only)
 Unsettled (settles July 25): ~$80.53 (ALLE proceeds from 7/24 10 AM session)
-Total account value: ~$848.27
-Portfolio invested: ~48.5% (4 positions, ~$411.43 at 1 PM prices)
+Total account value: ~$848.17
+Portfolio invested: ~48.5% (4 positions, ~$411.36 at 2 PM prices)
 
 ---
 
-NOTES FOR 3:15 PM AGENT (July 24, 2026):
+2 PM SESSION NOTE (July 24, 2026):
 
-1. ⚠️ SLB — OIL THESIS HAS REVERSED — REASSESS OVERNIGHT HOLD:
-   The primary catalyst for SLB's +10.32% gap was Houthi attacks driving oil higher. Oil is now DOWN 4% to $95/bbl on Iran peace negotiations. The oil surge tailwind is gone. SLB is still holding above entry ($51.65) and VWAP ($51.42) at 1 PM, but the momentum driver has reversed. 3:15 PM agent must decide: does the Q2 earnings beat ALONE justify an overnight hold with a 4.5% stop buffer? If SLB is below VWAP or below entry ($51.65) at 3:15 PM, strongly consider closing the position. Energy sector likely to drag further if oil continues declining.
+⚠️ NEAR STOP FLAGS:
+- MMM: NEAR STOP — current $170.60 vs stop $169.00, only 0.94% buffer. Any afternoon sell-off will trigger. NO discretionary exits — let stop work at $169.00.
 
-2. SLB TRAIL TRIGGER ($52.70): NOT reached at 1 PM ($52.0956). If reached before/at 3:15 PM, trail stop to $51.65 (breakeven) immediately.
+NEAR TP FLAGS: None.
 
-3. AAPL — RELATIVE STRENGTH STAR:
-   AAPL +3.43% on day, single biggest index contributor. Trail trigger $337.86 NOT reached at 1 PM. MUST EXIT before July 29 close (EARNINGS JULY 30 — do not hold through earnings under any circumstances). If trail trigger reached intraday, trail stop to $330.27.
+TRAIL TRIGGER CLOSE — WATCH:
+- SLB: trail trigger $52.70, current $52.26 — only $0.44 away. If SLB reaches $52.70 before/at 3:15 PM, trail stop to $51.65 (breakeven) immediately.
+- AAPL: trail trigger $337.86, current $332.79 — $5.07 away. Not close but monitor.
 
-4. MMM — STOP BUFFER THIN AT 1 PM:
-   MMM drifted from $172.345 (12 PM) to $171.19 (1 PM) — erasing half the midday recovery. Stop buffer now only $2.19 (1.28%) above the $169.00 stop. Afternoon market weakness could hit the stop. NO discretionary exits — let stop work.
+BROAD MARKET DIRECTION (as of 2:10 PM ET):
+- SPY: +0.38% — Normal regime, no risk-off gate
+- QQQ: -0.54% — Nasdaq weak, tech broadly red
+- Bifurcated: Dow/S&P slightly positive, Nasdaq/tech negative
+- Oil: continuing to fall on Iran peace negotiations (negative for SLB, positive for airlines)
+- Semiconductor sector deeply red across the board
 
-5. HON — BELOW VWAP, BELOW ENTRY, NO THESIS BREAK:
-   HON continues sliding lower. At -1.73% from entry, below VWAP, down -2.04% on the day. However, NO HON-specific negative news found at 1 PM — thesis (Q2 earnings beat, automation orders +16%) remains intact. Per rules: no discretionary exit without a thesis break. Stop at $233.01 is the exit mechanism ($8.23 buffer). If HON-specific negative news (downgrade, guidance cut) emerges before close, re-evaluate.
+KEY UPDATES SINCE 1 PM:
+- No new adverse news for MMM or HON found at 2 PM scan — both thesis intact
+- Iran peace negotiations continuing: oil headwind persists for SLB
+- Market regime: normal (SPY +0.38%, well above -1% and -2% thresholds)
 
-6. BROAD MARKET — BIFURCATED RECOVERY:
-   SPY +0.30%, Dow +0.7%, S&P +0.6% — recovering on Iran peace news. QQQ -0.58% — Nasdaq barely positive. AAPL pulling indices up single-handedly. Tech broadly weak (GOOGL, TSLA carnage from AI CapEx concerns). Energy mixed (oil down 4%). Airlines benefiting from lower oil (AAL +2.4%). No risk-off regime — SPY well above -2% threshold.
+SLB OVERNIGHT REASSESSMENT (for 3:15 PM agent):
+SLB still above entry ($51.65) and VWAP ($51.48) at 2 PM, so not an automatic exit. The 3:15 PM agent must decide: does Q2 earnings beat alone justify overnight hold? If SLB is below VWAP or below entry at 3:15 PM, strongly consider closing. If trail trigger $52.70 reached, trail stop to breakeven first.
 
-7. BUYING POWER FOR 3:15 PM:
-   Settled cash $356.28. Available to invest = $848.27 × 0.75 - $411.43 = $224.77. If a quality overnight setup appears (non-tech, non-energy, clean catalyst), capacity exists. Keep bar high — no 1 PM entries were made today.
+AAPL EARNINGS DEADLINE: July 30 (BMO). July 29 3:15 PM agent MUST exit before close.
 
-8. AAPL EARNINGS DEADLINE: AAPL earnings are July 30 (BMO). July 29 3:15 PM agent MUST exit before close.
+BUYING POWER FOR 3:15 PM:
+Settled cash $356.28. Available to invest = $848.17 × 0.75 - $411.36 = $224.77. Both scans empty at 2 PM — if 3:15 PM finds a quality overnight setup (non-tech, non-energy, clean catalyst), capacity exists.
 
 Catalyst watch list: NONE
 ---
