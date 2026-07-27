@@ -1,61 +1,61 @@
 {
-  "ts": "2026-07-27T19:10:00Z",
+  "ts": "2026-07-27T20:12:00Z",
   "source": "city_market_watch",
   "portfolio": {
-    "totalValue": 850.93213112,
-    "cash": 349.81,
-    "equityValue": 501.12213112,
-    "buyingPower": 349.81,
+    "totalValue": 851.61148384,
+    "cash": 370.67,
+    "equityValue": 480.94148384,
+    "buyingPower": 285.81,
     "positions": [
       {
         "ticker": "AAPL",
         "shares": 0.58858,
         "entry": 330.27,
-        "current": 335.5,
-        "plPct": 1.58,
+        "current": 337.15,
+        "plPct": 2.08,
         "stop": 330.27,
         "target": 347.86,
-        "catalyst": "Apple Intelligence + China AI approval + analyst PT raises"
+        "catalyst": "Apple Intelligence + China AI regulatory approval"
       },
       {
         "ticker": "MMM",
         "shares": 0.474448,
         "entry": 174.94,
-        "current": 176.81,
-        "plPct": 1.07,
-        "stop": 169.0,
+        "current": 177.60,
+        "plPct": 1.52,
+        "stop": 169.00,
         "target": 186.82,
-        "catalyst": "Q2 2026 earnings beat"
+        "catalyst": "Q2 earnings beat; FY guidance raised"
       },
       {
         "ticker": "HON",
         "shares": 0.243604,
         "entry": 245.48,
-        "current": 244.48,
-        "plPct": -0.41,
+        "current": 245.75,
+        "plPct": 0.11,
         "stop": 233.01,
         "target": 269.79,
-        "catalyst": "Q2 2026 earnings beat"
+        "catalyst": "Q2 earnings beat; automation orders +16%"
       },
       {
         "ticker": "SLB",
         "shares": 1.452,
         "entry": 51.65,
-        "current": 52.01,
-        "plPct": 0.70,
+        "current": 51.62,
+        "plPct": -0.06,
         "stop": 51.65,
         "target": 55.44,
-        "catalyst": "Q2 2026 earnings beat, oilfield services demand"
+        "catalyst": "Q2 earnings beat; oilfield services demand"
       },
       {
-        "ticker": "BKR",
-        "shares": 1.402549,
-        "entry": 62.03,
-        "current": 60.37,
-        "plPct": -2.68,
-        "stop": 60.08,
-        "target": 65.93,
-        "catalyst": "Q2 2026 massive earnings beat, record orders +49% YoY"
+        "ticker": "CRM",
+        "shares": 0.365839,
+        "entry": 174.94,
+        "current": 173.36,
+        "plPct": -0.90,
+        "stop": 167.14,
+        "target": 190.48,
+        "catalyst": "$1.6B VA Agentic Enterprise License Agreement"
       }
     ]
   },
@@ -67,6 +67,22 @@
       "qty": 1.402549,
       "price": 62.0299,
       "at": "2026-07-27T14:28:55.143Z"
+    },
+    {
+      "id": "6a67b102-daa0-44d1-b67a-f02cf0f35b00",
+      "side": "sell",
+      "ticker": "BKR",
+      "qty": 1.402549,
+      "price": 60.5021,
+      "at": "2026-07-27T19:26:58.65Z"
+    },
+    {
+      "id": "6a67b103-f7b6-49a9-857c-6c0cecc4ef57",
+      "side": "buy",
+      "ticker": "CRM",
+      "qty": 0.365839,
+      "price": 174.9399,
+      "at": "2026-07-27T19:27:00.135Z"
     }
   ]
 }
