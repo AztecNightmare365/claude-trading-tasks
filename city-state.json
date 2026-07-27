@@ -1,58 +1,61 @@
 {
-  "ts": "2026-07-27T18:11:00Z",
+  "ts": "2026-07-27T19:10:00Z",
   "source": "city_market_watch",
   "portfolio": {
-    "totalValue": 851.6794,
+    "totalValue": 850.93213112,
     "cash": 349.81,
-    "equityValue": 501.8694,
+    "equityValue": 501.12213112,
     "buyingPower": 349.81,
     "positions": [
       {
         "ticker": "AAPL",
         "shares": 0.58858,
         "entry": 330.27,
-        "current": 335.69,
-        "plPct": 1.64,
-        "stop": 317.32,
+        "current": 335.5,
+        "plPct": 1.58,
+        "stop": 330.27,
         "target": 347.86,
-        "catalyst": "Apple Intelligence + China AI approval"
+        "catalyst": "Apple Intelligence + China AI approval + analyst PT raises"
       },
       {
         "ticker": "MMM",
         "shares": 0.474448,
         "entry": 174.94,
-        "current": 177.15,
-        "plPct": 1.26,
+        "current": 176.81,
+        "plPct": 1.07,
         "stop": 169.0,
         "target": 186.82,
-        "catalyst": "earnings beat"
+        "catalyst": "Q2 2026 earnings beat"
       },
       {
         "ticker": "HON",
         "shares": 0.243604,
         "entry": 245.48,
-        "current": 243.6,
-        "plPct": -0.77,
+        "current": 244.48,
+        "plPct": -0.41,
         "stop": 233.01,
         "target": 269.79,
-        "catalyst": "earnings beat"
+        "catalyst": "Q2 2026 earnings beat"
       },
       {
         "ticker": "SLB",
         "shares": 1.452,
         "entry": 51.65,
-        "current": 52.37,
-        "plPct": 1.39,
-        "stop": 49.755,
+        "current": 52.01,
+        "plPct": 0.70,
+        "stop": 51.65,
         "target": 55.44,
-        "catalyst": "oilfield services earnings beat"
+        "catalyst": "Q2 2026 earnings beat, oilfield services demand"
       },
       {
         "ticker": "BKR",
         "shares": 1.402549,
         "entry": 62.03,
-        "current": 60.515,
-        "plPct": -2.44
+        "current": 60.37,
+        "plPct": -2.68,
+        "stop": 60.08,
+        "target": 65.93,
+        "catalyst": "Q2 2026 massive earnings beat, record orders +49% YoY"
       }
     ]
   },
