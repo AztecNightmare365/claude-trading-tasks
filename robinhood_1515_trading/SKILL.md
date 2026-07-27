@@ -47,84 +47,84 @@ Notes for 10:00 AM agent (June 25, 2026):
 ---
 
 ## HANDOFF FROM LAST 10 AM SESSION
-<!-- Updated by 1 PM session. Last updated: 2026-07-27 (~1:10 PM ET — 1 PM session complete). -->
+<!-- Updated by 2 PM session. Last updated: 2026-07-27 (~2:15 PM ET — 2 PM session complete). -->
 
-Last updated: 2026-07-27 (~1:10 PM ET — 1 PM session complete)
+Last updated: 2026-07-27 (~2:15 PM ET — 2 PM session complete)
 
 Open positions (5 total):
 
-- AAPL: 0.588580 shares, avg entry $330.27, stop-loss $317.32, take-profit $347.86, overnight flag: YES
-  1 PM price: $336.39 | vs avg entry: +$6.12 (+1.85%) | day change: +1.01% from prev close $333.02
-  Thesis: Apple Intelligence + Alibaba Qwen China AI regulatory approval + analyst PT raises (HSBC Buy $366, Morgan Stanley raised). Strong relative strength vs QQQ (-0.95%). VWAP $336.96 — price slightly below.
+- AAPL: 0.588580 shares, avg entry $330.27, stop-loss $330.27 (TRAILED from $317.32 — trigger $337.86 hit at $337.87 intraday, 10:15 AM ET), take-profit $347.86, overnight flag: YES
+  2 PM price: $335.79 | vs avg entry: +$5.52 (+1.67%) | day change: +0.83% from prev close $333.02
+  Thesis: Apple Intelligence + Alibaba Qwen China AI regulatory approval + analyst PT raises (HSBC Buy $366, Morgan Stanley raised). Holding well vs weak tech sector. VWAP $336.83 — price slightly below.
   entry_type: scanner (original) / manual (add-on)
-  ⚠️ EARNINGS DEADLINE: July 30 AMC — 3:15 PM agent on July 30 MUST exit AAPL before close. DO NOT hold through earnings. Earnings are AFTER the July 30 close — exit before July 30 close, NOT July 29.
-  ⚡ TRAIL TRIGGER: $337.86 — AAPL was $336.39 at 1 PM ($1.47 below; went DOWN from $337.10 at noon). NOT yet hit. If/when $337.86 hit intraday: trail stop to $330.27 (avg entry / breakeven) immediately.
+  ⚠️ EARNINGS DEADLINE: July 30 AMC — 3:15 PM agent on July 30 MUST exit AAPL before close. DO NOT hold through earnings. Exit before July 30 close, NOT July 29.
+  Stop now at breakeven ($330.27). Buffer: $5.52 (1.64%).
   - If AAPL >= $347.86: sell immediately (take-profit)
-  - If AAPL <= $317.32: sell immediately (stop-loss)
-  - If AAPL reaches $337.86 intraday: trail stop to $330.27 (avg entry / breakeven) immediately
+  - If AAPL <= $330.27: sell immediately (stop-loss — trailed to breakeven)
 
 - MMM: 0.474448 shares, entry $174.94, stop-loss $169.00, take-profit $186.82, overnight flag: YES
-  1 PM price: $176.60 | vs entry: +$1.66 (+0.95%) | day change: +2.30% from prev close $172.62
-  Thesis: Q2 2026 earnings beat ($2.40 EPS vs $2.24 est., +7.1%); FY EPS guidance raised $8.80–$8.95. Performing well — strongest day change of all positions. Thesis intact.
+  2 PM price: $177.195 | vs entry: +$2.255 (+1.29%) | day change: +2.65% from prev close $172.62
+  Thesis: Q2 2026 earnings beat ($2.40 EPS vs $2.24 est., +7.1%); FY EPS guidance raised $8.80–$8.95. Second-best day change in portfolio. Thesis intact.
   entry_type: scanner
-  Stop buffer: $7.60 (4.30%) — healthy.
+  Stop buffer: $8.195 (4.63%) — healthy.
   - If MMM >= $186.82: sell immediately (take-profit)
   - If MMM <= $169.00: sell immediately (stop-loss)
 
 - HON: 0.243604 shares, avg entry $245.48, stop-loss $233.01, take-profit $269.79, overnight flag: YES
-  1 PM price: $243.74 | vs avg entry: -$1.74 (-0.71%) | day change: +0.24% from prev close $243.15
-  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est., +7.1%); automation orders +16%; FY 2026 EPS guidance raised $8.05–$8.35. RBC PT $298, Citi PT $279. Below entry but within hold threshold.
+  2 PM price: $243.71 | vs avg entry: -$1.77 (-0.72%) | day change: +0.23% from prev close $243.15
+  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY 2026 EPS guidance raised $8.05–$8.35. RBC PT $298, Citi PT $279. Within noise range, thesis intact.
   entry_type: scanner
-  Stop buffer: $10.73 (4.39%) — comfortable. Only -0.71% from entry — within <1.5% noise range, thesis intact, hold.
-  Trail trigger $250.18 NOT reached — $6.44 away at 1 PM.
+  Stop buffer: $10.70 (4.39%) — comfortable. VWAP $244.89 — price slightly below at $243.71.
+  Trail trigger $250.18 NOT hit — $6.47 away.
   - If HON >= $269.79: sell immediately (take-profit)
   - If HON <= $233.01: sell immediately (stop-loss)
   - If HON reaches $250.18 intraday: trail stop to $245.48 (breakeven) immediately
 
-- SLB: 1.452000 shares, entry $51.65, stop-loss $49.755, take-profit $55.44, overnight flag: YES
-  1 PM price: $52.33 | vs entry: +$0.68 (+1.32%) | day change: -0.17% from prev close $52.42
-  Thesis: Q2 2026 earnings beat (oilfield services demand confirmed). BKR's massive Q2 beat (orders +49% YoY, record IET) validates oilfield services demand thesis. Brent continuing lower on Iran ceasefire — headwind persists.
+- SLB: 1.452000 shares, entry $51.65, stop-loss $51.65 (TRAILED from $49.755 — trigger $52.70 hit at $53.105 intraday, 9:35 AM ET), take-profit $55.44, overnight flag: YES
+  2 PM price: $52.42 | vs entry: +$0.77 (+1.49%) | day change: flat from prev close $52.42
+  Thesis: Q2 2026 earnings beat (oilfield services demand confirmed). BKR massive beat validates sector. Oil headwind from Iran ceasefire persists (Brent lower).
   entry_type: catalyst_watch
-  Stop buffer: $2.575 (4.91%) — adequate.
-  VWAP $52.50 — price slightly below at $52.33. Above entry, thesis intact.
-  ⚡ TRAIL TRIGGER: $52.70 — SLB WENT DOWN to $52.33 at 1 PM (from $52.63 at noon). Trigger NOT hit ($0.37 away). If SLB reaches $52.70: trail stop from $49.755 to $51.65 (breakeven) immediately.
+  VWAP $52.48 — price slightly below at $52.42. Stop trailed to breakeven.
+  ⚡ NEAR STOP: Stop now $51.65 (breakeven). Current $52.42 only 1.47% above new stop. Stock declined from 9:35 AM high of $53.20. Reassess overnight hold at 3:15 PM — oil headwind persists, below VWAP. If below $51.65 at 3:15 PM: sell immediately.
   - If SLB >= $55.44: sell immediately (take-profit)
-  - If SLB <= $49.755: sell immediately (stop-loss)
-  - If SLB reaches $52.70 intraday: trail stop to $51.65 (avg entry / breakeven) immediately
+  - If SLB <= $51.65: sell immediately (stop-loss — trailed to breakeven)
 
 - BKR: 1.402549 shares, entry $62.03, stop-loss $60.08, take-profit $65.93, overnight flag: NO
-  1 PM price: $60.79 | vs entry: -$1.24 (-2.00%) | day change: +6.18% from prev close $57.25
-  Thesis: Q2 2026 massive earnings beat (Revenue $6.7B vs $6.49B est.; Record orders +49% YoY, Record IET orders $7.1B; full-year IET guidance raised). Quarterly dividend declared July 26. Cheniere LNG equipment contract secured. Thesis INTACT — pullback is post-earnings gap normalization.
+  2 PM price: $60.52 | vs entry: -$1.51 (-2.43%) | day change: +5.71% from prev close $57.25
+  Thesis: Q2 2026 massive earnings beat (Revenue $6.7B vs $6.49B est.; Record orders +49% YoY, Record IET $7.1B; full-year guidance raised). Venture Global LNG contract confirmed. NO new negative news today — pullback is post-earnings normalization.
   entry_type: catalyst_watch
-  VWAP $61.43 — price BELOW VWAP at $60.79 (declining VWAP trend since 10:25 AM).
-  ⚠️ CRITICAL — NEAR STOP: Stop $60.08 only $0.71 away (1.17% buffer). CHECK BKR FIRST at 3:15 PM before evaluating any other position.
-  NO discretionary exit at 1 PM: price condition met (-2.00%) but thesis NOT broken — stop is the mechanism (Learned Insight Rule 3).
-  BKR overnight hold decision for 3:15 PM: if above entry ($62.03) at 3:15 PM, overnight hold reasonable (next earnings Oct 22 — no binary risk). If still below entry but above stop: apply extra scrutiny — overnight gap risk elevated when position is near its stop.
+  VWAP $61.38 — price BELOW VWAP at $60.52 (steady downtrend from $62.58 high at 9:45 AM). Intraday low was $60.08 (first bar of the day — exactly at stop).
+  ⚠️ CRITICAL — NEAR STOP: Stop $60.08 only $0.44 away (0.73% buffer). Price has drifted lower all afternoon.
+  CHECK BKR FIRST at 3:15 PM. If BKR <= $60.08: sell immediately (market order, 1.402549 shares).
+  NO discretionary exit: thesis intact (Learned Insight Rule 3 — stop is the mechanism).
+  BKR overnight hold for 3:15 PM: still -2.43% from entry, below VWAP. Apply extra scrutiny. If above entry ($62.03): overnight reasonable. If still below entry: elevated gap risk — consider discretionary close unless strong AH catalyst emerges.
   - If BKR >= $65.93: sell immediately (take-profit)
   - If BKR <= $60.08: sell immediately (stop-loss)
 
 Sells executed this session: NONE
-Buys executed this session: NONE — both scanners returned 0 results (same as 12 PM); web search found only SAP +7.4% (ADR — disqualified) and RTX +2.61% (below 3% bar); broad market weak; no qualifying candidates. Learned insights applied.
+Buys executed this session: NONE — both scanners returned 0 results (third consecutive session with zero hits); semiconductor watchlist all down (SNDK -12%, MU -4%, WDC -5.2%, AMAT -5.5%, INTC -2.5%, QCOM +0.8% — QQQ down, sector rout); GOOGL +2.0% and F +0.66% both below 3% bar; no qualifying candidates.
+
+Stop trails applied this session (tracking updates, not Robinhood orders):
+- AAPL: stop trailed $317.32 → $330.27 (breakeven). Trigger $337.86 confirmed hit at 10:15 AM ET (bar high $337.87).
+- SLB: stop trailed $49.755 → $51.65 (breakeven). Trigger $52.70 confirmed hit at 9:35 AM ET (bar high $53.105).
 
 Catalyst watch list status carry-forward:
 - AZN: CONFIRMED but not entered (Q2 beat but muted reaction; revenue miss, China -13%; below 3% threshold — no change from prior handoffs)
 - CDNS: PENDING — reports AMC tonight July 27. TUESDAY 10 AM AGENT: If CDNS beats tonight, treat as fresh CATALYST CONFIRMED — gap up opportunity Tuesday morning.
 
-Notes for 3:15 PM agent:
-1. ⚠️ CRITICAL: BKR at $60.79 only $0.71 above stop $60.08. Holding steady at same level since noon — not recovering. CHECK BKR FIRST. If BKR <= $60.08: sell immediately (market order, 1.402549 shares). If above entry ($62.03) at 3:15 PM: overnight hold reasonable; if below entry but above stop: extra scrutiny before overnight hold.
-2. ⚡ SLB trail trigger $52.70 — price WENT DOWN to $52.33 at 1 PM (from $52.63 at noon; trigger receded to $0.37 away). Still apply immediately if hit. SLB below VWAP — if below entry ($51.65) at 3:15 PM, reassess overnight hold carefully given oil headwind.
-3. ⚡ AAPL trail trigger $337.86 — $1.47 away at 1 PM ($336.39, went down from $337.10 at noon). Apply if hit: trail stop to $330.27. AAPL showing strong relative strength vs tech sector.
-4. HON trail trigger $250.18 — $6.44 away at 1 PM. Not imminent.
-5. ⚠️ AAPL EARNINGS DEADLINE: July 30 AMC — the July 30 3:15 PM agent MUST sell AAPL before market close that day. Exit before July 30 close, NOT July 29.
-6. CDNS reports AMC tonight — Tuesday 10 AM agent handles catalyst reaction.
-7. Broad market at 1 PM: SPY -0.34%, QQQ -0.95%. Dow slightly positive (+0.13%). Tech deeply red: Nvidia -5.36%, AMD -7%, Teradyne -6%, Micron -6%. Non-tech holding better (SAP +7.4% but ADR; RTX +2.61%). Semiconductor sector deeply underperforming all day.
-8. RIVN: upgraded Overweight by Piper Sandler, up ~5% today but Q2 earnings July 30 AMC — binary risk. Do NOT hold overnight through July 30 earnings if entered at 3:15 PM.
-9. SLB: oil headwind from Iran ceasefire persists (Brent continuing lower). Q2 earnings beat thesis remains valid, but monitor price vs entry at 3:15 PM. If below VWAP and below entry, scrutinize overnight hold.
-10. Day P&L on held positions vs prior Friday close: +$8.85 unrealized (AAPL +$1.98, MMM +$1.89, HON +$0.14, SLB -$0.13, BKR +$4.97).
+2 PM SESSION NOTE for 3:15 PM agent:
+1. ⚠️ CRITICAL: BKR at $60.52, stop $60.08 — only $0.44 away (0.73% buffer). Intraday low of $60.08 was touched at the open. Price drifting lower all day. Thesis intact (no negative news). CHECK BKR FIRST. If <= $60.08: sell immediately (1.402549 shares, market order).
+2. ⚡ SLB NEAR STOP: stop trailed to breakeven $51.65 this session. Current $52.42 (1.47% above stop). Oil headwind persists. If at or below $51.65 at 3:15 PM: sell immediately. Reassess overnight hold carefully given declining momentum and below-VWAP price.
+3. AAPL stop trailed to breakeven $330.27 this session (trigger hit at $337.87 at 10:15 AM). Current $335.79 — safe buffer of 1.64%. EARNINGS DEADLINE July 30 AMC — 3:15 PM on July 30 MUST exit before close.
+4. HON trail trigger $250.18 — $6.47 away. Not imminent.
+5. CDNS reports AMC tonight — Tuesday 10 AM agent handles catalyst reaction.
+6. BROAD MARKET at 2 PM: SPY -0.15% (barely flat), QQQ -0.63%. Semiconductor sector rout: SNDK -12%, MU -4%, WDC -5.2%, AMAT -5.5%. Non-tech holding (MMM +2.65%, Dow edges higher). Real estate and materials leading. Tech/semis weak. Zero scanner results for third consecutive session.
+7. RIVN: Q2 earnings July 30 AMC — binary risk. Do NOT hold overnight through July 30 earnings if entered at 3:15 PM.
+8. Day P&L on held positions vs prior Friday close: ~+$8.53 unrealized (AAPL +$1.63, MMM +$2.17, HON +$0.14, SLB $0.00, BKR +$4.59).
 
 Settled cash remaining: $349.81 (unchanged — no trades executed)
-Total account value: ~$852.20 (equity ~$502.39 + cash $349.81)
-Portfolio invested: 59.0% (5 positions)
+Total account value: ~$851.89 (equity ~$502.08 + cash $349.81)
+Portfolio invested: 58.9% (5 positions)
 
 ---
 PRE-CHECK — Market day verification
