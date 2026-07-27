@@ -95,113 +95,92 @@ None. No position hit CRITICAL STOP BREACH, GAP DOWN SEVERE, or THESIS BROKEN th
 ## PRE-MARKET BRIEF
 <!-- Updated by the 9:15 AM pre-market agent. Read before Step 1. -->
 
-**Generated: 2026-07-24 ~9:15 AM ET**
+**Generated: 2026-07-27 ~9:15 AM ET (9:15 AM pre-market agent)**
 
 ---
 
-### OVERNIGHT POSITIONS: 4 HELD
+### 7 AM OVERNIGHT BRIEF STATUS
+Overnight brief EXISTS — ran 2026-07-24 ~7:44 PM ET (Friday evening, served as weekend hold brief). **PRE-MARKET SELLS PLACED by 7 AM agent: NONE.** All 4 positions held through weekend. Prices in that brief are Friday AH prices — refreshed below with live Monday pre-market quotes via Robinhood.
 
-| Ticker | Shares | Entry | Stop | TP | Pre-Mkt Price | vs Jul 23 Close | Flag |
-|--------|--------|-------|------|-----|--------------|----------------|------|
-| AAPL | 0.288213 | $327.50 | $317.32 | $347.86 | $321.58 | -$0.08 (-0.02%) | **ON TRACK** |
-| MMM | 0.474448 | $174.94 | $169.00 | $186.82 | $171.21 (8:47 AM) | +$1.62 (+0.96%) | **ON TRACK** |
-| ALLE | 0.520000 | $157.79 | $154.68 | $164.85 | $154.57 (no pre-mkt) | -$0.11 | **⛔ STOP BREACH** |
-| HON | 0.243810 | $245.27 | $233.01 | $269.79 | $246.13 (7:00 AM) | -$0.14 (-0.06%) | **ON TRACK** |
+---
 
-> **Data sources**: All prices from Robinhood extended-hours (`last_non_reg_trade_price`). ALLE has NO pre-market activity today — last trade was 5 PM ET July 23 at $154.57, which is below its stop of $154.68. MMM last trade 8:47 AM; HON last trade 7:00 AM. Bid/ask spreads are wide in thin pre-market — use `last_non_reg_trade_price` (not bid) as the reference price except where noted.
+### OVERNIGHT POSITIONS: 4 HELD (carried from Friday July 24)
+
+| Ticker | Shares | Entry | Stop | TP | Pre-Mkt Price | vs Fri Jul 24 Close | Flag |
+|--------|--------|-------|------|-----|--------------|---------------------|------|
+| AAPL | 0.588580 | $330.27 | $317.32 | $347.86 | $334.05 (9:17 AM) | +$1.03 (+0.31%) | **ON TRACK** |
+| MMM | 0.474448 | $174.94 | $169.00 | $186.82 | $174.50 (9:16 AM) | +$1.88 (+1.09%) | **ON TRACK** |
+| HON | 0.243604 | $245.48 | $233.01 | $269.79 | $248.00 (8:43 AM) | +$4.85 (+2.00%) | **ON TRACK ⚡ TRAIL TRIGGER NEAR** |
+| SLB | 1.452000 | $51.65 | $49.755 | $55.44 | $51.65 (9:16 AM) | -$0.77 (-1.47%) | **ON TRACK ⚠️ OIL/CEASEFIRE RISK** |
+
+> **Data sources**: All prices from Robinhood `last_non_reg_trade_price` (extended hours). Prior close = `adjusted_previous_close` (Friday July 24 official close). HON last trade 8:43 AM ET — slightly stale; bid $244.20/ask $249.86 confirms price in $248 range. SLB, AAPL, MMM all current as of 9:16–9:17 AM ET.
 
 ---
 
 ### POSITION DETAIL
 
 **AAPL — ON TRACK**
-Pre-market $321.58 (-0.02% vs Jul 23 close $321.66; bid $321.57/ask $321.71 — tight spread). Stop $317.32 is $4.26 (1.32%) below — adequate buffer. TP $347.86 is 8.2% away. Entry $327.50; currently $5.92 (-1.81%) below entry. No adverse AAPL-specific news overnight. Earnings still July 30 (6 days). Thesis intact — Apple Intelligence / China AI regulatory approval.
+Pre-market $334.05 (+0.31% vs Friday close $333.02; bid $333.90/ask $334.13 — tight spread). Stop $317.32 is $16.73 (5.02%) below — ample buffer. TP $347.86 is 4.13% away. Entry $330.27; currently +$3.78 (+1.15%) above avg entry. Broad market rally (S&P futures +0.97%, Nasdaq futures +1.7%) supporting tech ahead of July 30 earnings. No adverse AAPL-specific news overnight. Trail trigger $337.86 not yet reached — stop unchanged at $317.32.
 
-**Hold — thesis intact, stop well-buffered. Do NOT exit on broad-market noise. Stop unchanged at $317.32.**
+**Hold. Thesis intact. ⚠️ EARNINGS REMINDER: AAPL MUST be exited before market close July 30 (earnings AMC that evening). Trail trigger $337.86 intraday → trail stop to $330.27 (breakeven) immediately if reached.**
 
-**MMM — ON TRACK (RECOVERED)**
-Pre-market last trade $171.21 (+0.96% vs Jul 23 close $169.59; data as of 8:47 AM ET). Wide bid/ask ($165.24/$171.99) reflects thin pre-market — last TRADE at $171.21 is the reliable reference. Stop $169.00 is $2.21 (1.29%) below last trade — buffer improved vs yesterday. Note: insider selling by two MMM executives on July 23 (EVP CLO 7,669 shares, Group President 4,902 shares) — worth monitoring but NOT a thesis break; Q2 earnings beat thesis ($2.40 EPS, guidance raised) intact.
+**MMM — ON TRACK (IMPROVED BUFFER)**
+Pre-market $174.50 (+1.09% vs Friday close $172.62; bid $174.50/ask $174.82 — tight spread). Stop $169.00 is $5.50 (3.18%) below — significantly improved from Friday's tight 1.14% buffer at the 3:15 PM close. TP $186.82. Entry $174.94; currently -$0.44 (-0.25%) vs entry. No new adverse MMM-specific news overnight. Insider sale pattern (3 total exec sales since July 23) is a watch item, NOT a thesis break. Q2 earnings beat thesis ($2.40 EPS vs $2.24 est, guidance raised) intact.
 
-**Hold — stop buffer adequate, thesis intact. Check live price at open; if MMM prints at/below $169.00 sell immediately (0.474448 shares, market order).**
+**Hold — stop buffer much healthier than Friday. No discretionary exit warranted. Check live price at open; if MMM prints at/below $169.00 sell immediately (0.474448 shares, market order).**
 
-**ALLE — ⛔ STOP BREACH**
-Jul 23 close $154.57 is BELOW stop of $154.68 by $0.11. No pre-market activity today (last non-reg trade was 5 PM ET yesterday at $154.57). Bid $123.92/ask $155.92 — stale, ultra-wide spread. ALLE's thesis (Q2 beat: EPS $2.40 vs $2.22, guidance raised) remains valid, but the stock closed below the defined stop after fading from the 3:15 PM price of $155.51. The stop must be honored.
+**HON — ON TRACK ⚡ TRAIL TRIGGER APPROACHING**
+Pre-market $248.00 (+2.00% vs Friday close $243.15; data as of 8:43 AM ET — bid $244.20/ask $249.86, wide pre-market spread; last actual trade $248.00 is reference). Stop $233.01 is $14.99 (6.05%) below — excellent buffer. TP $269.79 is 8.8% away. Entry $245.48; currently +$2.52 (+1.03%) above entry. Continued strength post-earnings; RBC PT $298 and Citi PT $279 both raised last week; $0.70/share quarterly dividend declared (pays Sept 4). Trail trigger $250.18 is only $2.18 from last pre-market trade — imminent at open.
 
-**⛔ 10 AM AGENT: SELL ALLE IMMEDIATELY AT OPEN — 0.520000 shares, market order. Stop triggered (closed $154.57 below stop $154.68). Do NOT widen stop. Do NOT wait for recovery.**
+**Hold. Thesis intact, strengthening. ⚡ CRITICAL: If HON reaches $250.18 intraday, immediately trail stop to $245.48 (breakeven). Trail trigger likely reached early in session given current trajectory.**
 
-**HON — ON TRACK**
-Pre-market $246.13 (-0.06% vs Jul 23 close $246.27; data as of 7:00 AM ET). Stop $233.01 is $13.12 (5.33%) below — excellent buffer. Entry $245.27; currently +$0.86 (+0.35%) above entry. Thesis intact: Q2 beat confirmed ($1.95 EPS vs $1.82 est, automation orders +16%, FY guidance raised). Shares advanced pre-market even as U.S. futures were mixed.
+**SLB — ON TRACK ⚠️ OIL/CEASEFIRE RISK**
+Pre-market $51.65 (-1.47% vs Friday close $52.42; bid $51.50/ask $51.70 — tight spread, data as of 9:16 AM ET). Stop $49.755 is $1.895 (3.67%) below. Entry $51.65 — currently AT BREAKEVEN. Key development: US paused strikes against Iran over the weekend → Brent crude fell ~7.4% to below $90/bbl, the exact risk flagged in all prior handoffs. Finviz headline noted "SLB Drops 5.89% on Israel-Iran Ceasefire" — if a 5.89% decline from Friday's close ($52.42) materializes in the regular session, the target would be ~$49.33 (BELOW stop $49.755). However, current Robinhood pre-market quote ($51.65 at 9:16 AM ET) is authoritative — SLB is above stop. Partially offsetting: BKR's strong Q2 beat (+3.32% pre-market) validates oilfield services demand despite oil price weakness. Thesis (earnings beat / oilfield services demand) not yet broken.
 
-**Hold — thesis intact, ample stop buffer. Trail trigger $250.18 not yet reached; stop unchanged at $233.01.**
+**Hold for now (pre-market above stop). ⚠️ CRITICAL — 9:30 AM AGENT: Check SLB at the very first open print. If SLB opens at/below $49.755: SELL IMMEDIATELY (1.452000 shares, market order). If SLB opens cleanly above $50.50: monitor intraday — oil headwind could build. Brent -7.4% is the primary risk.**
 
 ---
 
 ### CATALYST WATCH LIST STATUS
 
-| Ticker | Pre-Mkt | vs Jul 23 Close | Gap% | Catalyst Status | Action |
-|--------|---------|----------------|------|-----------------|--------|
-| INTC | $102.70 | $100.23 | +2.47% | CATALYST CONFIRMED — FLAT/DOWN | MONITOR |
-| AXP | $324.30 | $340.84 | -4.85% | CATALYST FAILED | SKIP |
-| RTX | $210.34 | $209.16 | +0.56% | CATALYST CONFIRMED — FLAT/DOWN | MONITOR |
-| LMT | $570.00 | $568.59 | +0.25% | CATALYST CONFIRMED — FLAT/DOWN | MONITOR |
+| Ticker | Pre-Mkt Price | vs Fri Close | Gap% | Catalyst Status | Action |
+|--------|--------------|-------------|------|-----------------|--------|
+| BKR | $59.15 (9:14 AM) | +$1.90 | **+3.32%** | ⚡ CATALYST CONFIRMED — GAP UP | **9:30 AM AGENT: open-print entry candidate** |
+| AZN | $170.78 (9:15 AM) | +$1.52 | +0.90% | CATALYST CONFIRMED — FLAT/DOWN | MONITOR — 10 AM agent decides |
+| CDNS | $336.59 (9:15 AM) | +$10.35 | +3.17% | CATALYST PENDING (AMC tonight) | NOT actionable today — Tuesday 10 AM relevant |
 
-**INTC — CATALYST CONFIRMED — FLAT/DOWN**
-Q2 beat confirmed: EPS $0.42 vs $0.22 est (+93.9%), Revenue $16.13B vs $14.45B est, revenue +25% YoY (fastest growth in 15 years). Stock surged 12–13% in initial AH reaction to ~$110+, then gave back more than half by pre-market; now +2.47% above prior close. The fade from the initial spike is a caution signal. Note: $11B net loss due to accounting charges (transformation costs). 327% YTD run — 10 AM agent must check 5-day % move to verify not disqualified by >15% 5-day run rule. At +2.47%, technically within the 1–2% above prior close catalyst watch entry range, but momentum is fading. 10 AM agent should verify INTC is still trending up (not continuing to fade) before considering entry.
+**BKR — ⚡ CATALYST CONFIRMED — GAP UP**
+Q2 2026 confirmed (released Sunday Jul 26/early Monday): Adj EPS $0.64 vs $0.51 est (+25%), Revenue $6.74B vs $6.49B est (+3.8%), Orders $10.5B (+29% QoQ, +49% YoY). Record IET orders $7.1B; raised full-year IET guidance. Also closed Chart acquisition and agreed to sell Waygate Technologies (~$1.45B). Pre-market +3.32% at $59.15 (prior close $57.25). Investor call at 9:30 AM ET. DIRECTLY validates SLB oilfield services demand thesis even as oil prices fall — demand for energy services is robust. ⚡ FLAG FOR 9:30 AM OPEN REACTION AGENT: BKR is a CATALYST CONFIRMED — GAP UP entry candidate at the open print. Apply all standard hard disqualifiers before entry.
 
-**AXP — CATALYST FAILED**
-Reported BMO today (July 24). EPS $4.53 vs $4.45 est (small beat), but Revenue $19.64B missed estimates of $19.90B by $259M. Full-year revenue guidance raised to 10% growth; EPS guidance unchanged. Market treating this as a miss — stock down -4.85% pre-market ($324.30 vs close $340.84). Do NOT enter AXP regardless of price action at open. SKIP.
+**AZN — CATALYST CONFIRMED — FLAT/DOWN**
+Q2 2026 confirmed BMO today: Core EPS $2.63 vs $2.48 est (beat, +6%); Revenue $15.38B vs $15.39B est (fractional miss). Cancer drug sales +15%, rare disease +8%, China -13% headwind. 2026 guidance maintained. Stock up only +0.90% — muted reaction. Revenue miss and China weakness explain the flat-ish move; does NOT meet catalyst watch GAP UP threshold. 10 AM agent: verify AZN shows sustained momentum before considering standard scanner entry.
 
-**RTX — CATALYST CONFIRMED — FLAT/DOWN**
-Q2 beat confirmed (reported BMO July 23 — catalyst already fully priced in from yesterday's session). EPS $1.89 (+21% YoY), Revenue $24.7B (+14%), guidance raised, backlog $289B. Stock surged ~5% on July 23 open; Jul 23 close $209.16. Today pre-market +0.56% — no new catalyst for July 24. Treat as a standard momentum candidate (not catalyst watch) for 10 AM scanner review.
-
-**LMT — CATALYST CONFIRMED — FLAT/DOWN**
-Q2 beat confirmed (reported BMO July 23 — catalyst already priced in). EPS $7.94 vs $7.20 est (+10.3%), Revenue $20.1B vs $19.6B est, guidance raised, record $230B backlog. Stock rose ~5% during July 23 session; today pre-market only +0.25% — no new catalyst for July 24. Same as RTX — treat as standard momentum candidate at open, not a catalyst watch entry.
+**CDNS — CATALYST PENDING (AMC tonight)**
+CDNS has NOT yet reported. Reports AMC Monday July 27 (tonight). Pre-market +3.17% at $336.59 (prior close $326.24) — movement appears market-driven (Nasdaq futures +1.7%) plus partial recovery from recent -9% selloff over 7 days. NOT actionable for today's open. ⚠️ TUESDAY 10 AM AGENT: If CDNS reports a strong beat tonight, treat as a fresh CATALYST CONFIRMED — GAP UP situation Tuesday morning.
 
 ---
 
-### MACRO CONTEXT (pre-market July 24, 2026)
+### OVERNIGHT MACRO
 
-| Index | Jul 23 Close | Pre-Mkt Price | Change% | Note |
-|-------|-------------|--------------|---------|------|
-| SPY | $738.18 | $739.13 | **+0.13%** | Recovery from Thursday selloff |
-| QQQ | $691.96 | $691.67 | **-0.04%** | Essentially flat |
+| Indicator | Change | Note |
+|-----------|--------|------|
+| S&P 500 futures | **+0.97%** | Broad rally on Iran ceasefire / risk-on |
+| Nasdaq 100 futures | **+1.7%** | Tech / mega-cap strength |
+| Brent crude | **-7.4%** (~$90/bbl) | Iran ceasefire; negative for SLB/energy |
 
-**Regime gate status**: SPY +0.13% — NORMAL REGIME. Full position sizing permitted. No regime gate constraints for 10 AM session.
+**Key overnight developments:**
+1. **US-Iran ceasefire / pause in strikes**: US paused almost two-week run of strikes against Iran. Brent fell ~7.4% to below $90/bbl. Direct materialization of the weekend risk flagged for SLB in all prior handoffs. Positive for broad equities (risk-on), negative for energy stocks.
+2. **BKR Q2 MASSIVE BEAT**: Baker Hughes Adj EPS $0.64 vs $0.51 est, Revenue $6.74B vs $6.49B est, Orders +49% YoY. Validates oilfield services demand even as oil prices soften. Investor call 9:30 AM ET.
+3. **AZN Q2 BEAT BMO**: Core EPS $2.63 vs $2.48 est; fractional revenue miss; China -13%. Stock +0.90% — muted.
+4. **CDNS not yet reported**: Reports tonight AMC; Tuesday 10 AM session relevant.
+5. **FOMC Wednesday July 29**: Expected hold at 3.50–3.75%. No surprise expected. Tech/growth positioning ahead of Fed.
 
----
-
-### KEY OVERNIGHT DEVELOPMENTS
-
-**1. INTC Q2 EARNINGS BEAT — FADED FROM INITIAL SURGE**
-Intel Q2: EPS $0.42 vs $0.22 est, Revenue $16.13B vs $14.45B, +25% YoY. Initial AH surge 12–13% (to ~$110+) faded to +2.47% by pre-market. Data Center/AI revenue +59%, Foundry +31%. $11B net loss (accounting charges). INTC up 327% YTD — check 5-day disqualifier before entry.
-
-**2. AXP Q2 MIXED RESULTS — STOCK DOWN 4.85%**
-American Express BMO today: EPS small beat ($4.53 vs $4.45), revenue miss ($19.64B vs $19.90B). Full-year guidance raised but market punishing the revenue miss. AXP catalyst FAILED for long entry purposes.
-
-**3. RTX + LMT Q2 EARNINGS BEATS — ALREADY PRICED IN**
-RTX: EPS $1.89 (+21% YoY), revenue +14%, guidance raised. LMT: EPS $7.94 vs $7.20 est, revenue $20.1B, record $230B backlog. Both reported BMO July 23 and surged ~5% during yesterday's session. Today they're effectively flat pre-market — catalyst watch window closed.
-
-**4. ALLE STOP TRIGGERED AT CLOSE**
-ALLE faded from 3:15 PM price ($155.51) to close at $154.57, crossing the stop of $154.68. 10 AM agent must sell ALLE immediately at open (0.520000 shares, market order). Thesis intact but stop must be honored.
-
-**5. OIL / MACRO HEADWINDS**
-Brent crude briefly above $100/barrel on Red Sea tanker attacks (Iran war escalation continues). 10-year Treasury yield briefly above 4.7%. New Trump tariffs (10–12.5% rates on top trading partners) took effect overnight. These create broad inflationary headwinds but market is recovering modestly pre-market (SPY +0.13%).
-
----
-
-### FLAGS
-
-| Ticker | Shares @ Entry | Pre-Mkt Price | vs Jul 23 Close | Stop Distance | Flag |
-|--------|---------------|--------------|----------------|---------------|------|
-| AAPL | 0.288213 @ $327.50 | $321.58 | -0.02% | $4.26 (1.32%) above stop $317.32 | **ON TRACK** |
-| MMM | 0.474448 @ $174.94 | $171.21 (8:47 AM) | +0.96% | $2.21 (1.29%) above stop $169.00 | **ON TRACK** |
-| ALLE | 0.520000 @ $157.79 | $154.57 (no pre-mkt) | -0.07% | CLOSED BELOW STOP $154.68 | **⛔ STOP BREACH** |
-| HON | 0.243810 @ $245.27 | $246.13 (7:00 AM) | -0.06% | $13.12 (5.33%) above stop $233.01 | **ON TRACK** |
+**Broad market regime**: NORMAL — S&P futures +0.97%, Nasdaq +1.7%. No regime gate concerns for 10 AM session.
 
 ---
 
 ### ONE-LINE SUMMARY
-**3 positions ON TRACK (AAPL, MMM, HON), 1 STOP BREACH (ALLE — closed $154.57 below stop $154.68 — sell at open); 0 catalyst watch tickers actionable (AXP FAILED -4.85%; INTC/RTX/LMT all FLAT/DOWN — monitor at open). SPY +0.13% pre-market — NORMAL REGIME, full position sizing. Oil $100+/barrel and new tariffs are macro headwinds but market recovering from Thursday selloff.**
+**4 positions ON TRACK (AAPL +0.31%, MMM +1.09%, HON +2.00% — all strong; SLB -1.47% above stop but ⚠️ Brent -7.4% on Iran ceasefire — verify at open print); 1 catalyst watch CONFIRMED GAP UP (BKR +3.32%, 9:30 AM entry candidate), 1 CONFIRMED FLAT/DOWN (AZN +0.90%), 1 still PENDING (CDNS — AMC tonight). Broad market: S&P futures +0.97%, Nasdaq +1.7% — NORMAL REGIME.**
 
 ---
 
