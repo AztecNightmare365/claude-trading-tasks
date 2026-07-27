@@ -1,61 +1,58 @@
 {
-  "ts": "2026-07-27T17:10:00Z",
+  "ts": "2026-07-27T18:11:00Z",
   "source": "city_market_watch",
   "portfolio": {
-    "totalValue": 851.9448,
+    "totalValue": 851.6794,
     "cash": 349.81,
-    "equityValue": 502.1348,
+    "equityValue": 501.8694,
     "buyingPower": 349.81,
     "positions": [
       {
         "ticker": "AAPL",
         "shares": 0.58858,
         "entry": 330.27,
-        "current": 336.25,
-        "plPct": 1.81,
+        "current": 335.69,
+        "plPct": 1.64,
         "stop": 317.32,
         "target": 347.86,
-        "catalyst": "Apple Intelligence + China AI approval + analyst PT raises"
+        "catalyst": "Apple Intelligence + China AI approval"
       },
       {
         "ticker": "MMM",
         "shares": 0.474448,
         "entry": 174.94,
-        "current": 176.67,
-        "plPct": 0.99,
+        "current": 177.15,
+        "plPct": 1.26,
         "stop": 169.0,
         "target": 186.82,
-        "catalyst": "Q2 earnings beat, guidance raised"
+        "catalyst": "earnings beat"
       },
       {
         "ticker": "HON",
         "shares": 0.243604,
         "entry": 245.48,
-        "current": 243.74,
-        "plPct": -0.71,
+        "current": 243.6,
+        "plPct": -0.77,
         "stop": 233.01,
         "target": 269.79,
-        "catalyst": "Q2 earnings beat, automation orders +16%"
+        "catalyst": "earnings beat"
       },
       {
         "ticker": "SLB",
         "shares": 1.452,
         "entry": 51.65,
-        "current": 52.33,
-        "plPct": 1.32,
+        "current": 52.37,
+        "plPct": 1.39,
         "stop": 49.755,
         "target": 55.44,
-        "catalyst": "Q2 earnings beat, oilfield services demand"
+        "catalyst": "oilfield services earnings beat"
       },
       {
         "ticker": "BKR",
         "shares": 1.402549,
         "entry": 62.03,
-        "current": 60.74,
-        "plPct": -2.08,
-        "stop": 60.08,
-        "target": 65.93,
-        "catalyst": "Q2 earnings beat, record IET orders +49% YoY"
+        "current": 60.515,
+        "plPct": -2.44
       }
     ]
   },
