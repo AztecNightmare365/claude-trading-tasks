@@ -1,18 +1,18 @@
 {
-  "ts": "2026-07-27T16:15:00Z",
+  "ts": "2026-07-27T17:10:00Z",
   "source": "city_market_watch",
   "portfolio": {
-    "totalValue": 853.34,
+    "totalValue": 851.9448,
     "cash": 349.81,
-    "equityValue": 503.53,
+    "equityValue": 502.1348,
     "buyingPower": 349.81,
     "positions": [
       {
         "ticker": "AAPL",
         "shares": 0.58858,
         "entry": 330.27,
-        "current": 337.37,
-        "plPct": 2.15,
+        "current": 336.25,
+        "plPct": 1.81,
         "stop": 317.32,
         "target": 347.86,
         "catalyst": "Apple Intelligence + China AI approval + analyst PT raises"
@@ -21,8 +21,8 @@
         "ticker": "MMM",
         "shares": 0.474448,
         "entry": 174.94,
-        "current": 177.03,
-        "plPct": 1.19,
+        "current": 176.67,
+        "plPct": 0.99,
         "stop": 169.0,
         "target": 186.82,
         "catalyst": "Q2 earnings beat, guidance raised"
@@ -31,8 +31,8 @@
         "ticker": "HON",
         "shares": 0.243604,
         "entry": 245.48,
-        "current": 243.32,
-        "plPct": -0.88,
+        "current": 243.74,
+        "plPct": -0.71,
         "stop": 233.01,
         "target": 269.79,
         "catalyst": "Q2 earnings beat, automation orders +16%"
@@ -41,8 +41,8 @@
         "ticker": "SLB",
         "shares": 1.452,
         "entry": 51.65,
-        "current": 52.685,
-        "plPct": 2.0,
+        "current": 52.33,
+        "plPct": 1.32,
         "stop": 49.755,
         "target": 55.44,
         "catalyst": "Q2 earnings beat, oilfield services demand"
@@ -51,11 +51,11 @@
         "ticker": "BKR",
         "shares": 1.402549,
         "entry": 62.03,
-        "current": 60.81,
-        "plPct": -1.97,
+        "current": 60.74,
+        "plPct": -2.08,
         "stop": 60.08,
         "target": 65.93,
-        "catalyst": "Q2 earnings beat, record orders +49% YoY"
+        "catalyst": "Q2 earnings beat, record IET orders +49% YoY"
       }
     ]
   },
