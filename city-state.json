@@ -1,18 +1,18 @@
 {
-  "ts": "2026-07-27T14:13:00Z",
+  "ts": "2026-07-27T15:12:00Z",
   "source": "city_market_watch",
   "portfolio": {
-    "totalValue": 855.1880503528,
-    "cash": 436.81,
-    "equityValue": 418.3780503528,
-    "buyingPower": 436.81,
+    "totalValue": 854.36627245,
+    "cash": 349.81,
+    "equityValue": 504.55627245,
+    "buyingPower": 349.81,
     "positions": [
       {
         "ticker": "AAPL",
         "shares": 0.588580,
         "entry": 330.27,
-        "current": 336.215,
-        "plPct": 1.80,
+        "current": 338.6351,
+        "plPct": 2.53,
         "stop": 317.32,
         "target": 347.86,
         "catalyst": "Apple Intelligence + China AI approval + analyst PT raises"
@@ -21,8 +21,8 @@
         "ticker": "MMM",
         "shares": 0.474448,
         "entry": 174.94,
-        "current": 177.9551,
-        "plPct": 1.72,
+        "current": 177.27,
+        "plPct": 1.33,
         "stop": 169.00,
         "target": 186.82,
         "catalyst": "Q2 earnings beat, guidance raised"
@@ -31,8 +31,8 @@
         "ticker": "HON",
         "shares": 0.243604,
         "entry": 245.48,
-        "current": 246.57,
-        "plPct": 0.44,
+        "current": 245.50,
+        "plPct": 0.01,
         "stop": 233.01,
         "target": 269.79,
         "catalyst": "Q2 earnings beat, automation orders +16%"
@@ -41,13 +41,32 @@
         "ticker": "SLB",
         "shares": 1.452000,
         "entry": 51.65,
-        "current": 52.41,
-        "plPct": 1.47,
+        "current": 52.305,
+        "plPct": 1.27,
         "stop": 49.755,
         "target": 55.44,
         "catalyst": "Q2 earnings beat, oilfield services demand"
+      },
+      {
+        "ticker": "BKR",
+        "shares": 1.402549,
+        "entry": 62.03,
+        "current": 60.87,
+        "plPct": -1.87,
+        "stop": 60.08,
+        "target": 65.93,
+        "catalyst": "Q2 earnings beat, record orders +49% YoY"
       }
     ]
   },
-  "fills": []
+  "fills": [
+    {
+      "id": "6a676b26-1c4d-4242-987e-473c81c7a7ac",
+      "side": "buy",
+      "ticker": "BKR",
+      "qty": 1.402549,
+      "price": 62.0299,
+      "at": "2026-07-27T14:28:55.143Z"
+    }
+  ]
 }
