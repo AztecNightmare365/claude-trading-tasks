@@ -1,48 +1,48 @@
 {
-  "ts": "2026-07-29T12:11:00Z",
+  "ts": "2026-07-29T13:11:40Z",
   "source": "city_market_watch",
   "portfolio": {
-    "totalValue": 856.66,
+    "totalValue": 856.259180782,
     "cash": 443.63,
-    "equityValue": 413.03,
+    "equityValue": 412.629180782,
     "buyingPower": 443.63,
     "positions": [
       {
         "ticker": "AAPL",
-        "shares": 0.58858,
+        "shares": 0.588580,
         "entry": 330.27,
-        "current": 340.469,
-        "plPct": 3.09,
+        "current": 338.88,
+        "plPct": 2.61,
         "stop": 330.27,
         "target": 347.86,
-        "catalyst": "Apple Intelligence + Alibaba Qwen China AI approval + analyst PT raises"
+        "catalyst": "Apple Intelligence + China AI approval + analyst PT raises"
       },
       {
         "ticker": "MMM",
         "shares": 0.474448,
         "entry": 174.94,
-        "current": 182.5,
-        "plPct": 4.32,
-        "stop": 169.0,
+        "current": 182.55,
+        "plPct": 4.35,
+        "stop": 169.00,
         "target": 186.82,
-        "catalyst": "Q2 2026 earnings beat ($2.40 EPS vs $2.24 est.), guidance raised"
+        "catalyst": "Q2 2026 earnings beat; FY guidance raised"
       },
       {
         "ticker": "HON",
         "shares": 0.243604,
         "entry": 245.48,
-        "current": 247.1,
+        "current": 247.10,
         "plPct": 0.66,
         "stop": 233.01,
         "target": 269.79,
-        "catalyst": "Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.), automation orders +16%"
+        "catalyst": "Q2 2026 earnings beat; automation orders +16%"
       },
       {
         "ticker": "CRM",
         "shares": 0.365839,
         "entry": 174.94,
-        "current": 180.0,
-        "plPct": 2.89,
+        "current": 181.36,
+        "plPct": 3.67,
         "stop": 167.14,
         "target": 190.48,
         "catalyst": "$1.6B VA Agentic Enterprise License Agreement"
