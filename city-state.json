@@ -1,88 +1,53 @@
 {
-  "ts": "2026-07-27T20:12:00Z",
+  "ts": "2026-07-29T06:52:00Z",
   "source": "city_market_watch",
   "portfolio": {
-    "totalValue": 851.61148384,
-    "cash": 370.67,
-    "equityValue": 480.94148384,
-    "buyingPower": 285.81,
+    "totalValue": 857.8717437,
+    "cash": 443.63,
+    "equityValue": 414.2417437,
+    "buyingPower": 443.63,
     "positions": [
       {
         "ticker": "AAPL",
         "shares": 0.58858,
         "entry": 330.27,
-        "current": 337.15,
-        "plPct": 2.08,
+        "current": 341.23,
+        "plPct": 3.32,
         "stop": 330.27,
         "target": 347.86,
-        "catalyst": "Apple Intelligence + China AI regulatory approval"
+        "catalyst": "Apple Intelligence + Alibaba Qwen China AI approval + analyst PT raises"
       },
       {
         "ticker": "MMM",
         "shares": 0.474448,
         "entry": 174.94,
-        "current": 177.60,
-        "plPct": 1.52,
+        "current": 182.50,
+        "plPct": 4.32,
         "stop": 169.00,
         "target": 186.82,
-        "catalyst": "Q2 earnings beat; FY guidance raised"
+        "catalyst": "Q2 2026 earnings beat ($2.40 EPS vs $2.24 est.); FY guidance raised"
       },
       {
         "ticker": "HON",
         "shares": 0.243604,
         "entry": 245.48,
-        "current": 245.75,
-        "plPct": 0.11,
+        "current": 247.10,
+        "plPct": 0.66,
         "stop": 233.01,
         "target": 269.79,
-        "catalyst": "Q2 earnings beat; automation orders +16%"
-      },
-      {
-        "ticker": "SLB",
-        "shares": 1.452,
-        "entry": 51.65,
-        "current": 51.62,
-        "plPct": -0.06,
-        "stop": 51.65,
-        "target": 55.44,
-        "catalyst": "Q2 earnings beat; oilfield services demand"
+        "catalyst": "Q2 2026 earnings beat; automation orders +16%; RBC PT $298 / Citi PT $279"
       },
       {
         "ticker": "CRM",
         "shares": 0.365839,
         "entry": 174.94,
-        "current": 173.36,
-        "plPct": -0.90,
+        "current": 182.10,
+        "plPct": 4.09,
         "stop": 167.14,
         "target": 190.48,
         "catalyst": "$1.6B VA Agentic Enterprise License Agreement"
       }
     ]
   },
-  "fills": [
-    {
-      "id": "6a676b26-1c4d-4242-987e-473c81c7a7ac",
-      "side": "buy",
-      "ticker": "BKR",
-      "qty": 1.402549,
-      "price": 62.0299,
-      "at": "2026-07-27T14:28:55.143Z"
-    },
-    {
-      "id": "6a67b102-daa0-44d1-b67a-f02cf0f35b00",
-      "side": "sell",
-      "ticker": "BKR",
-      "qty": 1.402549,
-      "price": 60.5021,
-      "at": "2026-07-27T19:26:58.65Z"
-    },
-    {
-      "id": "6a67b103-f7b6-49a9-857c-6c0cecc4ef57",
-      "side": "buy",
-      "ticker": "CRM",
-      "qty": 0.365839,
-      "price": 174.9399,
-      "at": "2026-07-27T19:27:00.135Z"
-    }
-  ]
+  "fills": []
 }
