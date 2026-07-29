@@ -115,7 +115,7 @@ Format: `date,ticker,shares,entry_price,exit_price,entry_session,entry_type,exit
 ---
 
 STEP 9 — Update the 10 AM agent
-Append a `## OPEN REACTION UPDATE` section immediately after the existing `## PRE-MARKET BRIEF` block in `robinhood_1000_trading/SKILL.md`. Do NOT erase or replace the pre-market brief — only append below it. Include:
+OVERWRITE the `## OPEN REACTION UPDATE` block in `robinhood_1000_trading/SKILL.md`, placing it immediately after the `## OVERNIGHT BRIEF` block. **Replace any existing OPEN REACTION UPDATE block rather than appending a second one** — appending made this file grow without bound, and every routine pays to read all of it. Keep the block under 1,500 characters. (The 9:15 AM pre-market routine is retired, so there is no pre-market brief to append below.) Include:
 - Timestamp (9:30 AM ET)
 - Sells executed: ticker, open price, exit reason, gain/loss % and dollar
 - Catalyst entries made: ticker, entry price, shares, stop-loss, take-profit, catalyst, overnight flag

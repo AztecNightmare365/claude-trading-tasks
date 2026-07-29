@@ -95,6 +95,9 @@ Include results in the OVERNIGHT BRIEF (Step 6).
 STEP 6 — Write overnight brief
 Overwrite the `## OVERNIGHT BRIEF` block in `robinhood_1000_trading/SKILL.md`. If the block doesn't yet exist, insert it immediately before the `## PRE-MARKET BRIEF` block (or before `## HANDOFF FROM LAST 3:15 PM SESSION` if no pre-market brief block exists yet). Include:
 
+**LENGTH CAP (2026-07-29, usage reduction).** Keep this block under 1,800 characters. Terse bullets, no restated context, no prose paragraphs. Every routine re-reads this whole file on every run, so each extra line is paid for five times a day, every day. If you cannot fit it, cut the least actionable detail — never the numbers.
+
+
 - Timestamp (7 AM ET)
 - For each overnight position: pre-market price, overnight change %, flag status (CRITICAL STOP BREACH / GAP DOWN SEVERE / GAP DOWN WARNING / THESIS BROKEN / TP BREACH / ON TRACK), and one sentence of context.
 - Pre-market sells placed (if any): ticker, limit price, reason.

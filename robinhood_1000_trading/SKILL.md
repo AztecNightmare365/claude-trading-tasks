@@ -93,112 +93,8 @@ None. No position hit CRITICAL STOP BREACH, GAP DOWN SEVERE, or THESIS BROKEN th
 ---
 
 ## PRE-MARKET BRIEF
-<!-- Updated by the 9:15 AM pre-market agent. Read before Step 1. -->
 
-**Generated: 2026-07-29 ~9:15 AM ET (9:15 AM pre-market agent)**
-
----
-
-### ⚠️ SESSION GAP NOTICE
-The most recent HANDOFF FROM LAST 3:15 PM SESSION is dated **2026-07-27** (Monday). Sessions for **Tuesday July 28** do not appear to have run or updated this file. The 10 AM agent for July 29 (today, Wednesday) MUST perform a FULL PORTFOLIO SYNC against live Robinhood positions before acting — the handoff is 2 days stale. SLB in particular closed July 28 at $49.98, below its stop of $51.65 — it likely should have been exited then.
-
----
-
-### 7 AM OVERNIGHT BRIEF STATUS
-Overnight brief EXISTS but is **stale** — last run 2026-07-24 ~7:44 PM ET (Friday evening weekend brief). No 7 AM agent ran for July 27, 28, or 29. **PRE-MARKET SELLS PLACED by 7 AM agent: NONE** (per that brief). All position status below is based on the July 27 3:15 PM handoff refreshed with today's pre-market prices — 10 AM agent must verify against live portfolio.
-
----
-
-### OVERNIGHT POSITIONS: 5 IN HANDOFF (from July 27 3:15 PM session)
-
-| Ticker | Shares | Entry | Stop | TP | Pre-Mkt Price | vs Jul 28 Close | Flag |
-|--------|--------|-------|------|-----|--------------|-----------------|------|
-| AAPL | 0.588580 | $330.27 | $330.27 | $347.86 | $339.40 (9:17 AM) | -$0.68 (-0.20%) | **ON TRACK ⚠️ EARNINGS TOMORROW** |
-| MMM | 0.474448 | $174.94 | $169.00 | $186.82 | $182.55 (8:42 AM) | +$0.07 (+0.04%) | **ON TRACK — APPROACHING TP** |
-| HON | 0.243604 | $245.48 | $233.01 | $269.79 | $247.10 (3:29 AM stale) | +$0.05 (+0.02%) | **ON TRACK** |
-| SLB | 1.452000 | $51.65 | $51.65 | $55.44 | $50.91 (9:17 AM) | +$0.93 (+1.86%) | **🔴 STOP BREACH** |
-| CRM | 0.365880 | $174.92 | $167.14 | $190.48 | $181.05 (9:14 AM) | -$0.45 (-0.25%) | **ON TRACK** |
-
-> **Data sources**: Robinhood `last_non_reg_trade_price`. Prior close = `adjusted_previous_close` (July 28 official close). HON last non-reg trade 3:29 AM ET — stale; bid $245.30/ask $247.80 (9:03 AM) confirms ~$245-248 range. SLB stop was trailed to breakeven $51.65 (July 27 handoff, trigger $52.70 hit at 9:35 AM July 27). SLB July 28 close: $49.98 — already $1.67 below stop before today.
-
----
-
-### POSITION DETAIL
-
-**AAPL — ON TRACK ⚠️ EARNINGS DEADLINE: EXIT BEFORE JULY 30 CLOSE**
-Pre-market $339.40 (-0.20% vs July 28 close $340.08; bid $339.25/ask $339.43 — tight spread, 9:17 AM ET). Stop $330.27 (breakeven — trailed per July 27 handoff after $337.86 trigger hit) is $9.13 (2.69%) below. TP $347.86 is $8.46 (2.49%) away. Entry $330.27; current gain +$9.13 (+2.77%). Mixed analyst news: KeyBanc downgraded to Underweight ($250 PT); HSBC Buy rating intact ($366 PT). No adverse AAPL-specific overnight news. FOMC decision today at 2 PM ET may drive tech volatility.
-**Hold — thesis intact. ⚠️ CRITICAL: The July 30 3:15 PM agent MUST exit AAPL before close (earnings AMC July 30). Trail stop already at breakeven $330.27. If TP $347.86 hit before July 30 close: sell immediately.**
-
-**MMM — ON TRACK — APPROACHING TP**
-Pre-market $182.55 (+0.04% vs July 28 close $182.48; last trade 8:42 AM ET — slightly stale; bid $181.00/ask $182.62). Stop $169.00 is $13.55 (7.42%) below — excellent buffer. TP $186.82 is $4.27 (2.34%) away. Entry $174.94; current gain +$7.61 (+4.35%). Microsoft Azure AI partnership confirmed, stock up ~8% week-to-date on sustained momentum. Insider sale pattern (3 exec sales since July 23) is a monitor item, not a thesis break.
-**Hold — approaching TP. No pre-market action needed. If MMM reaches $186.82 at open: sell immediately (0.474448 shares, market order).**
-
-**HON — ON TRACK**
-Pre-market $247.10 (stale — last non-reg trade 3:29 AM ET; bid $245.30/ask $247.80 as of 9:03 AM ET confirms ~$245-248 range). vs July 28 close $247.05 — approximately flat. Stop $233.01 is ~$12-14 (5-6%) below — comfortable buffer. TP $269.79 is ~$22 (9%) away. Entry $245.48; approximately breakeven to +$1.62 above entry. Trail trigger $250.18 not yet hit. BofA upgraded to Neutral (from Underperform), PT $265. No adverse HON news. FOMC today creates broad industrials volatility risk.
-**Hold — thesis intact, comfortable buffer. Trail trigger $250.18: if hit intraday, trail stop to $245.48 (breakeven) immediately.**
-
-**SLB — 🔴 STOP BREACH — SELL AT OPEN**
-Pre-market $50.91 (+1.86% vs July 28 close $49.98; bid $50.18/ask $51.49, 9:17 AM ET). Stop is $51.65 (TRAILED TO BREAKEVEN — trigger $52.70 hit July 27 at 9:35 AM per handoff). Pre-market $50.91 is BELOW stop $51.65 by $0.74 (1.43%). Note: **SLB also closed July 28 at $49.98 — $1.67 below stop.** The position has been in stop-breach territory since July 28 open (sessions did not run to execute the exit). Oil: Brent $89.53 (fractionally higher than yesterday but still ~$10/bbl below SLB's earnings-surge highs). Iran peace talks continue to weigh on energy sector. The earnings-beat thesis has been overwhelmed by macro oil-price headwinds — oilfield services demand confirmed by BKR but crude price direction is the dominant factor.
-**🔴 10 AM AGENT: SELL SLB IMMEDIATELY AT MARKET OPEN. Stop was breached July 28 and position remains below stop today. Execute 1.452000 shares market order. No discretion.**
-
-**CRM — ON TRACK**
-Pre-market $181.05 (-0.25% vs July 28 close $181.50; bid $181.05/ask $182.00, 9:14 AM ET). Stop $167.14 is $13.91 (7.69%) below — excellent buffer. TP $190.48 is $9.43 (5.21%) away. Entry $174.92; current gain +$6.13 (+3.51%). Stock surged +8.05% July 27 and +4.51% July 28 on VA contract momentum and AI positioning. Morgan Stanley downgraded to Equal-Weight ($185 PT) is a headwind but thesis (VA $1.6B contract + agentic AI) remains intact. Slight pre-market softness is noise.
-**Hold — thesis intact, strong cushion. Monitor at open for adverse CRM news. No pre-market action needed.**
-
----
-
-### CATALYST WATCH LIST STATUS
-
-⚠️ NOTE: All 5 watch list tickers from the July 27 handoff have now reported (CDNS: AMC Jul 27; V, RCL, BA, KO: Jul 28). Since July 28 sessions did not run, today's 10 AM agent is the first to evaluate. Initial gap reactions have largely been absorbed by July 28 trading — these are not fresh gap-up situations.
-
-| Ticker | Pre-Mkt Price | vs Jul 28 Close | Gap% | Catalyst Status | Action |
-|--------|--------------|-----------------|------|-----------------|--------|
-| CDNS | $345.90 (9:16 AM) | +$1.18 | +0.34% | CATALYST CONFIRMED — FLAT/DOWN | 10 AM monitors; initial gap absorbed Jul 28 |
-| V | $358.39 (9:18 AM) | -$8.20 | -2.24% | CATALYST CONFIRMED — FLAT/DOWN | Sell-the-news despite beat; do not enter |
-| KO | data unavailable | n/a | n/a | CATALYST CONFIRMED (was +5% Jul 28) | 10 AM: fetch live price; possible sustained momentum |
-| RCL | data unavailable | n/a | n/a | NO CATALYST DATA | 10 AM: resolve at open |
-| BA | n/a | n/a | n/a | CATALYST FAILED | SKIP — reported expected loss, production concerns |
-
-**CDNS — CATALYST CONFIRMED — FLAT/DOWN**
-Reported AMC July 27: EPS $2.11 vs $2.05 est (BEAT, small). Revenue $1.584B vs $1.608B est (slight miss). Record backlog $8.1B; 2026 guidance updated to $6.26-6.34B revenue, $8.05-8.15 EPS. Stock had initial gap, now at $345.90 — only +0.34% from July 28 close. Gap was absorbed. Not a fresh GAP UP entry today; 10 AM agent: verify sustained momentum before considering standard scanner entry.
-
-**V — CATALYST CONFIRMED — FLAT/DOWN (sell-the-news)**
-Reported AMC July 28: EPS $3.32 vs $3.29 est (beat), Revenue $11.6B (marginal beat), +14% YoY. Despite beat, pre-market July 29 $358.39 vs July 28 close $366.59 = -$8.20 (-2.24%). Sell-the-news reaction — beat was modest vs high expectations. Do NOT enter V today.
-
-**KO — CATALYST CONFIRMED (partial data)**
-Reported BMO July 28; confirmed +5.00% on July 28 on strong pricing power / consumer resilience. Pre-market July 29 data unavailable. 10 AM agent: fetch live KO quote; if holding above July 28 close, consider via standard scanner. Watch FOMC rate-hold tailwind for defensive stocks.
-
-**RCL — NO CATALYST DATA**
-Reported BMO July 28. Specific results not found in search. 10 AM agent: check live price and news to resolve catalyst outcome before any consideration.
-
-**BA — CATALYST FAILED — SKIP**
-Reported BMO July 28. Expected loss reported; ongoing production, deliveries, and cash flow concerns. Do NOT enter BA regardless of price action.
-
----
-
-### OVERNIGHT MACRO
-
-| Indicator | Value | Note |
-|-----------|-------|------|
-| S&P 500 futures (SPY pre-mkt) | **+0.24%** (~$742.65) | FOMC decision day — cautiously positive |
-| Nasdaq 100 futures (QQQ pre-mkt) | **+0.02%** (~$675.59) | Muted; mega-cap earnings (MSFT, META) in focus |
-| Brent crude | **$89.53/bbl** (+$0.45) | Slight bounce; Iran situation ongoing, volatile |
-
-**Key developments since July 27:**
-1. **FOMC TODAY (2:00 PM ET, press conf 2:30 PM)**: 64% probability hold at 3.50–3.75% (5th consecutive hold). Fed Chair Warsh presser. No dot plot. Key risk: hawkish tone on oil-driven inflation could hit tech/growth names (AAPL, CRM). This is the dominant intraday event — 10 AM agent should not overextend buying power ahead of it.
-2. **SLB stop breach on July 28**: SLB closed at $49.98 July 28 (vs stop $51.65). Sessions did not run to execute the stop. Oil/Iran headwinds overwhelmed earnings beat. Exit at today's open.
-3. **MMM accelerating**: Stock up ~8% week-to-date (July 27-28) on earnings beat + Microsoft Azure AI partnership. Approaching TP $186.82 (only $4.27 / 2.34% away).
-4. **CRM continuing strength**: +8.05% July 27, +4.51% July 28 on VA contract + agentic AI. Morgan Stanley Equal-Weight headwind offset by price momentum.
-5. **AAPL earnings TOMORROW (July 30 AMC)**: Must exit before July 30 close. Wall St. expects EPS $1.89 vs $1.57 prior year. Today is the last session before the deadline.
-
-**Broad market regime**: NORMAL — SPY +0.24% pre-market. FOMC at 2 PM may shift regime intraday; monitor and avoid overcommitting ahead of the statement.
-
----
-
-### ONE-LINE SUMMARY
-**5 positions in handoff: 1 STOP BREACH (SLB — sell at open, closed Jul 28 at $49.98 below stop $51.65); 4 ON TRACK (AAPL -0.20% / earnings deadline July 30, MMM +0.04% / TP $186.82 only 2.34% away, HON ≈flat stale data, CRM -0.25% / +$6.13 above entry); Catalyst watch: CDNS CONFIRMED-FLAT (+0.34%), V CONFIRMED-FLAT/DOWN (-2.24% sell-the-news), KO confirmed/data pending, RCL no data, BA FAILED. FOMC 2 PM ET today — hold expected, tone is the risk. Broad market NORMAL (SPY +0.24%).**
-
----
+_Retired 2026-07-29: the 9:15 AM pre-market routine is disabled. This block is no longer written. Use the 7 AM OVERNIGHT BRIEF plus live quotes._
 
 ## LEARNED INSIGHTS
 <!-- Updated by weekly review agent. Last updated: 2026-07-25. Based on 12 closed trades. -->
@@ -319,32 +215,8 @@ MA   | Q2 2026 earnings BMO Jul 30 | BMO today (by 10 AM) | BULLISH — 4/4 beat
 ---
 
 ## AFTER-HOURS UPDATE
-<!-- Written by the 5 PM after-hours agent. -->
 
-Timestamp: 2026-07-24 ~5:20 PM ET (5 PM AH session complete)
-
-⚠️ WEEKEND HOLD IN EFFECT: All 4 positions below are held through the weekend (next trading day Monday July 27, 2026). Portfolio sync at 5 PM confirmed live Robinhood holdings exactly match the 3:15 PM handoff — no manual changes.
-
-AH sells placed: NONE.
-
-Positive AH events: NONE.
-
-Adverse AH events: NONE.
-
-Position-by-position AH check (all four overnight flag: YES, all confirmed via get_equity_quotes/get_equity_historicals extended-hours data ~5:15 PM ET):
-- AAPL: AH $333.33 vs today's close $333.07 (+0.08%). Stop $317.32 / TP $347.86 — well inside range. Earnings confirmed July 30 PM (not tonight). No news since 3:15 PM. NO EVENT — thesis intact, hold.
-- MMM: AH $171.10 vs today's close $172.60 (-0.87%, thin AH volume). Stop $169.00 / TP $186.82 — buffer $2.10 (1.2%), narrower than ideal for a weekend hold but still above stop. Q2 earnings already reported July 21 (priced in) — no report tonight. No adverse news found. NO EVENT — thesis intact, hold per 3:15 PM instruction (do not widen stop).
-- HON: AH $243.15 vs today's close $243.13 (flat). Stop $233.01 / TP $269.79 — ample buffer. Q2 earnings already reported July 23 (priced in) — no report tonight. No adverse news. NO EVENT — thesis intact, hold.
-- SLB: AH $52.35 vs today's close $52.455 (-0.20%). Stop $49.755 / TP $55.44 — ample buffer. Q2 earnings already reported this morning July 24 (the entry catalyst, already priced in) — no report tonight. Oil/Iran-peace-talks weekend risk already flagged by 3:15 PM session; no incremental adverse move in AH. NO EVENT — thesis intact, hold.
-
-Broad AH market: SPY flat on the day (+0.05%), Nasdaq -0.64% on a semiconductor selloff, Dow +0.46%. Brent crude retreating from $100 on Iran peace-talk optimism. No macro AH developments beyond what the 3:15 PM handoff already captured.
-
-Catalyst watch list for Monday July 27 (carried forward unchanged from 3:15 PM handoff — none of the three have reported yet, all still PENDING):
-BKR | Q2 earnings | BMO Monday | POSITIVE bias (validates SLB thesis) | MEDIUM risk
-AZN | Q2 earnings | BMO Monday (confirmed) | Unknown direction | MEDIUM risk
-CDNS | Q2 earnings | AMC Monday (confirmed, affects Tuesday 10 AM not Monday open) | POSITIVE bias | LOW-MEDIUM risk
-
-Summary: 0 AH sells, 0 positive events, 3 catalyst tickers for Monday (unchanged from 3:15 PM).
+_Retired 2026-07-29: the 5 PM after-hours routine is disabled. This block is no longer written. Read overnight positions from the 3:15 PM handoff instead._
 
 ---
 
