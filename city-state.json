@@ -1,18 +1,18 @@
 {
-  "ts": "2026-07-29T14:09:48Z",
+  "ts": "2026-07-29T15:12:00Z",
   "source": "city_market_watch",
   "portfolio": {
-    "totalValue": 858.024736605,
-    "cash": 443.63,
-    "equityValue": 414.394736605,
-    "buyingPower": 443.63,
+    "totalValue": 856.33466124,
+    "cash": 282.32,
+    "equityValue": 574.01466124,
+    "buyingPower": 282.32,
     "positions": [
       {
         "ticker": "AAPL",
-        "shares": 0.588580,
+        "shares": 0.58858,
         "entry": 330.27,
-        "current": 342.56,
-        "plPct": 3.72,
+        "current": 340.03,
+        "plPct": 2.96,
         "stop": 330.27,
         "target": 347.86,
         "catalyst": "Apple Intelligence + China AI approval + analyst PT raises"
@@ -21,9 +21,9 @@
         "ticker": "MMM",
         "shares": 0.474448,
         "entry": 174.94,
-        "current": 181.135,
-        "plPct": 3.54,
-        "stop": 169.00,
+        "current": 180.405,
+        "plPct": 3.12,
+        "stop": 169.0,
         "target": 186.82,
         "catalyst": "Q2 2026 earnings beat; FY guidance raised"
       },
@@ -31,8 +31,8 @@
         "ticker": "HON",
         "shares": 0.243604,
         "entry": 245.48,
-        "current": 242.6905,
-        "plPct": -1.14,
+        "current": 242.59,
+        "plPct": -1.18,
         "stop": 233.01,
         "target": 269.79,
         "catalyst": "Q2 2026 earnings beat; automation orders +16%"
@@ -41,13 +41,29 @@
         "ticker": "CRM",
         "shares": 0.365839,
         "entry": 174.94,
-        "current": 185.03,
-        "plPct": 5.77,
+        "current": 186.44,
+        "plPct": 6.57,
         "stop": 167.14,
         "target": 190.48,
         "catalyst": "$1.6B VA Agentic Enterprise License Agreement"
+      },
+      {
+        "ticker": "KO",
+        "shares": 1.785898,
+        "entry": 90.32,
+        "current": 90.245,
+        "plPct": -0.08
       }
     ]
   },
-  "fills": []
+  "fills": [
+    {
+      "id": "6a6a0b5d-b7a9-40ca-9b49-b80f9e9671c0",
+      "side": "buy",
+      "ticker": "KO",
+      "qty": 1.785898,
+      "price": 90.3243,
+      "at": "2026-07-29T14:17:01.306Z"
+    }
+  ]
 }
