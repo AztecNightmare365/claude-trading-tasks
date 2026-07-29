@@ -1,18 +1,18 @@
 {
-  "ts": "2026-07-29T06:52:00Z",
+  "ts": "2026-07-29T11:15:00Z",
   "source": "city_market_watch",
   "portfolio": {
-    "totalValue": 857.8717437,
+    "totalValue": 856.9730809088,
     "cash": 443.63,
-    "equityValue": 414.2417437,
+    "equityValue": 413.3430809088,
     "buyingPower": 443.63,
     "positions": [
       {
         "ticker": "AAPL",
         "shares": 0.58858,
         "entry": 330.27,
-        "current": 341.23,
-        "plPct": 3.32,
+        "current": 341.4142,
+        "plPct": 3.37,
         "stop": 330.27,
         "target": 347.86,
         "catalyst": "Apple Intelligence + Alibaba Qwen China AI approval + analyst PT raises"
@@ -21,8 +21,8 @@
         "ticker": "MMM",
         "shares": 0.474448,
         "entry": 174.94,
-        "current": 182.50,
-        "plPct": 4.32,
+        "current": 181.6111,
+        "plPct": 3.81,
         "stop": 169.00,
         "target": 186.82,
         "catalyst": "Q2 2026 earnings beat ($2.40 EPS vs $2.24 est.); FY guidance raised"
@@ -41,8 +41,8 @@
         "ticker": "CRM",
         "shares": 0.365839,
         "entry": 174.94,
-        "current": 182.10,
-        "plPct": 4.09,
+        "current": 180.50,
+        "plPct": 3.18,
         "stop": 167.14,
         "target": 190.48,
         "catalyst": "$1.6B VA Agentic Enterprise License Agreement"
