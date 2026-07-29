@@ -1,58 +1,58 @@
 {
-  "ts": "2026-07-29T17:09:00Z",
+  "ts": "2026-07-29T18:12:00Z",
   "source": "city_market_watch",
   "portfolio": {
-    "totalValue": 856.6064884406,
+    "totalValue": 856.8180229,
     "cash": 282.32,
-    "equityValue": 574.2864884406,
+    "equityValue": 574.4980229,
     "buyingPower": 282.32,
     "positions": [
       {
         "ticker": "AAPL",
         "shares": 0.58858,
         "entry": 330.27,
-        "current": 341.8399,
-        "plPct": 3.50,
+        "current": 343.78,
+        "plPct": 4.09,
         "stop": 330.27,
         "target": 347.86,
-        "catalyst": "Apple Intelligence + China AI approval"
+        "catalyst": "Apple Intelligence + Alibaba Qwen China AI approval"
       },
       {
         "ticker": "MMM",
         "shares": 0.474448,
         "entry": 174.94,
-        "current": 179.405,
-        "plPct": 2.55,
+        "current": 179.315,
+        "plPct": 2.50,
         "stop": 169.00,
         "target": 186.82,
-        "catalyst": "Q2 earnings beat"
+        "catalyst": "Q2 2026 earnings beat"
       },
       {
         "ticker": "HON",
         "shares": 0.243604,
         "entry": 245.48,
-        "current": 241.99,
-        "plPct": -1.42,
+        "current": 243.85,
+        "plPct": -0.66,
         "stop": 233.01,
         "target": 269.79,
-        "catalyst": "Q2 earnings beat"
+        "catalyst": "Q2 2026 earnings beat + automation orders +16%"
       },
       {
         "ticker": "CRM",
         "shares": 0.365839,
         "entry": 174.94,
-        "current": 188.125,
-        "plPct": 7.54,
+        "current": 188.295,
+        "plPct": 7.63,
         "stop": 167.14,
         "target": 190.48,
-        "catalyst": "VA $1.6B agentic AI contract"
+        "catalyst": "$1.6B VA agentic AI contract"
       },
       {
         "ticker": "KO",
         "shares": 1.785898,
         "entry": 90.32,
-        "current": 89.71,
-        "plPct": -0.68
+        "current": 88.935,
+        "plPct": -1.53
       }
     ]
   },
