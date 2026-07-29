@@ -169,7 +169,7 @@ Output a clean summary including:
 - Settled cash available
 - Broad market context at noon: SPY/QQQ direction and trend vs morning open
 
-Then email this summary to yourself using the Gmail MCP tools. Send to aqmeyer123@gmail.com with subject "Robinhood 12 PM session — [DATE]". Body = the summary above in clean plain text. Lead with a one-line headline: total account value, day's P&L so far, number of positions held, and any stops trailed. Put any portfolio-sync or regime-gate flags at the top.
+**EMAIL DISABLED (2026-07-29, usage reduction).** Do NOT send any email for this routine. Output the summary to the session transcript only. Aaron still gets a push notification when the routine finishes, and the city dashboard reads the handoff, so the email was pure duplicated cost on every run. Conditional CRITICAL alerts in other routines are unaffected.
 
 ---
 

@@ -174,7 +174,7 @@ git push
 STEP 10 — Summary + email
 Output a clean summary: positions exited (ticker, reason, gain/loss %), stops trailed, positions kept with updated targets, new positions bought (ticker, shares, dollar amount, catalyst, stop/TP, overnight flag), skipped actions and why, portfolio allocation, settled cash, broad market context.
 
-Email this summary via the Gmail MCP tools to aqmeyer123@gmail.com with subject "Robinhood 2 PM session — [DATE]" (use "⚠ Robinhood 2 PM stop triggered — [DATE]" instead if any stop-loss fired). Lead with a one-line headline: total account value, day's P&L so far, positions held, anything triggered.
+**EMAIL DISABLED (2026-07-29, usage reduction).** Do NOT send any email for this routine. Output the summary to the session transcript only. Aaron still gets a push notification when the routine finishes, and the city dashboard reads the handoff, so the email was pure duplicated cost on every run. Conditional CRITICAL alerts in other routines are unaffected.
 
 ---
 
