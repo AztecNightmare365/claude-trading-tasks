@@ -47,88 +47,89 @@ Notes for 10:00 AM agent (June 25, 2026):
 ---
 
 ## HANDOFF FROM LAST 10 AM SESSION
-<!-- This block is overwritten at the end of every 10 AM session. Read it before Step 1. -->
+<!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-07-29 (~10:17 AM ET — 10 AM session complete)
+Last updated: 2026-07-29 (~12:07 PM ET — 12 PM reassessment complete)
 
 Open positions (5 total):
 
-- AAPL: 0.588580 shares, avg entry $330.27, stop-loss $330.27 (TRAILED to breakeven — trigger $337.86 hit July 27 at 10:15 AM ET), take-profit $347.86, overnight flag: YES
-  10 AM price: $342.41 | vs avg entry: +$12.14 (+3.67%) | day change: +$2.33 (+0.69% vs Jul 28 close $340.08)
+- AAPL: 0.588580 shares, avg entry $330.27, stop-loss $330.27 (TRAILED to breakeven — unchanged from 10 AM), take-profit $347.86, overnight flag: YES
+  12 PM price: $340.955 | vs avg entry: +$10.685 (+3.24%) | day change: +0.26%
   entry_type: scanner (original) / manual (add-on)
-  Thesis: Apple Intelligence + Alibaba Qwen China AI regulatory approval + analyst PT raises (HSBC Buy $366). Stop at breakeven. Strong above stop.
-  Buffer: $12.14 (3.67%) — healthy. TP $347.86 is $5.45 (1.59%) away.
+  Thesis: Apple Intelligence + Alibaba Qwen China AI regulatory approval + analyst PT raises (HSBC Buy $366). Stop at breakeven.
+  Buffer: $10.685 (3.24%). TP $347.86 is $6.90 (2.03%) away.
   ⚠️ EARNINGS DEADLINE: July 30 AMC — 3:15 PM agent on July 30 MUST exit AAPL before close. DO NOT hold through earnings.
   - If AAPL >= $347.86: sell immediately (take-profit, 0.588580 shares, market order)
   - If AAPL <= $330.27: sell immediately (stop-loss — breakeven)
 
-- MMM: 0.474448 shares, entry $174.94, stop-loss $169.00, take-profit $186.82, overnight flag: YES
-  10 AM price: $180.87 | vs entry: +$5.93 (+3.39%) | day change: -$1.61 (-0.88% vs Jul 28 close $182.48)
+- MMM: 0.474448 shares, entry $174.94, stop-loss $174.94 (TRAILED from $169.00 to breakeven — up 2.44% from entry, trade now risk-free), take-profit $186.82, overnight flag: YES
+  12 PM price: $179.215 | vs entry: +$4.275 (+2.44%) | day change: -1.79%
   entry_type: scanner
-  Thesis: Q2 2026 earnings beat ($2.40 EPS vs $2.24 est.); FY EPS guidance raised; Microsoft Azure AI partnership. Pulling back today but thesis intact.
-  Buffer: $11.87 (6.56%) — healthy. TP $186.82 is $5.95 (3.29%) away.
+  Thesis: Q2 2026 earnings beat ($2.40 EPS vs $2.24 est.); FY EPS guidance raised; Microsoft Azure AI partnership. Fading today on FOMC/Iran risk-off; thesis intact.
+  Buffer: $4.275 (2.44%) — stop now at breakeven, position is risk-free.
   - If MMM >= $186.82: sell immediately (take-profit, 0.474448 shares, market order)
-  - If MMM <= $169.00: sell immediately (stop-loss)
+  - If MMM <= $174.94: sell immediately (stop-loss — breakeven)
 
 - HON: 0.243604 shares, avg entry $245.48, stop-loss $233.01, take-profit $269.79, overnight flag: YES
-  10 AM price: $242.67 | vs avg entry: -$2.81 (-1.14%) | day change: -$4.38 (-1.77% vs Jul 28 close $247.05)
+  12 PM price: $241.065 | vs avg entry: -$4.415 (-1.80%) | day change: -2.42%
   entry_type: scanner
-  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY guidance raised. RBC PT $298, Citi PT $279. Today's weakness is FOMC-day caution/Iran risk-off on industrials; NO thesis break.
-  Buffer: $9.66 (3.98%) — comfortable. Down -1.14% from entry (within noise; below 1.5% discretionary exit threshold).
-  Trail trigger $250.18 NOT hit — $7.51 away.
+  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY guidance raised. RBC PT $298, Citi PT $279, BofA upgraded to Neutral (PT $265). FOMC/Iran risk-off on industrials; thesis confirmed intact by 12 PM web search (no new negatives). Down -1.80% from entry — price condition met but thesis intact. HOLD, do not exit on price action alone.
+  Buffer to stop: $8.055 (3.34%). Trail trigger $250.18 NOT hit (intraday high was $246.24).
   - If HON >= $269.79: sell immediately (take-profit, 0.243604 shares, market order)
   - If HON <= $233.01: sell immediately (stop-loss)
   - If HON reaches $250.18 intraday: trail stop to $245.48 (breakeven) immediately
 
-- CRM: 0.365839 shares, entry $174.94, stop-loss $167.14, take-profit $190.48, overnight flag: YES
-  10 AM price: $185.29 | vs entry: +$10.35 (+5.92%) | day change: +$3.79 (+2.09% vs Jul 28 close $181.50)
+- CRM: 0.365839 shares, entry $174.94, stop-loss $185.46 (TRAILED from $167.14 — up 7.99% from entry, trailing to 11:00 AM ET intraday support pivot), take-profit $190.48, overnight flag: YES
+  12 PM price: $188.910 | vs entry: +$13.970 (+7.99%) | day change: +4.09%
   entry_type: scanner
-  Thesis: $1.6B, 3-year Agentic Enterprise License Agreement with U.S. Veterans Affairs. Strong ongoing momentum.
-  Buffer: $18.15 (9.79%) — excellent. TP $190.48 is $5.19 (2.80%) away.
-  ⚡ APPROACHING TP: Only $5.19 (2.80%) from TP $190.48. If CRM reaches $190.48: sell immediately (0.365839 shares, market order).
+  Thesis: $1.6B, 3-year Agentic Enterprise License Agreement with U.S. Veterans Affairs. Strong sustained momentum all day.
+  Trailing stop at $185.46 locks in minimum ~$3.85 gain. TP $190.48 is only $1.57 (0.83%) away.
+  ⚡ APPROACHING TP: If CRM reaches $190.48: sell immediately (0.365839 shares, market order). This would be the account's first ever TP hit.
   - If CRM >= $190.48: sell immediately (take-profit, 0.365839 shares, market order)
-  - If CRM <= $167.14: sell immediately (stop-loss)
+  - If CRM <= $185.46: sell immediately (stop-loss — trailed)
 
 - KO: 1.785898 shares, entry $90.3243, stop-loss $88.64, take-profit $93.69, overnight flag: YES
-  10 AM price: $90.32 | vs entry: ~flat (entered at 10:17 AM ET)
+  12 PM price: $90.240 | vs entry: -$0.084 (-0.09%)
   entry_type: catalyst_watch
-  Thesis: Q2 2026 earnings beat BMO July 28 (strong pricing power/consumer resilience, +5% July 28). Defensive consumer staples — FOMC rate-hold tailwind (expected hold 3.50-3.75%). 52-week high breakout today. Above VWAP at time of entry.
-  Stop $88.64 = July 29 session 30-min low. Risk/share: $1.684. Dollar risk: $3.01.
-  TP $93.69 = 2× stop distance above entry (1:2 R/R).
+  Thesis: Q2 2026 earnings beat BMO July 28 (strong pricing power/consumer resilience). Defensive consumer staples — FOMC rate-hold tailwind. FOMC decision at 2 PM ET today; KO insulated as a defensive.
+  ⚠️ NOTE: 9:30 AM opening bar low was exactly $88.64 (= stop level) — immediately recovered to $90.92+. At noon $90.24 is well above stop. HOLD.
+  No trail yet (not up 2%+ from entry).
   - If KO >= $93.69: sell immediately (take-profit, 1.785898 shares, market order)
   - If KO <= $88.64: sell immediately (stop-loss)
 
-Portfolio sync: SLB (1.452000 shares) was in the July 27 handoff but NOT in live Robinhood portfolio. Confirmed: USER manually sold SLB July 28 at $50.245 (placed_agent=user, 10:38 AM ET). P&L: -2.72% / -$2.04. Logged to trade_log.csv.
+Portfolio sync: No discrepancies. All 5 positions match 10 AM handoff exactly. No manual trades detected since 10 AM session.
 
-Buys executed this session: 1
-- KO: 1.785898 shares, $161.31 market order (order ID: 6a6a0b5d-b7a9-40ca-9b49-b80f9e9671c0), filled at $90.3243
-  Stop $88.64 / TP $93.69 / entry_type: catalyst_watch
+Buys executed this session: 0 (no new buys — caution market regime SPY -1.05%, 6th consecutive zero scanner session, pre-FOMC risk-off, 12 PM historical win rate 0%)
 
-Sells executed this session: 0 (no stop/TP hits; all positions held)
+Sells executed this session: 0 (no stop/TP triggers at noon prices)
 
-Scanner results: Both scanners 0 results (5th consecutive zero session).
+Stop trails this session: 2
+- MMM: $169.00 → $174.94 (breakeven trail; +2.44% from entry, now risk-free)
+- CRM: $167.14 → $185.46 (11:00 AM ET intraday support; +7.99% from entry, locks in ~$3.85 gain)
+
+Scanner results: Both scanners 0 results (6th consecutive zero session).
 
 Catalyst watch list status carry-forward:
-- KO: CATALYST CONFIRMED — ENTERED at $90.3243 (1.785898 shares, catalyst_watch). Earnings beat July 28 BMO.
+- KO: CATALYST CONFIRMED — ENTERED (in portfolio)
 - CDNS: CONFIRMED but not entered — today -0.25% (faded, no qualifying momentum)
-- V: CONFIRMED but not entered — sell-the-news (-2.24% despite beat)
-- RCL: CONFIRMED but not entered — only +0.70% (below 1-2% catalyst watch threshold)
+- V: CONFIRMED but not entered — sell-the-news (-2.24%)
+- RCL: CONFIRMED but not entered — only +0.70%
 - BA: CATALYST FAILED — do not chase
 
-Settled cash remaining: ~$282.32 (after -$161.31 KO buy from $443.63)
-Total account value: ~$857.88
-Portfolio invested: ~67.1% (5 positions: AAPL, MMM, HON, CRM, KO)
+Settled cash remaining: ~$282.32 (unchanged — no trades this session)
+Total account value: ~$857.01 (AAPL $200.72 + MMM $84.99 + HON $58.72 + CRM $69.10 + KO $161.16 = $574.69 invested + $282.32 cash)
+Portfolio invested: ~67.1% (unchanged)
 
 Notes for 3:15 PM agent (July 29, 2026):
-1. ⚠️ AAPL EARNINGS TOMORROW (Jul 30 AMC): Hold tonight OK (stop at breakeven $330.27). Tomorrow's 3:15 PM MUST sell AAPL before July 30 close regardless of price.
-2. ⚡ CRM APPROACHING TP: $185.29 now, TP $190.48 = $5.19 (2.80%) away. If surges to TP this afternoon: sell immediately.
-3. ⚡ AAPL APPROACHING TP: $342.41 now, TP $347.86 = $5.45 (1.59%) away. If hit: take-profit immediately.
-4. FOMC TODAY at 2 PM ET: Expected hold at 3.50-3.75%. Press conf 2:30 PM. Significant intraday volatility expected. KO (defensive) insulated. HON and CRM may see growth-stock FOMC reactions.
-5. IRAN ATTACK: US intercepted Iranian attack on US troops. Brent ~$90/bbl. Energy sector +2-4% today. SLB already out of portfolio.
-6. KO: Entry $90.3243, stop $88.64. If KO drops to/below $88.64 at 3:15 PM: sell immediately (1.785898 shares). Rate hold = KO tailwind. TP $93.69.
-7. HON: Down -1.77% today — FOMC/Iran risk-off on industrials. No thesis break. Stop $233.01 has $9.66 buffer (3.98%). Hold.
-8. BROAD MARKET: SPY -0.53%, QQQ -0.61% — Normal regime. No gate triggered.
-9. SETTLED CASH: ~$282.32. Max new investment = (75% x $857.88) - ~$575.58 = ~$67.83. Very little room for new 3:15 PM buys unless a position exits first.
+1. ⚠️ AAPL EARNINGS TOMORROW (Jul 30 AMC): Hold tonight OK (stop at breakeven $330.27). Tomorrow's 3:15 PM MUST exit AAPL before July 30 close regardless of price. This is non-negotiable.
+2. ⚡ CRM APPROACHING TP: $188.91 at noon, TP $190.48 = $1.57 (0.83%) away. Stop trailed to $185.46. If CRM hits $190.48 this afternoon: sell immediately (0.365839 shares, market order). First ever TP hit would be a milestone.
+3. FOMC DECISION at 2 PM ET: Expected hold at 3.50-3.75%, press conf 2:30 PM. KO (defensive) well positioned for rate hold. HON and CRM may see intraday volatility on guidance tone. This is the single biggest event of the afternoon.
+4. HON: Down -1.80% from entry, -2.42% on day at noon. Thesis confirmed intact by web search. Stop $233.01 has $8.055 buffer. HOLD — do NOT cut on price action alone. Let the stop work.
+5. KO: Entry $90.3243, stop $88.64. Opening bar touched stop exactly; recovered immediately. At 3:15 PM, if KO is at/below $88.64, sell (1.785898 shares, market order). FOMC rate hold = tailwind. TP $93.69.
+6. MMM: Stop trailed to breakeven $174.94. If MMM bounces post-FOMC, no stop risk. TP $186.82 is $7.61 away.
+7. BROAD MARKET: SPY -1.048%, QQQ -1.57% at noon — CAUTION REGIME. Declining from open ($739.97) through noon ($733.10). Brent crude >$90 (Iran tensions). Pre-FOMC risk-off tone.
+8. BIG TECH EARNINGS TONIGHT: Microsoft (MSFT) and Meta (META) after close. Will set tomorrow's tone for QQQ/tech.
+9. SETTLED CASH: ~$282.32. Under 75% cap headroom: ~$68. Very little room for new overnight buys unless a position exits first.
 
 ---
 PRE-CHECK — Market day verification
