@@ -1,59 +1,61 @@
 {
-  "ts": "2026-07-29T19:10:00Z",
+  "ts": "2026-07-29T20:10:00Z",
   "source": "city_market_watch",
   "portfolio": {
-    "totalValue": 855.020167975,
+    "totalValue": 852.06391622,
     "cash": 282.32,
-    "equityValue": 572.700167975,
+    "equityValue": 569.74391622,
     "buyingPower": 282.32,
     "positions": [
       {
         "ticker": "AAPL",
         "shares": 0.58858,
         "entry": 330.27,
-        "current": 342.10,
-        "plPct": 3.58,
+        "current": 337.80,
+        "plPct": 2.28,
         "stop": 330.27,
         "target": 347.86,
-        "catalyst": "Apple Intelligence + Alibaba Qwen China AI approval"
+        "catalyst": "Apple Intelligence + Alibaba Qwen AI approval"
       },
       {
         "ticker": "MMM",
         "shares": 0.474448,
         "entry": 174.94,
-        "current": 178.34,
-        "plPct": 1.94,
-        "stop": 169.00,
+        "current": 177.95,
+        "plPct": 1.72,
+        "stop": 174.94,
         "target": 186.82,
-        "catalyst": "Q2 2026 earnings beat"
+        "catalyst": "Q2 earnings beat; Microsoft Azure AI partnership"
       },
       {
         "ticker": "HON",
         "shares": 0.243604,
         "entry": 245.48,
-        "current": 243.21,
-        "plPct": -0.93,
+        "current": 241.12,
+        "plPct": -1.78,
         "stop": 233.01,
         "target": 269.79,
-        "catalyst": "Q2 2026 earnings beat + automation orders +16%"
+        "catalyst": "Q2 earnings beat; automation orders +16%"
       },
       {
         "ticker": "CRM",
         "shares": 0.365839,
         "entry": 174.94,
-        "current": 188.51,
-        "plPct": 7.76,
-        "stop": 167.14,
+        "current": 187.70,
+        "plPct": 7.29,
+        "stop": 187.60,
         "target": 190.48,
-        "catalyst": "$1.6B VA agentic AI contract"
+        "catalyst": "$1.6B VA Agentic Enterprise License Agreement"
       },
       {
         "ticker": "KO",
         "shares": 1.785898,
         "entry": 90.32,
-        "current": 88.79,
-        "plPct": -1.69,
-        "catalyst": "Q2 earnings beat, pricing power"
+        "current": 89.08,
+        "plPct": -1.37,
+        "stop": 88.64,
+        "target": 93.69,
+        "catalyst": "Q2 earnings beat; consumer staples defensive play"
       }
     ]
   },
