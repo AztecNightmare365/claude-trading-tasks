@@ -1,18 +1,18 @@
 {
-  "ts": "2026-07-29T11:15:00Z",
+  "ts": "2026-07-29T12:11:00Z",
   "source": "city_market_watch",
   "portfolio": {
-    "totalValue": 856.9730809088,
+    "totalValue": 856.66,
     "cash": 443.63,
-    "equityValue": 413.3430809088,
+    "equityValue": 413.03,
     "buyingPower": 443.63,
     "positions": [
       {
         "ticker": "AAPL",
         "shares": 0.58858,
         "entry": 330.27,
-        "current": 341.4142,
-        "plPct": 3.37,
+        "current": 340.469,
+        "plPct": 3.09,
         "stop": 330.27,
         "target": 347.86,
         "catalyst": "Apple Intelligence + Alibaba Qwen China AI approval + analyst PT raises"
@@ -21,28 +21,28 @@
         "ticker": "MMM",
         "shares": 0.474448,
         "entry": 174.94,
-        "current": 181.6111,
-        "plPct": 3.81,
-        "stop": 169.00,
+        "current": 182.5,
+        "plPct": 4.32,
+        "stop": 169.0,
         "target": 186.82,
-        "catalyst": "Q2 2026 earnings beat ($2.40 EPS vs $2.24 est.); FY guidance raised"
+        "catalyst": "Q2 2026 earnings beat ($2.40 EPS vs $2.24 est.), guidance raised"
       },
       {
         "ticker": "HON",
         "shares": 0.243604,
         "entry": 245.48,
-        "current": 247.10,
+        "current": 247.1,
         "plPct": 0.66,
         "stop": 233.01,
         "target": 269.79,
-        "catalyst": "Q2 2026 earnings beat; automation orders +16%; RBC PT $298 / Citi PT $279"
+        "catalyst": "Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.), automation orders +16%"
       },
       {
         "ticker": "CRM",
         "shares": 0.365839,
         "entry": 174.94,
-        "current": 180.50,
-        "plPct": 3.18,
+        "current": 180.0,
+        "plPct": 2.89,
         "stop": 167.14,
         "target": 190.48,
         "catalyst": "$1.6B VA Agentic Enterprise License Agreement"
