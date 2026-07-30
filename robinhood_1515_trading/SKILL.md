@@ -1,4 +1,4 @@
-﻿---
+---
 name: robinhood_1515_trading
 description: Trading bot
 ---
@@ -37,7 +37,7 @@ Total account value: ~$217
 Portfolio invested: ~25% (well under 75% cap — major dry powder settles tomorrow)
 
 Notes for 10:00 AM agent (June 25, 2026):
-- ⚠️ LUV CRITICAL AGAIN: $50.94 vs TP $51.55 — only $0.61 away (same pattern as yesterday). Fuel thesis holding strong into close. If premarket or gap-up touches $51.55 before 10:01 AM, sell immediately (market order, 0.532075 shares, lock 6.8%+ gain). This would be second consecutive day hitting TP target.
+- LUV CRITICAL AGAIN: $50.94 vs TP $51.55 — only $0.61 away (same pattern as yesterday). Fuel thesis holding strong into close. If premarket or gap-up touches $51.55 before 10:01 AM, sell immediately (market order, 0.532075 shares, lock 6.8%+ gain). This would be second consecutive day hitting TP target.
 - RUN EXITED AT STOP: Despite strong announcement, Sunrun/Tesla VPP catalyst couldn't sustain momentum. Stop-loss protected downside; real position risk was capped at 4%.
 - AAL HOLDING WELL: +2.74% on fuel thesis (same as LUV). No binary events or negative news. Both airline positions showing conviction. If oil reverses, exit both simultaneously.
 - BROAD MARKET: SPY/QQQ flat to slightly positive at close. No macro headwind. MU earnings after hours (not our concern — no semiconductor exposure).
@@ -49,86 +49,80 @@ Notes for 10:00 AM agent (June 25, 2026):
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-07-29 (~2:08 PM ET — 2 PM session complete)
+Last updated: 2026-07-30 (~10:20 AM ET — 10 AM session complete)
 
-Open positions (5 total):
+Open positions (4 total):
 
-- AAPL: 0.588580 shares, avg entry $330.27, stop-loss $330.27 (breakeven — unchanged), take-profit $347.86, overnight flag: YES
-  2 PM price: $343.71 | vs avg entry: +$13.44 (+4.07%) | day change: +1.07%
+- AAPL: 0.588580 shares, avg entry $330.27, stop-loss $330.27 (breakeven — unchanged), take-profit $347.86, overnight flag: NO
+  10 AM price: ~$332.82 | vs avg entry: +$2.55 (+0.77%) | day change: -1.59% (prev close $338.19)
   entry_type: scanner (original) / manual (add-on)
-  Thesis: Apple Intelligence + Alibaba Qwen China AI regulatory approval + analyst PT raises (HSBC Buy $366). Above VWAP $341.72. Near intraday high ($344.57). Stop at breakeven.
-  Buffer: $13.44 (4.07%). TP $347.86 is $4.15 (1.21%) away.
-  ⚡ NEAR TP: $343.71 → $347.86 is only 1.21% away. If AAPL >= $347.86: sell immediately (0.588580 shares, market order).
-  ⚠️ EARNINGS DEADLINE: July 30 AMC — 3:15 PM agent on July 30 MUST exit AAPL before close. DO NOT hold through earnings.
-  - If AAPL >= $347.86: sell immediately (take-profit, 0.588580 shares, market order)
+  Thesis: Apple Intelligence + Alibaba Qwen + HSBC Buy PT $366. Stop at breakeven — risk-free.
+  EARNINGS EXIT DEADLINE: AAPL reports AMC tonight July 30. 3:15 PM agent MUST sell AAPL before market close — no exceptions. Do NOT hold through earnings. Target exit: sell at market between 3:45-3:55 PM if TP not hit first.
+  - If AAPL >= $347.86 at any point: sell immediately (take-profit, 0.588580 shares, market order)
   - If AAPL <= $330.27: sell immediately (stop-loss — breakeven)
+  - If neither TP nor stop triggered: SELL AT MARKET before 3:55 PM close today
 
 - MMM: 0.474448 shares, entry $174.94, stop-loss $174.94 (breakeven — unchanged), take-profit $186.82, overnight flag: YES
-  2 PM price: $179.28 | vs entry: +$4.34 (+2.48%) | day change: -1.75%
+  10 AM price: ~$176.21 | vs avg entry: +$1.27 (+0.73%) | day change: -0.98%
   entry_type: scanner
-  Thesis: Q2 2026 earnings beat ($2.40 EPS vs $2.24 est.); FY EPS guidance raised; Microsoft Azure AI partnership. Down on day but thesis intact. Below VWAP $180.27 — near intraday low ($178.89). Stop at breakeven — risk-free.
-  Buffer: $4.34 (2.48%). TP $186.82 is $7.54 (4.21%) away.
+  Thesis: Q2 2026 earnings beat ($2.40 EPS vs $2.24 est.); FY guidance raised; MSFT Azure AI partnership. Industrial sector weak but stop at breakeven — risk-free.
+  Buffer: $1.27 (0.73%). TP $186.82 is $10.61 (6.02%) away.
   - If MMM >= $186.82: sell immediately (take-profit, 0.474448 shares, market order)
   - If MMM <= $174.94: sell immediately (stop-loss — breakeven)
 
 - HON: 0.243604 shares, avg entry $245.48, stop-loss $233.01, take-profit $269.79, overnight flag: YES
-  2 PM price: $243.85 | vs avg entry: -$1.63 (-0.66%) | day change: -1.30%
+  10 AM price: ~$239.04 | vs avg entry: -$6.44 (-2.63%) | day change: -0.86%
   entry_type: scanner
-  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY guidance raised. BofA upgraded Jul 28 to Neutral (PT $265). Above VWAP $242.33 — recovering from intraday low $240.32. FOMC rate-hold tailwind for industrials. Trail trigger $250.18 NOT hit.
-  Buffer to stop: $10.84 (4.44%).
+  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY guidance raised. BofA upgraded Jul 28 Neutral PT $265. Trail trigger $250.18 NOT hit. Stop buffer $6.03 (2.52%).
   - If HON >= $269.79: sell immediately (take-profit, 0.243604 shares, market order)
   - If HON <= $233.01: sell immediately (stop-loss)
   - If HON reaches $250.18 intraday: trail stop to $245.48 (breakeven) immediately
 
-- CRM: 0.365839 shares, entry $174.94, stop-loss $187.60 (TRAILED — updated by 2 PM session from $185.46), take-profit $190.48, overnight flag: YES
-  2 PM price: $188.26 | vs entry: +$13.32 (+7.61%) | day change: +3.73%
-  entry_type: scanner
-  Thesis: $1.6B, 3-year Agentic Enterprise License Agreement with U.S. Veterans Affairs. Above VWAP $186.22. Intraday high $189.44. Support cluster $187.60–$187.70 (1 PM ET lows).
-  Stop trailed from $185.46 → $187.60 (recent 1:10–1:15 PM intraday support). Locks in minimum ~$4.81 gain/share. TP $190.48 is $2.22 (1.18%) away.
-  ⚡ NEAR TP: If CRM reaches $190.48: sell immediately (0.365839 shares, market order). First ever TP hit!
-  - If CRM >= $190.48: sell immediately (take-profit, 0.365839 shares, market order)
-  - If CRM <= $187.60: sell immediately (stop-loss — trailed)
+- MA: 0.365089 shares, entry $576.2418, stop-loss $575.00, take-profit $578.73, overnight flag: NO
+  Opened by 10 AM agent at 10:19 AM ET | entry_type: catalyst_watch
+  Thesis: Q2 2026 earnings beat BMO July 30 (EPS $5.04 vs $4.78 est. +5.5%; revenue $9.28B vs $9.08B +2.2%). Confirmed catalyst, consolidating at VWAP $578.56, strong volume (~4.4x daily average pace at entry).
+  Stop: $575.00 (30-min opening low). Stop distance: $1.24/share. Dollar risk: $0.45 (within cap).
+  TP: $578.73 (1:2 risk/reward). VERY TIGHT TP — $2.49 above entry. If MA touches $578.73: sell immediately.
+  - If MA >= $578.73: sell immediately (take-profit, 0.365089 shares, market order)
+  - If MA <= $575.00: sell immediately (stop-loss)
+  NOTE: MA reported earnings BMO today — no binary event risk. If thesis holds into close, consider carrying overnight.
 
-- KO: 1.785898 shares, entry $90.3243, stop-loss $88.64, take-profit $93.69, overnight flag: YES
-  2 PM price: $88.94 | vs entry: -$1.38 (-1.53%) | day change: +0.76%
-  entry_type: catalyst_watch
-  Thesis: Q2 2026 earnings beat BMO July 28 (strong pricing power/consumer resilience). Defensive consumer staples — FOMC rate-hold tailwind. Below VWAP $90.08. Intraday high was $90.92, now declining steadily. Opened at $88.65 this morning (nearly hit stop at open), recovered, and is fading again.
-  ⚠️⚠️ NEAR STOP — CRITICAL: Buffer only $0.30 (0.34%). Stop $88.64 at high risk of trigger.
-  - If KO >= $93.69: sell immediately (take-profit, 1.785898 shares, market order)
-  - If KO <= $88.64: sell immediately (stop-loss)
+Portfolio sync: AAPL, MMM, HON carried from prior handoff. CRM and KO exited at stop-loss this session. MA new position opened this session. All 4 positions confirmed in live Robinhood portfolio.
 
-Portfolio sync: No discrepancies. All 5 positions confirmed in live Robinhood portfolio. No manual trades detected.
+Sells executed this session: 2
+- CRM: 0.365839 shares sold at $177.2901 (stop_loss — trailing stop $187.60 breached overnight). P&L: +1.34%, +$0.86
+- KO: 1.785898 shares sold at $87.7701 (stop_loss — stop $88.64 breached). P&L: -2.82%, -$4.55
+- Net session P&L from closes: -$3.69
 
-Buys executed this session: 0
-Reasons: Both scanners 0 results (8th consecutive zero session). All large movers (GRMN +18.6%, MANH +23%, CTSH +12.4%, GEHC +11%) are BMO earnings plays already up 11–23% by 2 PM — too late/risky to chase at last buy window. WDC (+4.88%) hard-disqualified: 24% 5-day range ($576→$422→$486) plus potential earnings AMC tonight. BE (+3.16%) analyst upgrade just cleared bar but catalyst too thin for 2 PM selectivity bar. Do not force trades.
-
-Sells executed this session: 0 (no stop/TP triggers)
-
-Stop trails this session: 1
-- CRM: $185.46 → $187.60 (trailed to 1:10–1:15 PM intraday support zone; position up +7.61% from entry)
+Buys executed this session: 1
+- MA: $210.38 (0.365089 shares at $576.2418), catalyst_watch, earnings beat BMO today
 
 Catalyst watch list status carry-forward:
-- KO: CATALYST CONFIRMED — ENTERED (in portfolio)
-- CDNS: CONFIRMED but not entered — -0.24% today, skip
-- V: CONFIRMED but not entered — -0.04% today, flat, below 3% bar
-- RCL: CONFIRMED but not entered — +0.81% today, below 3% bar
-- BA: CATALYST FAILED — do not chase
+- MSFT: CONFIRMED +14.38% — NOT ENTERED (too extended at 10 AM; 9:30 AM entry window missed)
+- META: CATALYST FAILED (EPS miss $6.18 vs $7.22) — do not chase
+- MA: CATALYST CONFIRMED — ENTERED at $576.2418 (0.365089 shares, stop $575.00, TP $578.73)
 
-Settled cash remaining: ~$282.32 (unchanged — no trades)
-Total account value: ~$856.86 (AAPL $202.36 + MMM $85.05 + HON $59.41 + CRM $68.89 + KO $158.83 = $574.54 invested + $282.32 cash)
-Portfolio invested: ~67.1% (unchanged — under 75% cap)
+Settled cash remaining: $71.94 (buying power per Robinhood; $293.55 total cash, $221.60 unsettled from CRM/KO sales — settles July 31)
+Total account value: ~$839.91
+Portfolio invested: ~65.1% ($546.36 equity / $839.91 total)
 
-2 PM SESSION NOTE for 3:15 PM agent (July 29, 2026):
-1. ⚠️⚠️ KO NEAR STOP — CHECK IMMEDIATELY: Price $88.94, stop $88.64 = only $0.30 buffer (0.34%). Opened at $88.65 this morning (nearly triggered stop), recovered to $90.92, now declining in clear downtrend. Below VWAP. Watch on startup — if KO <= $88.64, sell immediately (1.785898 shares, market order).
-2. ⚡ CRM TP IMMINENT: $188.26 at 2 PM, TP $190.48 = $2.22 (1.18%) away. Stop trailed to $187.60 — locks in minimum ~$4.81 gain/share. If CRM hits $190.48: sell immediately (0.365839 shares, market order). First ever TP hit!
-3. ⚡ AAPL NEAR TP: $343.71 at 2 PM, TP $347.86 = $4.15 (1.21%) away. Stop at breakeven $330.27. MUST exit AAPL before July 30 close (earnings AMC tomorrow).
-4. BROAD MARKET at 2 PM: SPY -0.42%, QQQ -0.30%. FOMC held rates (3.50-3.75%). Health care (XLV +2.4%) and consumer staples (XLP +2%) outperforming. Tech/energy/semiconductors underperforming (MU -4.64%, AMAT -4.08%).
-5. SCANNER ENVIRONMENT: Both scanners 0 results (8th consecutive). All big movers today are BMO earnings plays: GRMN +18.6%, MANH +23%, CTSH +12.4%, GEHC +11%, BE +3.2% (analyst upgrade). For 3:15 PM consideration: verify no earnings TONIGHT for any of these before buying.
-6. HON: -0.66% from entry at 2 PM, above VWAP $242.33, recovering from intraday low $240.32. Stop $233.01 has $10.84 buffer. HOLD — let stop work (learned rule #3).
-7. MMM: +2.48% from entry, below VWAP $180.27. Stop at breakeven $174.94 — risk-free. TP $186.82 is 4.21% away.
-8. AAPL: +4.07% from entry, above VWAP $341.72, near intraday high. Stop at breakeven $330.27.
-9. BIG TECH EARNINGS TONIGHT: MSFT and META report after close today (Jul 29). Will set tomorrow's QQQ/tech tone. AAPL reports AMC tomorrow (Jul 30) — MUST exit before July 30 close.
-10. BUYING POWER: ~$68 available (75% cap). Very limited unless KO or another position exits first.
+NOTES FOR 3:15 PM AGENT (Wednesday July 30, 2026):
+
+1. AAPL EARNINGS EXIT — MANDATORY: AAPL must be sold before close (earnings AMC tonight). Current price ~$332.82 vs stop $330.27 (+0.77% above breakeven). Down -1.59% today despite broad rally. If TP $347.86 hit before close: sell. Otherwise: SELL AT MARKET no later than 3:55 PM. Do not hold through earnings under any circumstances.
+
+2. MA TP IS VERY TIGHT: Entry $576.24, TP $578.73 = only $2.49 (+0.43%) away. Check MA on startup — if price >= $578.73, exit immediately (0.365089 shares). Stop $575.00.
+
+3. BROAD MARKET: SPY +1.13%, QQQ +2.73% at 10 AM — risk-on day driven by MSFT +14.38% (Azure/cloud beat). Semiconductor sector: MU +12%, INTC +11%, AMAT +14%, SNDK +18%, WDC +16% — all disqualified for buys (5-day volatility >15% each).
+
+4. HON -2.63% from entry, stop $233.01 buffer $6.03 (2.52%). Trail trigger $250.18 not hit. Hold.
+
+5. MMM +0.73% from entry, stop at breakeven $174.94 (risk-free). Hold.
+
+6. BUYING POWER: $71.94 settled, $221.60 unsettled (settles July 31). Very limited today.
+
+7. SCANNER ENVIRONMENT: Both scanners 0 results (10th consecutive zero). MA was the only qualifying catalyst-watch entry today.
+
+8. TONIGHT AH: AAPL reports Q4 2026 earnings after close. Research July 31 BMO earnings for tomorrow's catalyst watch list.
 
 ---
 PRE-CHECK — Market day verification
@@ -204,8 +198,8 @@ You are looking specifically for stocks with strong overnight gap-up potential, 
 
 Source A — Robinhood scanners (primary):
 Call run_scan on BOTH saved scans and union the results:
-1. scan_id "9934ccf8-02c4-4ed0-a32e-1a1b2bc44b63" — % change ≥ 3%, relative volume ≥ 1.2× 30-day average, market cap > $750M. Confirmed-momentum pool.
-2. scan_id "38cc0924-7945-40c0-adb9-79048afa6d67" — % change ≥ 6%, market cap > $500M, no volume filter. Catches big obvious movers a lagging relative-volume reading would otherwise exclude.
+1. scan_id "9934ccf8-02c4-4ed0-a32e-1a1b2bc44b63" — % change >= 3%, relative volume >= 1.2x 30-day average, market cap > $750M. Confirmed-momentum pool.
+2. scan_id "38cc0924-7945-40c0-adb9-79048afa6d67" — % change >= 6%, market cap > $500M, no volume filter. Catches big obvious movers a lagging relative-volume reading would otherwise exclude.
 Zero on both means the bar genuinely isn't being cleared right now — don't force it.
 
 Priority sector watchlist — always check directly, regardless of scanner results:
@@ -246,7 +240,7 @@ For each result, identify the ticker and assess:
 Build a CATALYST WATCH LIST of up to 5 entries in this format:
   TICKER | Catalyst type | Timing (AH tonight / BMO tomorrow) | Direction bias | Risk level (LOW / MEDIUM / HIGH)
 
-Do NOT buy these today. Pass this list to the 10 AM agent via the handoff block. The 10 AM agent is authorized to enter catalyst watch list tickers at a 1–2% open confirmation threshold (instead of the standard 3% bar) if: (a) the catalyst resolved positively overnight, (b) the stock is trending up at 10:00 AM — not fading from the open spike — and (c) all hard disqualifiers are still clear. A failed catalyst (miss, adverse outcome, no result) disqualifies the entry entirely — do not enter on a failed catalyst regardless of price action.
+Do NOT buy these today. Pass this list to the 10 AM agent via the handoff block. The 10 AM agent is authorized to enter catalyst watch list tickers at a 1-2% open confirmation threshold (instead of the standard 3% bar) if: (a) the catalyst resolved positively overnight, (b) the stock is trending up at 10:00 AM — not fading from the open spike — and (c) all hard disqualifiers are still clear. A failed catalyst (miss, adverse outcome, no result) disqualifies the entry entirely — do not enter on a failed catalyst regardless of price action.
 
 Combine everything into a master candidate list. For each candidate not already scored by Source A, fetch: current price/change % (get_equity_quotes), actual relative volume vs 30-day average (get_equity_historicals), VWAP (get_equity_technical_indicators, type="vwap", interval="5minute"), today's intraday low (get_equity_historicals, for stop-loss reference), and closing price trend from 5-min bars in the last hour (get_equity_historicals, interval="5minute") — is it closing strong or fading?
 
@@ -259,12 +253,12 @@ Baseline filters (hard requirements):
 - Not already in your portfolio
 
 Trend-quality scoring (weigh these, don't hard-reject for missing one):
-- Relative volume ≥ 1.2× is a positive signal, ≥ 1.5× strong. A big mover (≥6%) with weak volume data is still eligible.
+- Relative volume >= 1.2x is a positive signal, >= 1.5x strong. A big mover (>=6%) with weak volume data is still eligible.
 - Price above VWAP and closing near/above its intraday high is a strong "closing strong" signal; a near-miss with a real catalyst still ranks, just lower.
 
 Hard disqualifiers — reject immediately, no exceptions:
 - Any pending binary event that could resolve overnight or before tomorrow's open: FDA decision, foreign government merger/acquisition regulatory clearance (e.g. China SAMR, EU approval), clinical trial readout, court ruling. These can gap -15% or more at open with no ability to react until the 10:00 AM agent runs.
-- Speculative thesis combined with declining underlying fundamentals (revenue falling, widening losses, analyst PT well above any reasonable fundamental valuation). A story needs improving financials to survive overnight — narrative alone fails.
+- Speculative thesis combined with declining underlying fundamentals (revenue falling, widening losses, analyst PT well above any reasonable fundamental valuation). A story needs improving fundamentals to survive overnight — narrative alone fails.
 - Stock has moved more than 20% in either direction over the past 5 trading days and today's move is not a brand-new, clearly dated catalyst. High recent volatility means overnight gaps can easily exceed the stop-loss before the 10:00 AM agent can act.
 
 Overnight-specific filters:
@@ -285,8 +279,8 @@ Select up to 4 candidates from Step 4. Divide the buyable amount from Step 3 eve
 
 For each position, set stop-loss and take-profit as follows:
 - Stop-loss: use today's intraday low as a reference, but hard cap at 5% below entry price. Overnight positions get slightly more room than intraday (5% vs 4%) to absorb normal gap volatility at open, but no more — if the intraday low is more than 5% below your intended entry, the stock is too volatile to hold overnight, skip it.
-- Dollar risk cap: (entry price − stop price) × number of shares must be ≤ $3. If the calculated risk exceeds $3, reduce the position size until it fits within this limit rather than widening the stop.
-- Take-profit: set at 2× the stop distance from entry (minimum 1:2 risk/reward ratio).
+- Dollar risk cap: (entry price - stop price) x number of shares must be <= $3. If the calculated risk exceeds $3, reduce the position size until it fits within this limit rather than widening the stop.
+- Take-profit: set at 2x the stop distance from entry (minimum 1:2 risk/reward ratio).
 
 Place dollar-amount market orders for each — fractional shares are fine. Orders are GFD (good for day, expires at close).
 
@@ -341,8 +335,8 @@ Format: `date,ticker,shares,entry_price,exit_price,entry_session,entry_type,exit
 - `entry_type`: how the position was originally sourced (from handoff) — "catalyst_watch" (catalyst watch list early-entry path), "scanner" (standard momentum/scanner entry), or "manual" (opened by the user, detected via portfolio sync). Default to "scanner" if the handoff doesn't specify.
 - `exit_session`: "3:15PM"
 - `exit_reason`: "stop_loss", "take_profit", or "discretionary"
-- `pnl_pct`: (exit_price - entry_price) / entry_price × 100
-- `pnl_dollar`: (exit_price - entry_price) × shares
+- `pnl_pct`: (exit_price - entry_price) / entry_price x 100
+- `pnl_dollar`: (exit_price - entry_price) x shares
 - `catalyst` and `sector`: from handoff notes (earnings_beat / analyst_upgrade / fda / merger / sector_momentum / other; tech / energy / healthcare / financials / consumer / industrial / other)
 
 Only log completed (exited) trades. Include trade_log.csv in the git commit from Step 8.
@@ -370,7 +364,7 @@ AVOID: 12PM entries. OKTA, SMCI, and ALLE — three consecutive midday buys, thr
 LEAN INTO: Mon-Tue 10AM entries on confirmed earnings beats with a strong open. RHI, ABT, and NBIS are the template — morning buys early in the week on a clean catalyst that opened well and held momentum. 3/3 wins, +$8.65 net on these three trades alone.
 
 RAW STATS:
-- Best catalyst: earnings_beat (33% win, +$2.15 net, N=6 — only catalyst with N≥3)
+- Best catalyst: earnings_beat (33% win, +$2.15 net, N=6 — only catalyst with N>=3)
 - Best sector: industrial (33% win, +$1.18 net, N=3); worst: tech (40% win, -$0.81 net, N=5)
 - Best session to open: 10AM (57% win rate, +$10.38, N=7); worst: 12PM (0% win rate, -$6.17, N=3)
 - Stop triggered rate: 42% of trades (target: <40%) — marginally above target
