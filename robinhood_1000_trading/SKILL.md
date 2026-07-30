@@ -14,81 +14,25 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**Generated: 2026-07-24 ~7:44 PM ET (7 AM overnight-watch agent)**
+**7:15 AM ET, 2026-07-30**
 
-⚠️ TIMING NOTE: This run executed Friday evening (after the regular close and mid-Friday-AH-session), not at the nominal 7:00 AM slot. Today (Friday July 24) is a trading day, so the market-day precheck passed, but the positions below are being carried through the **weekend** — next trading session is **Monday, July 27, 2026**. No genuine Monday pre-market data exists yet (markets are closed Sat/Sun); prices below are the latest available quotes as of Friday ~7:44 PM ET AH session. The Monday 9:15 AM pre-market agent must refresh all prices at that time — treat this brief as the overnight/weekend risk read, not final Monday pre-market pricing.
+POSITIONS (5 held, from 7/29 3:15PM handoff):
+- AAPL $336.71 (-0.44%). Stop $330.27 (buf 1.91%). ON TRACK. Earnings AMC tonight, no leak.
+- MMM $177.25 (-0.39%). Stop $174.94 (buf 1.30%). ON TRACK.
+- HON $240.33 (-0.33%). Stop $233.01 (buf 3.05%). ON TRACK. New insider sale $4.15M (not escalating).
+- CRM $183.25 (-2.72%). Stop $187.60 (trailed). **CRITICAL STOP BREACH** (-2.32%). No CRM-specific news — broad Wed selloff (Dow -2.19%/S&P -1.52%/Nasdaq -1.74%, post-FOMC hawkish dissent) + META AH miss hit growth names. Limit sell tried at bid $182.21 — REJECTED, fractional shares can't limit-sell outside regular hours. 9:30 AM: SELL AT OPEN, no discretion.
+- KO $88.40 (-0.76%). Stop $88.64. **CRITICAL STOP BREACH** (-0.27%, marginal). Thesis intact (Q2 beat/guidance raise). Same rejection. 9:30 AM: SELL AT OPEN, no discretion.
 
----
+PRE-MARKET SELLS: None — CRM & KO rejected by broker (fractional-share limit orders barred extended hours; market-only, regular hours). Platform limit, not discretion.
 
-### OVERNIGHT POSITIONS: 4 HELD (carried from Friday 3:15 PM / 5 PM AH — held over the weekend)
+CATALYST WATCH:
+- MSFT $425.35 (+8.92%). CONFIRMED GAP UP (EPS $4.74 vs $4.23, rev $90.0B vs $87.6B). Flag 9:30 AM entry, 1-2% above prior close.
+- META $537.00 (-8.30%). FAILED (EPS miss $6.18 vs $7.22, capex/FCF concerns). SKIP.
+- MA $561.85 (-0.26%). PENDING, not released (call 9AM ET). Verify at open.
 
-| Ticker | Shares | Entry | Stop | TP | Latest Price (Fri AH) | vs Fri Close | vs Thu Close | Flag |
-|--------|--------|-------|------|-----|------------------------|--------------|--------------|------|
-| AAPL | 0.588580 | $330.27 | $317.32 | $347.86 | $333.58 (7:42 PM ET) | +0.15% | +3.70% | **ON TRACK** |
-| MMM | 0.474448 | $174.94 | $169.00 | $186.82 | $171.10 (4:32 PM ET, stale/thin) | -0.87% | +0.89% | **ON TRACK (tight stop)** |
-| HON | 0.243604 | $245.48 | $233.01 | $269.79 | $242.47 (5:57 PM ET) | -0.27% | -1.54% | **ON TRACK** |
-| SLB | 1.452000 | $51.65 | $49.755 | $55.44 | $52.2094 (7:14 PM ET) | -0.47% | +10.57% | **ON TRACK (weekend oil risk)** |
+MACRO: FOMC held 3.50-3.75% (3 hawkish dissents) — Dow -2.19%/S&P -1.52%/Nasdaq -1.74% Wed close, 30Y yield highest since 2007. Premarket: SPY +0.56%, QQQ +1.18% (MSFT beat > META miss). Regime NORMAL.
 
-> **Data sources**: Robinhood `get_equity_quotes`, `last_non_reg_trade_price` (fallback `bid_price` not needed — all four had recent non-reg trades). "vs Fri Close" compares to today's regular-session close (`last_trade_price`); "vs Thu Close" compares to `adjusted_previous_close` (July 23), which is the field the API still reports as "previous close" since Monday's session hasn't opened yet.
-
----
-
-### POSITION DETAIL
-
-**AAPL — ON TRACK**
-Latest $333.58 (+0.15% vs Friday's $333.07 close; +3.70% vs Thursday). Stop $317.32 is $16.26 (4.88%) below — ample buffer. TP $347.86 is 4.28% away. New positive catalyst found tonight: Ford confirmed Apple Maps will be built into its upcoming EV platform — reinforces thesis (Apple Intelligence / ecosystem expansion / China AI approval, all previously known). No adverse news. Earnings confirmed July 30 AMC — not tonight, no action needed.
-**Hold. Stop unchanged at $317.32.**
-
-**MMM — ON TRACK, tight stop buffer**
-Latest $171.10 (-0.87% vs Friday's $172.60 close; +0.89% vs Thursday). This price is stale (last trade 4:32 PM ET, thin AH liquidity) — no new print since the 5 PM AH check. Stop $169.00 is $2.10 (1.23%) below — TIGHT, unchanged concern from the 3:15 PM/5 PM handoffs. New development: a third insider sale disclosed (SVP & CAO Theresa Reinseth, 924 shares, ~$156K, ~26% of her holdings) alongside the two exec sales already known from July 23. Pattern continues but is not escalating (smaller sale, still a pattern rather than a single alarming print) and does not override the confirmed Q2 beat/guidance-raise thesis. NOT a thesis break — hold.
-**Hold — stop buffer tight, real weekend gap risk. Do NOT widen stop. If MMM opens at/below $169.00 Monday: sell immediately, no discretion.**
-
-**HON — ON TRACK, strengthening**
-Latest $242.47 (-0.27% vs Friday's $243.13 close; -1.54% vs Thursday, day range was $239-248). Stop $233.01 is $9.46 (3.90%) below — comfortable buffer. New positive developments: declared $0.70/share quarterly dividend (pays Sept 4); RBC raised PT to $298 (from $272), Citi raised PT to $279 (from $260). Noted for outperforming amid broader geopolitical-tension-driven weakness — relative strength signal. No adverse news.
-**Hold. Stop unchanged at $233.01.**
-
-**SLB — ON TRACK, elevated weekend macro risk (oil / Iran talks)**
-Latest $52.2094 (-0.47% vs Friday's $52.455 close; +10.57% vs Thursday — stock surged +10.4% Friday, best intraday move in 6+ months, on the Q2 beat plus a new OneSubsea/Eni Baleine Phase 3 subsea EPC award and a new SLB–Liberty Energy AI/data-center power infrastructure alliance). Stop $49.755 is $2.45 (4.70%) below — adequate buffer, and TP $55.44 is 6.19% away.
-**Key risk materializing, not just theoretical**: Brent crude fell ~4% Friday to ~$96.78-98/bbl and WTI fell ~3% to ~$89.31, specifically on a Reuters report that Pakistan (with Chinese backing) is pushing to restart US-Iran talks — exactly the weekend risk flagged by the 3:15 PM handoff. SLB's earnings-beat catalyst outweighed the oil move today (stock still up double digits), but if peace-talk momentum builds further over the weekend, oil weakness could pressure SLB at Monday's open even without new SLB-specific news. Thesis (earnings beat / oilfield services demand) is still intact today — this is a macro overlay risk, not a thesis break — so no pre-market action is warranted, but flag for close attention Monday.
-**Hold. Stop unchanged at $49.755. Monday 9:15 AM / 9:30 AM agents: check oil price and any Iran-talks headlines before assuming SLB opens clean.**
-
----
-
-### PRE-MARKET SELLS PLACED
-None. No position hit CRITICAL STOP BREACH, GAP DOWN SEVERE, or THESIS BROKEN thresholds — all four are ON TRACK. The bar for pre-market selling was not met (per LEARNED INSIGHTS rule #1, waiting for the open print is preferred over a discretionary weekend-gap call with no actual stop breach or thesis failure).
-
----
-
-### CATALYST WATCH LIST STATUS
-
-| Ticker | Report Timing | Status | Action |
-|--------|---------------|--------|--------|
-| BKR | Press release Sun Jul 26 ~5 PM ET; call Mon 9:30 AM ET | CATALYST PENDING | MONITOR — verify at Monday open |
-| AZN | Reports Mon Jul 27 BMO; call 6:45 AM ET | CATALYST PENDING | MONITOR — verify at Monday open |
-| CDNS | Reports Mon Jul 27 AMC (after Monday's close) | CATALYST PENDING | MONITOR — affects Tuesday 10 AM, not Monday open |
-
-**BKR** — No leaks found. EPS est. $0.51 (-19% YoY). UBS raised PT to $48 ahead of the report (mild positive analyst lean, not a resolved catalyst). Validates/invalidates the SLB oilfield-services thesis depending on outcome — still PENDING.
-
-**AZN** — No leaks found. EPS est. $2.50, revenue est. $15.45B. Prior EU approvals (Enhertu/Trixeo/Etcamah) are old news, already priced in. PENDING.
-
-**CDNS** — No leaks found. EPS est. $2.06, revenue est. $1.58B. Stock already weak into earnings (-9% over 7 days, -13% over 30 days) on competition/valuation concerns despite AuraStack AI product news — soft sentiment heading in. Reports AMC Monday, so this does not factor into Monday's open decision; relevant for Tuesday's 10 AM session. PENDING.
-
-0 of 3 catalyst tickers resolved (all still PENDING — none have reported).
-
----
-
-### OVERNIGHT MACRO NEWS SUMMARY
-
-- **Oil / Iran talks**: Brent -4% to ~$96.78-98/bbl, WTI -3% to ~$89.31, on a Reuters report that Pakistan (China-backed) is pushing to restart US-Iran talks. Direct risk factor for SLB into Monday.
-- **Chip sector selloff continuing (not escalating)**: SNDK -9%, MU -6%, WDC -6% Friday, driven by SK Hynix/Korea memory spillover and Chinese competitor (CXMT/YMTC) concerns — a moderation of Thursday's bigger rout rather than a new shock; some desks (Citi) calling it a buying opportunity. QQQ -1.17% vs Thursday's close as a result.
-- **Fed / macro data**: No Fed news today; FOMC decision is Wednesday July 29 (expected hold at 3.50-3.75%). No new jobs/CPI prints; next CPI is August 12. Alphabet's Q2 AI capex guidance raise (to $195-205B from $180-190B) is the standing hyperscaler-capex overhang weighing on tech/growth heading into next week.
-
-**Broad market**: SPY $738.53 (flat, +0.05% vs Thursday), QQQ $683.85 (-1.17% vs Thursday, chip-driven). Regime: NORMAL — no SPY-down-2%+ gate concerns.
-
----
-
-### ONE-LINE SUMMARY
-**4 positions ON TRACK (AAPL, MMM, HON, SLB); 0 flagged for exit, 0 pre-market sells placed. MMM's stop buffer is tight (1.23%) and SLB carries elevated weekend macro risk (oil down ~4% on Iran-talks headlines) — both flagged for close re-check at Monday's open, but neither breached a stop nor broke thesis tonight. 0 of 3 catalyst tickers (BKR/AZN/CDNS) resolved — all still PENDING for Monday/this weekend.**
+SUMMARY: 3 ON TRACK (AAPL/MMM/HON); 2 CRITICAL STOP BREACH (CRM/KO) — sell blocked by fractional-share rule, must sell at 9:30 AM open, no discretion; 0 pre-market sells executed. Catalyst: 1 confirmed (MSFT), 1 failed (META), 1 pending (MA).
 
 ---
 
