@@ -71,90 +71,58 @@ RAW STATS:
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-Last updated: 2026-07-29 (~3:30 PM ET — 3:15 PM session complete)
+Last updated: 2026-07-30 (~3:17 PM ET — 3:15 PM session complete)
 
-Open positions held overnight (5 total):
-
-- AAPL: 0.588580 shares, avg entry $330.27, stop-loss $330.27 (breakeven — unchanged), take-profit $347.86, overnight flag: YES
-  3:15 PM price: ~$342.71 | vs avg entry: +$12.44 (+3.77%) | day change: +0.77%
-  entry_type: scanner (original) / manual (add-on)
-  Thesis: Apple Intelligence + Alibaba Qwen China AI regulatory approval + HSBC Buy PT $366. Intraday high $344.19 at 2 PM, consolidating into close around $342-343. Stop at breakeven — risk-free. TP $347.86 is $5.15 (1.50%) away.
-  ⚠️ EARNINGS DEADLINE: July 30 AMC — 3:15 PM agent on July 30 MUST exit AAPL before close. DO NOT hold through earnings.
-  - If AAPL >= $347.86: sell immediately (take-profit, 0.588580 shares, market order)
-  - If AAPL <= $330.27: sell immediately (stop-loss — breakeven)
-
-- MMM: 0.474448 shares, entry $174.94, stop-loss $174.94 (breakeven — unchanged), take-profit $186.82, overnight flag: YES
-  3:15 PM price: ~$178.82 | vs entry: +$3.88 (+2.22%) | day change: -2.01%
-  entry_type: scanner
-  Thesis: Q2 2026 earnings beat ($2.40 EPS vs $2.24 est.); FY EPS guidance raised; Microsoft Azure AI partnership. Down on day (XLI -2.44% — Iran oil spike drove industrial sector weakness), but thesis intact. Stop at breakeven — risk-free.
-  Buffer: $3.88 (2.22%). TP $186.82 is $8.00 (4.47%) away.
-  - If MMM >= $186.82: sell immediately (take-profit, 0.474448 shares, market order)
-  - If MMM <= $174.94: sell immediately (stop-loss — breakeven)
+Open positions held overnight (1 total):
 
 - HON: 0.243604 shares, avg entry $245.48, stop-loss $233.01, take-profit $269.79, overnight flag: YES
-  3:15 PM price: ~$243.58 | vs avg entry: -$1.90 (-0.77%) | day change: -1.40%
+  3:15 PM price: ~$240.43 | vs avg entry: -$5.05 (-2.06%) | day change: -0.29%
   entry_type: scanner
-  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY guidance raised. BofA upgraded Jul 28 to Neutral PT $265, RBC PT $298. FOMC rate-hold (confirmed today) positive long-term for industrials. Down on day but stop buffer comfortable.
-  Buffer to stop: $10.57 (4.44%). Trail trigger $250.18 NOT hit.
+  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY guidance raised. BofA upgraded Jul 28 Neutral PT $265, Citi PT $279 Buy. Recovering from 12 PM low of $238.61 → $240.43 at close. Stop buffer $7.42 (3.08%).
+  Trail trigger $250.18 NOT hit. If HON opens above $250.18 and holds: trail stop to $245.48 (breakeven) immediately.
   - If HON >= $269.79: sell immediately (take-profit, 0.243604 shares, market order)
   - If HON <= $233.01: sell immediately (stop-loss)
   - If HON reaches $250.18 intraday: trail stop to $245.48 (breakeven) immediately
 
-- CRM: 0.365839 shares, entry $174.94, stop-loss $187.60 (TRAILED — set by 2 PM session), take-profit $190.48, overnight flag: YES
-  3:15 PM price: ~$189.57 | vs entry: +$14.63 (+8.36%) | day change: +4.45%
-  entry_type: scanner
-  Thesis: $1.6B, 3-year Agentic Enterprise License Agreement with U.S. Veterans Affairs. Intraday high today: $190.18 — missed TP by only $0.30. Stop trailed at $187.60 locks in minimum ~$12.66 gain/share. Position recovering into close after 3 PM pullback.
-  ⚡ NEAR TP: If CRM reaches $190.48: sell immediately (0.365839 shares, market order). First-ever TP hit!
-  - If CRM >= $190.48: sell immediately (take-profit, 0.365839 shares, market order)
-  - If CRM <= $187.60: sell immediately (stop-loss — trailed)
+Sells executed this session (1 total):
+- AAPL: 0.588580 shares sold at market $333.50 avg | Entry $330.27 | P&L: +$1.90 (+0.98%)
+  Reason: MANDATORY EARNINGS EXIT — AAPL reports Q3 FY2026 earnings AMC tonight July 30. Hard rule: do not hold through earnings. Stop was at breakeven ($330.27); exit protected gain.
 
-- KO: 1.785898 shares, entry $90.3243, stop-loss $88.64, take-profit $93.69, overnight flag: YES
-  3:15 PM price: ~$88.93 | vs entry: -$1.39 (-1.54%) | day change: +0.75%
-  entry_type: catalyst_watch
-  Thesis: Q2 2026 earnings beat BMO July 28 ($0.97 EPS vs $0.92 est.); consumer staples defensive play (FOMC rate-hold + Iran geopolitical risk = defensive bid).
-  ⚠️⚠️ NEAR STOP — CRITICAL: Stop $88.64. Buffer only $0.29 (0.33%).
-  🚨 STOP TOUCHED TODAY: KO intraday low on July 29 was EXACTLY $88.64 at the 9:30 AM open. Recovered to $90.92 intraday high, then declined all afternoon back near stop.
-  - If KO >= $93.69: sell immediately (take-profit, 1.785898 shares, market order)
-  - If KO <= $88.64: sell immediately (stop-loss)
+Buys executed this session: None.
+Rationale: Only $1.94 settled cash (< $10 threshold). Both momentum scanners returned 0 results (12th consecutive zero). No new positions possible or warranted.
 
-Sells executed this session: 0
-Buys executed this session: 0
-New buys rationale: SKIPPED — 9th consecutive zero on both momentum scanners. Only F (+4.04%) cleared 3% bar — disqualified (auto sector headwinds from Iran oil spike +7%, revenue miss $44.9B vs $46.8B est., limited overnight catalyst). BE +1.08% and TXN +0.18% (analyst upgrades) below bar. Semiconductor priority watchlist entirely red (MU -6.37%, AMAT -4.54%, SNDK -2.22%). MSFT/META AH tonight = elevated macro uncertainty. Do not force trades.
-
-Settled cash remaining: ~$282.32 (unchanged — no trades)
-Total account value: ~$856.35 (AAPL $201.78 + MMM $84.81 + HON $59.32 + CRM $69.35 + KO $158.77 = $574.03 invested + $282.32 cash)
-Portfolio invested: ~67.0% (under 75% cap)
+Settled cash remaining: $1.94 (effectively zero; all other cash unsettled until July 31)
+Total cash: ~$784.17 ($1.94 settled + ~$782.23 unsettled: prior positions ~$585.83 + AAPL $196.40 — all settle July 31)
+Total account value: ~$842.72 (HON $58.55 + cash $784.17)
+Portfolio invested: ~6.9% (HON only — massive dry powder unlocks July 31)
 
 ---
 
-NOTES FOR 10:00 AM AGENT (Wednesday July 30, 2026):
+NOTES FOR 10:00 AM AGENT (Friday July 31, 2026):
 
-1. ⚠️⚠️ KO NEAR STOP — CHECK FIRST: Stop $88.64. Close ~$88.93 = buffer $0.29 (0.33%). Intraday low today was EXACTLY $88.64 (stop touched at 9:30 AM open, bounced, recovered to $90.92, then declined all afternoon). If KO opens AT OR BELOW $88.64: sell immediately (1.785898 shares, market order). No discretion.
+1. HON — SOLE OVERNIGHT HOLD: Check immediately on startup. Stop $233.01, buffer ~$7.42 (3.08%). No earnings, no binary events overnight. Thesis intact — Q2 beat, BofA PT $265, Citi PT $279. HON recovered from 12 PM low of $238.61 → $240.43 at close. Market underperformed today (SPY +1.70% vs HON -0.29%) due to tech/semi rotation, not HON-specific. Let stop be the exit mechanism.
+   - If HON >= $269.79: sell (take-profit, 0.243604 shares)
+   - If HON <= $233.01: sell (stop-loss — no discretion)
+   - If HON reaches $250.18 intraday: trail stop to breakeven $245.48 immediately
 
-2. ⚡ CRM NEAR TP — CHECK SECOND: Price ~$189.57 at close, TP $190.48 = $0.91 (0.48%) away. Intraday high today $190.18 (nearly hit TP by $0.30). Stop $187.60 locks in minimum ~$12.66 gain/share. If CRM opens at or above $190.48: sell immediately (0.365839 shares, market order). First-ever TP hit possible!
+2. AAPL SOLD — CATALYST WATCH FOR REENTRY: AAPL sold at $333.50 (+0.98%) before close. AAPL reports Q3 FY2026 earnings AMC tonight (EPS est $1.88-$1.89, up ~20% YoY, 4 consecutive beat streak). Verify actual result before 10 AM. ONLY consider reentry if: (a) clear beat with strong forward guidance, (b) gap-up is holding above VWAP — not fading the open spike, (c) price above prior close. CAUTION: tech sector has -$0.81 net in this account. It's a FRIDAY — late-week entries 0/4 = 0% win rate. If entering, keep size small.
 
-3. ⚠️ AAPL EARNINGS DEADLINE — TODAY: Must exit AAPL BEFORE July 30 close (earnings AMC tonight). DO NOT hold through earnings. If TP $347.86 hit before close: take-profit (0.588580 shares). Otherwise: the 3:15 PM agent on July 30 MUST sell before close. Stop at breakeven $330.27 — risk-free to hold until then.
+3. MASSIVE DRY POWDER SETTLES JULY 31: ~$782.23 unsettled becomes settled this morning. Total investable at 75% cap: ~$632 - $58.55 (HON) = ~$573 available. Do NOT rush into Friday setups because capital is available — save for next Monday/Tuesday if no exceptional setup presents itself.
 
-4. OVERNIGHT CATALYSTS — BIG TECH (both report AH July 29 — results known by 10 AM):
-   - MSFT Q4: EPS est $4.23, Revenue est $87.61B, Azure growth 39-40% expected. If strong beat + capex guidance reasonable → positive for tech/QQQ → AAPL tailwind.
-   - META Q2: EPS est $7.23, Revenue est $59.50B. Margin (>41%) and capex guidance are the swing factor. If both MSFT and META beat → risk-on open for tech; if both miss → AAPL gap-down risk (still above breakeven stop, so protected).
+4. FRIDAY PATTERN WARNING: Learned insight rule #5 — Late-week (Thu/Fri) entries: 0/4 = 0% win rate. Require an exceptional setup before opening new positions. Best posture: protect HON, evaluate AAPL only on a clean beat + strong open, preserve capital for early next week.
 
-5. MA EARNINGS BMO TODAY: Mastercard Q2 before market open. EPS est $4.77 (+14.9% YoY), Revenue est $9.06B (+11.4% YoY). 4 consecutive beats. If MA beats and opens +1-2%+ with sustained momentum: consider catalyst-watch entry (not fading from open spike). Risk: LOW.
+5. SCANNER ENVIRONMENT: 12 consecutive zero sessions on both momentum scanners. If both remain 0 today, skip new buys entirely — focus on HON hold evaluation only.
 
-6. BROAD MARKET CONTEXT at 3:15 PM July 29: SPY -0.22%, QQQ +0.01%. Iran surprise attacks on US forces drove oil +7% (XLE +1.62%). FOMC held rates 3.50-3.75% (3 hawkish dissenters). Industrials weak (XLI -2.44%). Semiconductors crushed (MU -6.37%, AMAT -4.54%). Consumer staples and defensives held.
+6. BMO EARNINGS TODAY (July 31 — results known before 10 AM):
+   - ABBV: Q2 2026 BMO. EPS est ~$3.66-$3.79. Verify actual result at open. Beat + positive = consider catalyst watch entry at 1-2% open confirmation (rising, not fading). Miss/neutral = skip entirely.
+   - CVX: Q2 2026 BMO. EPS est ~$5.79 (+227% YoY, 4 consecutive beats). Energy sector. Context: oil declining on Iran peace deal — may limit upside even on a beat. Verify results and sector sentiment at open.
 
-7. HON: -0.77% from entry, down -1.40% today. Stop $233.01 buffer $10.57 (4.44%). Trail trigger $250.18 not hit. Hold — let stop work.
-
-8. MMM: +2.22% from entry, stop at breakeven $174.94 — risk-free. Down -2.01% today (industrial sector weakness). Hold.
-
-9. BUYING POWER: ~$68 available (75% cap), but scanner environment thin — 9th consecutive zero. Wait for confirmed morning momentum. MA beat could be the first real catalyst watch entry.
-
-10. SCANNER ENVIRONMENT: 9th consecutive zero session. F (+4.04% on yesterday's earnings EPS beat) was only mover above bar — skipped for reasons above. Analyst upgrades today: BE +1.08% (Clear Street Buy PT $290), TXN +0.18% (Arete Buy PT $405), F Citi upgrade.
+7. BROAD MARKET JULY 30: SPY +1.70%, QQQ +3.13% — strong tech/semiconductor rally (MSFT +17% Azure beat, semiconductors +8%). HON/industrial underperformed today (sector rotation). Momentum broadly positive entering July 31.
 
 Catalyst watch list:
-MSFT | Q4 2026 earnings AH Jul 29 | AH Jul 29 (affects Wed open) | BULLISH if Azure >39% + capex guidance reasonable (EPS est $4.23, revenue est $87.61B) | MEDIUM
-META | Q2 2026 earnings AH Jul 29 | AH Jul 29 (affects Wed open) | BULLISH if margins >41% + ad revenue strong (EPS est $7.23, revenue est $59.50B) | MEDIUM
-MA   | Q2 2026 earnings BMO Jul 30 | BMO today (by 10 AM) | BULLISH — 4/4 beat history; EPS est $4.77, revenue est $9.06B | LOW
+AAPL | Q3 FY2026 earnings AH tonight Jul 30 → results known before 10 AM | Positive bias (4 consec beats, EPS est $1.88-$1.89, +20% YoY) | MEDIUM (Friday + tech risk; requires gap-up holding above VWAP, not fading; skip if fading)
+ABBV | Q2 2026 earnings BMO Jul 31 → results known before 10 AM | Unknown bias — verify actual results first | MEDIUM
+CVX  | Q2 2026 earnings BMO Jul 31 → results known before 10 AM | Positive bias (4 consec beats, EPS est $5.79) | MEDIUM (oil price headwind from Iran peace deal context)
 
 ---
 
