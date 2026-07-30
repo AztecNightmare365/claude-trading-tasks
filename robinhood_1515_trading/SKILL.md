@@ -49,80 +49,65 @@ Notes for 10:00 AM agent (June 25, 2026):
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-07-30 (~10:20 AM ET — 10 AM session complete)
+Last updated: 2026-07-30 (~12:10 PM ET — 12 PM reassessment complete)
 
-Open positions (4 total):
+Open positions (2 total):
 
 - AAPL: 0.588580 shares, avg entry $330.27, stop-loss $330.27 (breakeven — unchanged), take-profit $347.86, overnight flag: NO
-  10 AM price: ~$332.82 | vs avg entry: +$2.55 (+0.77%) | day change: -1.59% (prev close $338.19)
+  12 PM price: ~$331.47 | vs avg entry: +$1.20 (+0.36%) | day change: -1.98% (prev close $338.19)
   entry_type: scanner (original) / manual (add-on)
   Thesis: Apple Intelligence + Alibaba Qwen + HSBC Buy PT $366. Stop at breakeven — risk-free.
-  EARNINGS EXIT DEADLINE: AAPL reports AMC tonight July 30. 3:15 PM agent MUST sell AAPL before market close — no exceptions. Do NOT hold through earnings. Target exit: sell at market between 3:45-3:55 PM if TP not hit first.
+  EARNINGS EXIT DEADLINE: AAPL reports AMC tonight July 30. 3:15 PM agent MUST sell AAPL before market close — no exceptions. Do NOT hold through earnings.
   - If AAPL >= $347.86 at any point: sell immediately (take-profit, 0.588580 shares, market order)
-  - If AAPL <= $330.27: sell immediately (stop-loss — breakeven)
-  - If neither TP nor stop triggered: SELL AT MARKET before 3:55 PM close today
-
-- MMM: 0.474448 shares, entry $174.94, stop-loss $174.94 (breakeven — unchanged), take-profit $186.82, overnight flag: YES
-  10 AM price: ~$176.21 | vs avg entry: +$1.27 (+0.73%) | day change: -0.98%
-  entry_type: scanner
-  Thesis: Q2 2026 earnings beat ($2.40 EPS vs $2.24 est.); FY guidance raised; MSFT Azure AI partnership. Industrial sector weak but stop at breakeven — risk-free.
-  Buffer: $1.27 (0.73%). TP $186.82 is $10.61 (6.02%) away.
-  - If MMM >= $186.82: sell immediately (take-profit, 0.474448 shares, market order)
-  - If MMM <= $174.94: sell immediately (stop-loss — breakeven)
+  - If AAPL <= $330.27: sell immediately (stop-loss — breakeven, verify fill)
+  - If still open at 3:15 PM startup and price between $330.27-$347.86: SELL AT MARKET immediately (do not wait — earnings AMC tonight is a hard override)
 
 - HON: 0.243604 shares, avg entry $245.48, stop-loss $233.01, take-profit $269.79, overnight flag: YES
-  10 AM price: ~$239.04 | vs avg entry: -$6.44 (-2.63%) | day change: -0.86%
+  12 PM price: ~$238.61 | vs avg entry: -$6.87 (-2.80%) | day change: -1.04% (prev close $241.12)
   entry_type: scanner
-  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY guidance raised. BofA upgraded Jul 28 Neutral PT $265. Trail trigger $250.18 NOT hit. Stop buffer $6.03 (2.52%).
+  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY guidance raised. BofA upgraded Jul 28 Neutral PT $265.
+  Trail trigger $250.18 NOT hit. Stop buffer $5.60 (2.34%). Price condition for discretionary exit met (-2.80% > -1.5%) BUT thesis intact — no new negative info emerged. HOLD, let stop work.
   - If HON >= $269.79: sell immediately (take-profit, 0.243604 shares, market order)
   - If HON <= $233.01: sell immediately (stop-loss)
   - If HON reaches $250.18 intraday: trail stop to $245.48 (breakeven) immediately
 
-- MA: 0.365089 shares, entry $576.2418, stop-loss $575.00, take-profit $578.73, overnight flag: NO
-  Opened by 10 AM agent at 10:19 AM ET | entry_type: catalyst_watch
-  Thesis: Q2 2026 earnings beat BMO July 30 (EPS $5.04 vs $4.78 est. +5.5%; revenue $9.28B vs $9.08B +2.2%). Confirmed catalyst, consolidating at VWAP $578.56, strong volume (~4.4x daily average pace at entry).
-  Stop: $575.00 (30-min opening low). Stop distance: $1.24/share. Dollar risk: $0.45 (within cap).
-  TP: $578.73 (1:2 risk/reward). VERY TIGHT TP — $2.49 above entry. If MA touches $578.73: sell immediately.
-  - If MA >= $578.73: sell immediately (take-profit, 0.365089 shares, market order)
-  - If MA <= $575.00: sell immediately (stop-loss)
-  NOTE: MA reported earnings BMO today — no binary event risk. If thesis holds into close, consider carrying overnight.
+Portfolio sync: All 4 handoff positions confirmed in live portfolio at 12 PM open. MMM and MA exited at stop-loss by 12 PM agent. AAPL and HON retained.
 
-Portfolio sync: AAPL, MMM, HON carried from prior handoff. CRM and KO exited at stop-loss this session. MA new position opened this session. All 4 positions confirmed in live Robinhood portfolio.
+Sells executed this session (12 PM reassessment): 2
+- MMM: 0.474448 shares sold at ~$174.81 (stop_loss — price $174.825 < breakeven stop $174.94). P&L: -0.07%, -$0.06
+- MA: 0.365089 shares sold at ~$572.38 (stop_loss — price $572.56 < stop $575.00). P&L: -0.67%, -$1.41
 
-Sells executed this session: 2
-- CRM: 0.365839 shares sold at $177.2901 (stop_loss — trailing stop $187.60 breached overnight). P&L: +1.34%, +$0.86
-- KO: 1.785898 shares sold at $87.7701 (stop_loss — stop $88.64 breached). P&L: -2.82%, -$4.55
-- Net session P&L from closes: -$3.69
+Buys executed this session (12 PM): None. Both scanners 0 results (11th consecutive zero). No exceptional midday setups found.
 
-Buys executed this session: 1
-- MA: $210.38 (0.365089 shares at $576.2418), catalyst_watch, earnings beat BMO today
-
-Catalyst watch list status carry-forward:
-- MSFT: CONFIRMED +14.38% — NOT ENTERED (too extended at 10 AM; 9:30 AM entry window missed)
+Catalyst status carry-forward:
 - META: CATALYST FAILED (EPS miss $6.18 vs $7.22) — do not chase
-- MA: CATALYST CONFIRMED — ENTERED at $576.2418 (0.365089 shares, stop $575.00, TP $578.73)
+(MSFT entry window closed — now up 15%+, too extended. Dropped from carry-forward.)
 
-Settled cash remaining: $71.94 (buying power per Robinhood; $293.55 total cash, $221.60 unsettled from CRM/KO sales — settles July 31)
-Total account value: ~$839.91
-Portfolio invested: ~65.1% ($546.36 equity / $839.91 total)
+Settled cash remaining: $71.94
+Total cash: ~$585.52 ($71.94 settled + ~$513.58 unsettled: CRM/KO $221.60 + MMM $82.93 + MA $209.05 — all settle July 31)
+Total account value: ~$838.73
+Portfolio invested: ~30.2% ($253.23 equity / $838.73 total)
 
 NOTES FOR 3:15 PM AGENT (Wednesday July 30, 2026):
 
-1. AAPL EARNINGS EXIT — MANDATORY: AAPL must be sold before close (earnings AMC tonight). Current price ~$332.82 vs stop $330.27 (+0.77% above breakeven). Down -1.59% today despite broad rally. If TP $347.86 hit before close: sell. Otherwise: SELL AT MARKET no later than 3:55 PM. Do not hold through earnings under any circumstances.
+1. AAPL EARNINGS EXIT — MANDATORY AND URGENT: AAPL MUST be sold before close today. AAPL reports earnings AMC tonight. At 12 PM, price ~$331.47 vs stop $330.27 — only $1.20 (0.36%) above breakeven. Down -1.98% today despite broad market rally (SPY +1.14%). Stop is at extreme risk. CHECK AAPL IMMEDIATELY ON STARTUP — verify it hasn't already been stopped out.
+   - If AAPL >= $347.86: SELL immediately (take-profit, 0.588580 shares)
+   - If AAPL <= $330.27: Verify stop triggered and filled; if not, sell at market immediately
+   - If still open and between $330.27-$347.86: SELL AT MARKET immediately on startup — do not wait for 3:45 PM
 
-2. MA TP IS VERY TIGHT: Entry $576.24, TP $578.73 = only $2.49 (+0.43%) away. Check MA on startup — if price >= $578.73, exit immediately (0.365089 shares). Stop $575.00.
+2. MMM AND MA EXITED AT STOP-LOSS THIS SESSION (12 PM):
+   - MMM breached breakeven stop ($174.825 < $174.94). -0.07%, -$0.06.
+   - MA fell to $572.56, below $575.00 stop. -0.67%, -$1.41. Earnings-day catalyst failed to hold.
 
-3. BROAD MARKET: SPY +1.13%, QQQ +2.73% at 10 AM — risk-on day driven by MSFT +14.38% (Azure/cloud beat). Semiconductor sector: MU +12%, INTC +11%, AMAT +14%, SNDK +18%, WDC +16% — all disqualified for buys (5-day volatility >15% each).
+3. HON -2.80% from entry at 12 PM, stop $233.01 (buffer $5.60 / 2.34%). Trail trigger $250.18 not hit. Thesis intact — Q2 earnings beat, BofA upgrade still valid. No new negative news. Hold; let stop be the exit mechanism.
 
-4. HON -2.63% from entry, stop $233.01 buffer $6.03 (2.52%). Trail trigger $250.18 not hit. Hold.
+4. BROAD MARKET AT NOON: SPY +1.14%, QQQ +2.88% — strong risk-on day driven by MSFT +15% (Azure cloud beat). Semiconductors all disqualified (SNDK +24%, MU +16%, WDC +14%, AMAT +14%, INTC +13% — 5-day volatility >15%). AAPL notably underperforming (-1.98%) despite QQQ +2.88% — earnings-related selling pressure.
 
-5. MMM +0.73% from entry, stop at breakeven $174.94 (risk-free). Hold.
+5. BUYING POWER: $71.94 settled cash only. All today's proceeds unsettled (settle July 31). Very limited for new overnight buys. Do not exceed $71.94 in new positions.
 
-6. BUYING POWER: $71.94 settled, $221.60 unsettled (settles July 31). Very limited today.
+6. SCANNER ENVIRONMENT: Both scanners 0 results (11th consecutive zero). If scanners remain dead at 3:15 PM, focus on HON hold decision and skip new buys.
 
-7. SCANNER ENVIRONMENT: Both scanners 0 results (10th consecutive zero). MA was the only qualifying catalyst-watch entry today.
-
-8. TONIGHT AH: AAPL reports Q4 2026 earnings after close. Research July 31 BMO earnings for tomorrow's catalyst watch list.
+7. TONIGHT AH: AAPL reports Q4 2026 earnings after close (MANDATORY SELL before this — highest priority). Research July 31 BMO earnings for tomorrow's 10 AM catalyst watch list.
 
 ---
 PRE-CHECK — Market day verification

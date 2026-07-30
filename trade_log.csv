@@ -15,3 +15,5 @@ date,ticker,shares,entry_price,exit_price,entry_session,entry_type,exit_session,
 2026-07-28,SLB,1.452,51.65,50.245,10AM,catalyst_watch,user_manual,earnings_beat,energy,-2.72,-2.04,user_manual
 2026-07-30,CRM,0.365839,174.94,177.29,3:15PM,scanner,10AM,other,tech,1.34,0.86,stop_loss
 2026-07-30,KO,1.785898,90.32,87.77,3:15PM,catalyst_watch,10AM,earnings_beat,consumer,-2.82,-4.55,stop_loss
+2026-07-30,MMM,0.474448,174.94,174.81,10AM,scanner,12PM,earnings_beat,industrial,-0.07,-0.06,stop_loss
+2026-07-30,MA,0.365089,576.2418,572.38,10AM,catalyst_watch,12PM,earnings_beat,financials,-0.67,-1.41,stop_loss
