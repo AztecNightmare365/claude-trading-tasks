@@ -49,65 +49,61 @@ Notes for 10:00 AM agent (June 25, 2026):
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-07-30 (~12:10 PM ET — 12 PM reassessment complete)
+Last updated: 2026-07-31 (~10:20 AM ET — 10 AM session complete)
 
 Open positions (2 total):
 
-- AAPL: 0.588580 shares, avg entry $330.27, stop-loss $330.27 (breakeven — unchanged), take-profit $347.86, overnight flag: NO
-  12 PM price: ~$331.47 | vs avg entry: +$1.20 (+0.36%) | day change: -1.98% (prev close $338.19)
-  entry_type: scanner (original) / manual (add-on)
-  Thesis: Apple Intelligence + Alibaba Qwen + HSBC Buy PT $366. Stop at breakeven — risk-free.
-  EARNINGS EXIT DEADLINE: AAPL reports AMC tonight July 30. 3:15 PM agent MUST sell AAPL before market close — no exceptions. Do NOT hold through earnings.
-  - If AAPL >= $347.86 at any point: sell immediately (take-profit, 0.588580 shares, market order)
-  - If AAPL <= $330.27: sell immediately (stop-loss — breakeven, verify fill)
-  - If still open at 3:15 PM startup and price between $330.27-$347.86: SELL AT MARKET immediately (do not wait — earnings AMC tonight is a hard override)
-
 - HON: 0.243604 shares, avg entry $245.48, stop-loss $233.01, take-profit $269.79, overnight flag: YES
-  12 PM price: ~$238.61 | vs avg entry: -$6.87 (-2.80%) | day change: -1.04% (prev close $241.12)
+  10 AM price: ~$239.44 | vs avg entry: -$6.04 (-2.46%) | day change: -1.02% (prev close $241.91)
   entry_type: scanner
-  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY guidance raised. BofA upgraded Jul 28 Neutral PT $265.
-  Trail trigger $250.18 NOT hit. Stop buffer $5.60 (2.34%). Price condition for discretionary exit met (-2.80% > -1.5%) BUT thesis intact — no new negative info emerged. HOLD, let stop work.
+  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY guidance raised. BofA PT $265, Citi PT $279 Buy. Sector (XLI) -0.19% today — HON underperforming but thesis intact, no new negative news.
+  Trail trigger $250.18 NOT hit. Stop buffer $6.43 (2.68%). Price condition for discretionary exit met (-2.46%) BUT thesis intact — held, let stop work.
   - If HON >= $269.79: sell immediately (take-profit, 0.243604 shares, market order)
-  - If HON <= $233.01: sell immediately (stop-loss)
+  - If HON <= $233.01: sell immediately (stop-loss — no discretion)
   - If HON reaches $250.18 intraday: trail stop to $245.48 (breakeven) immediately
 
-Portfolio sync: All 4 handoff positions confirmed in live portfolio at 12 PM open. MMM and MA exited at stop-loss by 12 PM agent. AAPL and HON retained.
+- AMZN: 0.446461 shares, avg entry $268.78, stop-loss $262.06, take-profit $282.22, overnight flag: EVALUATE
+  Filled at: 10:18 AM ET | Fill price: $268.78 | day change: +13.81% (prev close $235.50)
+  entry_type: scanner
+  Thesis: Q2 2026 earnings beat (EPS $5.75 vs $1.82 est., beat by 215%); AWS +37% YoY to $42.2B vs 31% expected; revenue +20% to $200.6B. Stock held gains all morning, above VWAP, volume ~9x normal. Hard stop $262.06 (30-min session low, 2.46% below entry). Dollar risk: ~$3.00.
+  - If AMZN >= $282.22: sell immediately (take-profit, 0.446461 shares, market order)
+  - If AMZN <= $262.06: sell immediately (stop-loss — no discretion)
+  WEEKEND HOLD CAUTION: This is a Friday. Weigh overnight hold risk of AMZN carefully. Position is small ($120). Earnings are done — no binary event. But weekend gap risk is real. 3:15 PM agent decides: hold if still trending, exit if fading into close.
 
-Sells executed this session (12 PM reassessment): 2
-- MMM: 0.474448 shares sold at ~$174.81 (stop_loss — price $174.825 < breakeven stop $174.94). P&L: -0.07%, -$0.06
-- MA: 0.365089 shares sold at ~$572.38 (stop_loss — price $572.56 < stop $575.00). P&L: -0.67%, -$1.41
+Portfolio sync: Actual Robinhood portfolio confirmed: HON (carried from overnight) + AMZN (bought 10:18 AM). No manual user changes detected.
 
-Buys executed this session (12 PM): None. Both scanners 0 results (11th consecutive zero). No exceptional midday setups found.
+Sells executed this session (10 AM): None. HON held — thesis intact despite -2.46% from entry.
+Buys executed this session (10 AM): 1
+- AMZN: 0.446461 shares bought at market $268.78 avg | Dollar amount: $120.00 | entry_type: scanner
+  Stop: $262.06 | TP: $282.22 | Catalyst: Q2 2026 earnings beat (EPS $5.75 vs $1.82 est., AWS +37%)
 
 Catalyst status carry-forward:
-- META: CATALYST FAILED (EPS miss $6.18 vs $7.22) — do not chase
-(MSFT entry window closed — now up 15%+, too extended. Dropped from carry-forward.)
+- AAPL: CONFIRMED beat (EPS $2.02 vs $1.88 est., revenue $109.4B record, iPhone +22%, Mac +29%) BUT services miss ($30.74B vs $31.22B est.) + September guidance with FX headwinds and supply constraints → stock DOWN 9.5% today. CATALYST CONFIRMED but stock DECLINED. Do not enter — not a gap-up holding thesis.
+- ABBV: CATALYST FAILED — stock DOWN 1.78% today. Skip.
+- CVX: CATALYST CONFIRMED (Q2 2026 beat, EPS ~$5.56+) but stock only UP 0.27% — oil headwind limiting upside. CONFIRMED but not entered (insufficient price move for entry).
 
-Settled cash remaining: $71.94
-Total cash: ~$585.52 ($71.94 settled + ~$513.58 unsettled: CRM/KO $221.60 + MMM $82.93 + MA $209.05 — all settle July 31)
-Total account value: ~$838.73
-Portfolio invested: ~30.2% ($253.23 equity / $838.73 total)
+Settled cash remaining: ~$664.06 ($784.06 − $120.00 AMZN buy)
+Total account value: ~$842.00 (HON ~$58.30 + AMZN ~$120.01 + cash ~$664.06)
+Portfolio invested: ~21.2% (HON + AMZN)
 
-NOTES FOR 3:15 PM AGENT (Wednesday July 30, 2026):
+NOTES FOR 3:15 PM AGENT (Friday July 31, 2026):
 
-1. AAPL EARNINGS EXIT — MANDATORY AND URGENT: AAPL MUST be sold before close today. AAPL reports earnings AMC tonight. At 12 PM, price ~$331.47 vs stop $330.27 — only $1.20 (0.36%) above breakeven. Down -1.98% today despite broad market rally (SPY +1.14%). Stop is at extreme risk. CHECK AAPL IMMEDIATELY ON STARTUP — verify it hasn't already been stopped out.
-   - If AAPL >= $347.86: SELL immediately (take-profit, 0.588580 shares)
-   - If AAPL <= $330.27: Verify stop triggered and filled; if not, sell at market immediately
-   - If still open and between $330.27-$347.86: SELL AT MARKET immediately on startup — do not wait for 3:45 PM
+1. AMZN — CORE DECISION: Up 13.81% today on exceptional Q2 beat (AWS +37%). Entered at 10:18 AM at $268.78. Stop $262.06. Small position ($120, max $3 risk). 3:15 PM evaluation:
+   - Hold overnight if: AMZN is still trending up or consolidating above $265 into close, volume sustained, no material reversal news. This is a weekend hold — earnings are done, no binary events.
+   - Exit before close if: AMZN has faded below $265 (closing gap, momentum exhausted), or if Friday sentiment turns negative.
+   - Priority: Check AMZN at 3:15 PM startup — hard stop $262.06 still in effect.
 
-2. MMM AND MA EXITED AT STOP-LOSS THIS SESSION (12 PM):
-   - MMM breached breakeven stop ($174.825 < $174.94). -0.07%, -$0.06.
-   - MA fell to $572.56, below $575.00 stop. -0.67%, -$1.41. Earnings-day catalyst failed to hold.
+2. HON — STILL ALIVE: -2.46% from entry, stop $233.01 buffer ~$6.43 (2.68%). Today's underperformance is broad (AAPL earnings dragged tech/market sentiment). Thesis intact. Trail trigger $250.18 not hit. Weekend hold risk: low binary event risk (no earnings). Let stop work — do not discretionarily cut.
 
-3. HON -2.80% from entry at 12 PM, stop $233.01 (buffer $5.60 / 2.34%). Trail trigger $250.18 not hit. Thesis intact — Q2 earnings beat, BofA upgrade still valid. No new negative news. Hold; let stop be the exit mechanism.
+3. AAPL SOLD (July 30 by prior 3:15 PM session): Confirmed in portfolio sync — not in account. AAPL AH earnings caused -9.5% drop today — 3:15 PM agent correctly executed mandatory earnings exit at $333.50 yesterday.
 
-4. BROAD MARKET AT NOON: SPY +1.14%, QQQ +2.88% — strong risk-on day driven by MSFT +15% (Azure cloud beat). Semiconductors all disqualified (SNDK +24%, MU +16%, WDC +14%, AMAT +14%, INTC +13% — 5-day volatility >15%). AAPL notably underperforming (-1.98%) despite QQQ +2.88% — earnings-related selling pressure.
+4. BROAD MARKET: SPY -0.40%, QQQ -0.23% — mild negative bias. AAPL (-9.5%) dragging indices. AMZN (+13.8%) and GOOGL (+3.6%) partially offsetting. Sector leaders: XLC +0.15% (comm services, AMZN/GOOGL). All other sectors negative. Market is AAPL-heavy drag on mixed cloud strength day.
 
-5. BUYING POWER: $71.94 settled cash only. All today's proceeds unsettled (settle July 31). Very limited for new overnight buys. Do not exceed $71.94 in new positions.
+5. SCANNER ENVIRONMENT: 13th consecutive zero on both momentum scanners. AMZN entered from Source B (100 Most Popular) + web research, NOT from scanner signal. If both scanners return 0 at 3:15 PM, new buys are likely not warranted beyond existing positions.
 
-6. SCANNER ENVIRONMENT: Both scanners 0 results (11th consecutive zero). If scanners remain dead at 3:15 PM, focus on HON hold decision and skip new buys.
+6. FRIDAY PATTERN: Late-week (Thu/Fri) entries historically 0/4 = 0% win rate. AMZN entered only due to exceptional catalyst (215% EPS beat). Preserve remaining $664 cash for Monday/Tuesday setups if AMZN doesn't hold.
 
-7. TONIGHT AH: AAPL reports Q4 2026 earnings after close (MANDATORY SELL before this — highest priority). Research July 31 BMO earnings for tomorrow's 10 AM catalyst watch list.
+7. CATALYST WATCH FOR MONDAY (August 3, 2026 — next trading day): Research BMO earnings Monday as part of 3:15 PM routine. No known catalyst watch list from this session.
 
 ---
 PRE-CHECK — Market day verification
