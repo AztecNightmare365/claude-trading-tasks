@@ -36,6 +36,26 @@ SUMMARY: 3 ON TRACK (AAPL/MMM/HON); 2 CRITICAL STOP BREACH (CRM/KO) — sell blo
 
 ---
 
+## OPEN REACTION UPDATE
+<!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
+
+**9:30 AM ET, 2026-07-31** (note: the OVERNIGHT BRIEF above is stale, dated 7/30 — treated as informational only, not actioned. HON is the only overnight hold per the 7/30 3:15PM handoff.)
+
+Sells: None. HON $241.40 (open) vs stop $233.01 / TP $269.79 — ON TRACK, held.
+
+Catalyst entries: None placed (all 3 watch-list tickers resolved manually, no 9:15 brief today).
+- AAPL: FAILED — Q3 revenue beat (iPhone +22%) but weak Q4 guidance (9-11% growth, 47-48% margin) tanked it -7% AH; now -9.2% at open ($302.82 vs $333.43 close). Do not chase.
+- ABBV: -1.9% at open ($252.51 vs $257.41), no confirming catalyst news found. Pass to 10 AM.
+- CVX: +0.97% at open ($194.18 vs $192.31) — below the 1-2% catalyst bar. Pass to 10 AM.
+
+Market regime: SPY +0.10%, QQQ +0.30% — normal.
+
+Portfolio sync: AMZN adopted — 1.447125 sh, avg entry $270.19 (user manual buy, not in 7/30 handoff), current $270.64 (+0.17% vs entry; stock itself is +14.9% vs 7/30 close $235.50, entry made after that move). Protective stop set at 4% below open: $259.81. entry_type=manual.
+
+Status: 0 stop/TP sells, 0 catalyst entries, 2 positions open for 10 AM (HON, AMZN).
+
+---
+
 ## PRE-MARKET BRIEF
 
 _Retired 2026-07-29: the 9:15 AM pre-market routine is disabled. This block is no longer written. Use the 7 AM OVERNIGHT BRIEF plus live quotes._
