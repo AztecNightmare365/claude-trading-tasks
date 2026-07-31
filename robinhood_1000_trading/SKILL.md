@@ -87,58 +87,64 @@ RAW STATS:
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-Last updated: 2026-07-30 (~3:17 PM ET — 3:15 PM session complete)
+Last updated: 2026-07-31 (~3:17 PM ET — 3:15 PM session complete)
 
-Open positions held overnight (1 total):
+Open positions held overnight (2 total):
 
 - HON: 0.243604 shares, avg entry $245.48, stop-loss $233.01, take-profit $269.79, overnight flag: YES
-  3:15 PM price: ~$240.43 | vs avg entry: -$5.05 (-2.06%) | day change: -0.29%
+  3:15 PM price: ~$245.14 | vs avg entry: -$0.34 (-0.14%) | day change: +1.34% (prev close $241.91)
   entry_type: scanner
-  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY guidance raised. BofA upgraded Jul 28 Neutral PT $265, Citi PT $279 Buy. Recovering from 12 PM low of $238.61 → $240.43 at close. Stop buffer $7.42 (3.08%).
-  Trail trigger $250.18 NOT hit. If HON opens above $250.18 and holds: trail stop to $245.48 (breakeven) immediately.
+  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY guidance raised. BofA PT $265, Citi PT $279 Buy. Strong intraday recovery: -2.46% at 10 AM → -0.94% at noon → -0.14% at close. Thesis intact. No new adverse news, no binary events.
+  Trail trigger $250.18 NOT hit.
   - If HON >= $269.79: sell immediately (take-profit, 0.243604 shares, market order)
-  - If HON <= $233.01: sell immediately (stop-loss)
+  - If HON <= $233.01: sell immediately (stop-loss — no discretion)
   - If HON reaches $250.18 intraday: trail stop to $245.48 (breakeven) immediately
 
-Sells executed this session (1 total):
-- AAPL: 0.588580 shares sold at market $333.50 avg | Entry $330.27 | P&L: +$1.90 (+0.98%)
-  Reason: MANDATORY EARNINGS EXIT — AAPL reports Q3 FY2026 earnings AMC tonight July 30. Hard rule: do not hold through earnings. Stop was at breakeven ($330.27); exit protected gain.
+- AMZN: 1.447125 shares, avg entry $270.19, stop-loss $262.06, take-profit $282.22, overnight flag: YES (weekend hold authorized)
+  3:15 PM price: ~$271.13 | vs avg entry: +$0.94 (+0.35%) | day change: +15.12% (prev close $235.50)
+  entry_type: manual (user opened today between 9:30 AM and 10 AM after Q2 earnings gap-up)
+  Thesis: Q2 2026 earnings beat (EPS $5.75 vs $1.82 est., beat by 215%); AWS +37% YoY to $42.2B; revenue +20% to $200.6B. Closing near intraday high ($272.04 was the day high). Earnings done, no binary events over weekend. Stop $262.06 (3.35% below current price).
+  Trail trigger $275.59 NOT hit.
+  WEEKEND HOLD: Authorized. Price $271.13 well above $265 hold threshold. Strong close.
+  - If AMZN >= $282.22: sell immediately (take-profit, 1.447125 shares, market order)
+  - If AMZN <= $262.06: sell immediately (stop-loss — no discretion, full 1.447125 shares)
+  - If AMZN reaches $275.59 intraday: trail stop to $270.19 (breakeven) immediately
 
-Buys executed this session: None.
-Rationale: Only $1.94 settled cash (< $10 threshold). Both momentum scanners returned 0 results (12th consecutive zero). No new positions possible or warranted.
+Portfolio sync (3:15 PM reconciliation):
+  - GGLL: in 12 PM handoff (0.703828 shares, entry $106.56) but NOT in live portfolio → user sold GGLL manually between 12 PM and 3:15 PM. GGLL (2x leveraged GOOGL ETF) was up ~+2.9% at last market price ($109.67 vs entry $106.56). Estimated proceeds ~$76.47 (T+1 settlement — settles Monday August 3). Do NOT attempt to re-enter GGLL without fresh directional thesis.
+  - HON: confirmed in live portfolio — share count and avg entry match handoff.
+  - AMZN: confirmed in live portfolio — 1.447125 shares at $270.19 avg.
 
-Settled cash remaining: $1.94 (effectively zero; all other cash unsettled until July 31)
-Total cash: ~$784.17 ($1.94 settled + ~$782.23 unsettled: prior positions ~$585.83 + AAPL $196.40 — all settle July 31)
-Total account value: ~$842.72 (HON $58.55 + cash $784.17)
-Portfolio invested: ~6.9% (HON only — massive dry powder unlocks July 31)
+Sells executed this session (3:15 PM): None (no stops or TPs hit; no discretionary exits warranted).
+Buys executed this session (3:15 PM): None.
+  Rationale: Friday (0/4 historical win rate — Learned Insight Rule #5). Both momentum scanners returned 0 (15th+ consecutive zero). WDC (+3.34%) and AMAT (+2.49%) evaluated as watchlist candidates — skipped: WDC move is sector-driven (Intel capex + MSFT halo, no company-specific catalyst), earnings Aug 5 AH requires hard exit by Aug 4; AMAT below 3% general bar. Cash preserved for Monday/Tuesday.
+
+Settled cash remaining: ~$318.06
+Unsettled cash: ~$76.47 (GGLL user sale proceeds, T+1 = settles Monday August 3; adds to available capital at Monday 10 AM)
+Total account value: ~$846.53 (HON ~$59.69 + AMZN ~$392.30 + cash ~$394.53)
+Portfolio invested: ~53.4% (HON + AMZN)
 
 ---
 
-NOTES FOR 10:00 AM AGENT (Friday July 31, 2026):
+NOTES FOR 10:00 AM AGENT (Monday August 3, 2026):
 
-1. HON — SOLE OVERNIGHT HOLD: Check immediately on startup. Stop $233.01, buffer ~$7.42 (3.08%). No earnings, no binary events overnight. Thesis intact — Q2 beat, BofA PT $265, Citi PT $279. HON recovered from 12 PM low of $238.61 → $240.43 at close. Market underperformed today (SPY +1.70% vs HON -0.29%) due to tech/semi rotation, not HON-specific. Let stop be the exit mechanism.
-   - If HON >= $269.79: sell (take-profit, 0.243604 shares)
-   - If HON <= $233.01: sell (stop-loss — no discretion)
-   - If HON reaches $250.18 intraday: trail stop to breakeven $245.48 immediately
+1. AMZN — CORE WEEKEND HOLD (largest position, $392): At 3:15 PM Friday: $271.13, closing within $0.91 of intraday high ($272.04) — strong close signal. Check immediately Monday. If gap-up to TP $282.22 → sell immediately. If gap-down below $265 → evaluate thesis (earnings done, no weekend binary event; only sell if concrete new negative news, not just open weakness). Trail trigger $275.59: if AMZN opens and holds above $275.59 → trail stop to $270.19 (breakeven). Max dollar risk from stop: ~$11.76 (8.13/share × 1.447125 shares). Earnings DONE — AWS/AI narrative intact.
 
-2. AAPL SOLD — CATALYST WATCH FOR REENTRY: AAPL sold at $333.50 (+0.98%) before close. AAPL reports Q3 FY2026 earnings AMC tonight (EPS est $1.88-$1.89, up ~20% YoY, 4 consecutive beat streak). Verify actual result before 10 AM. ONLY consider reentry if: (a) clear beat with strong forward guidance, (b) gap-up is holding above VWAP — not fading the open spike, (c) price above prior close. CAUTION: tech sector has -$0.81 net in this account. It's a FRIDAY — late-week entries 0/4 = 0% win rate. If entering, keep size small.
+2. HON — RECOVERING WELL INTO CLOSE: At 3:15 PM Friday: $245.14, recovered strongly from -2.46% at 10 AM to -0.14% from entry. Institutional support evident at $245 area. Thesis intact (Q2 beat, FY guidance raised, BofA PT $265). No binary events. Trail trigger $250.18 not hit: if HON opens above $250.18 and holds intraday → trail stop to $245.48 (breakeven) immediately. Stop $233.01 provides 5.0% buffer.
 
-3. MASSIVE DRY POWDER SETTLES JULY 31: ~$782.23 unsettled becomes settled this morning. Total investable at 75% cap: ~$632 - $58.55 (HON) = ~$573 available. Do NOT rush into Friday setups because capital is available — save for next Monday/Tuesday if no exceptional setup presents itself.
+3. GGLL SOLD BY USER — LOG AND DO NOT RE-ENTER YET: User manually exited GGLL (2x leveraged GOOGL ETF, 0.703828 shares, entry $106.56) between 12 PM and 3:15 PM Friday. GGLL was +2.9% from entry at last price ($109.67). User correctly avoided weekend decay risk on a 2x leveraged instrument. If you can determine exact exit price from recent history, append to trade_log.csv with exit_reason="user_manual", entry_type="manual". Do NOT re-enter GGLL without fresh GOOGL directional conviction next week.
 
-4. FRIDAY PATTERN WARNING: Learned insight rule #5 — Late-week (Thu/Fri) entries: 0/4 = 0% win rate. Require an exceptional setup before opening new positions. Best posture: protect HON, evaluate AAPL only on a clean beat + strong open, preserve capital for early next week.
+4. CASH AVAILABILITY MONDAY: ~$318.06 settled + ~$76.47 GGLL proceeds (T+1 = settles Monday) = ~$394.53 total available. 75% cap room with current invested ~$452: ($846.53 × 0.75) - $452 = ~$183 additional investable under cap. Rule #2 + Rule #5: Mon-Tue 10AM entries are 3/3 = 100% win rate. Deploy on quality, not urgency. Preserve for a clean earnings-beat catalyst with strong open.
 
-5. SCANNER ENVIRONMENT: 12 consecutive zero sessions on both momentum scanners. If both remain 0 today, skip new buys entirely — focus on HON hold evaluation only.
+5. MONDAY WATCH — WDC (Western Digital, $550.90, +3.34% Friday): Semiconductor watchlist name. Friday move was sector-driven (Intel +$20B capex hike + MSFT/AMZN AI halo). No company-specific catalyst Friday. CRITICAL CONSTRAINT: WDC reports Q4 FY2026 earnings AFTER CLOSE Wednesday August 5. Any WDC position must be EXITED BY TUESDAY AUGUST 4 CLOSE — do not hold into Aug 5 AH. Only enter Monday if: (a) WDC continuing above Friday close at 10 AM, (b) QQQ is up, (c) you have a clean 2-day exit plan. Risk cap per SKILL: $3/position × shares, stop 5% below entry.
 
-6. BMO EARNINGS TODAY (July 31 — results known before 10 AM):
-   - ABBV: Q2 2026 BMO. EPS est ~$3.66-$3.79. Verify actual result at open. Beat + positive = consider catalyst watch entry at 1-2% open confirmation (rising, not fading). Miss/neutral = skip entirely.
-   - CVX: Q2 2026 BMO. EPS est ~$5.79 (+227% YoY, 4 consecutive beats). Energy sector. Context: oil declining on Iran peace deal — may limit upside even on a beat. Verify results and sector sentiment at open.
+6. MONDAY WATCH — DXCM (Dexcom): +11.2% Friday on Q2 2026 earnings beat + raised guidance. Catalyst fully resolved. If still trending at Monday 10 AM (above VWAP, not fading the open spike) — eligible as continuation play at 1-2% open confirmation. Check if still above VWAP and holding.
 
-7. BROAD MARKET JULY 30: SPY +1.70%, QQQ +3.13% — strong tech/semiconductor rally (MSFT +17% Azure beat, semiconductors +8%). HON/industrial underperformed today (sector rotation). Momentum broadly positive entering July 31.
+7. BROAD MARKET FRIDAY CLOSE: SPY +0.65%, QQQ +0.77% at 3:15 PM. XLK (tech ETF) +5.2% on the day — MSFT +15% (Azure $100B milestone), AMZN +15%. AAPL -9.5% drag but mega-cap cloud absorbing it. GDP 2Q2026 +1.5% (below 1Q +2.1%). 10-yr yield 4.737% (multi-year high). Watch bond yield pressure on Monday open — rising yields can weigh on tech valuation.
 
-Catalyst watch list:
-AAPL | Q3 FY2026 earnings AH tonight Jul 30 → results known before 10 AM | Positive bias (4 consec beats, EPS est $1.88-$1.89, +20% YoY) | MEDIUM (Friday + tech risk; requires gap-up holding above VWAP, not fading; skip if fading)
-ABBV | Q2 2026 earnings BMO Jul 31 → results known before 10 AM | Unknown bias — verify actual results first | MEDIUM
-CVX  | Q2 2026 earnings BMO Jul 31 → results known before 10 AM | Positive bias (4 consec beats, EPS est $5.79) | MEDIUM (oil price headwind from Iran peace deal context)
+8. SCANNER STATUS: 15+ consecutive zero sessions on both momentum scanners. If both remain 0 Monday, scanner environment is genuinely weak. Focus only on earnings-beat catalysts with strong open confirmation (catalyst watch path).
+
+Catalyst watch list: none confirmed for AH tonight (July 31) or BMO Monday (August 3). 7 companies reported AH July 31 — names not individually identified; check fresh earnings calendar at Monday 10 AM for any surprise BMO movers. WDC/DXCM/AMAT are continuation plays, not pending-catalyst entries.
 
 ---
 
