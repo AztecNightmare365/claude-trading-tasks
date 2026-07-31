@@ -14,25 +14,21 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:15 AM ET, 2026-07-30**
+**11:01 AM ET, 2026-07-31 (7AM routine ran late — quotes are live regular-session, not true pre-market; no AH/extended data returned)**
 
-POSITIONS (5 held, from 7/29 3:15PM handoff):
-- AAPL $336.71 (-0.44%). Stop $330.27 (buf 1.91%). ON TRACK. Earnings AMC tonight, no leak.
-- MMM $177.25 (-0.39%). Stop $174.94 (buf 1.30%). ON TRACK.
-- HON $240.33 (-0.33%). Stop $233.01 (buf 3.05%). ON TRACK. New insider sale $4.15M (not escalating).
-- CRM $183.25 (-2.72%). Stop $187.60 (trailed). **CRITICAL STOP BREACH** (-2.32%). No CRM-specific news — broad Wed selloff (Dow -2.19%/S&P -1.52%/Nasdaq -1.74%, post-FOMC hawkish dissent) + META AH miss hit growth names. Limit sell tried at bid $182.21 — REJECTED, fractional shares can't limit-sell outside regular hours. 9:30 AM: SELL AT OPEN, no discretion.
-- KO $88.40 (-0.76%). Stop $88.64. **CRITICAL STOP BREACH** (-0.27%, marginal). Thesis intact (Q2 beat/guidance raise). Same rejection. 9:30 AM: SELL AT OPEN, no discretion.
+POSITIONS (1 held, from 7/30 3:15PM handoff):
+- HON: $241.25 (-0.27% vs close $241.91). Stop $233.01 (buf 3.42%). TP $269.79. ON TRACK. No new adverse news — Q2 beat/raised guidance intact; $4.2M insider sale (exercised Jul 27) reported late by press today, not new/not escalating.
 
-PRE-MARKET SELLS: None — CRM & KO rejected by broker (fractional-share limit orders barred extended hours; market-only, regular hours). Platform limit, not discretion.
+PRE-MARKET SELLS: None.
 
 CATALYST WATCH:
-- MSFT $425.35 (+8.92%). CONFIRMED GAP UP (EPS $4.74 vs $4.23, rev $90.0B vs $87.6B). Flag 9:30 AM entry, 1-2% above prior close.
-- META $537.00 (-8.30%). FAILED (EPS miss $6.18 vs $7.22, capex/FCF concerns). SKIP.
-- MA $561.85 (-0.26%). PENDING, not released (call 9AM ET). Verify at open.
+- AAPL $302.85 (-9.19%). Beat EPS/rev (iPhone +22%, rev $109.4B vs $108.96B est) but cut Q4 guidance (growth 9-11% vs prior 16%, margin 47-48% on memory costs) — fell 7% AH, now -9%. CATALYST FAILED — SKIP, no reentry (guidance failed the bar).
+- ABBV $252.49 (-1.91%). Beat EPS $3.65/$3.60est, rev $16.99B/$16.77Best, but cut FY guidance ($13.87-14.07 vs $13.91-14.11) on Apogee deal dilution. CATALYST FAILED — SKIP.
+- CVX $194.27 (+1.02%). Big beat: adj EPS $6.06/$5.56est, rev $70.06B/$61.97Best, record production, new MSFT 20yr power deal. CATALYST CONFIRMED — FLAT/DOWN (positive, no meaningful gap); re-eval at 10AM.
 
-MACRO: FOMC held 3.50-3.75% (3 hawkish dissents) — Dow -2.19%/S&P -1.52%/Nasdaq -1.74% Wed close, 30Y yield highest since 2007. Premarket: SPY +0.56%, QQQ +1.18% (MSFT beat > META miss). Regime NORMAL.
+MACRO: FOMC held 3.50-3.75% (3 hawkish dissents, Jul 29). Futures firm pre-open (Nasdaq +1.11%, S&P +0.47%) on AMZN beat; AAPL -7% AH offset gains; yields near 18mo highs. SPY +0.07%, QQQ +0.23% — flat.
 
-SUMMARY: 3 ON TRACK (AAPL/MMM/HON); 2 CRITICAL STOP BREACH (CRM/KO) — sell blocked by fractional-share rule, must sell at 9:30 AM open, no discretion; 0 pre-market sells executed. Catalyst: 1 confirmed (MSFT), 1 failed (META), 1 pending (MA).
+SUMMARY: 1 ON TRACK (HON); 0 flagged, 0 pre-market sells; catalyst: 1 confirmed-flat (CVX), 2 failed (AAPL, ABBV).
 
 ---
 
