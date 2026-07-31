@@ -49,61 +49,69 @@ Notes for 10:00 AM agent (June 25, 2026):
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-07-31 (~10:20 AM ET — 10 AM session complete)
+Last updated: 2026-07-31 (~12:10 PM ET — 12 PM reassessment complete)
 
-Open positions (2 total):
+Open positions (3 total):
 
 - HON: 0.243604 shares, avg entry $245.48, stop-loss $233.01, take-profit $269.79, overnight flag: YES
-  10 AM price: ~$239.44 | vs avg entry: -$6.04 (-2.46%) | day change: -1.02% (prev close $241.91)
+  12 PM price: ~$243.18 | vs avg entry: -$2.30 (-0.94%) | day change: +0.53% (prev close $241.91)
   entry_type: scanner
-  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY guidance raised. BofA PT $265, Citi PT $279 Buy. Sector (XLI) -0.19% today — HON underperforming but thesis intact, no new negative news.
-  Trail trigger $250.18 NOT hit. Stop buffer $6.43 (2.68%). Price condition for discretionary exit met (-2.46%) BUT thesis intact — held, let stop work.
+  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY guidance raised. BofA PT $265, Citi PT $279 Buy. Thesis intact — underperforming market but no new negative news.
+  Trail trigger $250.18 NOT hit. Stop buffer $10.17 (4.18% below current). HON has recovered from -2.46% at 10 AM to -0.94% by noon.
   - If HON >= $269.79: sell immediately (take-profit, 0.243604 shares, market order)
   - If HON <= $233.01: sell immediately (stop-loss — no discretion)
   - If HON reaches $250.18 intraday: trail stop to $245.48 (breakeven) immediately
 
-- AMZN: 0.446461 shares, avg entry $268.78, stop-loss $262.06, take-profit $282.22, overnight flag: EVALUATE
-  Filled at: 10:18 AM ET | Fill price: $268.78 | day change: +13.81% (prev close $235.50)
-  entry_type: scanner
-  Thesis: Q2 2026 earnings beat (EPS $5.75 vs $1.82 est., beat by 215%); AWS +37% YoY to $42.2B vs 31% expected; revenue +20% to $200.6B. Stock held gains all morning, above VWAP, volume ~9x normal. Hard stop $262.06 (30-min session low, 2.46% below entry). Dollar risk: ~$3.00.
-  - If AMZN >= $282.22: sell immediately (take-profit, 0.446461 shares, market order)
-  - If AMZN <= $262.06: sell immediately (stop-loss — no discretion)
-  WEEKEND HOLD CAUTION: This is a Friday. Weigh overnight hold risk of AMZN carefully. Position is small ($120). Earnings are done — no binary event. But weekend gap risk is real. 3:15 PM agent decides: hold if still trending, exit if fading into close.
+- AMZN: 1.447125 shares, avg entry $270.19, stop-loss $262.06, take-profit $282.22, overnight flag: EVALUATE
+  12 PM price: ~$269.90 | vs avg entry: -$0.29 (-0.11%) | day change: +14.61% (prev close $235.50)
+  entry_type: scanner (original 0.446461 shares at $268.78 from 10 AM session); user manually added ~1.001 shares at ~$270.79 between 10 AM and noon — blended avg now $270.19
+  Thesis: Q2 2026 earnings beat (EPS $5.75 vs $1.82 est., beat by 215%); AWS +37% YoY to $42.2B; revenue +20% to $200.6B. Essentially flat from blended avg entry. Stop $262.06 remains the original 30-min session low (now 2.91% below current). EXPANDED POSITION — dollar risk at full size is ~$11.76 total; accept this, do NOT widen stop.
+  Trail trigger ($275.59) NOT hit.
+  - If AMZN >= $282.22: sell immediately (take-profit, 1.447125 shares, market order)
+  - If AMZN <= $262.06: sell immediately (stop-loss — no discretion, full 1.447125 shares)
+  WEEKEND HOLD DECISION: 3:15 PM agent evaluates. Hold if trending/consolidating above $265 into close; exit if fading below $265. Earnings done, no binary events.
 
-Portfolio sync: Actual Robinhood portfolio confirmed: HON (carried from overnight) + AMZN (bought 10:18 AM). No manual user changes detected.
+- GGLL: 0.703828 shares, avg entry $106.56, stop-loss $103.52, take-profit $116.45, overnight flag: EVALUATE
+  12 PM price: ~$107.83 | vs avg entry: +$1.27 (+1.19%) | day change: +11.07% (prev close $97.09)
+  entry_type: manual (user opened between 10 AM and 12 PM — not in 10 AM handoff; added to working set per portfolio sync)
+  Thesis: Direxion Daily GOOGL Bull 2X Shares ETF (2x daily leveraged GOOGL). GOOGL up +5.56% today on Q2 earnings beat — GGLL tracking 2x correctly. Stop: $103.52 (4% below 12 PM price, just assigned). Trail trigger $108.69 not hit.
+  - If GGLL >= $116.45: sell immediately (take-profit, 0.703828 shares, market order)
+  - If GGLL <= $103.52: sell immediately (stop-loss — no discretion)
+  WEEKEND HOLD CAUTION: 2x leveraged ETF — daily rebalancing decay over weekend is real. 3:15 PM: hold only if GOOGL is closing strong and sentiment is intact into next week. If GGLL has moved above $108.69 by 3:15 PM, trail stop to $106.56 (breakeven). Consider exiting before weekend if GOOGL fades at all.
 
-Sells executed this session (10 AM): None. HON held — thesis intact despite -2.46% from entry.
-Buys executed this session (10 AM): 1
-- AMZN: 0.446461 shares bought at market $268.78 avg | Dollar amount: $120.00 | entry_type: scanner
-  Stop: $262.06 | TP: $282.22 | Catalyst: Q2 2026 earnings beat (EPS $5.75 vs $1.82 est., AWS +37%)
+Portfolio sync (12 PM reconciliation):
+  - AMZN: expanded from 0.446461 to 1.447125 shares by user (manual addition between sessions)
+  - GGLL: new manual position — not in 10 AM handoff; added with $103.52 stop
+  - HON: unchanged from 10 AM handoff
+
+Sells executed this session (12 PM): None.
+Buys executed this session (12 PM): None.
+  Rationale for no buys: Both momentum scanners returned 0 (14th+ consecutive zero). Today is Friday — historical 0/4 win rate on Thu/Fri entries. 12PM entries have 0/3 historical win rate. Double historical penalty applied. Closest candidate was DXCM (+11.2% on Q2 beat, $32B market cap) but risk/share slightly over $3 cap and momentum was 2.2% off day high. Per Learned Insights: skip unless truly exceptional. No exceptions warranted today.
+
+Settled cash remaining: ~$318.06
+Total account value: ~$843.90 (HON ~$59.24 + AMZN ~$390.58 + GGLL ~$75.89 + cash ~$318.06)
+Portfolio invested: ~62.3% (HON + AMZN + GGLL)
 
 Catalyst status carry-forward:
-- AAPL: CONFIRMED beat (EPS $2.02 vs $1.88 est., revenue $109.4B record, iPhone +22%, Mac +29%) BUT services miss ($30.74B vs $31.22B est.) + September guidance with FX headwinds and supply constraints → stock DOWN 9.5% today. CATALYST CONFIRMED but stock DECLINED. Do not enter — not a gap-up holding thesis.
-- ABBV: CATALYST FAILED — stock DOWN 1.78% today. Skip.
-- CVX: CATALYST CONFIRMED (Q2 2026 beat, EPS ~$5.56+) but stock only UP 0.27% — oil headwind limiting upside. CONFIRMED but not entered (insufficient price move for entry).
-
-Settled cash remaining: ~$664.06 ($784.06 − $120.00 AMZN buy)
-Total account value: ~$842.00 (HON ~$58.30 + AMZN ~$120.01 + cash ~$664.06)
-Portfolio invested: ~21.2% (HON + AMZN)
+- AAPL: CONFIRMED beat (EPS $2.02 vs $1.88 est.) BUT stock declined -9.5% on services miss + FX headwinds. Stock was correctly avoided/exited. Do not enter — declining on confirmed beat.
+- ABBV: CATALYST FAILED — stock was DOWN 1.78%. Skip entirely.
+- CVX: CATALYST CONFIRMED (Q2 2026 beat, EPS ~$5.56+) but stock only UP 0.27% — oil headwind. Insufficient price move. Still watchable if oil sentiment reverses.
 
 NOTES FOR 3:15 PM AGENT (Friday July 31, 2026):
 
-1. AMZN — CORE DECISION: Up 13.81% today on exceptional Q2 beat (AWS +37%). Entered at 10:18 AM at $268.78. Stop $262.06. Small position ($120, max $3 risk). 3:15 PM evaluation:
-   - Hold overnight if: AMZN is still trending up or consolidating above $265 into close, volume sustained, no material reversal news. This is a weekend hold — earnings are done, no binary events.
-   - Exit before close if: AMZN has faded below $265 (closing gap, momentum exhausted), or if Friday sentiment turns negative.
-   - Priority: Check AMZN at 3:15 PM startup — hard stop $262.06 still in effect.
+1. AMZN — CORE DECISION (EXPANDED SIZE): Position is now 1.447125 shares at avg $270.19 (user added ~1.001 shares midday). At noon: $269.90, essentially flat from avg entry. Stop $262.06 intact (2.91% buffer). 3:15 PM evaluation — same rule as 10 AM handoff: hold if at or above $265 and trending; exit if fading below $265 into close. Weekend gap risk is real on a large position.
 
-2. HON — STILL ALIVE: -2.46% from entry, stop $233.01 buffer ~$6.43 (2.68%). Today's underperformance is broad (AAPL earnings dragged tech/market sentiment). Thesis intact. Trail trigger $250.18 not hit. Weekend hold risk: low binary event risk (no earnings). Let stop work — do not discretionarily cut.
+2. GGLL — WEEKEND HOLD SCRUTINY: User's manually added 2x leveraged GOOGL ETF. Up 11.07% on the day (GOOGL +5.56%). Stop $103.52. This is high-decay leveraged instrument — weigh carefully for weekend hold. Only hold if GOOGL is definitively strong into close and you'd be comfortable with the position over a 3-day weekend. If trailing is warranted by 3:15 PM (GGLL above $108.69), move stop to $106.56 (breakeven).
 
-3. AAPL SOLD (July 30 by prior 3:15 PM session): Confirmed in portfolio sync — not in account. AAPL AH earnings caused -9.5% drop today — 3:15 PM agent correctly executed mandatory earnings exit at $333.50 yesterday.
+3. HON — RECOVERING: -0.94% from entry at noon vs -2.46% at 10 AM. Thesis intact. Trail trigger $250.18 not hit. No new news. Low weekend binary risk. Let stop work.
 
-4. BROAD MARKET: SPY -0.40%, QQQ -0.23% — mild negative bias. AAPL (-9.5%) dragging indices. AMZN (+13.8%) and GOOGL (+3.6%) partially offsetting. Sector leaders: XLC +0.15% (comm services, AMZN/GOOGL). All other sectors negative. Market is AAPL-heavy drag on mixed cloud strength day.
+4. BROAD MARKET at 12 PM: SPY +0.19%, QQQ +0.20% — mildly positive. Market shifted from 10 AM (SPY -0.40%) — AMZN (+14.6%) and GOOGL (+5.56%) driving tech recovery. AAPL (-9.5%) still a drag but mega-cap cloud earnings absorbing the hit.
 
-5. SCANNER ENVIRONMENT: 13th consecutive zero on both momentum scanners. AMZN entered from Source B (100 Most Popular) + web research, NOT from scanner signal. If both scanners return 0 at 3:15 PM, new buys are likely not warranted beyond existing positions.
+5. SCANNER ENVIRONMENT: Both scanners returned 0 again at 12 PM. Notable earnings-driven movers: DXCM (+11.2%), MPWR (+8.6%), ETN (+5.6%). Market is running on individual earnings beats, not broad momentum.
 
-6. FRIDAY PATTERN: Late-week (Thu/Fri) entries historically 0/4 = 0% win rate. AMZN entered only due to exceptional catalyst (215% EPS beat). Preserve remaining $664 cash for Monday/Tuesday setups if AMZN doesn't hold.
+6. FRIDAY PATTERN: Late-week entries 0/4 historically. $318 cash preserved for Monday/Tuesday setups. Do not force Friday buys unless truly exceptional catalyst emerges.
 
-7. CATALYST WATCH FOR MONDAY (August 3, 2026 — next trading day): Research BMO earnings Monday as part of 3:15 PM routine. No known catalyst watch list from this session.
+7. CATALYST WATCH FOR MONDAY (August 3, 2026): Research BMO earnings Monday. No specific catalyst watch list from this session.
 
 ---
 PRE-CHECK — Market day verification
