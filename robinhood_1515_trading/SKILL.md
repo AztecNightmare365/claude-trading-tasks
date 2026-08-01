@@ -333,29 +333,30 @@ Only log completed (exited) trades. Include trade_log.csv in the git commit from
 ---
 
 ## LEARNED INSIGHTS
-<!-- Updated by weekly review agent. Last updated: 2026-07-25. Based on 12 closed trades. -->
+<!-- Updated by weekly review agent. Last updated: 2026-08-01. Based on 19 closed trades. -->
 
-OVERALL: Win rate 42% (5/12), profit factor 1.47, net P&L +$4.40 (avg win +3.25%, avg loss -1.68%)
+OVERALL: Win rate 36.8% (7/19), profit factor 0.85, net P&L -$2.93 (avg win +2.65%, avg loss -1.70%)
 
 TOP RULES (read before every session):
-1. 12PM entries are a persistent drain: 0/3 wins, -$6.17 net, avg -2.42% per trade. All three midday entries (OKTA, SMCI, ALLE) were losses. Hold 12PM buys to a drastically higher bar or skip the session entirely; do not buy at noon without an exceptional setup. (N=3)
-2. 10AM is the money session: 57% win rate (4/7), +$10.38 net. The open is where the edge lives — prioritize 10AM entries and protect that session's dry powder for the best setups. (N=7)
-3. Let stops work — don't cut by hand. Stop exits: 3/5 = 60% win rate, +$4.71 net. Discretionary exits: 2/7 = 29%, -$0.31 net. Hand-cutting on price action or "the market is red" costs real money. The stop is the exit mechanism. (N=12)
-4. earnings_beat catalyst: 2/6 = 33% win rate, +$2.15 net. The two wins (ABT, GM) came from 10AM entries on strong opens. Earnings beats alone don't guarantee success — confirm momentum at the open, don't buy a fading earnings-beat stock. (N=6)
-5. Early-week (Mon-Tue) entries: 3/3 = 100% win rate. Late-week (Thu-Fri) entries: 0/4 = 0%. Don't force Thursday or Friday setups — the early-week edge is real and now backed by minimum data. (Mon+Tue N=3; Thu+Fri N=4)
-6. tech sector: 2/5 = 40% win rate, -$0.81 net. Losers (OKTA -$1.62, SMCI -$3.03, NTSK -$1.29) overwhelm the two winners. Require a cleaner catalyst and stronger open confirmation on tech entries. (N=5)
-7. TP hit rate is 0% (0/12) — no trade has ever reached its 1:2 take-profit. Trailed stops capture all winner exits. Consider a nearer first target or partial scale-out so the 1:2 is occasionally realized. (N=12)
-8. Stop triggered rate: 42% (5/12) — marginally above the <40% target for the first time. Do not widen stops to manage this metric; fix entry quality instead. (N=12)
-9. No catalyst_watch trades yet (feature launched 2026-07-23; 0 trades tagged catalyst_watch). Cannot compare early-entry path vs scanner. Need at least 3 catalyst_watch entries to draw conclusions. (N=0)
+1. 12PM entries remain a zero: 0/3 wins, -$6.17 net. No midday buy has ever won. Skip the session or require a truly exceptional setup — above VWAP, unquestionable catalyst, confirmed sustained momentum. (N=3)
+2. earnings_beat catalyst is the biggest liability: 2/11 = 18.2% win rate, -$7.94 net. The market prices in beats before the open — buying into an earnings gap does NOT guarantee continuation. Require a confirmed gap-up still trending up at 10AM with volume, not just a positive EPS print. (N=11)
+3. catalyst_watch early-entry path is failing: 0/4 wins, -$10.03 net vs scanner 7/15 = 46.7%, +$7.10. All 4 losses were earnings_beat catalyst. The 1-2% threshold buys before confirmation and loses when the gap fades. Do not use catalyst_watch for earnings_beat plays — only apply it to analyst_upgrade or high-confidence catalysts confirmed still trending up at 10AM. (N=4 catalyst_watch, N=15 scanner)
+4. Tech sector is the account's edge: 4/7 = 57.1% win rate, +$1.95 net. Tech on non-earnings catalysts (analyst_upgrade, sector_momentum, "other") is where the wins concentrate. Lean into tech when the setup is clean. (N=7)
+5. Financials sector is a trap: 0/3 wins, -$2.99 net. GS, BLK, MA — three consecutive losses. Require strong XLF momentum and broad market confirmation before buying any financial-sector play. (N=3)
+6. analyst_upgrade catalyst leads all types: 2/3 = 66.7% win rate, +$1.76 net. Both wins came from tech entries (WDC, AAPL). Prioritize analyst upgrades in screening. (N=3)
+7. Early-week (Mon-Tue) beats late-week (Thu-Fri): Mon-Tue 3/5 = 60% win rate, +$4.58 net; Thu-Fri 2/9 = 22.2%, -$6.72 net. Thursday is the worst day (7 trades, 28.6% win rate, -$4.84 net). Do not force Thursday or Friday setups. (Mon+Tue N=5; Thu+Fri N=9)
+8. 10AM is the money session: 5/12 = 41.7% win rate, +$6.74 net. Protect this session's dry powder for the best setups. (N=12)
+9. Stop triggered rate: 47.4% (9/19) — above the <40% target and worsening. Fix entry quality; do not widen stops to manage the metric. (N=19)
+10. TP hit rate: 0% (0/19) — no trade has ever hit the 1:2 take-profit. Consider a nearer first target (1.5× stop distance) or partial scale-out at 1× to realize profits before the trailed stop exits. (N=19)
 
-AVOID: 12PM entries. OKTA, SMCI, and ALLE — three consecutive midday buys, three losses, -$6.17 total. The 12PM session has a 0% win rate over its entire history. Unless the setup is truly exceptional (above VWAP, unquestionable catalyst, strong sustained momentum), don't buy at noon.
+AVOID: The catalyst_watch + earnings_beat combination. BKR, SLB, KO, and MA — four catalyst_watch trades on earnings-beat setups, four losses, -$10.03 total. Buying at the 1-2% threshold on earnings beats means buying before crowd validation; the gap fades and the stop triggers. Do not use the early-entry path for earnings beats.
 
-LEAN INTO: Mon-Tue 10AM entries on confirmed earnings beats with a strong open. RHI, ABT, and NBIS are the template — morning buys early in the week on a clean catalyst that opened well and held momentum. 3/3 wins, +$8.65 net on these three trades alone.
+LEAN INTO: Tech non-earnings setups. NBIS (+3.65), WDC (+1.48), CRM (+0.86), AAPL (+1.90) — the account's strongest returns come from tech names on analyst_upgrade or sector_momentum catalysts with real open confirmation. When tech leads on a Mon-Tue morning and an analyst upgrade clears the scanner, that is the highest-conviction setup in the data.
 
 RAW STATS:
-- Best catalyst: earnings_beat (33% win, +$2.15 net, N=6 — only catalyst with N>=3)
-- Best sector: industrial (33% win, +$1.18 net, N=3); worst: tech (40% win, -$0.81 net, N=5)
-- Best session to open: 10AM (57% win rate, +$10.38, N=7); worst: 12PM (0% win rate, -$6.17, N=3)
-- Stop triggered rate: 42% of trades (target: <40%) — marginally above target
-- TP hit rate: 0% of trades (target: >30%) — miss; TPs never reached, trailed stops exit first
+- Best catalyst: analyst_upgrade (66.7% win rate, +$1.76 net, N=3); worst: earnings_beat (18.2%, -$7.94, N=11)
+- Best sector: tech (57.1% win rate, +$1.95 net, N=7); worst: financials (0%, -$2.99, N=3)
+- Best session to open: 10AM (41.7% win rate, +$6.74, N=12); worst: 12PM (0%, -$6.17, N=3)
+- Stop triggered rate: 47.4% of trades (target: <40%) — above target, fix entry quality
+- TP hit rate: 0% of trades (target: >30%) — zero; no TP has ever been hit
 ---
