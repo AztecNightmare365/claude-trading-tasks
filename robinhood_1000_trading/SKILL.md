@@ -119,13 +119,14 @@ Open positions (2 total):
 
   Take-profit target ($132.42) already blown through in AH. This is the account's largest potential gain ever.
 
-  10AM sell strategy:
-    - Sell at market open (9:30 AM) at whatever the open print is — do not wait for confirmation
-    - If stock opens above $145 (pre-market euphoria): still sell — post-earnings gap-ups fade
-    - If stock somehow opens below $125.89 (AH reversal): still sell — holding through earnings was a rule violation, do not compound
-    - After selling, proceeds are UNSETTLED (T+1 = settle August 5)
+  10AM sell strategy (tiered by open price):
+    - Opens BELOW $135: Sell all at market open immediately — AH enthusiasm is fading, take the win and move on.
+    - Opens $135–$145: Sell 75% at market open. Hold 25% with a hard stop at $132.42 (old take-profit becomes the new floor). If the remaining position fades below $132.42 at any point, sell the rest immediately.
+    - Opens ABOVE $145: Sell 50% immediately at open. Trail a stop on the remaining 50% at 5% below the open print (e.g. open at $147 → stop at $139.65). If the remainder fades back through that stop before or after 10AM, sell it. If still climbing with volume at 10AM, hold with the trailing stop in place. Morningstar fair value is $153 — upside from $145 is ~5.5%, not worth holding the full position for.
 
-  Do NOT use PLTR proceeds for same-day purchases on August 4 — they settle August 5.
+  At 10:00 AM regardless of scenario: if PLTR is FADING from the open spike (lower at 10AM than at 9:30AM open), sell whatever remains immediately — post-earnings fades accelerate into midday.
+
+  After any PLTR sell, proceeds are UNSETTLED (T+1 = settle August 5). Do NOT use for same-day purchases on August 4.
 
 Portfolio sync (3:15 PM reconciliation):
   - HON: confirmed in live portfolio — share count and avg entry match handoff ✓
