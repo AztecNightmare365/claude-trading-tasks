@@ -14,21 +14,21 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**11:01 AM ET, 2026-07-31 (7AM routine ran late — quotes are live regular-session, not true pre-market; no AH/extended data returned)**
+**1:25 PM ET, 2026-08-03 (7AM routine fired ~6.5hrs late — 10AM and 12PM sessions already executed today; quotes are live regular-session, not pre-market/AH)**
 
-POSITIONS (1 held, from 7/30 3:15PM handoff):
-- HON: $241.25 (-0.27% vs close $241.91). Stop $233.01 (buf 3.42%). TP $269.79. ON TRACK. No new adverse news — Q2 beat/raised guidance intact; $4.2M insider sale (exercised Jul 27) reported late by press today, not new/not escalating.
+POSITIONS (live portfolio, 2 held — HON & PLTR; AMZN/SONY already exited by earlier sessions today):
+- HON: $243.27 (+0.09% vs close $243.05; -0.90% vs entry $245.48). Stop $233.01 (buf 4.22%). TP $269.79. ON TRACK. FY26 guidance update out today (EPS $8.05-8.35 vs Street $10.78 headline, likely non-comparable basis); BofA upgraded to Neutral, PT $265 on stronger execution/orders — price flat, not a thesis break vs 12PM read.
+- PLTR: $125.59 (+2.06% vs close $123.06; +2.42% vs entry $122.62). Stop $117.72 (buf 6.27%). TP $132.42. ON TRACK. CRITICAL: Q2 earnings AFTER CLOSE TODAY (~5PM ET) — 8 straight beats but stock -40% off highs; binary event tonight. Flag for 3:15PM: do not hold into earnings without a deliberate thesis (earnings_beat catalyst = 18.2% historical win rate per Learned Insights).
 
-PRE-MARKET SELLS: None.
+ALREADY CLOSED TODAY (earlier sessions, from trade log): AMZN +5.45%/+$21.30 (take_profit, 9:30AM); SONY -2.57%/-$3.85 (discretionary, 12PM).
 
-CATALYST WATCH:
-- AAPL $302.85 (-9.19%). Beat EPS/rev (iPhone +22%, rev $109.4B vs $108.96B est) but cut Q4 guidance (growth 9-11% vs prior 16%, margin 47-48% on memory costs) — fell 7% AH, now -9%. CATALYST FAILED — SKIP, no reentry (guidance failed the bar).
-- ABBV $252.49 (-1.91%). Beat EPS $3.65/$3.60est, rev $16.99B/$16.77Best, but cut FY guidance ($13.87-14.07 vs $13.91-14.11) on Apogee deal dilution. CATALYST FAILED — SKIP.
-- CVX $194.27 (+1.02%). Big beat: adj EPS $6.06/$5.56est, rev $70.06B/$61.97Best, record production, new MSFT 20yr power deal. CATALYST CONFIRMED — FLAT/DOWN (positive, no meaningful gap); re-eval at 10AM.
+PRE-MARKET SELLS: None — market open 4hrs by the time this ran; pre-market window long passed.
 
-MACRO: FOMC held 3.50-3.75% (3 hawkish dissents, Jul 29). Futures firm pre-open (Nasdaq +1.11%, S&P +0.47%) on AMZN beat; AAPL -7% AH offset gains; yields near 18mo highs. SPY +0.07%, QQQ +0.23% — flat.
+CATALYST WATCH: none carried from 7/31 3:15PM handoff (none confirmed AH Fri or BMO Mon).
 
-SUMMARY: 1 ON TRACK (HON); 0 flagged, 0 pre-market sells; catalyst: 1 confirmed-flat (CVX), 2 failed (AAPL, ABBV).
+MACRO: SPY +1.32%, QQQ +1.66% on day. Iran talks resumed, oil sliding. 10Y yield ~4.7% (multi-yr high). Fed Sept-hike odds 64.5% per FedWatch — hawkish backdrop despite equity strength.
+
+SUMMARY: 2 ON TRACK (HON, PLTR); 1 critical flag (PLTR earnings tonight, non-overnight-risk); 0 pre-market sells; 0 catalyst tickers active.
 
 ---
 
