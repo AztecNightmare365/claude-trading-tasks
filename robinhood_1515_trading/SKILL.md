@@ -49,83 +49,67 @@ Notes for 10:00 AM agent (June 25, 2026):
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-08-03 (~10:20 AM ET — 10 AM session complete)
+Last updated: 2026-08-03 (~12:15 PM ET — 12 PM reassessment complete)
 
-Open positions (3 total):
+Open positions (2 total):
 
 - HON: 0.243604 shares, avg entry $245.48, stop-loss $233.01, take-profit $269.79, overnight flag: YES
-  10 AM price: ~$249.37 | vs avg entry: +$3.89 (+1.58%) | day change: +2.60% (prev close $243.05)
+  12 PM price: ~$244.59 | vs avg entry: -$0.89 (-0.36%) | day change: +0.63% (prev close $243.05)
   entry_type: scanner
-  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY guidance raised. BofA PT $265, Citi PT $279 Buy. Strong Monday morning continuation — +2.60% supported by XLI (+1.41%) industrial sector strength.
-  Trail trigger $250.18 NOT yet hit (current $249.37 — only $0.81 away). ALERT: HON very close to trail trigger.
+  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY guidance raised. BofA PT $265, Citi PT $279 Buy. Faded from 10 AM high of $249.37 to $244.59 — still +0.63% on day; XLI industrial sector strength continues. Thesis intact, no new negative news.
+  Trail trigger $250.18 NOT hit (current $244.59 — faded from 10 AM). Trail to $245.48 (breakeven) ONLY if HON recovers to $250.18.
   - If HON >= $269.79: sell immediately (take-profit, 0.243604 shares, market order)
   - If HON <= $233.01: sell immediately (stop-loss — no discretion)
   - If HON reaches $250.18 intraday: trail stop to $245.48 (breakeven) immediately
 
-- SONY: 6.452334 shares, avg entry $23.25, stop-loss $22.32, take-profit $25.11, overnight flag: EVALUATE
-  10 AM price: ~$22.80 | vs avg entry: -$0.45 (-1.94%) | day change: -1.97% (prev close $23.26)
-  entry_type: manual (user opened — not in prior handoff; adopted this session; stop/TP set now)
-  Thesis: UNKNOWN — user opened manually. Sony Group ADR. Q1 FY2027 earnings (reported 7/31) showed +40% operating profit beat. However Tokyo-listed SONY fell -5.23% today despite positive results; US ADR -1.97%.
-  RISK: Only $0.48 above stop ($22.80 vs stop $22.32 = 2.07% buffer). Dollar risk = $0.93 × 6.452334 = ~$6.00 (above standard $3 cap — user-set position size). Potential event around August 6 (exact nature unclear). ADR — do NOT re-enter if stopped.
-  - If SONY <= $22.32: sell immediately (stop-loss — no discretion, 6.452334 shares, market order)
-  - If SONY >= $25.11: sell immediately (take-profit, 6.452334 shares, market order)
-
 - PLTR: 1.223341 shares, avg entry $122.62, stop-loss $117.72, take-profit $132.42, overnight flag: EVALUATE
-  10 AM price: ~$124.875 | vs avg entry: +$2.255 (+1.84%) | day change: +1.47% (prev close $123.06)
-  entry_type: manual (user opened — not in prior handoff; adopted this session; stop/TP set now)
-  Thesis: UNKNOWN — user opened manually. Palantir Technologies (AI/data analytics). Up +1.47% today in a broadly positive tech/AI session (QQQ +0.80%). PLTR confirmed notable gainer per market searches.
+  12 PM price: ~$124.91 | vs avg entry: +$2.29 (+1.87%) | day change: +1.50% (prev close $123.06)
+  entry_type: manual (user opened — adopted at 10 AM session)
+  Thesis: Palantir Technologies (AI/data analytics). Up +1.87% from entry, +1.50% on day in a broadly positive QQQ +1.43% session. Manual buy by user — thesis not documented but AI/Palantir narrative intact. Trail trigger $129.97 not hit.
   Dollar risk = $4.90 × 1.223341 = ~$5.99 (above standard $3 cap — user-set position size).
-  Trail trigger: $129.97 — if PLTR reaches this intraday, trail stop to $122.62 (breakeven).
   - If PLTR <= $117.72: sell immediately (stop-loss — no discretion, 1.223341 shares, market order)
   - If PLTR >= $132.42: sell immediately (take-profit, 1.223341 shares, market order)
   - If PLTR reaches $129.97 intraday: trail stop to $122.62 (breakeven) immediately
 
-Portfolio sync (10 AM reconciliation):
-  - AMZN: IN 7/31 handoff (1.447125 shares, avg $270.19) but NOT in live portfolio → sold by 9:30 AM agentic agent at $284.9062 (take-profit — TP was $282.22; AMZN gapped above TP at open). Proceeds ~$412.30 UNSETTLED (T+1 = settles Tuesday August 4). Account's FIRST TP hit in 20 trades.
-  - HON: confirmed in live portfolio — share count and avg entry match 7/31 handoff ✓
-  - SONY: NEW manual position (6.452334 shares, avg $23.25) — not in 7/31 handoff; adopted; stop $22.32, TP $25.11 set this session
-  - PLTR: NEW manual position (1.223341 shares, avg $122.62) — not in 7/31 handoff; adopted; stop $117.72, TP $132.42 set this session
-  - GGLL: user sold 7/31 at $108.6478 (13:02 ET, placed_agent=user) — logged to trade_log.csv this session with exit_reason=user_manual
+Portfolio sync (12 PM reconciliation):
+  - SONY: SOLD at 12:13 PM ET at $22.6526 avg (6.452334 shares). Proceeds ~$146.14 UNSETTLED (T+1, settle August 4). ADR — DO NOT RE-ENTER SONY.
+  - HON: holding ✓ (share count and entry price unchanged)
+  - PLTR: holding ✓ (share count and entry price unchanged)
+  - No new manual additions detected since 10 AM.
 
-Sells executed this session (10 AM): None directly.
-  AMZN: sold by 9:30 AM agentic agent at $284.9062 BEFORE this session ran. Logged to trade_log.csv.
+Sells executed this session (12 PM):
+  SONY: 6.452334 shares sold at market avg $22.6526 (order 6a70be19, filled 12:13 PM ET).
+  Reason: Discretionary exit — price -2.47% from entry (exceeds -1.5% threshold); Tokyo SONY -5.23% despite positive Q1 earnings confirms market rejection of catalyst; continued fade all day ($22.80 at 10 AM → $22.655 at noon); last monitor before 3:15 PM with only $0.325 buffer above hard stop ($22.32). P&L: -2.57% / -$3.85. ADR — do NOT re-enter.
 
-Buys executed this session (10 AM): None.
-  Rationale: Both momentum scanners returned 0 (16th+ consecutive zero session). No candidate cleared all required filters:
-  - DXCM: +3.17% but below VWAP ($86.09 vs $86.31); earnings_beat catalyst (worst type, 18.2% win rate per learned insights); scanner missed it. SKIP.
-  - ETN: +3.01%, Q2 earnings beat + raised FY guidance, above VWAP ($427.71 vs $419.53). BUT earnings_beat = worst catalyst type (18.2% win rate, negative EV per account history); scanner missed it (volume not elevated). SKIP.
-  - GLW: +3.03%, analyst upgrade (best catalyst type). BUT opened BELOW Friday's close and V-shaped recovery — failed "moved up at open" morning-specific filter; scanner missed it. SKIP.
-  - WDC: -6.01% — Monday Watch candidate FAILED. Major reversal of Friday +3.34%. Earnings Aug 5 AH. DISCARD.
-  - Semi watchlist: SNDK +1.46%, MU -1.94%, INTC -1.85%, AMAT flat, QCOM -0.49%. None up 2%+ as required.
-  - BABA: +4.83% (Qwen 3.8-Max AI model) — ADR hard disqualifier.
-  Cash preserved for next quality setup. Tuesday historically strong (Mon-Tue 60% win rate, best window).
+Buys executed this session (12 PM): None.
+  Rationale: Both momentum scanners returned 0 (17th consecutive zero session). Best midday candidate was GLW (+5.74%, fresh Truist analyst upgrade to Buy targeting $175 — best catalyst type). However, GLW triggered the hard disqualifier: stock moved >15% in past 5 trading days (July 28 gapped -20.2% intraday; 5-day range = 27.6% from low $114.50 to today's high $146.31). Extreme recent volatility (52-wk high $271.78 June 30 → low $114.50 July 28 = -57.9% peak drawdown). 12 PM entries are also 0/3 historically. No qualifying buys; cash preserved.
 
 Settled cash remaining: ~$94.53
-Unsettled cash: ~$412.30 (AMZN TP proceeds, T+1 = settles Tuesday August 4)
-Total account value: ~$867.44 (HON ~$60.72 + SONY ~$147.11 + PLTR ~$152.73 + cash ~$506.83)
-Portfolio invested: ~41.6% (HON + SONY + PLTR)
+Unsettled cash: ~$558.44 (AMZN $412.30 + SONY $146.14, both settle Tuesday August 4)
+Total account value: ~$865.36 (HON ~$59.58 + PLTR ~$152.81 + settled cash $94.53 + unsettled $558.44)
+Portfolio invested: ~24.6% (HON + PLTR only)
 
 Catalyst status carry-forward:
-- DXCM: CONFIRMED (Q2 2026 earnings beat + raised guidance, +3.17% today). Not entered — below VWAP at 10 AM, earnings_beat risk. Monitor at 3:15 PM if momentum builds with volume.
-- ETN: CONFIRMED (Q2 2026 earnings beat + raised guidance, +3.01% today — first trading day post-earnings report). Not entered — earnings_beat type, scanner missed it. Could develop if XLI sector momentum continues. 3:15 PM agent may re-evaluate.
-- GLW: CONFIRMED (analyst upgrade, +3.03% today). Not entered — gap-down open then recovery; failed morning filter. Watch if trend solidifies.
-- WDC: FAILED as continuation play (-6.01% today, reversal of Friday +3.34%). Earnings August 5 AH. Do NOT enter. Discard from watch list.
+- DXCM: CONFIRMED (Q2 2026 earnings beat + raised guidance). At noon: +3.64% (was +3.17% at 10 AM — continued strength). Not entered — earnings_beat risk (18.2% win rate, -$7.94 net per account history). 3:15 PM agent may evaluate if above VWAP with volume confirmation.
+- ETN: CONFIRMED (Q2 2026 earnings beat + raised guidance). At noon: +4.29% (was +3.01% at 10 AM — accelerating). Not entered — earnings_beat type (worst catalyst). 3:15 PM agent may evaluate.
+- GLW: CONFIRMED (Truist analyst upgrade Hold → Buy, Aug 3 2026, PT $175 from $205). At noon: +5.74% (was +3.03% at 10 AM — strong sustained rally). NOT entered — hard disqualifier triggered (5-day price range 27.6%; July 28 single-day -20.2% gap; 57.9% drawdown from June 30 peak). 3:15 PM agent should apply extreme caution before entering: require volume above average (currently below 1.2×), price above $141.86 VWAP, and willingness to accept the stop being gapped through overnight. Note: upgrade is valuation-driven (PT cut from $205 to $175), not a fundamental improvement upgrade.
+- WDC: FAILED (-6.01% July 28 reversal). DO NOT ENTER. Earnings August 5 AH. Hard exit by Aug 4 close if any position.
 
 NOTES FOR 3:15 PM AGENT (Monday August 3, 2026):
 
-1. AMZN SOLD (ACCOUNT'S FIRST TP HIT): 9:30 AM agent sold 1.447125 shares at $284.9062 (+5.45%, +$21.30). TP was $282.22 — exceeded at open. Proceeds $412.30 unsettled, settle August 4 (T+1). Account's 20th closed trade; first take_profit hit in all 20.
+1. SONY EXITED (DISCRETIONARY, 12 PM): Sold all 6.452334 shares at $22.6526 avg, -2.57%, -$3.85. Proceeds $146.14 UNSETTLED (settle Aug 4). Tokyo SONY -5.23% despite positive earnings = market rejection. DO NOT RE-ENTER SONY under any circumstances (ADR; adverse Tokyo-driven move).
 
-2. SONY — CAREFUL OVERNIGHT EVALUATION REQUIRED: -1.94% from entry $23.25, stop only $0.48 away ($22.32). Tokyo SONY -5.23% despite positive Q1 earnings — unknown driver. Thesis unclear (user manual buy). If SONY is still fading at 3:15 PM or approaching $22.50, strongly consider discretionary exit rather than risk overnight stop-out. ADR do not re-enter.
+2. MASSIVE BUYING POWER UNLOCKS TUESDAY: AMZN $412.30 + SONY $146.14 = $558.44 in unsettled cash, all settle August 4 (tomorrow, Tuesday). Settled cash today: $94.53. Total available tomorrow AM: ~$652.97. Tuesday is historically the strongest session (Mon-Tue 60% win rate, +$4.58 net). The 10 AM agent should have substantial dry powder for quality setups.
 
-3. PLTR — HEALTHIER MANUAL POSITION: +1.84% from entry, +1.47% today. Palantir AI narrative intact. Trail trigger $129.97 not hit (current $124.875). Evaluate overnight hold — no known binary events.
+3. HON — WATCH CLOSELY: Faded from 10 AM high $249.37 → noon $244.59 (-$4.78 from morning peak). Now -0.36% from entry $245.48. Thesis intact (Q2 earnings beat, BofA PT $265, Citi PT $279, XLI +1.41%). Trail trigger $250.18 NOT hit. Stop at $233.01 provides $11.58 (4.7%) buffer. If HON rallies to $250.18 before close, trail stop to $245.48 immediately. If closing weak near $243 or below, evaluate overnight hold carefully — the earnings catalyst may be priced in. Stop at $233.01 provides ample overnight room (4.7% buffer).
 
-4. HON — ALERT: TRAIL TRIGGER IMMINENT: $249.37 at 10 AM vs trail trigger $250.18 (only $0.81 away). If HON hits $250.18 at ANY point between now and 3:15 PM — trail stop immediately to $245.48 (breakeven). Industrials XLI +1.41% supporting. Thesis remains intact.
+4. PLTR — HEALTHY MANUAL POSITION: +1.87% from entry, +1.50% on day. AI narrative intact (QQQ +1.43% today). Trail trigger $129.97 not hit (needs +4.1% from 12 PM price). No known binary events. EVALUATE overnight hold — user opened this manually, reasonable overnight thesis as AI/defense name.
 
-5. BUYING POWER: $94.53 settled now. $412.30 AMZN proceeds settle August 4 (Tuesday). Under 75% cap with room for new positions — $867.44 × 0.75 - $360.61 = ~$290 room, but only $94.53 spendable today. $412.30 available tomorrow — Tuesday is historically strong (Mon-Tue 60% win rate).
+5. BROAD MARKET at noon: SPY +1.21%, QQQ +1.43% — solid. Small-caps IWM +1.34% (small-cap catch-up). Industrials XLI strong (ETN, HON). XLC strong (META +6.57% on AI ad earnings beat). XLE still weak. Both momentum scanners 0 for 17th consecutive session — market rally is concentrated in fewer names. Do NOT force buys today — best use of $94.53 settled cash is patience until Tuesday's $558.44 unlocks.
 
-6. MARKET CONTEXT: SPY +0.98%, QQQ +0.80% — normal/positive. XLC +2.78% (BABA AI), XLI +1.41% (ETN earnings), XLF +0.84%. XLE -1.06% (Iran diplomacy, oil falling). No semiconductor strength. Both scanners 0 for 16th+ consecutive session — momentum thin.
+6. GLW SPECIAL NOTE FOR 3:15 PM: Corning is up +5.74% (noon) on Truist upgrade to Buy (Aug 3). VWAP is $141.86; current ~$145-146 (price above VWAP ✓). 5-min bar trend strong staircase up. HOWEVER: 5-day volatility hard disqualifier was triggered at 12 PM (27.6% range, July 28 single-day -20.2% gap). The 3:15 PM overnight context is different — if GLW closes strong (above $145) with improving volume, the upgrade catalyst may support an overnight position. Requires: (a) volume improving toward average 14.5M shares; (b) price holding above $142 VWAP; (c) stop set at 5% below entry (≤$138.47 if entering at $145.7) — the intraday low was $132.89 which is well below 5%. If intraday low remains $132.89, stock is too volatile for overnight hold per SKILL criteria. Assess carefully.
 
-7. WDC CRITICAL: Down -6.01% today. DO NOT ENTER UNDER ANY CIRCUMSTANCES. Earnings August 5 AH. Hard exit required from any WDC position by Aug 4 close.
+7. WDC: DO NOT ENTER UNDER ANY CIRCUMSTANCES. Earnings August 5 AH. Hard exit by Aug 4 close if any WDC position exists.
 
 ---
 PRE-CHECK — Market day verification

@@ -20,3 +20,4 @@ date,ticker,shares,entry_price,exit_price,entry_session,entry_type,exit_session,
 2026-07-30,AAPL,0.588580,330.27,333.50,10AM,scanner,3:15PM,analyst_upgrade,tech,0.98,1.90,discretionary
 2026-07-31,GGLL,0.703828,106.56,108.6478,12PM,manual,user_manual,earnings_beat,tech,1.96,1.47,user_manual
 2026-08-03,AMZN,1.447125,270.19,284.9062,10AM,manual,9:30AM,earnings_beat,tech,5.45,21.30,take_profit
+2026-08-03,SONY,6.452334,23.25,22.6526,10AM,manual,12PM,other,tech,-2.57,-3.85,discretionary
