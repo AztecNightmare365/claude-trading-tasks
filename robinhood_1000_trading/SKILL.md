@@ -35,20 +35,21 @@ SUMMARY: 2 ON TRACK (HON, PLTR); 1 critical flag (PLTR earnings tonight, non-ove
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET, 2026-07-31** (note: the OVERNIGHT BRIEF above is stale, dated 7/30 — treated as informational only, not actioned. HON is the only overnight hold per the 7/30 3:15PM handoff.)
+**9:30 AM ET, 2026-08-03** (no fresh OVERNIGHT BRIEF today — last one dated 7/31, treated as stale/informational only, not actioned. No PRE-MARKET BRIEF — 9:15 AM routine retired. Acted on raw 7/31 3:15PM handoff + live quotes.)
 
-Sells: None. HON $241.40 (open) vs stop $233.01 / TP $269.79 — ON TRACK, held.
+Sells: AMZN — TP hit. Open $278.29, filled avg $284.9062 vs entry $270.19 / TP $282.22. +5.45% / +$21.30. 1.447125 sh sold, full position closed.
 
-Catalyst entries: None placed (all 3 watch-list tickers resolved manually, no 9:15 brief today).
-- AAPL: FAILED — Q3 revenue beat (iPhone +22%) but weak Q4 guidance (9-11% growth, 47-48% margin) tanked it -7% AH; now -9.2% at open ($302.82 vs $333.43 close). Do not chase.
-- ABBV: -1.9% at open ($252.51 vs $257.41), no confirming catalyst news found. Pass to 10 AM.
-- CVX: +0.97% at open ($194.18 vs $192.31) — below the 1-2% catalyst bar. Pass to 10 AM.
+Holds: HON $247.11 (open $245.47) vs stop $233.01 / TP $269.79 — ON TRACK, held. Trail trigger $250.18 not yet hit.
 
-Market regime: SPY +0.10%, QQQ +0.30% — normal.
+Catalyst entries: None — catalyst watch list confirmed empty for BMO Monday 8/3 (per 7/31 handoff notes). No buys this session (surgical stops/TP + catalyst-only mandate; no momentum scan run).
 
-Portfolio sync: AMZN adopted — 1.447125 sh, avg entry $270.19 (user manual buy, not in 7/30 handoff), current $270.64 (+0.17% vs entry; stock itself is +14.9% vs 7/30 close $235.50, entry made after that move). Protective stop set at 4% below open: $259.81. entry_type=manual.
+Market regime: SPY +0.56%, QQQ -0.05% — normal.
 
-Status: 0 stop/TP sells, 0 catalyst entries, 2 positions open for 10 AM (HON, AMZN).
+Portfolio sync: 2 positions adopted, not in 7/31 handoff (user manual buys):
+- SONY: 6.452334 sh, avg entry $23.25, open $22.70, current $22.85. Protective stop set at 4% below open: $21.79. entry_type=manual.
+- PLTR: 1.223341 sh, avg entry $122.62, open $126.75, current $124.98. Protective stop set at 4% below open: $121.68. entry_type=manual.
+
+Status: 1 TP sell (AMZN), 0 catalyst entries, 3 positions open for 10 AM (HON, SONY, PLTR).
 
 ---
 
@@ -101,15 +102,17 @@ Open positions held overnight (2 total):
   - If HON <= $233.01: sell immediately (stop-loss — no discretion)
   - If HON reaches $250.18 intraday: trail stop to $245.48 (breakeven) immediately
 
-- AMZN: 1.447125 shares, avg entry $270.19, stop-loss $262.06, take-profit $282.22, overnight flag: YES (weekend hold authorized)
-  3:15 PM price: ~$271.13 | vs avg entry: +$0.94 (+0.35%) | day change: +15.12% (prev close $235.50)
-  entry_type: manual (user opened today between 9:30 AM and 10 AM after Q2 earnings gap-up)
-  Thesis: Q2 2026 earnings beat (EPS $5.75 vs $1.82 est., beat by 215%); AWS +37% YoY to $42.2B; revenue +20% to $200.6B. Closing near intraday high ($272.04 was the day high). Earnings done, no binary events over weekend. Stop $262.06 (3.35% below current price).
-  Trail trigger $275.59 NOT hit.
-  WEEKEND HOLD: Authorized. Price $271.13 well above $265 hold threshold. Strong close.
-  - If AMZN >= $282.22: sell immediately (take-profit, 1.447125 shares, market order)
-  - If AMZN <= $262.06: sell immediately (stop-loss — no discretion, full 1.447125 shares)
-  - If AMZN reaches $275.59 intraday: trail stop to $270.19 (breakeven) immediately
+- AMZN: SOLD BY 9:30 AM AGENT — take_profit — do not re-enter. Filled avg $284.9062 (open $278.29) vs entry $270.19 / TP $282.22, +5.45% / +$21.30, full 1.447125 shares closed 8/3 9:30 AM. See OPEN REACTION UPDATE above for detail.
+
+- SONY: 6.452334 shares, avg entry $23.25, stop-loss $21.79 (4% below 8/3 open $22.70), take-profit: none set, overnight flag: n/a (new today)
+  entry_type: manual (adopted via 9:30 AM portfolio sync, not in 7/31 handoff — user opened manually)
+  Thesis: unknown — user manual buy, no catalyst on file. Manage on protective stop only until a thesis or catalyst is identified.
+  - If SONY <= $21.79: sell immediately (stop-loss — no discretion)
+
+- PLTR: 1.223341 shares, avg entry $122.62, stop-loss $121.68 (4% below 8/3 open $126.75), take-profit: none set, overnight flag: n/a (new today)
+  entry_type: manual (adopted via 9:30 AM portfolio sync, not in 7/31 handoff — user opened manually)
+  Thesis: unknown — user manual buy, no catalyst on file. Manage on protective stop only until a thesis or catalyst is identified.
+  - If PLTR <= $121.68: sell immediately (stop-loss — no discretion)
 
 Portfolio sync (3:15 PM reconciliation):
   - GGLL: in 12 PM handoff (0.703828 shares, entry $106.56) but NOT in live portfolio → user sold GGLL manually between 12 PM and 3:15 PM. GGLL (2x leveraged GOOGL ETF) was up ~+2.9% at last market price ($109.67 vs entry $106.56). Estimated proceeds ~$76.47 (T+1 settlement — settles Monday August 3). Do NOT attempt to re-enter GGLL without fresh directional thesis.
