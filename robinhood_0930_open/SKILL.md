@@ -85,7 +85,12 @@ Buying power check:
 STEP 5 — Size catalyst entries
 For each confirmed catalyst entry from Step 4:
 - Stop-loss: use the opening 5-minute bar low (from Step 2 historicals) as reference; hard cap at 4% below entry. If the first-bar low is more than 4% below entry, the open is too volatile — skip this ticker.
-- Dollar risk cap: (entry price − stop price) × shares ≤ $3. Reduce size if needed.
+- Position sizing — quality-tiered (4% intraday stop basis):
+  - HIGH conviction ($250 max position): ALL five criteria met — (1) scanner-confirmed, (2) relative volume ≥ 1.5x, (3) price above VWAP, (4) trading in top 25% of intraday range, (5) analyst_upgrade or sector_momentum catalyst (earnings_beat alone does NOT qualify). Dollar risk limit: $10.00.
+  - MEDIUM conviction ($150 max position): scanner-confirmed + most criteria present but one missing. Dollar risk limit: $6.00.
+  - LOW conviction ($75 max position): not in scanner, OR earnings_beat as sole catalyst, OR relative volume < 1.2x. Dollar risk limit: $3.00.
+  - Calculate shares as: min(tier_max_dollars, dollar_risk_limit ÷ (entry − stop)) ÷ entry. Use whichever constraint is tighter.
+  - Each candidate gets its full tier-capped amount. If cash is insufficient for all picks, cut lower-tier positions first.
 - Take-profit: 2× the stop distance from entry (1:2 minimum risk/reward).
 - Overnight hold flag: YES if no earnings tonight and the catalyst supports continuation. NO otherwise.
 

@@ -264,9 +264,19 @@ Score each qualifying candidate on: percentage gain + volume strength + catalyst
 STEP 5 — Size and place overnight buys
 Select up to 4 candidates from Step 4. Divide the buyable amount from Step 3 evenly across them (e.g., 4 picks = each gets one-quarter of buyable cash), but cap any single position at 25% of total account value. If fewer candidates qualify, split the buyable amount across those instead.
 
-For each position, set stop-loss and take-profit as follows:
-- Stop-loss: use today's intraday low as a reference, but hard cap at 5% below entry price. Overnight positions get slightly more room than intraday (5% vs 4%) to absorb normal gap volatility at open, but no more — if the intraday low is more than 5% below your intended entry, the stock is too volatile to hold overnight, skip it.
-- Dollar risk cap: (entry price - stop price) x number of shares must be <= $3. If the calculated risk exceeds $3, reduce the position size until it fits within this limit rather than widening the stop.
+For each position, determine its quality tier, then set stop-loss and take-profit:
+
+- Stop-loss: use today's intraday low as a reference, but hard cap at 5% below entry price. If the intraday low is more than 5% below your intended entry, the stock is too volatile to hold overnight — skip it.
+
+- Position size — quality-tiered (use the highest tier the candidate earns):
+    HIGH conviction ($250 max): ALL five criteria met — (1) scanner-confirmed (appears in scanner results, not manual research only), (2) relative volume ≥ 1.5x, (3) price above VWAP, (4) closing in top 25% of intraday range, (5) analyst_upgrade or sector_momentum catalyst (earnings_beat alone does NOT qualify for this tier). Dollar risk limit: $12.50.
+    MEDIUM conviction ($150 max): scanner-confirmed + most criteria present but one missing (e.g. relative volume 1.2–1.5x, or strong catalyst but price slightly below VWAP). Dollar risk limit: $7.50.
+    LOW conviction ($75 max): not in scanner (manual research only), OR earnings_beat as sole catalyst, OR relative volume < 1.2x. Dollar risk limit: $3.75.
+
+  Allocate each candidate its full tier-capped dollar amount — do NOT split the buyable amount evenly. Total deployed must still respect the 75% invested cap and settled-cash constraint from Step 3; if total tier amounts exceed buyable cash, cut lower-tier positions first. No single position may exceed 25% of total account value regardless of tier.
+
+  Dollar risk check: (entry price − stop price) × shares must not exceed the tier's dollar risk limit. Reduce shares to fit — never widen the stop.
+
 - Take-profit: set at 2x the stop distance from entry (minimum 1:2 risk/reward ratio).
 
 Place dollar-amount market orders for each — fractional shares are fine. Orders are GFD (good for day, expires at close).
