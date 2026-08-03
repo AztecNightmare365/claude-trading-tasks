@@ -89,66 +89,92 @@ RAW STATS:
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-Last updated: 2026-07-31 (~3:17 PM ET — 3:15 PM session complete)
+Last updated: 2026-08-03 (~3:15 PM ET — 3:15 PM session complete)
 
-Open positions held overnight (2 total):
+Open positions (2 total):
 
 - HON: 0.243604 shares, avg entry $245.48, stop-loss $233.01, take-profit $269.79, overnight flag: YES
-  3:15 PM price: ~$245.14 | vs avg entry: -$0.34 (-0.14%) | day change: +1.34% (prev close $241.91)
+  3:15 PM close: $246.79 | vs avg entry: +$1.31 (+0.53%) | day change: +1.54% (prev close $243.05)
   entry_type: scanner
-  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY guidance raised. BofA PT $265, Citi PT $279 Buy. Strong intraday recovery: -2.46% at 10 AM → -0.94% at noon → -0.14% at close. Thesis intact. No new adverse news, no binary events.
-  Trail trigger $250.18 NOT hit.
+  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY guidance raised. BofA PT $265, Citi PT $279 Buy. XLI industrial sector strong all day (ETN +4.49% on dual catalyst: Q2 beat + Evercore ISI upgrade). Trail trigger $250.18 NOT hit (closed $246.79). No binary events.
   - If HON >= $269.79: sell immediately (take-profit, 0.243604 shares, market order)
   - If HON <= $233.01: sell immediately (stop-loss — no discretion)
   - If HON reaches $250.18 intraday: trail stop to $245.48 (breakeven) immediately
 
-- AMZN: SOLD BY 9:30 AM AGENT — take_profit — do not re-enter. Filled avg $284.9062 (open $278.29) vs entry $270.19 / TP $282.22, +5.45% / +$21.30, full 1.447125 shares closed 8/3 9:30 AM. See OPEN REACTION UPDATE above for detail.
+- PLTR: 1.223341 shares, avg entry $122.62, stop-loss $117.72, take-profit $132.42, overnight flag: *** SELL AT OPEN — PRIORITY #1 ***
+  Regular close: $125.89 (+2.67% vs entry) | AH price: ~$139.00 at 5:22 PM ET | AH gain vs entry: +$16.38 (+13.4%)
+  entry_type: manual (user opened — adopted at 10 AM session)
 
-- SONY: 6.452334 shares, avg entry $23.25, stop-loss $21.79 (4% below 8/3 open $22.70), take-profit: none set, overnight flag: n/a (new today)
-  entry_type: manual (adopted via 9:30 AM portfolio sync, not in 7/31 handoff — user opened manually)
-  Thesis: unknown — user manual buy, no catalyst on file. Manage on protective stop only until a thesis or catalyst is identified.
-  - If SONY <= $21.79: sell immediately (stop-loss — no discretion)
+  *** CRITICAL: SELL ALL 1.223341 SHARES AT MARKET OPEN (9:30 AM) ***
 
-- PLTR: 1.223341 shares, avg entry $122.62, stop-loss $121.68 (4% below 8/3 open $126.75), take-profit: none set, overnight flag: n/a (new today)
-  entry_type: manual (adopted via 9:30 AM portfolio sync, not in 7/31 handoff — user opened manually)
-  Thesis: unknown — user manual buy, no catalyst on file. Manage on protective stop only until a thesis or catalyst is identified.
-  - If PLTR <= $121.68: sell immediately (stop-loss — no discretion)
+  Context: The 3:15 PM routine attempted to sell PLTR before close due to tonight's earnings (hard rule). MCP server disconnect prevented execution before 4:00 PM close. PLTR was held inadvertently through earnings.
+
+  PLTR Q2 2026 actual results (reported AH August 3):
+    - Revenue: $1.94B vs $1.80B estimate (massive beat)
+    - EPS: $0.41 vs $0.35 estimate
+    - U.S. commercial revenue: +149% YoY
+    - Total revenue growth: +93% YoY
+    - FY 2026 guidance raised to $8.15-8.16B (vs $7.65-7.66B prior; vs $7.69B estimate)
+    - AH reaction: ~+$13-14/share (+10-11%), trading ~$139 after hours
+
+  Take-profit target ($132.42) already blown through in AH. This is the account's largest potential gain ever.
+
+  10AM sell strategy:
+    - Sell at market open (9:30 AM) at whatever the open print is — do not wait for confirmation
+    - If stock opens above $145 (pre-market euphoria): still sell — post-earnings gap-ups fade
+    - If stock somehow opens below $125.89 (AH reversal): still sell — holding through earnings was a rule violation, do not compound
+    - After selling, proceeds are UNSETTLED (T+1 = settle August 5)
+
+  Do NOT use PLTR proceeds for same-day purchases on August 4 — they settle August 5.
 
 Portfolio sync (3:15 PM reconciliation):
-  - GGLL: in 12 PM handoff (0.703828 shares, entry $106.56) but NOT in live portfolio → user sold GGLL manually between 12 PM and 3:15 PM. GGLL (2x leveraged GOOGL ETF) was up ~+2.9% at last market price ($109.67 vs entry $106.56). Estimated proceeds ~$76.47 (T+1 settlement — settles Monday August 3). Do NOT attempt to re-enter GGLL without fresh directional thesis.
-  - HON: confirmed in live portfolio — share count and avg entry match handoff.
-  - AMZN: confirmed in live portfolio — 1.447125 shares at $270.19 avg.
+  - HON: confirmed in live portfolio — share count and avg entry match handoff ✓
+  - PLTR: confirmed in live portfolio — share count and avg entry match handoff ✓
+  - SONY: confirmed SOLD by 12 PM session (order 6a70be19, 6.452334 shares at $22.6526, 12:13 PM ET) — removed from working set ✓
+  - AMZN: confirmed SOLD by 10 AM session (order 6a709920, 1.447125 shares at $284.9062, 10:35 AM ET) — removed from working set ✓
+  - No new manual positions detected.
 
-Sells executed this session (3:15 PM): None (no stops or TPs hit; no discretionary exits warranted).
+Sells executed this session (3:15 PM): None (PLTR sell attempted but not executed due to MCP server disconnect; no stops or TPs triggered for any position).
 Buys executed this session (3:15 PM): None.
-  Rationale: Friday (0/4 historical win rate — Learned Insight Rule #5). Both momentum scanners returned 0 (15th+ consecutive zero). WDC (+3.34%) and AMAT (+2.49%) evaluated as watchlist candidates — skipped: WDC move is sector-driven (Intel capex + MSFT halo, no company-specific catalyst), earnings Aug 5 AH requires hard exit by Aug 4; AMAT below 3% general bar. Cash preserved for Monday/Tuesday.
+  Rationale: Both momentum scanners returned 0 (18th consecutive zero). Candidates evaluated and disqualified:
+    - SNDK (+5.63%): 5-day volatility >20% (tested $1,000 support, +28% reversal, no brand-new named catalyst) → hard disqualified. Also earnings August 5 AH — do not hold overnight.
+    - GLW (+6.65%): analyst_upgrade (Truist Hold→Buy), but today's intraday low ~$132.89 is 9.9% below close $147.44 → overnight volatility hard disqualifier (SKILL: intraday low >5% below entry = skip). Evaluate fresh at 10AM.
+    - ETN (+4.49%): dual catalyst (Q2 earnings beat + Evercore ISI upgrade to Outperform, PT $502), but not in scanner (relative volume <1.2x) + earnings_beat is primary driver (18.2% win rate). Skipped.
+    - DXCM (+4.15%): earnings_beat, not in scanner → skip.
+    - QCOM (+2.17%): watchlist-eligible (QQQ up, >2%), but no stock-specific catalyst beyond broad tech rally → insufficient overnight thesis.
 
-Settled cash remaining: ~$318.06
-Unsettled cash: ~$76.47 (GGLL user sale proceeds, T+1 = settles Monday August 3; adds to available capital at Monday 10 AM)
-Total account value: ~$846.53 (HON ~$59.69 + AMZN ~$392.30 + cash ~$394.53)
-Portfolio invested: ~53.4% (HON + AMZN)
+Settled cash remaining: $94.53
+Unsettled cash: $558.44 (AMZN $412.30 + SONY $146.14, both settling August 4)
+PLTR sale proceeds (when sold at 10AM open Aug 4): ~$155-175 est. → UNSETTLED, settle August 5
+Total account value at regular close: ~$867.07 (HON $60.10 + PLTR $154.00 + settled $94.53 + unsettled $558.44)
+AH account value (PLTR ~$139): ~$883
+Portfolio invested at regular close: ~25% (HON + PLTR)
 
 ---
 
-NOTES FOR 10:00 AM AGENT (Monday August 3, 2026):
+NOTES FOR 10:00 AM AGENT (Tuesday August 4, 2026):
 
-1. AMZN — CORE WEEKEND HOLD (largest position, $392): At 3:15 PM Friday: $271.13, closing within $0.91 of intraday high ($272.04) — strong close signal. Check immediately Monday. If gap-up to TP $282.22 → sell immediately. If gap-down below $265 → evaluate thesis (earnings done, no weekend binary event; only sell if concrete new negative news, not just open weakness). Trail trigger $275.59: if AMZN opens and holds above $275.59 → trail stop to $270.19 (breakeven). Max dollar risk from stop: ~$11.76 (8.13/share × 1.447125 shares). Earnings DONE — AWS/AI narrative intact.
+1. PLTR — SELL AT OPEN (PRIORITY #1): Sell 1.223341 shares at market open. PLTR reported massive Q2 beat AH (revenue $1.94B vs $1.80B, EPS $0.41 vs $0.35, U.S. commercial +149% YoY, guidance raised to $8.15B). AH +10-11% to ~$139. TP ($132.42) already exceeded. Lock in the gain. Proceeds ~$155-175 depending on open, UNSETTLED (settle Aug 5). This will be the account's best single trade to date.
 
-2. HON — RECOVERING WELL INTO CLOSE: At 3:15 PM Friday: $245.14, recovered strongly from -2.46% at 10 AM to -0.14% from entry. Institutional support evident at $245 area. Thesis intact (Q2 beat, FY guidance raised, BofA PT $265). No binary events. Trail trigger $250.18 not hit: if HON opens above $250.18 and holds intraday → trail stop to $245.48 (breakeven) immediately. Stop $233.01 provides 5.0% buffer.
+2. MASSIVE BUYING POWER AVAILABLE TUESDAY: $94.53 settled now + $558.44 settling Aug 4 (AMZN + SONY) = $652.97 available buying power at 10AM. Highest dry powder in account history. Tuesday is historically the strongest session (Mon-Tue 60% win rate, +$4.58 net per Learned Insights). Do NOT deploy it all in one session — quality over urgency.
 
-3. GGLL SOLD BY USER — LOG AND DO NOT RE-ENTER YET: User manually exited GGLL (2x leveraged GOOGL ETF, 0.703828 shares, entry $106.56) between 12 PM and 3:15 PM Friday. GGLL was +2.9% from entry at last price ($109.67). User correctly avoided weekend decay risk on a 2x leveraged instrument. If you can determine exact exit price from recent history, append to trade_log.csv with exit_reason="user_manual", entry_type="manual". Do NOT re-enter GGLL without fresh GOOGL directional conviction next week.
+3. HON — HOLD AND MONITOR: Closed +1.54% on day, $246.79. Industrial sector strong (XLI). Trail trigger $250.18 not hit. Thesis intact (Q2 earnings beat, BofA PT $265, Citi PT $279). No adverse news. Hold with same parameters.
 
-4. CASH AVAILABILITY MONDAY: ~$318.06 settled + ~$76.47 GGLL proceeds (T+1 = settles Monday) = ~$394.53 total available. 75% cap room with current invested ~$452: ($846.53 × 0.75) - $452 = ~$183 additional investable under cap. Rule #2 + Rule #5: Mon-Tue 10AM entries are 3/3 = 100% win rate. Deploy on quality, not urgency. Preserve for a clean earnings-beat catalyst with strong open.
+4. ETN DUAL CATALYST — EVALUATE AT 10AM: Eaton Corp had BOTH Q2 2026 earnings beat AND Evercore ISI upgrade (Outperform, PT $502) today, closing +4.49%. Not in scanner (vol <1.2x). If ETN is still trending up with volume confirmation at 10AM (not fading the open), may qualify as a scanner entry. Treat as earnings_beat (18.2% win rate) — the analyst_upgrade is additive but doesn't make it a clean analyst_upgrade play. Only enter if scanner clears.
 
-5. MONDAY WATCH — WDC (Western Digital, $550.90, +3.34% Friday): Semiconductor watchlist name. Friday move was sector-driven (Intel +$20B capex hike + MSFT/AMZN AI halo). No company-specific catalyst Friday. CRITICAL CONSTRAINT: WDC reports Q4 FY2026 earnings AFTER CLOSE Wednesday August 5. Any WDC position must be EXITED BY TUESDAY AUGUST 4 CLOSE — do not hold into Aug 5 AH. Only enter Monday if: (a) WDC continuing above Friday close at 10 AM, (b) QQQ is up, (c) you have a clean 2-day exit plan. Risk cap per SKILL: $3/position × shares, stop 5% below entry.
+5. GLW CARRY-FORWARD — EVALUATE AT 10AM: Corning +6.65% today (Truist upgrade Hold→Buy, PT $175). Disqualified for overnight (intraday low $132.89 = 9.9% range). At 10AM: if above $144 VWAP area, holding gains, volume near/above 14.5M avg — eligible as fresh scanner entry (analyst_upgrade catalyst = 66.7% win rate). Note: PT cut from $205 to $175 (valuation-driven, not fundamental improvement).
 
-6. MONDAY WATCH — DXCM (Dexcom): +11.2% Friday on Q2 2026 earnings beat + raised guidance. Catalyst fully resolved. If still trending at Monday 10 AM (above VWAP, not fading the open spike) — eligible as continuation play at 1-2% open confirmation. Check if still above VWAP and holding.
+6. SNDK EARNINGS AUG 5 AH — DO NOT HOLD OVERNIGHT INTO AUG 5: SanDisk reports August 5 AH. If you enter SNDK on Aug 4, must exit by Aug 4 close. Today's move (+5.63%) was pre-earnings dip-buy, very high volatility name (tested $1,000 support).
 
-7. BROAD MARKET FRIDAY CLOSE: SPY +0.65%, QQQ +0.77% at 3:15 PM. XLK (tech ETF) +5.2% on the day — MSFT +15% (Azure $100B milestone), AMZN +15%. AAPL -9.5% drag but mega-cap cloud absorbing it. GDP 2Q2026 +1.5% (below 1Q +2.1%). 10-yr yield 4.737% (multi-year high). Watch bond yield pressure on Monday open — rising yields can weigh on tech valuation.
+7. WDC: DO NOT ENTER UNDER ANY CIRCUMSTANCES. Earnings August 5 AH. (Unchanged.)
 
-8. SCANNER STATUS: 15+ consecutive zero sessions on both momentum scanners. If both remain 0 Monday, scanner environment is genuinely weak. Focus only on earnings-beat catalysts with strong open confirmation (catalyst watch path).
+8. BROAD MARKET: SPY +1.52%, QQQ +1.80% today. Strong across the board. Nasdaq +2%. Environment favorable for quality tech/industrial setups on Tuesday.
 
-Catalyst watch list: none confirmed for AH tonight (July 31) or BMO Monday (August 3). 7 companies reported AH July 31 — names not individually identified; check fresh earnings calendar at Monday 10 AM for any surprise BMO movers. WDC/DXCM/AMAT are continuation plays, not pending-catalyst entries.
+Catalyst watch list (BMO August 4, 2026):
+  AMD | earnings_beat | BMO Aug 4 | Bullish (AI chip demand, data center, 8+ consecutive beats) | HIGH — DO NOT use catalyst_watch early-entry path (earnings_beat); enter only via scanner (3%+ with volume) if qualifying at 10AM
+  CAT | earnings_beat | BMO Aug 4 | Bullish (infrastructure demand, large-cap industrial) | MEDIUM — scanner-only entry, not catalyst_watch
+  SPOT | earnings_beat | BMO Aug 4 | Bullish (premium subscribers, AI features, Q2 expected strong) | MEDIUM — scanner-only
+  MRK | earnings_beat | BMO Aug 4 | Uncertain (Keytruda revenue vs. pipeline risk) | HIGH — pharma binary; scanner-only if at all
 
 ---
 

@@ -1,72 +1,52 @@
 {
-  "ts": "2026-07-29T20:10:00Z",
-  "source": "city_market_watch",
+  "ts": "2026-08-03T21:25:00Z",
+  "source": "robinhood_1515_trading",
   "portfolio": {
-    "totalValue": 852.06391622,
-    "cash": 282.32,
-    "equityValue": 569.74391622,
-    "buyingPower": 282.32,
+    "totalValue": 867.01,
+    "cash": 653.0,
+    "equityValue": 214.01,
+    "buyingPower": 94.53,
     "positions": [
-      {
-        "ticker": "AAPL",
-        "shares": 0.58858,
-        "entry": 330.27,
-        "current": 337.80,
-        "plPct": 2.28,
-        "stop": 330.27,
-        "target": 347.86,
-        "catalyst": "Apple Intelligence + Alibaba Qwen AI approval"
-      },
-      {
-        "ticker": "MMM",
-        "shares": 0.474448,
-        "entry": 174.94,
-        "current": 177.95,
-        "plPct": 1.72,
-        "stop": 174.94,
-        "target": 186.82,
-        "catalyst": "Q2 earnings beat; Microsoft Azure AI partnership"
-      },
       {
         "ticker": "HON",
         "shares": 0.243604,
         "entry": 245.48,
-        "current": 241.12,
-        "plPct": -1.78,
+        "current": 246.79,
+        "plPct": 0.53,
         "stop": 233.01,
         "target": 269.79,
-        "catalyst": "Q2 earnings beat; automation orders +16%"
+        "catalyst": "Q2 2026 earnings beat; automation orders +16%; BofA PT $265, Citi PT $279",
+        "managed": true
       },
       {
-        "ticker": "CRM",
-        "shares": 0.365839,
-        "entry": 174.94,
-        "current": 187.70,
-        "plPct": 7.29,
-        "stop": 187.60,
-        "target": 190.48,
-        "catalyst": "$1.6B VA Agentic Enterprise License Agreement"
-      },
-      {
-        "ticker": "KO",
-        "shares": 1.785898,
-        "entry": 90.32,
-        "current": 89.08,
-        "plPct": -1.37,
-        "stop": 88.64,
-        "target": 93.69,
-        "catalyst": "Q2 earnings beat; consumer staples defensive play"
+        "ticker": "PLTR",
+        "shares": 1.223341,
+        "entry": 122.62,
+        "current": 139.0,
+        "plPct": 13.36,
+        "stop": 117.72,
+        "target": 132.42,
+        "catalyst": "Q2 2026 massive earnings beat AH: revenue $1.94B vs $1.80B est, EPS $0.41 vs $0.35, US commercial +149% YoY, guidance raised. AH ~$139. SELL AT OPEN Aug 4.",
+        "managed": true
       }
     ]
   },
   "fills": [
     {
-      "id": "6a6a0b5d-b7a9-40ca-9b49-b80f9e9671c0",
-      "side": "buy",
-      "ticker": "KO",
-      "qty": 1.785898,
-      "price": 90.3243,
-      "at": "2026-07-29T14:17:01.306Z"
+      "id": "6a709920-b388-4662-8c61-8e0a464c1045",
+      "side": "sell",
+      "ticker": "AMZN",
+      "qty": 1.447125,
+      "price": 284.9062,
+      "at": "2026-08-03T13:35:29.007Z"
+    },
+    {
+      "id": "6a70be19-90ce-4383-91b8-8bfca0f99796",
+      "side": "sell",
+      "ticker": "SONY",
+      "qty": 6.452334,
+      "price": 22.6526,
+      "at": "2026-08-03T16:13:13.275Z"
     }
   ]
 }
