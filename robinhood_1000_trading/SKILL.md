@@ -14,23 +14,25 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET, 2026-08-04**
+**7:22 AM ET, 2026-08-04**
 
 POSITIONS:
-- HON: $246.27 pre-mkt (-0.20% vs close $246.77; -0.33% vs entry $245.48). Stop $233.01 (buf 5.39%). TP $269.79 (9.5% away). ON TRACK — no adverse overnight news; CAT's strong BMO beat is a positive XLI read-through.
-- PLTR remainder (0.223341 sh, avg $122.62): $144.25 pre-mkt, TP $132.42 far exceeded. Already flagged SELL AT OPEN by 3:15PM handoff (fractional, market order at 9:30). No pre-market action — carried forward unchanged.
+- HON: $246.27 pre-mkt (-0.20% vs close $246.77; +0.32% vs entry $245.48). Stop $233.01 (5.4% buf). TP $269.79 (9.5% away). ON TRACK — no adverse news; CAT's record BMO beat + BofA Neutral/$265PT support HON/XLI thesis.
+- PLTR remainder (0.223341 sh, avg $122.59): $143.73 pre-mkt (+17.3% vs entry). TP $132.42 far exceeded. TP BREACH — SELL AT OPEN per 3:15PM handoff (fractional, wait for 9:30 print, no AH limit).
 
-PRE-MARKET SELLS: None placed.
+PRE-MARKET SELLS: None.
 
-CATALYST WATCH (from 8/3 handoff):
-- CAT: reported BMO, rev $20.5B vs $19.31B est, record quarter. Pre-mkt +8.79% ($903 vs $830 close). CONFIRMED — GAP UP. Flag 9:30 entry 1-2% above close if still trending.
-- SPOT: reported BMO (300M premium subs, rev/margin records) but pre-mkt -4.90% ($462.50 vs $486.33) on margin/guidance concerns. CONFIRMED — FLAT/DOWN. Do not chase.
-- VRTX: AH beat 8/3 (rev +12% YoY, guidance raised) but pre-mkt -1.52%. CONFIRMED — FLAT/DOWN.
-- AMD: CORRECTION — reports AFTER CLOSE today, not BMO as prior handoff assumed. Not yet resolved. Pre-mkt +5.03% is broad AI-sector strength (Palantir halo), not earnings-driven. PENDING — do not treat as confirmed.
+FYI: new manual buy AMD 0.392426 sh @ $509.65 (7:17 AM ET, extended hours, user-placed) — not an overnight hold, no stop set, flag for 10AM sync. AMD reports Q2 AFTER CLOSE tonight — same-day earnings risk, must exit before close.
 
-MACRO: SPY +0.19% pre-mkt, QQQ +0.78%. Futures modestly positive continuing Monday's rally (Iran talks, oil lower). No Fed surprise — only scheduled Bowman/Cook speeches, no policy action.
+CATALYST WATCH:
+- CAT: BMO beat, rev $20.5B vs $19.31B est, record qtr. Pre-mkt +9.28% ($907 vs $830). CONFIRMED — GAP UP. 9:30 entry 1-2% above close if trending.
+- SPOT: BMO beat (300M subs, margin record) but pre-mkt -4.41% ($465 vs $486) on guidance/margin concern. CONFIRMED — FLAT/DOWN. Do not chase.
+- VRTX: AH beat 8/3 (rev +12%, guidance raised) but pre-mkt -1.52%. CONFIRMED — FLAT/DOWN.
+- AMD: reports AFTER CLOSE today, not BMO. Pre-mkt +5.21% is AI-sector/PLTR halo, not earnings-driven. PENDING.
 
-SUMMARY: 1 ON TRACK (HON), 1 pending-sale carryover (PLTR remainder); 0 pre-market sells; 1 catalyst CONFIRMED-GAP UP (CAT), 2 CONFIRMED-FLAT/DOWN (SPOT, VRTX), 1 corrected to PENDING (AMD).
+MACRO: SPY +0.24% pre-mkt, QQQ +0.90%. Futures positive continuing Monday's rally (S&P +1.48%); Iran de-escalation, lower oil. No Fed surprise — only scheduled Bowman/Cook speeches. Factory Orders at 10am (minor); no CPI/jobs today.
+
+SUMMARY: 1 ON TRACK (HON), 1 TP-breach carryover (PLTR, sell at open); 0 pre-market sells; 1 catalyst CONFIRMED-GAP UP (CAT), 2 CONFIRMED-FLAT/DOWN (SPOT, VRTX), 1 PENDING (AMD, reports tonight). New unplanned AMD position needs 10AM stop-loss + same-day exit plan.
 
 ---
 
