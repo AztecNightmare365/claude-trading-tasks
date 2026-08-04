@@ -22,3 +22,4 @@ date,ticker,shares,entry_price,exit_price,entry_session,entry_type,exit_session,
 2026-08-03,AMZN,1.447125,270.19,284.9062,10AM,manual,9:30AM,earnings_beat,tech,5.45,21.30,take_profit
 2026-08-03,SONY,6.452334,23.25,22.6526,10AM,manual,12PM,other,tech,-2.57,-3.85,discretionary
 2026-08-03,PLTR,1.000000,122.62,143.6499,10AM,manual,3:15PM,earnings_beat,tech,17.14,21.03,take_profit
+2026-08-04,PLTR,0.223341,122.59,157.98,3:15PM,manual,10AM,earnings_beat,tech,28.87,7.90,take_profit

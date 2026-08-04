@@ -49,67 +49,75 @@ Notes for 10:00 AM agent (June 25, 2026):
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-08-03 (~12:15 PM ET — 12 PM reassessment complete)
+Last updated: 2026-08-04 (~10:29 AM ET — 10 AM session complete)
 
-Open positions (2 total):
+Open positions (3 total):
 
 - HON: 0.243604 shares, avg entry $245.48, stop-loss $233.01, take-profit $269.79, overnight flag: YES
-  12 PM price: ~$244.59 | vs avg entry: -$0.89 (-0.36%) | day change: +0.63% (prev close $243.05)
+  10 AM price: ~$246.93 | vs avg entry: +$1.45 (+0.59%) | day change: +0.065% (prev close $246.77)
   entry_type: scanner
-  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY guidance raised. BofA PT $265, Citi PT $279 Buy. Faded from 10 AM high of $249.37 to $244.59 — still +0.63% on day; XLI industrial sector strength continues. Thesis intact, no new negative news.
-  Trail trigger $250.18 NOT hit (current $244.59 — faded from 10 AM). Trail to $245.48 (breakeven) ONLY if HON recovers to $250.18.
+  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY guidance raised. BofA PT $265, Citi PT $279 Buy. CAT's BMO beat (+6.51% today) validates XLI momentum thesis. Trail trigger $250.18 NOT hit.
   - If HON >= $269.79: sell immediately (take-profit, 0.243604 shares, market order)
   - If HON <= $233.01: sell immediately (stop-loss — no discretion)
   - If HON reaches $250.18 intraday: trail stop to $245.48 (breakeven) immediately
 
-- PLTR: 1.223341 shares, avg entry $122.62, stop-loss $117.72, take-profit $132.42, overnight flag: EVALUATE
-  12 PM price: ~$124.91 | vs avg entry: +$2.29 (+1.87%) | day change: +1.50% (prev close $123.06)
-  entry_type: manual (user opened — adopted at 10 AM session)
-  Thesis: Palantir Technologies (AI/data analytics). Up +1.87% from entry, +1.50% on day in a broadly positive QQQ +1.43% session. Manual buy by user — thesis not documented but AI/Palantir narrative intact. Trail trigger $129.97 not hit.
-  Dollar risk = $4.90 × 1.223341 = ~$5.99 (above standard $3 cap — user-set position size).
-  - If PLTR <= $117.72: sell immediately (stop-loss — no discretion, 1.223341 shares, market order)
-  - If PLTR >= $132.42: sell immediately (take-profit, 1.223341 shares, market order)
-  - If PLTR reaches $129.97 intraday: trail stop to $122.62 (breakeven) immediately
+- AMD: 0.392426 shares, avg entry $509.65, stop reference $502.20 (30-min low), NO STANDING STOP, overnight flag: NO — *** MANDATORY INTRADAY CLOSE ***
+  10 AM price: ~$515.81 | vs avg entry: +$6.16 (+1.21%) | day change: +6.43% (prev close $484.64)
+  entry_type: manual (user-placed 7:17 AM ET extended hours Aug 4)
+  *** MANDATORY: CLOSE AMD 0.392426 SHARES BEFORE 4 PM ET CLOSE (market order, by 3:45 PM at latest) ***
+  Reason: AMD reports Q2 2026 earnings AFTER CLOSE tonight (Aug 4). Binary event — no overnight hold under any circumstances.
+  Stop reference only (no standing order): $502.20 (9:30 AM bar low, 2.4% below entry). If AMD falls below $502.20 in midday, evaluate discretionary exit.
 
-Portfolio sync (12 PM reconciliation):
-  - SONY: SOLD at 12:13 PM ET at $22.6526 avg (6.452334 shares). Proceeds ~$146.14 UNSETTLED (T+1, settle August 4). ADR — DO NOT RE-ENTER SONY.
-  - HON: holding ✓ (share count and entry price unchanged)
-  - PLTR: holding ✓ (share count and entry price unchanged)
-  - No new manual additions detected since 10 AM.
+- QCOM: 0.469454 shares, avg entry $159.76, stop-loss $155.31, take-profit $168.66, overnight flag: EVALUATE
+  Filled: 10:29 AM ET Aug 4 (order 6a71f73d) | $75.00 invested
+  entry_type: scanner
+  Thesis: ByteDance AI chip deal (millions of ASICs for AI agent software, ByteDance boosted 2026 AI infra budget +25% to RMB200B) + semiconductor sector momentum. XLK +3.34% today, QQQ +2.21%. Clean uptrend, above VWAP ($157.67), price making new intraday highs throughout session.
+  Stop distance: $159.76 - $155.31 = $4.45 (2.78% from entry). Dollar risk: $2.09 at fill.
+  - If QCOM >= $168.66: sell immediately (take-profit)
+  - If QCOM <= $155.31: sell immediately (stop-loss — no discretion)
+  Overnight eligibility: Evaluate at 3:15 PM — no known binary events for QCOM. ByteDance deal catalyst may support overnight hold if price holds above $157 and sector stays strong. If QCOM has earnings AH tonight, exit before close (verify).
 
-Sells executed this session (12 PM):
-  SONY: 6.452334 shares sold at market avg $22.6526 (order 6a70be19, filled 12:13 PM ET).
-  Reason: Discretionary exit — price -2.47% from entry (exceeds -1.5% threshold); Tokyo SONY -5.23% despite positive Q1 earnings confirms market rejection of catalyst; continued fade all day ($22.80 at 10 AM → $22.655 at noon); last monitor before 3:15 PM with only $0.325 buffer above hard stop ($22.32). P&L: -2.57% / -$3.85. ADR — do NOT re-enter.
+Portfolio sync (10 AM reconciliation):
+  - PLTR remainder: CLOSED — sold 0.223341 shares at $157.98 avg (order 6a71f73b, ~10:29 AM ET). P&L +28.87% / +$7.90. TP breach (TP $132.42 far exceeded). Combined with AH sale Aug 3: total PLTR P&L +$28.93.
+  - HON: holding ✓ (confirmed in live portfolio)
+  - AMD: ADOPTED manual buy — user placed 7:17 AM ET extended hours, 0.392426 shares at $509.65. Overnight brief flagged this. MUST CLOSE TODAY.
+  - No other unexpected positions detected.
 
-Buys executed this session (12 PM): None.
-  Rationale: Both momentum scanners returned 0 (17th consecutive zero session). Best midday candidate was GLW (+5.74%, fresh Truist analyst upgrade to Buy targeting $175 — best catalyst type). However, GLW triggered the hard disqualifier: stock moved >15% in past 5 trading days (July 28 gapped -20.2% intraday; 5-day range = 27.6% from low $114.50 to today's high $146.31). Extreme recent volatility (52-wk high $271.78 June 30 → low $114.50 July 28 = -57.9% peak drawdown). 12 PM entries are also 0/3 historically. No qualifying buys; cash preserved.
+Sells executed this session (10 AM):
+  PLTR: 0.223341 shares sold at $157.98 avg (order 6a71f73b, filled ~10:29 AM ET Aug 4).
+  Exit reason: take_profit (TP $132.42 far exceeded — position was carryover from 3:15 PM Aug 3 handoff priority sell; 9:30 AM routine retired so 10 AM handled it). Proceeds ~$35.27 UNSETTLED (settle Aug 5).
 
-Settled cash remaining: ~$94.53
-Unsettled cash: ~$558.44 (AMZN $412.30 + SONY $146.14, both settle Tuesday August 4)
-Total account value: ~$865.36 (HON ~$59.58 + PLTR ~$152.81 + settled cash $94.53 + unsettled $558.44)
-Portfolio invested: ~24.6% (HON + PLTR only)
+Buys executed this session (10 AM):
+  QCOM: 0.469454 shares at $159.76 avg (order 6a71f73d, $75.00 dollar-based, filled ~10:29 AM ET).
+  Catalyst: ByteDance AI chip deal + semiconductor sector rally (XLK +3.34%, QQQ +2.21%). Entry_type: scanner.
 
-Catalyst status carry-forward:
-- DXCM: CONFIRMED (Q2 2026 earnings beat + raised guidance). At noon: +3.64% (was +3.17% at 10 AM — continued strength). Not entered — earnings_beat risk (18.2% win rate, -$7.94 net per account history). 3:15 PM agent may evaluate if above VWAP with volume confirmation.
-- ETN: CONFIRMED (Q2 2026 earnings beat + raised guidance). At noon: +4.29% (was +3.01% at 10 AM — accelerating). Not entered — earnings_beat type (worst catalyst). 3:15 PM agent may evaluate.
-- GLW: CONFIRMED (Truist analyst upgrade Hold → Buy, Aug 3 2026, PT $175 from $205). At noon: +5.74% (was +3.03% at 10 AM — strong sustained rally). NOT entered — hard disqualifier triggered (5-day price range 27.6%; July 28 single-day -20.2% gap; 57.9% drawdown from June 30 peak). 3:15 PM agent should apply extreme caution before entering: require volume above average (currently below 1.2×), price above $141.86 VWAP, and willingness to accept the stop being gapped through overnight. Note: upgrade is valuation-driven (PT cut from $205 to $175), not a fundamental improvement upgrade.
-- WDC: FAILED (-6.01% July 28 reversal). DO NOT ENTER. Earnings August 5 AH. Hard exit by Aug 4 close if any position.
+Settled cash remaining: $521.65 (was $596.65 before QCOM buy of $75)
+Unsettled: $35.27 (PLTR remainder, settle Aug 5) + previously unsettled amounts
+Total account value: ~$859 (HON ~$60 + AMD ~$203 + QCOM ~$75 + settled $522 + unsettled $35)
+Portfolio invested: ~39% (HON + AMD + QCOM)
 
-NOTES FOR 3:15 PM AGENT (Monday August 3, 2026):
+Catalyst status carry-forward (from 10 AM):
+- CAT: CONFIRMED-GAP UP (BMO earnings beat, +6.51% today). NOT ENTERED — hard fade from $922 open to $879 at 10 AM; price declining throughout session. Failed morning filter (not trending up at 10 AM).
+- SPOT: CONFIRMED-FLAT/DOWN (+0.84% at 10 AM). NOT ENTERED.
+- VRTX: CONFIRMED but below 3% bar (+2.03% at 10 AM). NOT ENTERED.
+- AMD: existing manual position adopted, NOT a catalyst_watch entry.
+- QCOM: ENTERED — ByteDance deal + semiconductor momentum. See above.
 
-1. SONY EXITED (DISCRETIONARY, 12 PM): Sold all 6.452334 shares at $22.6526 avg, -2.57%, -$3.85. Proceeds $146.14 UNSETTLED (settle Aug 4). Tokyo SONY -5.23% despite positive earnings = market rejection. DO NOT RE-ENTER SONY under any circumstances (ADR; adverse Tokyo-driven move).
+NOTES FOR 3:15 PM AGENT (Tuesday August 4, 2026):
 
-2. MASSIVE BUYING POWER UNLOCKS TUESDAY: AMZN $412.30 + SONY $146.14 = $558.44 in unsettled cash, all settle August 4 (tomorrow, Tuesday). Settled cash today: $94.53. Total available tomorrow AM: ~$652.97. Tuesday is historically the strongest session (Mon-Tue 60% win rate, +$4.58 net). The 10 AM agent should have substantial dry powder for quality setups.
+1. AMD MANDATORY CLOSE (*** HIGHEST PRIORITY ***): Close AMD 0.392426 shares with a market order before 3:45 PM ET. AMD Q2 2026 earnings after close tonight — binary event, no overnight hold permitted. Current gain at 10 AM: +$2.42 (1.21%). Lock in whatever profit/loss exists at the 3:15 PM check. Do not wait past 3:45 PM.
 
-3. HON — WATCH CLOSELY: Faded from 10 AM high $249.37 → noon $244.59 (-$4.78 from morning peak). Now -0.36% from entry $245.48. Thesis intact (Q2 earnings beat, BofA PT $265, Citi PT $279, XLI +1.41%). Trail trigger $250.18 NOT hit. Stop at $233.01 provides $11.58 (4.7%) buffer. If HON rallies to $250.18 before close, trail stop to $245.48 immediately. If closing weak near $243 or below, evaluate overnight hold carefully — the earnings catalyst may be priced in. Stop at $233.01 provides ample overnight room (4.7% buffer).
+2. QCOM — OVERNIGHT EVALUATION: Entered at $159.76. Stop $155.31, TP $168.66. Verify QCOM has no earnings AH tonight before holding overnight. ByteDance deal catalyst appears fresh (announced recently). If price above $157 (VWAP area) and holding with sector support, this is eligible for overnight hold per thesis.
 
-4. PLTR — HEALTHY MANUAL POSITION: +1.87% from entry, +1.50% on day. AI narrative intact (QQQ +1.43% today). Trail trigger $129.97 not hit (needs +4.1% from 12 PM price). No known binary events. EVALUATE overnight hold — user opened this manually, reasonable overnight thesis as AI/defense name.
+3. HON — HOLD: Thesis intact (+0.59% from entry at 10 AM). CAT's earnings beat validated XLI sector. No new negative news. Trail trigger $250.18 not hit. HON has no binary events — normal overnight hold.
 
-5. BROAD MARKET at noon: SPY +1.21%, QQQ +1.43% — solid. Small-caps IWM +1.34% (small-cap catch-up). Industrials XLI strong (ETN, HON). XLC strong (META +6.57% on AI ad earnings beat). XLE still weak. Both momentum scanners 0 for 17th consecutive session — market rally is concentrated in fewer names. Do NOT force buys today — best use of $94.53 settled cash is patience until Tuesday's $558.44 unlocks.
+4. INTC NOT ENTERED (note for scanner): INTC was +8.15% at 10 AM on Q2 earnings beat (revenue $16.1B vs $14.45B est., EPS $0.42 vs $0.22). 30-min low $94.32 was 4.16% below 10 AM entry price — exceeded the 4% hard stop cap. If INTC appears in 3:15 PM scanners and 30-min structure has reset, the earnings_beat thesis may still be valid. Apply standard 3% scanner criteria.
 
-6. GLW SPECIAL NOTE FOR 3:15 PM: Corning is up +5.74% (noon) on Truist upgrade to Buy (Aug 3). VWAP is $141.86; current ~$145-146 (price above VWAP ✓). 5-min bar trend strong staircase up. HOWEVER: 5-day volatility hard disqualifier was triggered at 12 PM (27.6% range, July 28 single-day -20.2% gap). The 3:15 PM overnight context is different — if GLW closes strong (above $145) with improving volume, the upgrade catalyst may support an overnight position. Requires: (a) volume improving toward average 14.5M shares; (b) price holding above $142 VWAP; (c) stop set at 5% below entry (≤$138.47 if entering at $145.7) — the intraday low was $132.89 which is well below 5%. If intraday low remains $132.89, stock is too volatile for overnight hold per SKILL criteria. Assess carefully.
+5. SEMICONDUCTOR SECTOR STRONG TODAY: XLK +3.34%, QQQ +2.21%. AMD earnings tonight — market will likely be focused on tech/AI after close. SNDK (earnings Aug 5 AH) and WDC (DO NOT ENTER) remain excluded.
 
-7. WDC: DO NOT ENTER UNDER ANY CIRCUMSTANCES. Earnings August 5 AH. Hard exit by Aug 4 close if any WDC position exists.
+6. WDC: DO NOT ENTER UNDER ANY CIRCUMSTANCES. Earnings August 5 AH.
+
+7. SNDK: DO NOT HOLD OVERNIGHT. Earnings August 5 AH. Any intraday position must be closed before 4 PM close.
 
 ---
 PRE-CHECK — Market day verification
