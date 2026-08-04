@@ -14,21 +14,23 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**1:25 PM ET, 2026-08-03 (7AM routine fired ~6.5hrs late — 10AM and 12PM sessions already executed today; quotes are live regular-session, not pre-market/AH)**
+**7:00 AM ET, 2026-08-04**
 
-POSITIONS (live portfolio, 2 held — HON & PLTR; AMZN/SONY already exited by earlier sessions today):
-- HON: $243.27 (+0.09% vs close $243.05; -0.90% vs entry $245.48). Stop $233.01 (buf 4.22%). TP $269.79. ON TRACK. FY26 guidance update out today (EPS $8.05-8.35 vs Street $10.78 headline, likely non-comparable basis); BofA upgraded to Neutral, PT $265 on stronger execution/orders — price flat, not a thesis break vs 12PM read.
-- PLTR: $125.59 (+2.06% vs close $123.06; +2.42% vs entry $122.62). Stop $117.72 (buf 6.27%). TP $132.42. ON TRACK. CRITICAL: Q2 earnings AFTER CLOSE TODAY (~5PM ET) — 8 straight beats but stock -40% off highs; binary event tonight. Flag for 3:15PM: do not hold into earnings without a deliberate thesis (earnings_beat catalyst = 18.2% historical win rate per Learned Insights).
+POSITIONS:
+- HON: $246.27 pre-mkt (-0.20% vs close $246.77; -0.33% vs entry $245.48). Stop $233.01 (buf 5.39%). TP $269.79 (9.5% away). ON TRACK — no adverse overnight news; CAT's strong BMO beat is a positive XLI read-through.
+- PLTR remainder (0.223341 sh, avg $122.62): $144.25 pre-mkt, TP $132.42 far exceeded. Already flagged SELL AT OPEN by 3:15PM handoff (fractional, market order at 9:30). No pre-market action — carried forward unchanged.
 
-ALREADY CLOSED TODAY (earlier sessions, from trade log): AMZN +5.45%/+$21.30 (take_profit, 9:30AM); SONY -2.57%/-$3.85 (discretionary, 12PM).
+PRE-MARKET SELLS: None placed.
 
-PRE-MARKET SELLS: None — market open 4hrs by the time this ran; pre-market window long passed.
+CATALYST WATCH (from 8/3 handoff):
+- CAT: reported BMO, rev $20.5B vs $19.31B est, record quarter. Pre-mkt +8.79% ($903 vs $830 close). CONFIRMED — GAP UP. Flag 9:30 entry 1-2% above close if still trending.
+- SPOT: reported BMO (300M premium subs, rev/margin records) but pre-mkt -4.90% ($462.50 vs $486.33) on margin/guidance concerns. CONFIRMED — FLAT/DOWN. Do not chase.
+- VRTX: AH beat 8/3 (rev +12% YoY, guidance raised) but pre-mkt -1.52%. CONFIRMED — FLAT/DOWN.
+- AMD: CORRECTION — reports AFTER CLOSE today, not BMO as prior handoff assumed. Not yet resolved. Pre-mkt +5.03% is broad AI-sector strength (Palantir halo), not earnings-driven. PENDING — do not treat as confirmed.
 
-CATALYST WATCH: none carried from 7/31 3:15PM handoff (none confirmed AH Fri or BMO Mon).
+MACRO: SPY +0.19% pre-mkt, QQQ +0.78%. Futures modestly positive continuing Monday's rally (Iran talks, oil lower). No Fed surprise — only scheduled Bowman/Cook speeches, no policy action.
 
-MACRO: SPY +1.32%, QQQ +1.66% on day. Iran talks resumed, oil sliding. 10Y yield ~4.7% (multi-yr high). Fed Sept-hike odds 64.5% per FedWatch — hawkish backdrop despite equity strength.
-
-SUMMARY: 2 ON TRACK (HON, PLTR); 1 critical flag (PLTR earnings tonight, non-overnight-risk); 0 pre-market sells; 0 catalyst tickers active.
+SUMMARY: 1 ON TRACK (HON), 1 pending-sale carryover (PLTR remainder); 0 pre-market sells; 1 catalyst CONFIRMED-GAP UP (CAT), 2 CONFIRMED-FLAT/DOWN (SPOT, VRTX), 1 corrected to PENDING (AMD).
 
 ---
 
