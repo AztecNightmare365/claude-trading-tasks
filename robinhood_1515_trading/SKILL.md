@@ -49,75 +49,76 @@ Notes for 10:00 AM agent (June 25, 2026):
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-08-04 (~10:29 AM ET — 10 AM session complete)
+Last updated: 2026-08-04 (~12:12 PM ET — 12 PM reassessment complete)
 
 Open positions (3 total):
 
-- HON: 0.243604 shares, avg entry $245.48, stop-loss $233.01, take-profit $269.79, overnight flag: YES
-  10 AM price: ~$246.93 | vs avg entry: +$1.45 (+0.59%) | day change: +0.065% (prev close $246.77)
+- HON: 0.243604 shares, avg entry $245.48, stop-loss $246.63 (TRAILED from $233.01), take-profit $269.79, overnight flag: YES
+  12 PM price: ~$248.20 | vs avg entry: +$2.72 (+1.11%) | day change: +0.58% (prev close $246.77)
   entry_type: scanner
-  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY guidance raised. BofA PT $265, Citi PT $279 Buy. CAT's BMO beat (+6.51% today) validates XLI momentum thesis. Trail trigger $250.18 NOT hit.
+  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY guidance raised. BofA PT $265, Citi PT $279 Buy. CAT's BMO beat validates XLI sector. Stop trailed to $246.63 (10 AM bar intraday support, above breakeven $245.48) — trail trigger $250.18 was HIT at intraday high $250.26. Position is now risk-free.
   - If HON >= $269.79: sell immediately (take-profit, 0.243604 shares, market order)
-  - If HON <= $233.01: sell immediately (stop-loss — no discretion)
-  - If HON reaches $250.18 intraday: trail stop to $245.48 (breakeven) immediately
-
-- AMD: 0.392426 shares, avg entry $509.65, stop reference $502.20 (30-min low), NO STANDING STOP, overnight flag: NO — *** MANDATORY INTRADAY CLOSE ***
-  10 AM price: ~$515.81 | vs avg entry: +$6.16 (+1.21%) | day change: +6.43% (prev close $484.64)
-  entry_type: manual (user-placed 7:17 AM ET extended hours Aug 4)
-  *** MANDATORY: CLOSE AMD 0.392426 SHARES BEFORE 4 PM ET CLOSE (market order, by 3:45 PM at latest) ***
-  Reason: AMD reports Q2 2026 earnings AFTER CLOSE tonight (Aug 4). Binary event — no overnight hold under any circumstances.
-  Stop reference only (no standing order): $502.20 (9:30 AM bar low, 2.4% below entry). If AMD falls below $502.20 in midday, evaluate discretionary exit.
+  - If HON <= $246.63: sell immediately (stop-loss — no discretion)
 
 - QCOM: 0.469454 shares, avg entry $159.76, stop-loss $155.31, take-profit $168.66, overnight flag: EVALUATE
-  Filled: 10:29 AM ET Aug 4 (order 6a71f73d) | $75.00 invested
+  12 PM price: ~$162.89 | vs avg entry: +$3.13 (+1.96%) | day change: +7.47% (prev close $151.57)
   entry_type: scanner
-  Thesis: ByteDance AI chip deal (millions of ASICs for AI agent software, ByteDance boosted 2026 AI infra budget +25% to RMB200B) + semiconductor sector momentum. XLK +3.34% today, QQQ +2.21%. Clean uptrend, above VWAP ($157.67), price making new intraday highs throughout session.
+  Thesis: ByteDance AI chip deal (millions of ASICs for AI agent software, ByteDance boosted 2026 AI infra budget +25% to RMB200B) + semiconductor sector momentum. QQQ +2.74% today. Making new session highs at noon, top 98th percentile of intraday range. Stop $155.31 = 9:30 AM bar low (confirmed intraday support).
   Stop distance: $159.76 - $155.31 = $4.45 (2.78% from entry). Dollar risk: $2.09 at fill.
   - If QCOM >= $168.66: sell immediately (take-profit)
   - If QCOM <= $155.31: sell immediately (stop-loss — no discretion)
-  Overnight eligibility: Evaluate at 3:15 PM — no known binary events for QCOM. ByteDance deal catalyst may support overnight hold if price holds above $157 and sector stays strong. If QCOM has earnings AH tonight, exit before close (verify).
+  - If QCOM >= $163.06 intraday: trail stop to $159.76 (breakeven) — 2% trail trigger
+  Overnight eligibility: Evaluate at 3:15 PM — VERIFY QCOM has no earnings AH tonight before holding overnight. ByteDance deal catalyst appears fresh. If price above $160 (above VWAP) and sector strong, eligible for overnight hold. If QCOM has faded below $159, apply extra scrutiny.
 
-Portfolio sync (10 AM reconciliation):
-  - PLTR remainder: CLOSED — sold 0.223341 shares at $157.98 avg (order 6a71f73b, ~10:29 AM ET). P&L +28.87% / +$7.90. TP breach (TP $132.42 far exceeded). Combined with AH sale Aug 3: total PLTR P&L +$28.93.
-  - HON: holding ✓ (confirmed in live portfolio)
-  - AMD: ADOPTED manual buy — user placed 7:17 AM ET extended hours, 0.392426 shares at $509.65. Overnight brief flagged this. MUST CLOSE TODAY.
-  - No other unexpected positions detected.
+- INTC: 0.752630 shares, avg entry ~$99.65, stop-loss $96.74, take-profit $105.47, overnight flag: YES
+  Filled: ~12:12 PM ET Aug 4 (order 6a720f51) | $75.00 invested | Opened by 12 PM reassessment
+  entry_type: scanner (priority sector watchlist, LOW conviction)
+  Thesis: Semiconductor sector momentum (QQQ +2.74%) + Intel manufacturing turnaround / CapEx target raised to $20B. Steady upward grind all morning (not an opening spike) — opened $95.24, climbed to $99.65 entry. VWAP $98.39, price above it. Stop at 10 AM intraday support $96.74 (3.12% below entry, within 4% cap). No binary events tonight — Q2 earnings already reported July 23; next earnings Oct 22.
+  Stop distance: $99.65 - $96.74 = $2.91. Dollar risk: $2.19 at fill.
+  - If INTC >= $105.47: sell immediately (take-profit)
+  - If INTC <= $96.74: sell immediately (stop-loss — no discretion)
+  Overnight assessment: If INTC is holding above $98 (VWAP) and sector stays strong, eligible for overnight hold. If faded below $98 by 3:15 PM, apply extra scrutiny before holding (12 PM entries have weak overnight track record).
 
-Sells executed this session (10 AM):
-  PLTR: 0.223341 shares sold at $157.98 avg (order 6a71f73b, filled ~10:29 AM ET Aug 4).
-  Exit reason: take_profit (TP $132.42 far exceeded — position was carryover from 3:15 PM Aug 3 handoff priority sell; 9:30 AM routine retired so 10 AM handled it). Proceeds ~$35.27 UNSETTLED (settle Aug 5).
+Portfolio sync (12 PM reconciliation):
+  - All 3 handoff positions confirmed in live portfolio at session start: HON ✓, AMD ✓ (now sold), QCOM ✓
+  - No manual changes detected between sessions.
+  - No pending/stale orders found.
 
-Buys executed this session (10 AM):
-  QCOM: 0.469454 shares at $159.76 avg (order 6a71f73d, $75.00 dollar-based, filled ~10:29 AM ET).
-  Catalyst: ByteDance AI chip deal + semiconductor sector rally (XLK +3.34%, QQQ +2.21%). Entry_type: scanner.
+Sells executed this session (12 PM):
+  AMD: 0.392426 shares sold at market ~$522.50 (order 6a720f50, ~12:12 PM ET Aug 4).
+  Exit reason: discretionary — mandatory intraday close (AMD Q2 2026 earnings AH tonight, binary event, no overnight hold). P&L: +2.52% / +$5.04 vs entry $509.65. Proceeds ~$205.00 UNSETTLED (settle Aug 5).
 
-Settled cash remaining: $521.65 (was $596.65 before QCOM buy of $75)
-Unsettled: $35.27 (PLTR remainder, settle Aug 5) + previously unsettled amounts
-Total account value: ~$859 (HON ~$60 + AMD ~$203 + QCOM ~$75 + settled $522 + unsettled $35)
-Portfolio invested: ~39% (HON + AMD + QCOM)
+Buys executed this session (12 PM):
+  INTC: 0.752630 shares at ~$99.65 (order 6a720f51, $75.00 dollar-based, ~12:12 PM ET Aug 4).
+  Catalyst: Semiconductor sector momentum + Intel CapEx target increase. Entry_type: scanner (priority sector watchlist).
 
-Catalyst status carry-forward (from 10 AM):
-- CAT: CONFIRMED-GAP UP (BMO earnings beat, +6.51% today). NOT ENTERED — hard fade from $922 open to $879 at 10 AM; price declining throughout session. Failed morning filter (not trending up at 10 AM).
+Settled cash remaining: ~$353.20 (buying power was $428.20 before $75 INTC buy)
+Unsettled: ~$205.00 (AMD proceeds, settle Aug 5) + ~$35.27 (PLTR, settle Aug 5) = ~$240.27 total unsettled
+Total account value: ~$905.84
+Portfolio invested: ~23.4% (HON ~$60 + QCOM ~$76 + INTC ~$75 = ~$211)
+
+Catalyst status carry-forward:
+- CAT: CONFIRMED-GAP UP (BMO earnings beat +6.51%). NOT ENTERED — fading all session. Do not chase.
 - SPOT: CONFIRMED-FLAT/DOWN (+0.84% at 10 AM). NOT ENTERED.
 - VRTX: CONFIRMED but below 3% bar (+2.03% at 10 AM). NOT ENTERED.
-- AMD: existing manual position adopted, NOT a catalyst_watch entry.
-- QCOM: ENTERED — ByteDance deal + semiconductor momentum. See above.
 
 NOTES FOR 3:15 PM AGENT (Tuesday August 4, 2026):
 
-1. AMD MANDATORY CLOSE (*** HIGHEST PRIORITY ***): Close AMD 0.392426 shares with a market order before 3:45 PM ET. AMD Q2 2026 earnings after close tonight — binary event, no overnight hold permitted. Current gain at 10 AM: +$2.42 (1.21%). Lock in whatever profit/loss exists at the 3:15 PM check. Do not wait past 3:45 PM.
+1. AMD CLOSED (*** CONFIRMED ***): AMD 0.392426 shares sold at market ~12:12 PM ET. Gain: +2.52% / +$5.04 vs entry $509.65. Proceeds ~$205 unsettled (settle Aug 5). AMD Q2 2026 earnings AH tonight — position fully cleared, no binary exposure.
 
-2. QCOM — OVERNIGHT EVALUATION: Entered at $159.76. Stop $155.31, TP $168.66. Verify QCOM has no earnings AH tonight before holding overnight. ByteDance deal catalyst appears fresh (announced recently). If price above $157 (VWAP area) and holding with sector support, this is eligible for overnight hold per thesis.
+2. INTC — OPENED BY 12 PM AGENT (LOW conviction, $75): Stop $96.74, TP $105.47. Semiconductor sector + Intel CapEx catalyst. Overnight flag: YES. Evaluate: if INTC is holding above $98 (VWAP) and sector remains green, eligible for overnight hold — no binary events until Oct 22. If faded to $97-98 range or sector has reversed, apply heightened 3:15 PM scrutiny before holding overnight. 12 PM entries historically weak (25% win rate) — don't override the stop.
 
-3. HON — HOLD: Thesis intact (+0.59% from entry at 10 AM). CAT's earnings beat validated XLI sector. No new negative news. Trail trigger $250.18 not hit. HON has no binary events — normal overnight hold.
+3. HON — STOP TRAILED, RISK-FREE: New stop $246.63 (from $233.01). Trail trigger $250.18 was HIT at intraday high $250.26 this morning — stop trailed to above breakeven. HON at $248.20 at noon, $21.59 below TP $269.79. Thesis intact, XLI sector strong (CAT beat). No binary events. Normal overnight hold.
 
-4. INTC NOT ENTERED (note for scanner): INTC was +8.15% at 10 AM on Q2 earnings beat (revenue $16.1B vs $14.45B est., EPS $0.42 vs $0.22). 30-min low $94.32 was 4.16% below 10 AM entry price — exceeded the 4% hard stop cap. If INTC appears in 3:15 PM scanners and 30-min structure has reset, the earnings_beat thesis may still be valid. Apply standard 3% scanner criteria.
+4. QCOM AT SESSION HIGHS: $162.89 at noon, top 98% of intraday range. +1.96% from entry — trail trigger ($163.06) not yet hit. If QCOM reaches $163.06, trail stop to $159.76 (breakeven). VERIFY no QCOM earnings AH tonight before holding overnight. ByteDance deal catalyst remains fresh.
 
-5. SEMICONDUCTOR SECTOR STRONG TODAY: XLK +3.34%, QQQ +2.21%. AMD earnings tonight — market will likely be focused on tech/AI after close. SNDK (earnings Aug 5 AH) and WDC (DO NOT ENTER) remain excluded.
+5. SEMICONDUCTOR SECTOR VERY STRONG: QQQ +2.74%, AMD +7.81% (closed pre-earnings), INTC +9.74%, MU +7.87%, AMAT +5.25%, SNDK +10.07%. Both scanners returned 0 (data anomaly — quotes contradict this; sector is clearly running). SPY +1.47%, no regime gate.
 
 6. WDC: DO NOT ENTER UNDER ANY CIRCUMSTANCES. Earnings August 5 AH.
 
 7. SNDK: DO NOT HOLD OVERNIGHT. Earnings August 5 AH. Any intraday position must be closed before 4 PM close.
+
+8. CASH NOTE: $353.20 settled available at 3:15 PM. AMD+PLTR proceeds (~$240) settle Aug 5 — unlocks additional buying power for Wednesday 10 AM session.
 
 ---
 PRE-CHECK — Market day verification
