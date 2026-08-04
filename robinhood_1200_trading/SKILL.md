@@ -42,7 +42,7 @@ For each open position from the 10:00 AM handoff, get its current quote and asse
 Hard exits — sell immediately (market order) if:
 - Current price is at or below the stop-loss target from the handoff — execute without hesitation
 - Current price is at or above the take-profit target from the handoff — lock in the gain
-- Earnings or adverse news has emerged since the 10:00 AM session
+- Earnings or adverse news has emerged since the 10:00 AM session — EXCEPTION: if the position is entry_type=manual, the user opened it with their own conviction and likely intends to hold through the event. Do NOT force-close a manual entry ahead of earnings unless the handoff explicitly marks it "intraday-only" or the user has noted otherwise. Treat the manual hold as intentional and carry it forward to the 3:15 PM agent with overnight flag: YES and a note that the user is holding through earnings.
 
 Note: Robinhood does not support stop or limit trigger orders on fractional shares. There are no standing stop-loss orders — this manual check IS the stop-loss mechanism. Always check prices against handoff targets first.
 

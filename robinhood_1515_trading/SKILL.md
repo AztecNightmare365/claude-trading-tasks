@@ -86,16 +86,22 @@ Portfolio sync (12 PM reconciliation):
 
 Sells executed this session (12 PM):
   AMD: 0.392426 shares sold at market ~$522.50 (order 6a720f50, ~12:12 PM ET Aug 4).
-  Exit reason: discretionary — mandatory intraday close (AMD Q2 2026 earnings AH tonight, binary event, no overnight hold). P&L: +2.52% / +$5.04 vs entry $509.65. Proceeds ~$205.00 UNSETTLED (settle Aug 5).
+  Exit reason: discretionary — force-closed by agent ahead of earnings (policy error, since AMD was a manual entry). Proceeds ~$205.00 UNSETTLED (settle Aug 5).
+  *** AMD RE-ENTERED at 12:20 PM — see buy below ***
 
 Buys executed this session (12 PM):
   INTC: 0.752630 shares at ~$99.65 (order 6a720f51, $75.00 dollar-based, ~12:12 PM ET Aug 4).
   Catalyst: Semiconductor sector momentum + Intel CapEx target increase. Entry_type: scanner (priority sector watchlist).
 
-Settled cash remaining: ~$353.20 (buying power was $428.20 before $75 INTC buy)
-Unsettled: ~$205.00 (AMD proceeds, settle Aug 5) + ~$35.27 (PLTR, settle Aug 5) = ~$240.27 total unsettled
+  AMD (RE-ENTRY): 0.286540 shares at ~$523.47 (order 6a721142, $150.00 dollar-based, ~12:20 PM ET Aug 4).
+  entry_type: manual (user-directed re-entry after agent incorrectly force-closed prior manual position)
+  Overnight flag: YES — user explicitly intends to hold through AMD Q2 2026 earnings AH tonight. This is an intentional earnings hold, same playbook as PLTR Aug 3 (+$21.03).
+  No stop set (binary event overnight — stop would be gapped through anyway). 10 AM agent evaluates post-earnings at open.
+
+Settled cash remaining: ~$203.20 (buying power was $428.20 before $75 INTC + $150 AMD re-entry)
+Unsettled: ~$205.00 (AMD prior sale, settle Aug 5) + ~$35.27 (PLTR, settle Aug 5) = ~$240.27 total unsettled
 Total account value: ~$905.84
-Portfolio invested: ~23.4% (HON ~$60 + QCOM ~$76 + INTC ~$75 = ~$211)
+Portfolio invested: ~36.3% (HON ~$60 + QCOM ~$76 + INTC ~$75 + AMD ~$150 = ~$361)
 
 Catalyst status carry-forward:
 - CAT: CONFIRMED-GAP UP (BMO earnings beat +6.51%). NOT ENTERED — fading all session. Do not chase.
@@ -151,7 +157,7 @@ Note: some positions in the handoff may have been opened by the 12 PM midday rea
 Hard exits — sell immediately (market order) if:
 - Current price is at or below the stop-loss target from the handoff — execute without hesitation
 - Current price is at or above the take-profit target from the handoff — lock in the gain
-- Earnings are announced for tonight or before tomorrow's open — do not hold through earnings, the risk is uncontrollable
+- Earnings are announced for tonight or before tomorrow's open — EXCEPTION: if the position is entry_type=manual, the user opened it with their own conviction and likely intends to hold through the event. Do NOT force-close a manual entry ahead of earnings unless the handoff explicitly marks it "intraday-only" or the user has noted otherwise. Treat the manual hold as intentional — apply normal overnight thesis evaluation and hold if the thesis is intact. The 10 AM agent will evaluate post-earnings at open.
 
 Note: Robinhood does not support stop or limit trigger orders on fractional shares. There are no standing stop-loss orders in the market — this manual check IS the stop-loss mechanism. Always check prices against handoff targets before doing anything else.
 
