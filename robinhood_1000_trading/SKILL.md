@@ -94,94 +94,101 @@ RAW STATS:
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-Last updated: 2026-08-03 (~6:55 PM ET — 3:15 PM session completed late in AH; AH PLTR partial exit executed)
+Last updated: 2026-08-04 (~3:29 PM ET — 3:15 PM session)
 
-Open positions held overnight (1 full + 1 fractional remainder):
+Open positions held overnight (6):
 
-- HON: 0.243604 shares, avg entry $245.48, stop-loss $233.01, take-profit $269.79, overnight flag: YES
-  Regular close: $246.79 (+1.54% on day) | AH: $245.70 | vs avg entry: +$0.22 (+0.09%)
+- HON: 0.243604 shares, avg entry $245.48, stop-loss $246.63, take-profit $269.79, overnight flag: YES
+  Regular close: $249.56 (+1.13% on day, +$4.08 vs entry)
   entry_type: scanner
-  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY guidance raised. BofA PT $265, Citi PT $279. XLI industrial sector strong all day (ETN +5.57% on dual catalyst: Q2 beat + Evercore ISI upgrade). Trail trigger $250.18 NOT hit (closed $246.79). CAT reports BMO Aug 4 — if beats, validates XLI momentum. No binary events for HON.
-  - If HON >= $269.79: sell immediately (take-profit, 0.243604 shares, market order)
-  - If HON <= $233.01: sell immediately (stop-loss — no discretion)
-  - If HON reaches $250.18 intraday: trail stop to $245.48 (breakeven) immediately
+  Thesis: Q2 2026 beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY guidance raised. BofA PT $265, Citi PT $279. CAT beat BMO Aug 4 (+8%+ on day) — validates XLI thesis. Stop already trailed from $233.01 to $246.63 by 10 AM/12 PM sessions. Trail trigger $250.18 NOT hit today (closed $249.56).
+  - If HON >= $269.79: sell immediately (take-profit)
+  - If HON <= $246.63: sell immediately (stop-loss — no discretion)
+  - Trail note: stop ($246.63) is already above original breakeven ($245.48). If HON pushes above $251.00 intraday, consider trailing stop to $248.00 at 10 AM discretion.
 
-- PLTR (FRACTIONAL REMAINDER — 0.223341 shares): avg entry $122.62, overnight flag: *** SELL AT OPEN — PRIORITY #1 ***
-  AH: ~$143.62 | vs avg entry: +$21.00 (+17.1%) | TP ($132.42) FAR EXCEEDED
-  entry_type: manual (user opened — adopted at 10 AM session)
+- QCOM: 0.469454 shares, avg entry $159.76, stop-loss $159.76 (BREAKEVEN — trailed from $155.31), take-profit $168.66, overnight flag: YES
+  Regular close: $163.05 (+7.57% on day, +$3.29 vs entry)
+  entry_type: scanner
+  Thesis: Semiconductor sector surge (+7.57% today). Q3 2026 earnings confirmed reported July 29 — no upcoming binary event. Stop trailed to breakeven — essentially a free overnight roll.
+  Trail trigger $163.06 CONFIRMED HIT 12:05 PM ET (intraday high $163.09). Stop moved from $155.31 to $159.76. No further trail trigger set.
+  - If QCOM >= $168.66: sell immediately (take-profit)
+  - If QCOM <= $159.76: sell immediately (stop-loss — no discretion)
+  - Consider new trail: if QCOM hits $165.00 intraday, trail stop to $161.50.
 
-  *** CRITICAL: SELL REMAINING 0.223341 SHARES AT MARKET OPEN (9:30 AM) — fractional market order ***
+- INTC: 0.752483 shares, avg entry $99.67, stop-loss $96.74, take-profit $105.47, overnight flag: YES
+  Regular close: $100.68 (+10.64% on day, +$1.01 vs entry)
+  entry_type: scanner (LOW conviction — priority watchlist, scanner anomaly day)
+  Thesis: Semiconductor sector surge (+10.64% today). No binary event near-term.
+  - If INTC >= $105.47: sell immediately (take-profit)
+  - If INTC <= $96.74: sell immediately (stop-loss — no discretion)
 
-  Context: PLTR reported massive Q2 2026 earnings beat AH August 3:
-    - Revenue: $1.94B vs $1.80B estimate (+7.8% beat, +93% YoY growth)
-    - EPS: $0.41 vs $0.33 estimate (+24.2% beat)
-    - U.S. commercial revenue: +149% YoY
-    - FY 2026 guidance raised to $8.15-8.16B (vs $7.69B estimate)
-    - AH reaction: ~$143-144 (+14% from regular close $125.89, +17% vs entry $122.62)
+- AMD: 0.286538 shares, avg entry $523.49, NO STOP (binary event), overnight flag: YES
+  Regular close: $526.75 (+8.69% on day, +$3.26 vs entry)
+  entry_type: manual (user-placed — intentional earnings play)
+  *** CRITICAL: AMD Q2 2026 EARNINGS REPORTED AFTER CLOSE TONIGHT (AUG 4) ***
+  EVALUATE AH REACTION BEFORE ALL OTHER ACTIONS AT 10 AM AUG 5.
+  - AH gap UP +5%+: evaluate strength — likely hold or partial take-profit into morning momentum
+  - AH flat/UP modestly (<5%): evaluate sector context — hold with fresh stop below AH low
+  - AH DOWN (-3% to -8%): sell at open — thesis failed
+  - AH DOWN severely (-8%+): sell at open immediately, no delay
+  DO NOT apply a fixed stop without first seeing the AH reaction.
 
-  Action already taken in AH (this session): 1 share sold at $143.6499 (order 6a711c3c, filled 6:54 PM ET Aug 3). P&L on that share: +$21.03 / +17.14%. Proceeds ~$143.65 UNSETTLED (settle Aug 5).
-  Remaining: 0.223341 fractional shares → must sell via regular-hours market order at 9:30 AM open (fractional orders only in regular hours).
-  Expected open price: $138-148 range based on AH $143.62. Est. proceeds on remainder: ~$32 UNSETTLED (settle Aug 5).
+- MU: 0.083577 shares, avg entry $897.37, stop-loss $858.50, take-profit $977.00, overnight flag: YES
+  Regular close (near fill): $892.93 (-0.49% vs fill — minor, well above stop $858.50)
+  Fill: 2026-08-04T19:25:20Z | Order: 6a723ca0-ebf9-4f11-bfdf-ff1ff33800df
+  entry_type: scanner (LOW conviction — semiconductor priority watchlist, scanner anomaly day)
+  Thesis: Semiconductor sector surge (+7.65% today). No binary event confirmed.
+  - If MU >= $977.00: sell immediately (take-profit)
+  - If MU <= $858.50: sell immediately (stop-loss — no discretion)
 
-  IMPORTANT: DO NOT apply the tiered sell strategy or delay — simply sell all 0.223341 shares at market open. The position is already substantially exited. Take the remaining gain cleanly.
-
-  If PLTR opens flat or lower than AH (~$143): still sell at open — the TP was triggered and position must close.
-  After sale, proceeds UNSETTLED (settle Aug 5). Do NOT use for Aug 4 purchases.
+- AMAT: 0.136836 shares, avg entry $548.10, stop-loss $535.55, take-profit $575.90, overnight flag: YES
+  Regular close (near fill): $546.83 (-0.23% vs fill — minor, above stop $535.55)
+  Fill: 2026-08-04T19:25:22Z | Order: 6a723ca2-2710-4996-8ca9-bd5c3055b144
+  entry_type: scanner (LOW conviction — semiconductor priority watchlist, scanner anomaly day)
+  Thesis: Applied Materials semiconductor equipment; sector surge (+5.52% today). No binary event.
+  - If AMAT >= $575.90: sell immediately (take-profit)
+  - If AMAT <= $535.55: sell immediately (stop-loss — no discretion)
 
 Portfolio sync (3:15 PM reconciliation):
   - HON: confirmed in live portfolio — 0.243604 shares, avg $245.48 ✓
-  - PLTR: confirmed in live portfolio — was 1.223341 shares, avg $122.62 ✓ (now 0.223341 remaining after 1-share AH sell)
-  - SONY: confirmed SOLD by 12 PM session (order 6a70be19, 6.452334 shares at $22.6526, 12:13 PM ET) ✓
-  - AMZN: confirmed SOLD by 9:30 AM session (order 6a709920, 1.447125 shares at $284.9062) ✓
-  - No new manual positions detected.
+  - QCOM: confirmed in live portfolio — 0.469454 shares, avg $159.76 ✓
+  - INTC: confirmed in live portfolio — 0.752483 shares, avg $99.67 ✓
+  - AMD: confirmed in live portfolio — 0.286538 shares, avg $523.49 ✓ (manual, no stop, earnings tonight)
+  - MU: confirmed in live portfolio — 0.083577 shares, avg $897.38 ✓ (NEW — agentic buy this session)
+  - AMAT: confirmed in live portfolio — 0.136836 shares, avg $548.10 ✓ (NEW — agentic buy this session)
 
-Sells executed this session (3:15 PM / AH):
-  PLTR: 1 share sold at $143.6499 AH (order 6a711c3c, 6:54 PM ET, extended_hours limit order, GFD). P&L: +$21.03 / +17.14%. exit_reason: take_profit (TP $132.42 far exceeded).
+Sells executed this session: None.
 
-Buys executed this session: None.
-  Rationale: Both momentum scanners returned 0 (18th consecutive zero). Market closed before session ran. No viable overnight buys:
-    - SNDK (+6.18% close, +8.24% AH): Earnings August 5 AH — hard exit rule, no overnight hold through earnings
-    - GLW (+6.08%): Intraday low ~$130-133 estimated >9% below close $146.66 — overnight volatility hard disqualifier
-    - ETN (+5.57%): earnings_beat primary catalyst (18.2% win rate), below scanner volume threshold
-    - BLZE (+34.8% including AH): Moved >15% total — disqualified (>15% recent move rule)
-    - AMRC (+24.8% AH), VRTX (AH beat): earnings_beat catalyst — worst type per Learned Insights, skip
-    - ALNY (+7.18%): Analyst upgrade (66.7% win rate) but catalyst already resolved, market closed, fractional orders blocked in AH
+Buys executed this session:
+  MU: 0.083577 sh @ avg $897.37, order 6a723ca0, filled 2026-08-04T19:25:20Z. $75 market buy. LOW conviction.
+  AMAT: 0.136836 sh @ avg $548.10, order 6a723ca2, filled 2026-08-04T19:25:22Z. $75 market buy. LOW conviction.
 
-Settled cash remaining: $94.53
-Unsettled cash: $702.09 ($558.44 from AMZN+SONY settling Aug 4 + $143.65 from PLTR 1-share AH sale settling Aug 5)
-PLTR remainder sale proceeds (at 10AM open Aug 4): ~$32 est. → UNSETTLED, settle August 5
-Total account value (AH): ~$888.53 (HON ~$59.83 + PLTR remainder ~$32.11 + settled $94.53 + unsettled $702.09)
-Portfolio invested: ~10.4% (HON + PLTR remainder — minimal, mostly cash)
+Market conditions at close (Aug 4, 2026):
+  SPY +2.02% | QQQ +3.60% | XLK +5.0%+ | Semiconductor ETF +5%+
+  Normal regime — no gate applied, full sizing.
+  CAT +8%+: BMO beat Aug 4 — validates XLI/HON thesis.
+  Scanners: 0 results (anomaly — consistent with 12 PM session).
+  Skipped: MRVL (+13.7%, stop cap 5.6% exceeded), ZBRA (+23.6% earnings, 8.6% stop cap exceeded).
 
----
+Account state at close:
+  Total account value: $907.28
+  Equity invested: $513.79 (56.6%) — under 75% cap ✓
+  Cash: $393.49 ($53.20 settled / $340.29 unsettled)
+  Buying power (settled): $53.20
 
-NOTES FOR 10:00 AM AGENT (Tuesday August 4, 2026):
+Cash settlement schedule:
+  Aug 5: PLTR 1-share AH sale (Aug 3) ~$143.65 settles → est. buying power at 10 AM Aug 5: ~$196.85
+  Aug 6: AMD sale (12 PM Aug 4) ~$205.07 + PLTR fractional (10 AM Aug 4) ~$35.30 − MU buy $75 − AMAT buy $75 → net ~$90.37 settles
 
-1. PLTR REMAINDER — SELL AT OPEN (PRIORITY #1): Sell 0.223341 shares at market open (9:30 AM), market order, regular hours. No strategy, no tiers — just close it. 1 share already sold in AH at $143.65. Proceeds ~$32, UNSETTLED (settle Aug 5). Do NOT use for same-day purchases.
+EARNINGS / BINARY EVENT WARNINGS (Aug 5, 2026):
+  WDC: DO NOT ENTER UNDER ANY CIRCUMSTANCES. Earnings AH Aug 5.
+  SNDK: DO NOT HOLD OVERNIGHT. Earnings AH Aug 5. Intraday trade only if scanner confirms 3%+.
+  AMD: Q2 2026 earnings AH tonight Aug 4 — evaluate reaction at 10 AM Aug 5 BEFORE any other action.
 
-2. MASSIVE BUYING POWER AVAILABLE TUESDAY: $94.53 settled now + $558.44 settling today Aug 4 (AMZN+SONY) = $652.97 available buying power. Highest dry powder in account history. Tuesday is historically the strongest session (Mon-Tue 60% win rate, +$4.58 net). Quality setups only — do NOT force buys. The $32 PLTR remainder proceeds settle Aug 5.
-
-3. HON — HOLD AND MONITOR: Closed +1.54% on day, $246.79. AH: $245.70. Thesis intact (Q2 earnings beat, BofA PT $265, Citi PT $279). Trail trigger $250.18 not hit. If CAT beats BMO Tuesday, XLI momentum likely continues — positive for HON.
-
-4. ETN CARRY-FORWARD: Eaton +5.57% today (Q2 earnings beat + Evercore ISI upgrade Outperform, PT $502). At 10AM: if still trending with volume confirmation, may qualify as scanner entry. Treat as earnings_beat primary (18.2% win rate) — only enter if 3%+ from prior close with volume above 1.2x average. Do NOT use catalyst_watch path.
-
-5. GLW CARRY-FORWARD: Corning +6.08% today (Truist upgrade Hold→Buy, PT $175). AH: $148.85 (+7.67%). Disqualified overnight due to >9% intraday range. At 10AM: if above VWAP ($141-144), volume near/above 14.5M avg — eligible as fresh scanner entry (analyst_upgrade = 66.7% win rate). Note: PT cut from $205 to $175 (valuation-driven). Still a watchout for the 5-day volatility disqualifier — July 28 -20.2% gap day is the edge of the 5-day window.
-
-6. ALNY: Alnylam Pharmaceuticals +7.18% today (Raymond James upgrade to Strong-Buy, PT $420). Analyst_upgrade = best catalyst type (66.7% win rate). Catalyst already resolved Monday. At 10AM: check if 3%+ from prior close with volume (standard scanner bar — do NOT use catalyst_watch 1-2% path since catalyst resolved same day, not overnight).
-
-7. SNDK — INTRADAY ONLY: SanDisk +6.18% close, +8.24% AH. Strong sector momentum. If clears scanner at 10AM (3%+, volume 1.2x), may enter — but MUST EXIT by Aug 4 close. Earnings August 5 AH. No overnight hold.
-
-8. WDC: DO NOT ENTER UNDER ANY CIRCUMSTANCES. Earnings August 5 AH.
-
-9. VRTX AH EARNINGS: Vertex Q2 beat AH tonight (rev +12% YoY, $3.33B; guidance raised $13.1-13.2B). DO NOT use catalyst_watch 1-2% threshold — standard scanner bar only (3%+, volume). earnings_beat = 18.2% win rate per Learned Insights.
-
-10. BROAD MARKET: SPY +1.42%, QQQ +1.75% today. Dow hit record. Oil -6% (Iran peace talks). Favorable environment for quality setups Tuesday. Watch AMD, CAT BMO results — will set tone for tech/industrial session.
-
-Catalyst watch list (BMO August 4 / AH resolved August 3):
-  AMD | earnings_beat | BMO Aug 4 | Bullish (AI chip demand, data center, 8+ consecutive beats) | HIGH — scanner-only (3%+ with volume at 10AM); DO NOT use 1-2% catalyst_watch threshold per Learned Insights rule #3
-  CAT | earnings_beat | BMO Aug 4 | Bullish (XLI momentum, ETN just beat, industrial demand strong, AH +1.4% pre-positioning) | HIGH — scanner-only
-  SPOT | earnings_beat | BMO Aug 4 | Bullish (premium subscribers, AI features) | MEDIUM — scanner-only
-  VRTX | earnings_beat | AH resolved Aug 3 | Positive (rev +12% YoY, guidance raised $13.1-13.2B) | HIGH — scanner-only (not catalyst_watch path); apply standard 3% scanner bar
+Catalyst watch list (for 10 AM agent, Wednesday Aug 5, 2026):
+  AMD | Q2 2026 earnings AH Aug 4 | AH tonight | EVALUATE FIRST — post-earnings reaction determines entire action plan | HIGH
+  WDC | earnings AH Aug 5 | AH tomorrow | DO NOT ENTER until confirmed massive beat + clear open momentum | HIGH
+  SNDK | earnings AH Aug 5 | AH tomorrow | DO NOT HOLD OVERNIGHT (standing rule) — intraday only if scanner hits | HIGH
 
 ---
 
