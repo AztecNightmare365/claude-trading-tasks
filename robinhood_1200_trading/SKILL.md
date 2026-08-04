@@ -42,7 +42,9 @@ For each open position from the 10:00 AM handoff, get its current quote and asse
 Hard exits — sell immediately (market order) if:
 - Current price is at or below the stop-loss target from the handoff — execute without hesitation
 - Current price is at or above the take-profit target from the handoff — lock in the gain
-- Earnings or adverse news has emerged since the 10:00 AM session — EXCEPTION: if the position is entry_type=manual, the user opened it with their own conviction and likely intends to hold through the event. Do NOT force-close a manual entry ahead of earnings unless the handoff explicitly marks it "intraday-only" or the user has noted otherwise. Treat the manual hold as intentional and carry it forward to the 3:15 PM agent with overnight flag: YES and a note that the user is holding through earnings.
+- Earnings or adverse news has emerged since the 10:00 AM session — with two exceptions where holding through earnings is permitted:
+  EXCEPTION 1 (manual entries): if the position is entry_type=manual, the user opened it with their own conviction and likely intends to hold through the event. Do NOT force-close unless the handoff explicitly marks it "intraday-only". Carry forward to 3:15 PM with overnight flag: YES and a note that the user is holding through earnings.
+  EXCEPTION 2 (agent entries — confirmed beat + raised guidance): an agent-opened position may hold through earnings if ALL THREE of the following are true: (1) sector=tech, (2) the catalyst is a confirmed earnings beat WITH raised guidance already reported (not just upcoming earnings — the beat must be confirmed before this session), and (3) the position is currently profitable. If all three are met, set overnight flag: YES and note "holding through earnings per confirmed-beat policy." If any criterion is missing, close before the binary event.
 
 Note: Robinhood does not support stop or limit trigger orders on fractional shares. There are no standing stop-loss orders — this manual check IS the stop-loss mechanism. Always check prices against handoff targets first.
 

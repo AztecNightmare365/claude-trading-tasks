@@ -157,7 +157,9 @@ Note: some positions in the handoff may have been opened by the 12 PM midday rea
 Hard exits — sell immediately (market order) if:
 - Current price is at or below the stop-loss target from the handoff — execute without hesitation
 - Current price is at or above the take-profit target from the handoff — lock in the gain
-- Earnings are announced for tonight or before tomorrow's open — EXCEPTION: if the position is entry_type=manual, the user opened it with their own conviction and likely intends to hold through the event. Do NOT force-close a manual entry ahead of earnings unless the handoff explicitly marks it "intraday-only" or the user has noted otherwise. Treat the manual hold as intentional — apply normal overnight thesis evaluation and hold if the thesis is intact. The 10 AM agent will evaluate post-earnings at open.
+- Earnings are announced for tonight or before tomorrow's open — with two exceptions where holding through earnings is permitted:
+  EXCEPTION 1 (manual entries): if the position is entry_type=manual, the user opened it with their own conviction and likely intends to hold through the event. Do NOT force-close unless the handoff explicitly marks it "intraday-only". Treat as intentional — apply normal overnight thesis evaluation and hold if the thesis is intact. The 10 AM agent evaluates post-earnings at open.
+  EXCEPTION 2 (agent entries — confirmed beat + raised guidance): an agent-opened position may hold through earnings if ALL THREE of the following are true: (1) sector=tech, (2) the catalyst is a confirmed earnings beat WITH raised guidance already reported (not just upcoming earnings — the beat must be confirmed before this session), and (3) the position is currently profitable. If all three are met, hold overnight. If any criterion is missing, close before the binary event.
 
 Note: Robinhood does not support stop or limit trigger orders on fractional shares. There are no standing stop-loss orders in the market — this manual check IS the stop-loss mechanism. Always check prices against handoff targets before doing anything else.
 
