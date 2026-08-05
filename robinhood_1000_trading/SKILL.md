@@ -89,101 +89,94 @@ RAW STATS:
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-Last updated: 2026-08-04 (~3:29 PM ET — 3:15 PM session)
+Last updated: 2026-08-05 (~3:29 PM ET — 3:15 PM session)
 
-Open positions held overnight (6):
+Open positions held overnight (5):
 
-- HON: 0.243604 shares, avg entry $245.48, stop-loss $246.63, take-profit $269.79, overnight flag: YES
-  Regular close: $249.56 (+1.13% on day, +$4.08 vs entry)
+- HON: 0.243604 shares, avg entry $245.48, stop-loss $248.00, take-profit $269.79, overnight flag: YES
+  Regular close: $248.69 (+1.31% vs entry)
   entry_type: scanner
-  Thesis: Q2 2026 beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY guidance raised. BofA PT $265, Citi PT $279. CAT beat BMO Aug 4 (+8%+ on day) — validates XLI thesis. Stop already trailed from $233.01 to $246.63 by 10 AM/12 PM sessions. Trail trigger $250.18 NOT hit today (closed $249.56).
+  Thesis: Q2 2026 beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY guidance raised. BofA PT $265, Citi PT $279.
+  *** TIGHT STOP WARNING: stop $248.00 is only $0.69 below current close $248.69 — any minor pre-market dip will trigger ***
+  - If HON <= $248.00: sell immediately (stop-loss — no discretion)
   - If HON >= $269.79: sell immediately (take-profit)
-  - If HON <= $246.63: sell immediately (stop-loss — no discretion)
-  - Trail note: stop ($246.63) is already above original breakeven ($245.48). If HON pushes above $251.00 intraday, consider trailing stop to $248.00 at 10 AM discretion.
+  - Trail note: no further trail trigger set this session. Do NOT change stop unless HON trades above $252.00 intraday, in which case trail to $249.00.
 
-- QCOM: 0.469454 shares, avg entry $159.76, stop-loss $159.76 (BREAKEVEN — trailed from $155.31), take-profit $168.66, overnight flag: YES
-  Regular close: $163.05 (+7.57% on day, +$3.29 vs entry)
+- INTC: 0.752483 shares, avg entry $99.67, stop-loss $99.67 (BREAKEVEN — trailed from $96.74 this session), take-profit $105.47, overnight flag: YES
+  Regular close: $102.475 (+2.81% vs entry)
   entry_type: scanner
-  Thesis: Semiconductor sector surge (+7.57% today). Q3 2026 earnings confirmed reported July 29 — no upcoming binary event. Stop trailed to breakeven — essentially a free overnight roll.
-  Trail trigger $163.06 CONFIRMED HIT 12:05 PM ET (intraday high $163.09). Stop moved from $155.31 to $159.76. No further trail trigger set.
-  - If QCOM >= $168.66: sell immediately (take-profit)
-  - If QCOM <= $159.76: sell immediately (stop-loss — no discretion)
-  - Consider new trail: if QCOM hits $165.00 intraday, trail stop to $161.50.
-
-- INTC: 0.752483 shares, avg entry $99.67, stop-loss $96.74, take-profit $105.47, overnight flag: YES
-  Regular close: $100.68 (+10.64% on day, +$1.01 vs entry)
-  entry_type: scanner (LOW conviction — priority watchlist, scanner anomaly day)
-  Thesis: Semiconductor sector surge (+10.64% today). No binary event near-term.
+  Thesis: Semiconductor sector. No binary event near-term.
+  Trail note: INTC reached $102.53 today (trigger was $101.66) — stop trailed to breakeven THIS SESSION. Free overnight roll.
+  - If INTC <= $99.67: sell immediately (stop-loss — no discretion)
   - If INTC >= $105.47: sell immediately (take-profit)
-  - If INTC <= $96.74: sell immediately (stop-loss — no discretion)
+  - Consider new trail: if INTC hits $103.50 intraday, trail stop to $101.50.
 
-- AMD: 0.286538 shares, avg entry $523.49, NO STOP (binary event), overnight flag: YES
-  Regular close: $526.75 (+8.69% on day, +$3.26 vs entry)
-  entry_type: manual (user-placed — intentional earnings play)
-  *** CRITICAL: AMD Q2 2026 EARNINGS REPORTED AFTER CLOSE TONIGHT (AUG 4) ***
-  EVALUATE AH REACTION BEFORE ALL OTHER ACTIONS AT 10 AM AUG 5.
-  - AH gap UP +5%+: evaluate strength — likely hold or partial take-profit into morning momentum
-  - AH flat/UP modestly (<5%): evaluate sector context — hold with fresh stop below AH low
-  - AH DOWN (-3% to -8%): sell at open — thesis failed
-  - AH DOWN severely (-8%+): sell at open immediately, no delay
-  DO NOT apply a fixed stop without first seeing the AH reaction.
-
-- MU: 0.083577 shares, avg entry $897.37, stop-loss $858.50, take-profit $977.00, overnight flag: YES
-  Regular close (near fill): $892.93 (-0.49% vs fill — minor, well above stop $858.50)
-  Fill: 2026-08-04T19:25:20Z | Order: 6a723ca0-ebf9-4f11-bfdf-ff1ff33800df
-  entry_type: scanner (LOW conviction — semiconductor priority watchlist, scanner anomaly day)
-  Thesis: Semiconductor sector surge (+7.65% today). No binary event confirmed.
+- MU: 0.083577 shares, avg entry $897.38, stop-loss $903.00 (RISK-FREE — above entry, trailed this session), take-profit $977.00, overnight flag: YES
+  Regular close: $916.58 (+2.14% vs entry)
+  entry_type: scanner
+  Thesis: Memory/semiconductor sector strength. BofA Buy, $1,550 PT. No binary event confirmed.
+  *** WDC/SNDK EARNINGS AH TONIGHT (Aug 5): Memory sector risk event. Stop at $903 is risk-free (above entry $897.38). Check WDC/SNDK AH reaction BEFORE any MU action at 10 AM. ***
+  - If MU <= $903.00: sell immediately (stop-loss — no discretion)
   - If MU >= $977.00: sell immediately (take-profit)
-  - If MU <= $858.50: sell immediately (stop-loss — no discretion)
 
-- AMAT: 0.136836 shares, avg entry $548.10, stop-loss $535.55, take-profit $575.90, overnight flag: YES
-  Regular close (near fill): $546.83 (-0.23% vs fill — minor, above stop $535.55)
-  Fill: 2026-08-04T19:25:22Z | Order: 6a723ca2-2710-4996-8ca9-bd5c3055b144
-  entry_type: scanner (LOW conviction — semiconductor priority watchlist, scanner anomaly day)
-  Thesis: Applied Materials semiconductor equipment; sector surge (+5.52% today). No binary event.
-  - If AMAT >= $575.90: sell immediately (take-profit)
-  - If AMAT <= $535.55: sell immediately (stop-loss — no discretion)
+- CRL: 0.289530 shares, avg entry $259.04, stop-loss $252.07, take-profit $272.98, overnight flag: YES
+  Regular close (near fill): $259.04 (NEW position — filled this session)
+  Fill: 2026-08-05T19:29:04Z | Order: 6a738f00-d6b4-411e-9133-2ddd1e7dc678
+  entry_type: scanner
+  Thesis: Charles River Laboratories +10.61% on strong Q2 earnings beat (EPS $2.42 vs $2.10 est.), raised FY guidance, preclinical research demand recovery. Healthcare/bioservices. No binary event. Conviction: HIGH.
+  - If CRL <= $252.07: sell immediately (stop-loss — no discretion)
+  - If CRL >= $272.98: sell immediately (take-profit)
+
+- SHOP: 0.513281 shares, avg entry $146.1186, stop-loss $142.52, take-profit $153.32, overnight flag: YES
+  Regular close (near fill): $146.1186 (NEW position — filled this session)
+  Fill: 2026-08-05T19:29:06Z | Order: 6a738f01-2a24-4737-a678-d3fc30b7ec3c
+  entry_type: scanner
+  Thesis: Shopify +18.44% on Q2 2026 beat reported BMO Aug 5 (revenue +29% YoY, GMV +23%, operating income $404M vs $347M est., raised FY guidance). No upcoming binary event. Conviction: HIGH.
+  - If SHOP <= $142.52: sell immediately (stop-loss — no discretion)
+  - If SHOP >= $153.32: sell immediately (take-profit)
 
 Portfolio sync (3:15 PM reconciliation):
-  - HON: confirmed in live portfolio — 0.243604 shares, avg $245.48 ✓
-  - QCOM: confirmed in live portfolio — 0.469454 shares, avg $159.76 ✓
-  - INTC: confirmed in live portfolio — 0.752483 shares, avg $99.67 ✓
-  - AMD: confirmed in live portfolio — 0.286538 shares, avg $523.49 ✓ (manual, no stop, earnings tonight)
-  - MU: confirmed in live portfolio — 0.083577 shares, avg $897.38 ✓ (NEW — agentic buy this session)
-  - AMAT: confirmed in live portfolio — 0.136836 shares, avg $548.10 ✓ (NEW — agentic buy this session)
+  - HON: confirmed in live portfolio — 0.243604 shares, avg $245.48 ✓ (stop updated $246.63→$248.00 this session)
+  - INTC: confirmed in live portfolio — 0.752483 shares, avg $99.67 ✓ (stop trailed $96.74→$99.67 this session)
+  - MU: confirmed in live portfolio — 0.083577 shares, avg $897.38 ✓ (stop trailed $858.50→$903.00 this session)
+  - CRL: confirmed in live portfolio — 0.289530 shares, avg $259.04 ✓ (NEW — agentic buy this session)
+  - SHOP: confirmed in live portfolio — 0.513281 shares, avg $146.1186 ✓ (NEW — agentic buy this session)
+  QCOM: SOLD at stop-loss today ($157.78, -1.24%, -$0.93) — closed by 10 AM/12 PM session
+  AMAT: SOLD at stop-loss today ($540.58, -1.37%, -$1.03) — closed by 10 AM/12 PM session
+  AMD: SOLD manually by user pre-earnings 4:19 PM ET Aug 4 ($472.10, -9.82%, -$14.73) — recorded in trade_log.csv
 
-Sells executed this session: None.
+Sells executed this 3:15 PM session: None.
 
-Buys executed this session:
-  MU: 0.083577 sh @ avg $897.37, order 6a723ca0, filled 2026-08-04T19:25:20Z. $75 market buy. LOW conviction.
-  AMAT: 0.136836 sh @ avg $548.10, order 6a723ca2, filled 2026-08-04T19:25:22Z. $75 market buy. LOW conviction.
+Buys executed this 3:15 PM session:
+  CRL: 0.289530 sh @ avg $259.04, order 6a738f00-d6b4-411e-9133-2ddd1e7dc678, filled 2026-08-05T19:29:04Z. ~$75 HIGH conviction.
+  SHOP: 0.513281 sh @ avg $146.1186, order 6a738f01-2a24-4737-a678-d3fc30b7ec3c, filled 2026-08-05T19:29:06Z. ~$75 HIGH conviction.
 
-Market conditions at close (Aug 4, 2026):
-  SPY +2.02% | QQQ +3.60% | XLK +5.0%+ | Semiconductor ETF +5%+
-  Normal regime — no gate applied, full sizing.
-  CAT +8%+: BMO beat Aug 4 — validates XLI/HON thesis.
-  Scanners: 0 results (anomaly — consistent with 12 PM session).
-  Skipped: MRVL (+13.7%, stop cap 5.6% exceeded), ZBRA (+23.6% earnings, 8.6% stop cap exceeded).
+Market conditions at close (Aug 5, 2026):
+  SPY -0.37% | QQQ -0.34% — flat/mildly negative, no regime gate triggered.
+  Scanners: 0 results (5th consecutive session drought — persistent scanner anomaly).
+  CRL sourced via web research / daily movers (+10.61%, Q2 earnings beat).
+  SHOP sourced via web research / daily movers (+18.44%, Q2 earnings beat BMO Aug 5).
+  Skipped: BLMN (+31.9%, intraday stop ~16% exceeded cap), APPS (+35.65%, market cap risk + gap-and-fade flag).
 
 Account state at close:
-  Total account value: $907.28
-  Equity invested: $513.79 (56.6%) — under 75% cap ✓
-  Cash: $393.49 ($53.20 settled / $340.29 unsettled)
-  Buying power (settled): $53.20
+  Total account value: ~$891
+  Equity invested: ~$364 (40.9%) — under 75% cap ✓
+  Cash: ~$526.74 ($378.76 settled / $147.98 unsettled)
+  Buying power (settled): $378.76
 
 Cash settlement schedule:
-  Aug 5: PLTR 1-share AH sale (Aug 3) ~$143.65 settles → est. buying power at 10 AM Aug 5: ~$196.85
-  Aug 6: AMD sale (12 PM Aug 4) ~$205.07 + PLTR fractional (10 AM Aug 4) ~$35.30 − MU buy $75 − AMAT buy $75 → net ~$90.37 settles
+  Aug 6: QCOM sale ($74.09) + AMAT sale ($73.94) settle → est. buying power at 10 AM Aug 6: ~$452.70+
 
-EARNINGS / BINARY EVENT WARNINGS (Aug 5, 2026):
-  WDC: DO NOT ENTER UNDER ANY CIRCUMSTANCES. Earnings AH Aug 5.
-  SNDK: DO NOT HOLD OVERNIGHT. Earnings AH Aug 5. Intraday trade only if scanner confirms 3%+.
-  AMD: Q2 2026 earnings AH tonight Aug 4 — evaluate reaction at 10 AM Aug 5 BEFORE any other action.
+EARNINGS / BINARY EVENT WARNINGS (overnight into Aug 6, 2026):
+  WDC: Earnings AH TONIGHT (Aug 5). DO NOT ENTER. Check AH reaction before any MU action at 10 AM.
+  SNDK: Earnings AH TONIGHT (Aug 5). DO NOT HOLD OVERNIGHT. Check AH reaction before any MU action at 10 AM.
 
-Catalyst watch list (for 10 AM agent, Wednesday Aug 5, 2026):
-  AMD | Q2 2026 earnings AH Aug 4 | AH tonight | EVALUATE FIRST — post-earnings reaction determines entire action plan | HIGH
-  WDC | earnings AH Aug 5 | AH tomorrow | DO NOT ENTER until confirmed massive beat + clear open momentum | HIGH
-  SNDK | earnings AH Aug 5 | AH tomorrow | DO NOT HOLD OVERNIGHT (standing rule) — intraday only if scanner hits | HIGH
+Catalyst watch list (for 10 AM agent, Thursday Aug 6, 2026):
+  DDOG | Earnings BMO Aug 6 | Beat expected, BofA top pick | Bullish bias | LOW risk
+  WDC  | Earnings AH tonight Aug 5 | 13 consecutive beats, memory/HDD | TBD — resolve AH | MEDIUM (MU contagion risk)
+  SNDK | Earnings AH tonight Aug 5 | Flash storage | TBD — resolve AH | HIGH (MU contagion risk)
+  CEG  | Earnings BMO Aug 6 | Nuclear energy / AI power | Bullish bias | MEDIUM risk
+  HWM  | Earnings BMO Aug 6 | Aerospace/industrials | Bullish bias | LOW risk
 
 ---
 

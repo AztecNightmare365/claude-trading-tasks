@@ -1,19 +1,23 @@
 {
-  "ts": "2026-08-05T17:44:44Z",
-  "source": "robinhood_0930_open",
+  "ts": "2026-08-05T19:30:00Z",
+  "source": "robinhood_1515_trading",
   "portfolio": {
-    "totalValue": 890.668533935,
-    "cash": 676.74,
-    "equityValue": 213.928533935,
-    "buyingPower": 528.76,
+    "totalValue": 891.03,
+    "cash": 526.74,
+    "equityValue": 364.29,
+    "buyingPower": 378.76,
     "positions": [
-      { "ticker": "HON", "shares": 0.243604, "entry": 245.48, "current": 248.49, "plPct": 1.226, "managed": true },
-      { "ticker": "INTC", "shares": 0.752483, "entry": 99.67, "current": 101.69, "plPct": 2.027, "managed": true },
-      { "ticker": "MU", "shares": 0.083577, "entry": 897.38, "current": 919.77, "plPct": 2.495, "managed": true }
+      { "ticker": "HON",  "shares": 0.243604, "entry": 245.48,   "current": 248.69,   "plPct":  1.31, "managed": true },
+      { "ticker": "INTC", "shares": 0.752483, "entry":  99.67,   "current": 102.475,  "plPct":  2.81, "managed": true },
+      { "ticker": "MU",   "shares": 0.083577, "entry": 897.38,   "current": 916.58,   "plPct":  2.14, "managed": true },
+      { "ticker": "CRL",  "shares": 0.289530, "entry": 259.04,   "current": 259.04,   "plPct":  0.00, "managed": true },
+      { "ticker": "SHOP", "shares": 0.513281, "entry": 146.1186, "current": 146.1186, "plPct":  0.00, "managed": true }
     ]
   },
   "fills": [
-    { "id": "6a7360cf-7e1c-4f25-8818-135c1246fa33", "side": "sell", "ticker": "AMAT", "qty": 0.136836, "price": 540.1982, "at": "2026-08-05T16:11:59.848Z" },
-    { "id": "6a7360dd-9927-4464-b19f-c3f0a7bdc615", "side": "sell", "ticker": "QCOM", "qty": 0.469454, "price": 157.75, "at": "2026-08-05T16:12:13.331Z" }
+    { "id": "6a7360cf-7e1c-4f25-8818-135c1246fa33", "side": "sell", "ticker": "AMAT", "qty": 0.136836, "price": 540.1982,  "at": "2026-08-05T16:11:59.848Z" },
+    { "id": "6a7360dd-9927-4464-b19f-c3f0a7bdc615", "side": "sell", "ticker": "QCOM", "qty": 0.469454, "price": 157.75,    "at": "2026-08-05T16:12:13.331Z" },
+    { "id": "6a738f00-d6b4-411e-9133-2ddd1e7dc678", "side": "buy",  "ticker": "CRL",  "qty": 0.289530, "price": 259.04,   "at": "2026-08-05T19:29:04Z"      },
+    { "id": "6a738f01-2a24-4737-a678-d3fc30b7ec3c", "side": "buy",  "ticker": "SHOP", "qty": 0.513281, "price": 146.1186, "at": "2026-08-05T19:29:06Z"      }
   ]
 }
