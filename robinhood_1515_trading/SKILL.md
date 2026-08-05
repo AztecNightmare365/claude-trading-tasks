@@ -49,89 +49,80 @@ Notes for 10:00 AM agent (June 25, 2026):
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-08-05 (~10:20 AM ET — 10 AM session complete)
+Last updated: 2026-08-05 (~12:15 PM ET — 12 PM reassessment complete)
 
-Open positions (5 total):
+Open positions (3 total):
 
-- HON: 0.243604 shares, avg entry $245.48, stop-loss $246.63 (TRAILED), take-profit $269.79, overnight flag: YES
-  10 AM price: $250.00 | vs avg entry: +$4.52 (+1.84%) | day change: +0.49% (prev close $248.79)
+- HON: 0.243604 shares, avg entry $245.48, stop-loss $248.00 (TRAILED from $246.63), take-profit $269.79, overnight flag: YES
+  12 PM price: $248.33 | vs avg entry: +$2.85 (+1.16%) | day change: -0.19%
   entry_type: scanner
-  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY guidance raised. BofA PT $265, Citi PT $279. CAT BMO beat Aug 4 validates XLI sector. Stop already above breakeven — risk-free position.
-  Trail note: trail trigger $251.00 NOT hit at 10 AM ($250.00). If HON pushes above $251.00 intraday, trail stop to $248.00.
+  Thesis: Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.); automation orders +16%; FY guidance raised. BofA PT $265, Citi PT $279. XLI +0.26% supportive. Risk-free position (stop > entry).
+  ⚠️ TIGHT STOP ALERT: Stop trailed $246.63 → $248.00 (trigger: HON hit $251.16 at 9:55 AM). HON dipped to $246.78 intraday but recovered. Current price $248.33 is only $0.33 above stop. Be precise at 3:15 PM check.
+  Trail note: If HON pushes above $251.00 again before close, trail stop to $249.50.
   - If HON >= $269.79: sell immediately (take-profit, 0.243604 shares, market order)
-  - If HON <= $246.63: sell immediately (stop-loss — no discretion)
-
-- QCOM: 0.469454 shares, avg entry $159.76, stop-loss $159.76 (BREAKEVEN — trailed from $155.31), take-profit $168.66, overnight flag: YES
-  10 AM price: $161.19 | vs avg entry: +$1.43 (+0.89%) | day change: -0.91% (prev close $162.67)
-  entry_type: scanner
-  Thesis: Semiconductor sector momentum; Q3 2026 earnings already reported July 29 — no upcoming binary event. Stop at breakeven = free roll.
-  Trail note: if QCOM hits $165.00 intraday, trail stop to $161.50.
-  - If QCOM >= $168.66: sell immediately (take-profit)
-  - If QCOM <= $159.76: sell immediately (stop-loss — no discretion)
+  - If HON <= $248.00: sell immediately (stop-loss — no discretion)
 
 - INTC: 0.752483 shares, avg entry $99.67, stop-loss $96.74, take-profit $105.47, overnight flag: YES
-  10 AM price: $100.165 | vs avg entry: +$0.495 (+0.50%) | day change: -0.69% (prev close $100.86)
+  12 PM price: $100.78 | vs avg entry: +$1.11 (+1.11%) | day change: -0.08%
   entry_type: scanner (LOW conviction)
-  Thesis: Semiconductor sector momentum. OVERNIGHT BRIEF flagged mild gap-down warning but no INTC-specific adverse news — normal pullback after Tue's +10.6% surge. Thesis intact. Stop $96.74 provides 3.4% cushion.
+  Thesis: Semiconductor sector momentum. High-volatility day — intraday range $97.90-$102.21 (4.3% swing). Stop $96.74 never breached. Thesis intact.
+  Trail note: Trail triggers at +2% from entry = $101.66. NOT triggered. If INTC hits $101.66, trail stop to $99.67 (breakeven).
   - If INTC >= $105.47: sell immediately (take-profit)
   - If INTC <= $96.74: sell immediately (stop-loss — no discretion)
 
-- MU: 0.083577 shares, avg entry $897.38, stop-loss $858.50, take-profit $977.00, overnight flag: YES
-  10 AM price: $922.30 | vs avg entry: +$24.92 (+2.78%) | day change: +3.32% (prev close $892.67)
+- MU: 0.083577 shares, avg entry $897.38, stop-loss $903.00 (TRAILED from $858.50), take-profit $977.00, overnight flag: YES
+  12 PM price: $917.64 | vs avg entry: +$20.26 (+2.26%) | day change: +2.80%
   entry_type: scanner (LOW conviction)
-  Thesis: Semiconductor sector momentum + BofA Buy reiterated, PT $1,550. Strong performer today — up +3.32% on broad semiconductor green day.
+  Thesis: Semiconductor sector momentum + BofA Buy reiterated, PT $1,550. Strongest position in book. Risk-free (stop > entry).
+  Trail note: If MU hits $940.00 before close, trail stop to $920.00.
   - If MU >= $977.00: sell immediately (take-profit)
-  - If MU <= $858.50: sell immediately (stop-loss — no discretion)
+  - If MU <= $903.00: sell immediately (stop-loss — no discretion)
 
-- AMAT: 0.136836 shares, avg entry $548.10, stop-loss $535.55, take-profit $575.90, overnight flag: YES
-  10 AM price: $545.00 | vs avg entry: -$3.10 (-0.57%) | day change: -0.30% (prev close $546.62)
-  entry_type: scanner (LOW conviction)
-  Thesis: Applied Materials semiconductor equipment; sector momentum. Slightly below entry but well above stop. No adverse news.
-  - If AMAT >= $575.90: sell immediately (take-profit)
-  - If AMAT <= $535.55: sell immediately (stop-loss — no discretion)
+Portfolio sync (12 PM reconciliation):
+  - HON: confirmed ✓ (held, stop trailed $246.63 → $248.00)
+  - INTC: confirmed ✓ (held, stop unchanged $96.74)
+  - MU: confirmed ✓ (held, stop trailed $858.50 → $903.00)
+  - QCOM: EXITED — stop triggered. Sold at ~$157.78 (-1.24%, -$0.93). Breakeven stop at $159.76 was breached.
+  - AMAT: EXITED — intraday stop breach. Low $531.27 vs stop $535.55. Sold at ~$540.58 (-1.37%, -$1.03) at partial recovery price.
+  - AMD: absent (user-closed AH Aug 4, already noted).
+  - No pending orders remaining.
 
-Portfolio sync (10 AM reconciliation):
-  - HON: confirmed ✓
-  - QCOM: confirmed ✓
-  - INTC: confirmed ✓ (live qty 0.752483, avg $99.67)
-  - MU: confirmed ✓
-  - AMAT: confirmed ✓
-  - AMD: in prior handoff but NOT in live portfolio — USER CLOSED manually at $472.10 AH on Aug 4 (per OVERNIGHT BRIEF). AMD beat Q2 but soft Helios guidance sent it -8.9% AH. User exit avoided the drop. Logged to trade_log.csv. AMD now at $489.13, -5.67% today — do not chase.
-  - No pending orders found.
-
-Sells executed this session: None.
+Sells executed this session (2 total):
+  - QCOM: 0.469454 shares sold at market ~$157.78 | P&L: -$0.93 (-1.24%) | Reason: stop-loss ($157.72 < stop $159.76)
+  - AMAT: 0.136836 shares sold at market ~$540.58 | P&L: -$1.03 (-1.37%) | Reason: intraday stop breach ($531.27 low vs $535.55 stop); executed at recovery
 
 Buys executed this session: None.
-  Reason: Both Robinhood scanners returned 0 results (3rd consecutive session anomaly). Catalyst watch list: AMD user-sold, WDC and SNDK disqualified (earnings AH tonight Aug 5). Web candidates SHOP (+16.35%, fading from $150 open to $143 near day low) and LLY (+4.26%, below $1,174 open) both failed morning-specific filter.
+  Reason: Both scanners returned 0 results (4th consecutive session anomaly). Web sources (AMGN +5.2%, ANET +3.5%, QLYS +16%, APPS +37%) all show post-earnings gap-and-fade patterns — not sustained midday momentum. Per Learned Insights: 12 PM entries 25% WR, -$4.70 net — skipped absent exceptional setup.
 
 Settled cash: $528.76
-Total account value: $892.20
-Invested: $363.44 (40.7%) — well under 75% cap ✓
-Available to invest (75% cap): $305.71
+Unsettled (settles Aug 6): ~$147.99 (QCOM ~$74.02 + AMAT ~$73.97)
+Total account value: ~$889.75
+Invested: ~$213.00 (23.9%) — well under 75% cap ✓
 
-Market conditions at 10 AM Aug 5, 2026:
-  SPY +0.63% | QQQ +0.42% — normal regime, 5th straight up day for S&P 500
-  XLV (healthcare) +1.28% leading | XLI +0.75% | XLF +0.66% | XLK +0.54%
-  XLC -0.19% | XLE -1.08%
+Market conditions at 12 PM Aug 5, 2026:
+  SPY -0.09% | QQQ -0.46% — normal regime (mild giveback after 5-day S&P record run)
+  XLI +0.26% | XLK -0.01% — sector mixed, no clear leadership
 
 Catalyst status carry-forward:
-- AMD: FAILED — user-closed at $472.10 AH Aug 4. Now -5.67% today. Do not chase.
+- AMD: FAILED — user-closed at $472.10 AH Aug 4. Do not chase.
 - WDC: PENDING earnings AH tonight Aug 5 — DO NOT ENTER UNDER ANY CIRCUMSTANCES.
-- SNDK: PENDING earnings AH tonight Aug 5 — DO NOT HOLD OVERNIGHT. Intraday only if scanner hits 3%+ (currently -0.73% today, not a candidate).
+- SNDK: PENDING earnings AH tonight Aug 5 — DO NOT HOLD OVERNIGHT. Intraday only if scanner hits 3%+.
 
 NOTES FOR 3:15 PM AGENT (Wednesday Aug 5, 2026):
 
-1. WDC: DO NOT ENTER. Earnings AH tonight Aug 5.
+1. HON TIGHT STOP: Stop now $248.00. Current $248.33 = only $0.33 margin. HON has recovered from its $246.78 intraday low. At 3:15 PM, check immediately — if at or below $248.00, sell without hesitation. If above $251.00, trail stop to $249.50.
 
-2. SNDK: DO NOT HOLD OVERNIGHT. Earnings AH tonight Aug 5. Any intraday position must be closed by 3:50 PM.
+2. MU is the best position: Stop trailed to $903, TP at $977 = 6.5% away. If MU shows strength into the close, watch for TP approach and consider trailing again at $940.
 
-3. SEMICONDUCTOR SECTOR: Mixed today. MU +3.32% (strong, watch TP at $977), QCOM -0.91%, INTC -0.69%, AMAT -0.30%. QQQ +0.42% — sector not surging but not breaking down.
+3. INTC volatile today (range $97.90-$102.21). Stop $96.74 safe. Trail at +2% from entry ($101.66) — if hit before close, trail to breakeven $99.67.
 
-4. HON trail: If HON hits $251.00 intraday before 3:15 PM, trail stop from $246.63 to $248.00.
+4. WDC: DO NOT ENTER. Earnings AH tonight Aug 5.
 
-5. MU momentum: At $922.30, TP at $977.00 — 5.9% away. If MU continues today's strength into afternoon, watch for TP approach.
+5. SNDK: DO NOT HOLD OVERNIGHT. Earnings AH tonight Aug 5. Must be flat by EOD.
 
-6. CASH: $528.76 settled. Ample dry powder for 3:15 PM new positions.
+6. CASH: $528.76 settled + ~$148 unsettled (Aug 6). Strong dry powder for tonight's 3:15 PM overnight new positions if setups emerge.
+
+7. Scanner drought continues (4th straight session = 0 results). Rely on web research + sector watchlist for any new buys. WDC/SNDK earnings tonight will resolve as catalysts for tomorrow AM (10 AM agent to evaluate gap).
 
 ---
 PRE-CHECK — Market day verification

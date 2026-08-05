@@ -25,3 +25,5 @@ date,ticker,shares,entry_price,exit_price,entry_session,entry_type,exit_session,
 2026-08-04,PLTR,0.223341,122.59,157.98,3:15PM,manual,10AM,earnings_beat,tech,28.87,7.90,take_profit
 2026-08-04,AMD,0.392426,509.65,522.50,10AM,manual,12PM,other,tech,2.52,5.05,discretionary
 2026-08-04,AMD,0.286538,523.49,472.10,12PM,manual,user_manual,earnings_beat,tech,-9.82,-14.73,user_manual
+2026-08-05,QCOM,0.469454,159.76,157.78,10AM,scanner,12PM,sector_momentum,tech,-1.24,-0.93,stop_loss
+2026-08-05,AMAT,0.136836,548.10,540.58,10AM,scanner,12PM,sector_momentum,tech,-1.37,-1.03,stop_loss
