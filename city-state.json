@@ -1,95 +1,19 @@
 {
-  "ts": "2026-08-04T19:29:15Z",
-  "source": "robinhood_1515_trading",
+  "ts": "2026-08-05T17:44:44Z",
+  "source": "robinhood_0930_open",
   "portfolio": {
-    "totalValue": 907.28,
-    "cash": 393.49,
-    "equityValue": 513.79,
-    "buyingPower": 53.20,
-    "unsettled": 340.29,
+    "totalValue": 890.668533935,
+    "cash": 676.74,
+    "equityValue": 213.928533935,
+    "buyingPower": 528.76,
     "positions": [
-      {
-        "ticker": "HON",
-        "shares": 0.243604,
-        "entry": 245.48,
-        "current": 249.56,
-        "plPct": 1.66,
-        "stop": 246.63,
-        "target": 269.79,
-        "catalyst": "Q2 2026 earnings beat (EPS $1.95 vs $1.82 est.); automation orders +16%; BofA PT $265, Citi PT $279. CAT BMO beat Aug 4 validates XLI thesis. Trail trigger $250.18 not yet hit.",
-        "managed": true
-      },
-      {
-        "ticker": "QCOM",
-        "shares": 0.469454,
-        "entry": 159.76,
-        "current": 163.05,
-        "plPct": 2.06,
-        "stop": 159.76,
-        "target": 168.66,
-        "catalyst": "Semiconductor sector surge (+7.57% today). Q3 2026 earnings reported July 29 — no upcoming binary event. Stop trailed to breakeven ($159.76) after trail trigger $163.06 confirmed hit at 12:05 PM ET.",
-        "managed": true
-      },
-      {
-        "ticker": "INTC",
-        "shares": 0.752483,
-        "entry": 99.67,
-        "current": 100.68,
-        "plPct": 1.01,
-        "stop": 96.74,
-        "target": 105.47,
-        "catalyst": "Semiconductor sector surge (+10.64% today). Priority watchlist entry, LOW conviction (scanner anomaly day). No binary event near-term.",
-        "managed": true
-      },
-      {
-        "ticker": "AMD",
-        "shares": 0.286538,
-        "entry": 523.49,
-        "current": 526.75,
-        "plPct": 0.62,
-        "catalyst": "Q2 2026 EARNINGS AH TONIGHT Aug 4. Intentional binary event hold — no stop set. User-placed position. 10 AM agent must evaluate AH reaction before any other action.",
-        "managed": false
-      },
-      {
-        "ticker": "MU",
-        "shares": 0.083577,
-        "entry": 897.37,
-        "current": 892.93,
-        "plPct": -0.49,
-        "stop": 858.50,
-        "target": 977.00,
-        "catalyst": "Semiconductor sector surge (+7.65% today). Priority watchlist entry, LOW conviction. Filled 7:25 PM UTC. No binary event confirmed.",
-        "managed": true
-      },
-      {
-        "ticker": "AMAT",
-        "shares": 0.136836,
-        "entry": 548.10,
-        "current": 546.83,
-        "plPct": -0.23,
-        "stop": 535.55,
-        "target": 575.90,
-        "catalyst": "Applied Materials semiconductor equipment; sector surge (+5.52% today). Priority watchlist entry, LOW conviction. Filled 7:25 PM UTC. No binary event.",
-        "managed": true
-      }
+      { "ticker": "HON", "shares": 0.243604, "entry": 245.48, "current": 248.49, "plPct": 1.226, "managed": true },
+      { "ticker": "INTC", "shares": 0.752483, "entry": 99.67, "current": 101.69, "plPct": 2.027, "managed": true },
+      { "ticker": "MU", "shares": 0.083577, "entry": 897.38, "current": 919.77, "plPct": 2.495, "managed": true }
     ]
   },
   "fills": [
-    {
-      "id": "6a723ca0-ebf9-4f11-bfdf-ff1ff33800df",
-      "side": "buy",
-      "ticker": "MU",
-      "qty": 0.083577,
-      "price": 897.3704,
-      "at": "2026-08-04T19:25:20.924Z"
-    },
-    {
-      "id": "6a723ca2-2710-4996-8ca9-bd5c3055b144",
-      "side": "buy",
-      "ticker": "AMAT",
-      "qty": 0.136836,
-      "price": 548.1004,
-      "at": "2026-08-04T19:25:22.835Z"
-    }
+    { "id": "6a7360cf-7e1c-4f25-8818-135c1246fa33", "side": "sell", "ticker": "AMAT", "qty": 0.136836, "price": 540.1982, "at": "2026-08-05T16:11:59.848Z" },
+    { "id": "6a7360dd-9927-4464-b19f-c3f0a7bdc615", "side": "sell", "ticker": "QCOM", "qty": 0.469454, "price": 157.75, "at": "2026-08-05T16:12:13.331Z" }
   ]
 }

@@ -38,21 +38,17 @@ SUMMARY: 4 ON TRACK (HON/QCOM/MU/AMAT), 1 GAP DOWN WARNING (INTC); 0 pre-market 
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET, 2026-08-03** (no fresh OVERNIGHT BRIEF today — last one dated 7/31, treated as stale/informational only, not actioned. No PRE-MARKET BRIEF — 9:15 AM routine retired. Acted on raw 7/31 3:15PM handoff + live quotes.)
+**9:30 AM ET session, 2026-08-05 — fired late, ran ~1:43 PM ET (17:44 UTC), ~4h15m after actual open.**
 
-Sells: AMZN — TP hit. Open $278.29, filled avg $284.9062 vs entry $270.19 / TP $282.22. +5.45% / +$21.30. 1.447125 sh sold, full position closed.
+NO ACTION TAKEN. By the time this session executed, the 10 AM and 12 PM sessions had already run in full (handoff in `robinhood_1515_trading/SKILL.md` timestamped ~12:15 PM ET): QCOM sold at stop-loss (-1.24%/-$0.93) and AMAT sold at stop-loss (-1.37%/-$1.03), HON's stop trailed $246.63→$248.00, MU's stop trailed $858.50→$903.00, and the catalyst watch list already evaluated (AMD FAILED; WDC/SNDK still PENDING — earnings AH tonight 8/5, unresolved). Applying this session's 9:30-open stop logic now, against stale 7 AM stop levels, would mislabel a 1:43 PM price as "the open" and risk double-selling or contradicting the 12 PM session's already-current stops. Stood down instead.
 
-Holds: HON $247.11 (open $245.47) vs stop $233.01 / TP $269.79 — ON TRACK, held. Trail trigger $250.18 not yet hit.
+Sanity check only (no orders): HON $248.49 vs live stop $248.00 — OK. INTC $101.69 vs stop $96.74 — OK. MU $919.77 vs live stop $903.00 — OK. No breach.
 
-Catalyst entries: None — catalyst watch list confirmed empty for BMO Monday 8/3 (per 7/31 handoff notes). No buys this session (surgical stops/TP + catalyst-only mandate; no momentum scan run).
+Catalyst watch: no change from 12 PM note — AMD FAILED, WDC/SNDK PENDING (AH tonight), nothing new to resolve at this hour.
 
-Market regime: SPY +0.56%, QQQ -0.05% — normal.
+Status: 0 sells, 0 catalyst entries (session superseded by 10 AM/12 PM), 3 positions open for 10 AM/12 PM handoff (HON, INTC, MU) — already current there.
 
-Portfolio sync: 2 positions adopted, not in 7/31 handoff (user manual buys):
-- SONY: 6.452334 sh, avg entry $23.25, open $22.70, current $22.85. Protective stop set at 4% below open: $21.79. entry_type=manual.
-- PLTR: 1.223341 sh, avg entry $122.62, open $126.75, current $124.98. Protective stop set at 4% below open: $121.68. entry_type=manual.
-
-Status: 1 TP sell (AMZN), 0 catalyst entries, 3 positions open for 10 AM (HON, SONY, PLTR).
+**Flag for Aaron: this routine is being triggered ~4 hours late. If the schedule isn't fixed, treat future 9:30 AM firings the same way — check whether 10 AM/12 PM already ran before acting.**
 
 ---
 
