@@ -14,24 +14,27 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:26 AM ET, 2026-08-05**
+**7:00 AM ET, 2026-08-06**
 
-POSITIONS (5 open; AMD closed by user manually pre-earnings):
-- HON 0.2436sh@$245.48: $248.96 pre-mkt (+0.07% ON, +1.4% entry). Stop $246.63 (0.9% buf, tight-trailed). TP $269.79 (8.4% away). ON TRACK, no adverse news.
-- QCOM 0.4695sh@$159.76: $160.83 (-1.13% ON). Stop $159.76=breakeven (0.7% buf, thin). TP $168.66. ON TRACK, no adverse news.
-- INTC 0.7525sh@$99.67: $98.10 (-2.74% ON). Stop $96.74 (1.4% buf). TP $105.47. GAP DOWN WARNING — no INTC-specific news found; reads as normal pullback after Tue's +10.6% sector surge. Thesis intact, hold, flag 9:30/10AM.
-- MU 0.0836sh@$897.38: $881.00 (-1.31% ON). Stop $858.50 (2.6% buf). TP $977. ON TRACK — BofA reiterated Buy, $1,550 PT.
-- AMAT 0.1368sh@$548.10: $542.26 (-0.80% ON). Stop $535.55 (1.2% buf). TP $575.90. ON TRACK.
+POSITIONS:
+- HON 0.2436sh: $248.00 (-0.05%). Stop $248.00 = AT STOP. CRITICAL BREACH. No adverse news (PT raises: Mizuho $265, BMO $276). SELL AT OPEN.
+- INTC 0.7525sh: $99.52 (-1.52%). Stop $99.67 = BELOW STOP. CRITICAL BREACH. Sector weakness, no stock-specific news. SELL AT OPEN.
+- MU 0.0836sh: $846.46 (-5.23%). Stop $903. CRITICAL BREACH, well below. Cause: SNDK soft guidance + Asia memory selloff. SELL AT OPEN.
+- CRL 0.2895sh: ~$264.19 (+1.33%, stale/thin data). ON TRACK - raised FY guide, 52wk high.
+- SHOP 0.5133sh: $143.90 (-0.24%). ON TRACK - MS OW $192PT, Jefferies Buy $160PT init.
 
-AMD: user sold in extended hours 4:19PM ET 8/4 @$472.10 (-9.8% vs entry $523.49), before the print. AMD then beat Q2 (rev $11.54B, EPS $1.66) but fell -8.9% AH to ~$472 on soft Helios guidance — user's exit avoided the drop.
+PRE-MKT SELLS: NONE. Robinhood rejects extended-hours orders on fractional shares - HON/INTC/MU all fractional, no order could be placed despite 3 breaches. Hard platform limit, not discretionary. 9:30 AM agent MUST sell all 3 at open immediately, no discretion.
 
-PRE-MARKET SELLS: None — no CRITICAL STOP BREACH or THESIS BROKEN.
+CATALYST WATCH:
+- WDC -16.0% premkt (beat EPS/rev+guide, sold off anyway) - FAILED, skip.
+- SNDK -9.9% premkt (beat, soft guidance) - FAILED, skip. WDC+SNDK = MU contagion source.
+- DDOG -17.2% premkt (BMO, figures not yet indexed) - FAILED, skip.
+- CEG +4.4% premkt (EPS beat $2.55 vs $2.34, rev slight miss, FY guide raised) - CONFIRMED GAP UP, flag 9:30 entry.
+- HWM +3.8% premkt (reports ~7AM, figures pending, price bullish) - CONFIRMED GAP UP, re-verify 9:30.
 
-CATALYST WATCH: AMD FAILED (beat, guidance disappointed, -8.9% AH — do not chase). WDC PENDING (reports AH today 4:30PM, not yet released, do not enter per standing rule). SNDK PENDING (reports AH today, standing rule: no overnight hold).
+MACRO: SPY +0.14%, QQQ -0.53% (memory/semis dragging tech). Dow futures +0.2% (record highs), S&P +0.1%, Nasdaq -0.1%. Fed's Cook: "running out of room for disinflation." Rates held 3.50-3.75%, Sept hike hinted. Jobs report 8/7, CPI 8/12.
 
-MACRO: SPY +0.44% pre-mkt, QQQ +0.10%, futures +0.3% after Tue's blowout rally (S&P +1.8%, Dow +907, NDX +3.3% on PLTR +27%, CAT +6.8%). FOMC July minutes out today, no new signal (held 3.5-3.75%). ISM Services PMI + trade balance later AM; no CPI/jobs today.
-
-SUMMARY: 4 ON TRACK (HON/QCOM/MU/AMAT), 1 GAP DOWN WARNING (INTC); 0 pre-market sells; 1 catalyst FAILED (AMD), 2 PENDING (WDC/SNDK).
+SUMMARY: 2 ON TRACK (CRL/SHOP), 3 CRITICAL STOP BREACH (HON/INTC/MU) - sell blocked by fractional-share rule, urgent sell-at-open; 2 catalyst CONFIRMED gap-up (CEG/HWM), 3 FAILED (DDOG/WDC/SNDK).
 
 ---
 
