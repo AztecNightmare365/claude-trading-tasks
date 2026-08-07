@@ -1,23 +1,18 @@
 {
-  "ts": "2026-08-06T19:21:36Z",
-  "source": "robinhood_1515_trading",
+  "ts": "2026-08-07T19:06:30Z",
+  "source": "robinhood_0930_open",
   "portfolio": {
-    "totalValue": 885.53,
-    "cash": 518.11,
-    "equityValue": 366.97,
-    "buyingPower": 308.67,
+    "totalValue": 883.84,
+    "cash": 730.79,
+    "equityValue": 153.05,
+    "buyingPower": 518.12,
     "positions": [
-      { "ticker": "INTC", "shares": 0.752483, "entry": 99.67,  "current": 100.40, "plPct":  0.73, "managed": true },
-      { "ticker": "CRL",  "shares": 0.289530, "entry": 259.04, "current": 259.42, "plPct":  0.15, "managed": true },
-      { "ticker": "SHOP", "shares": 0.513281, "entry": 146.12, "current": 145.81, "plPct": -0.21, "managed": true },
-      { "ticker": "TTMI", "shares": 1.000000, "entry": 143.07, "current": 141.48, "plPct": -1.11, "managed": true }
+      { "ticker": "CRL", "shares": 0.289530, "entry": 259.04, "current": 262.115, "plPct": 1.19, "managed": true },
+      { "ticker": "SHOP", "shares": 0.513281, "entry": 146.12, "current": 150.38, "plPct": 2.92, "managed": true }
     ]
   },
   "fills": [
-    { "id": "6a7498bb-dd86-44fa-a501-569651f2d59f", "side": "sell", "ticker": "HON",  "qty": 0.243604, "price": 245.0201, "at": "2026-08-06T14:22:51.500Z" },
-    { "id": "6a7498bc-913d-4f03-9697-fa98929cf4d9", "side": "sell", "ticker": "MU",   "qty": 0.083577, "price": 901.3598, "at": "2026-08-06T14:22:52.639Z" },
-    { "id": "6a7498bd-391f-468b-a526-4ff45b3ed64c", "side": "buy",  "ticker": "PAYC", "qty": 0.351085, "price": 213.6233, "at": "2026-08-06T14:22:53.538Z" },
-    { "id": "6a74a05c-7ef2-404f-a450-be188e16b407", "side": "buy",  "ticker": "TTMI", "qty": 1.000000, "price": 143.0650, "at": "2026-08-06T14:55:24.714Z" },
-    { "id": "6a74dec0-ace1-4134-b9c7-1d06193b1775", "side": "sell", "ticker": "PAYC", "qty": 0.351085, "price": 211.9901, "at": "2026-08-06T19:21:36.195Z" }
+    { "id": "6a75ea33-c5f2-4158-9d1d-169a8e56cdc8", "side": "sell", "ticker": "TTMI", "qty": 1.0, "price": 137.7001, "at": "2026-08-07T14:22:43.299Z" },
+    { "id": "6a75ea31-7859-47ca-82ba-578be7c3a886", "side": "sell", "ticker": "INTC", "qty": 0.752483, "price": 99.6322, "at": "2026-08-07T14:22:41.900Z" }
   ]
 }

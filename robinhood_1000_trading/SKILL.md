@@ -41,17 +41,17 @@ SUMMARY: 2 ON TRACK (CRL/SHOP), 3 CRITICAL STOP BREACH (HON/INTC/MU) - sell bloc
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET session, 2026-08-05 — fired late, ran ~1:43 PM ET (17:44 UTC), ~4h15m after actual open.**
+**9:30 AM ET session, 2026-08-07 — fired late, ran ~3:06 PM ET (19:06 UTC), ~5h36m after actual open.**
 
-NO ACTION TAKEN. By the time this session executed, the 10 AM and 12 PM sessions had already run in full (handoff in `robinhood_1515_trading/SKILL.md` timestamped ~12:15 PM ET): QCOM sold at stop-loss (-1.24%/-$0.93) and AMAT sold at stop-loss (-1.37%/-$1.03), HON's stop trailed $246.63→$248.00, MU's stop trailed $858.50→$903.00, and the catalyst watch list already evaluated (AMD FAILED; WDC/SNDK still PENDING — earnings AH tonight 8/5, unresolved). Applying this session's 9:30-open stop logic now, against stale 7 AM stop levels, would mislabel a 1:43 PM price as "the open" and risk double-selling or contradicting the 12 PM session's already-current stops. Stood down instead.
+NO ACTION TAKEN. By the time this session executed, the 10 AM and 12 PM sessions had already run in full (handoff in `robinhood_1515_trading/SKILL.md` timestamped ~12:05 PM ET): INTC sold at stop-loss ($99.6322, 10:22 AM ET) and TTMI sold at stop-loss ($137.7001, 10:22 AM ET) by the 10 AM session, SHOP's stop trailed $142.52→$146.12 (breakeven) by the 12 PM session, and the catalyst watch list already evaluated (VST FAILED; NET/ABNB confirmed beats but fading/too volatile, not entered; TTWO below threshold). Applying this session's 9:30-open stop logic now, against stale 7 AM stop levels, would mislabel a 3:06 PM price as "the open" and risk double-selling or contradicting the 12 PM session's already-current stops. Stood down instead.
 
-Sanity check only (no orders): HON $248.49 vs live stop $248.00 — OK. INTC $101.69 vs stop $96.74 — OK. MU $919.77 vs live stop $903.00 — OK. No breach.
+Sanity check only (no orders, live portfolio synced — CRL and SHOP are the only two live positions, matching the 12 PM handoff exactly, no manual adopts needed): CRL $262.115 vs live stop $252.07 / TP $272.98 — OK, +1.19% vs entry. SHOP $150.38 vs live stop $146.12 (breakeven) / TP $153.32 — OK, +2.92% vs entry, $2.94 (1.96%) from TP. No breach. SPY +0.51%, QQQ +0.96% — normal regime.
 
-Catalyst watch: no change from 12 PM note — AMD FAILED, WDC/SNDK PENDING (AH tonight), nothing new to resolve at this hour.
+Catalyst watch: no change from 12 PM note — VST FAILED, NET/ABNB confirmed beats not entered (fading/too volatile per 12 PM review), TTWO still below threshold. Nothing new to resolve at this hour.
 
-Status: 0 sells, 0 catalyst entries (session superseded by 10 AM/12 PM), 3 positions open for 10 AM/12 PM handoff (HON, INTC, MU) — already current there.
+Status: 0 sells, 0 catalyst entries (session superseded by 10 AM/12 PM), 2 positions open for 10 AM/12 PM handoff (CRL, SHOP) — already current there. 3:15 PM session runs next.
 
-**Flag for Aaron: this routine is being triggered ~4 hours late. If the schedule isn't fixed, treat future 9:30 AM firings the same way — check whether 10 AM/12 PM already ran before acting.**
+**Flag for Aaron: this routine is still being triggered hours late (5h36m this time, up from 4h15m on 8/5). Schedule still not fixed. Continuing to stand down and defer to whichever session already ran when this fires late.**
 
 ---
 
