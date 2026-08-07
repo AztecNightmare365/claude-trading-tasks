@@ -92,99 +92,82 @@ RAW STATS:
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-Last updated: 2026-08-06 (~3:21 PM ET — 3:15 PM session complete)
+Last updated: 2026-08-07 (~3:20 PM ET — 3:15 PM session complete)
 
-Open positions held overnight (4 total):
-
-- INTC: 0.752483 shares, avg entry $99.67, stop-loss $99.67 (BREAKEVEN), take-profit $105.47, overnight flag: YES
-  3:15 PM price: $100.40 | vs avg entry: +$0.73 (+0.73%) | day change: -0.65%
-  entry_type: scanner
-  Thesis: Semiconductor sector momentum with breakeven stop — risk-free overnight roll.
-  Trail note: if INTC hits $103.50 intraday, trail stop to $101.50.
-  - If INTC <= $99.67: sell immediately (stop-loss — no discretion)
-  - If INTC >= $105.47: sell immediately (take-profit, 0.752483 shares, market order)
+Open positions held overnight (2 total):
 
 - CRL: 0.289530 shares, avg entry $259.04, stop-loss $252.07, take-profit $272.98, overnight flag: YES
-  3:15 PM price: $259.42 | vs avg entry: +$0.38 (+0.15%) | day change: -0.50%
+  3:15 PM price: $263.37 | vs avg entry: +$4.33 (+1.67%) | day change: -0.81%
   entry_type: scanner
-  Thesis: Q2 2026 beat (EPS $2.42 vs $2.10 est.), raised FY guidance, preclinical research demand recovery. No binary event.
-  - If CRL <= $252.07: sell immediately (stop-loss — no discretion)
+  Thesis: Charles River Laboratories Q2 2026 beat (EPS $3.02 vs est., $1B revenue, raised FY guidance, Aug 5). Healthcare/bioservices. No binary events Monday.
+  Stop NOT trailed — position up only +1.67%, below the 2% trailing threshold. Stop remains at $252.07.
   - If CRL >= $272.98: sell immediately (take-profit, 0.289530 shares, market order)
+  - If CRL <= $252.07: sell immediately (stop-loss — no discretion)
 
-- SHOP: 0.513281 shares, avg entry $146.12, stop-loss $142.52, take-profit $153.32, overnight flag: YES
-  3:15 PM price: $145.81 | vs avg entry: -$0.31 (-0.21%) | day change: +1.09%
+- SHOP: 0.513281 shares, avg entry $146.12, stop-loss $147.61 (TRAILED from $146.12 — protects ~$0.79/share above breakeven), take-profit $153.32, overnight flag: YES
+  3:15 PM price: $150.62 | vs avg entry: +$4.50 (+3.08%) | day change: +2.16%
   entry_type: scanner
-  Thesis: Q2 2026 beat (revenue +29% YoY, GMV +23%, operating income $404M vs $347M est.), raised FY guidance. No binary event.
-  - If SHOP <= $142.52: sell immediately (stop-loss — no discretion)
+  Thesis: Shopify Q2 2026 beat (revenue $3.58B +33.7% YoY, GMV +32%, beat and raise). Analyst upgrades: Morgan Stanley OW $192, Jefferies Buy $160. AI commerce narrative strengthening. No binary events.
+  *** TP WATCH: $150.62 vs TP $153.32 — only $2.70 (1.79%) away. If SHOP hits $153.32 at any point Monday, sell immediately (0.513281 shares, market order). Stop trailed to $147.61 (2% below close). ***
   - If SHOP >= $153.32: sell immediately (take-profit, 0.513281 shares, market order)
-
-- TTMI: 1.000000 shares, avg entry $143.07, stop-loss $138.95, take-profit $151.31, overnight flag: YES
-  3:15 PM price: $141.48 | vs avg entry: -$1.59 (-1.11%) | day change: +7.81%
-  entry_type: manual (user opened before 12 PM session)
-  Thesis: TTM Technologies Q2 beat (revenue +37% YoY, EPS $0.99 vs $0.92), FY26 guidance raised to ~$5.00 EPS vs $4.04 consensus; AI/data center PCB demand surging. No binary event.
-  Trail note: if TTMI hits $148.00 intraday, trail stop to $143.07 (breakeven).
-  - If TTMI <= $138.95: sell immediately (stop-loss — no discretion)
-  - If TTMI >= $151.31: sell immediately (take-profit, 1.000000 shares, market order)
+  - If SHOP <= $147.61: sell immediately (stop-loss — locks in ~$0.79/share profit above breakeven)
 
 Portfolio sync (3:15 PM reconciliation):
-  - INTC: confirmed ✓ (0.752483 sh, avg $99.67)
   - CRL: confirmed ✓ (0.289530 sh, avg $259.04)
   - SHOP: confirmed ✓ (0.513281 sh, avg $146.12)
-  - TTMI: confirmed ✓ (1.000000 sh, avg $143.07 — manual entry, user-purchased intraday Aug 6)
-  - PAYC: SOLD at stop-loss this session ($211.9901, -0.76%, -$0.57) — stop $213.62 breached
+  - No manual positions detected — only CRL and SHOP in live account
 
-Sells executed at 3:15 PM (1 total):
-  PAYC: 0.351085 shares sold at $211.9901 (market order)
-  Reason: Hard stop-loss breach — breakeven trail stop $213.62, price fell to $211.99 (-0.76% vs entry $213.6233). Opened by 10 AM session (scanner, LOW conviction, earnings_beat catalyst). Stop trailed to breakeven by 12 PM — trade became risk-free, then declined through it.
-  Proceeds: ~$74.42 UNSETTLED (settles Aug 7)
+Sells executed at 3:15 PM: NONE
+  No stop-loss or take-profit triggers hit. No discretionary exits.
 
 Buys executed at 3:15 PM: NONE
-  Reason: Both scanners returned 0 results (8th consecutive drought). Thursday historically weak (30% win rate). No web-sourced candidates cleared the exceptional-setup bar without scanner confirmation. Unity (U) was the strongest candidate (+16.66% on Q2 beat) but not scanner-confirmed and 12 PM agent had already declined it on the same grounds.
+  Both scanners returned 0 results — 11th consecutive session drought.
+  Friday into 3-day weekend (next market day: Monday Aug 10). Candidates reviewed and rejected:
+  - NET: $296.90 (+4.38%) — continued fading from AM high $324.73 to afternoon $296.90. Did NOT close near/above $310 threshold set by 12PM agent. Fading momentum, not in scanner.
+  - ABNB: $175.34 (+15.64%) — intraday low $163.45 is 6.78% below entry, exceeds 5% overnight volatility cap. HARD DISQUALIFIED. Also trading above average analyst PT ($161 avg).
+  - QCOM: $167.29 (+4.30%) — not scanner-confirmed, low volume (23% of avg per 12PM note), no today-specific catalyst. Broader QCOM thesis is prior Q3 beat, not today-specific.
+  - MRNA: $58.49 (+8.60%) — FDA approved mRNA flu vaccine (mFLUSIVA) today for adults 50+. Landmark catalyst BUT stock PARING GAINS after announcement ("buy the rumor sell the news"), no major revenue until 2027, not scanner-confirmed.
+  - TTWO: $242.11 (+4.15%) — earnings AH tonight. HARD DISQUALIFIED (binary overnight risk).
+  - AMAT: $541.08 (+2.58%) — below 3% bar, not in scanner, low volume.
 
-Market conditions at close (Aug 6, 2026 — Thursday):
-  SPY -0.07% | QQQ -0.25% — normal regime, mildly negative. No regime gate triggered.
-  Energy sector leading: XLE +1.44%, XOP +1.13%
-  Scanners: 0 results (8th consecutive session drought).
-  INTC -0.65% | CRL -0.50% | SHOP +1.09% | TTMI +7.81% (still up big from earnings gap)
+Market conditions at close (Aug 7, 2026 — Friday):
+  SPY +0.60% | QQQ +1.09% — normal regime, positive. No regime gate triggered.
+  Leading sectors: tech/small-caps. Rate-cut narrative driving (July jobs -23K, unexpected losses).
+  Scanners: 0 results (11th consecutive session drought).
 
-Settled cash remaining: $308.67
-Unsettled (settles Aug 7): ~$209.44 (HON ~$59.63 + MU ~$75.31 from 10AM + PAYC ~$74.42 from 3:15PM)
-Total account value: ~$885.53
-Portfolio invested: ~$367 (~41.4%) — well within 75% cap ✓
+Settled cash remaining: $518.12
+Unsettled (settles Aug 10): ~$212.67 (INTC ~$74.95 + TTMI ~$137.70 from 10AM stops)
+Total account value: $884.35
+Portfolio invested: $153.57 (~17.4%) — well within 75% cap ✓
 
-NOTES FOR 10:00 AM AGENT (Friday Aug 7, 2026):
+NOTES FOR 10:00 AM AGENT (Monday August 10, 2026 — AFTER 3-DAY WEEKEND):
 
-1. TTMI WATCH: Still down -1.11% from entry ($141.48 vs $143.07). Stop $138.95 is 1.73% below close. Trail trigger ($148.00) NOT reached today. PCB/AI data center thesis intact. If TTMI gaps below $138.95 premarket or at open, sell at open immediately. If it recovers toward $148+, trail stop to breakeven ($143.07).
+1. SHOP TP WATCH: $150.62 at close vs TP $153.32 ($2.70 = 1.79% away). Stop trailed to $147.61. If SHOP gaps up and touches $153.32 at or after Monday open, sell immediately (0.513281 shares, market order). Analyst upgrades (MS OW $192, Jefferies $160) + Q2 beat thesis remains very strong. Check for any adverse weekend news (macro, sector).
 
-2. INTC BREAKEVEN STOP: Risk-free hold (stop $99.67 = entry). Currently $100.40 (+0.73%). Semiconductor sector mixed. If INTC gaps below $99.67, sell at open. Trail trigger: $103.50 → stop $101.50.
+2. CRL: $263.37 at close vs TP $272.98 (3.65% away). Stop at $252.07 (4.29% below close). CRL pulled back -0.81% on the day but thesis intact (Q2 beat, raised FY guidance). No binary events expected Monday. Check premarket for any adverse weekend news (bioservices sector, macro healthcare policy).
 
-3. CRL: Slightly above entry (+0.15%), no adverse news. Healthcare/bioservices thesis intact (Q2 beat + guidance raise). Stop $252.07 is 2.7% below close.
+3. 3-DAY WEEKEND RISK: Both CRL and SHOP have been held through Saturday and Sunday. Check for any adverse weekend news before acting at 10AM. Geopolitical, macro, or sector-specific events over the weekend can cause gap-downs that require immediate action.
 
-4. SHOP: Slightly below entry (-0.21%) but outperforming (+1.09% on day). Thesis intact (massive Q2 beat). Stop $142.52 is 2.6% below close.
+4. MONDAY CASH POSITION: $518.12 settled + $212.67 unsettled settling Monday at open = ~$730.79 total cash. Monday 10AM is the historically strongest session (46.7% win rate, +$45.22 net). Fresh week starts the scanner drought clock over — run both scanners immediately.
 
-5. PAYC CLOSED: Exited at stop-loss (-0.76%, -$0.57). Breakeven trail worked — limited loss to essentially zero. Tech earnings_beat thesis did work initially (stock up 25%+ at peak), then reversed through the breakeven stop. Win rate on this path still relevant.
+5. SCANNER DROUGHT: 11 consecutive sessions without a scanner hit. A new week beginning Monday should be treated fresh — do NOT carry the drought pessimism forward. If either scanner returns results Monday, evaluate with the standard full process, not extra skepticism from the streak.
 
-6. SCANNER DROUGHT: 8th consecutive session. Friday historically weak (same 30% win rate as Thursday per Learned Insights). If scanner is still empty at 10 AM, set very high bar — "exceptional setup" only. Do NOT force positions on a Friday scanner drought.
+6. TTWO AH CATALYST: Take-Two Interactive reported earnings AH tonight (Aug 7). If TTWO beat estimates and is gapping up Monday morning with ≥3% change and relVol ≥1.2×, evaluate via the standard scanner path (NOT catalyst_watch path — per Learned Insights, catalyst_watch + earnings_beat = 0/4, -$10.03). Implied earnings move was ±7.76%. HIGH binary risk — require scanner confirmation.
 
-7. AH CATALYSTS TONIGHT (Aug 6): NET (Cloudflare) and ABNB (Airbnb) report after close tonight.
-   *** CRITICAL: catalyst_watch + earnings_beat = LEARNED INSIGHTS AVOID (0/4, -$10.03). Do NOT enter NET or ABNB via the 1-2% catalyst_watch threshold. Only enter if they appear in scanner at ≥3% with relVol ≥1.2x (standard path). ***
-   - NET (-2.99% today, ~$284): beat expected (~$665M rev, $0.27 EPS est.). At ATH, needs substantial beat to move.
-   - ABNB (-1.40% today, ~$150): $3.58B rev est. (+15.6%), travel demand. Enter only via scanner.
+7. RATE-CUT NARRATIVE: July jobs report showed -23,000 jobs (unexpected losses), reducing Fed rate-hike fears. This drove broad market gains on Friday (+0.60% SPY, +1.09% QQQ). Rate-sensitive and growth sectors (tech, small-caps, homebuilders, utilities) may continue to benefit Monday. Lean into tech names with scanner confirmation.
 
-8. BMO TOMORROW (Aug 7): TTWO, PPL, VST, PAA report before market open.
-   - VST (Vistra Corp, energy/power): AI data center electricity demand tailwind. Watch for guidance on power capacity. If beat + raised guide + scanner confirmed, evaluate per standard path.
-   - TTWO (Take-Two Interactive, gaming): GTA 6 cycle. Uncertain direction.
-   - PPL, PAA: utilities/midstream — low momentum potential.
+8. NET/ABNB STATUS: Both were too volatile or not meeting close strength criteria for a Friday overnight entry. By Monday, they will have aged 3 days post-earnings. Evaluate fresh with Monday's scanner. Note ABNB ($175 current) is trading ABOVE the average analyst price target (~$161), which is a fundamental headwind for new entries.
 
-9. UNITY (U) NOTE: Up +16.66% today on Q2 BMO beat (EPS $0.28 vs $0.25, revenue +24% YoY, guidance raised). NOT entered (Thursday, no scanner confirmation). If U appears in scanner at open (≥3%, relVol ≥1.2x), standard path applies. If it fades to scanner range and is closing strong Friday, evaluate — but still requires scanner confirmation.
+9. MRNA: FDA approved first mRNA flu vaccine (mFLUSIVA) on Aug 7. Stock pared gains (+8.60% at close, $58.49). If MRNA consolidates and appears in scanner Monday with ≥3% day change and relVol ≥1.2×, it is a fresh candidate — the FDA approval gives it a real, dated catalyst. But no major revenue until 2027, so require strong scanner confirmation before entering.
 
-10. BUYING POWER OPENING FRIDAY: Full $209.44 in unsettled proceeds (HON + MU + PAYC) settles tomorrow Aug 7 → adds to morning buying power alongside current $308.67 settled for estimated ~$518+ total at open. However Friday is historically weak — protect dry powder for genuinely exceptional setups.
+Catalyst watch list (for 10 AM agent, Monday Aug 10, 2026):
+TTWO | earnings_beat (AH tonight Aug 7, result available by Monday open) | Result by Mon open | Direction bias: MEDIUM (can swing either way, implied ±7.76%) | Risk level: HIGH — scanner confirmation required, do NOT use catalyst_watch path
+BRK.B | Q2 earnings (AH tonight or Saturday release) | Result by Mon open | Direction bias: NEUTRAL (large cap, consensus $5.24 EPS, +3% revenue growth) | Risk level: LOW — not a momentum play, skip unless >2% gap with unusual volume
 
-Catalyst watch list (for 10 AM agent, Friday Aug 7, 2026):
-  NET  | earnings_beat | AH tonight (Aug 6) | Positive bias (beat expected) | MEDIUM — *** AVOID catalyst_watch path. Scanner only. ***
-  ABNB | earnings_beat | AH tonight (Aug 6) | Positive bias | MEDIUM — *** AVOID catalyst_watch path. Scanner only. ***
-  VST  | earnings | BMO Aug 7 | Positive-leaning (data center power demand, AI tailwind) | MEDIUM
-  TTWO | earnings | BMO Aug 7 | Uncertain (gaming cycle) | MEDIUM
+Settled cash remaining: $518.12
+Unsettled (settles Aug 10): ~$212.67 (INTC ~$74.95 + TTMI ~$137.70)
+Total account value: $884.35
+Invested: $153.57 (~17.4%) — well within 75% cap ✓
 
 ---
 

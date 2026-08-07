@@ -1,14 +1,14 @@
 {
-  "ts": "2026-08-07T19:06:30Z",
-  "source": "robinhood_0930_open",
+  "ts": "2026-08-07T19:20:00Z",
+  "source": "robinhood_1515_trading",
   "portfolio": {
-    "totalValue": 883.84,
+    "totalValue": 884.35,
     "cash": 730.79,
-    "equityValue": 153.05,
+    "equityValue": 153.56,
     "buyingPower": 518.12,
     "positions": [
-      { "ticker": "CRL", "shares": 0.289530, "entry": 259.04, "current": 262.115, "plPct": 1.19, "managed": true },
-      { "ticker": "SHOP", "shares": 0.513281, "entry": 146.12, "current": 150.38, "plPct": 2.92, "managed": true }
+      { "ticker": "CRL", "shares": 0.289530, "entry": 259.04, "current": 263.37, "plPct": 1.67, "managed": true },
+      { "ticker": "SHOP", "shares": 0.513281, "entry": 146.12, "current": 150.62, "plPct": 3.08, "managed": true }
     ]
   },
   "fills": [
