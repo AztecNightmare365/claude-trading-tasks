@@ -30,3 +30,5 @@ date,ticker,shares,entry_price,exit_price,entry_session,entry_type,exit_session,
 2026-08-06,HON,0.243604,245.48,245.0201,10AM,scanner,10AM,earnings_beat,industrial,-0.19,-0.11,stop_loss
 2026-08-06,MU,0.083577,897.38,901.3598,10AM,scanner,10AM,sector_momentum,tech,0.44,0.33,stop_loss
 2026-08-06,PAYC,0.351085,213.6233,211.9901,10AM,scanner,3:15PM,earnings_beat,tech,-0.76,-0.57,stop_loss
+2026-08-07,INTC,0.752483,99.67,99.6322,10AM,scanner,10AM,sector_momentum,tech,-0.04,-0.03,stop_loss
+2026-08-07,TTMI,1.000000,143.07,137.7001,10AM,manual,10AM,earnings_beat,tech,-3.75,-5.37,stop_loss
