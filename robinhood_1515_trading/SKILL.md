@@ -49,86 +49,71 @@ Notes for 10:00 AM agent (June 25, 2026):
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-08-07 (~10:22 AM ET — 10 AM session complete)
+Last updated: 2026-08-07 (~12:05 PM ET — 12 PM reassessment complete)
 
 Open positions (2 total):
 
 - CRL: 0.289530 shares, avg entry $259.04, stop-loss $252.07, take-profit $272.98, overnight flag: YES
-  10AM price: $265.60 | vs avg entry: +$6.56 (+2.53%) | day change: +0.03%
+  12PM price: $262.92 | vs avg entry: +$3.88 (+1.497%) | day change: -0.976%
   entry_type: scanner
-  Thesis: Charles River Laboratories Q2 2026 beat (EPS $2.42 vs $2.10 est.), raised FY guidance, preclinical research demand recovery. Healthcare/bioservices. No binary event.
+  Thesis: Charles River Laboratories Q2 2026 beat (EPS $3.02 vs est., $1B revenue, raised FY guidance, Aug 5). Healthcare/bioservices. No binary event.
+  Stop NOT trailed — position up only 1.497%, below the 2% trailing threshold. Stop remains at $252.07.
   - If CRL >= $272.98: sell immediately (take-profit, 0.289530 shares, market order)
   - If CRL <= $252.07: sell immediately (stop-loss — no discretion)
 
-- SHOP: 0.513281 shares, avg entry $146.12, stop-loss $142.52, take-profit $153.32, overnight flag: YES
-  10AM price: $151.64 | vs avg entry: +$5.52 (+3.78%) | day change: +2.85%
+- SHOP: 0.513281 shares, avg entry $146.12, stop-loss $146.12 (TRAILED from $142.52 — now at breakeven), take-profit $153.32, overnight flag: YES
+  12PM price: $149.75 | vs avg entry: +$3.63 (+2.484%) | day change: +1.567%
   entry_type: scanner
-  Thesis: Shopify Q2 2026 beat (revenue +29% YoY, GMV +23%, operating income $404M vs $347M est., raised FY guidance). No binary event.
-  *** APPROACHING TP: $151.64 vs TP $153.32 — only $1.68 (1.11%) away. Monitor closely throughout session. If SHOP hits $153.32, sell immediately (0.513281 shares, market order). Consider trailing stop to $146.12 (breakeven) at 3:15 PM if TP not yet hit and stock remains strong. ***
+  Thesis: Shopify Q2 2026 beat (revenue $3.58B +33.7% YoY, GMV +32%, beat and raise). Analyst upgrades flowing: Morgan Stanley OW $192, Jefferies Buy $160. AI commerce narrative strengthening. No binary event.
+  *** TP WATCH: $149.75 vs TP $153.32 — only $3.57 (2.38%) away. If SHOP hits $153.32 at any point, sell immediately (0.513281 shares, market order). Stop trailed to breakeven ($146.12) — position is now risk-free. ***
   - If SHOP >= $153.32: sell immediately (take-profit, 0.513281 shares, market order)
-  - If SHOP <= $142.52: sell immediately (stop-loss — no discretion)
+  - If SHOP <= $146.12: sell immediately (stop-loss — no discretion; this is now breakeven)
 
-Portfolio sync (10 AM reconciliation):
-  - INTC: SOLD at stop-loss this session ($99.6322, -0.04%, -$0.03) — breakeven stop $99.67 breached at open
-  - TTMI: SOLD at stop-loss this session ($137.7001, -3.75%, -$5.37) — stop $138.95 breached at open
-  - CRL: confirmed ✓ (0.289530 sh, avg $259.04)
-  - SHOP: confirmed ✓ (0.513281 sh, avg $146.12)
+12 PM reassessment actions:
+  - SHOP stop trailed: $142.52 → $146.12 (breakeven). SHOP up +2.484%, exceeded 2% trailing threshold.
+  - CRL: no action — below 2% trailing threshold, thesis intact, no stop/TP triggers.
+  - No new buys: 10th consecutive scanner drought (both scanners returned 0). No candidates passed midday filters.
+    Candidates reviewed and rejected:
+      NET: +7.43% but fading morning spike ($324.73 open high → $305.56 now, -5.9% from high). Fails midday sustainability filter.
+      ABNB: +14.85% but intraday low $163.45 more than 4% below entry — hard disqualified (too volatile).
+      QCOM: +3.6% but only 23% of avg daily volume, no identifiable today-specific catalyst. Not scanner-confirmed.
+      AMAT: +2.4%, below 3% baseline bar, very low volume.
 
-Sells executed at 10 AM (2 total):
-  INTC: 0.752483 shares sold at $99.6322 (market order, filled 14:22 UTC)
-  Reason: Hard stop-loss breach — breakeven trail stop $99.67, price dipped to $99.62 at open (-0.19% on day). No discretion per rule.
-  Proceeds: ~$74.95 UNSETTLED (settles Aug 10 — 3-day weekend)
-
-  TTMI: 1.000000 shares sold at $137.7001 (market order, filled 14:22 UTC)
-  Reason: Hard stop-loss breach — stop $138.95, price at $138.885 at open (entry was $143.07, -3.75%). No discretion per rule.
-  Proceeds: ~$137.70 UNSETTLED (settles Aug 10)
-
-Buys executed at 10 AM: NONE
-  Reason: 9th consecutive scanner drought (both scanners returned 0). Friday historically weak (30% win rate). Handoff explicitly instructed "Do NOT force positions on a Friday scanner drought."
-  - NET (Cloudflare): up +10.69% on AH earnings beat — CONFIRMED catalyst, NOT entered. Handoff restricted to scanner-only; scanner returned 0. catalyst_watch + earnings_beat = AVOID per Learned Insights.
-  - ABNB (Airbnb): up +16.01% on AH earnings beat — CONFIRMED catalyst, NOT entered. Same scanner-only restriction.
-  - VST: -2.99% (FAILED — BMO earnings miss or guide)
-  - TTWO: +2.68% (below 3% bar, not scanner-confirmed)
-  - QCOM: +2.64% (watchlist eligible but no specific today catalyst; Friday scanner drought, no exceptional setup)
-
-Market conditions at 10 AM (Aug 7, 2026 — Friday):
-  SPY +0.38% | QQQ +0.71% — normal regime, mild positive. No regime gate triggered.
-  XLK +0.93% (tech leading) | XLE -1.19% (energy weak) | XLF -0.26% | XLI -0.06%
-  Scanners: 0 results (9th consecutive session drought)
+Market conditions at 12 PM (Aug 7, 2026 — Friday):
+  SPY +0.576% | QQQ +1.084% — normal regime, mild positive, tech leading. No regime gate.
+  Scanners: 0 results (10th consecutive session drought)
 
 Settled cash remaining: $518.12
-Unsettled (settles Aug 10): ~$212.65 (INTC ~$74.95 + TTMI ~$137.70 from today's stops)
-Total account value: ~$885.50
-Portfolio invested: ~$154.73 (~17.5%) — well within 75% cap ✓
-
-Catalyst watch list: none (NET/ABNB already gapped; next trading day is Monday Aug 10)
+Unsettled (settles Aug 10): ~$212.67 (INTC ~$74.95 + TTMI ~$137.70 from 10AM stops)
+Total account value: $883.79
+Portfolio invested: ~$152.99 (~17.3%) — well within 75% cap ✓
 
 Catalyst status carry-forward:
-  - NET: CONFIRMED gap-up +10.69% (earnings beat AH Aug 6) — NOT entered at 10AM (scanner-only restriction, scanner empty). If NET holds strength into 3:15 PM close and appears in scanner ≥3% with relVol ≥1.2×, standard path applies. Still AVOID catalyst_watch path.
-  - ABNB: CONFIRMED gap-up +16.01% (earnings beat AH Aug 6) — NOT entered at 10AM. Same scanner-only restriction applies.
+  - NET: CONFIRMED earnings beat (AH Aug 6), +7.43% at noon. Was fading from morning high of $324.73 to $305.56 at 12PM — a classic gap-fade pattern. For 3:15 PM: if NET has stabilized or reversed the fade and closes strong (near/above $310) with ≥3% day change and relVol ≥1.2× in scanner, evaluate for overnight hold into Monday. Thesis intact (Cloudflare AI/Zero Trust). Avoid catalyst_watch path. Factor 3-day weekend risk into conviction threshold.
+  - ABNB: CONFIRMED earnings beat (AH Aug 6), +14.85% at noon. Highly volatile — intraday low $163.45 vs high $176.40. For 3:15 PM: check if intraday low at close is within 5% of entry (overnight stop cap). If it has consolidated tightly near highs, may qualify. Factor 3-day weekend risk. Consumer Services sector — not tech, no Learned Insights boost.
   - VST: FAILED (-2.99%). Skip permanently.
-  - TTWO: Below threshold (+2.68%). Monitor if it reaches 3%+ with scanner confirmation.
+  - TTWO: Below threshold at open. Monitor if reaches 3%+ with scanner confirmation.
 
 NOTES FOR 3:15 PM AGENT (Friday Aug 7, 2026 — next market day Monday Aug 10):
 
-1. SHOP TP WATCH: Currently $151.64 vs TP $153.32 — only $1.68 (1.11%) away. If SHOP hits $153.32 at any point before or at 3:15 PM, sell immediately (0.513281 shares, market order). If TP not hit, consider trailing stop to $146.12 (breakeven) at 3:15 PM given strong performance (+3.78% from entry). SHOP thesis intact — massive Q2 beat, no adverse news.
+1. SHOP TP WATCH: $149.75 at noon vs TP $153.32 ($3.57 = 2.38% away). If SHOP hits $153.32 at any point before or at 3:15 PM, sell immediately (0.513281 shares, market order). Stop is now at breakeven ($146.12) — trade is risk-free. Thesis very strong (massive beat, analyst upgrades). Hold overnight into Monday if TP not hit and thesis still intact.
 
-2. CRL: Solid +2.53% from entry. Thesis intact (healthcare Q2 beat + raised guide). Stop $252.07 is 5.1% below current $265.60. Good overnight hold into Monday if no adverse news.
+2. CRL: Pulled back to $262.92 (-0.976% on day) but still +1.497% from entry. Stop at $252.07 is 3.75% below current price — adequate cushion. Thesis intact (Q2 beat + raised FY guidance Aug 5). Hold overnight into Monday if no adverse news. Monitor if CRL continues to fade toward stop.
 
-3. SCANNER DROUGHT: 9th consecutive session. If scanners remain empty at 3:15 PM, hold current positions only — do not force new buys on a Friday close into a 3-day weekend without exceptional setup.
+3. SCANNER DROUGHT: 10th consecutive session. Do NOT force new buys on a Friday into a 3-day weekend without scanner confirmation and exceptional setup. The bar is extremely high.
 
-4. NET/ABNB: Both had major earnings beat gap-ups. If either appears in scanner at 3:15 PM with ≥3% change and relVol ≥1.2×, evaluate for overnight hold into Monday. Avoid catalyst_watch path — scanner confirmation required. For overnight into a 3-day weekend: ensure post-earnings thesis intact and no negative follow-on news.
+4. WEEKEND RISK: Any new position opened at 3:15 PM holds through Saturday and Sunday before Monday's 10 AM agent can act. Factor extra gap-down risk. Require: (a) scanner-confirmed, (b) relVol ≥1.5×, (c) closing strong near intraday high, (d) thesis supports continuation over a 3-day hold, (e) no binary events expected Monday.
 
-5. CASH POSITION: ~$518.12 settled + ~$212.65 unsettled (settles Monday Aug 10). Protect settled cash unless a genuinely exceptional setup appears. Both stops today consumed positions — $212.65 settles Monday and restores buying power for Monday's 10 AM session.
+5. NET/ABNB EVALUATION: Both had confirmed earnings gap-ups. At 3:15 PM, NET must be scanner-confirmed with ≥3% and relVol ≥1.2× to qualify. ABNB must meet the same bar AND have an intraday low within 5% of entry (overnight volatility cap). Avoid catalyst_watch path on both.
 
-6. WEEKEND RISK: Any overnight position rolls through Saturday and Sunday before Monday's 10 AM session can act. Factor extra overnight risk into conviction threshold for any new Friday buys.
+6. CASH POSITION: $518.12 settled + $212.67 unsettled (settles Monday Aug 10). Protect settled cash — it is Monday's 10 AM dry powder. The 10AM session is historically the strongest (46.7% win rate, +$45.22 net). A bad Friday overnight buy risks the Monday morning position.
 
-7. TWO STOPS TODAY: INTC (breakeven, -$0.03 net) and TTMI (-$5.37). TTMI opened just barely below its $138.95 stop ($138.885). No discretion applied — correct per rule.
+7. EXISTING POSITIONS ARE THE PRIORITY: SHOP is 2.38% from TP. If TP hits before close, that's a clean win. CRL is a solid hold. Both are the focus — don't compromise them by forcing a third position that dilutes attention.
 
 Settled cash remaining: $518.12
-Unsettled (settles Aug 10): ~$212.65 (INTC ~$74.95 + TTMI ~$137.70)
-Total account value: ~$885.50
-Invested: ~$154.73 (~17.5%) — well within 75% cap ✓
+Unsettled (settles Aug 10): ~$212.67 (INTC ~$74.95 + TTMI ~$137.70)
+Total account value: $883.79
+Invested: ~$152.99 (~17.3%) — well within 75% cap ✓
 
 ---
 PRE-CHECK — Market day verification
