@@ -14,27 +14,13 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET, 2026-08-06**
+**7 AM brief for 2026-08-07 — fired catastrophically late, actually ran ~10:40 PM ET (15.7h late), AFTER market close.** By the time this session executed, the entire day's chain (9:30AM/10AM/12PM/3:15PM) had already run, closed, and pushed — INTC and TTMI were sold at their stops by the 10AM session (logged in trade_log.csv), SHOP's stop trailed twice (→breakeven→$147.61), and both remaining positions (CRL, SHOP) were carried into the 3-day weekend by the 3:15PM agent. There was no pre-market window left to protect and nothing left for this session to act on — market open/close for 8/7 is already fully resolved in `## HANDOFF FROM LAST 3:15 PM SESSION` above. No orders placed, no trade log changes (would duplicate 10AM's entries), no handoff edits (3:15PM's block is current and correct).
 
-POSITIONS:
-- HON 0.2436sh: $248.00 (-0.05%). Stop $248.00 = AT STOP. CRITICAL BREACH. No adverse news (PT raises: Mizuho $265, BMO $276). SELL AT OPEN.
-- INTC 0.7525sh: $99.52 (-1.52%). Stop $99.67 = BELOW STOP. CRITICAL BREACH. Sector weakness, no stock-specific news. SELL AT OPEN.
-- MU 0.0836sh: $846.46 (-5.23%). Stop $903. CRITICAL BREACH, well below. Cause: SNDK soft guidance + Asia memory selloff. SELL AT OPEN.
-- CRL 0.2895sh: ~$264.19 (+1.33%, stale/thin data). ON TRACK - raised FY guide, 52wk high.
-- SHOP 0.5133sh: $143.90 (-0.24%). ON TRACK - MS OW $192PT, Jefferies Buy $160PT init.
+*** FLAG FOR AARON: 2nd late-firing incident on record (9:30AM agent ran 4h15m late on 8/5), and by far the worst — the 7AM safety net didn't run in its protective window at all today. A catastrophic overnight gap would have gone uncaught. Schedule needs fixing; until then, any late 7AM firing should check whether the day's sessions already ran (git log / handoff dates) before touching positions, and stand down if so. ***
 
-PRE-MKT SELLS: NONE. Robinhood rejects extended-hours orders on fractional shares - HON/INTC/MU all fractional, no order could be placed despite 3 breaches. Hard platform limit, not discretionary. 9:30 AM agent MUST sell all 3 at open immediately, no discretion.
+Sanity check only (positions per 3:15PM close, unchanged since): CRL $263.37 (+1.67% vs entry, stop $252.07) — OK, no breach. SHOP $150.62 (+3.08%, stop $147.61) — OK, no breach, 1.79% from TP $153.32.
 
-CATALYST WATCH:
-- WDC -16.0% premkt (beat EPS/rev+guide, sold off anyway) - FAILED, skip.
-- SNDK -9.9% premkt (beat, soft guidance) - FAILED, skip. WDC+SNDK = MU contagion source.
-- DDOG -17.2% premkt (BMO, figures not yet indexed) - FAILED, skip.
-- CEG +4.4% premkt (EPS beat $2.55 vs $2.34, rev slight miss, FY guide raised) - CONFIRMED GAP UP, flag 9:30 entry.
-- HWM +3.8% premkt (reports ~7AM, figures pending, price bullish) - CONFIRMED GAP UP, re-verify 9:30.
-
-MACRO: SPY +0.14%, QQQ -0.53% (memory/semis dragging tech). Dow futures +0.2% (record highs), S&P +0.1%, Nasdaq -0.1%. Fed's Cook: "running out of room for disinflation." Rates held 3.50-3.75%, Sept hike hinted. Jobs report 8/7, CPI 8/12.
-
-SUMMARY: 2 ON TRACK (CRL/SHOP), 3 CRITICAL STOP BREACH (HON/INTC/MU) - sell blocked by fractional-share rule, urgent sell-at-open; 2 catalyst CONFIRMED gap-up (CEG/HWM), 3 FAILED (DDOG/WDC/SNDK).
+SUMMARY: 0 positions actioned (day already closed out by the full session chain before this agent ran), 0 pre-market sells (no pre-market window remained), 2 positions carried into the weekend (CRL/SHOP, both healthy per 3:15PM handoff). Scheduling failure flagged for Aaron.
 
 ---
 
