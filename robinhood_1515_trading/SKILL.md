@@ -49,71 +49,72 @@ Notes for 10:00 AM agent (June 25, 2026):
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-08-07 (~12:05 PM ET — 12 PM reassessment complete)
+Last updated: 2026-08-10 (~10:45 AM ET — 10 AM session complete)
 
 Open positions (2 total):
 
 - CRL: 0.289530 shares, avg entry $259.04, stop-loss $252.07, take-profit $272.98, overnight flag: YES
-  12PM price: $262.92 | vs avg entry: +$3.88 (+1.497%) | day change: -0.976%
+  10AM price: $269.34 | vs avg entry: +$10.30 (+3.98%)
   entry_type: scanner
   Thesis: Charles River Laboratories Q2 2026 beat (EPS $3.02 vs est., $1B revenue, raised FY guidance, Aug 5). Healthcare/bioservices. No binary event.
-  Stop NOT trailed — position up only 1.497%, below the 2% trailing threshold. Stop remains at $252.07.
+  Stop NOT trailed — trail only if up ≥5% from entry per SKILL rules.
+  *** TP WATCH: $269.34 vs TP $272.98 — only $3.64 (1.35%) away. If CRL hits $272.98 at any point, sell immediately. ***
   - If CRL >= $272.98: sell immediately (take-profit, 0.289530 shares, market order)
   - If CRL <= $252.07: sell immediately (stop-loss — no discretion)
 
-- SHOP: 0.513281 shares, avg entry $146.12, stop-loss $146.12 (TRAILED from $142.52 — now at breakeven), take-profit $153.32, overnight flag: YES
-  12PM price: $149.75 | vs avg entry: +$3.63 (+2.484%) | day change: +1.567%
-  entry_type: scanner
-  Thesis: Shopify Q2 2026 beat (revenue $3.58B +33.7% YoY, GMV +32%, beat and raise). Analyst upgrades flowing: Morgan Stanley OW $192, Jefferies Buy $160. AI commerce narrative strengthening. No binary event.
-  *** TP WATCH: $149.75 vs TP $153.32 — only $3.57 (2.38%) away. If SHOP hits $153.32 at any point, sell immediately (0.513281 shares, market order). Stop trailed to breakeven ($146.12) — position is now risk-free. ***
-  - If SHOP >= $153.32: sell immediately (take-profit, 0.513281 shares, market order)
-  - If SHOP <= $146.12: sell immediately (stop-loss — no discretion; this is now breakeven)
+- PLTR: 2.000000 shares, avg entry $171.98, stop-loss $168.49, take-profit $189.55, overnight flag: YES
+  10AM price: $177.51 | vs avg entry: +$5.53 (+3.22%)
+  entry_type: manual (adopted from 9:30 AM session — earnings_beat catalyst)
+  Thesis: Palantir Q2 2026 beat (revenue +39% YoY, raised FY guidance, AIP momentum). AI government + commercial narrative. No near-term binary event.
+  Stop trail eligibility: position up 3.22% at 10 AM — check at 3:15 PM if ≥5% from entry ($180.58) before trailing.
+  - If PLTR >= $189.55: sell immediately (take-profit, 2.000000 shares, market order)
+  - If PLTR <= $168.49: sell immediately (stop-loss — no discretion)
 
-12 PM reassessment actions:
-  - SHOP stop trailed: $142.52 → $146.12 (breakeven). SHOP up +2.484%, exceeded 2% trailing threshold.
-  - CRL: no action — below 2% trailing threshold, thesis intact, no stop/TP triggers.
-  - No new buys: 10th consecutive scanner drought (both scanners returned 0). No candidates passed midday filters.
+10 AM session actions:
+  - SHOP SOLD: 0.513281 shares at $153.9001 avg — take-profit hit (TP was $153.32). P&L: +5.32% (+$3.99).
+  - PLTR ADOPTED: 2.0 sh at avg $171.98, stop $168.49, TP $189.55 (from 9:30 AM session handoff).
+  - No new buys: 12th consecutive scanner drought (both scanners returned 0). All manual candidates rejected.
     Candidates reviewed and rejected:
-      NET: +7.43% but fading morning spike ($324.73 open high → $305.56 now, -5.9% from high). Fails midday sustainability filter.
-      ABNB: +14.85% but intraday low $163.45 more than 4% below entry — hard disqualified (too volatile).
-      QCOM: +3.6% but only 23% of avg daily volume, no identifiable today-specific catalyst. Not scanner-confirmed.
-      AMAT: +2.4%, below 3% baseline bar, very low volume.
+      SNDK: +3.06% Argus Buy upgrade, but 30-min opening bar low $1,194.01 is 4.43% below entry — exceeds 4% hard cap. Disqualified (too volatile).
+      VRTX: +6.57% but fading from open ($540.60 open → $528.66 by 10 AM, below open price). Earnings AH Aug 3 (week-old catalyst). Disqualified (gap fade + stale catalyst).
+      NTAP: +5.75% analyst action but upgraded to Equal Weight (neutral), price target $173 below current $200.42. Not a bullish catalyst. Disqualified.
+      SEZL: +4.98% TD Cowen Buy upgrade ($165 target). Disqualified: tiny float (16.8M sh), strong downtrend from 52-week high $195.71, near TP already.
 
-Market conditions at 12 PM (Aug 7, 2026 — Friday):
-  SPY +0.576% | QQQ +1.084% — normal regime, mild positive, tech leading. No regime gate.
-  Scanners: 0 results (10th consecutive session drought)
+Market conditions at 10 AM (Aug 10, 2026 — Monday):
+  SPY +0.17% | QQQ +0.15% — normal regime, flat/mild positive. No regime gate.
+  XLE +2.99% (energy leading — but Learned Insights: avoid energy, 0/2 wins, -$4.07)
+  XLV +0.92% (healthcare mild positive; CRL benefiting)
+  Scanners: 0 results (12th consecutive session drought)
 
-Settled cash remaining: $518.12
-Unsettled (settles Aug 10): ~$212.67 (INTC ~$74.95 + TTMI ~$137.70 from 10AM stops)
-Total account value: $883.79
-Portfolio invested: ~$152.99 (~17.3%) — well within 75% cap ✓
+Settled cash remaining: $386.84
+Unsettled (settles Aug 11): ~$79.05 (SHOP proceeds)
+Total account value (approx): ~$898.79
+Portfolio invested: ~$432.90 (~48.2%) — within 75% cap ✓
 
 Catalyst status carry-forward:
-  - NET: CONFIRMED earnings beat (AH Aug 6), +7.43% at noon. Was fading from morning high of $324.73 to $305.56 at 12PM — a classic gap-fade pattern. For 3:15 PM: if NET has stabilized or reversed the fade and closes strong (near/above $310) with ≥3% day change and relVol ≥1.2× in scanner, evaluate for overnight hold into Monday. Thesis intact (Cloudflare AI/Zero Trust). Avoid catalyst_watch path. Factor 3-day weekend risk into conviction threshold.
-  - ABNB: CONFIRMED earnings beat (AH Aug 6), +14.85% at noon. Highly volatile — intraday low $163.45 vs high $176.40. For 3:15 PM: check if intraday low at close is within 5% of entry (overnight stop cap). If it has consolidated tightly near highs, may qualify. Factor 3-day weekend risk. Consumer Services sector — not tech, no Learned Insights boost.
-  - VST: FAILED (-2.99%). Skip permanently.
-  - TTWO: Below threshold at open. Monitor if reaches 3%+ with scanner confirmation.
+  - TTWO: Monitor at 3:15 PM if reaches 3%+ with scanner confirmation. Below threshold at open.
+  - VRTX: Faded this morning. Gap-up potential exhausted. Deprioritize unless fresh catalyst.
+  - SNDK: Too volatile for opening-range entry. Check if 30-min low improves by 3:15 PM. SNDK Investor Day Aug 13 — risk event for overnight holds.
+  - BRK.B: Notable volume this morning — no specific catalyst confirmed. Monitor.
 
-NOTES FOR 3:15 PM AGENT (Friday Aug 7, 2026 — next market day Monday Aug 10):
+NOTES FOR 3:15 PM AGENT (Mon Aug 10, 2026):
 
-1. SHOP TP WATCH: $149.75 at noon vs TP $153.32 ($3.57 = 2.38% away). If SHOP hits $153.32 at any point before or at 3:15 PM, sell immediately (0.513281 shares, market order). Stop is now at breakeven ($146.12) — trade is risk-free. Thesis very strong (massive beat, analyst upgrades). Hold overnight into Monday if TP not hit and thesis still intact.
+1. CRL TP WATCH: $269.34 at 10 AM vs TP $272.98 ($3.64 = 1.35% away). HIGH PRIORITY — sell immediately at $272.98 (0.289530 shares, market order). Thesis intact and strong.
 
-2. CRL: Pulled back to $262.92 (-0.976% on day) but still +1.497% from entry. Stop at $252.07 is 3.75% below current price — adequate cushion. Thesis intact (Q2 beat + raised FY guidance Aug 5). Hold overnight into Monday if no adverse news. Monitor if CRL continues to fade toward stop.
+2. PLTR STOP TRAIL CHECK: PLTR up 3.22% at 10 AM ($177.51). At 3:15 PM, if PLTR is up ≥5% from entry ($171.98 → $180.58+), evaluate trailing stop per SKILL rules. If PLTR is at or near $189.55, sell at TP. entry_type=manual: hold through any binary events unless handoff explicitly marks intraday-only.
 
-3. SCANNER DROUGHT: 10th consecutive session. Do NOT force new buys on a Friday into a 3-day weekend without scanner confirmation and exceptional setup. The bar is extremely high.
+3. SCANNER DROUGHT: 12th consecutive session. SKILL prohibition on forcing buys without scanner confirmation applies. High bar for any manual entry — HIGH conviction tier only ($250 max, $10 risk).
 
-4. WEEKEND RISK: Any new position opened at 3:15 PM holds through Saturday and Sunday before Monday's 10 AM agent can act. Factor extra gap-down risk. Require: (a) scanner-confirmed, (b) relVol ≥1.5×, (c) closing strong near intraday high, (d) thesis supports continuation over a 3-day hold, (e) no binary events expected Monday.
+4. ENERGY SECTOR AVOID: XLE +2.99% today. Per Learned Insights, energy sector is 0/2 wins, -$4.07 total (BKR, SLB). Do not chase energy regardless of sector momentum.
 
-5. NET/ABNB EVALUATION: Both had confirmed earnings gap-ups. At 3:15 PM, NET must be scanner-confirmed with ≥3% and relVol ≥1.2× to qualify. ABNB must meet the same bar AND have an intraday low within 5% of entry (overnight volatility cap). Avoid catalyst_watch path on both.
+5. CASH POSITION: $386.84 settled available. Unsettled $79.05 settles Aug 11. Protect settled cash — it is Tuesday's 10 AM dry powder if both CRL and PLTR exit.
 
-6. CASH POSITION: $518.12 settled + $212.67 unsettled (settles Monday Aug 10). Protect settled cash — it is Monday's 10 AM dry powder. The 10AM session is historically the strongest (46.7% win rate, +$45.22 net). A bad Friday overnight buy risks the Monday morning position.
+6. CONVICTION BAR: Monday is historically productive (63.6% win rate, +$41.28 net Mon-Tue). If scanner drought breaks today, act with appropriate conviction. But do not force entries.
 
-7. EXISTING POSITIONS ARE THE PRIORITY: SHOP is 2.38% from TP. If TP hits before close, that's a clean win. CRL is a solid hold. Both are the focus — don't compromise them by forcing a third position that dilutes attention.
-
-Settled cash remaining: $518.12
-Unsettled (settles Aug 10): ~$212.67 (INTC ~$74.95 + TTMI ~$137.70)
-Total account value: $883.79
-Invested: ~$152.99 (~17.3%) — well within 75% cap ✓
+Settled cash remaining: $386.84
+Unsettled (settles Aug 11): ~$79.05
+Total account value: ~$898.79
+Invested: ~$432.90 (~48.2%) — within 75% cap ✓
 
 ---
 PRE-CHECK — Market day verification
