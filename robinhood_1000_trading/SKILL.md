@@ -31,7 +31,7 @@ SUMMARY: 0 positions actioned (day already closed out by the full session chain 
 
 Catalyst entries: NONE. TTWO $256.34 (+3.99% vs Fri close $246.50) — Q1 FY27 beat reported BMO 8/7 (rev $1.53B vs $1.36B est, guidance reaffirmed), fully priced in over the weekend, no fresh news since. Handoff note #6 explicitly bars the catalyst_watch path for TTWO (Learned Insight: catalyst_watch+earnings_beat = 0/4) — passed to 10 AM for standard scanner confirmation, not entered here. BRK.B $536.31 (+2.78% vs Fri close $521.80) — Q2 beat mostly currency-driven (~5% underlying op. earnings growth), insurance underwriting -13%; no volume data available at 9:30 to confirm the handoff's "unusual volume" bar. Not a momentum play per handoff — not entered, passed to 10 AM.
 
-Positions adopted via portfolio sync: PLTR (2.0 sh, avg $171.98, current $175.51, +2.05%) — live in the account but not in the handoff, so the user bought it manually. Adopted, entry_type=manual, protected with a 4% stop at $168.49. No take-profit set by this agent; 10 AM/12 PM should set one.
+Positions adopted via portfolio sync: PLTR (2.0 sh, avg $171.98, current $175.51, +2.05%) — live in the account but not in the handoff, so the user bought it manually. Adopted, entry_type=manual, protected with a 4% stop at $168.49, take-profit at $189.55 (2x the stop distance above adopt price, matching the standard 1:2 risk/reward used elsewhere in this account).
 
 Status: 0 stop/TP sells, 0 catalyst entries, 3 positions open for 10 AM (CRL, SHOP, PLTR).
 
