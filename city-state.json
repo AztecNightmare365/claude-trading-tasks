@@ -1,18 +1,16 @@
 {
-  "ts": "2026-08-07T19:20:00Z",
-  "source": "robinhood_1515_trading",
+  "ts": "2026-08-10T13:43:00Z",
+  "source": "robinhood_0930_open",
   "portfolio": {
-    "totalValue": 884.35,
-    "cash": 730.79,
-    "equityValue": 153.56,
-    "buyingPower": 518.12,
+    "totalValue": 892.94,
+    "cash": 386.84,
+    "equityValue": 506.10,
+    "buyingPower": 386.84,
     "positions": [
-      { "ticker": "CRL", "shares": 0.289530, "entry": 259.04, "current": 263.37, "plPct": 1.67, "managed": true },
-      { "ticker": "SHOP", "shares": 0.513281, "entry": 146.12, "current": 150.62, "plPct": 3.08, "managed": true }
+      { "ticker": "PLTR", "shares": 2.0, "entry": 171.98, "current": 175.51, "plPct": 2.05, "managed": true },
+      { "ticker": "CRL", "shares": 0.289530, "entry": 259.04, "current": 267.14, "plPct": 3.13, "managed": true },
+      { "ticker": "SHOP", "shares": 0.513281, "entry": 146.12, "current": 152.49, "plPct": 4.36, "managed": true }
     ]
   },
-  "fills": [
-    { "id": "6a75ea33-c5f2-4158-9d1d-169a8e56cdc8", "side": "sell", "ticker": "TTMI", "qty": 1.0, "price": 137.7001, "at": "2026-08-07T14:22:43.299Z" },
-    { "id": "6a75ea31-7859-47ca-82ba-578be7c3a886", "side": "sell", "ticker": "INTC", "qty": 0.752483, "price": 99.6322, "at": "2026-08-07T14:22:41.900Z" }
-  ]
+  "fills": []
 }

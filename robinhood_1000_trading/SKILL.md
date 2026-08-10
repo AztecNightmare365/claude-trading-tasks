@@ -27,17 +27,13 @@ SUMMARY: 0 positions actioned (day already closed out by the full session chain 
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET session, 2026-08-07 — fired late, ran ~3:06 PM ET (19:06 UTC), ~5h36m after actual open.**
+**9:30 AM ET session, 2026-08-10.** Sells: NONE. CRL $267.14 (+3.13% vs entry $259.04, stop $252.07, TP $272.98) — OK, no breach, no gap-down. SHOP $152.49 (+4.36% vs entry $146.12, stop $147.61, TP $153.32) — OK, no breach, only $0.83 (0.5%) from TP, watch closely. SPY -0.03%, QQQ -0.22% — normal regime.
 
-NO ACTION TAKEN. By the time this session executed, the 10 AM and 12 PM sessions had already run in full (handoff in `robinhood_1515_trading/SKILL.md` timestamped ~12:05 PM ET): INTC sold at stop-loss ($99.6322, 10:22 AM ET) and TTMI sold at stop-loss ($137.7001, 10:22 AM ET) by the 10 AM session, SHOP's stop trailed $142.52→$146.12 (breakeven) by the 12 PM session, and the catalyst watch list already evaluated (VST FAILED; NET/ABNB confirmed beats but fading/too volatile, not entered; TTWO below threshold). Applying this session's 9:30-open stop logic now, against stale 7 AM stop levels, would mislabel a 3:06 PM price as "the open" and risk double-selling or contradicting the 12 PM session's already-current stops. Stood down instead.
+Catalyst entries: NONE. TTWO $256.34 (+3.99% vs Fri close $246.50) — Q1 FY27 beat reported BMO 8/7 (rev $1.53B vs $1.36B est, guidance reaffirmed), fully priced in over the weekend, no fresh news since. Handoff note #6 explicitly bars the catalyst_watch path for TTWO (Learned Insight: catalyst_watch+earnings_beat = 0/4) — passed to 10 AM for standard scanner confirmation, not entered here. BRK.B $536.31 (+2.78% vs Fri close $521.80) — Q2 beat mostly currency-driven (~5% underlying op. earnings growth), insurance underwriting -13%; no volume data available at 9:30 to confirm the handoff's "unusual volume" bar. Not a momentum play per handoff — not entered, passed to 10 AM.
 
-Sanity check only (no orders, live portfolio synced — CRL and SHOP are the only two live positions, matching the 12 PM handoff exactly, no manual adopts needed): CRL $262.115 vs live stop $252.07 / TP $272.98 — OK, +1.19% vs entry. SHOP $150.38 vs live stop $146.12 (breakeven) / TP $153.32 — OK, +2.92% vs entry, $2.94 (1.96%) from TP. No breach. SPY +0.51%, QQQ +0.96% — normal regime.
+Positions adopted via portfolio sync: PLTR (2.0 sh, avg $171.98, current $175.51, +2.05%) — live in the account but not in the handoff, so the user bought it manually. Adopted, entry_type=manual, protected with a 4% stop at $168.49. No take-profit set by this agent; 10 AM/12 PM should set one.
 
-Catalyst watch: no change from 12 PM note — VST FAILED, NET/ABNB confirmed beats not entered (fading/too volatile per 12 PM review), TTWO still below threshold. Nothing new to resolve at this hour.
-
-Status: 0 sells, 0 catalyst entries (session superseded by 10 AM/12 PM), 2 positions open for 10 AM/12 PM handoff (CRL, SHOP) — already current there. 3:15 PM session runs next.
-
-**Flag for Aaron: this routine is still being triggered hours late (5h36m this time, up from 4h15m on 8/5). Schedule still not fixed. Continuing to stand down and defer to whichever session already ran when this fires late.**
+Status: 0 stop/TP sells, 0 catalyst entries, 3 positions open for 10 AM (CRL, SHOP, PLTR).
 
 ---
 
