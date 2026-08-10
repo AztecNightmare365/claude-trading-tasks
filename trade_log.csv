@@ -33,3 +33,5 @@ date,ticker,shares,entry_price,exit_price,entry_session,entry_type,exit_session,
 2026-08-07,INTC,0.752483,99.67,99.6322,10AM,scanner,10AM,sector_momentum,tech,-0.04,-0.03,stop_loss
 2026-08-07,TTMI,1.000000,143.07,137.7001,10AM,manual,10AM,earnings_beat,tech,-3.75,-5.37,stop_loss
 2026-08-10,SHOP,0.513281,146.12,153.9001,10AM,scanner,10AM,earnings_beat,tech,5.32,3.99,take_profit
+2026-08-10,CRL,0.289530,259.04,274.3101,10AM,scanner,3:15PM,earnings_beat,healthcare,5.90,4.42,take_profit
+2026-08-10,PLTR,2.000000,171.975,176.0458,10AM,manual,3:15PM,earnings_beat,tech,2.37,8.14,stop_loss

@@ -73,83 +73,68 @@ RAW STATS:
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-Last updated: 2026-08-07 (~3:20 PM ET — 3:15 PM session complete)
+Last updated: 2026-08-10 (~3:18 PM ET — 3:15 PM session complete)
 
-Open positions held overnight (2 total):
+Open positions held overnight: NONE — portfolio is fully flat going into Tuesday.
 
-- CRL: 0.289530 shares, avg entry $259.04, stop-loss $252.07, take-profit $272.98, overnight flag: YES
-  3:15 PM price: $263.37 | vs avg entry: +$4.33 (+1.67%) | day change: -0.81%
-  entry_type: scanner
-  Thesis: Charles River Laboratories Q2 2026 beat (EPS $3.02 vs est., $1B revenue, raised FY guidance, Aug 5). Healthcare/bioservices. No binary events Monday.
-  Stop NOT trailed — position up only +1.67%, below the 2% trailing threshold. Stop remains at $252.07.
-  - If CRL >= $272.98: sell immediately (take-profit, 0.289530 shares, market order)
-  - If CRL <= $252.07: sell immediately (stop-loss — no discretion)
+Sells executed at 3:15 PM (2 total):
+- CRL: 0.289530 shares sold at $274.3101 (filled 2026-08-10T19:18:06Z)
+  Reason: TAKE-PROFIT — price exceeded TP of $272.98. Q2 beat thesis fully realized.
+  P&L: +5.90% (+$4.42) vs entry $259.04 | entry_type: scanner | entry_session: 10AM
 
-- SHOP: 0.513281 shares, avg entry $146.12, stop-loss $147.61 (TRAILED from $146.12 — protects ~$0.79/share above breakeven), take-profit $153.32, overnight flag: YES
-  3:15 PM price: $150.62 | vs avg entry: +$4.50 (+3.08%) | day change: +2.16%
-  entry_type: scanner
-  Thesis: Shopify Q2 2026 beat (revenue $3.58B +33.7% YoY, GMV +32%, beat and raise). Analyst upgrades: Morgan Stanley OW $192, Jefferies Buy $160. AI commerce narrative strengthening. No binary events.
-  *** TP WATCH: $150.62 vs TP $153.32 — only $2.70 (1.79%) away. If SHOP hits $153.32 at any point Monday, sell immediately (0.513281 shares, market order). Stop trailed to $147.61 (2% below close). ***
-  - If SHOP >= $153.32: sell immediately (take-profit, 0.513281 shares, market order)
-  - If SHOP <= $147.61: sell immediately (stop-loss — locks in ~$0.79/share profit above breakeven)
-
-Portfolio sync (3:15 PM reconciliation):
-  - CRL: confirmed ✓ (0.289530 sh, avg $259.04)
-  - SHOP: confirmed ✓ (0.513281 sh, avg $146.12)
-  - No manual positions detected — only CRL and SHOP in live account
-
-Sells executed at 3:15 PM: NONE
-  No stop-loss or take-profit triggers hit. No discretionary exits.
+- PLTR: 2.000000 shares sold at $176.0458 (filled 2026-08-10T19:18:07Z)
+  Reason: STOP-LOSS — trailing stop $177.00 breached (quote $175.56 at trigger; fill $176.05).
+  P&L: +2.37% (+$8.14) vs entry $171.975 (profitable but stop rules apply — no discretion)
+  entry_type: manual | entry_session: 10AM
 
 Buys executed at 3:15 PM: NONE
-  Both scanners returned 0 results — 11th consecutive session drought.
-  Friday into 3-day weekend (next market day: Monday Aug 10). Candidates reviewed and rejected:
-  - NET: $296.90 (+4.38%) — continued fading from AM high $324.73 to afternoon $296.90. Did NOT close near/above $310 threshold set by 12PM agent. Fading momentum, not in scanner.
-  - ABNB: $175.34 (+15.64%) — intraday low $163.45 is 6.78% below entry, exceeds 5% overnight volatility cap. HARD DISQUALIFIED. Also trading above average analyst PT ($161 avg).
-  - QCOM: $167.29 (+4.30%) — not scanner-confirmed, low volume (23% of avg per 12PM note), no today-specific catalyst. Broader QCOM thesis is prior Q3 beat, not today-specific.
-  - MRNA: $58.49 (+8.60%) — FDA approved mRNA flu vaccine (mFLUSIVA) today for adults 50+. Landmark catalyst BUT stock PARING GAINS after announcement ("buy the rumor sell the news"), no major revenue until 2027, not scanner-confirmed.
-  - TTWO: $242.11 (+4.15%) — earnings AH tonight. HARD DISQUALIFIED (binary overnight risk).
-  - AMAT: $541.08 (+2.58%) — below 3% bar, not in scanner, low volume.
+  14th consecutive scanner drought (both scanners returned 0 results).
+  HPE (+4.47%, analyst upgrade) — handoff explicitly barred without scanner confirmation. Skipped.
+  SNDK (+3.30%, Argus Buy upgrade today) — Investor Day Aug 13 = binary risk; intraday-only per handoff; not viable at 3:15 PM close session. Skipped.
+  Energy sector leading (+3.45% XLE) — avoided per learned insights (0/2 wins, -$4.07).
+  Semiconductor watchlist: INTC -2.85%, AMAT -1.86%, QCOM -2.09%, MU +0.07%, WDC +1.68% — all below qualifying thresholds.
+  Market regime: SPY -0.001% (flat) — normal, gate not triggered. 58.3% of US stocks declining.
 
-Market conditions at close (Aug 7, 2026 — Friday):
-  SPY +0.60% | QQQ +1.09% — normal regime, positive. No regime gate triggered.
-  Leading sectors: tech/small-caps. Rate-cut narrative driving (July jobs -23K, unexpected losses).
-  Scanners: 0 results (11th consecutive session drought).
+Portfolio sync (3:15 PM reconciliation):
+  - CRL: confirmed ✓ then sold (TP)
+  - PLTR: confirmed ✓ then sold (stop)
+  - No manual positions detected — account is fully flat
 
-Settled cash remaining: $518.12
-Unsettled (settles Aug 10): ~$212.67 (INTC ~$74.95 + TTMI ~$137.70 from 10AM stops)
-Total account value: $884.35
-Portfolio invested: $153.57 (~17.4%) — well within 75% cap ✓
+Settled cash remaining: $386.84
+Unsettled (settles Aug 11): ~$510.58 ($79.05 SHOP + $79.44 CRL + $352.09 PLTR)
+Total account value: ~$897.42
+Portfolio invested: 0% — fully flat ✓
 
-NOTES FOR 10:00 AM AGENT (Monday August 10, 2026 — AFTER 3-DAY WEEKEND):
+NOTES FOR 10:00 AM AGENT (Tuesday August 11, 2026):
 
-1. SHOP TP WATCH: $150.62 at close vs TP $153.32 ($2.70 = 1.79% away). Stop trailed to $147.61. If SHOP gaps up and touches $153.32 at or after Monday open, sell immediately (0.513281 shares, market order). Analyst upgrades (MS OW $192, Jefferies $160) + Q2 beat thesis remains very strong. Check for any adverse weekend news (macro, sector).
+1. FULLY FLAT GOING INTO TUESDAY: Both CRL (TP hit, +5.90%) and PLTR (stop triggered, +2.37%) exited today. No overnight exposure. Account is 100% cash.
 
-2. CRL: $263.37 at close vs TP $272.98 (3.65% away). Stop at $252.07 (4.29% below close). CRL pulled back -0.81% on the day but thesis intact (Q2 beat, raised FY guidance). No binary events expected Monday. Check premarket for any adverse weekend news (bioservices sector, macro healthcare policy).
+2. CASH UNLOCKS TUESDAY: $510.58 unsettled settles at open Aug 11. Combined with settled $386.84, the 10 AM agent has ~$897.42 total — largest dry powder the account has had. Tuesday is second-best day by win rate (63.6% combined Mon-Tue).
 
-3. 3-DAY WEEKEND RISK: Both CRL and SHOP have been held through Saturday and Sunday. Check for any adverse weekend news before acting at 10AM. Geopolitical, macro, or sector-specific events over the weekend can cause gap-downs that require immediate action.
+3. 14th CONSECUTIVE SCANNER DROUGHT: Require scanner confirmation before deploying capital. Per Learned Insight #6: stop-triggered rate 48.5% (above 40% target) — do not force entries. If scanner returns results Tuesday, evaluate with full process and appropriate conviction.
 
-4. MONDAY CASH POSITION: $518.12 settled + $212.67 unsettled settling Monday at open = ~$730.79 total cash. Monday 10AM is the historically strongest session (46.7% win rate, +$45.22 net). Fresh week starts the scanner drought clock over — run both scanners immediately.
+4. HPE CARRY-FORWARD: +4.47% Monday on analyst upgrade. Not scanner-confirmed today. If scanner picks it up Tuesday, HIGH priority (analyst_upgrade = 66.7% win rate, best catalyst). Do NOT enter without scanner confirmation. HPE earnings: ~Sept 1-8, no binary event before then.
 
-5. SCANNER DROUGHT: 11 consecutive sessions without a scanner hit. A new week beginning Monday should be treated fresh — do NOT carry the drought pessimism forward. If either scanner returns results Monday, evaluate with the standard full process, not extra skepticism from the streak.
+5. SNDK INVESTOR DAY (THURSDAY AUG 13): SNDK +3.30% Monday + Argus Buy upgrade today. Investor Day is binary event — NO overnight hold through Aug 13. If scanner picks it up Tuesday, enter intraday-only. The 3:15 PM agent Tuesday MUST exit before close. Do not hold into Aug 13.
 
-6. TTWO AH CATALYST: Take-Two Interactive reported earnings AH tonight (Aug 7). If TTWO beat estimates and is gapping up Monday morning with ≥3% change and relVol ≥1.2×, evaluate via the standard scanner path (NOT catalyst_watch path — per Learned Insights, catalyst_watch + earnings_beat = 0/4, -$10.03). Implied earnings move was ±7.76%. HIGH binary risk — require scanner confirmation.
+6. SMCI EARNINGS (AH TUESDAY AUG 11): Do NOT hold SMCI overnight. Reports Q4 FY2026 after close Tuesday Aug 11 at 5 PM ET. Intraday-only if entered Tuesday. Must exit before 4 PM Tuesday.
 
-7. RATE-CUT NARRATIVE: July jobs report showed -23,000 jobs (unexpected losses), reducing Fed rate-hike fears. This drove broad market gains on Friday (+0.60% SPY, +1.09% QQQ). Rate-sensitive and growth sectors (tech, small-caps, homebuilders, utilities) may continue to benefit Monday. Lean into tech names with scanner confirmation.
+7. CATALYST WATCH — CRWV AND RKLB RESULTS OVERNIGHT: CoreWeave (CRWV) and Rocket Lab (RKLB) reported AH tonight (Aug 10). If they beat, stocks may gap up Tuesday. Use catalyst_watch early-entry path (1-2% threshold) if: (a) catalyst resolved positively overnight, (b) stock trending up at 10 AM — not fading from open spike, (c) all hard disqualifiers clear. Per Learned Insight #1: do NOT use catalyst_watch path if sole catalyst is earnings_beat — require momentum confirmation.
 
-8. NET/ABNB STATUS: Both were too volatile or not meeting close strength criteria for a Friday overnight entry. By Monday, they will have aged 3 days post-earnings. Evaluate fresh with Monday's scanner. Note ABNB ($175 current) is trading ABOVE the average analyst price target (~$161), which is a fundamental headwind for new entries.
+8. DO NOT RE-ENTER CRL OR PLTR TUESDAY: Today's exits were on Monday (Aug 10). CRL and PLTR may be re-entered Tuesday if scanner confirms — the same-day re-entry ban does not carry across days.
 
-9. MRNA: FDA approved first mRNA flu vaccine (mFLUSIVA) on Aug 7. Stock pared gains (+8.60% at close, $58.49). If MRNA consolidates and appears in scanner Monday with ≥3% day change and relVol ≥1.2×, it is a fresh candidate — the FDA approval gives it a real, dated catalyst. But no major revenue until 2027, so require strong scanner confirmation before entering.
+9. MARKET CONDITIONS (Mon Aug 10): SPY -0.001% (flat), QQQ -0.15%, 58.3% of stocks declining. Energy +3.45% (avoid). Semiconductors broadly weak. TTWO +2.22% (below bar). No macro catalyst.
 
-Catalyst watch list (for 10 AM agent, Monday Aug 10, 2026):
-TTWO | earnings_beat (AH tonight Aug 7, result available by Monday open) | Result by Mon open | Direction bias: MEDIUM (can swing either way, implied ±7.76%) | Risk level: HIGH — scanner confirmation required, do NOT use catalyst_watch path
-BRK.B | Q2 earnings (AH tonight or Saturday release) | Result by Mon open | Direction bias: NEUTRAL (large cap, consensus $5.24 EPS, +3% revenue growth) | Risk level: LOW — not a momentum play, skip unless >2% gap with unusual volume
+Catalyst watch list (for 10 AM agent, Tuesday Aug 11, 2026):
+CRWV | Q2 earnings | AH tonight Aug 10 | Bullish if ~110% YoY rev growth met | HIGH risk — large expected loss ($1.42/sh EPS); use 1-2% catalyst_watch threshold only if clearly trending up at 10 AM
+RKLB | Q2 earnings | AH tonight Aug 10 | Bullish (67% beat odds, Neutron progress) | HIGH risk — space sector volatile; check gap vs intraday low for stop feasibility
+SMCI | Q4 FY2026 earnings | AH Tue Aug 11 | Uncertain (rev near low end $11-12.5B guidance) | HIGH risk — intraday-only if entered Tuesday; do NOT hold overnight through Aug 11 close
+SNDK | Investor Day | Thu Aug 13 | Uncertain | HIGH risk — intraday-only if entered; no overnight hold through Aug 13
 
-Settled cash remaining: $518.12
-Unsettled (settles Aug 10): ~$212.67 (INTC ~$74.95 + TTMI ~$137.70)
-Total account value: $884.35
-Invested: $153.57 (~17.4%) — well within 75% cap ✓
-
+Settled cash remaining: $386.84
+Unsettled (settles Aug 11): ~$510.58 ($79.05 SHOP + $79.44 CRL + $352.09 PLTR)
+Total account value: ~$897.42
+Invested: 0% — fully flat ✓
 ---
 
 ## AFTER-HOURS UPDATE
