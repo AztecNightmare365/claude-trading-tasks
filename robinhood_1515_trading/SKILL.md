@@ -49,84 +49,61 @@ Notes for 10:00 AM agent (June 25, 2026):
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-08-10 (~12:10 PM ET — 12 PM reassessment complete)
+Last updated: 2026-08-11 (~10:33 AM ET — 10 AM session complete)
 
-Open positions (2 total):
+Open positions (1 total):
 
-- CRL: 0.289530 shares, avg entry $259.04, stop-loss $268.48 (TRAILED from $252.07), take-profit $272.98, overnight flag: YES
-  12PM price: $269.85 | vs avg entry: +$10.81 (+4.17%)
-  entry_type: scanner
-  Thesis: Charles River Laboratories Q2 2026 beat (EPS $3.02 vs est., $1B revenue, raised FY guidance, Aug 5). Healthcare/bioservices. No binary event.
-  Stop TRAILED to $268.48 (tested post-10AM intraday support). Previous stop was $252.07.
-  *** TP WATCH: $269.85 vs TP $272.98 — only $3.13 (1.16%) away. Sell immediately at $272.98. ***
-  *** STOP TIGHTNESS: Stop is only $1.37 below current price. Any minor broad-market dip could trigger. ***
-  - If CRL >= $272.98: sell immediately (take-profit, 0.289530 shares, market order)
-  - If CRL <= $268.48: sell immediately (stop-loss — no discretion)
+- JBL: 0.211798 shares, avg entry $354.11, stop-loss $348.31, take-profit $365.71, overnight flag: TBD (10 AM entry — 12PM/3:15PM agents to evaluate for overnight hold)
+  10AM price: $354.11 (fill) | vs avg entry: 0.00% (just opened)
+  entry_type: scanner (Note: NOT scanner-confirmed — neither saved scan returned this ticker; sourced via Source C web search / analyst-upgrade sweep. LOW conviction tier. Tag reflects standard Step 5 buy path, not catalyst_watch.)
+  Thesis: UBS upgraded JBL to Buy from Neutral (unchanged $430 PT) overnight/pre-market on AI-infrastructure multiyear growth-cycle call from analyst David Vogt. Stock gapped up and held above VWAP and above the opening-range high through 10:30 AM (open $349.73 → $354-356 range, VWAP $353.30). Industrial Machinery / EMS sector — today's leading sector (XLI +1.37%). Next earnings Sept 24, 2026 (well clear of any overnight/near-term binary risk).
+  Sizing: LOW conviction ($75 tier cap; relative volume ran below 1.2x pace so it did not qualify for MEDIUM/HIGH despite the clean price-action signals). Stop = opening 30-min low ($348.31, 1.6% below entry, well under 4% cap). TP = 2x stop distance ($365.71).
+  - If JBL >= $365.71: sell immediately (take-profit, market order)
+  - If JBL <= $348.31: sell immediately (stop-loss — no discretion)
 
-- PLTR: 2.000000 shares, avg entry $171.98, stop-loss $177.00 (TRAILED from $168.49), take-profit $189.55, overnight flag: YES
-  12PM price: $178.56 | vs avg entry: +$6.58 (+3.83%)
-  entry_type: manual (adopted from 9:30 AM session — earnings_beat catalyst)
-  Thesis: Palantir Q2 2026 beat (revenue +39% YoY, raised FY guidance, AIP momentum). AI government + commercial narrative. No near-term binary event.
-  Stop TRAILED to $177.00 (just below recent intraday support at $177.36). Previous stop was $168.49.
-  Minimum locked-in gain if stopped: ~+2.92%.
-  Stop trail eligibility at 3:15 PM: if PLTR ≥ $180.58 (+5% from entry), trail stop again per SKILL rules.
-  - If PLTR >= $189.55: sell immediately (take-profit, 2.000000 shares, market order)
-  - If PLTR <= $177.00: sell immediately (stop-loss — no discretion)
+10 AM session actions:
+  - No exits: portfolio was fully flat entering the session (CRL take-profit and PLTR stop-loss both closed out at Monday 8/10 3:15 PM close per prior handoff). Portfolio sync confirmed live Robinhood account matched (0 positions) — no manual adoption/removal needed.
+  - Catalyst watch list (carried from 3:15 PM 8/10 handoff): CRWV, RKLB, SMCI, SNDK — all four resolved negatively or remained unconfirmed; NONE entered via the catalyst_watch early-entry path. See carry-forward below.
+  - Both saved scanners (3%/1.2x-relvol and 6%-big-mover) returned ZERO results — 15th+ consecutive scanner drought.
+  - Priority sector watchlist (SNDK, MU, INTC, WDC, AMAT, QCOM): only AMAT cleared the 2% QQQ-up-day bar (+2.21%), but was screened out — reports earnings AH Thursday 8/13 (2 days out) with no fresh dated catalyst today, just broad semiconductor-equipment sector strength (Learned Insight #10: sector_momentum alone is unreliable without a specific dated catalyst). SNDK +1.46%, QCOM +1.04%, WDC +0.70%, MU -0.26%, INTC -0.28% — all below the 2% priority-watchlist threshold or negative.
+  - Source C web sweep (gainers/movers/upgrades/earnings-beats/FDA/M&A) found no other qualifying mover ≥3% with a live catalyst; JBL (+5.06% at entry, UBS upgrade) was the only ticker that cleared all baseline filters and hard disqualifiers.
+  - 1 buy placed: JBL, $75.00 (LOW conviction, analyst_upgrade catalyst).
 
-12 PM reassessment actions:
-  - No exits: neither CRL nor PLTR hit stop or TP.
-  - No new buys: 13th consecutive scanner drought (both scanners returned 0). No qualifying midday candidates.
-    Candidates reviewed and rejected:
-      CRM: +1.78% — below 3% bar (had been reported at 3.2% earlier, faded)
-      HON: -0.85% — DOWN on the day (BofA upgrade to Neutral; stock declined)
-      NVDA: -1.90% — DOWN
-      VRTX: +7.19% — stale 7-day-old catalyst (Q2 earnings Aug 3); carry-forward: deprioritize. No fresh catalyst confirmed today.
-      COHR: -11.93% — DOWN hard (earnings miss)
-      SNDK: +2.89% — below 3% bar
-      WDC: +2.05% — below 3% bar
-      INTC: -3.50% — DOWN (common stock offering announcement)
-      AMAT: -1.37%, QCOM: -2.24%, MU: -0.22% — semiconductor sector broadly weak
-      HPE: +4.11%, analyst upgrade catalyst — interesting but NOT scanner confirmed. LOW conviction only ($75 max). Per Learned Insight #2, skipped without scanner confirmation.
-  - CRL stop trailed: $252.07 → $268.48 (post-10AM intraday support level)
-  - PLTR stop trailed: $168.49 → $177.00 (most recent intraday support; locks in ~+2.92% minimum if stopped)
+Market conditions at 10 AM (Aug 11, 2026 — Tuesday):
+  SPY +0.09% ($773.74 vs $773.03 close) | QQQ +0.09% ($721.51 vs $720.87 close) — flat/mildly positive, normal regime. No regime gate triggered.
+  XLI (Industrials) led all sector ETFs today at +1.37%; XLE +0.78% second (avoided per Learned Insights, energy 0% win rate).
+  Scanner drought: 15th+ consecutive session (0 results on both scans).
 
-Market conditions at 12 PM (Aug 10, 2026 — Monday):
-  SPY +0.11% | QQQ +0.007% — flat, normal regime. No regime gate.
-  INTC -3.50% on common stock offering; semiconductor sector weak broadly
-  Energy sector rising but avoid per Learned Insights (0/2 wins, -$4.07)
-  Scanner drought: 13th consecutive session (0 results on both scans)
+Settled cash remaining: $822.34
+Unsettled: $0 (prior $510.58 unsettled batch from Monday's exits settled overnight into today's cash balance)
+Total account value (approx): ~$897.34
+Portfolio invested: ~$75.00 (~8.4%) — well within 75% cap ✓
 
-Settled cash remaining: $386.84
-Unsettled (settles Aug 11): ~$79.05 (SHOP proceeds from 10 AM session)
-Total account value (approx): ~$901.16
-Portfolio invested: ~$435.27 (~48.3%) — within 75% cap ✓
+Catalyst status carry-forward (from 3:15 PM 8/10 handoff, re-resolved at 10 AM 8/11):
+  - CRWV: PENDING — not entered. Reports Q2 AH TODAY (8/11), not yet out. Pre-earnings binary risk disqualifies per handoff rule regardless of pre-market strength (+1.77% at 10 AM). Do not chase pre-print.
+  - RKLB: FAILED — do not chase. Q2 beat on revenue (+62% YoY, record $2.36B backlog) but missed EPS (-$0.08 vs -$0.03 est.); fell in AH and remained down (-1.78%) at 10 AM on the miss + stretched valuation.
+  - SMCI: PENDING — not entered. Reports Q4 FY26 AH TODAY (8/11); only +1.67% at 10 AM, below the 3% bar and no catalyst resolution yet. If scanner/momentum picks it up before the print, intraday-only — must exit before 4 PM today per prior handoff, do NOT hold into tonight's earnings.
+  - SNDK: PENDING — not entered. +1.46% at 10 AM, no fresh news since 8/10. Investor Day Thu 8/13 remains a binary-risk overhang; intraday-only if ever entered, no overnight hold through 8/13.
 
-Catalyst status carry-forward:
-  - TTWO: Monitor at 3:15 PM if reaches 3%+ with scanner confirmation. Below threshold all session.
-  - VRTX: Catalyst exhausted (7-day-old Q2 earnings). No fresh catalyst today. Skip — do not enter.
-  - SNDK: Investor Day Aug 13 — DO NOT hold overnight through Investor Day. Currently +2.89% (below bar). If scanner picks it up at 3:15 PM and momentum holds, may enter intraday-only with explicit NO overnight flag.
-  - HPE: +4.11% today on analyst upgrade. Not scanner-confirmed at 12 PM. If scanner picks it up by 3:15 PM with sustained gain, HIGH priority buy candidate (analyst_upgrade = best win rate at 66.7%). Do not buy without scanner confirmation.
+NOTES FOR 12 PM / 3:15 PM AGENTS (Tue Aug 11, 2026):
 
-NOTES FOR 3:15 PM AGENT (Mon Aug 10, 2026):
+1. JBL FRESH POSITION: Opened 10:32 AM at $354.11, stop $348.31, TP $365.71. Too early for a hold/exit thesis re-check — evaluate normally against current price at your session. UBS PT ($430) is well above current price, thesis has room to run if AI-infrastructure narrative holds. No earnings until Sept 24 — no binary-event overhang for an overnight hold decision.
 
-1. CRL TP WATCH — CRITICAL: $269.85 at noon vs TP $272.98 (only $3.13 away, 1.16%). Sell immediately at $272.98 (0.289530 shares, market order). New stop $268.48 is tight ($1.37 below current) — any dip triggers it. Thesis intact; no adverse news.
+2. SMCI EARNINGS TONIGHT (AH 8/11): If SMCI enters candidate lists later today via scanner confirmation, it MUST be exited before the close today — do not hold overnight into the print, per carried-forward instruction.
 
-2. PLTR TRAILED STOP CHECK: Stop now $177.00 (from $168.49). Up +3.83% at noon. At 3:15 PM, if PLTR ≥ $180.58 (+5% from entry), evaluate trailing stop again per SKILL rules. TP still $189.55 (+6.1% away). Thesis intact (AI/government narrative). entry_type=manual: hold through binary events per exception policy.
+3. CRWV EARNINGS TONIGHT (AH 8/11): Still unresolved as of 10 AM. Do not enter pre-print. If it reports and beats convincingly, it becomes a fresh catalyst_watch candidate for tomorrow's 10 AM session only (not for 12PM/3:15PM today, since the report itself lands after today's close).
 
-3. SCANNER DROUGHT — 13th CONSECUTIVE SESSION: If scanner breaks at 3:15 PM, treat as meaningful signal. Monday is historically best day (63.6% win rate) — act with appropriate conviction but do not force.
+4. SNDK INVESTOR DAY THURSDAY 8/13: Continue to flag — no overnight holds through 8/13 if entered.
 
-4. HPE ELEVATED WATCH: +4.11% today on analyst upgrade. If scanner confirms at 3:15 PM, it becomes HIGH priority (analyst_upgrade best catalyst by win rate at 66.7%). Check it first.
+5. AMAT WATCHLIST: +2.21% at 10 AM but reports earnings AH Thursday 8/13. Screened out at 10 AM for lacking a specific dated catalyst (sector momentum only, Learned Insight #10). Re-evaluate only if a fresh dated catalyst emerges; otherwise the Aug 13 earnings date makes it unsuitable for a 3:15 PM overnight hold this week regardless.
 
-5. SEMICONDUCTOR SECTOR WEAK TODAY: INTC down on stock offering, AMAT/QCOM/MU all negative. PLTR's AI narrative is isolated from semiconductor weakness — no contagion risk identified.
+6. SCANNER DROUGHT CONTINUES: 15th+ consecutive session with both scanners at zero. JBL was sourced entirely via manual web research (analyst upgrade sweep), not scanner confirmation — flag this pattern in the next weekly review.
 
-6. CASH PROTECTION: $386.84 settled available. Unsettled $79.05 settles Tuesday Aug 11. CRL and PLTR both carry overnight exposure — if either exits today, that's significant dry powder for tomorrow's 10 AM session.
+7. DO NOT RE-ENTER JBL IF ALREADY CLOSED TODAY: Per SKILL, never open a new position in a ticker already closed/exited the same trading day.
 
-7. DO NOT RE-ENTER TODAY'S EXITED TICKERS: Per SKILL, never open a new position in a ticker already closed or exited that same trading day (AMD lesson: -$14.73, -9.82%).
-
-Settled cash remaining: $386.84
-Unsettled (settles Aug 11): ~$79.05
-Total account value: ~$901.16
-Invested: ~$435.27 (~48.3%) — within 75% cap ✓
+Settled cash remaining: $822.34
+Total account value: ~$897.34
+Invested: ~$75.00 (~8.4%) — within 75% cap ✓
 
 ---
 PRE-CHECK — Market day verification
