@@ -14,13 +14,19 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7 AM brief for 2026-08-07 — fired catastrophically late, actually ran ~10:40 PM ET (15.7h late), AFTER market close.** By the time this session executed, the entire day's chain (9:30AM/10AM/12PM/3:15PM) had already run, closed, and pushed — INTC and TTMI were sold at their stops by the 10AM session (logged in trade_log.csv), SHOP's stop trailed twice (→breakeven→$147.61), and both remaining positions (CRL, SHOP) were carried into the 3-day weekend by the 3:15PM agent. There was no pre-market window left to protect and nothing left for this session to act on — market open/close for 8/7 is already fully resolved in `## HANDOFF FROM LAST 3:15 PM SESSION` above. No orders placed, no trade log changes (would duplicate 10AM's entries), no handoff edits (3:15PM's block is current and correct).
+**7 AM ET, Tue 2026-08-11.** Portfolio fully flat overnight (confirmed via live Robinhood sync: 0 positions, $897.34 cash) — CRL (TP) and PLTR (stop) both exited Mon 3:15PM close. No overnight positions to assess; no pre-market sells needed/placed.
 
-*** FLAG FOR AARON: 2nd late-firing incident on record (9:30AM agent ran 4h15m late on 8/5), and by far the worst — the 7AM safety net didn't run in its protective window at all today. A catastrophic overnight gap would have gone uncaught. Schedule needs fixing; until then, any late 7AM firing should check whether the day's sessions already ran (git log / handoff dates) before touching positions, and stand down if so. ***
+SPY $774.30 (+0.16% vs $773.03 close), QQQ $723.20 (+0.32% vs $720.87) — normal regime, mildly positive.
 
-Sanity check only (positions per 3:15PM close, unchanged since): CRL $263.37 (+1.67% vs entry, stop $252.07) — OK, no breach. SHOP $150.62 (+3.08%, stop $147.61) — OK, no breach, 1.79% from TP $153.32.
+Catalyst watch list:
+- CRWV $88.90 (+0.80% pre-mkt) — CORRECTION: handoff said reported AH 8/10; actually reports AH TODAY (8/11), not yet out. NOT RESOLVED. 10AM: do not treat as confirmed — earnings tonight = pre-earnings binary risk, disqualified for entry.
+- RKLB $75.75 (-5.36% pre-mkt) — CATALYST FAILED. Q2 beat on revenue ($234M, +62% YoY, record $2.36B backlog) but missed EPS (-$0.08 vs -$0.03 est); fell ~8% AH on miss + stretched 65x-sales valuation. SKIP.
+- SMCI $32.13 (+2.13% pre-mkt) — reports Q4 FY26 AH TODAY (8/11), still PENDING. Intraday-only if entered; do not hold overnight tonight.
+- SNDK $1246.99 (+0.73% pre-mkt) — Investor Day Thu 8/13, no overnight news. PENDING.
 
-SUMMARY: 0 positions actioned (day already closed out by the full session chain before this agent ran), 0 pre-market sells (no pre-market window remained), 2 positions carried into the weekend (CRL/SHOP, both healthy per 3:15PM handoff). Scheduling failure flagged for Aaron.
+Macro: futures mixed/mildly positive; soft July payrolls (-23K) easing rate-hike odds; oil elevated on Strait of Hormuz tension; Fed ~50/50 on Sept hike; CPI due Wed 8/13.
+
+SUMMARY: 0 positions (fully flat), 0 flagged, 0 pre-market sells; 0/4 catalyst tickers confirmed positive (RKLB failed, CRWV/SMCI/SNDK pending).
 
 ---
 
