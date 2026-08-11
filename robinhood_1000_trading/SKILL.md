@@ -33,13 +33,13 @@ SUMMARY: 0 positions (fully flat), 0 flagged, 0 pre-market sells; 0/4 catalyst t
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET session, 2026-08-10.** Sells: NONE. CRL $267.14 (+3.13% vs entry $259.04, stop $252.07, TP $272.98) — OK, no breach, no gap-down. SHOP $152.49 (+4.36% vs entry $146.12, stop $147.61, TP $153.32) — OK, no breach, only $0.83 (0.5%) from TP, watch closely. SPY -0.03%, QQQ -0.22% — normal regime.
+**9:30 AM ET session, 2026-08-11** (routine ran late — live quotes reflected market close by execution time, so opening 5-min historicals were used for open-price analysis). Sells: NONE — account fully flat overnight (0 positions per 7AM brief + 3:15PM handoff), nothing to check vs stops/TPs. SPY -0.33% ($770.45 vs $773.03 close), QQQ -0.35% ($718.33 vs $720.87) — normal regime, no gate triggered.
 
-Catalyst entries: NONE. TTWO $256.34 (+3.99% vs Fri close $246.50) — Q1 FY27 beat reported BMO 8/7 (rev $1.53B vs $1.36B est, guidance reaffirmed), fully priced in over the weekend, no fresh news since. Handoff note #6 explicitly bars the catalyst_watch path for TTWO (Learned Insight: catalyst_watch+earnings_beat = 0/4) — passed to 10 AM for standard scanner confirmation, not entered here. BRK.B $536.31 (+2.78% vs Fri close $521.80) — Q2 beat mostly currency-driven (~5% underlying op. earnings growth), insurance underwriting -13%; no volume data available at 9:30 to confirm the handoff's "unusual volume" bar. Not a momentum play per handoff — not entered, passed to 10 AM.
+Catalyst entries: NONE. CRWV opened $91.01 (+3.19%) but faded to $89.69 in the first 5-min bar AND reports Q4 earnings AH tonight (8/11) — hard disqualifier. RKLB opened $76.25 (-4.73%, gap DOWN) — CATALYST FAILED (Q2 EPS miss despite rev beat) — skipped regardless of price. SMCI opened $32.00 (+1.72%) but reports Q4 FY26 AH tonight (8/11) — hard disqualifier. SNDK opened $1259.02 (+1.70%, continued to $1271.00) but catalyst (Investor Day) is Thu 8/13 — unresolved today, PENDING, passed to 10 AM.
 
-Positions adopted via portfolio sync: PLTR (2.0 sh, avg $171.98, current $175.51, +2.05%) — live in the account but not in the handoff, so the user bought it manually. Adopted, entry_type=manual, protected with a 4% stop at $168.49, take-profit at $189.55 (2x the stop distance above adopt price, matching the standard 1:2 risk/reward used elsewhere in this account).
+Positions adopted via portfolio sync: JBL (0.211798 sh, avg entry $354.11, current $356.57, +0.69%) — live in account, filled 10:32 AM ET today via agentic order, absent from every handoff/brief. Adopted, entry_type=manual, 4% stop at $339.95 (below entry, since bought after the session's actual open), TP $382.43 (2x stop distance, standard 1:2 R:R).
 
-Status: 0 stop/TP sells, 0 catalyst entries, 3 positions open for 10 AM (CRL, SHOP, PLTR).
+Status: 0 stop/TP sells, 0 catalyst entries, 1 position open for 10 AM (JBL).
 
 ---
 

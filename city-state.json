@@ -1,16 +1,16 @@
 {
-  "ts": "2026-08-10T19:18:08Z",
-  "source": "robinhood_1515_trading",
+  "ts": "2026-08-11T21:48:15Z",
+  "source": "robinhood_0930_open",
   "portfolio": {
-    "totalValue": 897.42,
-    "cash": 897.42,
-    "equityValue": 0,
-    "buyingPower": 386.84,
-    "positions": []
+    "totalValue": 898.04,
+    "cash": 822.34,
+    "equityValue": 75.70,
+    "buyingPower": 822.34,
+    "positions": [
+      { "ticker": "JBL", "shares": 0.211798, "entry": 354.11, "current": 356.57, "plPct": 0.69, "managed": true }
+    ]
   },
   "fills": [
-    { "id": "6a79e362-d9f2-447e-a88d-022f9cf0bcd7", "side": "sell", "ticker": "SHOP", "qty": 0.513281, "price": 153.9001, "at": "2026-08-10T14:42:42.209Z" },
-    { "id": "6a7a23ed-8ca2-459a-bfd7-25265ad8f788", "side": "sell", "ticker": "CRL", "qty": 0.289530, "price": 274.3101, "at": "2026-08-10T19:18:06.091Z" },
-    { "id": "6a7a23ef-138e-4683-8ae8-336dcb2bb345", "side": "sell", "ticker": "PLTR", "qty": 2.000000, "price": 176.0458, "at": "2026-08-10T19:18:07.526Z" }
+    { "id": "6a7b3295-f374-491a-ae47-0bb9d9c6b230", "side": "buy", "ticker": "JBL", "qty": 0.211798, "price": 354.11, "at": "2026-08-11T14:32:53.408Z" }
   ]
 }
