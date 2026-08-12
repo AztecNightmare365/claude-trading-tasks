@@ -14,19 +14,23 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7 AM ET, Tue 2026-08-11.** Portfolio fully flat overnight (confirmed via live Robinhood sync: 0 positions, $897.34 cash) — CRL (TP) and PLTR (stop) both exited Mon 3:15PM close. No overnight positions to assess; no pre-market sells needed/placed.
+**7 AM ET, Wed 2026-08-12.** ANOMALY: Aug 11 3:15PM handoff was never written (10AM/12PM/1PM/2PM/3:15PM session chain broke after the 9:30AM open reaction) — the written handoff block below is stale (says flat). Used LIVE Robinhood portfolio as source of truth instead: 1 confirmed position.
 
-SPY $774.30 (+0.16% vs $773.03 close), QQQ $723.20 (+0.32% vs $720.87) — normal regime, mildly positive.
+JBL: 0.211798 sh, entry $354.11, stop $339.95, TP $382.43 (entry_type=manual, adopted 9:30AM 8/11, no stale orders pending). Pre-mkt $363.00 (+1.79% vs $356.61 close) — 6.4% above stop, 5.4% below TP. No adverse news; AI/hyperscaler-demand thesis intact. FLAG: ON TRACK.
 
-Catalyst watch list:
-- CRWV $88.90 (+0.80% pre-mkt) — CORRECTION: handoff said reported AH 8/10; actually reports AH TODAY (8/11), not yet out. NOT RESOLVED. 10AM: do not treat as confirmed — earnings tonight = pre-earnings binary risk, disqualified for entry.
-- RKLB $75.75 (-5.36% pre-mkt) — CATALYST FAILED. Q2 beat on revenue ($234M, +62% YoY, record $2.36B backlog) but missed EPS (-$0.08 vs -$0.03 est); fell ~8% AH on miss + stretched 65x-sales valuation. SKIP.
-- SMCI $32.13 (+2.13% pre-mkt) — reports Q4 FY26 AH TODAY (8/11), still PENDING. Intraday-only if entered; do not hold overnight tonight.
-- SNDK $1246.99 (+0.73% pre-mkt) — Investor Day Thu 8/13, no overnight news. PENDING.
+Pre-market sells: NONE.
 
-Macro: futures mixed/mildly positive; soft July payrolls (-23K) easing rate-hike odds; oil elevated on Strait of Hormuz tension; Fed ~50/50 on Sept hike; CPI due Wed 8/13.
+SPY $772.01 (+0.19%), QQQ $722.58 (+0.58%) — normal, mildly positive regime.
 
-SUMMARY: 0 positions (fully flat), 0 flagged, 0 pre-market sells; 0/4 catalyst tickers confirmed positive (RKLB failed, CRWV/SMCI/SNDK pending).
+Catalyst watch list (carried from 8/10 handoff, since 8/11 3:15PM never resolved it):
+- CRWV $107.38 (+18.9% pre-mkt) — Q2 beat: rev $2.58B vs $2.56B est, backlog raised to $104.2B, FY26 guide raised. CONFIRMED — GAP UP.
+- SMCI $33.97 (+7.5% pre-mkt) — Q4 FY26 beat big: GM 17.5% vs 9.9% prior qtr, EPS $1.62 vs $0.31 YoY. CONFIRMED — GAP UP.
+- SNDK $1319.40 (+3.8% pre-mkt) — Investor Day is tomorrow 8/13, still PENDING; today's pop driven by separate $15.5B buyback announcement. MONITOR.
+- RKLB $80.06 (flat) — Q2 EPS miss stands, no reversal. FAILED — SKIP.
+
+Macro: CPI due tomorrow 8/13, FOMC hawkish signals re: Sept hike; NVDA raised $500B for AI infra buildout; broad AI-infra sentiment strong overnight on CRWV/SMCI beats.
+
+SUMMARY: 1 position ON TRACK, 0 flagged, 0 pre-market sells; 2/4 catalyst tickers confirmed gap-up (CRWV, SMCI), 1 pending (SNDK), 1 failed (RKLB).
 
 ---
 
