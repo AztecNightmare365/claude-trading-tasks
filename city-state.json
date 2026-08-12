@@ -1,16 +1,19 @@
 {
-  "ts": "2026-08-11T21:48:15Z",
+  "ts": "2026-08-12T18:04:40Z",
   "source": "robinhood_0930_open",
   "portfolio": {
-    "totalValue": 898.04,
-    "cash": 822.34,
-    "equityValue": 75.70,
-    "buyingPower": 822.34,
+    "totalValue": 902.666772,
+    "cash": 672.34,
+    "equityValue": 230.326772,
+    "buyingPower": 672.34,
     "positions": [
-      { "ticker": "JBL", "shares": 0.211798, "entry": 354.11, "current": 356.57, "plPct": 0.69, "managed": true }
+      { "ticker": "JBL", "shares": 0.211798, "entry": 354.11, "current": 369.495, "plPct": 4.35, "managed": true },
+      { "ticker": "CRWV", "shares": 0.689212, "entry": 108.82, "current": 107.455, "plPct": -1.25, "managed": true },
+      { "ticker": "SMCI", "shares": 2.094018, "entry": 35.82, "current": 37.2584, "plPct": 4.02, "managed": true }
     ]
   },
   "fills": [
-    { "id": "6a7b3295-f374-491a-ae47-0bb9d9c6b230", "side": "buy", "ticker": "JBL", "qty": 0.211798, "price": 354.11, "at": "2026-08-11T14:32:53.408Z" }
+    { "id": "6a7c8145-e468-42f1-a251-347af46a1ca7", "side": "buy", "ticker": "CRWV", "qty": 0.689212, "price": 108.8199, "at": "2026-08-12T14:20:53.410Z" },
+    { "id": "6a7c9b4f-76d2-4772-9f13-04e19422ceb4", "side": "buy", "ticker": "SMCI", "qty": 2.094018, "price": 35.8163, "at": "2026-08-12T16:11:59.634Z" }
   ]
 }

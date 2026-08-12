@@ -37,13 +37,19 @@ SUMMARY: 1 position ON TRACK, 0 flagged, 0 pre-market sells; 2/4 catalyst ticker
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET session, 2026-08-11** (routine ran late — live quotes reflected market close by execution time, so opening 5-min historicals were used for open-price analysis). Sells: NONE — account fully flat overnight (0 positions per 7AM brief + 3:15PM handoff), nothing to check vs stops/TPs. SPY -0.33% ($770.45 vs $773.03 close), QQQ -0.35% ($718.33 vs $720.87) — normal regime, no gate triggered.
+**9:30 AM ET session, 2026-08-12** (routine ran ~4.5hrs late — executed 2:04 PM ET; live quotes are intraday, not the 9:30 open print). ANOMALY: 10AM and 12PM sessions already executed today (CRWV filled 10:20 AM ET, SMCI filled 12:11 PM ET per order history) but neither wrote a handoff back to this file — session chain broke again (same pattern as Aug 11). Both treated per SKILL Step 2 portfolio-sync rule as adopted positions (absent from handoff = tag entry_type=manual), though order history shows placed_agent=agentic, likely the missing 10AM/12PM sessions.
 
-Catalyst entries: NONE. CRWV opened $91.01 (+3.19%) but faded to $89.69 in the first 5-min bar AND reports Q4 earnings AH tonight (8/11) — hard disqualifier. RKLB opened $76.25 (-4.73%, gap DOWN) — CATALYST FAILED (Q2 EPS miss despite rev beat) — skipped regardless of price. SMCI opened $32.00 (+1.72%) but reports Q4 FY26 AH tonight (8/11) — hard disqualifier. SNDK opened $1259.02 (+1.70%, continued to $1271.00) but catalyst (Investor Day) is Thu 8/13 — unresolved today, PENDING, passed to 10 AM.
+Sells: NONE. JBL $369.495 (entry $354.11, stop $339.95, TP $382.43) — ON TRACK, no breach.
 
-Positions adopted via portfolio sync: JBL (0.211798 sh, avg entry $354.11, current $356.57, +0.69%) — live in account, filled 10:32 AM ET today via agentic order, absent from every handoff/brief. Adopted, entry_type=manual, 4% stop at $339.95 (below entry, since bought after the session's actual open), TP $382.43 (2x stop distance, standard 1:2 R:R).
+Catalyst entries: NONE. CRWV/SMCI already held (see adopted below), disqualified from re-entry (already in portfolio). SNDK $1373.88 (+8.1% vs prior close) — Investor Day binary event tomorrow 8/13 BMO, hard disqualifier, skip. RKLB $81.175 (+1.5%) — CATALYST FAILED (Q2 EPS miss stands), skip regardless of price.
 
-Status: 0 stop/TP sells, 0 catalyst entries, 1 position open for 10 AM (JBL).
+Positions adopted via portfolio sync:
+- CRWV: 0.689212 sh, entry $108.82, current $107.455 (-1.25%), stop $104.47 (4% below entry), TP $117.52 (2x stop dist), entry_type=manual.
+- SMCI: 2.094018 sh, entry $35.82, current $37.2584 (+4.02%), stop $34.39 (4% below entry), TP $38.68 (2x stop dist), entry_type=manual.
+
+SPY $772.84 (+0.30%), QQQ $724.94 (+0.90%) — normal regime, no gate triggered.
+
+Status: 0 stop/TP sells, 0 catalyst entries, 3 positions open for 10 AM (JBL, CRWV, SMCI).
 
 ---
 
