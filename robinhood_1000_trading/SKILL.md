@@ -89,68 +89,74 @@ RAW STATS:
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-Last updated: 2026-08-10 (~3:18 PM ET — 3:15 PM session complete)
+Last updated: 2026-08-12 (~5:30 PM ET — 3:15 PM session complete, ran late; market had already closed and quotes reflect after-hours trading)
 
-Open positions held overnight: NONE — portfolio is fully flat going into Tuesday.
+ANOMALY CONTEXT: The 10AM/12PM handoff chain broke again today before this session started — the "HANDOFF FROM LAST 10 AM SESSION" block in robinhood_1515_trading/SKILL.md was stale (dated Aug 10). This session used the live Robinhood portfolio plus the 9:30 AM "OPEN REACTION UPDATE" block (written ~2:04 PM today) as the actual source of truth: 3 confirmed positions (JBL, CRWV, SMCI), all reconciled directly against get_equity_positions.
 
-Sells executed at 3:15 PM (2 total):
-- CRL: 0.289530 shares sold at $274.3101 (filled 2026-08-10T19:18:06Z)
-  Reason: TAKE-PROFIT — price exceeded TP of $272.98. Q2 beat thesis fully realized.
-  P&L: +5.90% (+$4.42) vs entry $259.04 | entry_type: scanner | entry_session: 10AM
+Open positions held overnight (3 total):
 
-- PLTR: 2.000000 shares sold at $176.0458 (filled 2026-08-10T19:18:07Z)
-  Reason: STOP-LOSS — trailing stop $177.00 breached (quote $175.56 at trigger; fill $176.05).
-  P&L: +2.37% (+$8.14) vs entry $171.975 (profitable but stop rules apply — no discretion)
-  entry_type: manual | entry_session: 10AM
+- JBL: 0.211798 shares, entry $354.11, stop-loss $339.95, take-profit $382.43, close ~$366.17 (+3.41% vs entry)
+  entry_type: manual (adopted 8/11, no new activity today)
+  Thesis: AI/hyperscaler-demand contract-manufacturing tailwind (Jabil AI revenue guided +51% YoY for FY26); no binary events, next earnings not until 9/24/2026. Late-session volume tick-down into the close was minor churn, not a thesis break — hold.
 
-Buys executed at 3:15 PM: NONE
-  14th consecutive scanner drought (both scanners returned 0 results).
-  HPE (+4.47%, analyst upgrade) — handoff explicitly barred without scanner confirmation. Skipped.
-  SNDK (+3.30%, Argus Buy upgrade today) — Investor Day Aug 13 = binary risk; intraday-only per handoff; not viable at 3:15 PM close session. Skipped.
-  Energy sector leading (+3.45% XLE) — avoided per learned insights (0/2 wins, -$4.07).
-  Semiconductor watchlist: INTC -2.85%, AMAT -1.86%, QCOM -2.09%, MU +0.07%, WDC +1.68% — all below qualifying thresholds.
-  Market regime: SPY -0.001% (flat) — normal, gate not triggered. 58.3% of US stocks declining.
+- CRWV: 0.689212 shares, entry $108.82, stop-loss $104.47, take-profit $117.52, close ~$107.67 (-1.06% vs entry)
+  entry_type: manual (filled 10:20 AM ET today via the missing 10AM session; portfolio-sync tagged manual per SKILL rule since it wasn't in a fresh handoff)
+  Thesis: Q2 beat (rev $2.58B vs $2.56B est) + backlog raised to $104.2B + FY26 guidance raised, confirmed gap-up catalyst. Faded from the pre-market spike and has chopped $106-108.5 all session — normal post-beat consolidation, not a thesis break (down only 1.06%, below the 1.5% discretionary-exit bar). Next earnings not until 11/9/2026. Known bearish narratives (cash burn, Meta competition, high debt) are pre-existing and priced in, not fresh negative catalysts. Hold, let the stop do its job if it fades further.
 
-Portfolio sync (3:15 PM reconciliation):
-  - CRL: confirmed ✓ then sold (TP)
-  - PLTR: confirmed ✓ then sold (stop)
-  - No manual positions detected — account is fully flat
+- SMCI: 2.094018 shares, entry $35.82, stop-loss $34.39, take-profit $38.68, close ~$37.56 (+4.86% vs entry)
+  entry_type: manual (filled 12:11 PM ET today via the missing 12PM session)
+  Thesis: Q4 FY26 beat big (EPS $1.70 vs $0.71 est, gross margin 17.5% vs 9.9% prior qtr, $60B AI-server order book). Closed near the top of today's intraday range. Next earnings not until 11/3/2026 — no near-term binary risk.
+  *** TP WATCH: $37.56 vs TP $38.68 — only $1.12 (2.98%) away. Sell immediately if SMCI >= $38.68. ***
 
-Settled cash remaining: $386.84
-Unsettled (settles Aug 11): ~$510.58 ($79.05 SHOP + $79.44 CRL + $352.09 PLTR)
-Total account value: ~$897.42
-Portfolio invested: 0% — fully flat ✓
+No sells executed at 3:15 PM — none of the three positions hit stop or take-profit, and no discretionary thesis break was found on any of them (see theses above).
 
-NOTES FOR 10:00 AM AGENT (Tuesday August 11, 2026):
+No buys executed at 3:15 PM — both scanners returned 0 results (scanner drought continues). Extensive Step 4 sourcing (scanners + priority semiconductor watchlist + popular lists + 7 parallel web searches + after-hours/sector catalyst research) surfaced only two candidates that cleared the baseline %-move/catalyst bar, and BOTH failed a hard SKILL disqualifier on closer inspection:
+  - NBIS (+34.1%, Q2 beat + $1B Reflection AI compute deal — best-looking candidate by catalyst quality) — REJECTED: today's intraday low ($216.11) sits ~15% below the current entry price (~$254), far past the "stop-loss hard-capped at 5% below entry, skip if intraday low is more than 5% below entry" rule. Too volatile for an overnight hold despite the strong catalyst.
+  - CAVA (+14.3%, Q2 traffic/comp beat + two analyst PT raises) — REJECTED: live bid/ask spread ~1.08% ($69.25/$70.00), over the 1% hard baseline filter.
+  - Priority semiconductor watchlist (SNDK, MU, INTC, WDC, AMAT, QCOM) all up 0.2-5.8% on a real dated catalyst (Micron CBO: 2027 supply "even tighter," Temasek investing in Samsung/SK Hynix) but ALL were fading hard into the close on relative volume well under 1.2x (0.26x-0.52x) — low-conviction pattern, excluded. INTC additionally carries a fresh $20B share-offering dilution overhang. AMAT reports earnings tomorrow evening (8/13 PM), adding binary risk.
+  - HRB (+16.1% on earnings beat + guidance raise) — rejected: gave back over half its intraday spike to close in the bottom 30% of its range (sell-the-news reversal), and is trading above the most bullish analyst price target on the stock.
+  Per SKILL: when no candidate clears every hard filter, skip buying and explain why — done above. Today (Wednesday) also carries a raised bar per Learned Insight #5 (Wed-Fri win rate 27.3% vs Mon-Tue 63.6%), reinforcing the discipline to pass here.
+  Market regime: SPY +0.26% (770.56 → 772.54), QQQ +0.73% — normal regime, no gate triggered (moot since no buys qualified anyway).
 
-1. FULLY FLAT GOING INTO TUESDAY: Both CRL (TP hit, +5.90%) and PLTR (stop triggered, +2.37%) exited today. No overnight exposure. Account is 100% cash.
+Portfolio sync (3:15 PM reconciliation against live Robinhood positions):
+  - JBL: confirmed ✓, held
+  - CRWV: confirmed ✓, held
+  - SMCI: confirmed ✓, held
+  - No positions in the (stale) written handoff were absent from the live portfolio, and no additional manual positions beyond these three were found — get_equity_positions returned exactly these 3 open long positions.
 
-2. CASH UNLOCKS TUESDAY: $510.58 unsettled settles at open Aug 11. Combined with settled $386.84, the 10 AM agent has ~$897.42 total — largest dry powder the account has had. Tuesday is second-best day by win rate (63.6% combined Mon-Tue).
+Settled cash remaining: $672.34 (unsettled_funds confirmed $0 — fully settled)
+Total account value: ~$900.69
+Portfolio invested: ~$228.35 (~25.4%) — well within the 75% cap, large dry powder available
 
-3. 14th CONSECUTIVE SCANNER DROUGHT: Require scanner confirmation before deploying capital. Per Learned Insight #6: stop-triggered rate 48.5% (above 40% target) — do not force entries. If scanner returns results Tuesday, evaluate with full process and appropriate conviction.
+NOTES FOR 10:00 AM AGENT (Thursday August 13, 2026):
 
-4. HPE CARRY-FORWARD: +4.47% Monday on analyst upgrade. Not scanner-confirmed today. If scanner picks it up Tuesday, HIGH priority (analyst_upgrade = 66.7% win rate, best catalyst). Do NOT enter without scanner confirmation. HPE earnings: ~Sept 1-8, no binary event before then.
+1. SESSION CHAIN BROKE AGAIN TODAY (3rd+ occurrence: Aug 10→11, Aug 11→12, and the 10AM/12PM writes today): this 3:15 PM session DID write this handoff block successfully. If tomorrow's 9:15/9:30/10AM agents don't run or don't find fresh context, fall back to live Robinhood portfolio sync exactly as this session did — it is reliable when the written handoff isn't.
 
-5. SNDK INVESTOR DAY (THURSDAY AUG 13): SNDK +3.30% Monday + Argus Buy upgrade today. Investor Day is binary event — NO overnight hold through Aug 13. If scanner picks it up Tuesday, enter intraday-only. The 3:15 PM agent Tuesday MUST exit before close. Do not hold into Aug 13.
+2. SMCI TP WATCH — CLOSE: $37.56 vs TP $38.68 (2.98% away) at today's close. If premarket or the 10 AM print shows SMCI >= $38.68, sell immediately (2.094018 shares, market order, lock ~+8%).
 
-6. SMCI EARNINGS (AH TUESDAY AUG 11): Do NOT hold SMCI overnight. Reports Q4 FY2026 after close Tuesday Aug 11 at 5 PM ET. Intraday-only if entered Tuesday. Must exit before 4 PM Tuesday.
+3. CRWV MODEST RED, THESIS INTACT: -1.06% vs entry after fading from its pre-market spike. Stop $104.47 has a 2.98% cushion from today's close. No new negative catalyst found — normal post-beat consolidation. Re-confirm thesis at open; do not force an exit on price fade alone per SKILL (fade alone without a thesis break is not a sell trigger).
 
-7. CATALYST WATCH — CRWV AND RKLB RESULTS OVERNIGHT: CoreWeave (CRWV) and Rocket Lab (RKLB) reported AH tonight (Aug 10). If they beat, stocks may gap up Tuesday. Use catalyst_watch early-entry path (1-2% threshold) if: (a) catalyst resolved positively overnight, (b) stock trending up at 10 AM — not fading from open spike, (c) all hard disqualifiers clear. Per Learned Insight #1: do NOT use catalyst_watch path if sole catalyst is earnings_beat — require momentum confirmation.
+4. JBL STEADY: +3.41%, stop $339.95 has a healthy 7.4% cushion, TP $382.43 is 4.4% away. AI/hyperscaler thesis intact, no earnings until 9/24.
 
-8. DO NOT RE-ENTER CRL OR PLTR TUESDAY: Today's exits were on Monday (Aug 10). CRL and PLTR may be re-entered Tuesday if scanner confirms — the same-day re-entry ban does not carry across days.
+5. TONIGHT'S EARNINGS TO WATCH FOR TOMORROW'S OPEN: CSCO and CBRS (Cerebras) both report AMC tonight (8/12) — CSCO carries ~96% market-implied beat probability; Cerebras guided ~$194M core revenue (+88% YoY). Both could set the tech/AI-infra tone at tomorrow's open, which matters directly for CRWV and SMCI.
 
-9. MARKET CONDITIONS (Mon Aug 10): SPY -0.001% (flat), QQQ -0.15%, 58.3% of stocks declining. Energy +3.45% (avoid). Semiconductors broadly weak. TTWO +2.22% (below bar). No macro catalyst.
+6. MACRO: July CPI came in-line/soft today (Sept Fed pause still in play, though 3 FOMC dissenters wanted a hike — not fully resolved). July PPI releases tomorrow ~8:30 AM ET, right before/alongside any BMO earnings reactions — watch for volatility at the open. 10-year yield eased to ~4.68%; 30-year still near multi-decade highs. Elevated Iran-related oil-supply risk keeps Energy volatile — continue to avoid per Learned Insight (0/2 wins, -$4.07).
 
-Catalyst watch list (for 10 AM agent, Tuesday Aug 11, 2026):
-CRWV | Q2 earnings | AH tonight Aug 10 | Bullish if ~110% YoY rev growth met | HIGH risk — large expected loss ($1.42/sh EPS); use 1-2% catalyst_watch threshold only if clearly trending up at 10 AM
-RKLB | Q2 earnings | AH tonight Aug 10 | Bullish (67% beat odds, Neutron progress) | HIGH risk — space sector volatile; check gap vs intraday low for stop feasibility
-SMCI | Q4 FY2026 earnings | AH Tue Aug 11 | Uncertain (rev near low end $11-12.5B guidance) | HIGH risk — intraday-only if entered Tuesday; do NOT hold overnight through Aug 11 close
-SNDK | Investor Day | Thu Aug 13 | Uncertain | HIGH risk — intraday-only if entered; no overnight hold through Aug 13
+7. SEMICONDUCTOR WATCHLIST — REAL CATALYST BUT WEAK TAPE: SNDK/MU/INTC/WDC/AMAT all up today on a genuine memory-supercycle catalyst (Micron 2027 supply guidance + Temasek Samsung/SK Hynix investment) but every name faded hard into the close on sub-1.2x relative volume. If the catalyst carries into tomorrow with actual volume confirmation at the open, this sector is worth a fresh look — today's weak tape alone was the disqualifier, not the catalyst.
 
-Settled cash remaining: $386.84
-Unsettled (settles Aug 11): ~$510.58 ($79.05 SHOP + $79.44 CRL + $352.09 PLTR)
-Total account value: ~$897.42
-Invested: 0% — fully flat ✓
+8. DO NOT RE-ENTER TODAY'S REJECTED TICKERS WITHOUT NEW CONFIRMATION: NBIS (too volatile for overnight per stop-cap rule, but could be reconsidered intraday tomorrow with a tighter stop reference if it consolidates), CAVA (spread issue may resolve once regular-session liquidity returns at tomorrow's open — recheck spread fresh, don't reuse today's number), HRB (already reversed hard from its highs — needs to prove it can hold gains before re-considering).
+
+9. NO SAME-DAY EXITS TODAY: nothing was sold this session, so the same-day re-entry ban (Learned Insight AVOID) does not restrict anything for tomorrow.
+
+Catalyst watch list (for 10 AM agent, Thursday August 13, 2026):
+TPR | earnings_beat (FY26 Q4/full year) | BMO 8/13 | Positive — consensus expects +20.2% EPS growth | MEDIUM risk
+LNTH | fda (PDUFA — Florquinitau/MK-6240, Alzheimer's tau PET imaging agent) | PDUFA date 8/13 | Leans positive (met Phase 3 co-primary endpoints, fast-track status) but binary | HIGH risk — genuine FDA binary event
+CSCO | earnings_beat | AH tonight 8/12 | Positive — ~96% market-implied beat probability | MEDIUM risk
+CBRS | earnings_beat (Cerebras) | AH tonight 8/12 | Positive — guided ~$194M core revenue (+88% YoY) | MEDIUM risk
+
+Settled cash remaining: $672.34
+Total account value: ~$900.69
+Invested: ~$228.35 (~25.4%) — well within 75% cap ✓
 ---
 
 ## AFTER-HOURS UPDATE
