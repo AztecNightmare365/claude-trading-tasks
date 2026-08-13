@@ -17,24 +17,15 @@ enabled, model and prompt, and `create_trigger` accepts no tool list at all.
 Recreating a trigger would discard the list it already has. Project settings are
 the way around that.
 
-## The part that is easy to get wrong
+## Tool names are UUID-namespaced
 
-**Connector-backed MCP tools are namespaced at runtime by connector UUID, not by
-the friendly server name.** A Robinhood call arrives as:
+Connector-backed MCP tools are namespaced at runtime by connector UUID, not by
+the friendly server name. A Robinhood call arrives as:
 
     mcp__54785ca2-0958-4634-8869-fdf067d6b2be__get_equity_orders
 
-not as `mcp__Robinhood__get_equity_orders`. A rule written against the friendly
-name therefore never matches, and the call prompts.
-
-This was confirmed empirically: a session run in `default` permission mode with
-only friendly-name rules in place stalled on exactly that tool name. It is also
-why the per-trigger `allowed_tools` entries reading `mcp__Robinhood__*` have not
-been doing anything.
-
-The UUID rules in `permissions.allow` are the ones that do the work. The
-friendly-name rules after them are kept only as a fallback in case some session
-exposes the named form.
+So a rule written only as `mcp__Robinhood__*` cannot match it. Both forms are
+listed in `permissions.allow` for that reason.
 
 | Connector | UUID |
 |---|---|
@@ -45,10 +36,41 @@ exposes the named form.
 | Google Calendar | `c9b7e6b5-3e90-4ba5-b110-9f55cff1faab` |
 | Claude Code Remote | `bf7c680d-5fdc-5ef4-b4a0-abadb619bf0a` |
 
-**If a connector is disconnected and re-added, its UUID changes** and the rules
-here must be updated to match, or that connector's tools will start prompting
-again. To find a current UUID, list the triggers — each one records the
-`connector_uuid` of every connector attached to it.
+If a connector is disconnected and re-added its UUID changes, and these rules
+must be updated to match. To find a current UUID, list the triggers — each
+records the `connector_uuid` of every connector attached to it.
+
+## What the verification runs actually established
+
+An earlier version of this file claimed the UUID/friendly-name mismatch was the
+root cause of the permission prompts. **That claim was wrong** and is corrected
+here.
+
+Two sessions were run against this repo in `default` permission mode (the mode
+that prompts for anything not explicitly pre-approved), each making the same
+five read-only Robinhood calls — once before the UUID rules were added, once
+after. Both produced the same result:
+
+| Call | Result |
+|---|---|
+| `get_accounts` | no prompt |
+| `get_portfolio` | no prompt |
+| `get_equity_positions` | no prompt |
+| `get_equity_quotes` | no prompt |
+| `get_equity_orders` | **prompted, both runs** |
+
+Adding the UUID rules changed nothing. If namespacing were the problem, every
+Robinhood call would have prompted; four of the five never did.
+
+`permissions.allow` currently contains the friendly-name form, the UUID wildcard
+form, and an explicit `mcp__Robinhood__get_equity_orders` entry. None of them
+suppress this prompt. The evidence points to a per-tool consent gate on the
+connector side for order history, which a project-level allow rule cannot
+override — but this has not been confirmed against connector documentation, so
+treat it as the current best explanation rather than an established fact.
+
+Practical impact is narrow: only routines that fetch order history are affected.
+Everything else in the read path runs clean.
 
 ## Scope
 
@@ -58,10 +80,12 @@ on a schedule, and a parked permission prompt means a missed stop-loss.
 
 `permissions.defaultMode` is set to `bypassPermissions` as a secondary
 safeguard, not the primary mechanism — a session that sets its own permission
-mode overrides it, as the verification run above demonstrated. The explicit
-`allow` list is what should be relied on.
+mode overrides it, as both verification runs demonstrated. The explicit `allow`
+list is what should be relied on.
 
 ## Adding a tool
 
 If a routine prompts for something, the tool name in the prompt is the rule to
-add. Copy it verbatim into `permissions.allow`, UUID prefix and all.
+add. Copy it verbatim into `permissions.allow`, UUID prefix and all. If the
+prompt persists after that, it is likely gated connector-side rather than by
+these settings.
