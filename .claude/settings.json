@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "defaultMode": "bypassPermissions",
+    "allow": [
+      "Bash",
+      "Read",
+      "Write",
+      "Edit",
+      "MultiEdit",
+      "NotebookEdit",
+      "Glob",
+      "Grep",
+      "LS",
+      "WebFetch",
+      "WebSearch",
+      "TodoWrite",
+      "Task",
+      "Skill",
+      "BashOutput",
+      "KillBash",
+      "Monitor",
+      "SendUserFile",
+
+      "mcp__Robinhood",
+      "mcp__Robinhood__*",
+      "mcp__Robinhood__get_accounts",
+      "mcp__Robinhood__get_portfolio",
+      "mcp__Robinhood__get_equity_positions",
+      "mcp__Robinhood__get_equity_quotes",
+      "mcp__Robinhood__get_equity_orders",
+      "mcp__Robinhood__get_equity_historicals",
+      "mcp__Robinhood__get_equity_technical_indicators",
+      "mcp__Robinhood__get_equity_fundamentals",
+      "mcp__Robinhood__get_equity_tax_lots",
+      "mcp__Robinhood__get_equity_price_book",
+      "mcp__Robinhood__get_equity_tradability",
+      "mcp__Robinhood__get_earnings_calendar",
+      "mcp__Robinhood__get_earnings_results",
+      "mcp__Robinhood__get_realized_pnl",
+      "mcp__Robinhood__get_pnl_trade_history",
+      "mcp__Robinhood__place_equity_order",
+      "mcp__Robinhood__cancel_equity_order",
+      "mcp__Robinhood__review_equity_order",
+      "mcp__Robinhood__run_scan",
+      "mcp__Robinhood__get_scans",
+      "mcp__Robinhood__create_scan",
+      "mcp__Robinhood__update_scan_filters",
+      "mcp__Robinhood__update_scan_config",
+      "mcp__Robinhood__get_scanner_filter_specs",
+      "mcp__Robinhood__get_watchlists",
+      "mcp__Robinhood__get_watchlist_items",
+      "mcp__Robinhood__get_popular_watchlists",
+      "mcp__Robinhood__search",
+
+      "mcp__polygon-io",
+      "mcp__polygon-io__*",
+
+      "mcp__Gmail",
+      "mcp__Gmail__*",
+
+      "mcp__Google_Drive",
+      "mcp__Google_Drive__*",
+
+      "mcp__Google_Calendar",
+      "mcp__Google_Calendar__*",
+
+      "mcp__Claude_Code_Remote",
+      "mcp__Claude_Code_Remote__*",
+
+      "mcp__github",
+      "mcp__github__*"
+    ]
+  },
+  "enableAllProjectMcpServers": true
+}
