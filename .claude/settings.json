@@ -22,6 +22,24 @@
       "Monitor",
       "SendUserFile",
 
+      "mcp__54785ca2-0958-4634-8869-fdf067d6b2be",
+      "mcp__54785ca2-0958-4634-8869-fdf067d6b2be__*",
+
+      "mcp__a123d1fc-6bdd-46ee-9f5b-61d286ce8ded",
+      "mcp__a123d1fc-6bdd-46ee-9f5b-61d286ce8ded__*",
+
+      "mcp__0a53230c-08a9-47d5-8027-df3647b48327",
+      "mcp__0a53230c-08a9-47d5-8027-df3647b48327__*",
+
+      "mcp__63c3c6e9-49a9-40ab-b4a6-ecc2bd63eb6a",
+      "mcp__63c3c6e9-49a9-40ab-b4a6-ecc2bd63eb6a__*",
+
+      "mcp__c9b7e6b5-3e90-4ba5-b110-9f55cff1faab",
+      "mcp__c9b7e6b5-3e90-4ba5-b110-9f55cff1faab__*",
+
+      "mcp__bf7c680d-5fdc-5ef4-b4a0-abadb619bf0a",
+      "mcp__bf7c680d-5fdc-5ef4-b4a0-abadb619bf0a__*",
+
       "mcp__Robinhood",
       "mcp__Robinhood__*",
       "mcp__Robinhood__get_accounts",
