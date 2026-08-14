@@ -86,33 +86,44 @@ RAW STATS:
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-Last updated: 2026-08-14, 9:30 AM ET (written by the 9:30 AM open-reaction agent — the 3:15 PM chain has been stale since 8/12; the 7 AM overnight brief flagged the same staleness and used the live portfolio as truth. Fully resyncing this block from live data.)
+Last updated: 2026-08-14, ~3:28 PM ET (3:15 PM session complete)
 
-Open positions (3 total, reconciled against live get_equity_positions at the 9:30 AM open):
+Open positions held overnight (3 total):
 
-- JBL: 0.211798 shares, entry $354.11, stop-loss $339.95, take-profit $382.43, open price $365.89 (+3.33% vs entry)
-  entry_type: manual
-  Thesis: AI/hyperscaler-demand contract-manufacturing tailwind; no binary events, next earnings not until 9/24/2026. ON TRACK, no action at open.
+- MU: 0.079828 shares, avg entry $939.52, stop-loss $917.48, take-profit $1062.34, overnight flag: YES
+  entry_type: manual (portfolio-sync adopted — no scanner/handoff record of original entry; conservative default stop applied = 5% below 3:15 PM price)
+  Thesis: Micron launched its $250M Micron Ventures Paradigm Fund (3rd/largest AI venture fund) and management reaffirmed memory industry conditions stay tight beyond 2027, tighter than 2026 — genuine AI/data-center demand catalyst, not just sector drift. No earnings risk (none scheduled this week). Up +2.79% vs entry; price stabilized/recovered off midday lows into the close.
 
-- CRWV: 0.689212 shares, entry $108.82, stop-loss $104.47, take-profit $117.52, open price $109.71 (+0.82% vs entry)
-  entry_type: manual
-  Thesis: Q2 beat + backlog raised to $104.2B + FY26 guidance raised, confirmed gap-up catalyst. ON TRACK, no action at open.
+- CRWV: 0.689212 shares, avg entry $108.82, stop-loss $98.41, take-profit $113.94, overnight flag: YES
+  entry_type: manual (portfolio-sync adopted — conservative default stop applied = 5% below 3:15 PM price)
+  Thesis: Q2 beat intact (revenue +112% YoY, $104B backlog); Oppenheimer reaffirmed $150 PT, Truist upgraded to Buy. Today's -2.55% pullback is normal profit-taking after Tuesday's +18% post-earnings pop (plus some insider-selling headlines), not a thesis break — down -4.81% vs entry but held per "fade alone isn't enough, let the stop do its job." No earnings risk.
 
-- MU: 0.079828 shares, entry $939.52, stop-loss $901.94 (UNVERIFIED 4% placeholder — real stop was never recorded when this position opened 8/13, chain broke first), take-profit $1014.68 (UNVERIFIED 2x-TP placeholder), open price $961.72 (+2.36% vs entry)
-  entry_type: scanner
-  Thesis: NAND/DRAM supercycle rally, sector-wide (SK Hynix/SNDK/MU all up). ON TRACK, no action at open. Treat stop/TP with caution until verified.
+- FOXA: 3.326340 shares, avg entry $68.64, stop-loss $67.15, take-profit $71.62, overnight flag: YES
+  entry_type: scanner (multi-source web/news candidate — Robinhood momentum scanners returned 0 matches both runs today; sourced via analyst-upgrade news sweep)
+  Thesis: JPMorgan upgraded to Overweight (PT $82 from $70) on World Cup economics, pending Roku acquisition, political-ad tailwind, and improving distribution revenue — one week after a Q4 beat (adj. EPS $1.79 vs $1.45 est.). MEDIUM conviction: catalyst is clean (analyst_upgrade, the account's best-performing catalyst type historically) but relative volume and closing-range strength were only borderline, not knockout. Position sized at the 25%-of-account cap ($228.32), not the nominal MEDIUM tier cap.
 
-SOLD BY 9:30 AM AGENT — do not re-enter:
-- SNDK: 0.048102 shares, entry $1559.17, exit $1647.00 (+5.63% / +$4.22) — a stale queued market SELL placed 6:49 PM 8/13 (flagged CRITICAL in the 7 AM brief) filled automatically at today's 9:30 open. Not a discretionary stop/TP call this session. Logged to trade_log.csv, exit_reason=stale_order.
-- SMCI: already closed 8/13 10:22 AM (take-profit hit, +15%) by an earlier session, not this one. Carried as an unlogged flag in the 7 AM brief; noted here only to fully clear it from the handoff chain — no action needed.
+Sells executed at 3:15 PM (1 total):
+- JBL: 0.211798 shares sold at market ~$364.37
+  Reason: Discretionary exit, not a stop/TP hit. Faded essentially all session (day high ~$369.99 → low ~$360.51, closing near the low), against real negative crosscurrents today (analyst downgrade + heavy institutional selling amid broader "sector-wide de-risking" of AI-infrastructure/tech-hardware names) even as the stock stayed profitable vs entry. The dividend declaration + revenue-outlook raise + earlier UBS upgrade were already stale/priced in and did nothing to stop the slide. Locked in a gain ahead of what looked like continued weakness into the close.
+  Proceeds: ~$77.18 UNSETTLED (settles Aug 17, Monday)
+  P&L: +2.90% / +$2.17
 
-No buys made this session — no fresh catalyst watch list existed for today; the only list on record (TPR/CSCO/CBRS/LNTH, dated 8/12) was already flagged expired/moot in the 7 AM brief. SKILL Step 6 applies (skip all buys).
+ETON was screened as a HIGH-conviction candidate (earnings beat + raised guidance, price above VWAP, closing top of range) but was SKIPPED per the SKILL's explicit stop-loss volatility rule: today's intraday low ($53.01) was 8.9% below the intended entry (~$58.18), exceeding the 5% cap that mandates skipping regardless of catalyst quality. RDDT (S&P 500 index-inclusion catalyst, effective before the open Tue 8/18) was also screened and passed the volatility check, but was left out — price was trading below VWAP and fading from the day's highs (whipsawing on renewed Google AI-Overviews/licensing-uncertainty headlines), meeting only 1 of 5 quality-tier criteria; Friday is a historically weak entry day per Learned Insight #5, so the weaker of two candidates was cut rather than forced.
 
-Settled cash remaining: $687.79
-Total account value: ~$917.68
-Portfolio invested: ~$229.89 (~25.1%) — well within the 75% cap
+Settled cash remaining: $380.25
+Unsettled (settles Aug 17): ~$156.40 (JBL $77.18 + prior $79.22)
+Total account value: ~$913.55
+Portfolio invested: ~$376.90 (~41.3%) — well within the 75% cap
 
-Catalyst watch list: none (today).
+Notes for 10:00 AM agent (Mon Aug 17, 2026):
+- This 3:15 PM chain had been stale since 6/24 — the 9:30 AM open-reaction agent had already resynced this handoff once against the live portfolio this morning; this write reflects the full 3:15 PM session's own actions on top of that (JBL sold, MU/CRWV held, FOXA bought).
+- MU and CRWV are portfolio-sync "manual" adoptions, not scanner/agent originals — their stops/TPs are 3:15 PM defaults (5% below the 3:15 PM price, 2:1 reward/risk), not intraday-low-anchored like a normal fresh buy. Treat with the same caution as other unverified-origin positions until a full session cycle confirms them.
+- CRWV is the most fragile of the three (-4.81% vs entry) — re-verify the Q2/backlog thesis is still intact before the open; if a real negative headline emerges overnight (not just further profit-taking), don't hesitate to exit at the open rather than waiting for the wide 5%-based stop.
+- FOXA: check for any Roku-deal or World Cup-related headline overnight/pre-market that could move it further off the JPMorgan upgrade.
+- No earnings risk overnight for MU, CRWV, or FOXA.
+- Market regime at 3:15 PM: SPY -0.25%, QQQ -0.34% — normal/flat, no regime gate triggered.
+
+Catalyst watch list: AMAT | earnings_beat (pending) | AH tonight (Fri 8/14 close, ~4:00 PM ET) | uncertain-to-slightly-positive (Polymarket ~94% beat probability, but stock is already +193% over the past year and priced for a big beat — guidance and China commentary will matter more than the headline number) | MEDIUM risk
 ---
 
 ## AFTER-HOURS UPDATE
