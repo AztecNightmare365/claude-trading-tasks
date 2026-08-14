@@ -288,9 +288,9 @@ For each position, determine its quality tier, then set stop-loss and take-profi
 - Stop-loss: use today's intraday low as a reference, but hard cap at 5% below entry price. If the intraday low is more than 5% below your intended entry, the stock is too volatile to hold overnight — skip it.
 
 - Position size — quality-tiered (use the highest tier the candidate earns):
-    HIGH conviction ($250 max): ALL five criteria met — (1) scanner-confirmed (appears in scanner results, not manual research only), (2) relative volume ≥ 1.5x, (3) price above VWAP, (4) closing in top 25% of intraday range, (5) analyst_upgrade or sector_momentum catalyst (earnings_beat alone does NOT qualify for this tier). Dollar risk limit: $12.50.
-    MEDIUM conviction ($150 max): scanner-confirmed + most criteria present but one missing (e.g. relative volume 1.2–1.5x, or strong catalyst but price slightly below VWAP). Dollar risk limit: $7.50.
-    LOW conviction ($75 max): not in scanner (manual research only), OR earnings_beat as sole catalyst, OR relative volume < 1.2x. Dollar risk limit: $3.75.
+    HIGH conviction ($400 max): ALL five criteria met — (1) scanner-confirmed OR a high-conviction manual entry on a confirmed earnings beat + raised guidance, (2) relative volume ≥ 1.5x (waived for manual beat+raise entries where volume data is thin/lagging), (3) price above VWAP, (4) closing in top 25% of intraday range, (5) catalyst is analyst_upgrade, sector_momentum, or earnings_beat WITH raised guidance (a beat alone, without a raise, still does NOT qualify for this tier). Dollar risk limit: $20.00.
+    MEDIUM conviction ($250 max): scanner-confirmed OR manual entry + most criteria present but one missing (e.g. relative volume 1.2–1.5x, or strong catalyst but price slightly below VWAP). Dollar risk limit: $12.50.
+    LOW conviction ($150 max): not in scanner (manual research only) and no manual conviction basis, OR earnings_beat without a guidance raise as sole catalyst, OR relative volume < 1.2x. Dollar risk limit: $7.50.
 
   Allocate each candidate its full tier-capped dollar amount — do NOT split the buyable amount evenly. Total deployed must still respect the 75% invested cap and settled-cash constraint from Step 3; if total tier amounts exceed buyable cash, cut lower-tier positions first. No single position may exceed 25% of total account value regardless of tier.
 
