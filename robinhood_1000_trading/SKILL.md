@@ -14,23 +14,20 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7 AM ET, Wed 2026-08-12.** ANOMALY: Aug 11 3:15PM handoff was never written (10AM/12PM/1PM/2PM/3:15PM session chain broke after the 9:30AM open reaction) — the written handoff block below is stale (says flat). Used LIVE Robinhood portfolio as source of truth instead: 1 confirmed position.
+**7:41 AM ET, Fri 2026-08-14.** ANOMALY: 3:15PM handoff stale (dated 8/12, 8/13 session chain broke). Used LIVE portfolio as truth: 4 positions. SMCI closed 8/13 10:22AM @$41.18 (TP $38.68 hit, +15%) — unlogged in trade_log, flagging not backfilling. MU+SNDK opened 8/13, no recorded stop/TP (chain broke first) — 4%/2x-TP convention used below as unverified placeholders.
 
-JBL: 0.211798 sh, entry $354.11, stop $339.95, TP $382.43 (entry_type=manual, adopted 9:30AM 8/11, no stale orders pending). Pre-mkt $363.00 (+1.79% vs $356.61 close) — 6.4% above stop, 5.4% below TP. No adverse news; AI/hyperscaler-demand thesis intact. FLAG: ON TRACK.
+JBL $371.00 (+0.19%), stop $339.95 (8.4% cushion), TP $382.43 (3.1% away). No news, thesis intact. ON TRACK.
+CRWV $106.60 (+0.29%), stop $104.47 (2.0% cushion, thin), TP $117.52. No negative news, thesis intact. ON TRACK.
+MU $978.04 (+2.97%), entry $939.52 (+4.10%). Est stop $901.94/TP $1014.68 (unverified). Genuine NAND/DRAM supercycle rally (sector-wide). ON TRACK.
+SNDK $1630.57 (+6.71%), entry $1559.19 (+4.58%). Est stop $1496.82/TP $1683.94 (unverified). Investor Day 8/13 raised targets (+13.67% Thu, premkt follow-through). ON TRACK. *** CRITICAL: full-position QUEUED agentic market SELL (placed 6:49PM 8/13, unfilled) still live — WILL DUMP AT 9:30 OPEN unless cancelled. Not cancelled here (no order-cancel authority in this routine). ***
 
 Pre-market sells: NONE.
 
-SPY $772.01 (+0.19%), QQQ $722.58 (+0.58%) — normal, mildly positive regime.
+Catalyst watch (8/12 list, 8/13 10AM entry window passed, none entered — informational): TPR FAILED (beat, weak FY27 guide, -8.9% premkt). CSCO CONFIRMED/FLAT-DOWN (beat rev+EPS+AI orders, sold the news). CBRS CONFIRMED (beat rev+EPS, cloud +281% YoY). LNTH NO DATA (PDUFA 8/13 outcome unfound).
 
-Catalyst watch list (carried from 8/10 handoff, since 8/11 3:15PM never resolved it):
-- CRWV $107.38 (+18.9% pre-mkt) — Q2 beat: rev $2.58B vs $2.56B est, backlog raised to $104.2B, FY26 guide raised. CONFIRMED — GAP UP.
-- SMCI $33.97 (+7.5% pre-mkt) — Q4 FY26 beat big: GM 17.5% vs 9.9% prior qtr, EPS $1.62 vs $0.31 YoY. CONFIRMED — GAP UP.
-- SNDK $1319.40 (+3.8% pre-mkt) — Investor Day is tomorrow 8/13, still PENDING; today's pop driven by separate $15.5B buyback announcement. MONITOR.
-- RKLB $80.06 (flat) — Q2 EPS miss stands, no reversal. FAILED — SKIP.
+Macro: SPY $778.60 (+0.10%), QQQ $733.54 (+0.20%) — record highs, soft CPI/PPI eased Fed-hike fears, retail sales due today. Memory sector broad AI rally (SK Hynix/SNDK/MU up).
 
-Macro: CPI due tomorrow 8/13, FOMC hawkish signals re: Sept hike; NVDA raised $500B for AI infra buildout; broad AI-infra sentiment strong overnight on CRWV/SMCI beats.
-
-SUMMARY: 1 position ON TRACK, 0 flagged, 0 pre-market sells; 2/4 catalyst tickers confirmed gap-up (CRWV, SMCI), 1 pending (SNDK), 1 failed (RKLB).
+SUMMARY: 4 ON TRACK, 1 flagged (SNDK stale sell order), 0 premkt sells; catalyst list expired/moot (1 confirmed, 1 confirmed-flat, 1 failed, 1 no-data).
 
 ---
 
