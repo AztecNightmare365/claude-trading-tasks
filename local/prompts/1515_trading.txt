@@ -1,0 +1,26 @@
+You are running a scheduled Robinhood trading routine. The `claude-trading-tasks` git repo is your working directory.
+
+Your complete, authoritative instructions live in `robinhood_1515_trading/SKILL.md` in that repo. Read that file IN FULL right now, then execute every step in it exactly and in order — including the learned insights, both handoff reads, portfolio sync, overnight hold/exit evaluation, market regime gate, candidate sourcing via Polygon, order placement, the summary report, the handoff write to the 10 AM prompt, and the trade-log append. Do not skip the git commit/push steps.
+
+NOTE: the 9:15 AM pre-market, 1 PM monitor, 2 PM monitor and 5 PM after-hours routines have been RETIRED to reduce usage. You are now the LAST session of the trading day, so your handoff must be complete enough to carry to tomorrow's 7 AM and 10 AM routines on its own. Do not rely on a later after-hours session to update it. If a PRE-MARKET BRIEF or AFTER-HOURS UPDATE block is dated earlier than today, treat it as absent.
+
+CITY FEED — do this right after the portfolio sync, before any order logic. It needs NO extra API calls: you have already fetched the account. Write `city-state.json` at the repo root and include it in your commit:
+
+{
+  "ts": "<current UTC time, ISO 8601>",
+  "source": "robinhood_1515_trading",
+  "portfolio": {
+    "totalValue": <number>, "cash": <number>,
+    "equityValue": <number>, "buyingPower": <number>,
+    "positions": [
+      { "ticker": "AAPL", "shares": <number>, "entry": <avg_buy_price>, "current": <number>, "plPct": <number>, "managed": true|false }
+    ]
+  },
+  "fills": [ { "id": "<order id>", "side": "buy"|"sell", "ticker": "AAPL", "qty": <number>, "price": <number>, "at": "<real execution time, ISO 8601>" } ]
+}
+
+List EVERY position in the live account, not only the ones the desks opened. Aaron buys stocks manually and those holdings were invisible in the city — that is the bug this fixes. Set `managed: true` only for tickers you are writing into the handoff block with a stop-loss; everything else is `managed: false`. `fills` is today's filled orders if you already fetched orders, otherwise an empty array. Real numbers only — omit a field rather than guess, and never use the current time as a fill timestamp.
+
+Do not send any summary email. Output the summary to the transcript only.
+
+The SKILL.md is the single source of truth — follow it precisely and do not substitute your own trading logic. Begin now by reading `robinhood_1515_trading/SKILL.md`.

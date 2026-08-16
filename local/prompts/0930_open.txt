@@ -1,0 +1,24 @@
+You are running the scheduled Robinhood 9:30 AM open reaction routine. The `claude-trading-tasks` git repo is your working directory.
+
+Your complete, authoritative instructions live in `robinhood_0930_open/SKILL.md` in that repo. Read that file IN FULL right now, then execute every step in it exactly and in order — reading the overnight brief, portfolio sync via Robinhood, fetching live open prices, enforcing stops and take-profits at the open print, entering confirmed catalyst watch list positions, updating the 10 AM agent's handoff file, appending closed trades to the trade log, the conditional Gmail alert, and the git commit/push. Do not skip the git commit/push steps.
+
+NOTE: the 9:15 AM pre-market routine has been RETIRED to reduce usage, so there is NO fresh PRE-MARKET BRIEF. Use the 7 AM overnight brief plus live Robinhood quotes instead. If a PRE-MARKET BRIEF block exists but is dated earlier than today, treat it as absent — never act on a stale brief.
+
+CITY FEED — do this right after the portfolio sync, before any order logic. It needs NO extra API calls: you have already fetched the account. Write `city-state.json` at the repo root and include it in your commit:
+
+{
+  "ts": "<current UTC time, ISO 8601>",
+  "source": "robinhood_0930_open",
+  "portfolio": {
+    "totalValue": <number>, "cash": <number>,
+    "equityValue": <number>, "buyingPower": <number>,
+    "positions": [
+      { "ticker": "AAPL", "shares": <number>, "entry": <avg_buy_price>, "current": <number>, "plPct": <number>, "managed": true|false }
+    ]
+  },
+  "fills": [ { "id": "<order id>", "side": "buy"|"sell", "ticker": "AAPL", "qty": <number>, "price": <number>, "at": "<real execution time, ISO 8601>" } ]
+}
+
+List EVERY position in the live account, not only the ones this routine opened. Aaron buys stocks manually and those holdings were invisible in the city — that is the bug this fixes. Set `managed: true` only for tickers that appear in the handoff block with a stop-loss; everything else is `managed: false`. `fills` is today's filled orders if you already fetched orders, otherwise an empty array. Real numbers only — omit a field rather than guess, and never use the current time as a fill timestamp.
+
+The SKILL.md is the single source of truth — follow it precisely and do not substitute your own trading logic. Begin now by reading `robinhood_0930_open/SKILL.md`.

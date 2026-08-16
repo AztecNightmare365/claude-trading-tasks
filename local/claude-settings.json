@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "defaultMode": "bypassPermissions",
+    "allow": [
+      "Bash",
+      "Read",
+      "Write",
+      "Edit",
+      "MultiEdit",
+      "Glob",
+      "Grep",
+      "LS",
+      "WebFetch",
+      "WebSearch",
+      "TodoWrite",
+      "Task",
+      "Skill",
+      "BashOutput",
+      "KillBash",
+
+      "mcp__Robinhood",
+      "mcp__Robinhood__*",
+      "mcp__54785ca2-0958-4634-8869-fdf067d6b2be",
+      "mcp__54785ca2-0958-4634-8869-fdf067d6b2be__*",
+
+      "mcp__polygon-io",
+      "mcp__polygon-io__*",
+      "mcp__a123d1fc-6bdd-46ee-9f5b-61d286ce8ded",
+      "mcp__a123d1fc-6bdd-46ee-9f5b-61d286ce8ded__*",
+
+      "mcp__Gmail",
+      "mcp__Gmail__*",
+      "mcp__0a53230c-08a9-47d5-8027-df3647b48327",
+      "mcp__0a53230c-08a9-47d5-8027-df3647b48327__*",
+
+      "mcp__Google_Drive",
+      "mcp__Google_Drive__*",
+      "mcp__63c3c6e9-49a9-40ab-b4a6-ecc2bd63eb6a",
+      "mcp__63c3c6e9-49a9-40ab-b4a6-ecc2bd63eb6a__*",
+
+      "mcp__Google_Calendar",
+      "mcp__Google_Calendar__*",
+      "mcp__c9b7e6b5-3e90-4ba5-b110-9f55cff1faab",
+      "mcp__c9b7e6b5-3e90-4ba5-b110-9f55cff1faab__*"
+    ]
+  }
+}

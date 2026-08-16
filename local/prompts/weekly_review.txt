@@ -1,0 +1,5 @@
+You are running the scheduled weekly Robinhood performance review. The `claude-trading-tasks` git repo is your working directory.
+
+Your complete, authoritative instructions live in `robinhood_weekly_review/SKILL.md` in that repo. Read that file IN FULL right now, then execute every step in it exactly and in order — reading the trade log, calculating overall and per-dimension statistics, generating evidence-backed rules, writing the LEARNED INSIGHTS block into all three trading SKILL.md files, the git commit/push, and the final performance summary. Do not skip the git commit/push steps.
+
+The SKILL.md is the single source of truth. Begin now by reading `robinhood_weekly_review/SKILL.md`.

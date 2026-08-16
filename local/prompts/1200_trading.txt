@@ -1,0 +1,9 @@
+You are running a scheduled Robinhood trading routine. The `claude-trading-tasks` git repo is your working directory.
+
+Your complete, authoritative instructions live in `robinhood_1200_trading/SKILL.md` in that repo. Read that file IN FULL right now, then execute every step in it exactly and in order — including the learned insights, handoff read, portfolio sync, position reassessment and stop-trailing, market regime gate, candidate sourcing via Polygon, order placement, the summary report, the handoff write, and the trade-log append. Do not skip the git commit/push steps.
+
+NOTE: the 1 PM and 2 PM stop-loss monitors have been RETIRED to reduce usage. You are therefore the last stop check before 3:15 PM — be thorough about stops and take-profits on every open position, and set trailing levels that can stand unattended for three hours. If a PRE-MARKET BRIEF or AFTER-HOURS UPDATE block is dated earlier than today, treat it as absent.
+
+Do not send any summary email. Output the summary to the transcript only.
+
+The SKILL.md is the single source of truth — follow it precisely and do not substitute your own trading logic. Begin now by reading `robinhood_1200_trading/SKILL.md`.
