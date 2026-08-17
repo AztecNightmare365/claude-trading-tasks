@@ -49,84 +49,55 @@ Notes for 10:00 AM agent (June 25, 2026):
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-08-10 (~12:10 PM ET — 12 PM reassessment complete)
+Last updated: 2026-08-17, ~10:12 AM ET (10 AM session complete). Note: the 9:15 AM, 1 PM, 2 PM, and 5 PM routines are retired; the 9:30 AM open-reaction block in the 10 AM SKILL.md was stale (dated 8/14, from before the weekend) and was treated as absent — this session worked from the 7 AM overnight brief (dated today) plus live Robinhood data.
 
-Open positions (2 total):
+Open positions (3 total):
 
-- CRL: 0.289530 shares, avg entry $259.04, stop-loss $268.48 (TRAILED from $252.07), take-profit $272.98, overnight flag: YES
-  12PM price: $269.85 | vs avg entry: +$10.81 (+4.17%)
+- MU: 0.079828 shares, avg entry $939.52, stop-loss $901.94 (UNVERIFIED 4% placeholder — never recorded when opened 8/13, still unverified), take-profit $1014.68 (UNVERIFIED 2x-TP placeholder), 10 AM price $1011.788 (+7.69% vs entry)
   entry_type: scanner
-  Thesis: Charles River Laboratories Q2 2026 beat (EPS $3.02 vs est., $1B revenue, raised FY guidance, Aug 5). Healthcare/bioservices. No binary event.
-  Stop TRAILED to $268.48 (tested post-10AM intraday support). Previous stop was $252.07.
-  *** TP WATCH: $269.85 vs TP $272.98 — only $3.13 (1.16%) away. Sell immediately at $272.98. ***
-  *** STOP TIGHTNESS: Stop is only $1.37 below current price. Any minor broad-market dip could trigger. ***
-  - If CRL >= $272.98: sell immediately (take-profit, 0.289530 shares, market order)
-  - If CRL <= $268.48: sell immediately (stop-loss — no discretion)
+  Thesis: NAND/DRAM supercycle, sector-wide rally. Fresh catalyst today: New Street upgraded MU to Buy ($1250 PT), citing HBM market "remarkably tight." ON TRACK, no action at 10 AM.
+  *** TP WATCH: $1011.79 vs TP $1014.68 — only $2.89 (0.28%) away. Sell immediately at $1014.68 (0.079828 shares, market order) if touched. Stop/TP are still unverified placeholders — treat with caution but honor them as the only recorded targets. ***
 
-- PLTR: 2.000000 shares, avg entry $171.98, stop-loss $177.00 (TRAILED from $168.49), take-profit $189.55, overnight flag: YES
-  12PM price: $178.56 | vs avg entry: +$6.58 (+3.83%)
-  entry_type: manual (adopted from 9:30 AM session — earnings_beat catalyst)
-  Thesis: Palantir Q2 2026 beat (revenue +39% YoY, raised FY guidance, AIP momentum). AI government + commercial narrative. No near-term binary event.
-  Stop TRAILED to $177.00 (just below recent intraday support at $177.36). Previous stop was $168.49.
-  Minimum locked-in gain if stopped: ~+2.92%.
-  Stop trail eligibility at 3:15 PM: if PLTR ≥ $180.58 (+5% from entry), trail stop again per SKILL rules.
-  - If PLTR >= $189.55: sell immediately (take-profit, 2.000000 shares, market order)
-  - If PLTR <= $177.00: sell immediately (stop-loss — no discretion)
+- FOXA: 3.326340 shares, avg entry $68.64, stop-loss $65.21 (UNVERIFIED placeholder, never recorded when opened 8/14, chain broke before writing one), take-profit $75.50 (UNVERIFIED placeholder), 10 AM price $69.22 (+0.85% vs entry)
+  entry_type: manual
+  Thesis: FQ4 beat + Tubi growth. No binary events. ON TRACK, no action at 10 AM.
 
-12 PM reassessment actions:
-  - No exits: neither CRL nor PLTR hit stop or TP.
-  - No new buys: 13th consecutive scanner drought (both scanners returned 0). No qualifying midday candidates.
-    Candidates reviewed and rejected:
-      CRM: +1.78% — below 3% bar (had been reported at 3.2% earlier, faded)
-      HON: -0.85% — DOWN on the day (BofA upgrade to Neutral; stock declined)
-      NVDA: -1.90% — DOWN
-      VRTX: +7.19% — stale 7-day-old catalyst (Q2 earnings Aug 3); carry-forward: deprioritize. No fresh catalyst confirmed today.
-      COHR: -11.93% — DOWN hard (earnings miss)
-      SNDK: +2.89% — below 3% bar
-      WDC: +2.05% — below 3% bar
-      INTC: -3.50% — DOWN (common stock offering announcement)
-      AMAT: -1.37%, QCOM: -2.24%, MU: -0.22% — semiconductor sector broadly weak
-      HPE: +4.11%, analyst upgrade catalyst — interesting but NOT scanner confirmed. LOW conviction only ($75 max). Per Learned Insight #2, skipped without scanner confirmation.
-  - CRL stop trailed: $252.07 → $268.48 (post-10AM intraday support level)
-  - PLTR stop trailed: $168.49 → $177.00 (most recent intraday support; locks in ~+2.92% minimum if stopped)
+- AMAT: 0.470792 shares, avg entry $531.02, stop-loss $515.12 (opening 30-min low, 2.94% below entry), take-profit $562.82 (2x risk), 10 AM price ~$531.02 (just opened)
+  entry_type: scanner
+  Thesis: Priority sector watchlist entry — QQQ up on the day, AMAT +4.65% intraday on broad AI/semis rally (Anthropic revenue beat, memory-supply-constraint narrative lifting MU/SNDK/WDC/AMAT together). No AMAT-specific dated catalyst — this is a sector_momentum entry, sized MEDIUM conviction (not HIGH) specifically because it lacks scanner confirmation and a ticker-specific catalyst (Learned Insight #10 flags sector_momentum-alone as historically weak, 33% win rate). Relative volume ~2.6x (strong), price above VWAP, trading in top 20% of intraday range at entry. No earnings today. Dollar risk ~$7.36.
 
-Market conditions at 12 PM (Aug 10, 2026 — Monday):
-  SPY +0.11% | QQQ +0.007% — flat, normal regime. No regime gate.
-  INTC -3.50% on common stock offering; semiconductor sector weak broadly
-  Energy sector rising but avoid per Learned Insights (0/2 wins, -$4.07)
-  Scanner drought: 13th consecutive session (0 results on both scans)
+Sells executed at 10 AM (1 total):
+- CRWV: 0.689212 shares sold at market $104.9901
+  Reason: Hard stop-loss BREACH — stop was $104.47 (from 7 AM brief), price fell to $103.93 at check time (session low $103.93, filled $104.9901) — entry $108.82, -3.52%/-$2.64. No thesis break identified (no negative news; CoreWeave backlog/rate-cut narrative still positive) — this was a mechanical stop-loss exit, no discretion applied per SKILL Step 2.
+  Proceeds: $72.36 UNSETTLED (settles 8/18)
 
-Settled cash remaining: $386.84
-Unsettled (settles Aug 11): ~$79.05 (SHOP proceeds from 10 AM session)
-Total account value (approx): ~$901.16
-Portfolio invested: ~$435.27 (~48.3%) — within 75% cap ✓
+Portfolio sync at 10 AM: live get_equity_positions = MU, CRWV, FOXA — exactly matched the 7 AM overnight brief (which had already resynced from live data after the 3:15 PM chain broke on 8/14). No manual adoptions or unexpected closures found. CRWV closed this session per stop-loss above; JBL (closed 8/14, unlogged per earlier flag) and SNDK (stale-order auto-exit 8/14) remain correctly absent from the live portfolio — no further action needed on either.
 
-Catalyst status carry-forward:
-  - TTWO: Monitor at 3:15 PM if reaches 3%+ with scanner confirmation. Below threshold all session.
-  - VRTX: Catalyst exhausted (7-day-old Q2 earnings). No fresh catalyst today. Skip — do not enter.
-  - SNDK: Investor Day Aug 13 — DO NOT hold overnight through Investor Day. Currently +2.89% (below bar). If scanner picks it up at 3:15 PM and momentum holds, may enter intraday-only with explicit NO overnight flag.
-  - HPE: +4.11% today on analyst upgrade. Not scanner-confirmed at 12 PM. If scanner picks it up by 3:15 PM with sustained gain, HIGH priority buy candidate (analyst_upgrade = best win rate at 66.7%). Do not buy without scanner confirmation.
+Market regime at 10 AM: SPY $775.29 (-0.14%), QQQ $731.95 (+0.12%) — normal regime, no gate triggered. Both Robinhood momentum scanners (3%/1.2x-relvol and 6%-big-mover) returned 0 candidates — a scanner drought. Screened SNDK (+7.0%, but +32.6% over the past 5 trading days — disqualified, hard 15%-in-5-days volatility rule), WDC (+5.5%, but +16.1% over 5 days — disqualified, same rule), ALAB (+2.7%, below 3% bar despite a same-day analyst upgrade — screened out), AAPL (-0.4%, down), CW (flat, ~0.0% despite lingering earnings-beat coverage) — none of these qualified. AMAT was the only candidate clearing every hard filter.
 
-NOTES FOR 3:15 PM AGENT (Mon Aug 10, 2026):
+Settled cash remaining: $286.64
+Unsettled (settles 8/18): $72.36 (CRWV proceeds)
+Total account value: ~$920.45
+Portfolio invested: ~$561.45 (~61.0%) — within 75% cap ✓
 
-1. CRL TP WATCH — CRITICAL: $269.85 at noon vs TP $272.98 (only $3.13 away, 1.16%). Sell immediately at $272.98 (0.289530 shares, market order). New stop $268.48 is tight ($1.37 below current) — any dip triggers it. Thesis intact; no adverse news.
+Catalyst watch list: none (today) — 7 AM brief carried forward "Catalyst watch: NONE" since the 3:15 PM chain broke on 8/14 before writing one.
 
-2. PLTR TRAILED STOP CHECK: Stop now $177.00 (from $168.49). Up +3.83% at noon. At 3:15 PM, if PLTR ≥ $180.58 (+5% from entry), evaluate trailing stop again per SKILL rules. TP still $189.55 (+6.1% away). Thesis intact (AI/government narrative). entry_type=manual: hold through binary events per exception policy.
+NOTES FOR 12 PM AGENT (Mon Aug 17, 2026):
 
-3. SCANNER DROUGHT — 13th CONSECUTIVE SESSION: If scanner breaks at 3:15 PM, treat as meaningful signal. Monday is historically best day (63.6% win rate) — act with appropriate conviction but do not force.
+1. MU TP WATCH — CRITICAL: $1011.79 at 10 AM vs TP $1014.68 (only 0.28% away, same pattern flagged in the 7 AM brief). Sell immediately at $1014.68 (0.079828 shares, market order) if touched before your check. Stop/TP remain UNVERIFIED placeholders (never properly recorded when the position opened 8/13) — honor them anyway as the only recorded targets, but do not treat them as precision figures.
 
-4. HPE ELEVATED WATCH: +4.11% today on analyst upgrade. If scanner confirms at 3:15 PM, it becomes HIGH priority (analyst_upgrade best catalyst by win rate at 66.7%). Check it first.
+2. AMAT is a lower-conviction, sector_momentum-only entry with no ticker-specific catalyst — watch closely for a fade. Stop is tight (2.94% below entry, $515.12). If broad semis momentum stalls, this is the first position to reassess.
 
-5. SEMICONDUCTOR SECTOR WEAK TODAY: INTC down on stock offering, AMAT/QCOM/MU all negative. PLTR's AI narrative is isolated from semiconductor weakness — no contagion risk identified.
+3. FOXA quiet and on track (+0.85%), no action needed unless stop/TP hit.
 
-6. CASH PROTECTION: $386.84 settled available. Unsettled $79.05 settles Tuesday Aug 11. CRL and PLTR both carry overnight exposure — if either exits today, that's significant dry powder for tomorrow's 10 AM session.
+4. SCANNER DROUGHT: both scanners returned 0 at 10 AM. If the drought continues at 12 PM, per Learned Insight #2 (12 PM entries are the account's worst session, 20% win rate) and Insight #6 (pass rather than force low-conviction entries), require scanner confirmation or an exceptional setup before any new buy — do not force.
 
-7. DO NOT RE-ENTER TODAY'S EXITED TICKERS: Per SKILL, never open a new position in a ticker already closed or exited that same trading day (AMD lesson: -$14.73, -9.82%).
+5. DO NOT RE-ENTER CRWV TODAY: stopped out this session at $104.99 (-3.52%). Per SKILL/Learned Insights AVOID rule, never open a new position in a ticker already closed that same trading day.
 
-Settled cash remaining: $386.84
-Unsettled (settles Aug 11): ~$79.05
-Total account value: ~$901.16
-Invested: ~$435.27 (~48.3%) — within 75% cap ✓
+Settled cash remaining: $286.64
+Unsettled (settles 8/18): $72.36
+Total account value: ~$920.45
+Invested: ~$561.45 (~61.0%) — within 75% cap ✓
 
 ---
 PRE-CHECK — Market day verification
