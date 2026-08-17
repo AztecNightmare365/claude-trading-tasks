@@ -49,55 +49,60 @@ Notes for 10:00 AM agent (June 25, 2026):
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-08-17, ~10:12 AM ET (10 AM session complete). Note: the 9:15 AM, 1 PM, 2 PM, and 5 PM routines are retired; the 9:30 AM open-reaction block in the 10 AM SKILL.md was stale (dated 8/14, from before the weekend) and was treated as absent — this session worked from the 7 AM overnight brief (dated today) plus live Robinhood data.
+Last updated: 2026-08-17, ~12:15 PM ET (12 PM reassessment complete). Note: the 1 PM and 2 PM stop-loss monitors are retired — this 12 PM agent is the last stop/TP check before 3:15 PM close, so stops below are set to stand unattended for ~3 hours.
 
-Open positions (3 total):
+Open positions (2 total):
 
-- MU: 0.079828 shares, avg entry $939.52, stop-loss $901.94 (UNVERIFIED 4% placeholder — never recorded when opened 8/13, still unverified), take-profit $1014.68 (UNVERIFIED 2x-TP placeholder), 10 AM price $1011.788 (+7.69% vs entry)
+- AMAT: 0.470792 shares, avg entry $531.02, stop-loss $515.12 (unchanged — opening 30-min low, 2.94% below entry), take-profit $562.82 (unchanged, 2x risk), 12 PM price $534.295 (+0.62% vs entry)
   entry_type: scanner
-  Thesis: NAND/DRAM supercycle, sector-wide rally. Fresh catalyst today: New Street upgraded MU to Buy ($1250 PT), citing HBM market "remarkably tight." ON TRACK, no action at 10 AM.
-  *** TP WATCH: $1011.79 vs TP $1014.68 — only $2.89 (0.28%) away. Sell immediately at $1014.68 (0.079828 shares, market order) if touched. Stop/TP are still unverified placeholders — treat with caution but honor them as the only recorded targets. ***
+  Thesis: Priority sector watchlist / sector_momentum entry (QQQ up, broad AI/semis rally). No AMAT-specific dated catalyst. No change since 10 AM — checked fresh news at 12 PM, all coverage remains positive (AI/semis capex, HBM/DRAM tightness), no negative counterweight. Up only +0.62% from entry — below the 2% trail-to-breakeven threshold, so stop is NOT trailed this session; still the tightest, lowest-conviction position in the book (2.94% stop distance) and the first to reassess if semis momentum stalls before 3:15 PM.
+  - If AMAT >= $562.82: sell immediately (take-profit, 0.470792 shares, market order)
+  - If AMAT <= $515.12: sell immediately (stop-loss — no discretion)
 
-- FOXA: 3.326340 shares, avg entry $68.64, stop-loss $65.21 (UNVERIFIED placeholder, never recorded when opened 8/14, chain broke before writing one), take-profit $75.50 (UNVERIFIED placeholder), 10 AM price $69.22 (+0.85% vs entry)
+- FOXA: 3.326340 shares, avg entry $68.64, stop-loss $65.21 (unchanged, still an unverified placeholder), take-profit $75.50 (unchanged, unverified placeholder), 12 PM price $69.08 (+0.64% vs entry)
   entry_type: manual
-  Thesis: FQ4 beat + Tubi growth. No binary events. ON TRACK, no action at 10 AM.
+  Thesis: FQ4 beat + Tubi growth. No binary events. Checked fresh news at 12 PM — no new developments since 8/14 (older Roku-acquisition/debt-load coverage is pre-entry and already priced in). Up only +0.64% from entry — below the 2% trail threshold, stop NOT trailed. On track, no action needed.
+  - If FOXA >= $75.50: sell immediately (take-profit, 3.326340 shares, market order)
+  - If FOXA <= $65.21: sell immediately (stop-loss — no discretion)
 
-- AMAT: 0.470792 shares, avg entry $531.02, stop-loss $515.12 (opening 30-min low, 2.94% below entry), take-profit $562.82 (2x risk), 10 AM price ~$531.02 (just opened)
-  entry_type: scanner
-  Thesis: Priority sector watchlist entry — QQQ up on the day, AMAT +4.65% intraday on broad AI/semis rally (Anthropic revenue beat, memory-supply-constraint narrative lifting MU/SNDK/WDC/AMAT together). No AMAT-specific dated catalyst — this is a sector_momentum entry, sized MEDIUM conviction (not HIGH) specifically because it lacks scanner confirmation and a ticker-specific catalyst (Learned Insight #10 flags sector_momentum-alone as historically weak, 33% win rate). Relative volume ~2.6x (strong), price above VWAP, trading in top 20% of intraday range at entry. No earnings today. Dollar risk ~$7.36.
+Sells executed at 12 PM (1 total):
+- MU: 0.079828 shares sold at market $1027.72
+  Reason: HARD EXIT — take-profit. Handoff TP was $1014.68 (unverified placeholder); 12 PM price $1027.80 (fresh quote at order time $1027.825, filled $1027.72) was well through it. Fresh news at 12 PM was uniformly bullish for MU (SK Hynix pop on Trump-admin domestic/allied memory-sourcing policy; Elon Musk calling memory the AI rate-limiter) — no thesis break, this was a mechanical TP exit executed without discretion per SKILL Step 2.
+  Gain: +9.39% / +$7.04. Proceeds: ~$82.04 UNSETTLED (settles 8/18).
 
-Sells executed at 10 AM (1 total):
-- CRWV: 0.689212 shares sold at market $104.9901
-  Reason: Hard stop-loss BREACH — stop was $104.47 (from 7 AM brief), price fell to $103.93 at check time (session low $103.93, filled $104.9901) — entry $108.82, -3.52%/-$2.64. No thesis break identified (no negative news; CoreWeave backlog/rate-cut narrative still positive) — this was a mechanical stop-loss exit, no discretion applied per SKILL Step 2.
-  Proceeds: $72.36 UNSETTLED (settles 8/18)
+No new buys: scanner drought continued (15th consecutive 0/0 on both scans). Priority sector watchlist checked directly per SKILL: SNDK +9.2% and WDC +5.7% both disqualified — hard 15%-in-5-trading-days volatility rule (SNDK ~+49%, WDC ~+24% over the 5-day window, extending the same disqualification the 10 AM session already applied at smaller magnitudes). INTC +2.1% cleared the QQQ-up sector-watchlist 2% exception on paper but had no ticker-specific dated catalyst (its own memory business was sold off years ago) and carried same-day negative-leaning coverage (Druckenmiller trimmed INTC per a 13F story published today) — passed. MU and AMAT excluded (already-held/same-day-exited). Checked Daily Movers list (mostly illiquid/OTC names, nothing qualifying) and web search for today's analyst upgrades: OKTA (Wells Fargo upgrade) was red on the day (-2.3%) despite the upgrade; ALAB (Northland upgrade) was only +1.6% and fading versus its 10 AM read of +2.7% — both below the 3% bar and not holding gains. No FDA or M&A catalysts surfaced that fit the filters. Per Learned Insight #2 (12 PM entries are the account's worst session, 20% historical win rate) and Insight #6 (pass rather than force), skipped buying entirely this session.
 
-Portfolio sync at 10 AM: live get_equity_positions = MU, CRWV, FOXA — exactly matched the 7 AM overnight brief (which had already resynced from live data after the 3:15 PM chain broke on 8/14). No manual adoptions or unexpected closures found. CRWV closed this session per stop-loss above; JBL (closed 8/14, unlogged per earlier flag) and SNDK (stale-order auto-exit 8/14) remain correctly absent from the live portfolio — no further action needed on either.
+Portfolio sync at 12 PM: live get_equity_positions = AMAT, FOXA — matched the 10 AM handoff exactly (MU sold this session per TP above). No manual adoptions or unexpected closures found. No pending/stale orders found to cancel.
 
-Market regime at 10 AM: SPY $775.29 (-0.14%), QQQ $731.95 (+0.12%) — normal regime, no gate triggered. Both Robinhood momentum scanners (3%/1.2x-relvol and 6%-big-mover) returned 0 candidates — a scanner drought. Screened SNDK (+7.0%, but +32.6% over the past 5 trading days — disqualified, hard 15%-in-5-days volatility rule), WDC (+5.5%, but +16.1% over 5 days — disqualified, same rule), ALAB (+2.7%, below 3% bar despite a same-day analyst upgrade — screened out), AAPL (-0.4%, down), CW (flat, ~0.0% despite lingering earnings-beat coverage) — none of these qualified. AMAT was the only candidate clearing every hard filter.
-
-Settled cash remaining: $286.64
-Unsettled (settles 8/18): $72.36 (CRWV proceeds)
-Total account value: ~$920.45
-Portfolio invested: ~$561.45 (~61.0%) — within 75% cap ✓
-
-Catalyst watch list: none (today) — 7 AM brief carried forward "Catalyst watch: NONE" since the 3:15 PM chain broke on 8/14 before writing one.
-
-NOTES FOR 12 PM AGENT (Mon Aug 17, 2026):
-
-1. MU TP WATCH — CRITICAL: $1011.79 at 10 AM vs TP $1014.68 (only 0.28% away, same pattern flagged in the 7 AM brief). Sell immediately at $1014.68 (0.079828 shares, market order) if touched before your check. Stop/TP remain UNVERIFIED placeholders (never properly recorded when the position opened 8/13) — honor them anyway as the only recorded targets, but do not treat them as precision figures.
-
-2. AMAT is a lower-conviction, sector_momentum-only entry with no ticker-specific catalyst — watch closely for a fade. Stop is tight (2.94% below entry, $515.12). If broad semis momentum stalls, this is the first position to reassess.
-
-3. FOXA quiet and on track (+0.85%), no action needed unless stop/TP hit.
-
-4. SCANNER DROUGHT: both scanners returned 0 at 10 AM. If the drought continues at 12 PM, per Learned Insight #2 (12 PM entries are the account's worst session, 20% win rate) and Insight #6 (pass rather than force low-conviction entries), require scanner confirmation or an exceptional setup before any new buy — do not force.
-
-5. DO NOT RE-ENTER CRWV TODAY: stopped out this session at $104.99 (-3.52%). Per SKILL/Learned Insights AVOID rule, never open a new position in a ticker already closed that same trading day.
+Market conditions at 12 PM (Mon Aug 17, 2026): SPY $775.40 (-0.12%), QQQ $732.68 (+0.22%) — normal regime, essentially unchanged from the 10 AM read (SPY -0.14%, QQQ +0.12%); no regime gate triggered, no trend change since the open. Broader tape: reports of fresh Middle East violence weighing modestly on the Dow/S&P at the open; tech outperforming on Anthropic's Q2 revenue beat; memory chips (MU, SNDK) the standout gainers sector-wide.
 
 Settled cash remaining: $286.64
-Unsettled (settles 8/18): $72.36
-Total account value: ~$920.45
-Invested: ~$561.45 (~61.0%) — within 75% cap ✓
+Unsettled (settles 8/18): $154.40 (CRWV $72.36 + MU $82.04)
+Total account value: ~$922.36
+Portfolio invested: ~$481.32 (~52.2%) — within 75% cap ✓
+
+Catalyst watch list: none carried forward — 10 AM handoff had none.
+
+NOTES FOR 3:15 PM AGENT (Mon Aug 17, 2026):
+
+1. THIS IS THE LAST CHECK BEFORE YOU — 1 PM/2 PM monitors are retired. Both remaining stops (AMAT $515.12, FOXA $65.21) and both TPs (AMAT $562.82, FOXA $75.50) must hold unattended for ~3 hours; re-verify against live quotes immediately at your check rather than trusting these as still-current.
+
+2. AMAT WATCH: lowest-conviction position in the book — sector_momentum only, no ticker-specific catalyst, tightest stop (2.94% below entry). Only +0.62% at noon. If broad semis/AI momentum fades into the afternoon, this is the first candidate for a discretionary exit (requires an actual thesis break, not just price drift, per SKILL Step 2 discretionary-exit rule).
+
+3. FOXA quiet and on track (+0.64%), no binary events known. Stop/TP are still unverified placeholders inherited from 8/14 — treat as directional, not precision figures.
+
+4. MU TAKE-PROFIT HIT AND CLOSED at 12 PM (+9.39%/+$7.04) on very strong, dated, sector-wide memory-chip news (Trump-admin domestic/allied chip-sourcing policy, Elon Musk memory comments) — both published today. If MU or SNDK re-set up with a genuine 3:15 PM overnight catalyst, this narrative is fresh and real, not stale; do not treat today's earlier TP exit as a reason to avoid a fresh, independently-qualifying re-entry, but per Learned Insights never re-enter a ticker already closed this session — MU is closed for the day, do not re-buy it.
+
+5. SCANNER DROUGHT NOW 15 CONSECUTIVE SESSIONS (0/0 again at 12 PM). Per Insight #2/#6, keep requiring genuine scanner confirmation or an exceptional, fresh-catalyst setup for any 3:15 PM overnight buy — do not force.
+
+6. SNDK/WDC ELEVATED BUT EXTENDED: both up huge today (SNDK +9.2%, WDC +5.7%) on the same memory-chip reshoring/demand narrative as MU, but both already disqualified twice today (10 AM and 12 PM) on the hard 15%-in-5-day volatility rule (SNDK ~+49%, WDC ~+24% over 5 days). Do not chase either for an overnight hold without a materially fresh, ticker-specific catalyst beyond the existing sector story.
+
+7. CASH: $286.64 settled + $154.40 unsettled (CRWV + MU, both settle 8/18) = ~$922.36 total. Only ~52.2% invested — meaningful dry powder if a genuine 3:15 PM setup appears.
+
+Settled cash remaining: $286.64
+Unsettled (settles 8/18): $154.40
+Total account value: ~$922.36
+Invested: ~$481.32 (~52.2%) — within 75% cap ✓
 
 ---
 PRE-CHECK — Market day verification
