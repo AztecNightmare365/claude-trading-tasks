@@ -14,20 +14,19 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:41 AM ET, Fri 2026-08-14.** ANOMALY: 3:15PM handoff stale (dated 8/12, 8/13 session chain broke). Used LIVE portfolio as truth: 4 positions. SMCI closed 8/13 10:22AM @$41.18 (TP $38.68 hit, +15%) — unlogged in trade_log, flagging not backfilling. MU+SNDK opened 8/13, no recorded stop/TP (chain broke first) — 4%/2x-TP convention used below as unverified placeholders.
+**7:00 AM ET, Mon 2026-08-17.** ANOMALY: 3:15PM Fri 8/14 session executed trades (sold JBL @$364.37 +2.90%, bought FOXA $228.32 @$68.64) but crashed before writing its handoff or trade_log row — chain broke again. Used LIVE portfolio as truth: MU, CRWV, FOXA (JBL confirmed closed). JBL exit unlogged — flagging, not backfilling. FOXA has no recorded stop/TP — unverified 5%/2x-TP placeholder used below.
 
-JBL $371.00 (+0.19%), stop $339.95 (8.4% cushion), TP $382.43 (3.1% away). No news, thesis intact. ON TRACK.
-CRWV $106.60 (+0.29%), stop $104.47 (2.0% cushion, thin), TP $117.52. No negative news, thesis intact. ON TRACK.
-MU $978.04 (+2.97%), entry $939.52 (+4.10%). Est stop $901.94/TP $1014.68 (unverified). Genuine NAND/DRAM supercycle rally (sector-wide). ON TRACK.
-SNDK $1630.57 (+6.71%), entry $1559.19 (+4.58%). Est stop $1496.82/TP $1683.94 (unverified). Investor Day 8/13 raised targets (+13.67% Thu, premkt follow-through). ON TRACK. *** CRITICAL: full-position QUEUED agentic market SELL (placed 6:49PM 8/13, unfilled) still live — WILL DUMP AT 9:30 OPEN unless cancelled. Not cancelled here (no order-cancel authority in this routine). ***
+MU $1000.20 (+2.94% ON, +6.46% vs entry $939.52). Stop $901.94*/TP $1014.68* (*unverified placeholder). Only 1.45% from TP — watch closely at open. New Street upgrade to Buy ($1250 PT); broad AI/memory rally (Anthropic rev beat). ON TRACK.
+CRWV $107.30 (+1.94% ON, -1.40% vs entry $108.82). Stop $104.47 (2.6% cushion)/TP $117.52. No negative news, Q2 beat/backlog thesis intact. ON TRACK.
+FOXA $69.14 (+0.14% ON, +0.73% vs entry $68.64). Stop $65.21*/TP $75.50* (*unverified, no recorded stop). Wide premkt spread ($64.76/$70, ~7.6%) — thin liquidity, not actionable. FQ4 beat + Tubi growth thesis intact. ON TRACK.
 
 Pre-market sells: NONE.
 
-Catalyst watch (8/12 list, 8/13 10AM entry window passed, none entered — informational): TPR FAILED (beat, weak FY27 guide, -8.9% premkt). CSCO CONFIRMED/FLAT-DOWN (beat rev+EPS+AI orders, sold the news). CBRS CONFIRMED (beat rev+EPS, cloud +281% YoY). LNTH NO DATA (PDUFA 8/13 outcome unfound).
+Catalyst watch: NONE — 3:15PM chain broke before writing one for today.
 
-Macro: SPY $778.60 (+0.10%), QQQ $733.54 (+0.20%) — record highs, soft CPI/PPI eased Fed-hike fears, retail sales due today. Memory sector broad AI rally (SK Hynix/SNDK/MU up).
+Macro: SPY $777.30 (+0.12%), QQQ $734.77 (+0.51%) — flat/mild positive. Soft 8/14 retail sales cut Sept Fed-hike odds to ~30%. Anthropic revenue beat driving broad overnight AI/semis rally. No CPI/jobs today; FOMC minutes due 8/19.
 
-SUMMARY: 4 ON TRACK, 1 flagged (SNDK stale sell order), 0 premkt sells; catalyst list expired/moot (1 confirmed, 1 confirmed-flat, 1 failed, 1 no-data).
+SUMMARY: 3 ON TRACK, 0 flagged, 0 premkt sells; no catalyst list today (chain broke).
 
 ---
 
