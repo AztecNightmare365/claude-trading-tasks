@@ -33,54 +33,55 @@ your own machine and is honored.
 
 ### 1. Prerequisites
 
-- Node.js and Claude Code installed
-- Logged in with the same Anthropic account (so the claude.ai connectors —
-  Robinhood, polygon-io, Gmail — are available)
-- Machine stays awake through market hours; sleep will silently skip runs
+On the target machine (the Optiplex):
 
-### 2. Clone the repo
+- Node.js and Claude Code installed
+- `claude` run once interactively and logged in, with the same Anthropic account
+  that owns the connectors (Robinhood, polygon-io, Gmail)
+- Git able to push without an interactive prompt — SSH deploy key or a
+  credential helper. An unattended `git push` that asks for a password hangs
+  the routine forever.
+- Timezone set to Eastern, so the schedule tracks market hours across DST:
+  `sudo timedatectl set-timezone America/New_York`
+- The machine stays awake through market hours; sleep silently skips runs
+
+### 2. Run the bootstrap
 
 ```bash
 git clone https://github.com/AztecNightmare365/claude-trading-tasks.git ~/claude-trading-tasks
+cd ~/claude-trading-tasks
+bash local/bootstrap.sh --dry-run   # look first
+bash local/bootstrap.sh
 ```
 
-Set up git so the routines can push unattended — an SSH key or a credential
-helper, not an interactive prompt.
+It is idempotent — re-run it any time to pick up changes. It checks
+prerequisites, updates the checkout, installs `~/.claude/settings.json` (backing
+up any existing one), creates the log directory, and installs the schedule.
 
-### 3. Install the permission config
+The schedule is merged into your crontab inside a marked block, so **other cron
+jobs on the machine are preserved**. Do not install `local/crontab.et` directly;
+it is reference documentation, and installing it would replace your whole
+crontab.
 
-```bash
-mkdir -p ~/.claude
-cp ~/claude-trading-tasks/local/claude-settings.json ~/.claude/settings.json
-```
+Read `local/claude-settings.json` before running this. It grants broad standing
+permission including `place_equity_order` — that is the point, since a parked
+prompt means a missed stop-loss, but you should know what you are installing.
 
-Review it first. It grants broad standing permission including
-`place_equity_order`, which is the point — a parked prompt means a missed
-stop-loss — but you should know that's what you're installing.
-
-### 4. Verify connectors resolve locally
-
-Before trusting the schedule, run one routine by hand and confirm it completes
-without prompting:
+### 3. Verify before trusting the schedule
 
 ```bash
 cd ~/claude-trading-tasks
 claude -p "$(cat local/prompts/0700_overnight.txt)"
 ```
 
-If it prompts, note the exact tool name in the prompt and add it verbatim to the
-`allow` list. Connector-backed MCP tools are namespaced by connector UUID at
-runtime (see `.claude/README.md`), so copy the name exactly as shown.
+Watch for three things: that it never stops to ask permission, that the
+connectors resolve (it reads real prices), and that it commits and pushes at the
+end without asking for credentials.
 
-### 5. Install the schedule
-
-```bash
-crontab local/crontab.et
-```
-
-Times in `crontab.et` are **Eastern**, matching market hours. Set the machine's
-timezone to `America/New_York` so DST is handled for you — the cloud triggers
-used fixed UTC offsets, which drift against the market twice a year.
+If it prompts, copy the tool name from the prompt **verbatim, UUID prefix and
+all**, into the `allow` list in `~/.claude/settings.json`, then re-run.
+Connector-backed MCP tools are namespaced by connector UUID at runtime — see
+`.claude/README.md`.
 
 ## Verifying it works
 
