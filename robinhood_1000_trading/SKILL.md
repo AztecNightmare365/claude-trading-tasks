@@ -83,22 +83,48 @@ RAW STATS:
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-Last updated: 2026-08-18, ~8:56 AM ET (RESYNCED from live get_equity_positions on account ••••6616 after the 7 AM routine was found reading stale handoff data. The prior handoff listed JBL/CRWV/MU — none are held. This block now reflects the live account. Every routine must still re-verify via get_equity_positions before acting.)
+Last updated: 2026-08-18 (~3:17 PM ET — 3:15 PM session complete)
 
-Open positions (1 total, from live get_equity_positions):
+Open positions: NONE — account is 100% cash after FOXA stop-loss exit this session.
 
-- FOXA: 3.326340 shares, entry $68.64 (avg cost), stop-loss $65.21 (UNVERIFIED placeholder), take-profit $75.50 (UNVERIFIED), pre-market $69.07 (+0.6% vs cost, −0.2% overnight)
-  entry_type: manual
-  Thesis: FQ4 beat + Tubi growth (carried from prior brief). ON TRACK.
+EXITED THIS SESSION (1 trade):
+- FOXA: sold 3.326340 shares at $69.83 avg fill (market order, placed_agent=agentic, filled 2026-08-18T19:17:38Z)
+  Exit reason: STOP-LOSS TRIGGERED — price $69.91 at 3:15 PM was BELOW stop $70.04 (trailed per 10 AM handoff)
+  vs avg entry $68.64: +$1.19/sh, +1.73%, +$3.96 total P&L
+  Logged to trade_log.csv: exit_reason=stop_loss, entry_type=manual
+  DO NOT re-enter FOXA on Aug 19 — stop triggered intraday, thesis broken.
 
-SOLD — do not re-enter or re-manage:
-- AMAT: 0.470792 sh, entry $531.02, sold by USER manually 2026-08-18 09:35 ET @ $510.50 (market order, placed_agent=user), −3.86% / −$9.66. Already logged to trade_log.csv (exit_reason=user_manual). Position is CLOSED — not in the live account.
+Settled cash remaining: $441.04
+Unsettled (settles Aug 19): $472.63 total
+  - AMAT user sale proceeds (09:35 ET @ $510.50): $240.34
+  - FOXA 3:15 PM exit proceeds ($69.83 fill): $232.29
+Total account value: ~$913.67
+Portfolio invested: 0% — full cash
 
-No agent sells this session. No buys — no catalyst watch list.
+NOTES FOR 10 AM AGENT (Wed Aug 19, 2026):
 
-Settled cash / total account value / buying power: RESYNC LIVE (get_portfolio) — prior figures are stale. Position market value ≈ $230 (FOXA only; AMAT proceeds ~$240 now in cash, unsettled until 8/19).
+1. WEDNESDAY — RAISE THE BAR: Per Learned Insight #5, Wed-Fri win rate is 27.3% vs Mon-Tue 63.6%. Do NOT force entries. Only highest-conviction setups.
 
-Catalyst watch list: none (today).
+2. SCANNER DROUGHT — 15TH CONSECUTIVE SESSION: Both scans (9934ccf8 and 38cc0924) returned 0 results today. Per Learned Insight #6, pass rather than forcing low-conviction entries. If scanners break tomorrow, treat as a strong signal.
+
+3. TECH SECTOR WEAKNESS: QQQ −1.75%, XLK −2.71% today. Semiconductor watchlist all down hard (SNDK −9.96%, MU −7.66%, INTC −7.38%, WDC −7.40%, QCOM −1.21%). Avoid semiconductor watchlist unless a SPECIFIC dated catalyst exists — sector_momentum alone is insufficient (Learned Insight #10).
+
+4. FOXA — DO NOT RE-ENTER AUG 19: Stop triggered intraday. Price $69.91 fell below trailed support $70.04. Per SKILL: never re-enter a ticker closed same trading day; thesis is broken for now.
+
+5. SETTLING CASH — CONFIRM BEFORE DEPLOYING: Total expected settled cash Aug 19 open ≈ $913.67 (all $472.63 unsettled clears). Verify via get_portfolio before deploying any capital beyond the $441.04 known settled today.
+
+6. MACRO: US-Iran tensions elevated; oil/yields higher. Defensive rotation (Healthcare XLV +1.64%, Energy XLE +1.57%, Consumer Staples XLP +1.45%). FOMC minutes due Aug 19 — could drive volatility mid-session. Be cautious around the release.
+
+7. DUOL ANALYST UPGRADE (watch): Duolingo upgraded to Buy at DA Davidson today ($160 PT). If DUOL is up at 10 AM and scanner-confirmed at the 3% bar, could be a viable play (analyst_upgrade has best win rate per Learned Insight #9: 66.7%). Use scanner path only — NOT catalyst_watch.
+
+8. MULTIPLE RETAILER EARNINGS BMO AUG 19: LOW (consensus $4.49), TGT, TJX, MDT, DKS, BJ all report before open. Per Learned Insight #1, do NOT use catalyst_watch entry path on any earnings_beat catalyst. If any beat and open strong, wait for scanner confirmation at the 3% bar.
+
+Catalyst watch list (awareness only — Learned Insight #1: NEVER use catalyst_watch early-entry path on earnings_beat catalysts):
+LOW | Earnings BMO | Aug 19 BMO | Neutral-Bullish | MEDIUM — scanner path only if beat confirmed
+TGT | Earnings BMO | Aug 19 BMO | Neutral | MEDIUM — scanner path only
+TJX | Earnings BMO | Aug 19 BMO | Bullish-bias (off-price resilience) | MEDIUM — scanner path only
+KEYS | Earnings AH Aug 18 → resolves overnight | ±9% implied, test & measurement | MEDIUM — scanner confirmation required
+TOL | Earnings AH Aug 18 → resolves overnight | Homebuilder, rate-sensitive, binary | HIGH — avoid unless exceptional beat + raised guidance
 ---
 
 ## AFTER-HOURS UPDATE
