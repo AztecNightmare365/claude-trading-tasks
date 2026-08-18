@@ -16,7 +16,7 @@ Execute all steps in order, then place all orders simultaneously.
 
 **7:00 AM ET, 2026-08-18.** Live-synced via get_equity_positions (acct ••••6616): AMAT, FOXA only.
 
-AMAT — 0.470792 sh, entry $531.02, pre-mkt $508.64 (bid $508.32/ask $509.69), −4.98% ON, −4.21% vs cost. Stop $509.78 (UNVERIFIED placeholder) BREACHED. CRITICAL STOP BREACH. Attempted pre-market limit sell @ $508.32 — REJECTED: Robinhood disallows fractional-share orders outside regular_hours (position is 100% fractional, no whole shares available). NOT SOLD. Cause: continuation of 8/14 post-earnings guidance selloff (flat margins, PT cuts at MS/UBS) + broad overnight risk-off (oil/yields up on US-Iran tension, QQQ futures −1.25%) — no fresh AMAT-specific news found. 9:30 AM AGENT: SELL AMAT AT MARKET OPEN AS FIRST ACTION — stop already breached, do not wait for further confirmation.
+AMAT — CLOSED. User sold 0.470792 sh manually at 09:35 ET @ $510.50 (market), −3.86% / −$9.66 vs $531.02 cost; logged (exit_reason=user_manual). Earlier directive RESOLVED — position no longer held. (History: 7 AM flagged CRITICAL STOP BREACH off pre-market $508.64 < stop $509.78; the 9:30 open printed $512.04 ABOVE the stop so the agent held per SKILL; user then closed it manually.)
 
 FOXA — 3.326340 sh, entry $68.64, pre-mkt $69.07, −0.17% ON, +0.63% vs cost. Stop $65.21/TP $75.50 (UNVERIFIED). ON TRACK — no adverse news, FQ4 beat/Tubi thesis intact.
 
@@ -26,7 +26,7 @@ Catalyst watch: none today.
 
 Macro: SPY pre-mkt −0.41%, QQQ pre-mkt −1.25%. Futures broadly down (Dow −0.2%, S&P −0.5%, Nasdaq-100 −1.3%) on US-Iran tension driving oil/yields higher. No FOMC surprise (minutes due 8/19, not today).
 
-SUMMARY: 1 position ON TRACK (FOXA), 1 CRITICAL STOP BREACH unsold due to fractional-share pre-market restriction (AMAT — urgent 9:30 AM sell), 0 pre-market sells placed, 0 catalyst tickers.
+SUMMARY: 1 position ON TRACK (FOXA); AMAT closed by user @ $510.50 (logged, user_manual); 0 catalyst tickers.
 
 ---
 
@@ -43,7 +43,7 @@ Portfolio sync: live account = AMAT (0.470792 sh, avg $531.02) + FOXA (3.326340 
 
 SPY $768.385 (−0.55%), QQQ $720.53 (−1.28%) — normal regime (SPY down <1%), no gate triggered.
 
-Status: 0 stop/TP sells, 0 catalyst entries, 2 positions open for 10 AM (AMAT stop $509.78, FOXA stop $65.21/TP $75.50). NOTE: AMAT is −3.57% vs entry and close to its stop — 10 AM agent should verify at 10 AM open price and be ready to sell if stop is hit.
+Status: 0 stop/TP sells, 0 catalyst entries. POST-SESSION UPDATE: user sold AMAT manually @ $510.50 at 09:35 ET (logged, exit_reason=user_manual) — only FOXA (stop $65.21/TP $75.50) remains open for 10 AM.
 
 ---
 
@@ -85,19 +85,18 @@ RAW STATS:
 
 Last updated: 2026-08-18, ~8:56 AM ET (RESYNCED from live get_equity_positions on account ••••6616 after the 7 AM routine was found reading stale handoff data. The prior handoff listed JBL/CRWV/MU — none are held. This block now reflects the live account. Every routine must still re-verify via get_equity_positions before acting.)
 
-Open positions (2 total, from live get_equity_positions):
-
-- AMAT: 0.470792 shares, entry $531.02 (avg cost), stop-loss $509.78 (UNVERIFIED 4% placeholder — no stop was ever recorded; this is a manually-added position), take-profit UNSET, pre-market $510.00 (−4.0% vs cost, −4.7% overnight)
-  entry_type: manual
-  Thesis: user-opened, not routine-sourced — no recorded thesis. Down move is macro (QQQ −1.25% pre-market), no confirmed AMAT-specific news. Sitting right at the placeholder stop. 9:30 AM agent: verify live, confirm/set a real stop, check for AMAT-specific news before any action.
+Open positions (1 total, from live get_equity_positions):
 
 - FOXA: 3.326340 shares, entry $68.64 (avg cost), stop-loss $65.21 (UNVERIFIED placeholder), take-profit $75.50 (UNVERIFIED), pre-market $69.07 (+0.6% vs cost, −0.2% overnight)
   entry_type: manual
   Thesis: FQ4 beat + Tubi growth (carried from prior brief). ON TRACK.
 
-No sells this session. No buys — no catalyst watch list.
+SOLD — do not re-enter or re-manage:
+- AMAT: 0.470792 sh, entry $531.02, sold by USER manually 2026-08-18 09:35 ET @ $510.50 (market order, placed_agent=user), −3.86% / −$9.66. Already logged to trade_log.csv (exit_reason=user_manual). Position is CLOSED — not in the live account.
 
-Settled cash / total account value / buying power: RESYNC LIVE (get_portfolio) — prior figures ($687.79 cash / ~$917.68 total) were from 8/14 and are stale. Position market value ≈ $470 (AMAT ~$240 + FOXA ~$230).
+No agent sells this session. No buys — no catalyst watch list.
+
+Settled cash / total account value / buying power: RESYNC LIVE (get_portfolio) — prior figures are stale. Position market value ≈ $230 (FOXA only; AMAT proceeds ~$240 now in cash, unsettled until 8/19).
 
 Catalyst watch list: none (today).
 ---
