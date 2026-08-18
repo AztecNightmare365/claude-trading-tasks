@@ -14,21 +14,16 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET, Tue 2026-08-18.**
+**INVALIDATED — 2026-08-18.** The auto-generated 7 AM brief assessed MU/CRWV as held; they are NOT. Live get_equity_positions on account ••••6616 shows only AMAT + FOXA. The 7 AM routine read stale handoff data instead of syncing live (fixed 2026-08-18 — it now calls get_equity_positions first). The prior "SELL CRWV AT MARKET OPEN" instruction is VOID — that position does not exist. Reconciled live book below; regenerate this brief via the fixed 7 AM routine.
 
-MU $966.50 (-4.47% ON, +2.87% vs entry $939.52). Stop $901.94*/TP $1014.68* (unverified placeholders). GAP DOWN WARNING — QQQ-driven macro pullback; no MU-specific adverse news; NAND/DRAM supercycle + New Street Buy thesis intact. Stop safe (+6.7% cushion). 9:30 AM: enforce stop at open if gap extends; TP $1014.68 now 5.0% away.
+Live positions (reconciled from get_equity_positions, pre-market ~8:56 AM ET):
+AMAT — 0.470792 sh, avg cost $531.02, pre-mkt $510.00 (−4.7% ON, −4.0% vs cost). entry_type=manual. No recorded stop; placeholder 4% stop $509.78 UNVERIFIED — 9:30 AM agent to confirm. Down move is macro (QQQ −1.25%); confirm no AMAT-specific news at open before any action.
+FOXA — 3.326340 sh, avg cost $68.64, pre-mkt $69.07 (−0.2% ON, +0.6% vs cost). entry_type=manual. ON TRACK.
 
-CRWV $102.50 (-3.30% ON, -5.82% vs entry $108.82). Stop $104.47. *** CRITICAL STOP BREACH — price $1.97 below stop. *** Pre-market sell COULD NOT execute: Robinhood limit orders in extended hours require whole shares; position is 0.689212 sh (fractional). *** 9:30 AM AGENT: SELL CRWV AT MARKET OPEN — do not wait. Est. P&L: -5.82% / ~-$4.37. No CRWV-specific adverse news; macro-driven. Stop was valid — honor it.
-
-FOXA $69.07 (-0.17% ON, +0.63% vs entry $68.64). Stop $65.21*/TP $75.50* (unverified). Bid $64/Ask $70 (8.7% spread) — thin, not actionable premkt. No adverse news. FQ4 beat + Tubi thesis intact. ON TRACK.
-
-Pre-market sells: NONE placed (CRWV stop breach could not execute — fractional/extended-hours constraint).
-
-Catalyst watch: NONE — no watch list (3:15 PM chain broke 8/14).
-
-Macro: SPY $769.19 (-0.45%), QQQ $721.85 (-1.10%) — risk-off; rising bond yields + oil spike. No CPI/jobs today. FOMC minutes due 8/19 (Jul 29 meeting).
-
-SUMMARY: 1 ON TRACK (FOXA), 1 GAP DOWN WARNING (MU), 1 CRITICAL STOP BREACH (CRWV — 9:30 AM must sell at open), 0 premkt sells; no catalyst list.
+Pre-market sells: NONE.
+Catalyst watch: NONE.
+Macro: SPY −0.42%, QQQ −1.25% pre-market — risk-off.
+SUMMARY: 2 positions live (AMAT, FOXA); 0 pre-market sells. Phantom MU/CRWV instructions voided.
 
 ---
 
@@ -87,31 +82,21 @@ RAW STATS:
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-Last updated: 2026-08-14, 9:30 AM ET (written by the 9:30 AM open-reaction agent — the 3:15 PM chain has been stale since 8/12; the 7 AM overnight brief flagged the same staleness and used the live portfolio as truth. Fully resyncing this block from live data.)
+Last updated: 2026-08-18, ~8:56 AM ET (RESYNCED from live get_equity_positions on account ••••6616 after the 7 AM routine was found reading stale handoff data. The prior handoff listed JBL/CRWV/MU — none are held. This block now reflects the live account. Every routine must still re-verify via get_equity_positions before acting.)
 
-Open positions (3 total, reconciled against live get_equity_positions at the 9:30 AM open):
+Open positions (2 total, from live get_equity_positions):
 
-- JBL: 0.211798 shares, entry $354.11, stop-loss $339.95, take-profit $382.43, open price $365.89 (+3.33% vs entry)
+- AMAT: 0.470792 shares, entry $531.02 (avg cost), stop-loss $509.78 (UNVERIFIED 4% placeholder — no stop was ever recorded; this is a manually-added position), take-profit UNSET, pre-market $510.00 (−4.0% vs cost, −4.7% overnight)
   entry_type: manual
-  Thesis: AI/hyperscaler-demand contract-manufacturing tailwind; no binary events, next earnings not until 9/24/2026. ON TRACK, no action at open.
+  Thesis: user-opened, not routine-sourced — no recorded thesis. Down move is macro (QQQ −1.25% pre-market), no confirmed AMAT-specific news. Sitting right at the placeholder stop. 9:30 AM agent: verify live, confirm/set a real stop, check for AMAT-specific news before any action.
 
-- CRWV: 0.689212 shares, entry $108.82, stop-loss $104.47, take-profit $117.52, open price $109.71 (+0.82% vs entry)
+- FOXA: 3.326340 shares, entry $68.64 (avg cost), stop-loss $65.21 (UNVERIFIED placeholder), take-profit $75.50 (UNVERIFIED), pre-market $69.07 (+0.6% vs cost, −0.2% overnight)
   entry_type: manual
-  Thesis: Q2 beat + backlog raised to $104.2B + FY26 guidance raised, confirmed gap-up catalyst. ON TRACK, no action at open.
+  Thesis: FQ4 beat + Tubi growth (carried from prior brief). ON TRACK.
 
-- MU: 0.079828 shares, entry $939.52, stop-loss $901.94 (UNVERIFIED 4% placeholder — real stop was never recorded when this position opened 8/13, chain broke first), take-profit $1014.68 (UNVERIFIED 2x-TP placeholder), open price $961.72 (+2.36% vs entry)
-  entry_type: scanner
-  Thesis: NAND/DRAM supercycle rally, sector-wide (SK Hynix/SNDK/MU all up). ON TRACK, no action at open. Treat stop/TP with caution until verified.
+No sells this session. No buys — no catalyst watch list.
 
-SOLD BY 9:30 AM AGENT — do not re-enter:
-- SNDK: 0.048102 shares, entry $1559.17, exit $1647.00 (+5.63% / +$4.22) — a stale queued market SELL placed 6:49 PM 8/13 (flagged CRITICAL in the 7 AM brief) filled automatically at today's 9:30 open. Not a discretionary stop/TP call this session. Logged to trade_log.csv, exit_reason=stale_order.
-- SMCI: already closed 8/13 10:22 AM (take-profit hit, +15%) by an earlier session, not this one. Carried as an unlogged flag in the 7 AM brief; noted here only to fully clear it from the handoff chain — no action needed.
-
-No buys made this session — no fresh catalyst watch list existed for today; the only list on record (TPR/CSCO/CBRS/LNTH, dated 8/12) was already flagged expired/moot in the 7 AM brief. SKILL Step 6 applies (skip all buys).
-
-Settled cash remaining: $687.79
-Total account value: ~$917.68
-Portfolio invested: ~$229.89 (~25.1%) — well within the 75% cap
+Settled cash / total account value / buying power: RESYNC LIVE (get_portfolio) — prior figures ($687.79 cash / ~$917.68 total) were from 8/14 and are stale. Position market value ≈ $470 (AMAT ~$240 + FOXA ~$230).
 
 Catalyst watch list: none (today).
 ---

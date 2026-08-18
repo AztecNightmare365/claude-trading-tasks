@@ -21,18 +21,26 @@ If any data call errors, times out, or returns nothing, note "data unavailable" 
 
 ---
 
-STEP 1 — Read current overnight positions
-Read `robinhood_1000_trading/SKILL.md` in full. Extract:
-1. `## HANDOFF FROM LAST 3:15 PM SESSION` block — all positions held overnight with entry, stop-loss, take-profit, overnight hold flag, thesis, and entry_type.
-2. If an `## AFTER-HOURS UPDATE` section exists (written by the 5 PM agent), read it for AH sells, new AH entries, and any catalyst status changes it already resolved.
-3. Catalyst watch list from the same handoff — tickers flagged for tomorrow morning's open.
+STEP 1 — Establish the live position list (SOURCE OF TRUTH)
 
-Note which positions (if any) the 5 PM AH agent already sold or modified. Do not re-action those.
+FIRST, sync against the live account — do NOT derive positions from the handoff text. The user (Aaron) trades this account manually between sessions and the 3:15 PM handoff chain has broken before, so the handoff is NOT reliable evidence of what is actually held.
+
+1. Call get_accounts and select the agentic-enabled account (agentic_allowed=true). If exactly one such account exists, use it. If zero or more than one, note "account ambiguous — live sync unavailable", write a diagnostic brief in Step 6, and STOP — do not place any orders.
+2. Call get_equity_positions for that account. The returned holdings are the AUTHORITATIVE list of what you own right now. For each symbol record: symbol, quantity (use shares_available_for_sells), and average_buy_price (this is the entry).
+
+THEN read `robinhood_1000_trading/SKILL.md` in full and reconcile the handoff against the live list:
+- Handoff position ALSO in the live list → carry over its stop-loss, take-profit, thesis, entry_type.
+- Live position NOT in the handoff → the user opened it manually. Adopt it: entry = average_buy_price, entry_type=manual, and set a placeholder stop 4% below entry, flagged UNVERIFIED for the 9:30 AM agent to confirm.
+- Handoff position NOT in the live list → the user closed it manually. Drop it, note "USER CLOSED [TICKER]", and never place an order for it.
+- If an `## AFTER-HOURS UPDATE` section exists, read it for context only.
+- Read the catalyst watch list from the same handoff.
+
+HARD RULE — never fabricate positions: assess and (if warranted) place orders ONLY for tickers returned by get_equity_positions. Never assess or sell a ticker that is not in the live portfolio, and never omit one that is. If the live sync failed or returned nothing, write a diagnostic brief saying so and STOP before any order — do NOT fall back to the handoff position list as if it were live.
 
 ---
 
 STEP 2 — Get current pre-market prices
-For every overnight position that is still open (not already sold by the 5 PM AH agent):
+For every live position from Step 1 (each ticker returned by get_equity_positions):
 - Call get_equity_quotes. Use last_non_reg_trade_price as the pre-market price; fall back to bid_price if unavailable.
 - Calculate overnight change %: (pre-market price − adjusted_previous_close) / adjusted_previous_close × 100.
 - Note distance from stop-loss: (pre-market price − stop-loss) / pre-market price × 100.
