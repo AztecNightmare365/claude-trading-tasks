@@ -14,16 +14,19 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**INVALIDATED — 2026-08-18.** The auto-generated 7 AM brief assessed MU/CRWV as held; they are NOT. Live get_equity_positions on account ••••6616 shows only AMAT + FOXA. The 7 AM routine read stale handoff data instead of syncing live (fixed 2026-08-18 — it now calls get_equity_positions first). The prior "SELL CRWV AT MARKET OPEN" instruction is VOID — that position does not exist. Reconciled live book below; regenerate this brief via the fixed 7 AM routine.
+**7:00 AM ET, 2026-08-18.** Live-synced via get_equity_positions (acct ••••6616): AMAT, FOXA only.
 
-Live positions (reconciled from get_equity_positions, pre-market ~8:56 AM ET):
-AMAT — 0.470792 sh, avg cost $531.02, pre-mkt $510.00 (−4.7% ON, −4.0% vs cost). entry_type=manual. No recorded stop; placeholder 4% stop $509.78 UNVERIFIED — 9:30 AM agent to confirm. Down move is macro (QQQ −1.25%); confirm no AMAT-specific news at open before any action.
-FOXA — 3.326340 sh, avg cost $68.64, pre-mkt $69.07 (−0.2% ON, +0.6% vs cost). entry_type=manual. ON TRACK.
+AMAT — 0.470792 sh, entry $531.02, pre-mkt $508.64 (bid $508.32/ask $509.69), −4.98% ON, −4.21% vs cost. Stop $509.78 (UNVERIFIED placeholder) BREACHED. CRITICAL STOP BREACH. Attempted pre-market limit sell @ $508.32 — REJECTED: Robinhood disallows fractional-share orders outside regular_hours (position is 100% fractional, no whole shares available). NOT SOLD. Cause: continuation of 8/14 post-earnings guidance selloff (flat margins, PT cuts at MS/UBS) + broad overnight risk-off (oil/yields up on US-Iran tension, QQQ futures −1.25%) — no fresh AMAT-specific news found. 9:30 AM AGENT: SELL AMAT AT MARKET OPEN AS FIRST ACTION — stop already breached, do not wait for further confirmation.
 
-Pre-market sells: NONE.
-Catalyst watch: NONE.
-Macro: SPY −0.42%, QQQ −1.25% pre-market — risk-off.
-SUMMARY: 2 positions live (AMAT, FOXA); 0 pre-market sells. Phantom MU/CRWV instructions voided.
+FOXA — 3.326340 sh, entry $68.64, pre-mkt $69.07, −0.17% ON, +0.63% vs cost. Stop $65.21/TP $75.50 (UNVERIFIED). ON TRACK — no adverse news, FQ4 beat/Tubi thesis intact.
+
+Pre-market sells placed: NONE (AMAT attempt blocked — see above).
+
+Catalyst watch: none today.
+
+Macro: SPY pre-mkt −0.41%, QQQ pre-mkt −1.25%. Futures broadly down (Dow −0.2%, S&P −0.5%, Nasdaq-100 −1.3%) on US-Iran tension driving oil/yields higher. No FOMC surprise (minutes due 8/19, not today).
+
+SUMMARY: 1 position ON TRACK (FOXA), 1 CRITICAL STOP BREACH unsold due to fractional-share pre-market restriction (AMAT — urgent 9:30 AM sell), 0 pre-market sells placed, 0 catalyst tickers.
 
 ---
 
