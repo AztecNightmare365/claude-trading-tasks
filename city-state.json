@@ -1,18 +1,29 @@
 {
-  "ts": "2026-08-14T13:42:08Z",
+  "ts": "2026-08-18T13:31:00Z",
   "source": "robinhood_0930_open",
   "portfolio": {
-    "totalValue": 917.6804325,
-    "cash": 687.79,
-    "equityValue": 229.8904325,
-    "buyingPower": 608.57,
+    "totalValue": 914.65885356,
+    "cash": 441.04,
+    "equityValue": 473.61885356,
+    "buyingPower": 441.04,
     "positions": [
-      { "ticker": "MU", "shares": 0.079828, "entry": 939.52, "current": 961.72, "plPct": 2.36, "managed": true },
-      { "ticker": "JBL", "shares": 0.211798, "entry": 354.11, "current": 365.89, "plPct": 3.33, "managed": true },
-      { "ticker": "CRWV", "shares": 0.689212, "entry": 108.82, "current": 109.71, "plPct": 0.82, "managed": true }
+      {
+        "ticker": "AMAT",
+        "shares": 0.470792,
+        "entry": 531.02,
+        "current": 512.035,
+        "plPct": -3.57,
+        "managed": true
+      },
+      {
+        "ticker": "FOXA",
+        "shares": 3.326340,
+        "entry": 68.64,
+        "current": 69.345,
+        "plPct": 1.03,
+        "managed": true
+      }
     ]
   },
-  "fills": [
-    { "id": "6a7e49ee-bbac-4b42-bf6d-5f3cc1d2a7e7", "side": "sell", "ticker": "SNDK", "qty": 0.048102, "price": 1647.00, "at": "2026-08-14T13:30:00.118Z" }
-  ]
+  "fills": []
 }

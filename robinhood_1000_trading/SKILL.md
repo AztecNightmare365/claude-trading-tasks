@@ -33,19 +33,17 @@ SUMMARY: 1 position ON TRACK (FOXA), 1 CRITICAL STOP BREACH unsold due to fracti
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET session, 2026-08-14.** No PRE-MARKET BRIEF (retired 7/29); used 7 AM OVERNIGHT BRIEF + live quotes per SKILL fallback.
+**9:30 AM ET session, 2026-08-18.** No PRE-MARKET BRIEF (retired 7/29); used 7 AM OVERNIGHT BRIEF + live open prices per SKILL fallback.
 
-ANOMALY: SNDK's stale queued market SELL (placed 6:49 PM 8/13, flagged CRITICAL in the 7 AM brief as "WILL DUMP AT 9:30 OPEN unless cancelled") filled automatically at the open — 0.048102 sh @ $1647.00 (entry $1559.17, +5.63%/+$4.22). Not a stop/TP decision by this session — logged to trade_log.csv as exit_reason=stale_order.
+Sells (stop/TP checks): NONE triggered. AMAT open $512.035 vs stop $509.78 — open print is ABOVE stop (7 AM brief showed pre-market $508.64 below stop, but pre-market and open diverged — SKILL explicitly says do NOT sell if open price is above stop). GAP DOWN WARNING logged: AMAT −4.35% from prior close ($535.31) but above stop; stop manages it per SKILL. FOXA open $69.345 vs stop $65.21, TP $75.50 — ON TRACK, no action.
 
-Sells (stop/TP checks): NONE triggered. JBL $365.89 (entry $354.11, stop $339.95, TP $382.43) — ON TRACK. CRWV $109.71 (entry $108.82, stop $104.47, TP $117.52) — ON TRACK. MU $961.72 (entry $939.52, est. stop $901.94/TP $1014.68, unverified placeholders) — ON TRACK.
+Catalyst entries: NONE. Catalyst watch list is empty (confirmed in 7 AM brief and handoff).
 
-Catalyst entries: NONE. No fresh catalyst watch list for today — the only list in the 7 AM brief (TPR/CSCO/CBRS/LNTH, dated 8/12) was already flagged expired/moot. Per SKILL Step 6, skipped all buys.
+Portfolio sync: live account = AMAT (0.470792 sh, avg $531.02) + FOXA (3.326340 sh, avg $68.64) — matches handoff exactly. No manual adoptions, no missing positions.
 
-Portfolio sync: live account = MU, JBL, CRWV (matches expectation after SNDK's auto-exit); no manual adoptions found.
+SPY $768.385 (−0.55%), QQQ $720.53 (−1.28%) — normal regime (SPY down <1%), no gate triggered.
 
-SPY $777.86 (-0.00%), QQQ $732.64 (+0.08%) — normal regime, no gate triggered (moot, no buys queued anyway).
-
-Status: 0 stop/TP sells, 0 catalyst entries, 1 stale-order auto-exit (SNDK), 3 positions open for 10 AM (JBL, CRWV, MU).
+Status: 0 stop/TP sells, 0 catalyst entries, 2 positions open for 10 AM (AMAT stop $509.78, FOXA stop $65.21/TP $75.50). NOTE: AMAT is −3.57% vs entry and close to its stop — 10 AM agent should verify at 10 AM open price and be ready to sell if stop is hit.
 
 ---
 
