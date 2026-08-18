@@ -14,19 +14,21 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET, Mon 2026-08-17.** ANOMALY: 3:15PM Fri 8/14 session executed trades (sold JBL @$364.37 +2.90%, bought FOXA $228.32 @$68.64) but crashed before writing its handoff or trade_log row — chain broke again. Used LIVE portfolio as truth: MU, CRWV, FOXA (JBL confirmed closed). JBL exit unlogged — flagging, not backfilling. FOXA has no recorded stop/TP — unverified 5%/2x-TP placeholder used below.
+**7:00 AM ET, Tue 2026-08-18.**
 
-MU $1000.20 (+2.94% ON, +6.46% vs entry $939.52). Stop $901.94*/TP $1014.68* (*unverified placeholder). Only 1.45% from TP — watch closely at open. New Street upgrade to Buy ($1250 PT); broad AI/memory rally (Anthropic rev beat). ON TRACK.
-CRWV $107.30 (+1.94% ON, -1.40% vs entry $108.82). Stop $104.47 (2.6% cushion)/TP $117.52. No negative news, Q2 beat/backlog thesis intact. ON TRACK.
-FOXA $69.14 (+0.14% ON, +0.73% vs entry $68.64). Stop $65.21*/TP $75.50* (*unverified, no recorded stop). Wide premkt spread ($64.76/$70, ~7.6%) — thin liquidity, not actionable. FQ4 beat + Tubi growth thesis intact. ON TRACK.
+MU $966.50 (-4.47% ON, +2.87% vs entry $939.52). Stop $901.94*/TP $1014.68* (unverified placeholders). GAP DOWN WARNING — QQQ-driven macro pullback; no MU-specific adverse news; NAND/DRAM supercycle + New Street Buy thesis intact. Stop safe (+6.7% cushion). 9:30 AM: enforce stop at open if gap extends; TP $1014.68 now 5.0% away.
 
-Pre-market sells: NONE.
+CRWV $102.50 (-3.30% ON, -5.82% vs entry $108.82). Stop $104.47. *** CRITICAL STOP BREACH — price $1.97 below stop. *** Pre-market sell COULD NOT execute: Robinhood limit orders in extended hours require whole shares; position is 0.689212 sh (fractional). *** 9:30 AM AGENT: SELL CRWV AT MARKET OPEN — do not wait. Est. P&L: -5.82% / ~-$4.37. No CRWV-specific adverse news; macro-driven. Stop was valid — honor it.
 
-Catalyst watch: NONE — 3:15PM chain broke before writing one for today.
+FOXA $69.07 (-0.17% ON, +0.63% vs entry $68.64). Stop $65.21*/TP $75.50* (unverified). Bid $64/Ask $70 (8.7% spread) — thin, not actionable premkt. No adverse news. FQ4 beat + Tubi thesis intact. ON TRACK.
 
-Macro: SPY $777.30 (+0.12%), QQQ $734.77 (+0.51%) — flat/mild positive. Soft 8/14 retail sales cut Sept Fed-hike odds to ~30%. Anthropic revenue beat driving broad overnight AI/semis rally. No CPI/jobs today; FOMC minutes due 8/19.
+Pre-market sells: NONE placed (CRWV stop breach could not execute — fractional/extended-hours constraint).
 
-SUMMARY: 3 ON TRACK, 0 flagged, 0 premkt sells; no catalyst list today (chain broke).
+Catalyst watch: NONE — no watch list (3:15 PM chain broke 8/14).
+
+Macro: SPY $769.19 (-0.45%), QQQ $721.85 (-1.10%) — risk-off; rising bond yields + oil spike. No CPI/jobs today. FOMC minutes due 8/19 (Jul 29 meeting).
+
+SUMMARY: 1 ON TRACK (FOXA), 1 GAP DOWN WARNING (MU), 1 CRITICAL STOP BREACH (CRWV — 9:30 AM must sell at open), 0 premkt sells; no catalyst list.
 
 ---
 
