@@ -1,29 +1,12 @@
 {
-  "ts": "2026-08-18T19:19:00Z",
-  "source": "robinhood_1515_trading",
+  "ts": "2026-08-19T13:31:00Z",
+  "source": "robinhood_0930_open",
   "portfolio": {
-    "totalValue": 913.67,
-    "cash": 913.67,
+    "totalValue": 913.68,
+    "cash": 913.68,
     "equityValue": 0,
-    "buyingPower": 441.04,
+    "buyingPower": 913.68,
     "positions": []
   },
-  "fills": [
-    {
-      "id": "6a845fa0-be01-4101-87c2-502f5293061a",
-      "side": "sell",
-      "ticker": "AMAT",
-      "qty": 0.470792,
-      "price": 510.50,
-      "at": "2026-08-18T13:35:28.28Z"
-    },
-    {
-      "id": "6a84afd2-1e76-4fe2-8f1a-29f2aa1e13c5",
-      "side": "sell",
-      "ticker": "FOXA",
-      "qty": 3.326340,
-      "price": 69.83,
-      "at": "2026-08-18T19:17:38.436Z"
-    }
-  ]
+  "fills": []
 }

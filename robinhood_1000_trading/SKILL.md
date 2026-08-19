@@ -39,17 +39,19 @@ SUMMARY: 0 positions ON TRACK; 0 flagged; 0 pre-market sells. 1 catalyst GAP UP 
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET session, 2026-08-18.** No PRE-MARKET BRIEF (retired 7/29); used 7 AM OVERNIGHT BRIEF + live open prices per SKILL fallback.
+**9:30 AM ET session, 2026-08-19.** No PRE-MARKET BRIEF (retired 7/29); used 7 AM OVERNIGHT BRIEF + live open prices.
 
-Sells (stop/TP checks): NONE triggered. AMAT open $512.035 vs stop $509.78 — open print is ABOVE stop (7 AM brief showed pre-market $508.64 below stop, but pre-market and open diverged — SKILL explicitly says do NOT sell if open price is above stop). GAP DOWN WARNING logged: AMAT −4.35% from prior close ($535.31) but above stop; stop manages it per SKILL. FOXA open $69.345 vs stop $65.21, TP $75.50 — ON TRACK, no action.
+Sells (stop/TP checks): NONE. 0 overnight positions — account 100% cash at open.
 
-Catalyst entries: NONE. Catalyst watch list is empty (confirmed in 7 AM brief and handoff).
+Catalyst entries: NONE. All catalyst watch list tickers are earnings_beat — Learned Insight #1 prohibits catalyst_watch early-entry path on all. Open prints: KEYS $350.92 (+2.91%, just below 3% scanner bar, scanner-path only); TJX $143.85 (−4.64%, confirmed flat/down, skip); LOW $216.79 (+0.53%, confirmed flat/down, skip); TGT $148.22 (−2.79%, confirmed flat/down, skip); TOL $153.76 (+7.63% — far beyond 7 AM's +0.40% pre-mkt assessment; guidance NOT raised per handoff, no catalyst_watch entry — pass to 10 AM scanner).
 
-Portfolio sync: live account = AMAT (0.470792 sh, avg $531.02) + FOXA (3.326340 sh, avg $68.64) — matches handoff exactly. No manual adoptions, no missing positions.
+Portfolio sync: 0 positions — 100% cash ($913.68 fully settled). Matches handoff exactly. No manual adoptions.
 
-SPY $768.385 (−0.55%), QQQ $720.53 (−1.28%) — normal regime (SPY down <1%), no gate triggered.
+SPY $770.32 (+0.37%), QQQ $719.90 (+0.33%) — NORMAL REGIME, no gate triggered.
 
-Status: 0 stop/TP sells, 0 catalyst entries. POST-SESSION UPDATE: user sold AMAT manually @ $510.50 at 09:35 ET (logged, exit_reason=user_manual) — only FOXA (stop $65.21/TP $75.50) remains open for 10 AM.
+FLAG FOR 10 AM: TOL opened +7.63% ($153.76 vs $142.86 prior close) — significantly stronger than the 7 AM brief's flat/down call (based on thin pre-mkt +0.40%). Run through scanner; note handoff requires exceptional beat + raised guidance (guidance reaffirmed, not raised). KEYS +2.91% just below 3% bar — monitor if it continues moving up.
+
+Status: 0 stop/TP sells, 0 catalyst entries, 0 positions open for 10 AM.
 
 ---
 
