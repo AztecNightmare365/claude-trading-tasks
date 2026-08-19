@@ -49,54 +49,47 @@ Notes for 10:00 AM agent (June 25, 2026):
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-08-18 (~4:05 PM ET — 12 PM reassessment running post-close; market closed before execution)
+Last updated: 2026-08-19 (~10:15 AM ET — 10 AM session complete)
 
-Open positions (1 total):
+Open positions: NONE — account is 100% cash. No buys made this session; no overnight positions to evaluate.
 
-- FOXA: 3.326340 shares, avg entry $68.64, stop-loss $70.04 (TRAILED from $65.21 UNVERIFIED), take-profit $75.50, overnight flag: YES
-  Close price: $70.87 | vs avg entry: +$2.23 (+3.25%) | Today's change: +2.43% vs prior close $69.19
-  entry_type: manual
-  Thesis: Fox Corp FQ4 beat + Tubi streaming growth. Strong relative strength today vs SPY −0.54% / QQQ −1.49%. Thesis intact, no adverse news.
-  Stop TRAILED to $70.04 (post-breakout intraday support — after 10:05 AM high-volume breakout bar, price never fell below $70.04 rest of session).
-  Minimum locked-in gain at stop: ($70.04 − $68.64) / $68.64 = +2.04%.
-  - If FOXA >= $75.50: sell immediately (take-profit, 3.326340 shares, market order)
-  - If FOXA <= $70.04: sell immediately (stop-loss — no discretion; gap-through risk overnight, sell at open if open is at or below $70.04)
+Settled cash remaining: $913.68 (fully settled — all Aug 18/19 proceeds cleared)
+Total account value: $913.68
+Portfolio invested: 0% — full cash
 
-12 PM reassessment actions:
-  - No exits: FOXA did not hit stop or TP. Market was closed at time of execution.
-  - No new buys: 14th consecutive scanner drought (both scanners returned 0). Market post-close. Per Learned Insight #2, skipped entirely.
-  - FOXA stop trailed: $65.21 (UNVERIFIED placeholder) → $70.04 (post-breakout intraday support, ~10:30 AM lows)
-  - AMAT: Confirmed closed by user at 09:35 ET @ $510.50 (already logged in prior session reconcile). NOT in live portfolio.
+NOTES FOR 3:15 PM AGENT (Wed Aug 19, 2026):
 
-Market conditions at close (Tue Aug 18, 2026):
-  SPY −0.54% | QQQ −1.49% — normal regime (below 1% gate). Tech notably weak.
-  Macro: US-Iran tension driving oil/yields higher per 7 AM brief.
-  FOXA outperformed: +2.43% vs SPY −0.54% — clear relative strength.
-  Scanner drought: 14th consecutive session (0 results on both scans).
+1. WEDNESDAY — RAISE THE BAR: Per Learned Insight #5, Wed-Fri win rate is 27.3% vs Mon-Tue 63.6%. Do NOT force entries. Only the highest-conviction setups qualify today.
 
-Settled cash remaining: $441.04
-Unsettled (settles Aug 19): $240.34 (AMAT proceeds from 09:35 ET user sale)
-Total account value: $917.15
-Portfolio invested: $235.77 (25.7%) — well within 75% cap ✓
+2. SCANNER DROUGHT — 16TH CONSECUTIVE SESSION: Both scans (9934ccf8 and 38cc0924) returned 0 results again. This is the 16th straight session with no scanner results. Per Learned Insight #6, pass rather than forcing low-conviction entries.
 
-NOTES FOR 3:15 PM AGENT / NEXT SESSION (Tue Aug 18, 2026 or Wed Aug 19):
+   SCANNER ANOMALY: EL was up +17.63% and TOL was up +7.26% at 10 AM, yet neither appeared in Scan 2 (no volume filter, only 6% + Mkt Cap >$500M). Scanner appears to have a data/calculation issue today. Manually verify any apparent scanner hits.
 
-NOTE: 12 PM session ran post-close (~4:05 PM ET). 3:15 PM session for today was not reached. If reading this before Wednesday open, $240.34 AMAT proceeds settle Aug 19 — do not use until confirmed settled.
+3. TGT — CATALYST CONFIRMED, ELIGIBLE IF SCANNER CONFIRMS AT 3:15 PM:
+   TGT beat EPS $2.46 vs $2.25 est (+9.3%) AND raised full-year guidance to ~5%. Price at 10 AM: ~$161, above VWAP $157.87, trend strong (higher highs throughout session, HOD $161.52). Market cap $72.9B. 10 AM could not enter: Insight #1 prohibits catalyst_watch early-entry on earnings_beat, and scanner returned 0. If TGT appears in the 3:15 PM scanner AND price confirms (still above VWAP, no major reversal), it is a viable scanner-path candidate for overnight hold. entry_type=scanner.
 
-1. FOXA STOP TIGHTNESS: Stop now $70.04 vs close $70.87 — only $0.83 (1.17%) below. Any gap-down overnight could trigger. If open print is at or below $70.04, sell immediately at market (no discretion). TP $75.50 is $4.63 (6.53%) away.
+4. EL — EARNINGS BEAT, MONITOR:
+   EL +17.63% on Q4 FY2026 EPS beat ($0.39 actual vs $0.32 est = +21.9%). Strong price action all session — staircase higher highs, above VWAP $98.20, HOD $99.815, volume ~4.0M by 10 AM vs 2.34M 30-day avg (~7x pace). 10 AM skipped: declining revenue (FY22 $17.7B → FY25 $14.3B), negative PE, no confirmed guidance raise, Consumer Non-Durables sector (not tech), Wednesday raised bar. If EL guidance raise is confirmed (check news at 3:15 PM) AND price holds above VWAP, could qualify as LOW conviction scanner entry. Guidance raise confirmation is required — without it, earnings_beat alone is net-negative per Insight #7.
 
-2. FOXA OVERNIGHT THESIS: FQ4 beat + Tubi growth (post-earnings continuation). entry_type=manual — per SKILL Exception 1, hold through any binary events unless handoff explicitly marks intraday-only (it does not). Relative strength vs QQQ today is constructive.
+5. FOMC MINUTES RELEASED 2 PM ET: Minutes released mid-session (9-3 hold; 3 hawks dissented for hike). Monitor for hawkish surprise impact on equities. Avoid entering positions within 15 minutes of 2 PM, and wait for price stabilization before any entries post-release.
 
-3. SCANNER DROUGHT — 14th CONSECUTIVE SESSION: If scanners break tomorrow, treat as a meaningful signal. Tuesday is historically productive (63.6% win rate Mon-Tue). Buyable settled cash tomorrow will be $441.04 + $240.34 = $681.38 IF AMAT proceeds settle as expected — confirm via get_portfolio before deploying.
+6. KEYS — THESIS BROKEN: KEYS reversed from +2.91% at open to -4.44% at 10 AM ($325.92 vs prior close $341). DO NOT ENTER. Thesis failed intraday.
 
-4. DO NOT RE-ENTER AMAT TODAY: User sold AMAT today (Aug 18). Per SKILL, never re-enter a ticker closed on the same trading day.
+7. DUOL — ANALYST UPGRADE, POOR INTRADAY ACTION: DUOL has DA Davidson Buy upgrade ($160 PT). Opened at $149, faded to $143 (below VWAP $145.55, lower highs through session). Catalyst is still live. Only enter if scanner-confirmed at 3:15 PM session — do not chase the fade.
 
-5. SEMICONDUCTOR/TECH SECTOR: QQQ −1.49% today. Watchlist (SNDK, MU, INTC, WDC, AMAT, QCOM) broadly weak. Avoid sector_momentum-only entries — require specific dated catalyst per Learned Insight #10.
+8. SECTOR CONTEXT: XLK -1.01% (tech weak). Semiconductor watchlist all red: SNDK -2.66%, MU -1.41%, INTC -4.40%, WDC -4.20%, AMAT -3.61%. Avoid sector_momentum-only semis — require specific dated catalyst (Insight #10). Healthcare (XLV +3.62%) was strongest sector today; LLY +4.77%, ABBV +2.05% but no confirmed specific catalyst found for LLY.
 
-Settled cash remaining: $441.04
-Unsettled (settles Aug 19): $240.34
-Total account value: $917.15
-Invested: $235.77 (25.7%) — within 75% cap ✓
+9. DO NOT RE-ENTER FOXA: FOXA stop triggered Aug 18 (sold at $69.83). Do not re-enter per SKIP note in 3:15 PM handoff from Aug 18.
+
+10. SETTLED CASH: All $913.68 fully settled. No restrictions on deployment.
+
+Catalyst watch list carry-forward:
+- KEYS: FAILED (reversed -4.44%) — do not chase
+- TJX: CONFIRMED flat/down (-0.72%) — skip
+- LOW: CONFIRMED tiny beat ($4.40 vs $4.38) but revenue miss — skip
+- TGT: CONFIRMED beat + guidance raise — scanner path only; eligible at 3:15 PM if scanner confirms
+- TOL: CONFIRMED beat but guidance NOT raised (reaffirmed only) — avoid unless exceptional beat + raised guidance (not met)
+- DUOL: CONFIRMED analyst upgrade (DA Davidson Buy, $160 PT) — catalyst valid, poor intraday price action (faded from $149 to $143). Scanner path only at 3:15 PM.
 
 ---
 PRE-CHECK — Market day verification
