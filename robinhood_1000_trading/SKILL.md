@@ -14,19 +14,25 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET, 2026-08-18.** Live-synced via get_equity_positions (acct ••••6616): AMAT, FOXA only.
+**7:00 AM ET, 2026-08-19.** Live-synced (acct ••••6616): 0 positions — 100% cash (~$913.67).
 
-AMAT — CLOSED. User sold 0.470792 sh manually at 09:35 ET @ $510.50 (market), −3.86% / −$9.66 vs $531.02 cost; logged (exit_reason=user_manual). Earlier directive RESOLVED — position no longer held. (History: 7 AM flagged CRITICAL STOP BREACH off pre-market $508.64 < stop $509.78; the 9:30 open printed $512.04 ABOVE the stop so the agent held per SKILL; user then closed it manually.)
+Overnight positions: NONE.
+Pre-market sells placed: NONE.
 
-FOXA — 3.326340 sh, entry $68.64, pre-mkt $69.07, −0.17% ON, +0.63% vs cost. Stop $65.21/TP $75.50 (UNVERIFIED). ON TRACK — no adverse news, FQ4 beat/Tubi thesis intact.
+**Catalyst watch:**
+- KEYS +2.49% ($349.47 pre-mkt vs $341.00 close). Q3 EPS $3.07 vs $2.48 est (+24%); rev $1.85B vs $1.74B (+6%); raised FY2026 guidance (Q4 $1.93–1.95B); AI test demand driving commercial comms +56% YoY. CONFIRMED — GAP UP (modest vs ±9% implied move). SCANNER PATH ONLY per handoff. Flag for 10 AM agent.
+- LOW −2.50% ($210.25). Rev miss $25.96B vs $26.16B; comp sales +0.2%; adj EPS $4.40 (+1.6% YoY). CONFIRMED — FLAT/DOWN. SKIP — scanner path only.
+- TGT −2.82% ($148.18). Rev beat $26.54B vs $26.14B but $1.65/sh one-time tariff refund distorted EPS; market sees through it. Guidance raised to ~5%. CONFIRMED — FLAT/DOWN. SKIP — scanner path only.
+- TJX +1.24% ($152.72). BMO results released but actual figures unavailable. Pre-mkt positive. PENDING — MONITOR at open.
+- TOL +0.40% ($143.43, very wide bid/ask — thin pre-market book). EPS $2.97 vs $2.91 est (+2%); rev $2.66B vs $2.61B; BUT YoY deliveries and revenue both down; guidance reaffirmed not raised. CONFIRMED — FLAT/DOWN. SKIP per handoff (not exceptional + no guidance raise).
 
-Pre-market sells placed: NONE (AMAT attempt blocked — see above).
+**Macro:**
+- Asia rout: Nikkei −3.16%, Shanghai −2.22% (US-Iran tensions, elevated crude)
+- SPY pre-mkt −0.01% (flat); QQQ −0.15%; US futures slightly neg (S&P −0.18%)
+- FOMC minutes 2 PM ET (9-3 hold vote; 3 regional hawks dissented for hike — hawkish-surprise risk mid-session)
+- WTI crude +1.13% ($85.01); 10-yr yield 4.706% (slightly lower)
 
-Catalyst watch: none today.
-
-Macro: SPY pre-mkt −0.41%, QQQ pre-mkt −1.25%. Futures broadly down (Dow −0.2%, S&P −0.5%, Nasdaq-100 −1.3%) on US-Iran tension driving oil/yields higher. No FOMC surprise (minutes due 8/19, not today).
-
-SUMMARY: 1 position ON TRACK (FOXA); AMAT closed by user @ $510.50 (logged, user_manual); 0 catalyst tickers.
+SUMMARY: 0 positions ON TRACK; 0 flagged; 0 pre-market sells. 1 catalyst GAP UP (KEYS, scanner-only), 3 confirmed flat/down (LOW/TGT/TOL), 1 pending (TJX). No email sent.
 
 ---
 
