@@ -91,48 +91,56 @@ RAW STATS:
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-Last updated: 2026-08-18 (~3:17 PM ET — 3:15 PM session complete)
+Last updated: 2026-08-19 (~3:23 PM ET — 3:15 PM session complete)
 
-Open positions: NONE — account is 100% cash after FOXA stop-loss exit this session.
+Open positions held overnight (2 total):
 
-EXITED THIS SESSION (1 trade):
-- FOXA: sold 3.326340 shares at $69.83 avg fill (market order, placed_agent=agentic, filled 2026-08-18T19:17:38Z)
-  Exit reason: STOP-LOSS TRIGGERED — price $69.91 at 3:15 PM was BELOW stop $70.04 (trailed per 10 AM handoff)
-  vs avg entry $68.64: +$1.19/sh, +1.73%, +$3.96 total P&L
-  Logged to trade_log.csv: exit_reason=stop_loss, entry_type=manual
-  DO NOT re-enter FOXA on Aug 19 — stop triggered intraday, thesis broken.
+- TGT: 2.485629 shares, entry $160.925 avg fill, stop-loss $152.88, take-profit $177.02
+  vs entry: ~0% (just opened) | Overnight flag: YES
+  Thesis: Confirmed Q2 beat (+9.3% adj. EPS: $2.46 vs $2.25 est) + full-year guidance raised to $9.90–$10.90 EPS / ~5% sales growth. Closed above VWAP ($159.48) all day; in top 25% of intraday range. Market initially sold earnings open on tariff-refund EPS concern then recovered steadily — buyers validated the guidance raise.
+  entry_type: manual | sector: consumer | catalyst: earnings_beat (with raised guidance)
 
-Settled cash remaining: $441.04
-Unsettled (settles Aug 19): $472.63 total
-  - AMAT user sale proceeds (09:35 ET @ $510.50): $240.34
-  - FOXA 3:15 PM exit proceeds ($69.83 fill): $232.29
-Total account value: ~$913.67
-Portfolio invested: 0% — full cash
+- MRK: 1.631896 shares, entry $153.196 avg fill, stop-loss $148.85, take-profit $161.89
+  vs entry: ~0% (just opened) | Overnight flag: YES
+  Thesis: Phase 3 success for intismeran autogene (mRNA-4157/V940 + Keytruda) in high-risk melanoma — met both primary endpoint (recurrence-free survival) and secondary endpoint (distant metastasis-free survival). Daiwa upgraded to Outperform, PT raised $120→$143. Made new absolute intraday HOD ($153.27) at close — staircase up since 2 PM, 2.2% above VWAP ($149.80). No pending binary events (readout already confirmed).
+  NOTE: MRK trading ABOVE Daiwa's $143 PT at entry — stock is pricing in long-term vaccine franchise value. At 10 AM, check for additional analyst PT revisions upward. If at/below $148.85 at open, exit immediately (market order, 1.631896 shares).
+  entry_type: manual | sector: healthcare | catalyst: fda (Phase 3 trial readout + analyst upgrade)
 
-NOTES FOR 10 AM AGENT (Wed Aug 19, 2026):
+Sells executed at 3:15 PM: NONE (account was 100% cash entering this session)
 
-1. WEDNESDAY — RAISE THE BAR: Per Learned Insight #5, Wed-Fri win rate is 27.3% vs Mon-Tue 63.6%. Do NOT force entries. Only highest-conviction setups.
+Settled cash remaining: $263.68 (fully settled)
+Total account value: ~$913.68
+Portfolio invested: ~71.1% ($650 deployed: TGT $400 + MRK $250)
 
-2. SCANNER DROUGHT — 15TH CONSECUTIVE SESSION: Both scans (9934ccf8 and 38cc0924) returned 0 results today. Per Learned Insight #6, pass rather than forcing low-conviction entries. If scanners break tomorrow, treat as a strong signal.
+NOTES FOR 10 AM AGENT (Thu Aug 20, 2026):
 
-3. TECH SECTOR WEAKNESS: QQQ −1.75%, XLK −2.71% today. Semiconductor watchlist all down hard (SNDK −9.96%, MU −7.66%, INTC −7.38%, WDC −7.40%, QCOM −1.21%). Avoid semiconductor watchlist unless a SPECIFIC dated catalyst exists — sector_momentum alone is insufficient (Learned Insight #10).
+1. TGT — WATCH WMT: Walmart (WMT) reports BMO Aug 20. WMT is the retail sector bellwether. A strong WMT beat + guidance raise is a TAILWIND for TGT (validates consumer spending recovery). A WMT miss is a direct sector headwind — if WMT misses and TGT opens below $152.88, exit TGT at market. TGT stop is $152.88 (5% hard cap from entry; sits just above yesterday's close of $152.48).
 
-4. FOXA — DO NOT RE-ENTER AUG 19: Stop triggered intraday. Price $69.91 fell below trailed support $70.04. Per SKILL: never re-enter a ticker closed same trading day; thesis is broken for now.
+2. MRK — ABOVE ANALYST PT: MRK entered at $153.20 vs Daiwa PT $143 — stock is pricing in long-term vaccine franchise value. At 10 AM check for: (a) new analyst PT revisions higher confirming institutional buy-in, (b) any overnight reversal below $148.85 support. If MRK opens at/below $148.85, sell immediately (market order). The Phase 3 readout is the type of landmark catalyst that drives multi-day momentum.
 
-5. SETTLING CASH — CONFIRM BEFORE DEPLOYING: Total expected settled cash Aug 19 open ≈ $913.67 (all $472.63 unsettled clears). Verify via get_portfolio before deploying any capital beyond the $441.04 known settled today.
+3. STOP-LOSS ACTIONS AT 10 AM:
+   - TGT: if open or early print at/below $152.88 → sell market (2.485629 shares); do NOT hesitate
+   - MRK: if open or early print at/below $148.85 → sell market (1.631896 shares); do NOT hesitate
+   - If both stops triggered → 100% cash, pass to midday
 
-6. MACRO: US-Iran tensions elevated; oil/yields higher. Defensive rotation (Healthcare XLV +1.64%, Energy XLE +1.57%, Consumer Staples XLP +1.45%). FOMC minutes due Aug 19 — could drive volatility mid-session. Be cautious around the release.
+4. NO OVERNIGHT BINARY RISK: Both positions are beyond their binary events — TGT earnings reported this morning (confirmed beat + guidance raise); MRK Phase 3 readout already confirmed. No AH earnings for either tonight.
 
-7. DUOL ANALYST UPGRADE (watch): Duolingo upgraded to Buy at DA Davidson today ($160 PT). If DUOL is up at 10 AM and scanner-confirmed at the 3% bar, could be a viable play (analyst_upgrade has best win rate per Learned Insight #9: 66.7%). Use scanner path only — NOT catalyst_watch.
+5. SCANNER DROUGHT — 18TH CONSECUTIVE SESSION: Both scans returned 0 again at 3:15 PM. Do NOT force new entries at 10 AM unless scanner breaks drought. The two overnight positions are the primary focus.
 
-8. MULTIPLE RETAILER EARNINGS BMO AUG 19: LOW (consensus $4.49), TGT, TJX, MDT, DKS, BJ all report before open. Per Learned Insight #1, do NOT use catalyst_watch entry path on any earnings_beat catalyst. If any beat and open strong, wait for scanner confirmation at the 3% bar.
+6. THURSDAY CONTEXT: Thu is still Wed-Fri territory (27.3% win rate, Insight #5). Raise the bar for any new entries beyond holding TGT and MRK.
 
-Catalyst watch list (awareness only — Learned Insight #1: NEVER use catalyst_watch early-entry path on earnings_beat catalysts):
-LOW | Earnings BMO | Aug 19 BMO | Neutral-Bullish | MEDIUM — scanner path only if beat confirmed
-TGT | Earnings BMO | Aug 19 BMO | Neutral | MEDIUM — scanner path only
-TJX | Earnings BMO | Aug 19 BMO | Bullish-bias (off-price resilience) | MEDIUM — scanner path only
-KEYS | Earnings AH Aug 18 → resolves overnight | ±9% implied, test & measurement | MEDIUM — scanner confirmation required
-TOL | Earnings AH Aug 18 → resolves overnight | Homebuilder, rate-sensitive, binary | HIGH — avoid unless exceptional beat + raised guidance
+7. SECTORS TODAY: Healthcare/Biotech and Consumer Discretionary led. Tech lagged (QQQ −0.10%). Semiconductor watchlist all red at close: SNDK −3.7%, MU −0.9%, INTC −3.6%, WDC −7.0%, AMAT −3.7%, QCOM +1.4%. Confirm tech/semi direction at 10 AM before any sector plays.
+
+8. DO NOT RE-ENTER FOXA: Stop triggered Aug 18. Do not re-enter.
+
+9. DUOL — FADED: DUOL closed $147.49 (+5.62%), well below the $149+ recovery threshold; scanner was 0; no entry taken. If DUOL appears in scanner tomorrow at 3%+ with price above $149, evaluate.
+
+Catalyst watch list for tomorrow (BMO/AH Aug 20):
+WMT | BMO earnings ($0.73 consensus) | Aug 20 BMO | Bullish (retail bellwether; also directly impacts TGT thesis) | LOW — Insight #1: NEVER catalyst_watch early-entry on earnings_beat; scanner path only
+BABA | BMO earnings ($2.12 consensus) | Aug 20 BMO | Neutral-Bullish | MEDIUM — Chinese ADR, geopolitical risk; scanner path only
+DE | BMO earnings ($4.71 consensus) | Aug 20 BMO | Neutral (Deere historically conservative on guidance) | LOW — scanner path only
+ROST | AH earnings Aug 20 ($1.82 consensus) | Aug 20 AH | Bullish-bias (off-price retail, tariff tailwind) | LOW — scanner path only; do NOT hold overnight into AH print
+REGN | FDA approval already confirmed today (Pasatru for FOP, ultra-rare bone disease) | Follow-through momentum | MEDIUM — non-earnings catalyst (fda type); 1-2% open confirmation threshold permitted per SKILL if trending up at 10 AM; verify market cap and spread
 ---
 
 ## AFTER-HOURS UPDATE
