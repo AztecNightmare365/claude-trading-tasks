@@ -14,25 +14,24 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET, 2026-08-19.** Live-synced (acct ••••6616): 0 positions — 100% cash (~$913.67).
+**7:00 AM ET, 2026-08-20.** Live-synced (acct ••••6616): 2 positions — TGT (2.485629 sh) + MRK (1.631896 sh).
 
-Overnight positions: NONE.
-Pre-market sells placed: NONE.
+**Positions:**
+- TGT $158.57 pre-mkt (−0.27% vs $159.00 close; −1.47% vs entry $160.93). Stop $152.88 (3.59% away). ON TRACK. Thesis intact (Q2 profit doubled, guidance raised). ⚠ WMT EPS miss ($0.68 vs $0.73 est; guidance raised) — mixed sector signal. If TGT open ≤$152.88 → exit market (10 AM agent).
+- MRK $150.95 pre-mkt (−0.82% vs $152.20 close; −1.47% vs entry $153.20). Stop $148.85 (1.39% above — thin). ON TRACK. Phase 3 mRNA-4157/V940 thesis intact; no adverse overnight news. ⚠ Thin stop margin: if open ≤$148.85 → exit immediately (mkt order, 1.631896 sh).
+
+Pre-market sells: NONE.
 
 **Catalyst watch:**
-- KEYS +2.49% ($349.47 pre-mkt vs $341.00 close). Q3 EPS $3.07 vs $2.48 est (+24%); rev $1.85B vs $1.74B (+6%); raised FY2026 guidance (Q4 $1.93–1.95B); AI test demand driving commercial comms +56% YoY. CONFIRMED — GAP UP (modest vs ±9% implied move). SCANNER PATH ONLY per handoff. Flag for 10 AM agent.
-- LOW −2.50% ($210.25). Rev miss $25.96B vs $26.16B; comp sales +0.2%; adj EPS $4.40 (+1.6% YoY). CONFIRMED — FLAT/DOWN. SKIP — scanner path only.
-- TGT −2.82% ($148.18). Rev beat $26.54B vs $26.14B but $1.65/sh one-time tariff refund distorted EPS; market sees through it. Guidance raised to ~5%. CONFIRMED — FLAT/DOWN. SKIP — scanner path only.
-- TJX +1.24% ($152.72). BMO results released but actual figures unavailable. Pre-mkt positive. PENDING — MONITOR at open.
-- TOL +0.40% ($143.43, very wide bid/ask — thin pre-market book). EPS $2.97 vs $2.91 est (+2%); rev $2.66B vs $2.61B; BUT YoY deliveries and revenue both down; guidance reaffirmed not raised. CONFIRMED — FLAT/DOWN. SKIP per handoff (not exceptional + no guidance raise).
+- WMT −1.86% ($112.17). EPS $0.68 vs $0.73 est (miss); rev ~$177.4B (in-line); guidance raised. CONFIRMED — FLAT/DOWN. SKIP (Insight #1 + EPS miss).
+- BABA −1.24% ($127.30). Profit −75% (AI capex surge); rev +9%. CONFIRMED — FLAT/DOWN. SKIP.
+- DE +3.59% ($601.50 vs $580.63). Q3 EPS $5.10 vs $4.85 est; rev $12.61B vs $10.78B est — strong beat. CONFIRMED — GAP UP. Scanner path only; flag for 10 AM.
+- ROST +0.12% ($234.98, wide spread; AH tonight). PENDING — do NOT hold overnight into AH print.
+- REGN −0.77% ($834.40 vs $840.84). FDA Pasatru confirmed yesterday; no pre-mkt follow-through. FLAT/DOWN. Skip catalyst path; check 10 AM scanner.
 
-**Macro:**
-- Asia rout: Nikkei −3.16%, Shanghai −2.22% (US-Iran tensions, elevated crude)
-- SPY pre-mkt −0.01% (flat); QQQ −0.15%; US futures slightly neg (S&P −0.18%)
-- FOMC minutes 2 PM ET (9-3 hold vote; 3 regional hawks dissented for hike — hawkish-surprise risk mid-session)
-- WTI crude +1.13% ($85.01); 10-yr yield 4.706% (slightly lower)
+**Macro:** SPY −0.03%, QQQ +0.03% (flat). Crude rising (Trump/Oman geopolitical tensions). Tech pre-mkt weak (AMD/MU/MRVL lower). FOMC hawkish residual (yesterday's 9-3 hold, 3 hawks dissented).
 
-SUMMARY: 0 positions ON TRACK; 0 flagged; 0 pre-market sells. 1 catalyst GAP UP (KEYS, scanner-only), 3 confirmed flat/down (LOW/TGT/TOL), 1 pending (TJX). No email sent.
+SUMMARY: 2 ON TRACK; 0 flagged; 0 pre-market sells. 1 catalyst GAP UP (DE, scanner-only), 3 flat/down (WMT/BABA/REGN), 1 pending (ROST). No email sent.
 
 ---
 
