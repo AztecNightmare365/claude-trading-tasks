@@ -38,19 +38,26 @@ SUMMARY: 2 ON TRACK; 0 flagged; 0 pre-market sells. 1 catalyst GAP UP (DE, scann
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET session, 2026-08-19.** No PRE-MARKET BRIEF (retired 7/29); used 7 AM OVERNIGHT BRIEF + live open prices.
+**9:30 AM ET session, 2026-08-20.** No PRE-MARKET BRIEF (retired 7/29); used 7 AM OVERNIGHT BRIEF + live open prices.
 
-Sells (stop/TP checks): NONE. 0 overnight positions — account 100% cash at open.
+Sells (stop/TP checks): NONE.
+- TGT open $156.705 (−1.45% vs $159.00 close; −2.63% vs entry $160.93). Stop $152.88 — ABOVE stop. Hold.
+- MRK open $150.590 (−1.06% vs $152.20 close; −1.70% vs entry $153.20). Stop $148.85 — ABOVE stop. Hold.
 
-Catalyst entries: NONE. All catalyst watch list tickers are earnings_beat — Learned Insight #1 prohibits catalyst_watch early-entry path on all. Open prints: KEYS $350.92 (+2.91%, just below 3% scanner bar, scanner-path only); TJX $143.85 (−4.64%, confirmed flat/down, skip); LOW $216.79 (+0.53%, confirmed flat/down, skip); TGT $148.22 (−2.79%, confirmed flat/down, skip); TOL $153.76 (+7.63% — far beyond 7 AM's +0.40% pre-mkt assessment; guidance NOT raised per handoff, no catalyst_watch entry — pass to 10 AM scanner).
+⚠ WMT opened −8.30% ($104.82 vs $114.30 close) — far worse than pre-mkt −1.86%. Severe retail sector headwind for TGT. TGT stop $152.88 remains the kill switch; 10 AM must monitor closely and exit immediately if TGT trades at/below $152.88.
 
-Portfolio sync: 0 positions — 100% cash ($913.68 fully settled). Matches handoff exactly. No manual adoptions.
+Catalyst entries: NONE.
+- WMT: FLAT/DOWN (−8.30% open, $104.82) — skip (Insight #1, EPS miss).
+- BABA: FLAT/DOWN (−5.09% open, $122.34) — skip.
+- DE: GAP UP (+1.52% open, $589.44) — scanner-only per handoff; pass to 10 AM.
+- REGN: FLAT/DOWN (−0.81% open, $834.00) — skip.
+- ROST: PENDING (AH tonight), down at open (−1.75%, $230.57) — do not enter.
 
-SPY $770.32 (+0.37%), QQQ $719.90 (+0.33%) — NORMAL REGIME, no gate triggered.
+Portfolio sync: 2 positions — TGT (2.485629 sh, avg $160.93) + MRK (1.631896 sh, avg $153.20). Exact match with handoff. No manual adoptions.
 
-FLAG FOR 10 AM: TOL opened +7.63% ($153.76 vs $142.86 prior close) — significantly stronger than the 7 AM brief's flat/down call (based on thin pre-mkt +0.40%). Run through scanner; note handoff requires exceptional beat + raised guidance (guidance reaffirmed, not raised). KEYS +2.91% just below 3% bar — monitor if it continues moving up.
+SPY $765.91 (−0.41%), QQQ $711.94 (−0.58%) — NORMAL REGIME, no gate triggered.
 
-Status: 0 stop/TP sells, 0 catalyst entries, 0 positions open for 10 AM.
+Status: 0 stop/TP sells, 0 catalyst entries, 2 positions open for 10 AM.
 
 ---
 
