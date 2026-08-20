@@ -113,13 +113,16 @@ CRON_BLOCK="$(cat <<EOF
 $MARK_A
 # Managed by $REPO_DIR/local/bootstrap.sh — edit there, not here.
 # Times are Eastern; the machine's timezone handles DST.
+# Each job runs via local/run_session.sh, which records the routine's full
+# output to its per-session log AND to local/logs/decisions.log (a single
+# consolidated review log: tail -f local/logs/decisions.log).
 SHELL=/bin/bash
-0 7 * * 1-5 cd $REPO_DIR && claude -p "\$(cat local/prompts/0700_overnight.txt)" >> $REPO_DIR/local/logs/0700.log 2>&1
-30 9 * * 1-5 cd $REPO_DIR && claude -p "\$(cat local/prompts/0930_open.txt)" >> $REPO_DIR/local/logs/0930.log 2>&1
-0 10 * * 1-5 cd $REPO_DIR && claude -p "\$(cat local/prompts/1000_trading.txt)" >> $REPO_DIR/local/logs/1000.log 2>&1
-0 12 * * 1-5 cd $REPO_DIR && claude -p "\$(cat local/prompts/1200_trading.txt)" >> $REPO_DIR/local/logs/1200.log 2>&1
-15 15 * * 1-5 cd $REPO_DIR && claude -p "\$(cat local/prompts/1515_trading.txt)" >> $REPO_DIR/local/logs/1515.log 2>&1
-0 10 * * 6 cd $REPO_DIR && claude -p "\$(cat local/prompts/weekly_review.txt)" >> $REPO_DIR/local/logs/weekly.log 2>&1
+0 7 * * 1-5 cd $REPO_DIR && bash local/run_session.sh "7 AM overnight" local/prompts/0700_overnight.txt local/logs/0700.log 2>> local/logs/cron.err
+30 9 * * 1-5 cd $REPO_DIR && bash local/run_session.sh "9:30 AM open-reaction" local/prompts/0930_open.txt local/logs/0930.log 2>> local/logs/cron.err
+0 10 * * 1-5 cd $REPO_DIR && bash local/run_session.sh "10 AM trading" local/prompts/1000_trading.txt local/logs/1000.log 2>> local/logs/cron.err
+0 12 * * 1-5 cd $REPO_DIR && bash local/run_session.sh "12 PM trading" local/prompts/1200_trading.txt local/logs/1200.log 2>> local/logs/cron.err
+15 15 * * 1-5 cd $REPO_DIR && bash local/run_session.sh "3:15 PM close-out" local/prompts/1515_trading.txt local/logs/1515.log 2>> local/logs/cron.err
+0 10 * * 6 cd $REPO_DIR && bash local/run_session.sh "Weekly review" local/prompts/weekly_review.txt local/logs/weekly.log 2>> local/logs/cron.err
 $MARK_B
 EOF
 )"
