@@ -24,65 +24,66 @@ _No content — see robinhood_1000_trading/SKILL.md for the live 3:15 PM handoff
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-08-20 (~10:05 AM ET — 10 AM session complete)
+Last updated: 2026-08-20 (~12:05 PM ET — 12 PM reassessment complete)
 
-Open positions (2 total, both inherited from yesterday's 3:15 PM session):
+Open positions (2 total, both inherited from yesterday's 3:15 PM session, held through 10 AM and 12 PM):
 
-- TGT: 2.485629 shares, entry $160.925 avg fill, stop-loss $152.88, take-profit $177.02
-  Current at 10 AM: $159.69 (+0.43% today; −0.77% vs entry). In-range, held.
-  Thesis: Q2 beat (+9.3% adj. EPS $2.46 vs $2.25 est) + full-year guidance raised to $9.90–$10.90 / ~5% sales growth. Showing strong intraday resilience — recovered from $156.71 open to $159.69 despite WMT cratering −9.10% (EPS miss). TGT's own catalyst intact.
+- TGT: 2.485629 shares, entry $160.93 avg fill, stop-loss $152.88, take-profit $177.02
+  Current at 12 PM: $159.715 (+0.45% today; −0.76% vs entry). In-range, held.
+  Thesis: Q2 beat (+9.3% adj. EPS $2.46 vs $2.25 est) + full-year guidance raised to $9.90–$10.90 / ~5% sales growth. Continued resilience vs WMT disaster — TGT holding above $159 at noon, thesis intact.
   entry_type: manual | sector: consumer | catalyst: earnings_beat (with raised guidance)
   Overnight flag: YES — no AH earnings for TGT tonight.
 
-- MRK: 1.631896 shares, entry $153.196 avg fill, stop-loss $148.85, take-profit $161.89
-  Current at 10 AM: $150.145 (−1.35% today; −1.99% vs entry). In-range, held.
-  Thesis: Phase 3 mRNA-4157/V940 (intismeran + Keytruda) confirmed success in high-risk melanoma. Multiple analyst PT raises TODAY: Morgan Stanley Overweight $179, BofA $166, UBS $175, BMO $170. All above current $150.14 — institutional validation remains strong. MRNA down −17.9% today (profit-taking after +177% yesterday) but MRK's clinical catalyst is intact — the trial genuinely succeeded.
-  ⚠ THIN STOP: Stop $148.85 is only 0.87% below current $150.14 at 10 AM. 3:15 PM must check if stop has been undercut before doing anything else. If MRK ≤$148.85 at any point → sell market (1.631896 sh) immediately.
+- MRK: 1.631896 shares, entry $153.20 avg fill, stop-loss $148.85, take-profit $161.89
+  Current at 12 PM: $151.65 (−0.36% today; −1.01% vs entry). RECOVERED from 10 AM low of $150.145 — stop now $2.80 away (1.85%), up from $1.30 at 10 AM.
+  Thesis: Phase 3 mRNA-4157/V940 (intismeran + Keytruda) confirmed success in high-risk melanoma. Multiple analyst PT raises: Morgan Stanley $179, BofA $166, UBS $175, BMO $170. Institutional validation strong. Recovery from 10 AM lows suggests buyers stepping in on the thesis.
   entry_type: manual | sector: healthcare | catalyst: fda (Phase 3 trial readout + analyst upgrades)
   Overnight flag: YES — no AH earnings for MRK tonight.
 
-No sells executed at 10 AM.
-No new buys at 10 AM: 75% cap nearly full ($36.63 available vs $150 minimum viable tier); 19th consecutive scanner drought for high-quality setups.
+No sells executed at 12 PM.
+No new buys at 12 PM: Only $36.57 available under 75% cap — below any viable tier minimum ($150 LOW). No new positions opened.
 
 Settled cash remaining: $263.68 (fully settled)
-Total account value: ~$905 (TGT ~$397 + MRK ~$245 + cash $263.68)
-Portfolio invested: ~71% ($642 deployed)
+Total account value: ~$908.18 (TGT ~$397 + MRK ~$247 + cash $263.68) at noon
+Portfolio invested: ~71% (~$644.57 deployed)
 
 NOTES FOR 3:15 PM AGENT (Thu Aug 20, 2026):
 
-1. TGT — RESILIENCE DESPITE SECTOR BOMB: WMT opened −8.30% and is now −9.10% ($103.90) — massive earnings miss ($0.68 vs $0.73 est). Despite this direct sector headwind, TGT is UP +0.43% at $159.69 at 10 AM, recovering from a $156.71 open. This suggests buyers validated TGT's own strong Q2 beat + guidance raise independently of WMT. Thesis intact. At 3:15 PM: if TGT is still above stop $152.88 and holding above $155+, evaluate for continued overnight hold. Stop $152.88 is the kill switch — check price FIRST.
+1. TGT — HOLDING STRONG AT NOON: TGT is $159.715 (+0.45% day) at 12 PM, essentially flat from 10 AM ($159.69). Continued resilience despite WMT sector bomb. Stop $152.88 is $6.84 away (4.3%) — comfortable. At 3:15 PM: check price first. If TGT ≥ $152.88 and thesis intact, evaluate overnight hold. Stop is the kill switch.
 
-2. MRK — THIN STOP MARGIN, WATCH CAREFULLY: Stop $148.85 was only $1.30 (0.87%) away at 10 AM. During the day MRK may have tested this level. At 3:15 PM:
-   a) If MRK is at/below $148.85 → sell immediately (market order, 1.631896 shares), do not hesitate.
-   b) If above stop: evaluate overnight hold. The Phase 3 thesis is intact; analyst PTs of $166–$179 give substantial upside vs current $150 range. Consider whether to hold or trail stop up to $150 (break-even protection) if price has stabilized.
-   c) MRNA down −17.9% today is profit-taking, not a reversal of trial results — treat as noise for MRK's thesis.
+2. MRK — RECOVERED FROM 10 AM THIN-STOP SCARE: At 10 AM stop was only $1.30 away ($150.14 vs stop $148.85). By noon MRK RECOVERED to $151.65 — stop now $2.80 away (1.85%). Phase 3 thesis is drawing buyers. At 3:15 PM:
+   a) If MRK is at/below $148.85 → sell immediately (market order, 1.631896 shares), no hesitation.
+   b) If above stop: the recovery through the session is constructive. Consider trailing stop to $150 (near breakeven) if MRK is ≥$151 and stable. Analyst PTs $166–$179 give meaningful upside.
+   c) MRNA profit-taking was today's noise — MRK's own trial data is unaffected.
 
-3. 75% CAP NEARLY FULL: With $36.63 available to invest (below any viable tier), 3:15 PM can only open new positions if TGT or MRK is sold, freeing up cash. If both are held, the cap limits new buys to ~$36.63 — effectively no new entry today.
+3. 75% CAP BINDING — ONLY NEW BUYS IF A POSITION IS SOLD: $36.57 available is below any viable tier. 3:15 PM can only open new positions if TGT or MRK is sold, freeing up cash. If both held, no new entries today.
 
-4. SCANNER DROUGHT — 19TH CONSECUTIVE SESSION: Scan 1 returned 1 hit (ANDG — no fresh Aug 20 catalyst, 8-day-old earnings + recent dilutive secondary offering, skipped). Scan 2 returned 30 hits but all disqualified: SCSC (spread 1.74%), TEM (>15% 5-day move without new dated catalyst), COIN/MSTR (pending legislative binary event), CF/MEOH (sector_momentum only, no dated catalyst today), LB (spread 1.48%). If scanner drought continues at 3:15 PM, do NOT force entries.
+4. SCANNER DROUGHT BROKEN FOR SCSC/DE — BUT BUYING POWER PREVENTS ACTION:
+   - SCSC (ScanSource): NOW in both scanners. Spread fixed to 0.48% (was 1.74% at 10 AM). Clear today's earnings catalyst: fiscal Q4 beat (rev $953.1M +17% YoY, adj EPS $1.46 beat), MicroAge acquisition ($220.5M), FY27 guidance 6-10% sales growth + EBITDA expansion. Rel vol 1.77x. +17.6% on day. This is a HIGH-conviction scanner setup — if TGT or MRK is sold and cash freed, SCSC is the top candidate at 3:15 PM IF still in scanner and momentum intact. Check earnings tonight risk (SCSC just reported, clear for overnight) and spread before entering.
+   - DE (Deere): NOW in Scan 2 at +8.99% ($632.94), up from +4.1% at 10 AM. Confirmed Q3 beat (EPS $5.10 vs $4.85, rev $12.61B — massive beat). Rel vol 0.95x (below 1.2x). No guidance raise confirmed in handoff data — check at 3:15 PM. If still in scanner, momentum intact, and guidance raise confirmed, evaluate as MEDIUM or HIGH conviction setup (industrial sector, not tech — lower-tier bias per Insight #4).
 
-5. THURSDAY — RAISE THE BAR: Per Insight #5, Thu is Wed-Fri territory (27.3% win rate). Do not force new entries unless scanner breaks drought with high-conviction setup.
+5. THURSDAY — RAISE THE BAR: Per Insight #5, do not force entries. Only act if a position frees up cash AND a high-conviction scanner setup (SCSC or equivalent) is available.
 
-6. TONIGHT'S AH EARNINGS: ROST reports AH tonight. Do NOT buy ROST at 3:15 PM (overnight binary risk). ROST is −1.21% today ($231.84) — well below the open reaction pattern for entry.
+6. TONIGHT'S AH EARNINGS: ROST reports AH tonight. Do NOT buy ROST — overnight binary risk. ROST was −1.21% ($231.84) at 10 AM.
 
-7. SECTOR CONTEXT AT 10 AM:
-   - Energy (XLE) is today's leading sector: +1.54% (crude oil rising on Trump/Oman tensions).
-   - Tech (XLK): −0.23%. Healthcare (XLV): −0.61% (dragged by MRNA −17.9% reversal). All other sectors flat to slight red.
-   - Semiconductor watchlist all still weak: INTC −2.73%, AMAT −0.35%, QCOM flat; SNDK +1.6%, MU +0.80%, WDC +0.39% — none meet 2%+ boost threshold.
-   - SPY −0.30%, QQQ −0.44% at 10 AM — mild market-wide softness, normal regime.
+7. SECTOR CONTEXT AT 12 PM:
+   - SPY −0.455%, QQQ −0.655% — mild softness, normal regime (unchanged from 10 AM).
+   - Semiconductor watchlist: SNDK +2.18% ($1603), MU +2.38% ($959), WDC +2.51% ($473) — all better than 10 AM but still below 3% bar. QQQ is DOWN so no watchlist boost applies. INTC −1.17%, AMAT −0.21%, QCOM +0.98% — all still weak.
+   - Consumer sector: TGT holding while WMT bleeds. Unusual divergence.
+   - Healthcare: MRK recovering from morning lows. MRNA profit-taking appears to have stabilized.
 
 8. DO NOT RE-ENTER FOXA: Stop triggered Aug 18. Do not re-enter.
 
-9. DE — SCANNER PATH MISSED: DE reported strong Q3 beat (EPS $5.10 vs $4.85 est; rev $12.61B vs $10.78B) and is up +4.1% ($604.51). Not in either scanner. Per all prior agents, DE was marked "scanner path only." Not entered. If DE appears in scanner at 3:15 PM, evaluate per standard rules.
+9. ADI — ANALYST UPGRADE WATCH: ADI now +1.22% ($377.81) — still below 3% bar. If ADI appears in scanner at 3:15 PM, analyst_upgrade is 66.7% win rate (Insight #9). Low priority given cap constraints.
 
-10. ADI — ANALYST UPGRADE: Bernstein upgraded ADI to Outperform with $465 PT today. ADI is up only +0.53% ($375.25) — does not clear 3% bar. Not a candidate at 10 AM. Check if ADI has momentum by 3:15 PM; if it clears 3%+ and appears in scanner, analyst_upgrade is 66.7% win rate (Insight #9).
+10. MRVI (Maravai LifeSciences): Appeared in Scan 2 at +14.75%. HARD DISQUALIFY — ongoing securities fraud investigation, revenue recognition errors, material weakness in internal controls, multiple class-action lawsuits (per Polygon news). Speculative thesis + declining fundamentals = hard disqualifier per SKILL. Do NOT enter regardless of price action.
 
 Catalyst watch list carry-forward:
-- WMT: FAILED (EPS miss $0.68 vs $0.73; −9.10% today) — do not chase
-- BABA: FAILED (−2.62% today, ADR hard disqualifier) — skip
-- DE: CONFIRMED strong beat but not in scanner and marked scanner-path-only — not entered; check scanner at 3:15 PM
+- WMT: FAILED (EPS miss; −9.10% today) — do not chase
+- BABA: FAILED (ADR disqualifier) — skip
+- DE: CONFIRMED strong beat, NOW IN SCAN 2 at +8.99% — check at 3:15 PM for scanner confirmation + guidance raise details before entering
 - ROST: PENDING AH earnings tonight — do NOT enter for overnight hold
-- REGN: FLAT/DOWN (−0.50%) — skip; no follow-through on FDA Pasatru confirmation
+- REGN: FLAT/DOWN — skip; no follow-through
 
 ---
 PRE-CHECK — Market day verification
