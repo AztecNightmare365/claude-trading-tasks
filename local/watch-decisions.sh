@@ -5,6 +5,7 @@
 #   bash local/watch-decisions.sh
 #
 # Shows the last 200 lines then follows. Ctrl-C to stop.
+# Uses `tail -F` (follow by name) so it keeps streaming across log rotations.
 # To scroll back through history instead:  less +G local/logs/decisions.log
 cd "$(dirname "$0")/.." || exit 1
-exec tail -n 200 -f local/logs/decisions.log
+exec tail -n 200 -F local/logs/decisions.log

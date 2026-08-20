@@ -26,6 +26,21 @@ DECISIONS="local/logs/decisions.log"
 
 mkdir -p local/logs
 
+# --- rotation: keep logs bounded (5 MB active file, 5 old generations kept) ---
+# Size-based, self-contained (no logrotate/sudo). Runs before this session writes,
+# so each rotated file ends on a clean session boundary. A `tail -F` viewer
+# (follow-by-name) survives this transparently.
+rotate_if_big() {
+  local f="$1" max="$2" keep="$3" i
+  [ -f "$f" ] || return 0
+  [ "$(wc -c < "$f" 2>/dev/null || echo 0)" -lt "$max" ] && return 0
+  rm -f "$f.$keep"
+  for (( i=keep-1; i>=1; i-- )); do [ -f "$f.$i" ] && mv "$f.$i" "$f.$((i+1))"; done
+  mv "$f" "$f.1"; : > "$f"
+}
+rotate_if_big "$DECISIONS"   $((5*1024*1024)) 5
+rotate_if_big "$SESSION_LOG" $((5*1024*1024)) 5
+
 # Banner — written to both logs so each entry is easy to find when scrolling.
 {
   printf '\n\n'
