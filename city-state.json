@@ -1,14 +1,14 @@
 {
-  "ts": "2026-08-20T13:31:00Z",
-  "source": "robinhood_0930_open",
+  "ts": "2026-08-20T19:17:00Z",
+  "source": "robinhood_1515_trading",
   "portfolio": {
-    "totalValue": 898.94,
+    "totalValue": 906.758374,
     "cash": 263.68,
-    "equityValue": 635.26,
+    "equityValue": 643.078374,
     "buyingPower": 263.68,
     "positions": [
-      { "ticker": "TGT", "shares": 2.485629, "entry": 160.93, "current": 156.705, "plPct": -2.63, "managed": true },
-      { "ticker": "MRK", "shares": 1.631896, "entry": 153.20, "current": 150.59, "plPct": -1.70, "managed": true }
+      { "ticker": "TGT", "shares": 2.485629, "entry": 160.93, "current": 159.515, "plPct": -0.88, "managed": true },
+      { "ticker": "MRK", "shares": 1.631896, "entry": 153.20, "current": 150.920, "plPct": -1.49, "managed": true }
     ]
   },
   "fills": []

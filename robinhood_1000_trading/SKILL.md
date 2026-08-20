@@ -97,56 +97,73 @@ RAW STATS:
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-Last updated: 2026-08-19 (~3:23 PM ET — 3:15 PM session complete)
+Last updated: 2026-08-20 (~3:16 PM ET — 3:15 PM session complete)
 
 Open positions held overnight (2 total):
 
-- TGT: 2.485629 shares, entry $160.925 avg fill, stop-loss $152.88, take-profit $177.02
-  vs entry: ~0% (just opened) | Overnight flag: YES
-  Thesis: Confirmed Q2 beat (+9.3% adj. EPS: $2.46 vs $2.25 est) + full-year guidance raised to $9.90–$10.90 EPS / ~5% sales growth. Closed above VWAP ($159.48) all day; in top 25% of intraday range. Market initially sold earnings open on tariff-refund EPS concern then recovered steadily — buyers validated the guidance raise.
+- TGT: 2.485629 shares, entry $160.93 avg fill, stop-loss $152.88, take-profit $177.02
+  At 3:15 PM: $159.515 (+0.32% day; −0.88% vs entry). Stop $6.64 away (4.16%) — comfortable.
+  Thesis: Q2 earnings beat (+9.3% adj. EPS $2.46 vs $2.25 est) + full-year guidance raised to $9.90–$10.90 / ~5% sales growth. TGT continued to hold above stop despite WMT sector damage (WMT −8.3% at open today, −9.1% on the day). TGT's resilience vs WMT is a positive divergence signal. Thesis intact.
   entry_type: manual | sector: consumer | catalyst: earnings_beat (with raised guidance)
+  Overnight flag: YES — no AH earnings for TGT tonight.
 
-- MRK: 1.631896 shares, entry $153.196 avg fill, stop-loss $148.85, take-profit $161.89
-  vs entry: ~0% (just opened) | Overnight flag: YES
-  Thesis: Phase 3 success for intismeran autogene (mRNA-4157/V940 + Keytruda) in high-risk melanoma — met both primary endpoint (recurrence-free survival) and secondary endpoint (distant metastasis-free survival). Daiwa upgraded to Outperform, PT raised $120→$143. Made new absolute intraday HOD ($153.27) at close — staircase up since 2 PM, 2.2% above VWAP ($149.80). No pending binary events (readout already confirmed).
-  NOTE: MRK trading ABOVE Daiwa's $143 PT at entry — stock is pricing in long-term vaccine franchise value. At 10 AM, check for additional analyst PT revisions upward. If at/below $148.85 at open, exit immediately (market order, 1.631896 shares).
-  entry_type: manual | sector: healthcare | catalyst: fda (Phase 3 trial readout + analyst upgrade)
+- MRK: 1.631896 shares, entry $153.20 avg fill, stop-loss $148.85, take-profit $161.89
+  At 3:15 PM: $150.920 (−0.84% day; −1.49% vs entry). Stop $2.07 away (1.37%) — THIN. ⚠
+  Thesis: Phase 3 mRNA-4157/V940 (intismeran + Keytruda) confirmed success in high-risk melanoma. CRITICAL OVERNIGHT CONTEXT: MRNA surged +177% today on the SAME trial data — validates the MRK partnership thesis strongly. MRK at $150.92 appears discounted relative to the magnitude of MRNA's reaction; overnight discussion of this gap may draw buyers. Multiple analyst PTs: BMO $170, UBS $175, BofA $166, Daiwa Outperform. No AH earnings tonight.
+  ⚠ CRITICAL AT 10 AM: Stop $148.85 is only $2.07 away (1.37%). 10 AM agent must check MRK FIRST — if at/below $148.85, sell market immediately (1.631896 shares), no hesitation. Do NOT wait.
+  Trailing stop note: 12 PM handoff suggested trailing to $150 if MRK ≥$151 at 3:15 PM. MRK is $150.92 (below $151 and declining from noon $151.65). Stop kept at $148.85. If MRK opens strong tomorrow (≥$152), consider trailing stop to $150.
+  entry_type: manual | sector: healthcare | catalyst: fda (Phase 3 trial readout + analyst upgrades)
+  Overnight flag: YES — no AH earnings for MRK tonight.
 
-Sells executed at 3:15 PM: NONE (account was 100% cash entering this session)
+Sells executed at 3:15 PM: NONE
+New buys at 3:15 PM: NONE — 75% cap binding; ~$37 available (below any tier minimum)
 
 Settled cash remaining: $263.68 (fully settled)
-Total account value: ~$913.68
-Portfolio invested: ~71.1% ($650 deployed: TGT $400 + MRK $250)
+Total account value: ~$906.76 (TGT ~$396 + MRK ~$246 + cash $263.68) at 3:15 PM
+Portfolio invested: ~70.9% (~$643 deployed)
 
-NOTES FOR 10 AM AGENT (Thu Aug 20, 2026):
+NOTES FOR 10 AM AGENT (Fri Aug 21, 2026):
 
-1. TGT — WATCH WMT: Walmart (WMT) reports BMO Aug 20. WMT is the retail sector bellwether. A strong WMT beat + guidance raise is a TAILWIND for TGT (validates consumer spending recovery). A WMT miss is a direct sector headwind — if WMT misses and TGT opens below $152.88, exit TGT at market. TGT stop is $152.88 (5% hard cap from entry; sits just above yesterday's close of $152.48).
+1. MRK — ⚠ CHECK FIRST, THIN STOP: At 3:15 PM close, MRK $150.92, stop $148.85 (1.37% away). Any overnight gap ≥1.37% down triggers stop. 10 AM agent: check MRK price BEFORE ANYTHING ELSE. If at/below $148.85 → market sell (1.631896 shares) immediately. No discretion.
 
-2. MRK — ABOVE ANALYST PT: MRK entered at $153.20 vs Daiwa PT $143 — stock is pricing in long-term vaccine franchise value. At 10 AM check for: (a) new analyst PT revisions higher confirming institutional buy-in, (b) any overnight reversal below $148.85 support. If MRK opens at/below $148.85, sell immediately (market order). The Phase 3 readout is the type of landmark catalyst that drives multi-day momentum.
+2. MRK — MRNA VALIDATION IS THE KEY OVERNIGHT SIGNAL: MRNA surged +177% today on the exact same Phase 3 trial (mRNA-4157/V940) that is MRK's thesis. MRK is the commercial partner with Keytruda. The market gave MRNA a +177% day; MRK got only slight recovery. This divergence may close overnight as institutional money re-evaluates MRK's partnership value. If MRK opens above stop, consider trailing stop up to $150 to lock in downside protection while preserving upside exposure.
 
-3. STOP-LOSS ACTIONS AT 10 AM:
-   - TGT: if open or early print at/below $152.88 → sell market (2.485629 shares); do NOT hesitate
-   - MRK: if open or early print at/below $148.85 → sell market (1.631896 shares); do NOT hesitate
-   - If both stops triggered → 100% cash, pass to midday
+3. TGT — COMFORTABLE HOLD: Stop $152.88 is $6.64 away (4.16%) at close. Q2 beat + guidance raise thesis intact. WMT sector damage is not a TGT-specific thesis break — TGT is diverging positively from WMT. At 10 AM: if TGT ≥$152.88 and no adverse TGT news, hold.
 
-4. NO OVERNIGHT BINARY RISK: Both positions are beyond their binary events — TGT earnings reported this morning (confirmed beat + guidance raise); MRK Phase 3 readout already confirmed. No AH earnings for either tonight.
+4. STOP-LOSS ACTIONS AT 10 AM:
+   - MRK: if open/early print at/below $148.85 → sell market (1.631896 shares); do NOT hesitate
+   - TGT: if open/early print at/below $152.88 → sell market (2.485629 shares); do NOT hesitate
+   - If MRK stopped: ~$246 freed → available to invest becomes ~$283 under 75% cap. Check scanner immediately for ROST reaction, ADI, or SCSC continuation.
+   - If both stopped: 100% cash (~$907), all positions fresh.
 
-5. SCANNER DROUGHT — 18TH CONSECUTIVE SESSION: Both scans returned 0 again at 3:15 PM. Do NOT force new entries at 10 AM unless scanner breaks drought. The two overnight positions are the primary focus.
+5. ROST AH PRINT TONIGHT — CHECK AT OPEN: ROST reports AH tonight (Aug 20 close). Consensus $1.92 EPS; buy-side bogey $2.03–$2.05 (ROST trailing 4Q surprise avg 10.2%). If ROST beats buy-side bogey: expect gap up, enter via 1-2% open confirmation if trending up at 10 AM and spread is below 1%. If meets or misses consensus: skip entirely.
 
-6. THURSDAY CONTEXT: Thu is still Wed-Fri territory (27.3% win rate, Insight #5). Raise the bar for any new entries beyond holding TGT and MRK.
+6. FRIDAY CONTEXT: Friday is Wed-Fri territory (27.3% win rate per Insight #5). Raise the bar. Only enter on ROST beat confirmation or exceptional scanner setup. Do not force entries.
 
-7. SECTORS TODAY: Healthcare/Biotech and Consumer Discretionary led. Tech lagged (QQQ −0.10%). Semiconductor watchlist all red at close: SNDK −3.7%, MU −0.9%, INTC −3.6%, WDC −7.0%, AMAT −3.7%, QCOM +1.4%. Confirm tech/semi direction at 10 AM before any sector plays.
+7. SCANNER AT 3:15 PM (both scanners active, not a drought):
+   Top movers: DE +7.4% ($624, Q3 beat, 1.51x rel vol), SCSC +11.2% ($57.16, earnings beat today, 2.67x rel vol), ANDG +10.2% ($49.59, secondary offering demand signal — disqualified, not a fresh catalyst), IOVA +15.4% ($9.22, biotech — check for binary catalyst before entering), COIN +7.2% ($171.66, crypto rally, rel vol 0.84x below 1.2x).
+   Semiconductor watchlist: MU +2.76%, SNDK +1.36%, WDC +0.93% — all below 3% bar; QQQ −0.77% so no watchlist boost applies.
 
-8. DO NOT RE-ENTER FOXA: Stop triggered Aug 18. Do not re-enter.
+8. ADI UPGRADE — WATCH: Bernstein upgraded ADI to Outperform today with PT $465 (25% upside from $373). ADI closed flat (−0.04%) — no reaction yet. At 10 AM: if ADI is in scanner (≥3%) or trending strongly, consider as analyst_upgrade catalyst (66.7% win rate per Insight #9). Requires cap headroom from a position sale.
 
-9. DUOL — FADED: DUOL closed $147.49 (+5.62%), well below the $149+ recovery threshold; scanner was 0; no entry taken. If DUOL appears in scanner tomorrow at 3%+ with price above $149, evaluate.
+9. SCSC POST-EARNINGS CONTINUATION WATCH: SCSC +11.2% today on Q4 beat (rev $953.1M +17% YoY, adj EPS $1.46 beat) + MicroAge acquisition. Earnings are now cleared (just reported today). If SCSC stays in scanner at 10 AM with price above VWAP and spread below 1%, it is a valid scanner entry — but only if cap allows (requires selling TGT or MRK first). MarketCap $1.05B — LOW conviction tier at most.
 
-Catalyst watch list for tomorrow (BMO/AH Aug 20):
-WMT | BMO earnings ($0.73 consensus) | Aug 20 BMO | Bullish (retail bellwether; also directly impacts TGT thesis) | LOW — Insight #1: NEVER catalyst_watch early-entry on earnings_beat; scanner path only
-BABA | BMO earnings ($2.12 consensus) | Aug 20 BMO | Neutral-Bullish | MEDIUM — Chinese ADR, geopolitical risk; scanner path only
-DE | BMO earnings ($4.71 consensus) | Aug 20 BMO | Neutral (Deere historically conservative on guidance) | LOW — scanner path only
-ROST | AH earnings Aug 20 ($1.82 consensus) | Aug 20 AH | Bullish-bias (off-price retail, tariff tailwind) | LOW — scanner path only; do NOT hold overnight into AH print
-REGN | FDA approval already confirmed today (Pasatru for FOP, ultra-rare bone disease) | Follow-through momentum | MEDIUM — non-earnings catalyst (fda type); 1-2% open confirmation threshold permitted per SKILL if trending up at 10 AM; verify market cap and spread
+10. SECTORS AT 3:15 PM:
+    - SPY −0.70%, QQQ −0.77% — mild softness, normal regime. No gate triggered.
+    - Biotech: MRNA +177%, IOVA +15.4%, AUPH +7.0% — sector surging on cancer treatment data.
+    - Consumer: TGT +0.32% (holding); WMT −9.1% (disaster). TGT resilience notable.
+    - Industrial: DE +7.4% (Q3 beat). CNH +5.5%, NDSN +7.9% — broad industrial strength.
+    - Crypto: BTC +7.78%, ETH +17.84%, COIN +7.2%, MARA +13.1% — crypto rally day.
+    - Semiconductor: MU +2.76%, SNDK +1.36%, WDC +0.93%; INTC −0.49%, AMAT −1.25%, QCOM −0.33%.
+
+11. DO NOT RE-ENTER FOXA: Stop triggered Aug 18. Do not re-enter.
+
+Catalyst watch list for tomorrow (Aug 21, 2026):
+ROST | AH earnings tonight (Aug 20 close) | BMO open reaction Aug 21 | Bullish bias (10.2% trailing surprise; buy-side bogey $2.03–2.05 vs $1.92 consensus) | HIGH — binary; enter only on confirmed beat via 1-2% open confirmation if trending up at 10 AM
+BJ | BMO earnings Aug 21 | BMO | Bullish bias (buy upgrade +20% upside PT; consensus $1.16–1.17) | MEDIUM — binary; wait for print and open confirmation before entering
+ADI | Bernstein Outperform upgrade today (PT $465, 25% upside) | Already announced Aug 20 | Bullish | LOW — non-binary analyst_upgrade; enter at standard 3% bar if in scanner at 10 AM; requires cap headroom
+SCSC | Post-earnings momentum (Q4 beat; cleared overnight risk — reported today) | Continuation | Bullish (11.1% today, 2.67x rel vol) | MEDIUM — already extended; require scanner confirmation + above VWAP; check spread; LOW conviction tier
+DE | Post-earnings continuation (Q3 beat $5.10 vs $4.85 EPS; +7.4% today; in both scanners) | Continuation | Bullish | LOW-MEDIUM — verify guidance raise at 10 AM before entering; scanner confirmation required
 ---
 
 ## AFTER-HOURS UPDATE
