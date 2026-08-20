@@ -12,37 +12,12 @@ Execute all steps in order, then place all orders simultaneously.
 ---
 
 ## HANDOFF FROM LAST 3:15 PM SESSION
-<!-- This block is written by the 3:15 PM agent at close of market. Read it before Step 1. -->
+<!-- NOT USED / VESTIGIAL. The active 3:15 PM handoff is written to robinhood_1000_trading/SKILL.md
+     (see Step 8), which is where the 7 AM / 9:30 / 10 AM agents read it. The 3:15 PM agent in THIS
+     file reads the "## HANDOFF FROM LAST 10 AM SESSION" block below, not this one. Left as an empty
+     placeholder to avoid stale data misleading any reader. Cleared 2026-08-19. -->
 
-Last updated: 2026-06-24 (~3:17 PM ET — 3:15 PM session complete)
-
-Open positions held overnight (2 total):
-
-- LUV: 0.532075 shares, entry $47.70, close ~$50.94, stop-loss $48.98, take-profit $51.55
-  vs entry: +6.83% | Overnight flag: YES
-  Thesis: Iran peace deal fuel tailwind + oil retreating; UBS PT $61; AWS partnership. Only $0.61 from TP. Monitor gap at 10 AM; if TP touched before open, sell immediately (0.532075 shares, market order).
-
-- AAL: 1.562870 shares, entry $16.86, close ~$17.32, stop-loss $16.19, take-profit $18.20
-  vs entry: +2.74% | Overnight flag: YES
-  Thesis: Airline fuel margin tailwind from same Iran peace deal + oil decline as LUV. Second leg of fuel play. Market cap ~$10B. No binary events.
-
-Sells executed at 3:15 PM (1 total):
-- RUN: 1.660637 shares sold at market ~$14.78
-  Reason: Hard stop-loss BREACH — stop was $15.23, price fell to $14.78 (-6.85% vs entry $15.87). Thesis failed as Sunrun/Tesla VPP deal announcement momentum faded mid-session.
-  Proceeds: ~$24.53 UNSETTLED (settles June 25)
-
-Settled cash remaining: $0 (all cash deployed or from unsettled sales)
-Unsettled (settles June 25): ~$162.90 (RUN $24.53 + DFTX/ORKA/IBM $138.37 from 10 AM)
-Total account value: ~$217
-Portfolio invested: ~25% (well under 75% cap — major dry powder settles tomorrow)
-
-Notes for 10:00 AM agent (June 25, 2026):
-- LUV CRITICAL AGAIN: $50.94 vs TP $51.55 — only $0.61 away (same pattern as yesterday). Fuel thesis holding strong into close. If premarket or gap-up touches $51.55 before 10:01 AM, sell immediately (market order, 0.532075 shares, lock 6.8%+ gain). This would be second consecutive day hitting TP target.
-- RUN EXITED AT STOP: Despite strong announcement, Sunrun/Tesla VPP catalyst couldn't sustain momentum. Stop-loss protected downside; real position risk was capped at 4%.
-- AAL HOLDING WELL: +2.74% on fuel thesis (same as LUV). No binary events or negative news. Both airline positions showing conviction. If oil reverses, exit both simultaneously.
-- BROAD MARKET: SPY/QQQ flat to slightly positive at close. No macro headwind. MU earnings after hours (not our concern — no semiconductor exposure).
-- NO OVERNIGHT CATALYSTS: LUV and AAL purely driven by Iran peace deal oil thesis. No earnings, no FDA, no binary events expected overnight. Sector momentum likely continues.
-- BUYING POWER OPENS JUNE 25: $162.90 in proceeds settle at 10 AM — unlocks ~$60+ in new buying power. Focus on LUV TP execution or fuel sector momentum plays.
+_No content — see robinhood_1000_trading/SKILL.md for the live 3:15 PM handoff._
 
 ---
 
