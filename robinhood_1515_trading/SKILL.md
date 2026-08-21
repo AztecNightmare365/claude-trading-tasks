@@ -24,59 +24,67 @@ _No content — see robinhood_1000_trading/SKILL.md for the live 3:15 PM handoff
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-08-21 (~10:00 AM ET — 10 AM session complete)
+Last updated: 2026-08-21 (~12:00 PM ET — 12 PM reassessment complete)
 
-Open positions (2 total, both inherited from yesterday's 3:15 PM session, held through 10 AM):
+Open positions (2 total, both inherited from 10 AM session):
 
-- TGT: 2.485629 shares, entry $160.93 avg fill, stop-loss $152.88, take-profit $177.02
-  Current at 10 AM: $162.85 (+2.91% today; +1.20% vs entry). Stop $9.97 away (6.53%) — comfortable.
-  Thesis: Q2 beat (+9.3% adj. EPS $2.46 vs $2.25 est) + full-year guidance raised to $9.90–$10.90 / ~5% sales growth. Outperforming market strongly on a SPY +0.30% day — thesis intact and working.
+- TGT: 2.485629 shares, entry $160.93 avg fill, stop-loss $162.00 (TRAILED from $152.88 to intraday support), take-profit $177.02
+  Current at 12 PM: $164.29 (+3.82% today; +2.09% vs entry). Position now risk-free — stop above entry.
+  Intraday: Clean uptrend all session. Tested support at $161.97–162.00 (10:30 AM pullback, not revisited). New highs $164.39 by 11:55 AM. Consolidating $164 at noon.
+  Thesis: Q2 beat (+9.3% adj. EPS $2.46 vs $2.25 est) + full-year guidance raised to $9.90–$10.90 / ~5% sales growth. Outperforming SPY +0.59% by ~3.2% today. Thesis intact.
   entry_type: manual | sector: consumer | catalyst: earnings_beat (with raised guidance)
   Overnight flag: YES — no AH earnings for TGT tonight (Friday, weekend hold).
 
-- MRK: 1.631896 shares, entry $153.20 avg fill, stop-loss $148.85, take-profit $161.89
-  Current at 10 AM: $151.685 (+1.81% today; −0.99% vs entry). Stop $2.835 away (1.87%) — improved from thin-stop danger at open.
-  ⚠ INTRADAY VOLATILITY NOTE: First 5-min bar low at open was $148.59 — briefly traded BELOW stop $148.85 then recovered strongly. By 10 AM, $151.685 — stop is now safe. This suggests MRK is volatile near the stop level; a hard gap-down overnight or Monday morning could breach stop.
-  Thesis: Phase 3 mRNA-4157/V940 (intismeran + Keytruda) confirmed success in high-risk melanoma. Multiple analyst PT raises: Morgan Stanley $179, BofA $166, UBS $175, BMO $170. Recovery from open lows suggests institutional buyers on the Phase 3 thesis.
+- MRK: 1.631896 shares, entry $153.20 avg fill, stop-loss $148.85 (unchanged), take-profit $161.89
+  Current at 12 PM: $152.81 (+2.56% today; −0.25% vs entry). Stop $3.96 away (2.59%).
+  Intraday: Opened at $148.59 (briefly below stop — same as 10 AM warning), recovered powerfully to $154.49 peak by 10:15 AM. Fading gradually since: $153.30 range at 11 AM, $152.75 at noon. Holding above $152.
+  12 PM UPDATE — MRNA CONTEXT: MRNA surged +177% on Wednesday when the Phase 3 INTerpath-001 (intismeran + Keytruda) data first dropped. Yesterday MRNA fell -20% as early buyers took profits. Today MRNA is bouncing +11.4% ($148.58). MRK IS MERCK — the co-developer of Keytruda in this exact trial. MRK's thesis is reinforced and the market is still actively processing this catalyst. The afternoon tape may benefit as MRNA's bounce draws attention back to the trial.
+  Thesis: Phase 3 mRNA-4157/V940 (intismeran + Keytruda) confirmed success in high-risk melanoma. Analyst PT raises: Morgan Stanley $179, BofA $166, UBS $175, BMO $170.
   entry_type: manual | sector: healthcare | catalyst: fda (Phase 3 trial readout + analyst upgrades)
   Overnight flag: YES — no AH earnings for MRK tonight.
-  Trailing stop trigger: MRK did NOT reach ≥$152 at 10 AM ($151.685 < $152 threshold). Stop remains at $148.85. At 3:15 PM: if MRK ≥$152 and stable, trail stop to $150 to lock in protection while preserving upside.
+  ⚠ TRAIL NOTE: At 12 PM, MRK = $152.81 — above $152 threshold but only -0.25% vs entry (12 PM SKILL requires +2% from entry to trail; NOT met). 12 PM did NOT trail. At 3:15 PM: if MRK ≥$152 and stable → trail stop to $150. Weekend gap risk still applies to the $148.85 stop.
 
-No sells executed at 10 AM.
-No new buys at 10 AM: 75% cap binding — only $34.47 available (below $150 LOW tier minimum). No positions can be opened without first selling TGT or MRK.
+No sells at 12 PM.
+No new buys at 12 PM: 75% cap binding — only $33.38 available (below $150 LOW tier minimum). Scanner results dominated by metals, crypto-adjacent, and speculative plays. MRNA hard-disqualified (>15% move rule — +177% on Wednesday). FCX/TECK sector-momentum-only (Insight #10). Friday + 12 PM dual headwinds (Insights #2 and #5).
 
 Settled cash remaining: $263.68 (fully settled)
-Total account value: ~$915.75 (TGT ~$404.78 + MRK ~$247.56 + cash $263.68) at 10 AM
-Portfolio invested: ~71.2% (~$652.34 deployed)
+Total account value: ~$921.20 (TGT ~$408.31 + MRK ~$249.37 + cash $263.68) at 12 PM
+Portfolio invested: ~71.4% (~$657.68 deployed)
 
 NOTES FOR 3:15 PM AGENT (Fri Aug 21, 2026):
 
-1. MRK — CRITICAL STOP CHECK FIRST: At 10 AM, MRK $151.685, stop $148.85 (1.87% away). First 5-min bar this morning traded BELOW stop ($148.59) then recovered. This is a volatile position. At 3:15 PM:
+1. MRK — CRITICAL STOP CHECK FIRST: At 12 PM, MRK $152.81, stop $148.85 (2.59% away).
    a) If MRK at/below $148.85 → sell market immediately (1.631896 shares), no hesitation.
-   b) If MRK ≥$152 and stable at 3:15 PM → trail stop to $150. Do NOT trail if below $152.
+   b) If MRK ≥$152 and stable at 3:15 PM → trail stop to $150. (12 PM confirmed MRK > $152 at noon — trail appropriate if it holds into close.)
    c) If MRK between $148.86–$151.99 → hold with stop at $148.85 as-is.
-   FRIDAY/WEEKEND NOTE: If holding MRK into the weekend, consider whether the stop at $148.85 is appropriate for a 2-day gap risk. Monday market-open gap-downs can easily breach stops. MRK's stop is 1.87% away — a gap on weekend news could trigger. Factor this into the overnight/weekend hold decision.
+   FRIDAY/WEEKEND NOTE: Stop at $148.85 is 2.59% from current price. A gap-down Monday morning (Jackson Hole Fed symposium next week, flash PMI risk) could breach. Factor into weekend hold decision at 3:15 PM.
+   MRNA CONTEXT: MRNA bouncing +11.4% today — same Phase 3 catalyst as MRK. Watch whether MRNA momentum carries into afternoon; if so, MRK may benefit. If MRNA fades hard into close, MRK may face sympathetic pressure.
 
-2. TGT — COMFORTABLE HOLD: At 10 AM, TGT $162.85 (+2.91% day), stop $152.88 is $9.97 away (6.53%). Strong session outperforming market. Thesis intact. If TGT at/below $152.88 at 3:15 PM → sell market (2.485629 shares).
+2. TGT — TRAILED TO BREAKEVEN+: At 12 PM, TGT $164.29, stop TRAILED TO $162.00 (above entry $160.93). Position is risk-free.
+   If TGT at/below $162.00 at 3:15 PM → sell market (2.485629 shares).
+   Take-profit $177.02 — $12.73 away. Hold for continued upside. TGT has strong earnings thesis and is outperforming market significantly.
+   FRIDAY CONTEXT: TGT +3.82% today vs SPY +0.59%. Strong close is likely given trajectory.
 
-3. 75% CAP BINDING — NO NEW BUYS UNLESS A POSITION IS SOLD: $34.47 available under 75% cap. 3:15 PM can only open new positions if TGT or MRK is sold. Both held → no new entries today. If MRK stopped out, ~$248 freed; if TGT sold, ~$405 freed.
+3. 75% CAP BINDING — NO NEW BUYS UNLESS A POSITION IS SOLD: ~$33.38 available under 75% cap. Only meaningful new entries if MRK or TGT is sold. If MRK stopped out → ~$249 freed; if TGT sold → ~$408 freed.
 
-4. FRIDAY SCANNER LANDSCAPE (10 AM): Crypto/fintech rally dominating — HOOD +14.4% (catalyst unclear, possibly earnings or crypto rally), COIN +9.7%, MARA +8.7%, CRCL +10.1%. Metals strong — SCCO +7.6%, FCX +6.8% (low rel vol, sector-momentum-only = Insight #10 disqualifies without dated catalyst). Semis ALL negative (SNDK −0.61%, MU −0.18%, INTC −1.82%, WDC −1.58%, AMAT −1.62%, QCOM −0.16%). SCSC giving back gains today (−3.46%) — NOT in scanner, skip. DE flat (+0.34%) — skip.
+4. NOON SCANNER LANDSCAPE: Crypto/fintech dominating — HOOD +13% (confirmed catalyst: Trump pushing Clarity Act + CEO tokenization push + Goldman PT raise to $123), COIN +9.7%, MSTR +7%. Materials surging — FCX +6.3% (rel vol 0.92x, sector-momentum-only), TECK +3.4%. Semis ALL negative — SNDK -0.43%, MU -0.76%, INTC -1.74%, WDC -0.77%, AMAT -1.55%, QCOM +0.39%. MRNA +11.4% (Phase 3 bounce, hard-disqualified for new entry per 15-day rule). ADI +1.13% — below 3% bar.
 
 5. FRIDAY CONTEXT (Insight #5): Wed-Fri historically 27.3% win rate. Even if cap freed up, raise the bar significantly. Do not force entries. Only act on exceptional setups.
 
 6. DO NOT RE-ENTER FOXA: Stop triggered Aug 18. Do not re-enter.
 
-7. JACKSON HOLE WEEKEND: Fed symposium is next week. Flash PMI today. Macro risk elevated into the weekend. Factor into overnight/weekend hold decisions for both TGT and MRK.
+7. JACKSON HOLE WEEKEND: Fed symposium next week. Flash PMI today. Macro risk elevated into weekend. Factor into both TGT and MRK weekend hold decisions.
 
-8. ADI — ANALYST UPGRADE: ADI +2.01% ($377.69) at 10 AM — still below 3% bar. At 3:15 PM: if ADI in scanner (≥3%), analyst_upgrade is 66.7% win rate (Insight #9). Only relevant if cap is freed.
+8. ADI — ANALYST UPGRADE: At 12 PM, ADI $374.43 (+1.13%). Still below 3% bar. If ADI in scanner (≥3%) at 3:15 PM, analyst_upgrade is 66.7% win rate (Insight #9). Only relevant if cap is freed.
 
-Catalyst watch list carry-forward (10 AM status):
-- ROST: CONFIRMED beat, +4.34% at 10 AM — NOT entered (Insight #1 earnings_beat + catalyst_watch = 0/4; cap constraint $34.47). Faded from pre-mkt $247.59 → $238.94. If ROST still in scanner at 3:15 PM above VWAP: scanner path may be valid (NOT catalyst_watch early-entry path) IF cap is freed by a sell. Still apply Insight #1 caution on earnings_beat.
-- BJ: CONFIRMED beat, +5.21% at 10 AM — NOT entered (cap constraint). Same caution as ROST re: earnings_beat.
-- ADI: +2.01%, below 3% bar — monitor for scanner entry at 3:15 PM if cap freed.
-- SCSC: REVERSED — now −3.46%, not in scanner. SKIP entirely.
-- DE: FLAT — +0.34%, not in scanner. SKIP.
+9. HOOD at 3:15 PM: If cap is freed by a sell, HOOD ($107.49, +13%) is the strongest scanner name with a clear catalyst (Clarity Act regulatory + tokenization + analyst upgrade). Financials sector historically 0% for account — apply extra scrutiny. Check if momentum is holding or fading into close. Would need scanner confirmation + price above VWAP at 3:15 PM. This is the most watchable name if a sell frees capital.
+
+Catalyst watch list carry-forward (12 PM status):
+- ROST: +4.94% at 12 PM (vs +4.34% at 10 AM — holding strong). NOT in scanner at noon. earnings_beat catalyst. Apply Insight #1 caution. Only relevant if cap is freed and ROST enters scanner at 3:15 PM. Use scanner path only (NOT catalyst_watch early-entry path).
+- BJ: +3.93% at 12 PM (vs +5.21% at 10 AM — fading slightly). NOT in scanner at noon. earnings_beat catalyst. Same caution as ROST.
+- ADI: +1.13% at 12 PM, still below 3% bar. Monitor for scanner entry at 3:15 PM if cap freed.
+- SCSC: REVERSED — skip entirely.
+- DE: FLAT — skip.
 
 ---
 PRE-CHECK — Market day verification
