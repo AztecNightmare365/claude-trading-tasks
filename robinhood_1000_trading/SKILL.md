@@ -38,24 +38,20 @@ SUMMARY: 2 ON TRACK (MRK stop razor-thin — 10 AM first); 0 flagged; 0 pre-mark
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET session, 2026-08-20.** No PRE-MARKET BRIEF (retired 7/29); used 7 AM OVERNIGHT BRIEF + live open prices.
+**9:30 AM ET session, 2026-08-21.** No PRE-MARKET BRIEF (retired); used 7 AM OVERNIGHT BRIEF + live open prices.
 
 Sells (stop/TP checks): NONE.
-- TGT open $156.705 (−1.45% vs $159.00 close; −2.63% vs entry $160.93). Stop $152.88 — ABOVE stop. Hold.
-- MRK open $150.590 (−1.06% vs $152.20 close; −1.70% vs entry $153.20). Stop $148.85 — ABOVE stop. Hold.
-
-⚠ WMT opened −8.30% ($104.82 vs $114.30 close) — far worse than pre-mkt −1.86%. Severe retail sector headwind for TGT. TGT stop $152.88 remains the kill switch; 10 AM must monitor closely and exit immediately if TGT trades at/below $152.88.
+- TGT open $160.485 (+1.41% vs $158.25 close; −0.28% vs entry $160.93). Stop $152.88 — $7.61 away. First 5-min bar low $160.23. HOLD.
+- MRK open $149.380 (+0.26% vs $148.99 close; −2.49% vs entry $153.20). Stop $148.85 — $0.53 away (0.36%). ⚠ DANGER: first 5-min bar low $148.59 TRADED BELOW STOP then recovered. 10 AM: check MRK FIRST — if at/below $148.85 → market sell (1.631896 sh), no hesitation.
 
 Catalyst entries: NONE.
-- WMT: FLAT/DOWN (−8.30% open, $104.82) — skip (Insight #1, EPS miss).
-- BABA: FLAT/DOWN (−5.09% open, $122.34) — skip.
-- DE: GAP UP (+1.52% open, $589.44) — scanner-only per handoff; pass to 10 AM.
-- REGN: FLAT/DOWN (−0.81% open, $834.00) — skip.
-- ROST: PENDING (AH tonight), down at open (−1.75%, $230.57) — do not enter.
+- ROST open $240.95 (+5.22% vs $228.99) — BLOCKED: Insight #1 (earnings_beat + catalyst_watch = 0/4 historically, never use early-entry path on earnings_beat). Also: first bar faded ($243.85 open → $240.12 close, negative bar). Cap $36.54 < $150 min tier.
+- BJ open $93.97 (+2.93% vs $91.30) — BLOCKED: Insight #1 (earnings_beat). Scanner path for 10 AM.
+- ADI open $375.96 (+1.54% vs $370.24) — below 3% bar; pass to 10 AM scanner.
 
 Portfolio sync: 2 positions — TGT (2.485629 sh, avg $160.93) + MRK (1.631896 sh, avg $153.20). Exact match with handoff. No manual adoptions.
 
-SPY $765.91 (−0.41%), QQQ $711.94 (−0.58%) — NORMAL REGIME, no gate triggered.
+SPY $765.44 (+0.37%), QQQ $714.03 (+0.44%) — NORMAL REGIME.
 
 Status: 0 stop/TP sells, 0 catalyst entries, 2 positions open for 10 AM.
 
