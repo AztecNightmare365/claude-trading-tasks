@@ -14,24 +14,24 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET, 2026-08-20.** Live-synced (acct ••••6616): 2 positions — TGT (2.485629 sh) + MRK (1.631896 sh).
+**7:00 AM ET 2026-08-21.** Live-sync acct ••••6616: 2 positions — TGT + MRK. Exact match with handoff.
 
 **Positions:**
-- TGT $158.57 pre-mkt (−0.27% vs $159.00 close; −1.47% vs entry $160.93). Stop $152.88 (3.59% away). ON TRACK. Thesis intact (Q2 profit doubled, guidance raised). ⚠ WMT EPS miss ($0.68 vs $0.73 est; guidance raised) — mixed sector signal. If TGT open ≤$152.88 → exit market (10 AM agent).
-- MRK $150.95 pre-mkt (−0.82% vs $152.20 close; −1.47% vs entry $153.20). Stop $148.85 (1.39% above — thin). ON TRACK. Phase 3 mRNA-4157/V940 thesis intact; no adverse overnight news. ⚠ Thin stop margin: if open ≤$148.85 → exit immediately (mkt order, 1.631896 sh).
+- TGT $158.50 bid (+0.16% vs $158.25 close; −1.51% vs entry $160.93). Stop $152.88 — 3.55% away. **ON TRACK.** Thesis intact (Q2 beat + guidance raise). No adverse overnight news.
+- MRK $149.31 bid (+0.21% vs $148.99 close; −2.54% vs entry $153.20). Stop $148.85 — ⚠ **$0.46 away (0.31%).** Close $148.99 was $0.14 above stop. HC sector profit-taking pre-mkt headwind. Thesis intact (mRNA-4157/V940 Ph3). **ON TRACK — CRITICAL thin stop.** 10 AM: CHECK MRK FIRST — at/below $148.85 → market sell (1.631896 sh) immediately, no hesitation.
 
-Pre-market sells: NONE.
+Pre-market sells: **NONE.**
 
 **Catalyst watch:**
-- WMT −1.86% ($112.17). EPS $0.68 vs $0.73 est (miss); rev ~$177.4B (in-line); guidance raised. CONFIRMED — FLAT/DOWN. SKIP (Insight #1 + EPS miss).
-- BABA −1.24% ($127.30). Profit −75% (AI capex surge); rev +9%. CONFIRMED — FLAT/DOWN. SKIP.
-- DE +3.59% ($601.50 vs $580.63). Q3 EPS $5.10 vs $4.85 est; rev $12.61B vs $10.78B est — strong beat. CONFIRMED — GAP UP. Scanner path only; flag for 10 AM.
-- ROST +0.12% ($234.98, wide spread; AH tonight). PENDING — do NOT hold overnight into AH print.
-- REGN −0.77% ($834.40 vs $840.84). FDA Pasatru confirmed yesterday; no pre-mkt follow-through. FLAT/DOWN. Skip catalyst path; check 10 AM scanner.
+- ROST +8.12% ($247.59 vs $228.99). **CONFIRMED — GAP UP.** AH beat confirmed by price action. ⚠ Email sent. 10 AM: open confirmation required (1-2% above $228.99); Insight #1 applies (earnings_beat path 0/4); cap needs freeing (MRK stop-out).
+- BJ EPS $1.36 vs est $1.19 (+14.3% beat; BMO today). Pre-mkt +0.77% (bid $90.38/ask $93.60 — 3.5% spread). **CONFIRMED — FLAT.** Skip early-entry per Insight #1; scanner path only.
+- ADI +0.99% ($373.89 vs $370.24). Bernstein upgrade (non-binary). **MONITOR** — 10 AM scanner ≥3%.
+- SCSC −2.78% ($54.82 vs $56.39; spread ~10%). **FLAT/DOWN — SKIP.**
+- DE +0.19% ($622.11 vs $620.94). **FLAT/DOWN.** Scanner confirmation required.
 
-**Macro:** SPY −0.03%, QQQ +0.03% (flat). Crude rising (Trump/Oman geopolitical tensions). Tech pre-mkt weak (AMD/MU/MRVL lower). FOMC hawkish residual (yesterday's 9-3 hold, 3 hawks dissented).
+**Macro:** SPY +0.32%, QQQ +0.58% (mild pos). Brent ~$94 (Trump "Econ D-Day" on Iran). 10Y 4.70%. HC profit-taking (MRK headwind). Asia rallied (KOSPI +6.25%). Jackson Hole next week. Flash PMI today.
 
-SUMMARY: 2 ON TRACK; 0 flagged; 0 pre-market sells. 1 catalyst GAP UP (DE, scanner-only), 3 flat/down (WMT/BABA/REGN), 1 pending (ROST). No email sent.
+SUMMARY: 2 ON TRACK (MRK stop razor-thin — 10 AM first); 0 flagged; 0 pre-market sells. 1 catalyst gap-up (ROST +8.12%); 1 flat (BJ); 3 monitor/skip (ADI/DE/SCSC). Email sent for ROST.
 
 ---
 
