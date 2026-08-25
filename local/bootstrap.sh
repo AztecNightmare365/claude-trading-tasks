@@ -115,8 +115,12 @@ $MARK_A
 # Times are Eastern; the machine's timezone handles DST.
 # Each job runs via local/run_session.sh, which records the routine's full
 # output to its per-session log AND to local/logs/decisions.log (a single
-# consolidated review log: tail -f local/logs/decisions.log).
+# consolidated review log: tail -f local/logs/decisions.log), and alerts to
+# local/logs/ALERTS.log + health.status on failure.
 SHELL=/bin/bash
+# On boot: alert if sessions were missed while down, and run any missed session
+# if we booted mid-market (see local/boot_catchup.sh).
+@reboot cd $REPO_DIR && bash local/boot_catchup.sh >> local/logs/boot.log 2>> local/logs/cron.err
 0 7 * * 1-5 cd $REPO_DIR && bash local/run_session.sh "7 AM overnight" local/prompts/0700_overnight.txt local/logs/0700.log 2>> local/logs/cron.err
 30 9 * * 1-5 cd $REPO_DIR && bash local/run_session.sh "9:30 AM open-reaction" local/prompts/0930_open.txt local/logs/0930.log 2>> local/logs/cron.err
 0 10 * * 1-5 cd $REPO_DIR && bash local/run_session.sh "10 AM trading" local/prompts/1000_trading.txt local/logs/1000.log 2>> local/logs/cron.err
