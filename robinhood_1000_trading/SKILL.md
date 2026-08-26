@@ -37,20 +37,17 @@ SUMMARY: 2 ON TRACK; 0 flagged; 0 pre-market sells; 0 catalyst tickers. 10 AM pr
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET session, 2026-08-21.** No PRE-MARKET BRIEF (retired); used 7 AM OVERNIGHT BRIEF + live open prices.
+**9:30 AM ET 2026-08-26.** No PRE-MARKET BRIEF (retired); used 7 AM OVERNIGHT BRIEF + live open prices.
 
 Sells (stop/TP checks): NONE.
-- TGT open $160.485 (+1.41% vs $158.25 close; −0.28% vs entry $160.93). Stop $152.88 — $7.61 away. First 5-min bar low $160.23. HOLD.
-- MRK open $149.380 (+0.26% vs $148.99 close; −2.49% vs entry $153.20). Stop $148.85 — $0.53 away (0.36%). ⚠ DANGER: first 5-min bar low $148.59 TRADED BELOW STOP then recovered. 10 AM: check MRK FIRST — if at/below $148.85 → market sell (1.631896 sh), no hesitation.
+- TGT open $163.815 (+0.21% vs $163.47 close; +1.79% vs entry $160.93). Stop $162.00 — $1.82 above (1.11% cushion). HOLD. ⚠ Stop remains tight — 10 AM: check TGT first.
+- MRK open $154.390 (−1.32% vs $156.45 close; +0.77% vs entry $153.20). Stop $150.00 — $4.39 above (2.84% cushion). HOLD. Note: MRK pulled back from pre-mkt $156.18 but comfortably above stop. Trail note from 3:15 PM handoff still pending for 10 AM.
 
-Catalyst entries: NONE.
-- ROST open $240.95 (+5.22% vs $228.99) — BLOCKED: Insight #1 (earnings_beat + catalyst_watch = 0/4 historically, never use early-entry path on earnings_beat). Also: first bar faded ($243.85 open → $240.12 close, negative bar). Cap $36.54 < $150 min tier.
-- BJ open $93.97 (+2.93% vs $91.30) — BLOCKED: Insight #1 (earnings_beat). Scanner path for 10 AM.
-- ADI open $375.96 (+1.54% vs $370.24) — below 3% bar; pass to 10 AM scanner.
+Catalyst entries: NONE (catalyst watch list empty per overnight brief).
 
 Portfolio sync: 2 positions — TGT (2.485629 sh, avg $160.93) + MRK (1.631896 sh, avg $153.20). Exact match with handoff. No manual adoptions.
 
-SPY $765.44 (+0.37%), QQQ $714.03 (+0.44%) — NORMAL REGIME.
+SPY $764.74 (−0.15% vs $765.91), QQQ $709.35 (−0.19% vs $710.72) — NORMAL REGIME. GDP/PCE data (8:30 AM) absorbed without major shock.
 
 Status: 0 stop/TP sells, 0 catalyst entries, 2 positions open for 10 AM.
 
