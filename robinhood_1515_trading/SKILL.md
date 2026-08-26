@@ -24,62 +24,88 @@ _No content — see robinhood_1000_trading/SKILL.md for the live 3:15 PM handoff
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-08-26 (~10:00 AM ET — 10 AM session complete)
+Last updated: 2026-08-26 (~12:00 PM ET — 12 PM reassessment complete)
+Note: Routine executed post-market (quotes at 16:00 ET close); no new intraday orders placed.
 
 Open positions (1 total):
 
-- MRK: 1.631896 shares, entry $153.20 avg fill, stop-loss $150.00 (trailed from $148.85 at 3:15 PM Aug 21 — UNCHANGED today), take-profit $161.89
-  At 10 AM Wed Aug 26: ~$153.97 (day: −1.59% from $156.45 close; +0.50% vs entry $153.20). Stop $3.97 away (2.58% cushion).
-  Intraday pattern: Opened $154.39 at 9:30 AM, drifted to ~$153.97 by 10 AM — mild decline. Stop at $150.00 has comfortable cushion.
-  Trail status: NOT eligible — MRK declining today (−1.59% from close). Kept stop at $150.00. Trail threshold is +2.00% from entry ($156.26); current price ($153.97) has not reached it. Wait for stabilization above $156.26 before considering trail.
-  Thesis: INTACT. Phase 3 mRNA-4157/V940 (intismeran + Keytruda) confirmed success in high-risk melanoma. Multiple analyst PTs: MS $179, BofA $166, UBS $175, BMO $170. Today's pullback attributed to broad market caution ahead of NVDA earnings AH tonight and Jackson Hole Thu Aug 28.
+- MRK: 1.631896 shares, entry $153.20 avg fill, stop-loss $150.00 (UNCHANGED), take-profit $161.89
+  At 12 PM close Wed Aug 26: $153.36 (day: −1.98% from $156.45 prev close; +0.10% vs entry $153.20). Stop $3.36 away (2.20% cushion).
+  Trail status: NOT eligible. Trail threshold +2.00% from entry = $156.26; close $153.36 below threshold. Stop unchanged at $150.00.
+  Thesis: INTACT and strengthening. Phase 3 mRNA-4157/V940 (intismeran + Keytruda) confirmed success in high-risk melanoma. Analyst PTs: Morgan Stanley PT $179 (Overweight), Wolfe Research PT $180 (Outperform), BofA $166, UBS $175, BMO $170. Today's pullback: broad market caution ahead of NVDA earnings AH tonight + Jackson Hole Thu Aug 28. Stock-specific thesis is not impaired.
   entry_type: manual | sector: healthcare | catalyst: fda (Phase 3 trial readout + analyst upgrades)
-  Overnight flag: TBD — no MRK AH earnings tonight. NVDA earnings AH tonight is the dominant macro event. Healthcare less rate-sensitive; thesis remains stock-specific.
+  Overnight flag: YES — no MRK AH earnings. Healthcare less correlated with tech/AI. NVDA earnings result overnight is key macro swing; healthcare more insulated than tech if NVDA misses.
 
-Sells at 10 AM:
-- TGT: SOLD 2.485629 shares at $162.41 avg fill (stop-loss triggered — price breached $162.00 stop at initial 10 AM check: $161.94 at ~10:00 AM ET). P&L: +0.92% (+$3.68). Proceeds $403.85 UNSETTLED (T+1 = Thu Aug 27).
-  Note: TGT briefly touched $161.94 (below stop $162.00) then bounced to ~$162.52 during research window; executed sell per stop discipline at $162.41. Stop was previously trailed from $152.88 on Aug 21, locking in risk-free position above entry $160.93.
+Sells at 12 PM: NONE
+- MRK stop $150.00 not triggered (close $153.36, cushion 2.20%).
+- No take-profit hit (TP $161.89 well above close).
 
-New buys at 10 AM: NONE
-- ANF +33.2% ($145+, prev close $108.90): Q2 earnings beat (EPS $4.17 vs $1.98 est, beat by $2.19) + guidance raised ($13.10–$13.60 from $10.20–$11.00). Excellent catalyst. DISQUALIFIED — 30-minute low ($130.24) is 10.2% below entry (~$145), far exceeds 4% hard cap on stop distance. Outstanding setup but too volatile for 10 AM monitoring cadence.
-- All other scan candidates: fading from open (PLAB), >15% two-day move without new catalyst (SMTC), ADR or near-zero volume (BZ, LOT, AIIR, AVEX, EROC), binary event risk (SMMT clinical trial), earnings beat without guidance raise (PLAB, TTMI), below Wednesday bar (SEDG — analyst_upgrade UBS Buy on FCC inverter ban, rel vol 0.45x, sideways action, negative PE).
-- Wednesday headwind (30.4% win rate Wed-Fri) raised the bar; no candidate cleared it.
+New buys at 12 PM: NONE
+- Market data at routine execution reflects 4:00 PM ET close — intraday order window had passed.
+- Scanner results (Scan 1: 7 results, Scan 2: 15 results, 22 unique candidates screened):
+  - ANF +40.7% ($153.25): Q2 EPS $4.17 vs $1.98 est (+$2.19 beat) + guidance raised ($13.10–$13.60). OUTSTANDING catalyst confirmed (earnings_beat + raised guidance). SKIPPED at 12 PM: 10 AM 30-min low $130.24 = 10.2% below any midday entry — far exceeds 4% stop cap. Market also closed when routine ran. → SEE NOTE 2 for 3:15 PM assessment.
+  - SEDG +7.13% ($32.01): UBS upgrade to Buy (FCC inverter ban). Rel vol improved to 1.37x (from 0.45x at 10 AM). Close above $32.00 meets 10 AM criteria. BUT broader analyst consensus mixed-negative (Barclays $37 Hold, MS $35 EW, Deutsche Bank $33 Hold). SKIPPED: Wednesday headwind + mixed conviction + market closed. → SEE NOTE 3 for 3:15 PM assessment.
+  - VCTR +5.52%: Financials sector (asset management). 0% WR historically (Insight #5). Skip.
+  - BHVN +11.89% ($16.09): Biohaven biotech. August 10 earnings MISS (EPS -$0.91 vs -$0.76). Catalyst unclear — possible clinical news, binary event risk. Skip.
+  - SMTC +8.22%: >15% two-day move, no fresh catalyst (hard disqualifier per 10 AM). Skip.
+  - SMMT +6.62%: Clinical trial data released = confirmed binary event (hard disqualifier). Skip.
+  - WDC +2.64% ($462.65): Convertible debt exchange ($191M, financial restructuring catalyst). Priority watchlist. Did not clear 3%+ bar independently; QQQ down so watchlist boost not applied. → SEE NOTE 4 for NVDA-catalyst overnight potential.
+  - Others: low rel vol, ADR, illiquid, or earnings beat without guidance raise. All skipped.
+  - Wednesday headwind (30.4% WR) applied as additional filter throughout.
+  - Market regime: SPY −0.085% (normal/flat), QQQ −0.195% (normal). Regime gate NOT triggered.
 
-Settled cash remaining: $263.68 (fully settled; TGT proceeds $403.85 unsettled — settles T+1 Thu Aug 27)
-Total account value: ~$919 (MRK ~$251 + settled cash $263.68 + unsettled TGT $403.85)
+Settled cash remaining: $263.68 (fully settled)
+Unsettled: $403.69 (TGT T+1 proceeds — settles Thu Aug 27)
+Total account value: ~$917.63 (MRK $250.26 + settled $263.68 + unsettled $403.69)
 Portfolio invested: ~27.3% (MRK only; well below 75% cap)
 
 NOTES FOR 3:15 PM AGENT (Wed Aug 26, 2026):
 
-1. MRK — HOLD CHECK:
-   At 10 AM: MRK $153.97 (+0.50% vs entry; −1.59% from close). Stop $150.00 ($3.97 / 2.58% away).
+1. MRK — HOLD CHECK (updated from 12 PM close):
+   Close: $153.36 (+0.10% vs entry; −1.98% from prev close). Stop $150.00 ($3.36 / 2.20% away). Thesis strengthening with new analyst targets ($179–$180).
    a) If MRK at/below $150.00 → sell market (1.631896 shares) immediately, no hesitation.
-   b) If MRK ≥ $156.26 and stable/rising into close → consider trailing stop to $152–$153 (recent intraday support zone). Do NOT trail if still declining.
-   c) If MRK between $150.01–$156.25 → hold with stop at $150.00 as-is. TP $161.89 ($7.92 away at 10 AM).
-   NVDA earnings AH tonight: if NVDA beats, risk-on could lift healthcare overnight. If NVDA misses, MRK (healthcare) is less exposed than tech names.
+   b) If MRK ≥ $156.26 and stable/rising → trail stop to $152–$153 zone.
+   c) If MRK between $150.01–$156.25 → hold with stop $150.00 as-is. TP $161.89.
+   NVDA result AH tonight: if beats strongly → risk-on can lift MRK overnight. If miss → MRK (healthcare) more insulated than tech.
 
-2. ANF REVISIT AT 3:15 PM: ANF the dominant story today (+33.2% on huge earnings beat + raised guidance). Disqualified at 10 AM (30-min low 10% below entry). Check at 3:15 PM: if ANF has consolidated into a tighter intraday range with the last-hour low within 5% of current price (3:15 PM stop cap), it becomes viable for overnight entry. Strong close would indicate sustained momentum. Consumer sector; Wednesday headwind still applies but 3:15 PM overnight entry has 60% WR (Insight #10, small N). Assess closing price vs intraday range and vol.
+2. ANF REVISIT AT 3:15 PM — KEY CANDIDATE: Closed $153.25 (+40.7%). Dominant story today.
+   Catalyst confirmed: Q2 EPS $4.17 vs $1.98 est + guidance raised — earnings_beat + raised guidance (HIGH conviction criteria).
+   For overnight entry: check if the LAST-HOUR intraday low (3:00–3:15 PM window) is within 5% of $153.25. Do NOT use the 10 AM low of $130.24 — use the fresh last-60-minute low only.
+   If last-hour low ≥ $145.59 (= $153.25 × 0.95): stop cap met → entry viable. Stop at last-hour low.
+   Strong close at $153.25 (well above 10 AM levels of $130) suggests consolidation. Consumer sector + Wednesday headwind still applies, but 3:15 PM WR 60% (Insight #10).
 
-3. CASH AVAILABLE:
-   Settled today: $263.68 (available for 3:15 PM buys)
-   TGT unsettled: $403.85 (T+1 = Thu Aug 27, cannot use today)
-   Under 75% cap with only MRK: max invested ~$437 under cap; hard-limited to $263.68 settled cash for any new 3:15 PM buys.
-   Tomorrow (Aug 27): TGT proceeds settle → $667.53 total cash available; 75% cap of ~$919 account = ~$689 max invested, so up to ~$437 additional capacity.
+3. SEDG REVISIT AT 3:15 PM — LOW-MEDIUM CONVICTION:
+   Closed $32.01 (+7.13%). Analyst_upgrade catalyst (UBS Buy, FCC inverter ban) = 66.7% WR (Insight #9).
+   BUT: Barclays, Morgan Stanley, Deutsche Bank all Hold ratings with targets $33–$37 — broad consensus tepid.
+   Intraday low: $31.38 (9:30 AM open). 5% cap below $32.01 = $30.41. Stop at $31.38 fits within cap.
+   Confirm: no AH earnings tonight for SEDG. Negative PE is a concern. Apply Wednesday caution strongly.
+   Only buy if closing strong (top 25% intraday range at 3:15 PM), rel vol sustained ≥ 1.2×.
 
-4. NVDA EARNINGS AH TONIGHT: Dominant market event. NVDA down 7 consecutive days pre-report. Watch:
-   → SMCI, ANET, MRVL, AMD (AI-adjacent) for gap-up opening tomorrow if NVDA beats
-   → WDC was +3.74% today (priority watchlist); if NVDA beats and WDC closes strong, storage/memory sector could follow
-   → Broad risk-on tonight benefits MRK overnight hold
-   If NVDA misses: avoid new tech overnight positions; MRK (healthcare) less exposed.
+4. WDC — NVDA CATALYST PLAY FOR OVERNIGHT:
+   WDC closed +2.64% at $462.65. Catalyst: convertible debt buyback ($191M — reduces 2028 debt, balance sheet positive). Priority watchlist.
+   NVDA earnings AH tonight = dominant overnight catalyst for storage/memory sector. If NVDA beats strongly → WDC, SNDK could gap up tomorrow morning.
+   Verify WDC has no earnings tonight. If NVDA AH reaction is clearly positive (stock up significantly in after-hours), WDC becomes viable overnight entry at 3:15 PM.
 
-5. SEDG CARRY-FORWARD: SEDG +8.2% today on UBS upgrade to Buy (FCC ban on imported inverters — SEDG as key US beneficiary). Analyst_upgrade catalyst = 66.7% WR (Insight #9). Skipped at 10 AM (rel vol 0.45x, sideways action, Wednesday bar not cleared). At 3:15 PM: if SEDG is closing strong (top 25% intraday range), rel vol has improved, and close is above $32.00, revisit as potential overnight analyst_upgrade play. Intraday low was $31.38 at 9:30 AM open. 5% hard cap below a 3:15 PM entry of ~$32.30 = stop floor $30.69; use $31.38 (intraday low) as reference if within 5%. Negative PE is a concern; no pending binary events confirmed. Apply Wednesday caution.
+5. NVDA EARNINGS AH TONIGHT — CRITICAL MACRO EVENT:
+   Results due ~4:20–4:30 PM ET. Consensus: $92.07B revenue (+97.4% YoY), EPS $2.09.
+   CAUTION: NVDA declined following last 4 consecutive earnings reports despite beats — "sell the news" pattern is real.
+   Monitor actual AH price reaction (not just beat/miss) before sizing any overnight tech exposure.
+   If NVDA beats + stock gaps UP in AH: AI-adjacent tailwinds for SMCI, ANET, MRVL, WDC, SNDK.
+   If NVDA beats + stock FLAT/DOWN in AH: sell-the-news scenario — avoid new tech overnight positions.
+   If NVDA misses: avoid all new tech overnight positions; MRK (healthcare) most insulated holding.
 
-6. JACKSON HOLE THU AUG 28 (Warsh keynote): 2 trading days away. Macro risk building. Avoid new rate-sensitive overnight positions. MRK (healthcare) is less exposed. Do NOT open financial or rate-sensitive names overnight before Jackson Hole.
+6. JACKSON HOLE THU AUG 28 (Warsh keynote): 2 trading days away. Macro risk building. Avoid new rate-sensitive overnight positions. MRK (healthcare) less exposed. Do NOT open financial or rate-sensitive names overnight before Jackson Hole.
 
-7. DO NOT RE-ENTER TGT TODAY: TGT stopped out this session. Do not re-enter TGT on the same trading day (Insight AVOID).
-8. DO NOT RE-ENTER FOXA: Stop triggered Aug 18. Do not re-enter.
+7. CASH AVAILABLE AT 3:15 PM:
+   Settled today: $263.68 (available for 3:15 PM buys).
+   TGT unsettled: $403.69 (T+1 = Thu Aug 27 — NOT available today).
+   Max new invested under 75% cap: ~$437.96 from account value; hard-limited to $263.68 settled cash.
+   Tomorrow (Aug 27): TGT settles → ~$667 total cash; 75% cap ~$688 max invested.
 
-Catalyst watch list: none. No confirmed overnight catalysts identified for tonight beyond NVDA (NVDA is not a direct buy candidate — too large, no new agentic entry eligible). 3:15 PM agent should research AH catalysts fresh for tomorrow morning.
+8. DO NOT RE-ENTER TGT TODAY: Stopped out 10 AM session. Per AVOID rule (Insight AVOID).
+9. DO NOT RE-ENTER FOXA: Stop triggered Aug 18. Do not re-enter.
+
+Catalyst watch list: None new identified. ANF and SEDG are carry-forwards evaluated above. NVDA results (AH tonight) not a direct entry — too large; watch for sector reaction in WDC, SNDK, AMAT at tomorrow's 10 AM open.
 
 ---
 PRE-CHECK — Market day verification
