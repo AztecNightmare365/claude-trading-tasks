@@ -14,24 +14,23 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET 2026-08-21.** Live-sync acct ••••6616: 2 positions — TGT + MRK. Exact match with handoff.
+**7:00 AM ET 2026-08-26.** Live-sync acct ••••6616: 2 positions — TGT + MRK. Exact match with 12 PM Aug 25 handoff (3:15 PM agent did not run Tue Aug 25).
 
 **Positions:**
-- TGT $158.50 bid (+0.16% vs $158.25 close; −1.51% vs entry $160.93). Stop $152.88 — 3.55% away. **ON TRACK.** Thesis intact (Q2 beat + guidance raise). No adverse overnight news.
-- MRK $149.31 bid (+0.21% vs $148.99 close; −2.54% vs entry $153.20). Stop $148.85 — ⚠ **$0.46 away (0.31%).** Close $148.99 was $0.14 above stop. HC sector profit-taking pre-mkt headwind. Thesis intact (mRNA-4157/V940 Ph3). **ON TRACK — CRITICAL thin stop.** 10 AM: CHECK MRK FIRST — at/below $148.85 → market sell (1.631896 sh) immediately, no hesitation.
+- TGT $163.63 pre-mkt (+0.10% vs $163.47 close; +1.68% vs entry $160.93). Stop $162.00 — ⚠ $1.63 away (1.00%). **ON TRACK.** Telsey PT raised to $182 overnight. Risk: GDP/PCE at 8:30 AM (core PCE est +0.3% vs +0.1% prior) could pressure consumer names — hot print may push TGT toward stop. 10 AM: check TGT first.
+- MRK $156.18 pre-mkt (−0.17% vs $156.45 close; +1.95% vs entry $153.20). Stop $150.00 — $6.18 away (3.95%). **ON TRACK.** No new adverse overnight catalyst. RBC downgrade Aug 20 already priced in. Trail note: MRK closed $156.45 yesterday > $156.26 trail threshold; 3:15 PM agent didn't run to formalize — 10 AM: assess trail to recent intraday support.
 
 Pre-market sells: **NONE.**
 
-**Catalyst watch:**
-- ROST +8.12% ($247.59 vs $228.99). **CONFIRMED — GAP UP.** AH beat confirmed by price action. ⚠ Email sent. 10 AM: open confirmation required (1-2% above $228.99); Insight #1 applies (earnings_beat path 0/4); cap needs freeing (MRK stop-out).
-- BJ EPS $1.36 vs est $1.19 (+14.3% beat; BMO today). Pre-mkt +0.77% (bid $90.38/ask $93.60 — 3.5% spread). **CONFIRMED — FLAT.** Skip early-entry per Insight #1; scanner path only.
-- ADI +0.99% ($373.89 vs $370.24). Bernstein upgrade (non-binary). **MONITOR** — 10 AM scanner ≥3%.
-- SCSC −2.78% ($54.82 vs $56.39; spread ~10%). **FLAT/DOWN — SKIP.**
-- DE +0.19% ($622.11 vs $620.94). **FLAT/DOWN.** Scanner confirmation required.
+**Catalyst watch list:** None (all Aug 21 names expired per 12 PM Aug 25 handoff).
 
-**Macro:** SPY +0.32%, QQQ +0.58% (mild pos). Brent ~$94 (Trump "Econ D-Day" on Iran). 10Y 4.70%. HC profit-taking (MRK headwind). Asia rallied (KOSPI +6.25%). Jackson Hole next week. Flash PMI today.
+**Macro:**
+- SPY $765.63 (−0.04%), QQQ $710.24 (−0.07%) — flat/mildly negative pre-mkt
+- GDP Q2 2nd est (exp 1.5% vs 2.1% prior) + Core PCE (exp +0.3%) at 8:30 AM — hawkish surprise = headwind; TGT stop most exposed
+- NVDA earnings TONIGHT AH (not last night) — stock down 7 straight days; pre-earnings caution in tech
+- Jackson Hole Thu Aug 28 (Warsh keynote) — macro risk accumulating
 
-SUMMARY: 2 ON TRACK (MRK stop razor-thin — 10 AM first); 0 flagged; 0 pre-market sells. 1 catalyst gap-up (ROST +8.12%); 1 flat (BJ); 3 monitor/skip (ADI/DE/SCSC). Email sent for ROST.
+SUMMARY: 2 ON TRACK; 0 flagged; 0 pre-market sells; 0 catalyst tickers. 10 AM priority: TGT first (stop 1.00% away, 8:30 data risk), then MRK (trail assess).
 
 ---
 
