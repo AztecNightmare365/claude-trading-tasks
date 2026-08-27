@@ -14,23 +14,26 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET 2026-08-26.** Live-sync acct ••••6616: 2 positions — TGT + MRK. Exact match with 12 PM Aug 25 handoff (3:15 PM agent did not run Tue Aug 25).
+**7:00 AM ET 2026-08-27.** Live-sync ••••6616: 2 positions — MRK + ANF. Exact match 3:15 PM Aug 26 handoff.
 
-**Positions:**
-- TGT $163.63 pre-mkt (+0.10% vs $163.47 close; +1.68% vs entry $160.93). Stop $162.00 — ⚠ $1.63 away (1.00%). **ON TRACK.** Telsey PT raised to $182 overnight. Risk: GDP/PCE at 8:30 AM (core PCE est +0.3% vs +0.1% prior) could pressure consumer names — hot print may push TGT toward stop. 10 AM: check TGT first.
-- MRK $156.18 pre-mkt (−0.17% vs $156.45 close; +1.95% vs entry $153.20). Stop $150.00 — $6.18 away (3.95%). **ON TRACK.** No new adverse overnight catalyst. RBC downgrade Aug 20 already priced in. Trail note: MRK closed $156.45 yesterday > $156.26 trail threshold; 3:15 PM agent didn't run to formalize — 10 AM: assess trail to recent intraday support.
+- MRK $152.00 pre-mkt (−0.72% vs $153.10 close; −0.78% vs entry $153.20). Stop $150.00 — $2.00 away (1.32%). **ON TRACK.** Broad rotation into tech on NVDA beat; no MRK-specific adverse news overnight. Thesis (Phase 3 INTerpath-001 melanoma) intact.
+- ANF $145.16 pre-mkt (−1.75% vs $147.75 close; −2.52% vs entry $148.9168). Stop $143.91 — $1.25 away (0.86%). **ON TRACK.** No adverse overnight news. Normal digestion after +36% day; consumer thesis (Q2 EPS $4.17 beat + raised guidance) intact. ⚠ PRIORITY: stop razor-thin — 10 AM check ANF first; if ≤$143.91 at open → sell immediately.
 
 Pre-market sells: **NONE.**
 
-**Catalyst watch list:** None (all Aug 21 names expired per 12 PM Aug 25 handoff).
+**Catalyst watch:**
+- DG: +8.72% pre-mkt ($133.50 vs $122.78) — CONFIRMED GAP UP. Q2 BMO; strong beat implied by gap. 10 AM: enter if still trending at open, standard 3% bar applies.
+- BURL: −1.27% ($310.00 vs $313.99) — CONFIRMED FLAT/DOWN. Beat ests but market disappointed; skip.
+- WDC: +3.86% ($487.00 vs $468.88) — CONFIRMED GAP UP. NVDA beat + UP 6.5% unlocks this. 10 AM viable.
+- SNDK: +4.36% ($1,564.74 vs $1,499.37) — CONFIRMED GAP UP (priority sector). 10 AM viable.
+- ANET: +1.80% ($205.89 vs $202.25) — CONFIRMED partial gap. 10 AM: reconfirm still trending before entry.
 
 **Macro:**
-- SPY $765.63 (−0.04%), QQQ $710.24 (−0.07%) — flat/mildly negative pre-mkt
-- GDP Q2 2nd est (exp 1.5% vs 2.1% prior) + Core PCE (exp +0.3%) at 8:30 AM — hawkish surprise = headwind; TGT stop most exposed
-- NVDA earnings TONIGHT AH (not last night) — stock down 7 straight days; pre-earnings caution in tech
-- Jackson Hole Thu Aug 28 (Warsh keynote) — macro risk accumulating
+- NVDA +6.51% pre-mkt ($223.31): EPS $2.22 beat, revenue $96.2B (+106% YoY), Q3 guide $108B vs $104.2B est; AWS buying 2M GPUs; Hugging Face acquisition $12.9B. Full bull case confirmed.
+- SPY +0.41% ($769.21), QQQ +1.01% ($718.54) — strong risk-on; NVDA-driven tech rally.
+- Jackson Hole Fri Aug 28 (Warsh keynote): major macro risk tomorrow — avoid new rate-sensitive overnight positions tonight.
 
-SUMMARY: 2 ON TRACK; 0 flagged; 0 pre-market sells; 0 catalyst tickers. 10 AM priority: TGT first (stop 1.00% away, 8:30 data risk), then MRK (trail assess).
+SUMMARY: 2 ON TRACK; 0 flagged; 0 pre-market sells; 4 catalyst tickers confirmed gap-up (DG, WDC, SNDK, ANET partial) + 1 flat/down (BURL — skip).
 
 ---
 
