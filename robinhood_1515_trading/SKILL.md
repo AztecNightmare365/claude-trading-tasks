@@ -24,83 +24,95 @@ _No content — see robinhood_1000_trading/SKILL.md for the live 3:15 PM handoff
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-08-27 (~10:12 AM ET — 10 AM session complete)
+Last updated: 2026-08-27 (~12:05 PM ET — 12 PM reassessment complete)
 
 Open positions (3 total):
 
-- CRM: 0.543874 shares, entry $247.41, stop-loss $237.52 (4% below entry), take-profit $267.20 (2× stop distance)
-  Thesis: Salesforce Q2 FY2027 GAAP EPS $4.29 vs $1.96 prior year (+119% YoY) — massive beat. Stock was down 22%+ YTD pre-earnings on AI disruption fears ("SaaSpocalypse"); beat + Agentforce AI adoption narrative ($3.4B ARR) reversed the story. Staircase higher highs all morning, hit new session high $244.80 at 10:00 AM bar. Entry confirmed momentum.
-  entry_type: scanner | sector: tech | catalyst: earnings_beat (guidance raise not explicitly confirmed from press release — MEDIUM conviction)
-  Overnight flag: YES — no CRM AH earnings tonight (reported Aug 26 AH). ⚠ Jackson Hole Fri Aug 28 (Warsh keynote): CRM is somewhat rate-sensitive/SaaS-valuation-driven — evaluate at 3:15 PM whether to hold through macro event. Thesis is fresh and strong.
+- CRM: 0.543874 shares, entry $247.41, stop-loss $237.52 (4% below entry — UNCHANGED), take-profit $267.20 (2× stop distance)
+  Current at 12 PM: $244.57 (-1.15% from entry). Stop safe — $7.05 cushion.
+  Thesis: Salesforce Q2 FY2027 GAAP EPS $4.29 vs $1.96 prior year (+119% YoY). Agentforce AI ($3.4B ARR, +205% YoY) narrative intact. Intraday: open $230.71 → staircase to session high $250.54 at 11 AM → faded to $244-245 range. Broad market UP (SPY +0.60%, QQQ +1.05%), fade is stock-specific profit-taking. No negative news today. Thesis intact.
+  entry_type: scanner | sector: tech | catalyst: earnings_beat
+  Overnight flag: YES (carry forward) — CRM is most rate-sensitive of the 3 ahead of Jackson Hole. Evaluate at 3:15 PM. AH SaaS earnings tonight (WDAY EPS est $2.34, ADSK EPS est $2.97) — beats could lift CRM/SaaS sector at tomorrow open.
 
-- VEEV: 0.454503 shares, entry $296.06, stop-loss $284.22 (4% below entry), take-profit $319.74 (2× stop distance)
-  Thesis: Veeva Systems Q2 FY2027 earnings beat (reported AH Aug 26) drove +20.4% gap today. Q1 FY2027 had confirmed beat + guidance raise (EPS $9.05 vs $8.82 est / revenue $3.64-3.65B vs $3.58B est). This Q2 move implies even stronger result. Smoothest staircase trend of all candidates — every bar higher, new session high at 9:55 AM bar.
-  entry_type: scanner | sector: healthcare | catalyst: earnings_beat (guidance raise inferred from Q1 precedent and +20% move)
-  Overnight flag: YES — no VEEV AH earnings tonight. Healthcare/life sciences software = relatively rate-insensitive. Best diversification pick ahead of Jackson Hole.
+- VEEV: 0.454503 shares, entry $296.06, stop-loss $284.22 (4% below entry — UNCHANGED), take-profit $319.74 (2× stop distance)
+  Current at 12 PM: $287.11 (-3.02% from entry). ⚠ HIGH RISK — only $2.89 above stop.
+  ⚠ INTRADAY STOP BREACH: VEEV dipped to $283.53 at 11:45 AM (below stop $284.22) then recovered. No standing stop orders exist — this manual check IS the mechanism.
+  Thesis: VEEV Q2 FY2027 earnings beat (reported AH Aug 26, +20.4% gap today). Q1 FY2027 confirmed beat + guidance raise (EPS $9.05 vs $8.82 est / revenue $3.64-3.65B vs $3.58B est). No new negative news today. Broad market UP — fade is stock-specific profit-taking after massive gap. Thesis intact.
+  12 PM decision: HOLD — price condition met (-3.02%) but no thesis break per news check. Per rules: "hold if only price condition met but thesis intact."
+  entry_type: scanner | sector: healthcare | catalyst: earnings_beat (guidance raise confirmed Q1; Q2 magnitude implies similar or better)
+  Overnight flag: YES (carry forward) — VEEV is LEAST rate-sensitive ahead of Jackson Hole. BUT must be above stop at 3:15 PM check.
+  CRITICAL: If VEEV at/below $284.22 at 3:15 PM → SELL IMMEDIATELY (market order, 0.454503 shares). No discretion — stock already tested this level today.
 
-- DG: 1.022491 shares, entry $131.61, stop-loss $126.35 (4% below entry), take-profit $142.14 (2× stop distance)
-  Thesis: Dollar General Q2 2026 earnings BMO Aug 27 (confirmed by 7.8% gap-up from $122.78). After initial volatility, stock consolidated tightly at $128–$130 for 4 bars then broke out cleanly to $132.40 new session high at 10:00 AM bar — ideal pattern. Consumer staples = defensive, less correlated to tech macro events.
-  entry_type: scanner | sector: consumer | catalyst: earnings_beat (guidance raise not confirmed — MEDIUM conviction)
-  Overnight flag: YES — no DG AH earnings tonight. Consumer staples provides defensive cushion ahead of Jackson Hole macro event tomorrow.
+- DG: 1.022491 shares, entry $131.61, stop-loss $126.35 (4% below entry — UNCHANGED), take-profit $142.14 (2× stop distance)
+  Current at 12 PM: $129.76 (-1.41% from entry). Stop safe — $3.41 cushion.
+  Thesis: Dollar General Q2 2026 earnings BMO Aug 27, EPS $2.23 vs $1.99 estimate (confirmed beat). After open spike to $124.50 low (pre-entry), consolidated $128-130 then broke to $132 at 10 AM bar — entry confirmed momentum. Faded to $129-130 midday — normal pullback. Consumer staples thesis intact.
+  NOTE: DG open low $124.50 was a 9:30 spike (pre-entry). Since entry, post-10AM low has been ~$128.75. Normal behavior.
+  entry_type: scanner | sector: consumer | catalyst: earnings_beat
+  Overnight flag: YES (carry forward) — consumer staples defensive cushion ahead of Jackson Hole.
 
-Sells at 10 AM: NONE
-- MRK and ANF were sold by 9:30 AM agent (stop_loss triggered at open). Both logged in trade_log.csv by prior agent.
-  MRK: sold ~$149.51, P&L −2.41% / −$6.02. ANF: sold ~$143.00, P&L −3.97% / −$10.48.
+Sells at 12 PM: NONE
+- No hard exits triggered (CRM above stop, VEEV above stop at check time, DG above stop).
+- No discretionary exits (CRM -1.15% and DG -1.41% below 1.5% price condition; VEEV price condition met but thesis intact per news check).
 
-New buys at 10 AM:
-- CRM: $134.56 market buy, filled 0.543874 sh @ $247.41 avg (order 6a9045ad-67cc-40e2-928b-c9ee9b2806d8)
-- VEEV: $134.56 market buy, filled 0.454503 sh @ $296.06 avg (order 6a9045b0-06ca-4163-85dd-f7f7896e6fad)
-- DG: $134.57 market buy, filled 1.022491 sh @ $131.61 avg (order 6a9045b0-3ef3-45be-a4ba-6d5bfb7da6f5)
+New buys at 12 PM: NONE
+- Settled cash $0.00 (all $506.02 is unsettled T+1). Buying power = $0 → Steps 4-5 skipped.
 
-Settled cash remaining: $0.00 (fully deployed)
+Settled cash remaining: $0.00
 Unsettled: ~$506.02 (MRK + ANF T+1 sells — settles Fri Aug 28)
-Total account value: ~$909.71 (3 positions ~$403.69 + $506.02 unsettled)
-Portfolio invested: ~44.4% ($403.69 / $909.71; well under 75% cap)
+Total account value: ~$901.67 (3 positions ~$396 + $506.02 unsettled)
+Portfolio invested: ~43.9% ($396 / $901.67; well under 75% cap)
 
 NOTES FOR 3:15 PM AGENT (Thu Aug 27, 2026):
 
-1. JACKSON HOLE FRIDAY (Warsh keynote, Aug 28) — CRITICAL MACRO RISK:
-   At 3:15 PM, evaluate whether to hold all 3 positions through Jackson Hole.
-   - VEEV (healthcare software): LEAST rate-sensitive; hold if thesis intact and position not near stop.
-   - DG (consumer staples): MODERATELY defensive; consumer staples typically holds up better vs rate shock.
-   - CRM (tech/SaaS): MOST rate-sensitive of the three. Consider reducing if market weakening into close.
+1. ⚠ VEEV — CRITICAL PRIORITY (check first):
+   Stop $284.22. Current at 12 PM: $287.11 (only $2.89 above stop).
+   Stock breached stop intraday (low $283.53 at 11:45 AM) and recovered. This is the most urgent position.
+   a) If VEEV at/below $284.22 → SELL IMMEDIATELY (market order, 0.454503 shares). Zero discretion.
+   b) If VEEV ≥ $319.74 → take profit.
+   c) If VEEV between $284.23–$319.73 → hold for overnight if Jackson Hole thesis supports. Healthcare software is rate-insensitive — best overnight hold of the three IF above stop.
+
+2. JACKSON HOLE FRIDAY (Warsh keynote, Aug 28) — CRITICAL MACRO RISK:
+   At 3:15 PM, evaluate whether to hold all positions overnight.
+   - VEEV (healthcare software): LEAST rate-sensitive. Hold overnight if stop intact and thesis intact.
+   - DG (consumer staples): MODERATELY defensive. Hold if thesis intact.
+   - CRM (tech/SaaS): MOST rate-sensitive. Consider closing if market weakens into close.
    Do NOT open new rate-sensitive overnight positions tonight.
 
-2. CRM — HOLD CHECK at 3:15 PM:
-   Stop $237.52. TP $267.20.
+3. CRM — HOLD CHECK at 3:15 PM:
+   Stop $237.52. TP $267.20. Current at 12 PM: $244.57.
    a) If CRM at/below $237.52 → sell market (0.543874 shares) immediately.
-   b) If CRM ≥ $267.20 → take profit (lock in gain). Per Insight #6, for earnings_beat + momentum tech up >5% intraday, hold past first pullback — TP at 8-12% if trending strongly.
+   b) If CRM ≥ $267.20 → take profit. Per Insight #6, earnings_beat + momentum tech up >5% intraday: consider holding past first pullback, TP at 8-12% if trending.
    c) If CRM between $237.53–$267.19 → hold; assess Jackson Hole risk at 3:15 PM.
-   Thesis: GAAP EPS $4.29 vs $1.96 prior year (+119%), Agentforce AI adoption narrative intact.
-
-3. VEEV — HOLD CHECK at 3:15 PM:
-   Stop $284.22. TP $319.74.
-   a) If VEEV at/below $284.22 → sell market (0.454503 shares) immediately.
-   b) If VEEV ≥ $319.74 → take profit. Per Insight #6, consider holding past first pullback if strongly trending.
-   c) If VEEV between $284.23–$319.73 → hold. Healthcare sector = safest overnight play.
-   Q1 FY2027 confirmed beat + guidance raise; Q2 implies even stronger result.
 
 4. DG — HOLD CHECK at 3:15 PM:
-   Stop $126.35. TP $142.14.
+   Stop $126.35. TP $142.14. Current at 12 PM: $129.76.
    a) If DG at/below $126.35 → sell market (1.022491 shares) immediately.
    b) If DG ≥ $142.14 → take profit.
    c) If DG between $126.36–$142.13 → hold. Consumer staples thesis; defensive ahead of Jackson Hole.
 
-5. DO NOT RE-ENTER: MRK (stopped today), ANF (stopped today), TGT (stopped Aug 26), FOXA (stopped Aug 18).
+5. CRWD — POTENTIAL 3:15 PM ENTRY (only if settled cash available):
+   CRWD at 12 PM: $222.48, +17.6% ($189.18 prior close). Post-earnings, GAAP EPS $0.01 vs −$0.07 prior year. Cybersecurity sector. S (SentinelOne) reports AH tonight — beat could lift CRWD further. Evaluate at 3:15 PM per normal criteria: still trending, last-hour low within 4-5% of entry, above VWAP.
+   IMPORTANT: Settled cash is $0 today. Proceeds from any 3:15 PM sells settle T+1 (Fri Aug 28) and CANNOT fund same-day buys. CRWD purchase is only possible if settled cash > $0 at 3:15 PM check (unexpected settlement or existing position unchanged). Do not use unsettled funds.
 
-6. BROADER SCANNER CONTEXT (10 AM — not entered, for reference):
-   - CRWD +17.1% ($221.55): Post-earnings, trending up, GAAP EPS $0.01 vs −$0.07 prior year. Not entered (prioritized CRM). If 3:15 PM scanner shows CRWD still strong, re-evaluate as overnight entry.
-   - OKTA +22.7% ($164.95): Post-earnings but FADING at 10 AM (below 9:30 open). Do not chase.
-   - PANW +11.1% ($376.90): Sector sympathy only, no direct earnings catalyst. Low conviction.
-   - Memory sector ALL DOWN (SNDK −1.65%, WDC −4.74%, MU −1.16%, AMAT −1.30%): avoid.
+6. AH EARNINGS TONIGHT — sector sentiment drivers:
+   - MRVL (Marvell, semiconductor): EPS est $0.87, reporting AH. Beat could drive semi/memory sector tomorrow.
+   - WDAY (Workday, SaaS): EPS est $2.34, reporting AH. Beat could lift CRM/SaaS sentiment at tomorrow open.
+   - ADSK (Autodesk): EPS est $2.97, reporting AH. Software sector.
+   - S (SentinelOne): EPS est -$0.21, reporting AH. Cybersecurity sector (CRWD adjacent).
+   - ULTA: EPS est $6.25, reporting AH. Consumer sector.
 
-7. CATALYST WATCH LIST CARRY-FORWARD:
-   - DG: ENTERED at $131.61. BMO earnings beat confirmed by price action.
-   - SNDK: FAILED — down despite NVDA beat. Do not chase.
-   - WDC: FAILED — down despite NVDA beat. Do not chase.
+7. BROAD MARKET AT 12 PM:
+   SPY: $770.70, +0.60%. QQQ: $718.84, +1.05%. Normal regime, tech-led, positive.
+
+8. DO NOT RE-ENTER: MRK (stopped today), ANF (stopped today), TGT (stopped Aug 26), FOXA (stopped Aug 18).
+
+9. CATALYST WATCH LIST CARRY-FORWARD:
+   - DG: ENTERED at $131.61. BMO earnings beat confirmed (EPS $2.23 vs $1.99).
+   - SNDK: FAILED — do not chase.
+   - WDC: FAILED — do not chase.
    - ANET: CONFIRMED partial gap but below 0.5% threshold. Not entered — monitor at 3:15 PM.
-   - CRWD: CONFIRMED post-earnings +17.1%. Not entered at 10 AM (3 picks already filled cash). Viable 3:15 PM entry if still trending with last-hour low within 4-5% of 3:15 PM price.
-   - OKTA: CONFIRMED post-earnings but FADING at 10 AM. Do not chase unless full reversal back above $167+.
+   - CRWD: CONFIRMED post-earnings +17.6% at 12 PM. Not entered at 10 AM (cash full) or 12 PM (no settled cash). Viable 3:15 PM entry if cash available and still trending.
+   - OKTA: FADING. Do not chase unless full reversal back above $167+.
 
 ---
 PRE-CHECK — Market day verification
