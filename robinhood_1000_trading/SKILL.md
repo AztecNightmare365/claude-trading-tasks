@@ -96,99 +96,79 @@ RAW STATS:
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-Last updated: 2026-08-26 (~3:27 PM ET — 3:15 PM session complete)
+Last updated: 2026-08-27 (~3:15 PM ET — 3:15 PM session complete)
 
 Open positions held overnight (2 total):
 
-- ⛔ SOLD BY 9:30 AM AGENT — stop_loss — do not re-enter. MRK: 1.631896 sh, entry $153.20, exit ~$149.51, est. P&L −2.41% / −$6.02.
-  At 3:15 PM close: $153.265 (day: −2.03% from $156.45 prev close; +0.04% vs entry). Stop $3.265 away (2.13% cushion).
-  Trail status: NOT eligible. Trail threshold +2% from entry = $156.26; close $153.265 below threshold. Stop unchanged at $150.00.
-  Thesis: INTACT. Phase 3 mRNA-4157/V940 (intismeran + Keytruda) confirmed success in high-risk melanoma. Analyst PTs: MS $179, Wolfe $180, BofA $166, UBS $175, BMO $170. Today's pullback: broad market caution ahead of NVDA earnings AH tonight + Jackson Hole Thu Aug 28. Stock-specific thesis not impaired.
-  entry_type: manual | sector: healthcare | catalyst: fda (Phase 3 trial readout + analyst upgrades)
-  Overnight flag: YES — no MRK AH earnings. Healthcare less correlated with tech/AI. NVDA sell-the-news risk is real but MRK is insulated.
+- CRM: 0.543874 shares, entry $247.41, stop-loss $237.52 (4% below entry), take-profit $267.20 (2× stop distance)
+  Current at 3:15 PM: $252.01 (+1.86% from entry). Last-hour bars consolidating $250–252, no late fade.
+  Thesis: Salesforce Q2 FY2027 GAAP EPS $4.29 vs $1.96 prior year (+119% YoY). Agentforce AI $3.4B ARR (+205% YoY). Confirmed earnings beat + raised guidance. Broad market strong (SPY +0.51%, QQQ +1.03%). WDAY AH tonight — beat could boost SaaS/CRM sector sentiment at tomorrow open.
+  Per Insight #6: earnings_beat + momentum tech up >22% from prior close today — hold past first pullback; standard TP at $267.20 (8% from entry) applies. 10 AM agent may extend TP toward $277 ($247.41 × 1.12) if CRM trending at open.
+  entry_type: scanner | sector: tech | catalyst: earnings_beat (raised guidance confirmed Q2 FY2027)
+  ⚠ Jackson Hole: CRM is MOST rate-sensitive of the two remaining. Warsh keynote Fri Aug 28 — hawkish surprise = SaaS most vulnerable. Stop $237.52 provides protection.
 
-- ⛔ SOLD BY 9:30 AM AGENT — stop_loss — do not re-enter. ANF: 1.770653 sh, entry $148.9168, exit ~$143.00, est. P&L −3.97% / −$10.48.
-  At fill: $148.9168 (+36.7% day from $108.90 prev close). Stop $5.007 away (3.36% below entry).
-  Thesis: Q2 EPS $4.17 vs $1.98 est (+$2.19 beat = +111% above consensus) + full-year guidance raised. Dominant earnings catalyst confirmed. Rel vol 6.86x. Closed in top 25% of intraday range. No AH earnings tonight for ANF (reported this morning).
-  entry_type: scanner | sector: consumer | catalyst: earnings_beat (with raised guidance)
-  Overnight flag: YES — no ANF AH events tonight. Consumer sector move is independent of NVDA/tech. Fundamental catalyst (not macro correlation). Strong close (+35% confirmed, recovering from afternoon dip to end near $149).
+- DG: 1.022491 shares, entry $131.61, stop-loss $126.35 (4% below entry), take-profit $142.14 (2× stop distance)
+  Current at 3:15 PM: $127.245 (-3.32% from entry). Recovering from afternoon low.
+  ⚠ CRITICAL STOP RISK: Post-entry day low was $126.405 at ~2:55 PM — only $0.07 above stop $126.35. Stop nearly triggered twice (also $126.45 at ~2:35 PM). Stop cushion at close: $0.895 only.
+  Thesis: DG Q2 2026 EPS $2.23 vs $1.99 est (confirmed beat BMO today). Consumer staples — defensive, less rate-sensitive. Gap from prior close ($122.78) still open (DG +3.64% vs prior close). No negative news — thesis intact. Held per rules (no thesis break, price fade alone insufficient for discretionary exit).
+  entry_type: scanner | sector: consumer | catalyst: earnings_beat
+  ⚠ CHECK DG FIRST at 10 AM open: stop is $0.895 above current price. Any gap down through $126.35 → SELL IMMEDIATELY (market order, 1.022491 shares). No discretion.
 
-Sells at 3:15 PM: NONE
-- MRK stop $150.00 not triggered (close $153.265, cushion 2.13%).
-- ANF: NEW ENTRY (3:26 PM fill, not a sell).
+Sells at 3:15 PM: VEEV — STOP TRIGGERED (hard exit)
+- VEEV: 0.454503 shares sold at $283.6239 (market order, filled 2026-08-27T19:15:50Z)
+  Entry $296.0594. Stop $284.22. Price at check: $283.63 — below stop. P&L: -4.20% / -$5.65.
+  DO NOT RE-ENTER VEEV today (AVOID rule: same-day re-entry).
 
-New buys at 3:15 PM:
-- ANF: $263.68 market order filled at $148.9168 (1.770653 shares). HIGH conviction.
-  Stop $143.91 (last-60-min low as of 3:15 PM, 3.36% below entry; within 5% volatility cap).
-  TP $158.93 (2× stop distance from entry = $5.007 × 2 = $10.01 target gain).
-  Dollar risk: 1.770653 × $5.007 = $8.86 (under HIGH tier $20 limit).
-  All $263.68 settled cash deployed (HIGH tier priority, MEDIUM candidates cut per SKILL rules).
+New buys at 3:15 PM: NONE
+- Settled cash $0.00. All cash unsettled (MRK + ANF + VEEV T+1 proceeds — settle Fri Aug 28).
+- Buying power $0.00. Steps 4–5 skipped per SKILL rule (buyable < $10).
 
-Settled cash remaining: $0.00 (fully deployed to ANF)
-Unsettled: $403.69 (TGT T+1, settles Thu Aug 27) + ANF T+1 (settles Thu Aug 27 — cash from ANF sale would settle Fri Aug 28)
-Total account value: ~$917.53 (MRK $250.16 + ANF $263.68 + unsettled cash $403.69)
-Portfolio invested: ~55.9% ($513.84 of $917.53; well under 75% cap)
+Settled cash remaining: $0.00
+Unsettled: ~$634.95 (MRK ~$246 + ANF ~$260 + VEEV ~$129 — all T+1, settle Fri Aug 28)
+Total account value: ~$902.10 (CRM ~$137 + DG ~$130 + $634.95 unsettled)
+Portfolio invested: ~29.6% ($267.15 / $902.10; well under 75% cap)
 
-NOTES FOR 10 AM AGENT (Thu Aug 27, 2026):
+NOTES FOR 10 AM AGENT (Fri Aug 28, 2026 — JACKSON HOLE DAY):
 
-1. ANF — PRIORITY HOLD CHECK (new entry, first overnight):
-   Entry $148.9168. Stop $143.91 (HARD — execute immediately if ANF prints at or below $143.91).
-   a) If ANF at/below $143.91 at open → sell market (1.770653 shares) immediately, no hesitation.
-   b) If ANF ≥$156.50 and stable/rising → consider trailing stop to $148–$150 zone (near entry breakeven).
-   c) If ANF between $143.92–$156.49 → hold with stop $143.91 as-is. TP $158.93.
-   Today's catalyst: Q2 EPS $4.17 vs $1.98 est + guidance raised — highest quality earnings_beat setup. Consumer sector not correlated to NVDA tonight.
-   Risk: broad market sell-off if NVDA disappoints + Jackson Hole Thu macro risk. ANF-specific thesis intact regardless.
-   DO NOT RE-ENTER ANF if stopped (AVOID rule: same-day re-entry; see SKILL.md AVOID note).
+1. ⚠ DG — CHECK FIRST AT OPEN:
+   Stop $126.35. Current at 3:15 PM close: $127.245 (cushion $0.895).
+   Day's post-entry low was $126.405 — nearly stopped out twice. Any gap down through $126.35 → SELL IMMEDIATELY (market order, 1.022491 shares). No discretion.
+   Consumer staples = relatively defensive for Jackson Hole, but stop is dangerously thin.
 
-2. MRK — HOLD CHECK:
-   Stop $150.00 NOT triggered. Cushion 2.13% ($3.265 above stop).
-   a) If MRK at/below $150.00 at open → sell market (1.631896 shares) immediately.
-   b) If MRK ≥$156.26 and stable → trail stop to $152–$153 zone.
-   c) If MRK between $150.01–$156.25 → hold with stop $150.00 as-is. TP $161.89.
-   Jackson Hole Thu Aug 28 (Warsh keynote) = macro risk. Healthcare less rate-sensitive.
-   NVDA tonight: healthcare more insulated from tech sell-the-news than other sectors.
+2. CRM — HOLD CHECK:
+   Stop $237.52. TP $267.20. Current at 3:15 PM: $252.01 (+1.86% from entry $247.41).
+   Evaluate WDAY AH result tonight before open — key SaaS sector read-through for CRM.
+   a) If CRM at/below $237.52 → sell market (0.543874 shares) immediately.
+   b) If CRM ≥ $267.20 → take profit. Per Insight #6, extend TP to $277 ($247.41 × 1.12) if CRM trending.
+   c) If CRM between $237.53–$267.19 → hold; assess Warsh tone (hawkish = most pressure on SaaS).
 
-3. NVDA OVERNIGHT RESULT — CRITICAL MACRO EVENT (know before anything else at 10 AM):
-   NVDA reports ~4:20-4:30 PM ET today. Consensus: $92-93.5B revenue, EPS $2.09-2.13.
-   SELL-THE-NEWS RISK: NVDA has fallen AH in 6 of the last 8 quarters despite beats. Multiple analysts publicly predicting a 5th consecutive post-earnings drop.
-   - If NVDA beat + stock UP in AH: AI-adjacent tailwinds (ANET, WDC, SNDK, MU) — run normal 3% scanner criteria at 10 AM; watch these names for fresh gap-up entries. ANF and MRK largely unaffected.
-   - If NVDA beat + stock DOWN (sell-the-news): avoid all new tech/AI overnight positions; broad market caution; protect both stops.
-   - If NVDA miss: broad risk-off; avoid new tech positions; ANF (consumer) partially insulated; MRK (healthcare) most insulated.
+3. CASH TOMORROW (Fri Aug 28):
+   Total settled: ~$634.95 (all unsettled funds settle Aug 28).
+   75% cap check: $902 × 0.75 = $676; invested ~$267; available under cap ~$409.
+   Buyable at 10 AM Fri: ~$409 (cap-constrained, not cash-constrained — $634.95 cash available).
+   ⚠ FRIDAY + JACKSON HOLE: per Insight #4 (Fri WR 20%, N=5) — raise the bar sharply. Only enter if AH catalyst beat is clearly positive AND stock trending at 10 AM AND catalyst is beat + raised guidance minimum. No sector-momentum-only plays.
+   DO NOT RE-ENTER: VEEV (stopped today Aug 27), MRK (stopped Aug 27), ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18).
 
-4. CASH TOMORROW (Thu Aug 27):
-   TGT T+1 settles: $403.69 becomes available at open Thu Aug 27.
-   Total settled cash at 10 AM: ~$403.69 (assuming both positions held overnight).
-   75% cap: $917.53 × 0.75 = $688.15; invested $513.84; available under cap = $174.31.
-   Buyable at 10 AM Thu: min($403.69, $174.31) = $174.31 (cap-constrained, not cash-constrained).
-   Note: if ANF or MRK is stopped overnight, portfolio value drops and cap/cash recalculate accordingly.
-   DO NOT RE-ENTER TGT (stopped out today Aug 26, AVOID rule).
-   DO NOT RE-ENTER FOXA (stopped Aug 18).
+4. AH EARNINGS TONIGHT (Aug 27) — none reported yet at 3:15 PM:
+   - WDAY: EPS est $2.34. Beat = positive for CRM/SaaS at Friday open.
+   - MRVL: EPS est $0.87. Beat = positive for semi sector (SNDK, MU, WDC watch).
+   - ADSK: EPS est $2.97. Software sector read-through.
+   - S (SentinelOne): EPS est -$0.21. Cybersecurity (CRWD adjacent). Binary.
+   - ULTA: EPS est $6.25. Consumer sector.
+   - AFRM: EPS est $0.72. Fintech.
+   - GAP: EPS est $0.52. Consumer retail.
+   Already confirmed beats BMO today: DLTR (EPS $1.39 vs $1.03), BBY ($1.47 vs $1.37), DG ($2.23 vs $1.99).
 
-5. JACKSON HOLE THU AUG 28 (tomorrow, Warsh keynote):
-   Major macro event tomorrow afternoon. Avoid new rate-sensitive overnight positions placed Thursday.
-   MRK (healthcare) and ANF (consumer) relatively less rate-sensitive.
-   At 3:15 PM Thu: evaluate whether to hold ANF/MRK through Jackson Hole or close to reduce macro risk.
-
-6. SCANNER LANDSCAPE (Wed Aug 26 3:15 PM — context only):
-   - Consumer surge: ANF +35% (in portfolio), URBN +7.98% (AH earnings tonight — AVOID), BBWI +7.25% (rel vol 1.01x, low conviction).
-   - AI networking: ANET +6.41% (post-Q2-earnings continuation from early Aug; NVDA risk tonight — conditional play only).
-   - Solar/clean energy: SEDG +9.03% (UBS Buy, FCC inverter ban; mixed broader consensus Hold ratings at $33-37).
-   - Storage/memory: WDC +3.20% (debt buyback catalyst; NVDA AH risk tonight — enter at 10 AM Thu only if NVDA UP in AH).
-   - Sector watchlist (SNDK, MU, INTC, AMAT, QCOM): None qualified today. QQQ +0.25% only, below 0.5% boost threshold.
-   - SPY +0.15%, QQQ +0.25% at 3:15 PM. Normal regime.
-
-7. TONIGHT AH EARNINGS (do NOT hold positions in these):
-   NVDA (dominant), CRM, CRWD, SNPS, HPQ, Agilent (A), OKTA, VEEV, NTNX.
-   SMTC also reporting AH tonight (confirmed Q2 results + guidance raise, +4% extended).
+5. JACKSON HOLE (Fri Aug 28 — Warsh keynote):
+   Major macro event. Rate-sensitive names (CRM/SaaS) most vulnerable to hawkish surprise. Consumer staples (DG) more insulated. Avoid new rate-sensitive overnight positions from today — Friday session is day-trading only.
 
 Catalyst watch list:
-DG | earnings_beat expected | BMO tomorrow (Aug 27) | est EPS $1.99; consumer staples/value retail; defensive | MEDIUM
-BURL | earnings | BMO tomorrow (Aug 27) | est EPS $1.98; discount retail; positive if beat+raise | MEDIUM
-WDC | NVDA sector reaction (storage/memory) + debt_buyback catalyst | AH tonight (CONDITIONAL: only if NVDA beat AND stock UP in AH) | +3.2% own catalyst today; avoid if NVDA sell-the-news | HIGH
-SNDK | NVDA sector reaction (priority watchlist) | AH tonight (CONDITIONAL: only if NVDA beat AND stock UP in AH) | +1.25% today; memory sector key beneficiary | HIGH
-ANET | AI networking continuation + NVDA tailwind | AH tonight (CONDITIONAL: only if NVDA beat AND stock UP in AH) | +6.4% today on post-Q2 earnings momentum; $203 at close, making new highs | MEDIUM-HIGH
-NOTE: Items WDC / SNDK / ANET — viable at 10 AM ONLY if NVDA stock itself traded UP significantly in AH (not just beat estimates). If NVDA sell-the-news (down despite beat) or miss → skip all three entirely and protect existing stops.
-NOTE: Items DG / BURL — independent of NVDA. Enter at 10 AM only if earnings confirmed beat+raise AND stock trending up at 10 AM (not fading from open spike). Use standard 3% open-confirmation bar (not catalyst_watch 1-2% path).
+WDAY | Earnings AH | AH Aug 27 tonight | Bullish (est $2.34; SaaS leader; beat → CRM sector lift at open) | MEDIUM
+MRVL | Earnings AH | AH Aug 27 tonight | Bullish (est $0.87; semiconductor; beat → SNDK/MU/WDC lift) | MEDIUM
+ADSK | Earnings AH | AH Aug 27 tonight | Bullish (est $2.97; software sector read-through) | MEDIUM
+S | Earnings AH | AH Aug 27 tonight | Uncertain (est -$0.21; cybersecurity; CRWD adjacent; binary event) | HIGH
+NOTE: Do NOT buy WDAY, MRVL, ADSK, or S directly — all reported AH tonight (binary risk). Use results as sector sentiment context only. No BMO large-cap US catalysts identified for Aug 28 (Jackson Hole day).
+NOTE per Insight #1: catalyst_watch 1-2% path requires additional confirming signal (VWAP hold + rel vol ≥1.5×) before any entry. Do not use on earnings_beat catalysts without crowd confirmation.
 ---
 
 ## AFTER-HOURS UPDATE
