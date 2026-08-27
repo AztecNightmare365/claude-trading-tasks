@@ -40,19 +40,23 @@ SUMMARY: 2 ON TRACK; 0 flagged; 0 pre-market sells; 4 catalyst tickers confirmed
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET 2026-08-26.** No PRE-MARKET BRIEF (retired); used 7 AM OVERNIGHT BRIEF + live open prices.
+**9:30 AM ET 2026-08-27.** No PRE-MARKET BRIEF (retired); used 7 AM brief + live open prices.
 
-Sells (stop/TP checks): NONE.
-- TGT open $163.815 (+0.21% vs $163.47 close; +1.79% vs entry $160.93). Stop $162.00 — $1.82 above (1.11% cushion). HOLD. ⚠ Stop remains tight — 10 AM: check TGT first.
-- MRK open $154.390 (−1.32% vs $156.45 close; +0.77% vs entry $153.20). Stop $150.00 — $4.39 above (2.84% cushion). HOLD. Note: MRK pulled back from pre-mkt $156.18 but comfortably above stop. Trail note from 3:15 PM handoff still pending for 10 AM.
+Sells:
+- MRK STOP: open $149.51 (−2.34% vs $153.10 close; −2.41% vs entry $153.20). Stop $150.00 breached by $0.49. SOLD 1.631896 sh. Est. P&L: −2.41% / −$6.02.
+- ANF STOP: open $143.00 (−3.21% vs $147.75 close; −3.97% vs entry $148.9168). Stop $143.91 breached by $0.91. SOLD 1.770653 sh. Est. P&L: −3.97% / −$10.48.
 
-Catalyst entries: NONE (catalyst watch list empty per overnight brief).
+Catalyst entries: NONE.
+- DG open $127.15 (+3.55%): first bar fading (open $126.94 → close $126.12, low $124.50) → pass to 10 AM.
+- SNDK open $1,553.38 (+3.60%): first bar fading (open $1,547.95 → close $1,537.06) → pass to 10 AM.
+- WDC open $472.69 (+0.81%): below 1% catalyst threshold → pass to 10 AM.
+- ANET open $201.77 (−0.24%): below prior close → skip.
 
-Portfolio sync: 2 positions — TGT (2.485629 sh, avg $160.93) + MRK (1.631896 sh, avg $153.20). Exact match with handoff. No manual adoptions.
+Portfolio sync: 2 positions matched handoff exactly (MRK + ANF). Both stopped out. No manual adoptions.
 
-SPY $764.74 (−0.15% vs $765.91), QQQ $709.35 (−0.19% vs $710.72) — NORMAL REGIME. GDP/PCE data (8:30 AM) absorbed without major shock.
+SPY $768.77 (+0.35%), QQQ $718.45 (+0.99%) — NORMAL REGIME. NVDA beat confirmed, risk-on open.
 
-Status: 0 stop/TP sells, 0 catalyst entries, 2 positions open for 10 AM.
+Status: 2 stop-loss sells, 0 catalyst entries, 0 positions open for 10 AM. $403.69 settled cash available.
 
 ---
 
@@ -96,14 +100,14 @@ Last updated: 2026-08-26 (~3:27 PM ET — 3:15 PM session complete)
 
 Open positions held overnight (2 total):
 
-- MRK: 1.631896 shares, entry $153.20 avg fill, stop-loss $150.00 (UNCHANGED), take-profit $161.89
+- ⛔ SOLD BY 9:30 AM AGENT — stop_loss — do not re-enter. MRK: 1.631896 sh, entry $153.20, exit ~$149.51, est. P&L −2.41% / −$6.02.
   At 3:15 PM close: $153.265 (day: −2.03% from $156.45 prev close; +0.04% vs entry). Stop $3.265 away (2.13% cushion).
   Trail status: NOT eligible. Trail threshold +2% from entry = $156.26; close $153.265 below threshold. Stop unchanged at $150.00.
   Thesis: INTACT. Phase 3 mRNA-4157/V940 (intismeran + Keytruda) confirmed success in high-risk melanoma. Analyst PTs: MS $179, Wolfe $180, BofA $166, UBS $175, BMO $170. Today's pullback: broad market caution ahead of NVDA earnings AH tonight + Jackson Hole Thu Aug 28. Stock-specific thesis not impaired.
   entry_type: manual | sector: healthcare | catalyst: fda (Phase 3 trial readout + analyst upgrades)
   Overnight flag: YES — no MRK AH earnings. Healthcare less correlated with tech/AI. NVDA sell-the-news risk is real but MRK is insulated.
 
-- ANF: 1.770653 shares, entry $148.9168 avg fill (filled 3:26 PM), stop-loss $143.91, take-profit $158.93
+- ⛔ SOLD BY 9:30 AM AGENT — stop_loss — do not re-enter. ANF: 1.770653 sh, entry $148.9168, exit ~$143.00, est. P&L −3.97% / −$10.48.
   At fill: $148.9168 (+36.7% day from $108.90 prev close). Stop $5.007 away (3.36% below entry).
   Thesis: Q2 EPS $4.17 vs $1.98 est (+$2.19 beat = +111% above consensus) + full-year guidance raised. Dominant earnings catalyst confirmed. Rel vol 6.86x. Closed in top 25% of intraday range. No AH earnings tonight for ANF (reported this morning).
   entry_type: scanner | sector: consumer | catalyst: earnings_beat (with raised guidance)

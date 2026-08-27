@@ -39,3 +39,5 @@ date,ticker,shares,entry_price,exit_price,entry_session,entry_type,exit_session,
 2026-08-18,AMAT,0.470792,531.02,510.50,manual,manual,9:30AM,none,tech,-3.86,-9.66,user_manual
 2026-08-18,FOXA,3.326340,68.64,69.83,10AM,manual,3:15PM,earnings_beat,other,1.73,3.96,stop_loss
 2026-08-26,TGT,2.485629,160.93,162.41,3:15PM,manual,10AM,earnings_beat,consumer,0.92,3.68,stop_loss
+2026-08-27,MRK,1.631896,153.20,149.51,3:15PM,manual,9:30AM,fda,healthcare,-2.41,-6.02,stop_loss
+2026-08-27,ANF,1.770653,148.9168,143.00,3:15PM,scanner,9:30AM,earnings_beat,consumer,-3.97,-10.48,stop_loss

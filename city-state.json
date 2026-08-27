@@ -1,18 +1,15 @@
 {
-  "ts": "2026-08-26T19:27:00Z",
-  "source": "robinhood_1515_trading",
+  "ts": "2026-08-27T13:34:00Z",
+  "source": "robinhood_0930_open",
   "portfolio": {
-    "totalValue": 917.53,
+    "totalValue": 900.78,
     "cash": 403.69,
-    "equityValue": 513.83,
-    "buyingPower": 0.00,
+    "equityValue": 497.09,
+    "buyingPower": 403.69,
     "positions": [
-      { "ticker": "MRK", "shares": 1.631896, "entry": 153.20, "current": 153.265, "plPct": 0.04, "managed": true },
-      { "ticker": "ANF", "shares": 1.770653, "entry": 148.9168, "current": 148.9168, "plPct": 0.00, "managed": true }
+      { "ticker": "MRK", "shares": 1.631896, "entry": 153.20, "current": 149.51, "plPct": -2.41, "managed": true },
+      { "ticker": "ANF", "shares": 1.770653, "entry": 148.9168, "current": 143.00, "plPct": -3.97, "managed": true }
     ]
   },
-  "fills": [
-    { "id": "6a8ef38d-1821-4bea-9efe-9f305ce4af87", "side": "sell", "ticker": "TGT", "qty": 2.485629, "price": 162.41, "at": "2026-08-26T14:09:17.792Z" },
-    { "id": "6a8f3dff-c807-4840-98c7-6c678330470b", "side": "buy", "ticker": "ANF", "qty": 1.770653, "price": 148.9168, "at": "2026-08-26T19:26:55.443Z" }
-  ]
+  "fills": []
 }
