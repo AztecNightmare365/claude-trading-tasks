@@ -14,26 +14,25 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET 2026-08-27.** Live-sync ••••6616: 2 positions — MRK + ANF. Exact match 3:15 PM Aug 26 handoff.
+**7:00 AM ET 2026-08-28.** Live-sync ••••6616: 2 positions — CRM + DG. Exact match 3:15 PM Aug 27 handoff.
 
-- MRK $152.00 pre-mkt (−0.72% vs $153.10 close; −0.78% vs entry $153.20). Stop $150.00 — $2.00 away (1.32%). **ON TRACK.** Broad rotation into tech on NVDA beat; no MRK-specific adverse news overnight. Thesis (Phase 3 INTerpath-001 melanoma) intact.
-- ANF $145.16 pre-mkt (−1.75% vs $147.75 close; −2.52% vs entry $148.9168). Stop $143.91 — $1.25 away (0.86%). **ON TRACK.** No adverse overnight news. Normal digestion after +36% day; consumer thesis (Q2 EPS $4.17 beat + raised guidance) intact. ⚠ PRIORITY: stop razor-thin — 10 AM check ANF first; if ≤$143.91 at open → sell immediately.
+- CRM $250.60 pre-mkt (−0.58% vs $252.05 close; +1.29% vs entry $247.41). Stop $237.52 — $13.08 away (5.22%). **ON TRACK.** Anthropic partnership confirmed; Citigroup + Jefferies PT upgrades overnight. WDAY AH mild SaaS headwind (sold off despite beat). ⚠ Warsh keynote 10 AM ET — hawkish surprise = SaaS most vulnerable.
+- DG $127.00 pre-mkt 4AM/stale (bid $126.00 / ask $128.25; spread 1.78%). Close $125.89 — **BELOW stop $126.35 by $0.46.** Bid $126.00 also below stop. No adverse DG news overnight; thesis intact (earnings beat, consumer staples). NOT pre-mkt selling: spread ~1.78%; last trade above stop; open fill better. ⚠ **CRITICAL: 9:30 AM SELL IMMEDIATELY (market, 1.022491 sh) if DG ≤ $126.35 at open. No discretion.**
 
 Pre-market sells: **NONE.**
 
-**Catalyst watch:**
-- DG: +8.72% pre-mkt ($133.50 vs $122.78) — CONFIRMED GAP UP. Q2 BMO; strong beat implied by gap. 10 AM: enter if still trending at open, standard 3% bar applies.
-- BURL: −1.27% ($310.00 vs $313.99) — CONFIRMED FLAT/DOWN. Beat ests but market disappointed; skip.
-- WDC: +3.86% ($487.00 vs $468.88) — CONFIRMED GAP UP. NVDA beat + UP 6.5% unlocks this. 10 AM viable.
-- SNDK: +4.36% ($1,564.74 vs $1,499.37) — CONFIRMED GAP UP (priority sector). 10 AM viable.
-- ANET: +1.80% ($205.89 vs $202.25) — CONFIRMED partial gap. 10 AM: reconfirm still trending before entry.
+**Catalyst watch (AH Aug 27 — all sell-the-news reactions):**
+- WDAY: Beat (EPS $2.75 vs $2.34 est) but AH drop. **CATALYST FAILED** — skip; mild CRM SaaS headwind only.
+- MRVL: Record $2.74B rev beat but −7.6% AH. **CATALYST FAILED** — skip; negative semi sector read.
+- ADSK: Beat ($3.30 vs $3.12 est) but −6% AH. **CATALYST FAILED** — skip.
+- S: Results unclear / AH timing uncertain. **CATALYST PENDING** — verify at open.
 
 **Macro:**
-- NVDA +6.51% pre-mkt ($223.31): EPS $2.22 beat, revenue $96.2B (+106% YoY), Q3 guide $108B vs $104.2B est; AWS buying 2M GPUs; Hugging Face acquisition $12.9B. Full bull case confirmed.
-- SPY +0.41% ($769.21), QQQ +1.01% ($718.54) — strong risk-on; NVDA-driven tech rally.
-- Jackson Hole Fri Aug 28 (Warsh keynote): major macro risk tomorrow — avoid new rate-sensitive overnight positions tonight.
+- Warsh Jackson Hole keynote 10 AM ET — rate/policy uncertainty; market seeks clarity on hike path.
+- Futures: Dow +0.2%, S&P flat, Nasdaq −0.3% (MRVL/ADSK/WDAY drag).
+- SPY pre-mkt −0.01% ($771.02); QQQ −0.26% ($719.22) — mild risk-off, sell-the-news tech dynamic.
 
-SUMMARY: 2 ON TRACK; 0 flagged; 0 pre-market sells; 4 catalyst tickers confirmed gap-up (DG, WDC, SNDK, ANET partial) + 1 flat/down (BURL — skip).
+SUMMARY: 1 ON TRACK (CRM), 1 CRITICAL STOP RISK (DG — close below stop; 9:30 AM sell immediately if ≤ $126.35); 0 pre-market sells; 0 catalysts confirmed; 3 FAILED (WDAY/MRVL/ADSK), 1 PENDING (S).
 
 ---
 
