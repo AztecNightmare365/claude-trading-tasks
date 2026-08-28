@@ -1,22 +1,16 @@
 {
-  "ts": "2026-08-27T19:16:00Z",
-  "source": "robinhood_1515_trading",
+  "ts": "2026-08-28T13:32:10Z",
+  "source": "robinhood_0930_open",
   "portfolio": {
-    "totalValue": 902.10,
-    "cash": 634.93,
-    "equityValue": 267.17,
-    "buyingPower": 0.00,
+    "totalValue": 897.03,
+    "cash": 759.42,
+    "equityValue": 137.61,
+    "buyingPower": 759.42,
     "positions": [
-      { "ticker": "CRM", "shares": 0.543874, "entry": 247.41, "current": 252.01, "plPct": 1.86, "managed": true },
-      { "ticker": "DG", "shares": 1.022491, "entry": 131.61, "current": 127.245, "plPct": -3.32, "managed": true }
+      { "ticker": "CRM", "shares": 0.543874, "entry": 247.41, "current": 253.01, "plPct": 2.26, "managed": true }
     ]
   },
   "fills": [
-    { "id": "6a903cc0-3062-4c11-8100-84416374ca0c", "side": "sell", "ticker": "MRK", "qty": 1.631896, "price": 150.8001, "at": "2026-08-27T13:33:52Z" },
-    { "id": "6a903cc0-9d5a-4acb-b498-ccb0c5334da3", "side": "sell", "ticker": "ANF", "qty": 1.770653, "price": 146.8001, "at": "2026-08-27T13:33:53Z" },
-    { "id": "6a9045ad-67cc-40e2-928b-c9ee9b2806d8", "side": "buy", "ticker": "CRM", "qty": 0.543874, "price": 247.4099, "at": "2026-08-27T14:12:00Z" },
-    { "id": "6a9045b0-06ca-4163-85dd-f7f7896e6fad", "side": "buy", "ticker": "VEEV", "qty": 0.454503, "price": 296.0594, "at": "2026-08-27T14:12:00Z" },
-    { "id": "6a9045b0-3ef3-45be-a4ba-6d5bfb7da6f5", "side": "buy", "ticker": "DG", "qty": 1.022491, "price": 131.6099, "at": "2026-08-27T14:12:00Z" },
-    { "id": "6a908ce6-e2b9-455e-a139-7d6bb24472d5", "side": "sell", "ticker": "VEEV", "qty": 0.454503, "price": 283.6239, "at": "2026-08-27T19:15:50Z" }
+    { "id": "6a918dd9-a415-4098-b092-533a099c807e", "side": "sell", "ticker": "DG", "qty": 1.022491, "price": 121.75, "at": "2026-08-28T13:32:09.932Z" }
   ]
 }

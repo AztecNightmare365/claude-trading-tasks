@@ -42,3 +42,4 @@ date,ticker,shares,entry_price,exit_price,entry_session,entry_type,exit_session,
 2026-08-27,MRK,1.631896,153.20,149.51,3:15PM,manual,9:30AM,fda,healthcare,-2.41,-6.02,stop_loss
 2026-08-27,ANF,1.770653,148.9168,143.00,3:15PM,scanner,9:30AM,earnings_beat,consumer,-3.97,-10.48,stop_loss
 2026-08-27,VEEV,0.454503,296.0594,283.6239,10AM,scanner,3:15PM,earnings_beat,healthcare,-4.20,-5.65,stop_loss
+2026-08-28,DG,1.022491,131.61,121.75,10AM,scanner,9:30AM,earnings_beat,consumer,-7.49,-10.08,stop_loss

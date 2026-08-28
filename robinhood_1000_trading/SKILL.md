@@ -39,23 +39,24 @@ SUMMARY: 1 ON TRACK (CRM), 1 CRITICAL STOP RISK (DG — close below stop; 9:30 A
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET 2026-08-27.** No PRE-MARKET BRIEF (retired); used 7 AM brief + live open prices.
+**9:30 AM ET 2026-08-28.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
 
 Sells:
-- MRK STOP: open $149.51 (−2.34% vs $153.10 close; −2.41% vs entry $153.20). Stop $150.00 breached by $0.49. SOLD 1.631896 sh. Est. P&L: −2.41% / −$6.02.
-- ANF STOP: open $143.00 (−3.21% vs $147.75 close; −3.97% vs entry $148.9168). Stop $143.91 breached by $0.91. SOLD 1.770653 sh. Est. P&L: −3.97% / −$10.48.
+- DG STOP: open $123.94 (−1.55% vs $125.89 close; −6.00% vs entry $131.61). Stop $126.35 breached by $2.41. SOLD 1.022491 sh at $121.75 avg fill (slippage from $123.94 open quote). P&L: −7.49% / −$10.08. DO NOT RE-ENTER DG today.
 
 Catalyst entries: NONE.
-- DG open $127.15 (+3.55%): first bar fading (open $126.94 → close $126.12, low $124.50) → pass to 10 AM.
-- SNDK open $1,553.38 (+3.60%): first bar fading (open $1,547.95 → close $1,537.06) → pass to 10 AM.
-- WDC open $472.69 (+0.81%): below 1% catalyst threshold → pass to 10 AM.
-- ANET open $201.77 (−0.24%): below prior close → skip.
+- WDAY: CATALYST FAILED (AH drop despite beat) — skip.
+- MRVL: CATALYST FAILED (−7.6% AH) — skip.
+- ADSK: CATALYST FAILED (−6% AH) — skip.
+- S: CATALYST PENDING → resolved FAILED at open (−4.08%, $21.785 vs $22.71 close) — skip.
 
-Portfolio sync: 2 positions matched handoff exactly (MRK + ANF). Both stopped out. No manual adoptions.
+Portfolio sync: 2 positions matched handoff exactly (CRM + DG). DG stopped out. No manual adoptions.
 
-SPY $768.77 (+0.35%), QQQ $718.45 (+0.99%) — NORMAL REGIME. NVDA beat confirmed, risk-on open.
+SPY $771.88 (+0.10%), QQQ $719.20 (−0.27%) — NORMAL REGIME. Jackson Hole/Warsh keynote at 10 AM ET — macro event risk. CRM most rate-sensitive.
 
-Status: 2 stop-loss sells, 0 catalyst entries, 0 positions open for 10 AM. $403.69 settled cash available.
+CRM: open $253.01 (+0.38% vs $252.05 close; +2.26% vs entry $247.41). Stop $237.52. TP $267.20. ON TRACK — hold. ⚠ Warsh keynote 10 AM — hawkish = SaaS headwind.
+
+Status: 1 stop-loss sell (DG), 0 catalyst entries, 1 position open for 10 AM (CRM). ~$759 settled cash available (T+1 from today's DG proceeds unsettled).
 
 ---
 
@@ -106,12 +107,8 @@ Open positions held overnight (2 total):
   entry_type: scanner | sector: tech | catalyst: earnings_beat (raised guidance confirmed Q2 FY2027)
   ⚠ Jackson Hole: CRM is MOST rate-sensitive of the two remaining. Warsh keynote Fri Aug 28 — hawkish surprise = SaaS most vulnerable. Stop $237.52 provides protection.
 
-- DG: 1.022491 shares, entry $131.61, stop-loss $126.35 (4% below entry), take-profit $142.14 (2× stop distance)
-  Current at 3:15 PM: $127.245 (-3.32% from entry). Recovering from afternoon low.
-  ⚠ CRITICAL STOP RISK: Post-entry day low was $126.405 at ~2:55 PM — only $0.07 above stop $126.35. Stop nearly triggered twice (also $126.45 at ~2:35 PM). Stop cushion at close: $0.895 only.
-  Thesis: DG Q2 2026 EPS $2.23 vs $1.99 est (confirmed beat BMO today). Consumer staples — defensive, less rate-sensitive. Gap from prior close ($122.78) still open (DG +3.64% vs prior close). No negative news — thesis intact. Held per rules (no thesis break, price fade alone insufficient for discretionary exit).
-  entry_type: scanner | sector: consumer | catalyst: earnings_beat
-  ⚠ CHECK DG FIRST at 10 AM open: stop is $0.895 above current price. Any gap down through $126.35 → SELL IMMEDIATELY (market order, 1.022491 shares). No discretion.
+- DG: **SOLD BY 9:30 AM AGENT — stop_loss — do not re-enter.**
+  Open $123.94 (−6.00% vs entry $131.61). Stop $126.35 breached by $2.41. Filled 1.022491 sh at $121.75 avg. P&L: −7.49% / −$10.08. Order ID: 6a918dd9-a415-4098-b092-533a099c807e.
 
 Sells at 3:15 PM: VEEV — STOP TRIGGERED (hard exit)
 - VEEV: 0.454503 shares sold at $283.6239 (market order, filled 2026-08-27T19:15:50Z)
