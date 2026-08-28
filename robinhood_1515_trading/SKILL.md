@@ -24,72 +24,67 @@ _No content — see robinhood_1000_trading/SKILL.md for the live 3:15 PM handoff
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-08-28 (~10:10 AM ET — 10 AM session complete)
+Last updated: 2026-08-28 (~12:00 PM ET — 12 PM reassessment complete)
 
 Open positions (1 total):
 
-- CRM: 0.543874 shares, entry $247.41, stop-loss $237.52 (4% below entry — UNCHANGED), take-profit $277.10 (EXTENDED from $267.20 per Insight #6: earnings_beat + guidance_raise + tech trending at open → 12% from entry)
-  Current at 10 AM: $258.75 (+4.58% from entry; +2.66% from yesterday's close $252.05).
-  Thesis: Salesforce Q2 FY2027 GAAP EPS $4.29 vs $1.96 prior year (+119% YoY). Agentforce AI $3.4B ARR (+205% YoY). Confirmed earnings beat + raised guidance. Jackson Hole Warsh keynote absorbed (SPY +0.20% — market stable, NOT hawkish sell-off). CRM trending at 10 AM open. Stop $237.52 is $21.23 away (8.2% cushion).
+- CRM: 0.543874 shares, entry $247.41, stop-loss $255.50 (TRAILED from $237.52 — see trail logic below), take-profit $277.10 (unchanged, extended TP per Insight #6)
+  Current at 12 PM: $260.99 (+5.49% from entry; +3.55% from yesterday's close $252.05).
+  Thesis: Salesforce Q2 FY2027 GAAP EPS $4.29 vs $1.96 prior year (+119% YoY). Agentforce AI $3.4B ARR (+205% YoY). Confirmed earnings beat + raised guidance. Jackson Hole absorbed without hawkish disruption. CRM trending well all session — intraday high $263.53, currently in top 25% of intraday range. Thesis fully intact.
   entry_type: scanner | sector: tech | catalyst: earnings_beat (raised guidance confirmed)
-  TP logic: Per Insight #6 extended TP path — CRM is >5% above entry on earnings_beat + guidance_raise tech → target 12% from entry ($247.41 × 1.12 = $277.10) rather than 2× stop distance ($267.20). This was authorized in the 3:15 PM Aug 27 handoff ("10 AM agent may extend TP toward $277 if CRM trending at open").
+  Stop trail logic: Position is +5.49% from entry (above 2% trailing threshold). Stop raised from $237.52 (4% below entry) to $255.50, which is just above today's established post-open support floor at $255.30 (9:40 AM intraday low). Protects +3.27% gain from entry if triggered. Gives ~2.1% room from current price — sufficient for 3-hour unattended hold through PM session.
+  TP logic: Unchanged — per Insight #6 extended TP path, target 12% from entry = $277.10. Remaining upside from current $260.99 = +6.2%.
   3:15 PM checks:
-  a) If CRM at/below $237.52 → sell market (0.543874 shares) immediately.
-  b) If CRM ≥ $277.10 → take profit.
-  c) If CRM between $237.53–$277.09 → hold; assess end-of-day positioning. Today is Friday — evaluate whether to hold overnight going into next week.
+  a) If CRM at/below $255.50 → sell market (0.543874 shares) immediately.
+  b) If CRM ≥ $277.10 → take profit (market sell, 0.543874 shares).
+  c) If CRM between $255.51–$277.09 → evaluate end-of-day positioning and weekend hold.
+  overnight flag: YES (CRM thesis supports continuation — see Note 1 below)
 
-Sells at 10 AM: NONE
-- CRM: above stop ($258.75 >> $237.52), below extended TP ($277.10). HOLD.
-- DG: already sold at 9:30 AM open by prior agent ($121.75 avg fill). No action needed.
+Sells at 12 PM: NONE
+- CRM: $260.99 >> stop $255.50, below TP $277.10. HOLD. Stop trailed up.
 
-New buys at 10 AM: NONE
+New buys at 12 PM: NONE
 Reasons:
-1. ESTC: strongest setup (Q1 FY2027 EPS $0.70 vs $0.58 est — +20.7% beat; revenue $478.1M vs $469.7M; FY2027 guidance raised — EPS $3.29-3.37 from $3.21-3.29; multiple analyst upgrades to $108-$120 PT). BUT: hard fading at 10 AM — open $104.77, pulled to $103.85 at 9:55 AM, then dropped to $101.46 by 10:03 AM (second wave of selling, -3.2% from open). XLK -0.54% headwind. Failed "trending at 10 AM" morning filter (SKILL Step 4). Friday + Jackson Hole bar explicitly requires "trending at 10 AM." CONFIRMED but not entered.
-2. GAP: beat + raised FY26 EPS guidance, +15.3%. But hard fading at 10 AM (open $24.73 → $23.93, -3.3% from open). Consumer retail sector. Failed momentum filter. CONFIRMED but not entered.
-3. SOLS: merger termination with Element Solutions + $500M buyback + guidance affirmed, +18%. Catalyst type (merger termination) does NOT meet Friday "beat + raised guidance" minimum bar. SKIP.
-4. AFRM: Q4 earnings beat + upbeat Q1 sales outlook, +10%. FINANCIALS sector (0/3 = 0% WR historically per Insight #5) → SKIP.
-5. BEKE/UMC: ADRs → hard disqualified.
-6. All others: fail on ADR, low volume (<0.3× rel vol), or no identifiable catalyst.
-Friday + Jackson Hole bar = sharply elevated threshold: all candidates failed "trending at 10 AM" condition.
+- All scanner candidates disqualified: AFRM (financials, 0% WR), WDAY (FAILED catalyst), ESTC (continued fade — open $104.77 → $99.055 at noon, not sustained momentum), GAP (continued fade — open $24.73 → $23.57 at noon, consumer retail), SOLS (merger termination — one-time event, no ongoing thesis), BRAI (bid/ask spread 3.45% → hard disqualifier), PD (rel vol 0.85x, thin $0.01 beat, 7 negative analyst revisions), PUBM/WBTN (rel vol <0.65x, no catalyst), APMD (biotech binary risk), FRNM (biotech binary risk, no confirmed catalyst), ARM (DOWN -5.01% on day despite web mentions of AI spillover — live data confirms red).
+- Semis watchlist ALL DOWN: SNDK -0.25%, MU -1.48%, INTC -2.39%, WDC -0.11%, AMAT -3.87%, QCOM -1.29%.
+- QQQ at noon: -0.43% — mild tech headwind.
+- Friday (20% WR per Insight #4) + 12 PM session (33% WR per Insight #2) = double elevated bar. No candidate cleared it.
 
 Settled cash remaining: $634.93 (buying power — broker-confirmed)
-Unsettled: $124.49 (DG sale today, T+1 — settles Mon Sep 1; check if Labor Day, if so settles Tue Sep 2)
+Unsettled: $124.49 (DG sale Aug 28, T+1 — Sep 1 is Labor Day, settles Tue Sep 2)
 Total cash: $759.42
-Total account value: ~$900 (CRM ~$141 + cash $759.42)
-Portfolio invested: ~15.7% ($141 / $900; well below 75% cap)
+Total account value: $901.41 (CRM $141.99 + cash $759.42)
+Portfolio invested: 15.75% (well below 75% cap)
 
-75% cap check for 3:15 PM agent: $900 × 0.75 = $675 cap. CRM ~$141 invested. Available under cap = ~$534. Settled cash = $634.93. Buyable at 3:15 PM = min($534, $634.93) = ~$534. Friday caution still applies.
+75% cap check for 3:15 PM agent: $901.41 × 0.75 = $676.06 cap. CRM $141.99 invested. Available under cap = $534.07. Settled cash = $634.93. Buyable at 3:15 PM = min($534.07, $634.93) = $534.07. Friday caution still applies — raise bar for new positions.
 
 NOTES FOR 3:15 PM AGENT (Fri Aug 28, 2026):
 
-1. CRM — PRIORITY HOLD CHECK:
-   Stop $237.52. Extended TP $277.10. Entry $247.41. Current at 10 AM: $258.75 (+4.58% from entry).
-   a) If CRM ≤ $237.52 → sell market (0.543874 shares) immediately.
+1. CRM — PRIORITY HOLD/EXIT CHECK:
+   Stop NOW $255.50 (trailed from $237.52). Extended TP $277.10. Entry $247.41. Current at 12 PM: $260.99 (+5.49% from entry).
+   a) If CRM ≤ $255.50 → sell market (0.543874 shares) immediately.
    b) If CRM ≥ $277.10 → take profit (market sell, 0.543874 shares).
-   c) If between $237.53–$277.09 → evaluate whether to hold overnight into next week (Monday open). Jackson Hole now resolved without major hawkish surprise — tech/SaaS headwind reduced. CRM thesis intact. Holding through weekend is reasonable if no new adverse macro catalysts.
+   c) If between $255.51–$277.09 → strong case to hold overnight into next week: thesis intact (Agentforce + earnings beat+raise), Jackson Hole resolved without hawkish surprise, broader market recovered from midday dip (web sources indicate market closed positive Aug 28: S&P +0.48%, Nasdaq +0.35%), CRM trending well all session. If no new adverse CRM-specific news, hold overnight is recommended.
 
-2. ESTC — KEY WATCH for 3:15 PM entry:
-   ESTC at 10 AM fade: $101.46 (from $104.77 open). 30-min low: $100.55.
-   If ESTC at 3:15 PM is: (a) holding above $103-104, (b) showing upward trend in last-hour bars, (c) above VWAP → strong buy candidate. Catalyst: Q1 FY2027 EPS beat +20.7%, revenue beat, FY2027 guidance raised. Multiple analyst upgrades ($108 B of A, $115 Rosenblatt, $118 Oppenheimer, $120 Baird/Guggenheim). This is the best earnings setup seen in weeks. 30-min low $100.55 as stop reference (stop = $100.55, TP using Insight #6 extended path = ~$110-115). Tech sector. HIGH conviction IF trending at 3:15 PM.
-   If ESTC is still fading or below $100 at 3:15 PM → PASS, do not force entry.
+2. ESTC — DOWNGRADED watch for 3:15 PM:
+   ESTC continued fading all day: open $104.77 → $101.46 at 10 AM → $99.055 at noon. Session low approaching $100.55 (the 10 AM agent's noted intraday floor). Catalyst is still CONFIRMED (EPS beat +20.7%, revenue beat, raised guidance, analyst upgrades to $108-$120). BUT: three consecutive hours of selling pressure on a strong catalyst = supply overhang. Only evaluate for 3:15 PM entry if: (a) price has recovered AND is holding above $103, AND (b) upward trend visible in last-hour bars, AND (c) above VWAP. If below $100 or still in a downtrend at 3:15 PM → PASS entirely. Do not force entry on a stock that has faded all day.
 
-3. GAP — LOWER PRIORITY watch at 3:15 PM:
-   Beat + raised FY26 guidance. Consumer retail sector (lower priority vs tech). If showing renewed strength in last hour (above $24.50) → evaluate using standard Friday bar (beat + guidance raise ✓). If still fading → skip.
+3. GAP — LOWEST PRIORITY:
+   Also continued fading (open $24.73 → $23.57 at noon). Consumer retail sector. If not above $24.50 and trending by 3:15 PM → skip.
 
-4. DO NOT RE-ENTER today: DG (stopped 9:30 AM today Aug 28), VEEV (stopped Aug 27), MRK (stopped Aug 27), ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18).
+4. DO NOT RE-ENTER today: DG (stopped 9:30 AM today Aug 28), VEEV (stopped Aug 27), MRK (stopped Aug 27), ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18). Also: WDAY (failed catalyst, do not chase even though +6.7% on day).
 
-5. BROAD MARKET AT 10 AM:
-   SPY: $772.64, +0.20%. QQQ: $720.79, -0.04%. XLK: -0.54%. XLC: +1.17% (best sector). XLF: +0.43%.
-   Normal regime. Jackson Hole absorbed without disruption. Tech slightly negative — modest headwind for ESTC/CRM.
+5. BROAD MARKET AT 12 PM:
+   SPY: $771.18, +0.01% (essentially flat at noon). QQQ: $718.00, -0.43% (mild tech headwind at noon). NOTE: Web sources indicate market recovered and closed positive (S&P +0.48%, Nasdaq +0.35%) — midday dip was temporary. Normal regime throughout.
 
 6. CATALYST WATCH CARRY-FORWARD:
-   - WDAY: FAILED — AH drop despite beat. Do not chase.
+   - WDAY: FAILED — AH drop despite beat. Do not chase (even with +6.7% intraday recovery — the catalyst failed).
    - MRVL: FAILED — −7.6% AH despite beat. Do not chase.
    - ADSK: FAILED — −6% AH. Do not chase.
    - S: FAILED — open −4.08%. Do not chase.
-   - ESTC: CONFIRMED but not entered at 10 AM (fading, not trending). Eligible 3:15 PM entry if conditions met (see Note 2 above).
-   - GAP: CONFIRMED but not entered at 10 AM (fading). Lower-priority 3:15 PM watch (see Note 3).
-   - SOLS: CONFIRMED (merger termination catalyst) but fails Friday "beat + guidance" bar. Evaluate as standalone setup only.
+   - ESTC: CONFIRMED but not entered (fading all session). See Note 2 above for 3:15 PM conditions.
+   - GAP: CONFIRMED but not entered (fading). See Note 3.
+   - SOLS: CONFIRMED (merger termination catalyst) but one-time event — skip.
    - AFRM: CONFIRMED earnings beat but financials sector → SKIP permanently.
 
 ---
