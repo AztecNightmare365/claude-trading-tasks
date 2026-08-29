@@ -220,30 +220,30 @@ Only log completed (exited) trades. Include trade_log.csv in the git commit from
 ---
 
 ## LEARNED INSIGHTS
-<!-- Updated by weekly review agent. Last updated: 2026-08-22. Based on 39 closed trades. -->
+<!-- Updated by weekly review agent. Last updated: 2026-08-29. Based on 44 closed trades. -->
 
-OVERALL: Win rate 46.2% (18/39), profit factor 1.76, net P&L +$42.60 (avg win +5.33%, avg loss -2.10%)
+OVERALL: Win rate 43.2% (19/44), profit factor 1.16, net P&L +$14.05 (avg win +5.10%, avg loss -2.48%)
 
 TOP RULES (read before every session):
-1. catalyst_watch early-entry path is 0/4, -$10.03 net (BKR, SLB, KO, MA — all losses) — never use catalyst_watch on earnings_beat catalysts. All four used the 1-2% threshold before crowd confirmation and all four lost. Until the path produces at least one win, require an additional confirming signal (price holding VWAP, rel vol ≥1.5×) before any catalyst_watch entry. (N=4)
-2. 12PM entries remain the worst session: 2/6 = 33.3% win rate, -$15.21 net (-$14.73 from AMD re-entry alone). Significantly raise the bar for midday buys — only trade at 12PM if the catalyst is fresh and materially stronger than what 10AM would accept. (N=6)
-3. Manual entries lead all entry types: 7/11 = 63.6% win rate, +$35.24 net vs scanner 11/24 = 45.8%, +$17.39 net. High-conviction manual entries on confirmed catalysts are the account's profit engine. Do not reflexively dismiss manual theses. (N=11 manual, N=24 scanner)
-4. Monday-Tuesday are the productive days: 11/16 = 68.75% win rate, +$52.13 net. Wed-Fri: 7/23 = 30.4%, -$9.53 net. Raise the bar sharply on Wednesday through Friday — Thursday (36.4%, N=11) and Friday (20%, N=5) are the weakest individual days. (Mon-Tue N=16; Wed-Fri N=23)
-5. Tech sector leads all others: 13/24 = 54.2% win rate, +$39.21 net. Financials sector: 0/3 = 0%, -$3.03 (GS, BLK, MA all losses). Industrial: 1/5 = 20%, near-breakeven. Continue weighting toward tech; skip financials unless thesis is exceptional. (N=24 tech, N=3 financials, N=5 industrial)
-6. TP hit rate critically low: 12.8% (5/39) — far below >30% target. Winners are being closed too early. For earnings_beat + momentum tech trades up >5% intraday, hold past the first pullback and target TP at 8-12% rather than 3-4%. The 5 TP exits (AMZN, PLTR×2, SHOP, CRL) produced an outsized share of total account profit. (N=39)
-7. Stop-triggered rate 46.2% (18/39) — improving from 48.5% at 33 trades but still above <40% target. When scanners return drought-grade setups (QCOM, AMAT, INTC, PAYC on consecutive weak days Aug 5-7), pass entirely — low-conviction entries hit stops at >80% rate. (N=39)
-8. earnings_beat now 43.5% WR (10/23), up from 31.6% at 33 trades, driven by SHOP, CRL, PLTR(Aug 10) wins this week. Key discriminator: beat + guidance raise outperforms beat alone by a wide margin. CTAS, ALLE, HON, PAYC, TTMI — all beats without a guidance raise, all losses. Require confirmed guidance raise before assigning high-conviction tier. (N=23)
-9. analyst_upgrade: 2/3 = 66.7% WR — best catalyst type by win rate, prioritize in screening. sector_momentum without a dated catalyst: 2/6 = 33.3% — require directional ETF confirmation (QQQ ≥+0.5%) before entering sector-momentum-only plays. (N=3 analyst_upgrade, N=6 sector_momentum)
-10. 10AM session: 13/27 = 48.1% win rate, +$63.07 net (up from 39.1%/+$42.56 at 33 trades). 3:15PM entries: 3/5 = 60% WR on small sample. Protect morning dry powder for highest-conviction setups; only open later-session buys when the catalyst is clearly superior. (N=27 10AM, N=5 3:15PM)
+1. Thursday is now the worst trading day: 3/13 = 23.1% WR, -$27.34 net. Aug 27 collapse (MRK -$6.02, ANF -$10.48, VEEV -$5.65 — all stopped out Friday open) confirms the pattern. Raise bar sharply on Thursdays: require confirmed guidance raise + rel vol ≥2× before any new Thursday entry. If conviction bar cannot be cleared, pass entirely. (N=13)
+2. Consumer sector is a money trap: 2/5 = 40% WR, -$17.76 net. DG (-$10.08) and ANF (-$10.48) gapped down through stops on "earnings beat" entries. Consumer retail beats frequently carry hidden guidance shortfalls that emerge overnight. Skip consumer retail unless ≥10% EPS beat AND confirmed guidance raise. (N=5)
+3. Scanner entries are now net negative: 11/27 = 40.7%, -$8.82 net. Last three scanner entries (ANF, VEEV, DG) all significant losses. Raise scanner bar: require ≥2 of 3 signals — above VWAP, rel vol ≥1.5×, catalyst = analyst_upgrade or earnings_beat WITH confirmed guidance raise. (N=27)
+4. Manual entries are the account's only profit engine: 8/13 = 61.5% WR, +$32.90 net vs scanner -$8.82. All durable gains come from high-conviction manual entries. Do not reflexively dismiss manual theses when catalyst is confirmed. (N=13)
+5. 3:15PM overnight entries are net negative: 4/8 = 50% WR, -$8.42 net. KO, MRK, ANF all gapped down at next-session open. Before any overnight hold from 3:15PM: (a) no consumer or healthcare sector; (b) confirmed guidance raise on catalyst; (c) gap risk <3% worst case. Losses outweigh wins despite a coin-flip WR — size overnight holds conservatively. (N=8)
+6. Monday is the best day to trade: 6/8 = 75% WR, +$56.06 net. Monday entries produce the most profit. Apply standard bar on Mondays — do NOT raise the bar on the account's most productive day. (N=8)
+7. Stop rate at all-time worst (52.3%): All 5 new trades since last review hit stops. When 3+ consecutive sessions result in stop-outs, skip the next session and reset rather than forcing new entries. A stop-loss streak signals low-quality market conditions. (N=44)
+8. catalyst_watch still 0/4, -$10.03 net: Never use catalyst_watch on earnings_beat catalysts. This path has produced zero wins in 4 attempts. Require VWAP hold + rel vol ≥1.5× before any catalyst_watch entry. (N=4)
+9. 12PM is the worst session by net: 2/6 = 33.3% WR, -$15.21 net. Only trade at 12PM if catalyst is fresh and materially stronger than the 10AM bar. Never re-enter a ticker already traded that day — AMD re-entry at 12PM was -$14.73. (N=6)
+10. Tech sector is the only reliably profitable sector: 13/24 = 54.2%, +$39.21 net. All non-tech sectors combined: -$25.16 on 20 trades. Concentrate exposure in tech; non-tech requires explicit exceptional justification. Financials (0/3), energy (0/2) are permanent avoids. (N=24 tech, 20 non-tech)
 
-AVOID: Re-entering a ticker already traded that day — AMD at 12PM (-$14.73, -9.82%) is the account's largest single loss, opened hours after the 10AM entry closed profitably (+$5.05). Never open a new position in a ticker already closed or exited that same trading day.
+AVOID: Consumer retail overnight holds from 3:15PM — DG (-$10.08) and ANF (-$10.48) both gapped down sharply at next-morning open after Thursday 3:15PM entries on "earnings beat" catalysts. The last 5 new trades produced a net loss of -$28.55 with a 100% stop rate. This is the account's newest recurring failure mode.
 
-LEAN INTO: Manual tech entries on confirmed earnings beats with raised guidance — AMZN (+$21.30), PLTR Aug 3 (+$21.03), PLTR Aug 4 (+$7.90), PLTR Aug 10 (+$8.14) combine for +$58.37 across 4 trades, generating the bulk of all account profit. Scanner beats with guidance raise (SHOP +$3.99, CRL +$4.42) confirm the pattern extends to scanner entries when quality bar is met. The distinguishing feature is confirmed guidance raise plus fresh volume on entry — not just an earnings date on the calendar.
+LEAN INTO: Manual tech entries on confirmed earnings beats with raised guidance — AMZN (+$21.30), PLTR×3 (+$37.07 combined) anchor the account's profit. All share the same pattern: confirmed beat + explicit guidance raise, tech sector, high-conviction manual entry. No other trade category comes close in net dollar contribution.
 
 RAW STATS:
-- Best catalyst: analyst_upgrade (66.7% win rate, N=3); by net dollar: earnings_beat (dominant — AMZN + 3× PLTR + SHOP + CRL)
-- Best sector: tech (54.2% win rate, +$39.21 net, N=24); worst: financials (0%, -$3.03, N=3) and industrial (20%, N=5)
-- Best session to open: 3:15PM (60% win rate, N=5, small sample); best by dollar net: 10AM (+$63.07, N=27)
-- Stop triggered rate: 46.2% of trades (18/39) — improving but still ABOVE <40% TARGET
-- TP hit rate: 12.8% of trades (5/39) — improving but still well below >30% TARGET
+- Best catalyst: analyst_upgrade (66.7% WR, N=3); earnings_beat net +$20.96 but only reliable with confirmed guidance raise
+- Best sector: tech (54.2% WR, +$39.21, N=24); worst: financials (0%, N=3), energy (0%, N=2)
+- Best session to open: Monday (75% WR, N=8); best by dollar net: 10AM (+$47.34, N=29)
+- Stop triggered rate: 52.3% of trades (23/44) — WORST EVER, FAR above <40% TARGET
+- TP hit rate: 11.4% of trades (5/44) — far below >30% TARGET
 ---
