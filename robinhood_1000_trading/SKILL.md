@@ -14,25 +14,23 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET 2026-08-28.** Live-sync ••••6616: 2 positions — CRM + DG. Exact match 3:15 PM Aug 27 handoff.
+**7:00 AM ET 2026-08-31.** Live sync ••••6616: 1 position — CRM only. Exact match 3:15 PM Aug 28 handoff.
 
-- CRM $250.60 pre-mkt (−0.58% vs $252.05 close; +1.29% vs entry $247.41). Stop $237.52 — $13.08 away (5.22%). **ON TRACK.** Anthropic partnership confirmed; Citigroup + Jefferies PT upgrades overnight. WDAY AH mild SaaS headwind (sold off despite beat). ⚠ Warsh keynote 10 AM ET — hawkish surprise = SaaS most vulnerable.
-- DG $127.00 pre-mkt 4AM/stale (bid $126.00 / ask $128.25; spread 1.78%). Close $125.89 — **BELOW stop $126.35 by $0.46.** Bid $126.00 also below stop. No adverse DG news overnight; thesis intact (earnings beat, consumer staples). NOT pre-mkt selling: spread ~1.78%; last trade above stop; open fill better. ⚠ **CRITICAL: 9:30 AM SELL IMMEDIATELY (market, 1.022491 sh) if DG ≤ $126.35 at open. No discretion.**
+- **CRM** $254.18 pre-mkt (−0.71% vs $256.00 close; +2.74% vs entry $247.41). Bid $254.07 / Ask $254.49; spread 0.165%. **⚠ CRITICAL STOP BREACH** — stop $255.50, breached by $1.32 (0.52%). No adverse overnight news; thesis intact (Claudeforce/Agentforce beat+raise confirmed). Only overnight item: Phillip Securities raised PT $166→$243, maintains Neutral (PT below current price — minor). NOT pre-mkt selling: breach is 0.52% noise-level on a +24% week; thesis intact; position profitable; waiting for open print is better per Insight #1. **9:30 AM AGENT: SELL IMMEDIATELY (market, 0.543874 sh) if CRM ≤ $255.50 at open. No discretion.**
 
 Pre-market sells: **NONE.**
 
-**Catalyst watch (AH Aug 27 — all sell-the-news reactions):**
-- WDAY: Beat (EPS $2.75 vs $2.34 est) but AH drop. **CATALYST FAILED** — skip; mild CRM SaaS headwind only.
-- MRVL: Record $2.74B rev beat but −7.6% AH. **CATALYST FAILED** — skip; negative semi sector read.
-- ADSK: Beat ($3.30 vs $3.12 est) but −6% AH. **CATALYST FAILED** — skip.
-- S: Results unclear / AH timing uncertain. **CATALYST PENDING** — verify at open.
+**Catalyst watch:**
+- ESTC: $99.43 pre-mkt (−0.48% vs $99.91 close); well below $103 threshold. **CATALYST CONFIRMED — FLAT/DOWN.** No $103+ open expected; pass at 10 AM unless surges.
+- SNDK: $1,488 (+0.20% vs $1,484.98 close); spread 0.13%. **CATALYST PENDING** — conditional on QQQ up. QQQ −0.17% pre-mkt; condition not met. Verify at open.
+- MU: $928.84 (−0.43% vs $932.86 close); spread 0.11%. **CATALYST PENDING** — same QQQ-up condition. Not met. Verify at open.
 
 **Macro:**
-- Warsh Jackson Hole keynote 10 AM ET — rate/policy uncertainty; market seeks clarity on hike path.
-- Futures: Dow +0.2%, S&P flat, Nasdaq −0.3% (MRVL/ADSK/WDAY drag).
-- SPY pre-mkt −0.01% ($771.02); QQQ −0.26% ($719.22) — mild risk-off, sell-the-news tech dynamic.
+- US 10Y yield +1.03% to 4.72% — Sep rate hike odds ~57% post-Warsh; SaaS headwind.
+- S&P futures −0.17%; DAX −0.78%; Oil +3.45% ($86.28) — mild risk-off tone.
+- Week ahead: BLS August jobs report Friday (critical for Sep hike); PANW/DELL/AVGO/SNOW earnings.
 
-SUMMARY: 1 ON TRACK (CRM), 1 CRITICAL STOP RISK (DG — close below stop; 9:30 AM sell immediately if ≤ $126.35); 0 pre-market sells; 0 catalysts confirmed; 3 FAILED (WDAY/MRVL/ADSK), 1 PENDING (S).
+SUMMARY: 1 CRITICAL STOP BREACH (CRM — thesis intact, not pre-mkt sold; 9:30 AM enforce at open); 0 pre-market sells; 0 catalysts confirmed/gap-up; 1 FLAT/DOWN (ESTC), 2 PENDING (SNDK/MU).
 
 ---
 
