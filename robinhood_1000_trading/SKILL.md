@@ -37,24 +37,24 @@ SUMMARY: 1 CRITICAL STOP BREACH (CRM — thesis intact, not pre-mkt sold; 9:30 A
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET 2026-08-28.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
+**9:30 AM ET 2026-08-31.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
 
-Sells:
-- DG STOP: open $123.94 (−1.55% vs $125.89 close; −6.00% vs entry $131.61). Stop $126.35 breached by $2.41. SOLD 1.022491 sh at $121.75 avg fill (slippage from $123.94 open quote). P&L: −7.49% / −$10.08. DO NOT RE-ENTER DG today.
+Sells: NONE.
+- CRM: open $255.88 (stop $255.50, TP $277.10). ABOVE stop — no action. ON TRACK — hold.
+  Note: first-bar low $255.08 briefly dipped below stop; last_trade_price $255.88 used as open print per SKILL.md Step 2. 3-day weekend gap fully absorbed; thesis intact.
 
 Catalyst entries: NONE.
-- WDAY: CATALYST FAILED (AH drop despite beat) — skip.
-- MRVL: CATALYST FAILED (−7.6% AH) — skip.
-- ADSK: CATALYST FAILED (−6% AH) — skip.
-- S: CATALYST PENDING → resolved FAILED at open (−4.08%, $21.785 vs $22.71 close) — skip.
+- ESTC: CONFIRMED — FLAT/DOWN at open ($99.23, −0.68% vs $99.91 close). No entry. Pass to 10 AM.
+- SNDK: PENDING — QQQ-up condition NOT met (QQQ −0.06% at open). SNDK +1.41%, first bar positive ($1,488.28→$1,504.79). Pass to 10 AM; re-evaluate if QQQ recovers.
+- MU: PENDING — same QQQ-up condition NOT met. MU +1.18%, first bar positive ($931.32→$942.71). Pass to 10 AM.
 
-Portfolio sync: 2 positions matched handoff exactly (CRM + DG). DG stopped out. No manual adoptions.
+Portfolio sync: CRM only — exact handoff match (0.543874 sh, entry $247.41). No manual adoptions.
 
-SPY $771.88 (+0.10%), QQQ $719.20 (−0.27%) — NORMAL REGIME. Jackson Hole/Warsh keynote at 10 AM ET — macro event risk. CRM most rate-sensitive.
+SPY $767.27 (−0.27%), QQQ $715.97 (−0.06%) — NORMAL REGIME.
 
-CRM: open $253.01 (+0.38% vs $252.05 close; +2.26% vs entry $247.41). Stop $237.52. TP $267.20. ON TRACK — hold. ⚠ Warsh keynote 10 AM — hawkish = SaaS headwind.
+CRM: open $255.88 (+3.42% vs entry $247.41; −0.05% vs prior close $256.00). Stop $255.50. TP $277.10. ON TRACK — hold.
 
-Status: 1 stop-loss sell (DG), 0 catalyst entries, 1 position open for 10 AM (CRM). ~$759 settled cash available (T+1 from today's DG proceeds unsettled).
+Status: 0 stop/TP sells, 0 catalyst entries, 1 position open for 10 AM (CRM).
 
 ---
 

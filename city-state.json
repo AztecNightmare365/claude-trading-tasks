@@ -1,16 +1,14 @@
 {
-  "ts": "2026-08-28T19:18:00Z",
-  "source": "robinhood_1515_trading",
+  "ts": "2026-08-31T13:31:00Z",
+  "source": "robinhood_0930_open",
   "portfolio": {
-    "totalValue": 900.74,
+    "totalValue": 898.60,
     "cash": 759.42,
-    "equityValue": 141.32,
-    "buyingPower": 634.93,
+    "equityValue": 139.18,
+    "buyingPower": 759.42,
     "positions": [
-      { "ticker": "CRM", "shares": 0.543874, "entry": 247.41, "current": 259.75, "plPct": 4.99, "managed": true }
+      { "ticker": "CRM", "shares": 0.543874, "entry": 247.41, "current": 255.88, "plPct": 3.42, "managed": true }
     ]
   },
-  "fills": [
-    { "id": "6a918dd9-a415-4098-b092-533a099c807e", "side": "sell", "ticker": "DG", "qty": 1.022491, "price": 121.75, "at": "2026-08-28T13:32:09.932Z" }
-  ]
+  "fills": []
 }
