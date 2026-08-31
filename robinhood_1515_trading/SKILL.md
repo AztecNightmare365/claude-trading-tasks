@@ -24,88 +24,73 @@ _No content — see robinhood_1000_trading/SKILL.md for the live 3:15 PM handoff
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-08-31 (~10:00 AM ET — 10 AM session complete)
+Last updated: 2026-08-31 (~12:00 PM ET — 12 PM reassessment complete)
 
 Open positions (1 total):
 
-- CRM: 0.543874 shares, entry $247.41, stop-loss $255.50 (unchanged from 3:15 PM Aug 28 handoff), take-profit $277.10
-  Current at 10 AM: $257.56 (+4.11% from entry; +0.61% from prior close $256.00)
-  VWAP at 10 AM: $258.00 — CRM essentially at VWAP, slight discount (−$0.44). Not a concern.
-  Intraday range Aug 31: $254.80 low (9:35 AM bar) → $260.24 high (9:40 AM). Current mid-range after open-spike pullback. ⚠ Note: 9:35 bar briefly dipped to $254.80 (below stop $255.50) — this was a transient spike below in volatile open. 10 AM check price $257.56 is well above stop; thesis intact; not stopping out.
-  Thesis: Salesforce Q2 FY2027 confirmed beat + raised guidance. Agentforce + Claudeforce AI $3.4B ARR. Thesis fully intact. No adverse news over 3-day weekend. Stock absorbed Monday mild risk-off (SPY −0.49%) well.
+- CRM: 0.543874 shares, entry $247.41, stop-loss $259.00 (trailed up from $255.50 at 12 PM; below intraday support $259.47 confirmed at 11:15 AM and 11:30 AM lows), take-profit $277.10
+  At 12 PM: $261.39 (+5.65% from entry; +2.11% from prior close $256.00)
+  Intraday pattern: Firm uptrend since 10 AM; new intraday high $261.73 at 11:50 AM. Support zone confirmed at $259-260 (multiple tests). Never traded below $257.16 after 10:05 AM.
+  Thesis: Salesforce Q2 FY2027 confirmed beat + raised guidance. Agentforce + Claudeforce AI $3.4B ARR. Thesis fully intact. No adverse CRM-specific news today.
   entry_type: scanner | sector: tech | catalyst: earnings_beat (raised guidance confirmed)
+  overnight_flag: YES
   3:15 PM checks:
-  a) If CRM ≤ $255.50 → sell market (0.543874 shares) immediately.
-  b) If CRM ≥ $277.10 → take profit (market sell, 0.543874 shares).
-  c) If CRM between $255.51–$277.09 → evaluate PM momentum. Hold if thesis intact and PM session holds above $256. Consider trailing stop to $256.50–$257.00 if PM session establishes a new support floor in that range.
+  a) If CRM ≤ $259.00 → sell market (0.543874 shares) immediately.
+  b) If CRM ≥ $277.10 → take profit (market sell).
+  c) If CRM between $259.01–$277.09 → evaluate PM momentum. Hold if thesis intact. Trail stop further only if PM session establishes new support clearly above $261 (e.g., trail to $261.00–$262.00 if PM bar lows confirm that floor).
 
-Sells at 10 AM: NONE
-- CRM: $257.56 >> stop $255.50, below TP $277.10. HOLD.
+Sells at 12 PM: NONE
+Buys at 12 PM: NONE — 46 candidates evaluated; bar not cleared by any (see notes below)
 
-New buys at 10 AM: NONE
-Reasons:
-- Scanner 1 (≥3% change, rel vol ≥1.2x, mkt cap >$750M): 0 results — bar not cleared by any stock.
-- Scanner 2 (≥6% change, mkt cap >$500M): 11 results — all disqualified:
-  ASND (+7.2%): biotech/healthcare, binary FDA risk → disqualified.
-  XE (+8.1%): energy sector → permanent avoid (0% WR, Insight #10).
-  AXTI (+6.2%): tech/semiconductor, but rel vol only 0.25x, no confirmed catalyst → disqualified.
-  XNDU (+6.2%): speculative quantum computing → avoid.
-  CHA (+6.9%): consumer ADR → consumer sector avoid (Insight #2).
-  BW (+6.7%), GPRK (+12.6%), SLI (+9.2%), BMM (+6.9%), GFUZ (+6.5%): non-tech (industrial/energy/materials) → avoids per Insight #10.
-  GTN.A (+6.1%): media, rel vol 0.09x → disqualified.
-- SAIC (+6.15%, Q2 FY2027 earnings beat: EPS $3.01 vs $2.31 est = +30% beat; revenue +6.3%; guidance raised; BMO today): Best available candidate. Government IT tech services, $5.68B mkt cap, bid/ask 0.74%. BUT gapped to $142.66 at open then faded hard — current $133.71 is −4.75% from $140.39 open, well below VWAP $135.16. Fails morning momentum confirmation filter ("stock moved up at open AND is still trending up or consolidating above the open price at 10:00 AM, not fading"). Passed.
-- ESTC: $96.69 (−3.23% vs close) — far below $103 entry threshold. Catalyst still valid but supply overhang continues.
-- SNDK: +3.01% but QQQ −0.33% (not up); estimated rel vol ~0.76x (below 1.2x); no fresh catalyst. QQQ-up condition not met.
-- MU: +1.99%, QQQ not up. Below threshold.
-- QCOM: +2.65%, QQQ not up. Below 3% threshold.
-- Analyst upgrades today (AGCO, DE, KALU, STAG, XP): industrial/materials/REIT/financial sectors → all hard avoids.
-- Insight #7 applied (5 consecutive stop-outs since last review): extra scrutiny on all candidates. No candidate cleared the bar regardless.
-- Monday bar applied (standard, per Insight #6 — NOT raised on best win-rate day).
+Settled cash: $759.42 (all settled)
+Total account value: ~$901.58 (CRM ~$142.16 + cash $759.42)
+Portfolio invested: 15.8% (well below 75% cap)
 
-Settled cash remaining: $759.42 (all settled — DG T+1 confirmed settled today)
-Total cash: $759.42
-Total account value: ~$899.43 (CRM ~$140.01 + cash $759.42)
-Portfolio invested: 15.6% (well below 75% cap)
-
-75% cap check for 3:15 PM agent: $899.43 × 0.75 = $674.57 cap. CRM ~$140 invested. Available under cap = ~$534.57. Settled cash = $759.42. Buyable at 3:15 PM = min($534.57, $759.42) = $534.57.
+75% cap check for 3:15 PM agent: $901.58 × 0.75 = $676.19 cap. CRM ~$142.16 invested. Available under cap = ~$534.03. Settled cash = $759.42. Buyable at 3:15 PM = min($534.03, $759.42) = $534.03.
 
 NOTES FOR 3:15 PM AGENT (Mon Aug 31, 2026):
 
-1. CRM — PRIORITY HOLD/EXIT CHECK:
-   Stop $255.50. TP $277.10. Entry $247.41. At 10 AM: $257.56 (+4.11%).
-   ⚠ Intraday low today was $254.80 (9:35 AM, transient breach — recovered to $257.56 by 10 AM). This suggests $255-256 is an important intraday support zone. If PM session fails to hold $256, consider selling discretionarily (thesis may be weakening).
-   a) If CRM ≤ $255.50 → sell market (0.543874 shares) immediately.
+1. CRM — PRIORITY CHECK:
+   Stop trailed from $255.50 → $259.00 at 12 PM. TP $277.10. Entry $247.41. At 12 PM: $261.39 (+5.65%). New intraday high $261.73 at 11:50 AM.
+   a) If CRM ≤ $259.00 → sell market (0.543874 shares) immediately.
    b) If CRM ≥ $277.10 → take profit.
-   c) If between $255.51–$277.09 → evaluate PM close strength. If holding above $258 into close with no adverse macro, thesis intact for overnight hold. Consider trailing stop to $256.50 if PM session establishes clear support there.
+   c) If between $259.01–$277.09 → evaluate PM close strength. If holding above $261 with volume into close, thesis intact for overnight. Consider trailing stop to $261–$262 only if PM session establishes clear support there (PM bar lows not below $261).
 
-2. SAIC — ELEVATED WATCH FOR 3:15 PM:
-   SAIC (government IT tech services, $5.68B mkt cap): Q2 FY2027 EPS $3.01 vs $2.31 (+30% beat), revenue +6.3%, guidance raised. Opened $140.39 → faded to $130.57 low → recovering to $133.71 at 10 AM.
-   Evaluate for 3:15 PM ONLY if: (a) price has recovered AND holds above VWAP (was $135.16 at 10 AM), AND (b) intraday downtrend from open has clearly stabilized (higher lows in PM bars), AND (c) no new intraday lows in PM session. Entry_type if entered: scanner | sector: tech | catalyst: earnings_beat (guidance raise confirmed). Stop reference: today's intraday low ($130.57), hard cap 5% below entry.
-   If still below $135 or making new lows at 3:15 PM → PASS.
+2. TSLA — NEW WATCH (not in prior handoffs):
+   TSLA: $363.85 at noon (+4.31% from prior close $348.75). Catalyst: Optimus humanoid robot confirmed entering production phase at Fremont (first robots going to internal "Optimus Academy" for training data — not yet commercial customers, important nuance).
+   Intraday: Strong sustained uptrend 9:30 AM ($347) → 11:50 AM high $367.15; progressive climb, no fading spike. Pulling back modestly to $363.85 at noon. Intraday low since 10 AM = $359.97.
+   12 PM passed due to: Insight #7 (5-stop streak → skip next session), Insight #9 (noon session quality bar), Insight #3 (not in Scanner 1; rel vol likely <1.2×; catalyst = sector_momentum only, fails ≥2 of 3 signals).
+   For 3:15 PM EVALUATE if: (a) TSLA ≥ $360 AND (b) no new PM lows below $358 AND (c) closing in top half of PM range AND (d) no earnings tonight. If all met → potential medium-conviction overnight on Optimus story. Sector caution: S&P classifies TSLA as consumer discretionary — apply Insight #10 judgment. Stop reference: PM intraday low, hard cap 5% below entry. If below $355 or in clear PM downtrend → PASS.
+   If entered at 3:15 PM: entry_type = scanner | sector: tech (AI/robotics) | catalyst: sector_momentum (Optimus production phase)
 
-3. WEEK AHEAD EARNINGS CATALYSTS (for overnight consideration):
-   PANW, DELL, AVGO (Broadcom), SNOW — all reporting this week (exact dates TBD). These are potential overnight plays IF they gap positively at open on their earnings day. Verify exact reporting dates before any overnight position in these names. Do NOT hold through their earnings if agent-entered (per SKILL.md exception rules).
+3. SAIC — WATCH:
+   SAIC: $130.20 at noon (+3.36% from prior close $125.96). Continued fading from 10 AM high ($133.71) — well below VWAP $135.16.
+   For 3:15 PM: viable ONLY if (a) price recovered AND above $135 AND (b) upward trend in PM bars. If still below $135 → PASS.
 
-4. BROAD MARKET AT 10 AM (Mon Aug 31):
-   SPY: $765.58 (−0.49%), QQQ: $714.08 (−0.33%) — normal regime (sub-1%).
-   XLE (energy) +2.13% leads — permanent avoid.
-   XLK (tech) +0.08% — essentially flat.
-   Geopolitical: Middle East oil spike (WTI +3%+), Warsh rate hike odds ~57% for Sep.
-   BLS jobs report Friday = week's key catalyst (Sep rate hike bet).
-   No strong sector tailwind for momentum longs today.
+4. CRWD — WATCH:
+   CRWD: $226.14 at noon (+3.54% from prior close $218.40). Fal.Con 2026 conference ongoing (Falcon IQ launched today, 150+ sponsors including Anthropic/AWS/NVIDIA). Faded hard from $233.88 opening spike to $225-227 range for 2+ hours — disqualified at noon (not sustained momentum; ~50% gap round-trip).
+   For 3:15 PM: ONLY if recovered and closing strong above $228 with clear upward trend in last-hour bars. If flat/below $228 → PASS.
 
-5. CATALYST WATCH CARRY-FORWARD:
-   - ESTC: CONFIRMED but not entered (fading to $96.69, far below $103). Still valid catalyst (EPS beat +20.7%, guidance raised, analyst upgrades $108-$120). For 3:15 PM: enter ONLY if above $103 AND upward trend in last-hour bars AND above VWAP. If below $100 → pass entirely.
-   - SNDK: CONFIRMED (sell-the-news exhaustion, +3.01% on day) but QQQ-up condition not met, rel vol weak (~0.76x). For 3:15 PM: viable if QQQ recovers to positive AND SNDK holds above $1,500 AND rel vol improves.
-   - MU: CONFIRMED (NVDA sympathy +1.99%) but QQQ-up condition not met. For 3:15 PM: viable if QQQ recovers AND MU clears 2%+.
-   - SAIC: CONFIRMED (earnings beat + guidance raise) but fading from open. See Note 2 above for 3:15 PM conditions.
+5. BROAD MARKET AT NOON (Aug 31):
+   SPY: $765.31 (−0.53%), QQQ: $713.82 (−0.36%) — normal regime (sub-1%).
+   Risk-off tone: US-Iran conflict escalation (Strait of Hormuz mining threat, oil +2%+), Chicago PMI 47.1 vs 58.0 consensus (massive miss, below contraction threshold — biggest miss in years), Warsh hawkish (~57% Sep rate hike). Energy leads (permanent avoid). Tech broadly flat/down. Thin momentum day.
+   BLS jobs report Friday = week's key catalyst.
+
+6. CATALYST CARRY-FORWARD:
+   - ESTC: CONFIRMED but not entered. At $96.88 noon (−3.03% from prior close $99.91) — FALLING. Below $100 → pass entirely at 3:15 PM.
+   - SNDK: CONFIRMED (+1.72% at noon). QQQ still not up → condition not met. For 3:15 PM: viable only if QQQ turns positive AND SNDK holds above $1,500 AND rel vol improves.
+   - MU: CONFIRMED (+0.39% at noon). QQQ not up. For 3:15 PM: viable only if QQQ recovers AND MU clears 2%+.
+   - SAIC: CONFIRMED but fading (see Note 3 above).
    - WDAY: FAILED — do not chase.
    - MRVL: FAILED — do not chase.
    - ADSK: FAILED — do not chase.
    - S: FAILED — do not chase.
    - AFRM: CONFIRMED beat but financials sector → SKIP permanently.
 
-DO NOT RE-ENTER: DG (stopped Aug 28), VEEV (stopped Aug 27), MRK (stopped Aug 27), ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18). Also WDAY (failed catalyst).
+WEEK AHEAD EARNINGS (pass-through from 10 AM):
+PANW, DELL, AVGO (Broadcom), SNOW — all reporting this week (exact dates TBD). Verify reporting dates before any overnight hold. Do NOT hold through earnings if agent-entered (per SKILL.md rules).
+
+DO NOT RE-ENTER: DG (stopped Aug 28), VEEV (stopped Aug 27), MRK (stopped Aug 27), ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18). Also WDAY, MRVL, ADSK, S (failed catalysts).
 
 ---
 PRE-CHECK — Market day verification
