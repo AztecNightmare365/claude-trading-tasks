@@ -37,24 +37,23 @@ SUMMARY: 1 CRITICAL STOP BREACH (CRM — 9:30 AM enforce at open); 0 pre-mkt sel
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET 2026-08-31.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
+**9:30 AM ET 2026-09-01.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
 
-Sells: NONE.
-- CRM: open $255.88 (stop $255.50, TP $277.10). ABOVE stop — no action. ON TRACK — hold.
-  Note: first-bar low $255.08 briefly dipped below stop; last_trade_price $255.88 used as open print per SKILL.md Step 2. 3-day weekend gap fully absorbed; thesis intact.
+Sells: 1 stop-loss.
+- CRM: open $258.66, fill $257.90 — STOP $259.00 BREACHED (trailed by 12 PM Aug 31 agent). Sold 0.543874 sh. P&L: +4.24% (+$5.71). Entry $247.41 (3:15 PM Aug 28).
 
 Catalyst entries: NONE.
-- ESTC: CONFIRMED — FLAT/DOWN at open ($99.23, −0.68% vs $99.91 close). No entry. Pass to 10 AM.
-- SNDK: PENDING — QQQ-up condition NOT met (QQQ −0.06% at open). SNDK +1.41%, first bar positive ($1,488.28→$1,504.79). Pass to 10 AM; re-evaluate if QQQ recovers.
-- MU: PENDING — same QQQ-up condition NOT met. MU +1.18%, first bar positive ($931.32→$942.71). Pass to 10 AM.
+- ESTC: CONFIRMED — FLAT/DOWN ($96.01, −1.58% vs $97.55 close). No entry.
+- SNDK: PENDING — down −2.71% ($1,524.18 vs $1,566.70 close); QQQ −1.38% (caution zone, condition unmet). No entry.
+- MU: PENDING — down −2.25% ($937.13 vs $958.73 close); QQQ condition unmet. No entry.
 
-Portfolio sync: CRM only — exact handoff match (0.543874 sh, entry $247.41). No manual adoptions.
+Portfolio sync: CRM only at open — exact handoff match. No manual adoptions.
 
-SPY $767.27 (−0.27%), QQQ $715.97 (−0.06%) — NORMAL REGIME.
+SPY $761.24 (−0.76%), QQQ $706.89 (−1.38%) — NORMAL REGIME (SPY <1% down; QQQ caution zone).
 
-CRM: open $255.88 (+3.42% vs entry $247.41; −0.05% vs prior close $256.00). Stop $255.50. TP $277.10. ON TRACK — hold.
+CRM: SOLD BY 9:30 AM AGENT — stop_loss — do not re-enter.
 
-Status: 0 stop/TP sells, 0 catalyst entries, 1 position open for 10 AM (CRM).
+Status: 1 stop sell (CRM), 0 catalyst entries, 0 positions open for 10 AM.
 
 ---
 
@@ -98,17 +97,7 @@ Last updated: 2026-08-28 (~3:15 PM ET — 3:15 PM session complete)
 
 Open positions held overnight (1 total):
 
-- CRM: 0.543874 shares, entry $247.41, stop-loss $255.50 (TRAILED — above morning floor $255.30; protects +3.27% from entry), take-profit $277.10 (12% from entry per Insight #6 extended TP)
-  Current at 3:15 PM: $259.75 (+4.99% from entry; +3.06% from yesterday's close $252.05)
-  Intraday range Fri Aug 28: $249.00 low (open) → $263.53 high (11:15 AM). Current at 74% of range (top 26%). PM dip to $257.86 at 2:50 PM then recovering to $259.75 at close.
-  Thesis: Salesforce Q2 FY2027 confirmed beat + raised guidance. Agentforce + Claudeforce AI $3.4B+ ARR. Jackson Hole absorbed (Warsh inflation-focused — non-disruptive). Stock +22%+ this week; analyst target $265 (Benzinga). Thesis intact through weekend.
-  entry_type: scanner | sector: tech | catalyst: earnings_beat (raised guidance confirmed)
-  overnight flag: YES — no binary events this weekend; stop $255.50 provides protection
-
-  10 AM Monday (Aug 31) checks:
-  a) If CRM ≤ $255.50 → sell market (0.543874 shares) immediately.
-  b) If CRM ≥ $277.10 → take profit (market sell, 0.543874 shares).
-  c) If CRM between $255.51–$277.09 → evaluate Monday open momentum. Hold if thesis intact and no adverse weekend news.
+- CRM: SOLD BY 9:30 AM AGENT — stop_loss — do not re-enter. (0.543874 sh, entry $247.41, fill $257.90, P&L +4.24%/+$5.71. Stop $259.00 trailed by 12 PM Aug 31 agent; breached at open $258.66 Sep 1.)
 
 Sells at 3:15 PM: NONE
 - CRM: $259.75 >> stop $255.50, below TP $277.10. HOLD.
