@@ -93,70 +93,62 @@ RAW STATS:
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-Last updated: 2026-08-28 (~3:15 PM ET — 3:15 PM session complete)
+Last updated: 2026-09-01 (~3:20 PM ET — 3:15 PM session complete)
 
 Open positions held overnight (1 total):
 
-- CRM: SOLD BY 9:30 AM AGENT — stop_loss — do not re-enter. (0.543874 sh, entry $247.41, fill $257.90, P&L +4.24%/+$5.71. Stop $259.00 trailed by 12 PM Aug 31 agent; breached at open $258.66 Sep 1.)
+- DUOL: 1.415125 sh | entry $158.29 | stop $154.01 | TP $166.85 | entry_type: scanner | sector: tech
+  Thesis: Dual analyst upgrade day (Evercore ISI Outperform PT $105→$210 + DA Davidson PT $160→$175 Buy); AI-driven engagement/retention features; rel vol 1.78x; above VWAP $156.82; strong uptrend last 45 min into close. No earnings until ~Nov 4.
 
-Sells at 3:15 PM: NONE
-- CRM: $259.75 >> stop $255.50, below TP $277.10. HOLD.
+Sells at 3:15 PM: NONE (no existing positions)
+New buys at 3:15 PM: DUOL $224 (MEDIUM conviction — scanner-confirmed, rel vol 1.78x ✓, above VWAP ✓, catalyst analyst_upgrade ✓; not yet in top 25% of range at entry)
+Skipped (scanner hits — all disqualified by sector filters):
+- Energy (FRVO +29%, CRK +11%, VIST +5%, SSL +3%, TDW +4%, OBE +5%): permanent avoid, Insight #10
+- Healthcare/biotech (NVS +6%, MRNA +10%, MMED +12%, SDGR +7%, SLN +8%, NVAX +9%): avoid, Insight #10
+- Utilities (PCG +7%, EIX +10%): avoid
+- Semis (SNDK/MU/INTC/WDC/AMAT/QCOM): all down or QQQ −1.31% (condition unmet)
+- CNXC: disqualified per prior handoff
+- SID/MGRT: foreign ADR / suspicious low volume
+- STDN/BWXT: industrial/nuclear — not tech
 
-New buys at 3:15 PM: NONE
-Reasons:
-- PD (PagerDuty): +9.74% on day, rel vol 1.50x, tech, bid/ask 0.14% — beat + guidance raise + Canaccord upgrade ($10→$15 today). DISQUALIFIED: intraday low $13.01 vs entry ~$13.86 = 6.1% gap, exceeds 5% overnight volatility hard cap. Do not re-enter today.
-- ESTC: $100.34 at close — below $103 handoff recovery threshold. PASS (thesis intact, add to watch list).
-- GAP: $23.675 — below $24.50 threshold from 12 PM handoff. PASS.
-- NABL: Revenue guidance CUT ($554-559M → $539-542M). Hard disqualifier.
-- FLUT: CEO departure, EBITDA −45%, multiple PT cuts. Hard disqualifier.
-- ACM: Q3 EPS miss (−$0.50 vs $1.46 est). Hard disqualifier.
-- BRAI: Bid/ask 1.04% (exceeds 1% limit). Hard disqualifier.
-- SOLS: One-time event (merger termination). SKIP per prior handoff.
-- DKNG: Mixed NFL catalyst (FanDuel rivalry rekindled). SKIP.
-- Semis (SNDK/MU/INTC/WDC/AMAT/QCOM): All negative today (−0.33% to −4.63%). NVDA beat Aug 26 AH already priced in; sell-the-news dynamic. SKIP.
-- WDAY: Failed catalyst — do not chase (per prior handoff).
-- Friday 20% WR (Insight #4) — raised bar applied throughout. No candidate cleared it.
+Settled cash remaining: $535.42
+Unsettled cash: $140.27 (CRM T+1 — settles Wed Sep 2)
+Total account value: ~$899.69 (DUOL ~$224 + ~$675.69 cash)
+Portfolio invested: 24.9% (DUOL only; under 25% single-position cap ✓, under 75% total cap ✓)
 
-Settled cash remaining: $634.93 (broker-confirmed settled buying power)
-DG unsettled: $124.49 (T+1 from Aug 28 sale — settles Mon Aug 31, next trading day; Labor Day is Sep 7)
-Total cash: $759.42
-Total account value: ~$900.75 (CRM ~$141.32 + cash $759.42)
-Portfolio invested: 15.7% (CRM only; well below 75% cap)
+75% cap check for 10 AM Wed Sep 2: $899.69 × 0.75 = $674.77 cap. DUOL ~$224 invested. Available under cap = ~$450.77 if DUOL held. Settled cash = $535.42 + $140.27 (CRM unsettled settles Sep 2) = $675.69. Buyable = min($450.77, $675.69) = $450.77 if DUOL held.
 
-75% cap check for 10 AM Mon Aug 31: $900.75 × 0.75 = $675.56. CRM ~$141 invested. Available under cap = ~$534. Settled cash Mon = $634.93 + $124.49 (DG settles) = ~$759. Buyable = min($534, $759) = $534.
+NOTES FOR 10 AM AGENT (Wed Sep 2, 2026):
 
-NOTES FOR 10 AM AGENT (Mon Aug 31, 2026):
+1. DUOL — OVERNIGHT HOLD (stop $154.01 / TP $166.85):
+   Entry $158.29 (1.415125 sh). Stop $154.01 (2.7% below entry — double-bottom support tested 11:05 and 11:10 AM Sep 1). TP $166.85 (2× stop distance, R:R = 1:2). Dollar risk: $5.80 (under $12.50 MEDIUM limit).
+   a) If DUOL ≤ $154.01 → sell market immediately (1.415125 shares)
+   b) If DUOL ≥ $166.85 → take profit
+   c) If between $154.02–$166.84 → check catalyst: dual upgrade intact, no negative overnight news, above VWAP at open. Hold if thesis intact.
+   Stock trended strongly into close ($155.93 at 2:30 PM → $158.29 fill at 3:20 PM). Dual analyst upgrade catalysts typically sustain 2–3 days. No binary event tonight.
 
-1. CRM — PRIORITY HOLD/EXIT CHECK (3-day weekend hold):
-   Stop $255.50 (trailed). TP $277.10. Entry $247.41. At 3:15 PM Fri: $259.75 (+4.99%).
-   a) If CRM ≤ $255.50 → sell market (0.543874 shares) immediately.
-   b) If CRM ≥ $277.10 → take profit.
-   c) If between $255.51–$277.09 → check Monday momentum. Thesis intact: Agentforce AI, confirmed beat + raise, analyst target $265+. Hold if no adverse weekend news.
-   Weekend risk: no CRM binary events; Jackson Hole resolved; broad market stable at Fri close.
+2. AH EARNINGS TONIGHT (Sep 1) — sets tech tone at Sep 2 open:
+   PANW, DELL, MDB — confirmed reporting tonight AH. No positions held. Watch pre-market reaction: PANW/DELL beats could lift broad tech/infra sentiment; misses would create headwind for DUOL.
 
-2. ESTC — ELEVATED WATCH FOR MONDAY:
-   Closed Fri at $100.34 (+19.79% on day). Confirmed earnings beat +20.7% EPS + guidance raise + analyst upgrades to $108–120. Did not sustain above $103 intraday Fri (faded from open high to $99.05 at noon, recovered to $100.34).
-   Enter Monday ONLY if: (a) opens/holds above $103 with upward trend at 10 AM, AND (b) rel vol ≥1.2x, AND (c) above VWAP. If below $103 at 10 AM → PASS. Catalyst: confirmed. Entry_type if entered: scanner | sector: tech.
+3. AVGO (Broadcom) — EARNINGS AH SEP 2 (TODAY for the 10 AM agent):
+   AVGO reports fiscal Q3 earnings AH September 2 (5 PM ET conference call). AI chip demand; $29.5B revenue expected (85% YoY growth); ±8.7% implied move. Pre-earnings momentum play possible this morning IF stock gaps up and is trending at 10 AM. ⚠ MUST EXIT before 3 PM ET Sep 2 to avoid binary overnight hold — same-day only.
+   Included on catalyst watch list.
 
-3. CASH MONDAY (Aug 31):
-   Settled at open: $634.93 + $124.49 (DG T+1) = ~$759.42 total cash.
-   75% cap: ~$534 available under cap (CRM consuming ~$141 of the $675 cap).
-   DO NOT RE-ENTER: DG (stopped Aug 28), VEEV (stopped Aug 27), MRK (stopped Aug 27), ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18). Also WDAY (failed catalyst — do not chase even if continuing).
-   ⚠ MONDAY is historically the best day (68.75% WR, Insight #4). Open with fresh eyes; apply normal conviction bar.
+4. SNOW (Snowflake) — VERIFY EARNINGS DATE:
+   Rosenblatt raised PT $285→$345 today. Verify exact earnings date before any trade. Do NOT enter if earnings are tonight AH or tomorrow morning.
 
-4. NVDA / SEMI SECTOR:
-   NVDA beat AH Aug 26 (EPS $2.22 vs $2.09 est; rev guidance $106–110B; AWS/Vera partnership). Despite strong report, NVDA −4.63% Fri (sell-the-news). All semis negative Fri.
-   Monday setup: semis could bounce if sell-the-news exhausted. Monitor SNDK, MU, AMAT — add only if up ≥2% at 10 AM AND QQQ up on day. Do not chase Friday's direction.
+5. MACRO OVERNIGHT (Sep 1 → Sep 2):
+   SPY −0.73% Sep 1 (normal regime). Iran/oil tensions (Brent ~$92), 10Y yield 4.79%, Sep rate-hike odds ~66%. PANW/DELL/MDB results tonight reset tech tone for Sep 2 open. AVGO earns Sep 2 AH — strong result could lift semis broadly on Sep 3. Watch semis — apply standard +2% AND QQQ up filter.
 
-5. BROAD MARKET AT 3:15 PM Fri (reference):
-   SPY $769.16 (−0.25%). QQQ $716.05 (−0.70%). Market mixed, not risk-off.
-   Best sectors Fri: XLC +1.23% (comm services), XLY +0.81% (consumer disc). Tech mixed (ESTC +19.8%, NVDA −4.6%).
-   Jackson Hole: Warsh stressed inflation commitment — markets read as non-disruptive. Stable macro heading into weekend.
+6. DO NOT RE-ENTER:
+   CRM (stopped Sep 1), DG (stopped Aug 28), VEEV (stopped Aug 27), MRK (stopped Aug 27), ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18). Also WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC (all failed catalysts Sep 1 or prior).
+
+7. STOP-STREAK STATUS:
+   5 consecutive stop-outs before this session (CRM, DG, ANF, MRK, VEEV). DUOL is the reset entry. If DUOL stops out, streak reaches 6 — apply Insight #7: skip next session's new entries unless exceptional quality (confirmed guidance raise + rel vol ≥2×). Do not force entries.
 
 Catalyst watch list:
-ESTC | Earnings beat +20.7% EPS + raised guidance + analyst upgrades $108-120 | Confirmed AH Aug 27 (in play Fri Aug 28) | Bullish — requires $103+ open with uptrend at 10 AM Mon | LOW
-SNDK | NVDA sympathy / semi sector reversal (sell-the-news exhaustion) | Conditional on Mon market open | Neutral-Bullish (require +2% at 10 AM AND QQQ up) | MEDIUM
-MU | NVDA sympathy (same as SNDK) | Conditional | Neutral-Bullish | MEDIUM
+AVGO | Earnings AH Sep 2 — AI chip/semiconductor, 85% rev growth expected, ±8.7% implied move | AH Sep 2 (5 PM ET) | Bullish — same-day pre-earnings play only; requires gap-up + uptrend at 10 AM Sep 2; MUST EXIT before close Sep 2 | HIGH
+SNOW | PT raise Rosenblatt $285→$345 Sep 1 — verify earnings date; do NOT enter if earnings imminent | Unknown — verify | Neutral pending verification | HIGH if earnings
 ---
 
 ## AFTER-HOURS UPDATE
