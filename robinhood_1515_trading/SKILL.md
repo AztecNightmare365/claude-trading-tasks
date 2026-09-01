@@ -24,14 +24,12 @@ _No content — see robinhood_1000_trading/SKILL.md for the live 3:15 PM handoff
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-09-01 (~10:00 AM ET — 10 AM session complete)
+Last updated: 2026-09-01 (~12:00 PM ET — 12 PM reassessment complete)
 
 Open positions (0 total): NONE
 
-CRM was sold by the 9:30 AM agent at $257.90 (stop_loss, entry $247.41, +4.24%/+$5.71). Already logged in trade_log.csv. Do not re-enter CRM.
-
-Sells at 10 AM: NONE (CRM already handled by 9:30 AM agent)
-Buys at 10 AM: NONE — Insight #7 stop-streak rule applied (5 consecutive stop-outs: CRM Sep 1, DG Aug 28, ANF/MRK/VEEV Aug 27). Skip session and reset.
+Sells at 12 PM: NONE (no open positions to exit)
+Buys at 12 PM: NONE — see stop-streak note below
 
 Settled cash: $759.42
 Unsettled cash: $140.27 (CRM T+1 — settles Wed Sep 2)
@@ -42,39 +40,61 @@ Portfolio invested: 0%
 
 NOTES FOR 3:15 PM AGENT (Tue Sep 1, 2026):
 
-1. STOP-STREAK STATUS:
-   5 consecutive stop-outs as of this morning. Insight #7 says skip next session → I skipped 10 AM. The 3:15 PM agent represents the RESET session — apply STANDARD conviction bar (not elevated), but do not force entries if quality candidates are absent.
-   Monday Aug 31 saw no new 10 AM entries either (data unavailable, but 3:15 PM Aug 31 agent did NOT run). Today 10 AM = skipped per insight. 3:15 PM Sep 1 = RESET DAY. Apply normal bar per Insight #7 intent.
+1. STOP-STREAK STATUS — THIS IS THE RESET SESSION:
+   5 consecutive stop-outs (CRM Sep 1, DG Aug 28, ANF/MRK/VEEV Aug 27). 10 AM skipped per Insight #7. 12 PM passed on new buys (Insight #9: 12PM worst session; same catalyst from open, not materially fresher). 3:15 PM = RESET session. Apply STANDARD conviction bar per Insight #7 intent — do not raise the bar, but do not force entries if quality candidates are absent.
 
-2. DUOL — PRIORITY WATCH FOR 3:15 PM:
-   Evercore ISI upgraded DUOL from In-Line to Outperform, raised PT from $105 to $210 (today, Sep 1). Confirmed fresh catalyst.
-   At 10 AM: $156.19 (+5.28% from $148.36 close). VWAP: $156.74. 30-min low: $152.58.
-   Pattern at 10 AM: Gap spike to $162.51, sold to $152.58, recovering to $156-157 range. Fell short of sustained VWAP hold; tech sector (XLK) down 1.58% was a headwind.
-   For 3:15 PM EVALUATE if: (a) DUOL ≥ $154 AND (b) PM bars show upward trend or clear consolidation AND (c) price above PM session VWAP AND (d) no earnings tonight AH (confirmed none — next is ~Nov 4). If met: strong candidate, analyst_upgrade is the account's best catalyst type (66.7% WR). Apply MEDIUM conviction at minimum.
-   If entered at 3:15 PM: entry_type = scanner | sector: tech | catalyst: analyst_upgrade
-   If below $152 or clearly fading → PASS.
+2. DUOL — HIGH PRIORITY CANDIDATE FOR 3:15 PM:
+   DUAL ANALYST UPGRADE DAY (Sep 1):
+   - Evercore ISI: upgraded to Outperform from In-Line, PT $105 → $210 (pre-market today)
+   - DA Davidson: raised PT to $175 from $160, maintains Buy rating (today)
+   Catalyst: AI-driven features (spoken tokens, expanded conversation practice) driving engagement and retention. Stock "shaking off AI fears" per Barchart.
+   No earnings until ~Nov 4. Entry_type = scanner | sector: tech | catalyst: analyst_upgrade
 
-3. MACRO & MARKET AT 10 AM (Sep 1):
-   SPY: $761.89 (−0.67%), QQQ: $706.96 (−1.37%) — Normal regime (SPY < 1% down), QQQ caution zone.
-   XLK (tech): −1.58% | XLV: +0.71% | XLE: +0.80%.
-   Iran/US tensions ongoing, Brent ~$92, 10Y yield ~4.79%, Sep rate-hike odds ~66%. Market risk-off; energy sector leading.
+   12 PM INTRADAY DATA (for reference):
+   - Open: $159.81 → spike to $162.51 (day high) → sold hard to $152.58 (day low, 9:35 AM)
+   - Recovery: $152.58 → built back to $158.50 (10:30 AM) → mild pullback to $154.01 (11:05 AM low)
+   - Late morning recovery: $154.01 → $158.46 (11:45 AM high) → $157.90 at 12:01 PM
+   - VWAP at 12 PM: $156.80. Price ($157.90) is above VWAP. ✓
+   - Rel vol: 1.37x. Mkt cap: $6.94B. Bid/ask spread: 0.13%.
+   - Post-10 AM intraday support: $154.01 (tested twice — 11:05 AM and 11:10 AM).
+   - Day range: $152.58 – $162.51. At $157.90 = 53.6% of range (middle).
+
+   FOR 3:15 PM EVALUATE:
+   (a) DUOL ≥ $154 (confirmed post-10AM support) — if below, thesis broken
+   (b) Closing strong — price in top half of day range, ideally approaching $158+
+   (c) Price above full-day VWAP (~$156.80 or wherever it settles by close)
+   (d) No adverse news emerged this afternoon (recheck catalyst)
+   (e) No earnings tonight AH (confirmed clear — next ~Nov 4) ✓
+   If all met: MEDIUM conviction minimum ($250, stop $154.01, TP $165.68). HIGH conviction ($400) if rel vol has risen to ≥1.5x and closing in top 25% of range (above ~$159.02).
+   Overnight hold flag: YES if catalyst intact and closing strong.
+   If below $152 or fading below VWAP → PASS entirely.
+
+3. MACRO & MARKET AT 12 PM (Sep 1):
+   SPY: $764.28 (−0.36% from $767.05 close) — Normal regime (SPY < 1% down)
+   QQQ: $711.69 (−0.71% from $716.76 close) — Normal regime
+   XLK (tech): −1.58% (per 10 AM data; tech headwind persists)
+   Energy: +2.55% (Iran/US tensions, Brent ~$92, Iran launched missiles toward US positions in Jordan)
+   10Y yield: ~4.79% (near 20-month high), Sep rate-hike odds ~66%
+   Regime: Normal (SPY < 1% down). SPY recovered slightly from 10 AM (-0.67% → -0.36%).
 
 4. EARNINGS TONIGHT AH (Sep 1 — DO NOT HOLD OVERNIGHT):
-   PANW, DELL, MDB — all reporting tonight AH. Do not open overnight positions in these or related names.
-   AVGO (Broadcom): Verify date — was flagged as "this week." Check before any overnight hold.
-   SNOW: Verify date — flagged "this week." Check before overnight hold.
+   PANW, DELL, MDB — confirmed reporting tonight AH. Do not open overnight positions in these or related names.
+   AVGO (Broadcom): Verify exact date before any overnight hold.
+   SNOW: Verify exact date before any overnight hold.
 
 5. DO NOT RE-ENTER (stale stops/failures):
    CRM (stopped Sep 1), DG (stopped Aug 28), VEEV (stopped Aug 27), MRK (stopped Aug 27), ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18). Also WDAY, MRVL, ADSK, S, YEXT (all failed catalysts Sep 1 or prior).
+   12 PM additions: NONE (no new entries or failures).
 
-6. CATALYST CARRY-FORWARD (from 10 AM Sep 1):
-   - DUOL: CONFIRMED but not entered (stop-streak rule; price below VWAP at 10 AM). High-quality catalyst — re-evaluate at 3:15 PM per Note 2 above.
-   - YEXT: FAILED — hard fade to new lows all morning ($7.88 open → $7.01 low by 10 AM). Do not chase.
-   - ESTC: FAILED — $92.91 at 10 AM (−4.76% from $97.55 close). Do not enter.
-   - SNDK: FAILED — down −1.81%. QQQ condition unmet.
-   - MU: FAILED — down −2.15%. QQQ condition unmet.
-   - HWM: Dead-cat bounce only (−8.73% Mon on SpaceX insourcing news). No fresh bullish catalyst. Skip.
-   - MMED, ALHC, CNXC: Disqualified (sector/catalyst/spread/volume). Skip.
+6. CATALYST CARRY-FORWARD (updated by 12 PM agent):
+   - DUOL: CONFIRMED but not entered (stop-streak context + Insight #9 12PM bar). Setup improved vs 10 AM — now above VWAP, dual analyst raise confirmed, support at $154 established. HIGH priority for 3:15 PM per Note 2.
+   - YEXT: FAILED — do not chase.
+   - ESTC: FAILED — do not enter.
+   - SNDK: FAILED — QQQ condition unmet (QQQ still down).
+   - MU: FAILED — QQQ condition unmet.
+   - HWM: No fresh bullish catalyst. Skip.
+   - MMED, ALHC, CNXC: Disqualified. Skip.
+   - DDD (3D Systems): Craig-Hallum upgrade to Buy + $9M Air Force contract, +7.46% today, but rel vol 1.15x, declining fundamental history, CEO transition — discretionary PASS at 12 PM. If you want to revisit at 3:15 PM, require rel vol ≥1.5x and closing strong above VWAP. Low priority vs DUOL.
 
 ---
 PRE-CHECK — Market day verification
