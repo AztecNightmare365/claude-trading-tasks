@@ -14,23 +14,23 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET 2026-08-31.** Live sync ••••6616: 1 position — CRM only. Exact match 3:15 PM Aug 28 handoff.
+**7:00 AM ET 2026-09-01.** Live sync ••••6616: 1 position — CRM only. ⚠ 3:15 PM agent did NOT run Aug 31; stop breached at Aug 31 close ($257.54 vs stop $259.00).
 
-- **CRM** $254.18 pre-mkt (−0.71% vs $256.00 close; +2.74% vs entry $247.41). Bid $254.07 / Ask $254.49; spread 0.165%. **⚠ CRITICAL STOP BREACH** — stop $255.50, breached by $1.32 (0.52%). No adverse overnight news; thesis intact (Claudeforce/Agentforce beat+raise confirmed). Only overnight item: Phillip Securities raised PT $166→$243, maintains Neutral (PT below current price — minor). NOT pre-mkt selling: breach is 0.52% noise-level on a +24% week; thesis intact; position profitable; waiting for open print is better per Insight #1. **9:30 AM AGENT: SELL IMMEDIATELY (market, 0.543874 sh) if CRM ≤ $255.50 at open. No discretion.**
+- **CRM** $255.00 pre-mkt (−0.99% vs $257.54 close; +3.07% vs entry $247.41). Bid $254.40/Ask $255.34; spread 0.37%. **⚠ CRITICAL STOP BREACH** — stop $259.00 (12 PM trail), breached $4.00 (1.57%). Overnight positives: CICC raised PT $200→$304 (Outperform); TD Cowen raised PT $280→$300 (Buy). Decline macro-only: Iran tensions + oil +4.46% + Sep hike odds 66.4%. Thesis fully intact. NOT pre-mkt selling: no thesis break; open-print > pre-mkt fill per Insight #1. **9:30 AM AGENT: SELL IMMEDIATELY (market, 0.543874 sh) if CRM ≤ $259.00 at open — virtually certain given $255.00 pre-mkt.**
 
 Pre-market sells: **NONE.**
 
 **Catalyst watch:**
-- ESTC: $99.43 pre-mkt (−0.48% vs $99.91 close); well below $103 threshold. **CATALYST CONFIRMED — FLAT/DOWN.** No $103+ open expected; pass at 10 AM unless surges.
-- SNDK: $1,488 (+0.20% vs $1,484.98 close); spread 0.13%. **CATALYST PENDING** — conditional on QQQ up. QQQ −0.17% pre-mkt; condition not met. Verify at open.
-- MU: $928.84 (−0.43% vs $932.86 close); spread 0.11%. **CATALYST PENDING** — same QQQ-up condition. Not met. Verify at open.
+- ESTC: CONFIRMED — FLAT/DOWN. ~$96 pre-mkt; well below $103 threshold. No fresh news. Pass.
+- SNDK: PENDING — down ~3% pre-mkt ($1,520 est); QQQ −1.02% (condition unmet). Pass.
+- MU: PENDING — down ~1.8% pre-mkt; QQQ condition unmet. Pass.
 
 **Macro:**
-- US 10Y yield +1.03% to 4.72% — Sep rate hike odds ~57% post-Warsh; SaaS headwind.
-- S&P futures −0.17%; DAX −0.78%; Oil +3.45% ($86.28) — mild risk-off tone.
-- Week ahead: BLS August jobs report Friday (critical for Sep hike); PANW/DELL/AVGO/SNOW earnings.
+- Iran/oil: Brent +4.46% to $92.31; Trump threatened further strikes — risk-off.
+- S&P futures −0.63%, QQQ −1.02%; 10Y yield 4.79%; Sep hike odds 66.4%.
+- PANW/DELL/MDB earnings today AH (no positions). BLS jobs report Friday.
 
-SUMMARY: 1 CRITICAL STOP BREACH (CRM — thesis intact, not pre-mkt sold; 9:30 AM enforce at open); 0 pre-market sells; 0 catalysts confirmed/gap-up; 1 FLAT/DOWN (ESTC), 2 PENDING (SNDK/MU).
+SUMMARY: 1 CRITICAL STOP BREACH (CRM — 9:30 AM enforce at open); 0 pre-mkt sells; 0 catalysts confirmed/gap-up; 1 FLAT/DOWN (ESTC), 2 PENDING/unmet (SNDK/MU).
 
 ---
 
