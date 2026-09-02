@@ -36,23 +36,20 @@ SUMMARY: 1 ON TRACK (DUOL — hold, stop $154.01); 0 pre-mkt sells; AVGO PENDING
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET 2026-09-01.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
+**9:30 AM ET 2026-09-02.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
 
-Sells: 1 stop-loss.
-- CRM: open $258.66, fill $257.90 — STOP $259.00 BREACHED (trailed by 12 PM Aug 31 agent). Sold 0.543874 sh. P&L: +4.24% (+$5.71). Entry $247.41 (3:15 PM Aug 28).
+Sells: NONE.
+- DUOL: open $157.53 — stop $154.01 intact (+2.28% cushion), TP $166.85 not reached. HOLD.
 
 Catalyst entries: NONE.
-- ESTC: CONFIRMED — FLAT/DOWN ($96.01, −1.58% vs $97.55 close). No entry.
-- SNDK: PENDING — down −2.71% ($1,524.18 vs $1,566.70 close); QQQ −1.38% (caution zone, condition unmet). No entry.
-- MU: PENDING — down −2.25% ($937.13 vs $958.73 close); QQQ condition unmet. No entry.
+- AVGO: FLAT/DOWN at open ($366.58, −0.84% vs $369.68 close). Not gapping up — no entry. Pass to 10 AM agent. ⚠ MUST EXIT before close Sep 2 (earnings AH today).
+- SNOW: BINARY EVENT — earnings AH today (5 PM ET). SKIP per handoff rule. No entry.
 
-Portfolio sync: CRM only at open — exact handoff match. No manual adoptions.
+Portfolio sync: DUOL only (1.415125 sh) — exact handoff match. No manual adoptions.
 
-SPY $761.24 (−0.76%), QQQ $706.89 (−1.38%) — NORMAL REGIME (SPY <1% down; QQQ caution zone).
+SPY $761.94 (+0.02%), QQQ $706.01 (−0.23%) — NORMAL REGIME.
 
-CRM: SOLD BY 9:30 AM AGENT — stop_loss — do not re-enter.
-
-Status: 1 stop sell (CRM), 0 catalyst entries, 0 positions open for 10 AM.
+Status: 0 stop/TP sells, 0 catalyst entries, 1 position open for 10 AM (DUOL — stop $154.01, TP $166.85).
 
 ---
 

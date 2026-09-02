@@ -1,17 +1,14 @@
 {
-  "ts": "2026-09-01T19:22:00Z",
-  "source": "robinhood_1515_trading",
+  "ts": "2026-09-02T13:31:00Z",
+  "source": "robinhood_0930_open",
   "portfolio": {
-    "totalValue": 899.69,
+    "totalValue": 898.197179,
     "cash": 675.69,
-    "equityValue": 224.00,
-    "buyingPower": 535.42,
+    "equityValue": 222.507179,
+    "buyingPower": 675.69,
     "positions": [
-      { "ticker": "DUOL", "shares": 1.415125, "entry": 158.2899, "current": 158.2899, "plPct": 0.0, "managed": true }
+      { "ticker": "DUOL", "shares": 1.415125, "entry": 158.29, "current": 157.53, "plPct": -0.48, "managed": true }
     ]
   },
-  "fills": [
-    { "id": "6a96d3b7-b888-4b2c-859d-a71a96b910b5", "side": "sell", "ticker": "CRM", "qty": 0.543874, "price": 257.8999, "at": "2026-09-01T13:31:35.492Z" },
-    { "id": "6a972576-eda0-4b69-97ee-c2679fc4609b", "side": "buy", "ticker": "DUOL", "qty": 1.415125, "price": 158.2899, "at": "2026-09-01T19:20:22.655Z" }
-  ]
+  "fills": []
 }
