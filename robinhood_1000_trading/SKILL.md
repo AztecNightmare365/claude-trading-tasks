@@ -14,23 +14,22 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET 2026-09-01.** Live sync ••••6616: 1 position — CRM only. ⚠ 3:15 PM agent did NOT run Aug 31; stop breached at Aug 31 close ($257.54 vs stop $259.00).
+**7:00 AM ET 2026-09-02.** Live sync ••••6616: 1 position — DUOL only. Exact handoff match.
 
-- **CRM** $255.00 pre-mkt (−0.99% vs $257.54 close; +3.07% vs entry $247.41). Bid $254.40/Ask $255.34; spread 0.37%. **⚠ CRITICAL STOP BREACH** — stop $259.00 (12 PM trail), breached $4.00 (1.57%). Overnight positives: CICC raised PT $200→$304 (Outperform); TD Cowen raised PT $280→$300 (Buy). Decline macro-only: Iran tensions + oil +4.46% + Sep hike odds 66.4%. Thesis fully intact. NOT pre-mkt selling: no thesis break; open-print > pre-mkt fill per Insight #1. **9:30 AM AGENT: SELL IMMEDIATELY (market, 0.543874 sh) if CRM ≤ $259.00 at open — virtually certain given $255.00 pre-mkt.**
+- **DUOL** $157.51 pre-mkt (−0.79% vs $158.77 close; −0.49% vs entry $158.29). Bid $157.25/Ask $157.80; spread 0.35%. **ON TRACK** — stop $154.01 intact (+2.22% cushion). No adverse overnight news; dual upgrade thesis (Evercore ISI $210 + DA Davidson $175) fully intact. Mild pre-mkt drift only.
 
 Pre-market sells: **NONE.**
 
 **Catalyst watch:**
-- ESTC: CONFIRMED — FLAT/DOWN. ~$96 pre-mkt; well below $103 threshold. No fresh news. Pass.
-- SNDK: PENDING — down ~3% pre-mkt ($1,520 est); QQQ −1.02% (condition unmet). Pass.
-- MU: PENDING — down ~1.8% pre-mkt; QQQ condition unmet. Pass.
+- AVGO: PENDING — earnings AH today (4 PM ET). Pre-mkt flat (−0.32%). No gap-up at 7 AM. 10 AM agent: enter ONLY if gap-up + uptrend at open; MUST EXIT before close Sep 2.
+- SNOW: BINARY EVENT — earnings AH today (5 PM ET confirmed). Pre-mkt −1.97%. SKIP all sessions today per handoff rule.
 
 **Macro:**
-- Iran/oil: Brent +4.46% to $92.31; Trump threatened further strikes — risk-off.
-- S&P futures −0.63%, QQQ −1.02%; 10Y yield 4.79%; Sep hike odds 66.4%.
-- PANW/DELL/MDB earnings today AH (no positions). BLS jobs report Friday.
+- DELL beat: EPS $7.04 vs $4.92e; Rev $46.97B vs $44.92Be; AI server rev +122%; +9% AH. PANW beat: EPS $1.02 vs $0.98e; Rev $3.41B vs $3.35Be; +9% AH. Both POSITIVE for tech at open.
+- S&P futures −0.2%, Nasdaq-100 −0.5%; Iran/oil tensions persist; 10Y yields elevated.
+- AVGO earnings today AH sets semi/AI tone for Sep 3. BLS jobs report Friday.
 
-SUMMARY: 1 CRITICAL STOP BREACH (CRM — 9:30 AM enforce at open); 0 pre-mkt sells; 0 catalysts confirmed/gap-up; 1 FLAT/DOWN (ESTC), 2 PENDING/unmet (SNDK/MU).
+SUMMARY: 1 ON TRACK (DUOL — hold, stop $154.01); 0 pre-mkt sells; AVGO PENDING (10 AM decide); SNOW SKIP (binary event today).
 
 ---
 
