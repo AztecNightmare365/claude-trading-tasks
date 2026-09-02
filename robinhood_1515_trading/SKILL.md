@@ -24,70 +24,77 @@ _No content — see robinhood_1000_trading/SKILL.md for the live 3:15 PM handoff
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-09-02 (~10:10 AM ET — 10 AM session complete)
+Last updated: 2026-09-02 (~12 PM ET — 12 PM reassessment; NOTE: executed post-close, market session complete at query time, all quotes at 4 PM ET closing prices)
 
 Open positions (1 total):
 
-- DUOL: 1.415125 sh | entry $158.29 | stop $154.01 | TP $166.85 | entry_type: scanner | sector: tech | catalyst: analyst_upgrade
-  Thesis: Dual analyst upgrade day (Evercore ISI Outperform PT $105→$210 + DA Davidson PT $160→$175 Buy); AI-driven engagement/retention features; no earnings until ~Nov 4.
-  10 AM price: $156.96 (−0.84% vs entry; −1.14% vs $158.77 close). Stop $154.01 intact (+1.91% cushion). Intraday low $154.76 (9:35 AM bar) — held above stop. Price recovering.
+- DUOL: 1.415125 sh | entry $158.29 | stop $154.01 | TP $166.85 | overnight flag: CONDITIONAL (see Note 1) | entry_type: scanner | sector: tech | catalyst: analyst_upgrade
+  Thesis: Dual analyst upgrade (Evercore ISI Outperform PT $105→$210 + DA Davidson PT $160→$175 Buy); AI-driven engagement/retention; no earnings until ~Nov 4.
+  CLOSE price: $154.855 (−2.17% vs entry; −2.46% vs $158.77 prior close). Stop $154.01 intact — cushion $0.845 (0.55%). STOP NOT HIT during session.
+  12 PM status: No adverse DUOL-specific news on Sep 2. Dual upgrade thesis fully intact. Session weakness is general tech softness (XLK −0.005% on day), not DUOL-specific. Price condition for discretionary exit MET (−2.17% > 1.5%) but thesis condition NOT met — HOLD per SKILL.md rules. Stop trailing NOT applied (position down 2.17%, trailing only when up >2%).
 
-Sells at 10 AM: NONE
-Buys at 10 AM: NONE — no qualifying candidates (see notes)
+Sells at 12 PM: NONE — stop not triggered; market closed at execution time; thesis intact
+Buys at 12 PM: NONE — market closed; no qualifying candidates (GTLB failed close-strength criteria; all other scanner results fail sector/volume/catalyst filters)
 
 Settled cash: $675.69
-Unsettled cash: $0 (CRM T+1 settled today, Sep 2)
-Total account value: ~$897.76 (DUOL ~$222.07 + $675.69 cash)
-Portfolio invested: 24.7% (DUOL only)
+Unsettled cash: $0
+Total account value: ~$894.83 (DUOL ~$219.14 + $675.69 cash)
+Portfolio invested: 24.5% (DUOL only)
 
-75% cap check for 3:15 PM Sep 2: $897.76 × 0.75 = $673.32 cap. DUOL ~$222 invested. Available under cap = ~$451 if DUOL held. Buyable = min($451, $675.69) = ~$451 if DUOL held.
+75% cap check: $894.83 × 0.75 = $671.12 cap. DUOL ~$219.14 invested. Available under cap = ~$451.98. Buyable = min($451.98, $675.69) = ~$451.98 settled cash.
 
 NOTES FOR 3:15 PM AGENT (Wed Sep 2, 2026):
 
-1. DUOL — OVERNIGHT HOLD (evaluate for continuation):
-   Still open at stop $154.01 / TP $166.85. Dual analyst upgrade thesis (Evercore ISI $210 + DA Davidson $175) fully intact — no adverse news today. Intraday low $154.76 came within $0.75 of stop but held; price recovered to $156.96 by 10:10 AM. Stop-streak: DUOL is the reset entry (5 prior stop-outs). Not stopped out yet.
-   FOR 3:15 PM:
-   (a) If DUOL ≤ $154.01 → sell market immediately (1.415125 shares)
-   (b) If DUOL ≥ $166.85 → take profit
-   (c) If between → check thesis: dual upgrade intact, AVGO/SNOW earnings tonight could reset tech sentiment. If AVGO beats, could lift DUOL on Sep 3. If broad tech weakness, evaluate carefully before holding overnight again.
-   (d) Confirm no adverse DUOL news this afternoon.
-   Stop $154.01 and TP $166.85 remain as set by 3:15 PM Sep 1 agent. Do not widen stop.
+*** CRITICAL: 12 PM agent ran POST-CLOSE (4 PM ET). DUOL survived the session — stop not hit. 3:15 PM agent must evaluate overnight hold now. AVGO binary event tonight is the key risk. ***
 
-2. GTLB (GitLab) — CATALYST CONFIRMED, NOT ENTERED — eligible for 3:15 PM evaluation:
-   Reported Q2 AH Sep 1: EPS $0.24 vs $0.18e (+33%); Rev $286.25M vs $273.12M (+4.8%); raised FY2027 guidance. Tech sector, mkt cap $7.62B. Strong catalyst — same type (earnings_beat + guidance_raise) as AMZN/PLTR entries that anchored account profits.
-   10 AM STATUS: Hard fade from open ($55.23 → low $50.20 → bouncing at ~$51.88). Below VWAP ($52.005) and below open — classic post-earnings "sell the news" opening. Failed Insight #3 bar at 10 AM (below VWAP, rel vol 0.88x — only 1 of 3 signals). DID NOT ENTER.
-   FOR 3:15 PM: If GTLB is closing strong (above VWAP, in top 25% of day range, rel vol approaching 1.5x), this catalyst is worth entering as scanner/manual entry overnight — confirmed earnings beat + guidance raise is the account's #1 profit pattern. If still below VWAP or below $52 at 3:15 PM, skip. No earnings tonight for GTLB.
+1. DUOL — OVERNIGHT HOLD DECISION — HIGH PRIORITY — READ CAREFULLY:
+   DUOL closed $154.855. Stop $154.01. Cushion = $0.845 (0.55%). STOP IS EXTREMELY TIGHT.
+   Thesis: Dual upgrade (Evercore ISI PT $210 + DA Davidson PT $175) confirmed intact — no adverse DUOL news Sep 2.
+   AVGO BINARY RISK: Broadcom reports AH TONIGHT (~5 PM ET). ±8.7% implied move. An AVGO miss could drag tech broadly and gap DUOL through $154.01 at tomorrow's open — the 10 AM agent cannot react until open.
+     - 1% gap-down at Sep 3 open → DUOL ~$153.32 = BELOW stop (gapped through, no fill at stop)
+     - 2% gap-down → DUOL ~$151.78 (significant realized loss on gap)
+     - AVGO beat scenario → tech rallies, DUOL could bounce to $157–160 range
+   Insight #5 guideline: "gap risk <3% worst case" before any overnight hold. AVGO binary event makes worst-case gap risk >3% for tech names tonight. This threshold is NOT met.
+   DECISION FRAMEWORK for 3:15 PM agent:
+     (a) If DUOL ≤ $154.01 → sell market immediately (1.415125 shares)
+     (b) If DUOL ≥ $166.85 → take profit
+     (c) If between: STRONGLY consider discretionary close before AH to avoid gap-through-stop risk. Realized loss if closed now: −2.17% (−$4.86). A gap stop-out tomorrow could be deeper (−3% to −5%) with no control. Dual upgrade thesis is intact and will remain intact — DUOL can be re-entered Sep 3 if conditions improve post-AVGO.
+     (d) If holding overnight: no stop changes; stop stays $154.01, TP $166.85. Acknowledge gap risk is elevated.
+   Stop-streak: 5 consecutive before DUOL. If DUOL gaps through stop at Sep 3 open → streak = 6 → Insight #7 triggers (skip Sep 3 entries unless guidance raise + rel vol ≥2×).
+   12 PM recommendation: Close DUOL before AH tonight to protect against gap-through-stop scenario. The 3.15 PM agent has full discretion; this is a flag, not an override.
 
-3. AVGO (Broadcom) — EARNINGS AH TONIGHT (Sep 2, ~5 PM ET):
-   Was flat/down all session (−0.55% at 10 AM). No 10 AM entry (no gap-up). AVGO reports fiscal Q3 AH tonight; $29.5B revenue expected (85% YoY); ±8.7% implied move. DO NOT ENTER before close — binary event. If AVGO beats tonight, evaluate for 3:15 PM Sep 3 morning entry.
+2. GTLB (GitLab) — DO NOT ENTER (failed close-strength criteria):
+   Closed $51.38 (vs prev close $45.09 = +14.0%). Rel vol 1.68x. Appears on both scanners.
+   HOWEVER: Closed at bottom 23% of intraday range (~$50.20 low / ~$55.23 open high). BELOW VWAP (estimated ~$52+). Below $52 threshold. "Sell the news" pattern continued all day. Per explicit 10 AM handoff: "if still below VWAP or below $52 at 3:15 PM, skip." SKIP.
+   IF AVGO beats AH tonight: GTLB may gap up Sep 3 on tech tailwind + confirmed earnings beat + guidance raise. 10 AM agent should re-evaluate at Sep 3 open with fresh price action. Catalyst is still valid (Insight #4 pattern). Do NOT enter as an overnight hold tonight given day-long fade.
 
-4. SNOW (Snowflake) — BINARY EVENT TONIGHT (earnings AH Sep 2, verified in calendar):
-   Down −2.33% today. DO NOT ENTER any session today. Re-evaluate Sep 3.
+3. AVGO (Broadcom) — BINARY EVENT AH TONIGHT — KEY MACRO DRIVER:
+   Closed $370.60 (+0.25%). Reports fiscal Q3 AH tonight. $29.5B revenue expected; ±8.7% implied move. DO NOT ENTER. AVGO result sets entire tech/semi tone for Sep 3. If AVGO beats and guides up: evaluate for Sep 3 10 AM entry and expect DUOL/GTLB/semis to open higher.
 
-5. STOP-STREAK STATUS:
-   5 consecutive stop-outs before DUOL (CRM Sep 1, DG Aug 28, ANF/MRK/VEEV Aug 27). DUOL is the reset entry. If DUOL stops out before 3:15 PM: streak = 6 — apply Insight #7 at 3:15 PM (skip new entries unless confirmed guidance raise + rel vol ≥2×). If DUOL is still open: standard bar at 3:15 PM.
+4. SNOW (Snowflake) — BINARY EVENT AH TONIGHT. DO NOT ENTER. Re-evaluate Sep 3.
 
-6. DO NOT RE-ENTER:
+5. MACRO AT CLOSE (Sep 2):
+   SPY: $765.86 (+0.54%) — mild bull close, normal regime
+   QQQ: $709.21 (+0.22%) — mildly positive
+   XLK (tech): $183.63 (−0.005%) — tech lagged broader market all day
+   Broad market constructive but tech underperformed; AVGO earnings AH is the overnight pivot.
+   10Y yield: ~4.79%, Sep rate-hike odds ~66%. BLS jobs report Friday (Sep 5).
+
+6. STOP-STREAK STATUS:
+   5 consecutive stop-outs before DUOL (CRM Sep 1, DG Aug 28, ANF/MRK/VEEV Aug 27). DUOL is the reset entry — survived Sep 2 session. If DUOL stops out overnight or at Sep 3 open: streak = 6 → apply Insight #7 on Sep 3 (no new entries unless confirmed guidance raise + rel vol ≥2×).
+
+7. DO NOT RE-ENTER:
    CRM (stopped Sep 1), DG (stopped Aug 28), VEEV (stopped Aug 27), MRK (stopped Aug 27), ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18). Also WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC.
-   10 AM additions to avoid: NONE (no new stops today).
+   12 PM additions to avoid: NONE (no new stops today).
 
-7. MACRO AT 10 AM (Sep 2):
-   SPY: $764.11 (+0.31%) — Normal, mildly bullish
-   QQQ: $707.19 (−0.06%) — near-flat, recovered from −0.23% earlier
-   XLK (tech): $183.13 (−0.28%) — mild tech headwind
-   XLV (healthcare): +1.26% — sector leader
-   XLF (financials): +0.92% — second best
-   XLE (energy): −0.40% — mildly negative
-   10Y yield: ~4.79%, Sep rate-hike odds ~66%. AVGO earnings tonight set semi/AI tone for Sep 3. BLS jobs report Friday.
-
-8. CATALYST CARRY-FORWARD (10 AM):
-   - AVGO: CONFIRMED but not entered (flat/down at open, no gap-up; binary event AH tonight). Evaluate Sep 3 post-earnings.
-   - SNOW: SKIPPED — binary event AH tonight. Evaluate Sep 3.
-   - GTLB: CONFIRMED (earnings beat + guidance raise) but not entered at 10 AM — below VWAP, hard fade. HIGH PRIORITY for 3:15 PM if closing strong. See Note 2.
-   - ASTS: FAILED for 10 AM — non-tech, rel vol 0.63x, recent Q2 miss. Low priority.
+8. CATALYST CARRY-FORWARD (12 PM):
+   - AVGO: BINARY EVENT AH tonight. If beats, HIGH PRIORITY for Sep 3 10 AM entry (large-cap tech, scanner-confirmed, no prior hold). Evaluate at Sep 3 open.
+   - SNOW: BINARY EVENT AH tonight. Re-evaluate Sep 3.
+   - GTLB: CONFIRMED (earnings beat + guidance raise) — faded session, closed below VWAP/$52. Skip overnight. Re-evaluate Sep 3 open — if AVGO beats and GTLB gaps up with volume, catalyst still valid per Insight #4 pattern (earnings_beat + guidance_raise, tech sector, $7.6B mkt cap).
+   - ASTS: FAILED — non-tech. Do not enter.
    - YEXT: FAILED — do not chase.
    - ESTC: FAILED — do not enter.
-   - Semis (SNDK/MU/INTC/WDC/AMAT/QCOM): All down or QQQ condition unmet.
+   - Semis (SNDK/MU/QCOM): SNDK +0.38%, MU +1.28%, QCOM +1.85% at close — all below 2% threshold today. Watch at Sep 3 10 AM if AVGO beats; MU and QCOM closest to threshold and historically responsive to AVGO beats. AMAT −0.80% today — skip.
 
 ---
 PRE-CHECK — Market day verification
