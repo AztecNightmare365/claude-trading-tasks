@@ -24,12 +24,12 @@ _No content — see robinhood_1000_trading/SKILL.md for the live 3:15 PM handoff
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-09-03 (~10:05 AM ET — 10 AM session complete)
+Last updated: 2026-09-03 (~12:00 PM ET — 12 PM reassessment complete)
 
 Open positions: NONE — 100% cash
 
-Sells at 10 AM: NONE (no overnight positions)
-Buys at 10 AM: NONE
+Sells at 12 PM: NONE (no positions held)
+Buys at 12 PM: NONE (Thursday bar not clearable by any candidate — see notes)
 
 Settled cash: $896.81
 Unsettled cash: $0
@@ -43,68 +43,89 @@ NOTES FOR 3:15 PM AGENT (Thu Sep 3, 2026):
 *** THURSDAY — Insight #1 in effect: require confirmed guidance raise + rel vol ≥2× for any new entry. If bar cannot be cleared, pass entirely. ***
 *** BLS NFP jobs report FRIDAY Sep 5 — any overnight hold from 3:15 PM today faces gap risk from Friday's print. Apply Insight #5 strictly: no consumer/healthcare, gap risk <3% worst case, confirmed guidance raise on catalyst. ***
 
-1. DELL — TOP PRIORITY 3:15 PM CANDIDATE — EVALUATE CAREFULLY:
-   10 AM price: $503.95 (+2.38% vs $492.20 prior close). Own catalyst remains fully intact: EPS beat +43%, FY27 guidance raised $167B→$192B, AI server backlog $95B, record orders $60.9B.
-   DISQUALIFIED at 10 AM: 30-min low $478.31 = 5.1% below entry — exceeded 4% hard cap. Stock was extremely volatile in the opening window (opened $486.31, hit $478.31 low in bar 1, then recovered strongly to $507.49 by 9:55 AM).
+MACRO AT NOON:
+SPY $773.18 (+1.05%), QQQ $717.59 (+1.18%) — NORMAL REGIME. Broad market strengthened through the session (was +0.53%/+0.42% at 10 AM). No regime gate.
+Semis still underperforming: SNDK −1.15%, MU −1.19%, INTC +0.27%, WDC −1.06%, AMAT −0.76%, QCOM −0.86%. Do not enter any semi names.
+
+TODAY'S DOMINANT THEME: Crypto/Bitcoin rally — MSTR, COIN, HOOD, CRCL, miners all up 10–15%+. HOOD up 15% on analyst upgrades + blockchain revenue milestone. This is a financials/crypto move — not tradeable per Insight #10 (financials permanent avoid).
+
+AH EARNINGS TONIGHT (hard disqualify if they appear in 3:15 PM scanners):
+LULU, GWRE, ASAN, AMBA, ZS, DOCU (confirmed), IOT, PATH — all reporting AH tonight. Binary events — do not hold overnight.
+
+---
+
+1. DELL — TOP PRIORITY 3:15 PM CANDIDATE — UPDATED STATUS:
+   Noon price: ~$526.80 (+7.04% vs $492.20 prior close). Trending up strongly all session.
+   VWAP at noon: $505.71 — DELL is well ABOVE VWAP ✓
+   Intraday range: Opened $486.31, hit low $478.31 in first bar (9:30 AM), recovered to $507.49 by 9:55 AM, then built higher through noon. Making new session highs at noon ($528.70 close on 12:00 PM bar, high $530.78).
+   10 AM-to-noon absolute low: $495.47 (at 10:15 AM bar) — this is 5.9% below a $526 entry; use 4% hard cap as stop floor.
+   More recent support structure: Stock held $510-514 range cleanly during 10:40-11:10 AM consolidation — this is the relevant intraday support level.
+   If 3:15 PM entry at ~$525-530: use $514 as support stop reference (within 4% of $530 ✓, within ~2% of $525).
+   4% hard cap below $525 = $504. Use max($514, 4% cap floor) as stop — keep stop above $504.
+   Rel vol at noon: 0.29× — FAR below Thursday 2× bar. This is the critical gate. If rel vol hasn't built to ≥2× by 3:15 PM, DELL cannot be entered (Thursday Insight #1 is hard). Even ≥1.5× would be marginal.
+   Confirmed guidance raise ✓ ($167B→$192B FY27, $95B AI server backlog, record orders $60.9B)
+   No earnings AH tonight for DELL ✓
    3:15 PM re-entry criteria (ALL required):
-     (a) Price still trending up or consolidated above VWAP at 3:15 PM
-     (b) Intraday low SINCE 10 AM (i.e. the 10 AM–3 PM window) is within 4% of your intended entry — if this tighter window is ≤4%, enter with 10 AM–3 PM low as stop reference
-     (c) Rel vol ≥2× (Thursday bar)
-     (d) Confirmed guidance raise ✓ (already met — $167B→$192B)
-   Conviction tier: HIGH ($400 max) if all 5 criteria met. Stop: 4% hard cap below entry. TP: 2× stop distance.
-   Overnight risk: No earnings AH tonight for DELL ✓. BLS jobs report Friday — apply Insight #5 (gap risk <3% worst case). AVGO miss is sector headwind but DELL's own $95B backlog is independent.
+     (a) Price still above VWAP at 3:15 PM ✓ (currently well above)
+     (b) Recent (post-10 AM recovery) intraday low within 4% of intended entry — use $510-514 support; 4% hard cap applies regardless
+     (c) Rel vol ≥2× (Thursday bar) — MAIN HURDLE, currently 0.29×
+     (d) Confirmed guidance raise ✓ (already met)
+   Conviction tier: HIGH ($400 max) if all criteria met. Stop: use $514 intraday support or 4% hard cap below entry (whichever is higher). TP: 2× stop distance.
+   BLS Friday gap risk: DELL's own $95B backlog is independent of macro, but gap risk <3% worst case still applies per Insight #5.
    Entry_type: catalyst_watch if entered.
 
-2. MGNI — SECONDARY 3:15 PM CANDIDATE:
-   10 AM price: $25.06 (+0.72% vs $24.88 prior close). Evercore ISI upgrade Sep 2 (CTV +36%, EBITDA +30%, raised guidance, PT $36.15) — thesis intact.
-   DISQUALIFIED at 10 AM: fading since 9:45 AM bar, 9:55 AM bar dropped to $25.16 close / $25.13 low. Current $25.06 below the opening range low.
-   3:15 PM re-entry criteria (ALL required):
-     (a) Price above VWAP at 3:15 PM — MUST hold this (Insight #8)
-     (b) Rel vol ≥1.5× confirmed (Insight #8); Thursday bar ideally ≥2× but upgrade catalyst is fresh same-day
-     (c) Price stabilized and trending up since early morning — not continuing the fade
-   Conviction tier: MEDIUM ($250 max, 4% stop). Entry_type: catalyst_watch if entered.
-   Overnight risk: No earnings AH tonight ✓. BLS Friday gap risk applies. Spread was 0.31% at 9:30 AM — recheck at 3:15 PM (must remain <1%).
+2. SNOW — UPGRADED PRIORITY — GUIDANCE RAISE NOW CONFIRMED:
+   *** KEY UPDATE FROM 12 PM: Guidance raise IS confirmed. 10 AM agent had incomplete data (Zacks showed "mixed"). Multiple sources now confirm: FY27 product revenue raised $5.84B → $6.07B (+3.9%); operating margin raised 13.5% → 14.5%. Morgan Stanley and BofA raised PTs to $470. ***
+   Noon price: ~$370.32 (+20.93% vs $305.84 prior close)
+   VWAP at noon: $372.24 — SNOW is BELOW VWAP at noon ($370.32 < $372.24) ✗
+   Intraday pattern: Opened $377.25, sold to $364.00 low (9:45 AM), recovered to $377.50 by 10:00 AM, then faded steadily through noon to $364-370 range. Last bars (11:50 AM-noon) showing a bounce: $364 → $370.32. Session high was $384.55 at 9:30 AM open.
+   Intraday day low: $364.00 (9:45 AM bar low). 4% below $370 entry = $355.20.
+   For 3:15 PM entry: stop at intraday low $364.00 (~1.6% below $370 entry) or 4% hard cap = $355.20.
+   Rel vol at noon: ~1.11× — needs to build to ≥1.5× (Thursday bar ideally ≥2×, but confirmed guidance raise may justify ≥1.5× as acceptable minimum).
+   3:15 PM entry criteria for SNOW (LOW conviction only):
+     (a) Price ABOVE VWAP at 3:15 PM — MANDATORY. VWAP at noon was $372.24; if stock closes above this, the fade is reversing.
+     (b) Rel vol ≥1.5× at close (Thursday bar ideally ≥2×; with guidance raise confirmed, 1.5× is minimum acceptable)
+     (c) Price stabilized and closing in upper half of today's range (not at the $364-367 lows)
+     (d) Check that today's intraday low $364.00 is within 4% of entry — at a $370 entry: $364 = 1.6% below ✓; at a $380 entry: $364 = 4.2% below (FAILS 4% cap at $380+)
+   Conviction tier: LOW ($150 max, stop at $364 intraday low or 4% below entry if closer). TP: 2× stop distance.
+   WARNING — Insight #8: "Never use catalyst_watch on earnings_beat catalysts." SNOW's primary catalyst is earnings_beat. However, the confirmed guidance raise distinguishes it from the prior 0/4 catalyst_watch failures which were pure beats without raises. Use judgment — if ALL entry criteria are met, enter LOW conviction only. If any criterion fails at 3:15 PM, skip entirely.
+   AH earnings for SNOW: SNOW already reported AH Sep 2. No binary event tonight ✓.
+   BLS Friday gap risk: applies per Insight #5.
+   Entry_type: catalyst_watch if entered.
 
-3. SNOW — LOW CONVICTION — REVIEW CAREFULLY:
-   10 AM price: $374.25 (+22.37% vs ~$305.82 prior close). Earnings beat: EPS $0.62 vs $0.45e (+37.8%), Rev $1.55B vs $1.47Be (+4.9%).
-   NOT entered at 10 AM: No confirmed guidance raise (Zacks Rank #3, "mixed estimate revisions"). Rel vol 0.60× at 10 AM (Thursday bar requires ≥2×). Price was fading below open ($377.25 → current $374.25, 30-min low $364.00).
-   3:15 PM consideration (LOW conviction only): IF price has stabilized and closed above today's VWAP, AND rel vol has built to ≥1.5×, AND there is confirmed guidance raise language from the earnings call transcript: then SNOW could qualify as LOW conviction ($150 max, 4% stop). Without confirmed guidance raise, this is an earnings_beat-only catalyst — DO NOT enter as HIGH or MEDIUM conviction. BLS Friday risk applies.
-   If fading or below VWAP at 3:15 PM → skip entirely.
+3. MGNI — ELIMINATED:
+   Noon price: $24.45 (−1.74% from prior close). Down all day — below yesterday's close, not a candidate.
+   Remove from watchlist entirely. Do not re-evaluate at 3:15 PM.
 
 4. PLTR — DO NOT ENTER TODAY:
-   10 AM price: $183.47 (+8.27%). No fresh Sep 3 catalyst (last earnings Aug 4). 30-min low $171.94 = 6.3% below entry — fails 4% hard cap. No confirmed guidance raise today. Thursday bar not clearable. Skip.
+   Noon price: $184.03 (+8.57%). No fresh Sep 3 catalyst. 30-min low $171.94 = 6.3% below — fails 4% hard cap. Thursday bar not clearable. Explicitly barred in prior handoff.
 
 5. GTLB — CONDITIONAL SKIP:
-   10 AM price: $49.63 (+0.08%). Still below $52 threshold. Earnings beat + guidance raise confirmed (Sep 1) — but price hasn't followed. Skip unless strong afternoon catalyst pushes above $52 with volume.
+   Still below $52 threshold. Skip unless dramatic reversal above $52 with volume before 3:15 PM.
 
-6. AVGO MISS CONTEXT:
-   AVGO $343.90 (−6.35%) — guidance miss confirmed. Semi/AI sector under pressure: SNDK −0.85%, MU −1.23%, INTC −0.91%, WDC −3.65%, AMAT −1.96%, QCOM −1.98%. Do not enter any semi/AI chip names today unless exceptional own catalyst.
+6. TSLA — MONITOR ONLY, NOT A BUY:
+   Noon price: $383.40 (+7.4%). Cybercab launch event in Austin today. Rel vol 1.12× — below Thursday 2× bar. No confirmed guidance raise. Skip.
 
-7. DOCU EARNINGS TONIGHT (AH Sep 3):
-   DocuSign reports AH today (Sep 3). DOCU was mentioned in the SNOW earnings article. Do NOT hold DOCU overnight. If DOCU appears in 3:15 PM scanners — hard disqualify (binary event tonight).
+7. AVGO MISS CONTEXT:
+   AVGO −6.35% — guidance miss confirmed. Entire semi/AI sector underperforming. Do not enter semi names.
 
-8. MACRO AT 10 AM:
-   SPY $769.18 (+0.53%), QQQ $712.22 (+0.42%) — NORMAL REGIME. Broad market constructive despite AVGO miss.
-   XLK +0.30%, XLC +1.10%, XLF +1.27%. BLS jobs report Friday Sep 5 (ADP 38K vs 47K expected — labor weak).
-   10Y yield ~4.79%. Risk-off undercurrent despite green indexes.
+8. STOP-STREAK STATUS — RESET:
+   DUOL was exited discretionarily Sep 2 (NOT a stop-out). Streak does not extend. Standard Thursday criteria apply.
 
-9. STOP-STREAK STATUS — RESET:
-   DUOL was exited discretionarily Sep 2 (NOT a stop-out). Streak does not extend. Sep 3 = NORMAL BAR — Insight #7 does NOT restrict entries. Standard Thursday criteria apply.
+9. DO NOT RE-ENTER:
+   CRM (stopped Sep 1), DG (stopped Aug 28), VEEV (stopped Aug 27), MRK (stopped Aug 27), ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18).
+   Also WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC, ASTS (non-tech).
+   DUOL: exited discretionarily Sep 2; do NOT re-enter today — BLS Friday gap risk. Re-evaluate next week.
+   HPE: sell-the-news crash (−9.6% open). Skip.
 
-10. DO NOT RE-ENTER:
-    CRM (stopped Sep 1), DG (stopped Aug 28), VEEV (stopped Aug 27), MRK (stopped Aug 27), ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18).
-    Also WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC, ASTS (non-tech).
-    DUOL: exited discretionarily Sep 2; dual upgrade thesis intact but do NOT re-enter today — BLS Friday jobs report adds overnight gap risk. Re-evaluate next week.
-    HPE: sell-the-news crash (−9.6% open). Skip.
-
-Catalyst watch list carry-forward:
-- DELL: CONFIRMED (EPS +43%, FY27 guidance raised $167B→$192B, $95B backlog) — NOT entered at 10 AM (30-min range too volatile). Re-evaluate at 3:15 PM per criteria above. Entry_type: catalyst_watch if entered.
-- MGNI: CONFIRMED (Evercore ISI upgrade Sep 2, guidance raised, CTV +36%) — NOT entered at 10 AM (fading). Re-evaluate at 3:15 PM for VWAP hold. Entry_type: catalyst_watch if entered.
-- SNOW: CONFIRMED earnings beat but NO confirmed guidance raise — NOT entered (Thursday bar, fading, low rel vol). LOW conviction only at 3:15 PM if VWAP hold + rel vol ≥1.5× + confirmed guidance raise from transcript. Entry_type: catalyst_watch if entered.
+Catalyst status carry-forward:
+- DELL: CONFIRMED (EPS +43%, FY27 guidance raised $167B→$192B, $95B backlog) — NOT entered at 12 PM (rel vol 0.29×, fails Thursday bar). Re-evaluate at 3:15 PM — rel vol building to ≥2× is the critical gate. Entry_type: catalyst_watch if entered.
+- SNOW: CONFIRMED earnings beat + guidance raise ($5.84B→$6.07B revenue, margin 13.5%→14.5%) — NOT entered at 12 PM (below VWAP $372.24, fading, rel vol 1.11×). Re-evaluate at 3:15 PM if price reclaims VWAP. LOW conviction only. Entry_type: catalyst_watch if entered.
 - VRNS: PENDING — M&A binary event ongoing. DO NOT ENTER.
-- GTLB: FAILED price condition (below $52). Skip unless dramatic reversal above $52 with volume.
+- GTLB: FAILED price condition (below $52). Skip unless dramatic reversal.
 - AVGO: FAILED — guidance miss confirmed. No entry.
 - PLTR: NOT a catalyst watch entry — no fresh Sep 3 catalyst. Skip.
+- MGNI: FAILED — fading below prior close all day. Removed from watchlist.
 
 ---
 PRE-CHECK — Market day verification
