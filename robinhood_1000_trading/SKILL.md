@@ -14,22 +14,27 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET 2026-09-02.** Live sync ••••6616: 1 position — DUOL only. Exact handoff match.
+**7:00 AM ET 2026-09-03.** Live sync ••••6616: 0 positions — 100% cash. Exact handoff match.
 
-- **DUOL** $157.51 pre-mkt (−0.79% vs $158.77 close; −0.49% vs entry $158.29). Bid $157.25/Ask $157.80; spread 0.35%. **ON TRACK** — stop $154.01 intact (+2.22% cushion). No adverse overnight news; dual upgrade thesis (Evercore ISI $210 + DA Davidson $175) fully intact. Mild pre-mkt drift only.
+No overnight positions to assess.
 
-Pre-market sells: **NONE.**
-
-**Catalyst watch:**
-- AVGO: PENDING — earnings AH today (4 PM ET). Pre-mkt flat (−0.32%). No gap-up at 7 AM. 10 AM agent: enter ONLY if gap-up + uptrend at open; MUST EXIT before close Sep 2.
-- SNOW: BINARY EVENT — earnings AH today (5 PM ET confirmed). Pre-mkt −1.97%. SKIP all sessions today per handoff rule.
+**Catalyst watch (AH Sep 2 results):**
+- AVGO: FAILED — Beat EPS $3.32 vs $3.24e + Rev $29.59B vs $29.36Be, but Q4 guidance light ($34.8B vs $35.03Be). Pre-mkt $356.01 (−3.06%). Caution mode — raise bar on all tech/semi entries.
+- HPE: CONFIRMED but sell-the-news — Beat EPS $1.11 vs $0.93e, Rev $12.2B vs $11.9Be; FY27 guidance raised. Pre-mkt $49.93 (−3.67%). Macro headwinds weighing despite beat.
+- DELL: CONFIRMED/FLAT — Initial AH +8-10% spike fully reversed by AVGO miss. Pre-mkt $483.05 (−1.86% vs $492.20 close). AVGO-conditional trigger NOT met. 10 AM: enter only if trending up + above VWAP; own catalyst still valid (FY27 $192B, $95B backlog). Thursday + AVGO miss = raise bar sharply.
+- MGNI: CONFIRMED/FLAT — Pre-mkt $25.22 (+1.37% vs $24.88 close); bid/ask spread ~10% (very thin). Upgrade thesis intact. 10 AM: evaluate if trending.
+- VRNS: PENDING — M&A talks "advanced stage," deal possible in weeks. Pre-mkt $46.98 (+0.47%). Binary event — DO NOT ENTER.
+- GTLB: SKIP — Pre-mkt $49.85 (+0.52%), still below $52. AVGO miss + price condition not met.
 
 **Macro:**
-- DELL beat: EPS $7.04 vs $4.92e; Rev $46.97B vs $44.92Be; AI server rev +122%; +9% AH. PANW beat: EPS $1.02 vs $0.98e; Rev $3.41B vs $3.35Be; +9% AH. Both POSITIVE for tech at open.
-- S&P futures −0.2%, Nasdaq-100 −0.5%; Iran/oil tensions persist; 10Y yields elevated.
-- AVGO earnings today AH sets semi/AI tone for Sep 3. BLS jobs report Friday.
+- Futures near-flat: S&P −0.07%, Nasdaq −0.20%.
+- Gulf fighting → oil ~$90; 10Y yield at 2-yr high. Risk-off tilt.
+- AVGO guidance miss is dominant overnight event; semis/AI under pressure.
+- Thursday Insight #1: worst day (23.1% WR, −$27.34 net). High bar for any entry.
 
-SUMMARY: 1 ON TRACK (DUOL — hold, stop $154.01); 0 pre-mkt sells; AVGO PENDING (10 AM decide); SNOW SKIP (binary event today).
+Pre-market sells: **NONE** (0 overnight positions).
+
+SUMMARY: 0 ON TRACK; 0 pre-mkt sells; DELL CONFIRMED but AH spike reversed — evaluate at 10 AM on own momentum; AVGO/GTLB FAILED; MGNI FLAT (10 AM evaluate); VRNS PENDING. AVGO caution + Thursday = high bar for Sep 3.
 
 ---
 
