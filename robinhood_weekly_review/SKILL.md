@@ -60,14 +60,19 @@ By day of week:
 ---
 
 STEP 4 — Identify patterns and generate rules
-Based on the data, generate up to 10 specific, actionable rules. Examples of the kind of rules to generate:
-- "Energy sector: 28% win rate on 7 trades — require additional confirmation (e.g. oil price direction) before entering energy plays"
-- "Analyst upgrade catalyst: 71% win rate — prioritize these in Step 4 screening"
-- "12 PM entries underperform 10 AM entries by 18% on average — raise the bar for midday buys"
-- "Positions held overnight from 3:15 PM have 2× the win rate of same-day holds — lean into overnight holds when thesis is strong"
-- "Positions near 52-week highs outperform by 22% — add 52-week high proximity as a positive scoring factor"
 
-Only generate rules supported by at least 3 data points. Label each rule with the sample size.
+AGGRESSIVE MODE IS ACTIVE (set by the account owner 2026-09-03). Your insights must NOT reduce trading activity. Do NOT generate any rule that skips a session, pauses after a stop-streak, raises the entry bar by day-of-week, bans or penalizes a sector, or otherwise tells the agents to sit in cash. The owner has explicitly accepted higher churn in exchange for more participation.
+
+Express everything you learn as SCORING / RANKING preferences or position-SIZING guidance only — never as hard "skip" / "raise the bar" / "avoid" gates.
+- GOOD: "analyst_upgrade wins most — rank highest, size at HIGH tier"; "consumer earnings gap down overnight — keep taking them but size ~25% smaller."
+- FORBIDDEN: "skip consumer", "raise the bar on Thursday", "pause after 3 stop-outs", "require rel vol ≥2×".
+
+Based on the data, generate up to 10 such participation-preserving, actionable insights. Examples:
+- "Analyst upgrade catalyst: 71% win rate — rank these highest and size at HIGH tier"
+- "Tech leads all sectors — scoring boost for tech; still take strong non-tech setups"
+- "Overnight 3:15 PM holds gap more — keep taking them but size ~25% smaller"
+
+Only generate insights supported by at least 3 data points. Label each with the sample size.
 
 Also note:
 - The single biggest mistake pattern (e.g. "3 of 4 losses came from holding through fading volume — exit when volume drops below 0.5× average in last 30 min")
@@ -89,22 +94,26 @@ Write the same content to all five. Format:
 ## LEARNED INSIGHTS
 <!-- Updated by weekly review agent. Last updated: [DATE]. Based on [N] closed trades. -->
 
+MODE: AGGRESSIVE (owner-set 2026-09-03). Trade actively; do NOT sit in cash when qualifying candidates exist. The insights below are scoring/sizing preferences, NOT participation gates.
+
 OVERALL: Win rate [X]%, profit factor [X], net P&L $[X]
 
-TOP RULES (read before every session):
-1. [Rule with sample size]
-2. [Rule with sample size]
-...up to 10 rules...
+SCORING / SIZING PREFERENCES (rank & size by these — never skip a session over them):
+1. [Preference with sample size]
+2. [Preference with sample size]
+...up to 10...
 
-AVOID: [Biggest mistake pattern]
-LEAN INTO: [Best performing pattern]
+SIZE-DOWN (don't skip — just take smaller): [patterns that lose more, e.g. a weak sector/day]
+LEAN INTO (rank highest, size larger): [best performing pattern]
+
+STILL IN FORCE (risk rails — never weaken): per-trade stop-losses, dollar-risk sizing, 25% single-name cap, 75% portfolio cap, hard disqualifiers for pending binary events (FDA/M&A/clinical/court) and same-day earnings.
 
 RAW STATS:
 - Best catalyst: [type] ([X]% win rate, N=[n])
 - Best sector: [sector] ([X]% win rate, N=[n])
 - Best session to open: [session] ([X]% win rate)
-- Stop triggered rate: [X]% of trades (target: <40%)
-- TP hit rate: [X]% of trades (target: >30%)
+- Stop triggered rate: [X]% of trades
+- TP hit rate: [X]% of trades
 ---
 ```
 
