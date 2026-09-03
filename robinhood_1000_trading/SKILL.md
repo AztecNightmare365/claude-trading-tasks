@@ -41,20 +41,23 @@ SUMMARY: 0 ON TRACK; 0 pre-mkt sells; DELL CONFIRMED but AH spike reversed — e
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET 2026-09-02.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
+**9:30 AM ET 2026-09-03.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
 
-Sells: NONE.
-- DUOL: open $157.53 — stop $154.01 intact (+2.28% cushion), TP $166.85 not reached. HOLD.
+Sells: NONE — 0 overnight positions.
 
 Catalyst entries: NONE.
-- AVGO: FLAT/DOWN at open ($366.58, −0.84% vs $369.68 close). Not gapping up — no entry. Pass to 10 AM agent. ⚠ MUST EXIT before close Sep 2 (earnings AH today).
-- SNOW: BINARY EVENT — earnings AH today (5 PM ET). SKIP per handoff rule. No entry.
+- AVGO: open $350.55 (−4.55% vs $367.24 close). FAILED (guidance miss). No entry.
+- HPE: open $46.85 (−9.60% vs $51.83 close). Sell-the-news crash. No entry.
+- DELL: open $486.31 (−1.20% vs $492.20 close). CONFIRMED/FLAT — opened below prior close. First-bar low $481.28. Pass to 10 AM (current $489.26; own catalyst intact).
+- MGNI: open $25.13 (+1.01% vs $24.88 close). 7 AM: CONFIRMED/FLAT. First bar clean (open $25.13→close $25.59, low $25.12), current $25.56 (+2.73%). Insight #8 requires VWAP hold + rel vol ≥1.5× — cannot fully validate at 9:30. Pass to 10 AM with strong flag. Spread 0.31% ✓.
+- VRNS: open $47.46 (+1.50%). Binary M&A event — DO NOT ENTER.
+- GTLB: open $50.41 (+1.65%). Below $52 threshold — skip.
 
-Portfolio sync: DUOL only (1.415125 sh) — exact handoff match. No manual adoptions.
+Portfolio sync: 0 positions live — exact handoff match. No manual adoptions.
 
-SPY $761.94 (+0.02%), QQQ $706.01 (−0.23%) — NORMAL REGIME.
+SPY $768.44 (+0.43%), QQQ $711.56 (+0.33%) — NORMAL REGIME.
 
-Status: 0 stop/TP sells, 0 catalyst entries, 1 position open for 10 AM (DUOL — stop $154.01, TP $166.85).
+Status: 0 stop/TP sells, 0 catalyst entries, 0 positions open for 10 AM (100% cash, $896.81).
 
 ---
 

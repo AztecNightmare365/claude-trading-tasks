@@ -1,16 +1,12 @@
 {
-  "ts": "2026-09-02T19:24:46Z",
-  "source": "robinhood_1515_trading",
+  "ts": "2026-09-03T13:31:00Z",
+  "source": "robinhood_0930_open",
   "portfolio": {
     "totalValue": 896.81,
-    "cash": 675.69,
+    "cash": 896.81,
     "equityValue": 0,
-    "buyingPower": 675.69,
-    "positions": [
-      { "ticker": "DUOL", "shares": 1.415125, "entry": 158.29, "current": 156.2546, "plPct": -1.29, "managed": false }
-    ]
+    "buyingPower": 896.81,
+    "positions": []
   },
-  "fills": [
-    { "id": "6a9877fd-bdfe-469d-a94b-80cb87c32bdf", "side": "sell", "ticker": "DUOL", "qty": 1.415125, "price": 156.2546, "at": "2026-09-02T19:24:46.048Z" }
-  ]
+  "fills": []
 }
