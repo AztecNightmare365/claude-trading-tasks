@@ -89,77 +89,74 @@ Context (not a brake): 44 trades, ~43% win rate, +$14 net. The owner accepts hig
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-Last updated: 2026-09-02 (~3:25 PM ET — 3:15 PM session complete)
+Last updated: 2026-09-04 (~3:30 PM ET — 3:15 PM session complete)
 
-Open positions held overnight: NONE — 100% cash overnight
+Open positions held overnight: 2 (SNDK and MU — both held from 10 AM session)
 
-Sells at 3:15 PM:
-- DUOL: 1.415125 sh sold at $156.2546 (market order filled 19:24:46 UTC). Entry $158.29. P&L: −1.29% (−$2.88). Exit: discretionary — AVGO binary event AH tonight (±8.7% implied move); Insight #5 gap risk threshold not met (<3% worst case required; AVGO miss + HPE miss could gap DUOL through $154.01 stop before 10 AM agent runs). Dual upgrade thesis fully intact — DUOL can be re-entered Sep 3 if AVGO beats and price confirms.
+| Ticker | Shares | Entry Price | Stop | TP | Overnight Thesis (1 line) | Entry Type |
+|--------|--------|-------------|------|----|--------------------------|------------|
+| SNDK | 0.101497 | $1,656.69 | $1,665.00 | $1,805.19 | Q4 FY26 beat (rev +371.6% YoY, DC doubled seq.), AI NAND demand, risk-free stop (stop > breakeven), +10.1% day | scanner |
+| MU | 0.169687 | $990.94 | $969.00 | $1,034.13 | AI HBM4 memory demand, 24% DRAM share gain, $1,000 consolidation, above VWAP, stop gap 3.4% within Labor Day guideline | scanner |
+
+Sells at 3:15 PM session (confirmed fills):
+- DELL: 0.321799 sh sold at $517.69 (filled 19:26:50 UTC). Entry $522.53. P&L: −0.93% (−$1.56). Exit: discretionary — below VWAP at 3:15 PM ($518.64 < VWAP $522.63, failing required overnight criterion); declining trend from $527 at 1:25 PM to $518 by 3:15 PM; rate hike risk elevated (51%); 3-day Labor Day weekend gap.
+- KLAC: 0.911421 sh sold at $184.47 (filled 19:26:51 UTC). Entry $184.49. P&L: −0.01% (−$0.02). Exit: discretionary — barely in top 25% by $0.08 margin with 2-hr declining trend from $187 high; indirect sector momentum only (no company-specific catalyst); 3-day weekend with 4.7% stop gap; weakest overnight case per 12 PM handoff.
 
 New buys at 3:15 PM: NONE
 
-Skipped candidates (full evaluation performed):
-- DELL (+13.75%, mktcap $274B, rel vol 1.88x, EPS beat +43%, FY27 guidance raised $167B→$192B, $95B backlog): DISQUALIFIED by intraday volatility rule — intraday low $432.27 is 10.6% below entry $483.45; SKILL.md hard cap "if intraday low >5% below entry, stock is too volatile to hold overnight — skip it." All 5 HIGH conviction criteria otherwise met. STRONGEST CANDIDATE for Sep 3 re-entry if AVGO beats.
-- MGNI (+9.3%, mktcap $3.3B, rel vol 2.45x, likely Evercore ISI upgrade today): DISQUALIFIED same rule — intraday low $22.44 is 10.2% below entry $25.00. Consistent VWAP uptrend all day, consolidating near highs. MEDIUM conviction Sep 3 candidate.
-- VRNS (+10.8%, mktcap $4.9B, rel vol 2.28x): HARD DISQUALIFIED — M&A binary event. Bloomberg: Proofpoint (Thoma Bravo) in acquisition talks reported ~3 PM today. Stock was flat $41-42 all session then spiked to $47 in final 15 min on 769K-share volume. Gap risk ±15%+ overnight. DO NOT enter until deal resolves.
-- GTLB (+10.6%): SKIPPED — price $49.87 still below $52 threshold; below VWAP; "sell the news" fade continued all session.
-- AVGO, HPE, NTAP, SNOW: Hard disqualified — earnings AH tonight.
-- All other scanner hits (39 total Scan A, 95 total Scan B): energy, materials, healthcare, consumer, financial sectors — rejected per Insight #10.
+Skipped new buy candidates (all evaluated and ruled out):
+- CBRS (Cerebras Systems, +10.5%, rel vol 2.40x, $45B cap): DISQUALIFIED — intraday low $190.79 is 9.3% below entry $210.35, exceeds 8% hard cap. CS-4 AI accelerator (Sep Q GA) + 165 MW Finland data center = strong catalyst. Re-check Tue Sep 9 if in top 25% and stop ≤8%.
+- ALAB (+10.3%, rel vol 1.71x, $49B cap): DISQUALIFIED — intraday low $285.84 is 8.4% below entry $312; same disqualifier as 10 AM session. Catalyst still valid.
+- WDC (+4.7%, priority watchlist): Not in top 25% of intraday range; confirmed Q4 FY26 beat + AI storage multi-year agreements; Kioxia merger discussions = M&A binary risk on 3-day weekend. Re-check Tue Sep 9 for deal news.
+- AMAT (+3.6%, priority watchlist): Not in top 25%; opened near high and faded all session. Intraday stop distance only 1.8%.
+- UCTT (+8.2%, rel vol 1.92x, above VWAP $71.85): Best remaining candidate — but stop distance 5.1% exceeds Labor Day 3-4% guideline; multi-month downtrend from $144 ATH (June 2026). Re-check Tue Sep 9.
+- SKHY: ADR — hard disqualified.
 
-Settled cash: $675.69 (DUOL proceeds $221.12 unsettled, settles Sep 3 T+1)
-Total settled cash at 10 AM Sep 3: ~$896.81 (all cash)
-Total account value: ~$896.81
-Portfolio invested: 0%
+Settled cash: $224.21 (pre-sell settled cash)
+Unsettled from today's sells (settles Tue Sep 9 T+1): ~$334.74 (DELL $166.59 + KLAC $168.15)
+Total settled cash at 10 AM Tue Sep 9: ~$558.95
+Total account value: ~$903 (SNDK ~$174 + MU ~$170 + $224.21 cash + ~$334.74 unsettled)
+Portfolio invested: ~38% (SNDK + MU only)
 
-75% cap for Sep 3: $896.81 × 0.75 = $672.61. Buyable Sep 3 = $672.61 (all cash settled by 10 AM).
+75% cap at Tue Sep 9 open: Use live account value × 0.75. Estimated buyable = ~$333 (cap-limited) with ~$559 settled cash available.
 
-NOTES FOR 10 AM AGENT (Thu Sep 3, 2026):
+---
+CRITICAL NOTES FOR 7 AM / 10 AM AGENT (Tue Sep 9, 2026 — first day after Labor Day weekend):
 
-*** READ AVGO AND HPE AH RESULTS FIRST — THEY SET THE ENTIRE SEP 3 TONE ***
+⚠️ LABOR DAY 3-DAY GAP: Mon Sep 7 market CLOSED. Positions SNDK and MU held Fri 3:30 PM → Tue 9:30 AM open.
 
-1. AVGO RESULT (AH Sep 2, ~5 PM ET):
-   Broadcom reported fiscal Q3 tonight. $29.5B revenue expected; ±8.7% implied move. This is the single most important overnight event for tech/semi/AI infrastructure on Sep 3.
-   - AVGO BEAT + guidance raise: green light for DELL, MGNI, GTLB re-entries at Sep 3 open. Use catalyst watch list 1-2% threshold (not standard 3% bar) if trending at 10 AM.
-   - AVGO MISS: caution mode. Raise the bar on all tech entries. DELL may still hold given exceptional own fundamentals but require stronger-than-usual price confirmation.
+MACRO AT CLOSE Sep 4:
+- SPY: $769.65 (−0.46% day). QQQ: $717.70 (+0.004%). Normal regime — tech near-flat.
+- Fed Gov. Waller (Sep 4 afternoon): dovish — "maintain status quo at September FOMC unless surprise inflation." Reduces near-term rate hike risk vs. morning's 51% pricing.
+- 10Y yield: ~4.77% (easing from 4.82%). VIX: 14.32 (−5.8%). Risk sentiment improving into close.
+- NFP Aug: 162K vs 56K expected — hot jobs print. Fed hike odds now 51% (up from morning). Next tests: CPI Sep 11, FOMC Sep 16.
+- Semiconductor sector: dominant theme today — SNDK +10.1%, MU +4.75%, KLAC +6.7%. AI NAND demand narrative intact.
 
-2. HPE RESULT (AH Sep 2):
-   HPE is DELL's direct enterprise infrastructure peer. If HPE misses, adds sector headwind on top of any AVGO miss for DELL. If HPE beats, confirms enterprise infrastructure demand environment that supports DELL thesis.
+POSITION STATUS AT CLOSE:
+1. SNDK ($1,656.69 entry, stop $1,665.00, TP $1,805.19 | ~$1,711 at 3:15 PM):
+   - Day P&L: +$5.65 unrealized (+3.36%). Stop gap: 2.7% from close — within Labor Day guideline. Trade risk-free (stop > breakeven).
+   - If SNDK opens below $1,665.00 at Tue Sep 9 open → sell immediately.
+   - If SNDK opens above $1,720+ → consider trailing stop to $1,700+ at 10 AM.
+   - Thesis: no earnings tonight or BMO Sep 9. Q4 FY26 beat intact. AI NAND narrative = strongest position.
 
-3. DELL — TOP PRIORITY CATALYST WATCH ENTRY:
-   Confirmed beat + confirmed guidance raise: EPS $7.04 vs $4.92e (+43%), Rev $46.97B vs $44.92Be (+58% YoY), FY27 guidance raised to $192B (from $167B, +$25B), AI server backlog $95B, AI server orders record $60.9B. All 5 HIGH conviction criteria met ($400 max). Two analysts issued Hold with higher PTs ($500 Cowen, $505 Truist); overall consensus = Buy.
-   Entry criteria for 10 AM Sep 3: (a) price trending up at 10 AM, not fading from open; (b) above VWAP; (c) AVGO result positive (or DELL specifically trading above open on own momentum). No earnings tonight for DELL ✓.
-   Stop: use Sep 3 opening 30-min low as reference, hard cap 4% (10 AM session rules apply). TP: 2× stop distance.
-   Intraday price action Sep 2: gapped to $474 high at open → sold off to $432 low → recovered strongly to $486 by close. Closed near highs. SPY +0.47% day. HPE result will influence opening gap.
-   Note: DELL's own catalyst (backlog, guidance raise) is independent of AVGO — even an AVGO miss doesn't invalidate DELL's $95B backlog or $192B guidance. But sector sentiment matters for short-term trading.
+2. MU ($990.94 entry, stop $969.00, TP $1,034.13 | ~$1,003 at 3:15 PM):
+   - Day P&L: +$2.09 unrealized (+1.24%). Stop gap: 3.4% from close — at Labor Day guideline.
+   - If MU opens below $969.00 at Tue Sep 9 open → sell immediately.
+   - If MU opens above $1,015 → consider trailing stop to $985 at 10 AM.
+   - Thesis: no earnings tonight or BMO Sep 9. Sep 30 earnings = 25 days away. AI HBM4 demand intact.
 
-4. MGNI — SECONDARY CATALYST WATCH ENTRY:
-   Likely Evercore ISI upgrade Sep 2 (web search confirms Evercore upgrade of MGNI; price action confirms: catalyst-driven move began 10:35 AM, sustained uptrend all session). CTV revenue +36%, EBITDA +30%, raised guidance, analyst PT $36.15. Rel vol 2.45x. No earnings tonight ✓.
-   Entry criteria: (a) price up and trending at 10 AM; (b) above VWAP; (c) confirm Evercore upgrade is dated Sep 2 (search "Evercore ISI upgrades Magnite Sep 2 2026"). MEDIUM conviction ($250 max, 4% stop). Can enter at 1-2% above prior close (~$22.89) if catalyst confirmed.
+DO NOT RE-ENTER:
+CRM (stopped Sep 1), DG (stopped Aug 28), VEEV/MRK/ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18). WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC, ASTS, HPE, AVGO, MGNI, GTLB.
+DELL (closed today — discretionary; can re-enter Tue Sep 9 if above VWAP with volume + rate hike odds not worsening).
+KLAC (closed today — discretionary; can re-enter Tue Sep 9 if thesis strengthens; no company-specific catalyst yet).
+VRNS: M&A binary event STILL PENDING — DO NOT ENTER until Proofpoint/Thoma Bravo deal resolves.
 
-5. VRNS — BINARY M&A EVENT — DO NOT ENTER BLINDLY:
-   Proofpoint (Thoma Bravo) in talks to acquire Varonis (Bloomberg). Stock spiked from $41 to $47 in final 15 minutes on huge volume (769K shares in one bar). DO NOT chase the $47 print. If deal CONFIRMED at clear premium overnight: the stock may already reflect the premium; evaluate if there's still upside. If deal DENIED or falls through: stock gaps back to $41-42 range (~12% gap down). Check news before any action.
-
-6. GTLB — CONDITIONAL:
-   Earnings beat + guidance raise confirmed Sep 1. Faded entire Sep 2 session. Closed ~$49.87 (below $52 threshold). If AVGO beats strongly AND GTLB opens above $52 with fresh volume at Sep 3 → catalyst still valid (Insight #4 pattern). If still below $52 → skip.
-
-7. AVGO ENTRY (Sep 3 post-results):
-   If AVGO beat strongly and gaps up 5%+ at Sep 3 open: can enter AVGO as fresh same-day position at 10 AM if still trending up. No prior restrictions. MUST EXIT by 3 PM Sep 3 (same-day rule, no further binary events but standard caution). Standard scanner criteria apply.
-
-8. STOP-STREAK STATUS — RESET:
-   5 consecutive stop-outs before DUOL (CRM Sep 1, DG Aug 28, ANF/MRK/VEEV Aug 27). DUOL was the reset entry — survived the Sep 2 session (stop $154.01 never triggered), closed DISCRETIONARILY at 3:15 PM to avoid AVGO gap risk. This is NOT a stop-out. STREAK DOES NOT EXTEND. Sep 3 = NORMAL BAR — Insight #7 does NOT restrict Sep 3 entries. Apply standard criteria.
-
-9. DO NOT RE-ENTER:
-   CRM (stopped Sep 1), DG (stopped Aug 28), VEEV (stopped Aug 27), MRK (stopped Aug 27), ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18). Also WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC, ASTS (non-tech).
-
-10. MACRO:
-    SPY +0.47%, QQQ +0.155% Sep 2 close. Normal regime at 3:15 PM. BLS jobs report Friday Sep 5 — if Sep 3 is turbulent, apply extra caution on new entries (avoid holding into Friday). 10Y yield ~4.79%, Sep rate-hike odds ~66%.
-
-Catalyst watch list:
-AVGO | Earnings AH Sep 2 — AI chip/semiconductor, ±8.7% implied move | Resolved before Sep 3 open | Bullish bias (AI demand backdrop) | HIGH
-HPE | Earnings AH Sep 2 — enterprise infrastructure peer to DELL | Resolved before Sep 3 open | Neutral | HIGH
-DELL | Post-earnings continuation — confirmed guidance raise $167B→$192B, $95B backlog, +43% EPS beat | Sep 3 10 AM (BMO continuation) | Bullish (AVGO-conditional) | LOW-MEDIUM
-MGNI | Evercore ISI upgrade Sep 2 — CTV +36%, EBITDA +30%, raised guidance | Sep 3 10 AM | Bullish | LOW-MEDIUM
-GTLB | Earnings beat + guidance raise (Sep 1) — faded Sep 2, re-evaluate post-AVGO | Sep 3 10 AM if AVGO beats + price above $52 | Bullish conditional | MEDIUM
+Catalyst watch list for Tue Sep 9:
+CBRS | CS-4 AI accelerator (Sep Q GA), 165 MW Finland data center expansion | Tue Sep 9 open continuation | Bullish | MEDIUM (require stop ≤8% from entry at 10 AM; if in top 25% and vol confirms → HIGH conviction entry)
+WDC | Q4 FY26 beat + AI storage multi-year contracts; Kioxia merger discussions | Tue Sep 9 open | Bullish / M&A risk | MEDIUM-HIGH (check weekend deal news first; if no deal update → treat as priority watchlist)
+UCTT | AI fab supply chain recovery, Q2 beat (rev +24% YoY), Q3 guide $700M-$750M | Tue Sep 9 | Bullish conditional | MEDIUM (require stop ≤5% and in top 25% — downtrend from $144 ATH requires confirmation)
+ALAB | AI connectivity (NVDA deal tailwind), confirmed catalyst — intraday vol still disqualifying | Tue Sep 9 | Bullish | MEDIUM (check intraday low vs entry; if ≤8% → eligible)
+VRNS | M&A binary (Proofpoint/Thoma Bravo) STILL PENDING | Unknown | Binary ±15% | HIGH RISK — DO NOT ENTER without deal resolution
 ---
 
 ## AFTER-HOURS UPDATE

@@ -1,12 +1,78 @@
 {
-  "ts": "2026-09-04T13:31:00Z",
-  "source": "robinhood_0930_open",
+  "ts": "2026-09-04T19:30:00Z",
+  "source": "robinhood_1515_trading",
   "portfolio": {
-    "totalValue": 896.81,
-    "cash": 896.81,
-    "equityValue": 0,
-    "buyingPower": 896.81,
-    "positions": []
+    "totalValue": 902.99,
+    "cash": 224.21,
+    "equityValue": 344.04,
+    "buyingPower": 224.21,
+    "positions": [
+      {
+        "ticker": "SNDK",
+        "shares": 0.101497,
+        "entry": 1656.69,
+        "current": 1712.39,
+        "plPct": 3.36,
+        "managed": true
+      },
+      {
+        "ticker": "MU",
+        "shares": 0.169687,
+        "entry": 990.94,
+        "current": 1003.25,
+        "plPct": 1.24,
+        "managed": true
+      }
+    ]
   },
-  "fills": []
+  "fills": [
+    {
+      "id": "6a9ad1e6-dd3",
+      "side": "buy",
+      "ticker": "DELL",
+      "qty": 0.321799,
+      "price": 522.53,
+      "at": "2026-09-04T14:12:54Z"
+    },
+    {
+      "id": "6a9ad1e8-b3a",
+      "side": "buy",
+      "ticker": "SNDK",
+      "qty": 0.101497,
+      "price": 1656.69,
+      "at": "2026-09-04T14:12:56Z"
+    },
+    {
+      "id": "6a9ad1e9-8cd",
+      "side": "buy",
+      "ticker": "MU",
+      "qty": 0.169687,
+      "price": 990.94,
+      "at": "2026-09-04T14:12:57Z"
+    },
+    {
+      "id": "6a9ad1ea-cdc",
+      "side": "buy",
+      "ticker": "KLAC",
+      "qty": 0.911421,
+      "price": 184.49,
+      "at": "2026-09-04T14:12:59Z"
+    },
+    {
+      "id": "6a9b1b7a-b940-448e-9db4-612131ea44f9",
+      "side": "sell",
+      "ticker": "DELL",
+      "qty": 0.321799,
+      "price": 517.69,
+      "at": "2026-09-04T19:26:50Z"
+    },
+    {
+      "id": "6a9b1b7b-269b-43fe-9b18-378066abb8d5",
+      "side": "sell",
+      "ticker": "KLAC",
+      "qty": 0.911421,
+      "price": 184.47,
+      "at": "2026-09-04T19:26:51Z"
+    }
+  ]
 }
