@@ -24,108 +24,79 @@ _No content — see robinhood_1000_trading/SKILL.md for the live 3:15 PM handoff
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-09-03 (~12:00 PM ET — 12 PM reassessment complete)
+Last updated: 2026-09-04 (~10:13 AM ET — 10 AM session complete)
 
-Open positions: NONE — 100% cash
+Open positions: 4 (all opened this session)
 
-Sells at 12 PM: NONE (no positions held)
-Buys at 12 PM: NONE (Thursday bar not clearable by any candidate — see notes)
+| Ticker | Shares | Entry Price | Stop | TP | Thesis (1 line) | Entry Type |
+|--------|--------|-------------|------|----|-----------------|------------|
+| DELL | 0.321830 | $522.47 | $510.27 | $546.87 | Confirmed earnings beat (+43% EPS), FY27 guidance raised $167B→$192B, $95B AI server backlog | catalyst_watch |
+| SNDK | 0.101550 | $1,655.73 | $1,581.00 | $1,805.19 | Q4 FY26 beat (rev +371.6% YoY, datacenter doubled seq), AI NAND demand, Zacks #1, NVDA deal tailwind | scanner |
+| MU | 0.169720 | $990.71 | $969.00 | $1,034.13 | AI HBM4 memory demand; 3.7× rel vol; strong Sep 30 earnings setup; NVDA Hugging Face deal tailwind | scanner |
+| KLAC | 0.911820 | $184.41 | $175.87 | $201.49 | Semicon equipment pick-and-shovel for AI chip fabs; +7.28%; 6 consecutive higher 5-min bars at open | scanner |
 
-Settled cash: $896.81
+Settled cash: ~$224.21 (estimated post-fill; $896.81 − $672.60 deployed)
 Unsettled cash: $0
-Total account value: $896.81
-Portfolio invested: 0%
+Total account value: ~$896.81
+Portfolio invested: ~75% (at fill prices)
 
-75% cap for 3:15 PM: $896.81 × 0.75 = $672.61 buyable
-
-NOTES FOR 3:15 PM AGENT (Thu Sep 3, 2026):
-
-*** THURSDAY — Insight #1 in effect: require confirmed guidance raise + rel vol ≥2× for any new entry. If bar cannot be cleared, pass entirely. ***
-*** BLS NFP jobs report FRIDAY Sep 5 — any overnight hold from 3:15 PM today faces gap risk from Friday's print. Apply Insight #5 strictly: no consumer/healthcare, gap risk <3% worst case, confirmed guidance raise on catalyst. ***
-
-MACRO AT NOON:
-SPY $773.18 (+1.05%), QQQ $717.59 (+1.18%) — NORMAL REGIME. Broad market strengthened through the session (was +0.53%/+0.42% at 10 AM). No regime gate.
-Semis still underperforming: SNDK −1.15%, MU −1.19%, INTC +0.27%, WDC −1.06%, AMAT −0.76%, QCOM −0.86%. Do not enter any semi names.
-
-TODAY'S DOMINANT THEME: Crypto/Bitcoin rally — MSTR, COIN, HOOD, CRCL, miners all up 10–15%+. HOOD up 15% on analyst upgrades + blockchain revenue milestone. This is a financials/crypto move — not tradeable per Insight #10 (financials permanent avoid).
-
-AH EARNINGS TONIGHT (hard disqualify if they appear in 3:15 PM scanners):
-LULU, GWRE, ASAN, AMBA, ZS, DOCU (confirmed), IOT, PATH — all reporting AH tonight. Binary events — do not hold overnight.
+75% cap for 3:15 PM: $896.81 × 0.75 = $672.61 — FULLY DEPLOYED. No additional buys unless a position is closed.
 
 ---
 
-1. DELL — TOP PRIORITY 3:15 PM CANDIDATE — UPDATED STATUS:
-   Noon price: ~$526.80 (+7.04% vs $492.20 prior close). Trending up strongly all session.
-   VWAP at noon: $505.71 — DELL is well ABOVE VWAP ✓
-   Intraday range: Opened $486.31, hit low $478.31 in first bar (9:30 AM), recovered to $507.49 by 9:55 AM, then built higher through noon. Making new session highs at noon ($528.70 close on 12:00 PM bar, high $530.78).
-   10 AM-to-noon absolute low: $495.47 (at 10:15 AM bar) — this is 5.9% below a $526 entry; use 4% hard cap as stop floor.
-   More recent support structure: Stock held $510-514 range cleanly during 10:40-11:10 AM consolidation — this is the relevant intraday support level.
-   If 3:15 PM entry at ~$525-530: use $514 as support stop reference (within 4% of $530 ✓, within ~2% of $525).
-   4% hard cap below $525 = $504. Use max($514, 4% cap floor) as stop — keep stop above $504.
-   Rel vol at noon: 0.29× — FAR below Thursday 2× bar. This is the critical gate. If rel vol hasn't built to ≥2× by 3:15 PM, DELL cannot be entered (Thursday Insight #1 is hard). Even ≥1.5× would be marginal.
-   Confirmed guidance raise ✓ ($167B→$192B FY27, $95B AI server backlog, record orders $60.9B)
-   No earnings AH tonight for DELL ✓
-   3:15 PM re-entry criteria (ALL required):
-     (a) Price still above VWAP at 3:15 PM ✓ (currently well above)
-     (b) Recent (post-10 AM recovery) intraday low within 4% of intended entry — use $510-514 support; 4% hard cap applies regardless
-     (c) Rel vol ≥2× (Thursday bar) — MAIN HURDLE, currently 0.29×
-     (d) Confirmed guidance raise ✓ (already met)
-   Conviction tier: HIGH ($400 max) if all criteria met. Stop: use $514 intraday support or 4% hard cap below entry (whichever is higher). TP: 2× stop distance.
-   BLS Friday gap risk: DELL's own $95B backlog is independent of macro, but gap risk <3% worst case still applies per Insight #5.
-   Entry_type: catalyst_watch if entered.
+NOTES FOR 3:15 PM AGENT (Fri Sep 4, 2026):
 
-2. SNOW — UPGRADED PRIORITY — GUIDANCE RAISE NOW CONFIRMED:
-   *** KEY UPDATE FROM 12 PM: Guidance raise IS confirmed. 10 AM agent had incomplete data (Zacks showed "mixed"). Multiple sources now confirm: FY27 product revenue raised $5.84B → $6.07B (+3.9%); operating margin raised 13.5% → 14.5%. Morgan Stanley and BofA raised PTs to $470. ***
-   Noon price: ~$370.32 (+20.93% vs $305.84 prior close)
-   VWAP at noon: $372.24 — SNOW is BELOW VWAP at noon ($370.32 < $372.24) ✗
-   Intraday pattern: Opened $377.25, sold to $364.00 low (9:45 AM), recovered to $377.50 by 10:00 AM, then faded steadily through noon to $364-370 range. Last bars (11:50 AM-noon) showing a bounce: $364 → $370.32. Session high was $384.55 at 9:30 AM open.
-   Intraday day low: $364.00 (9:45 AM bar low). 4% below $370 entry = $355.20.
-   For 3:15 PM entry: stop at intraday low $364.00 (~1.6% below $370 entry) or 4% hard cap = $355.20.
-   Rel vol at noon: ~1.11× — needs to build to ≥1.5× (Thursday bar ideally ≥2×, but confirmed guidance raise may justify ≥1.5× as acceptable minimum).
-   3:15 PM entry criteria for SNOW (LOW conviction only):
-     (a) Price ABOVE VWAP at 3:15 PM — MANDATORY. VWAP at noon was $372.24; if stock closes above this, the fade is reversing.
-     (b) Rel vol ≥1.5× at close (Thursday bar ideally ≥2×; with guidance raise confirmed, 1.5× is minimum acceptable)
-     (c) Price stabilized and closing in upper half of today's range (not at the $364-367 lows)
-     (d) Check that today's intraday low $364.00 is within 4% of entry — at a $370 entry: $364 = 1.6% below ✓; at a $380 entry: $364 = 4.2% below (FAILS 4% cap at $380+)
-   Conviction tier: LOW ($150 max, stop at $364 intraday low or 4% below entry if closer). TP: 2× stop distance.
-   WARNING — Insight #8: "Never use catalyst_watch on earnings_beat catalysts." SNOW's primary catalyst is earnings_beat. However, the confirmed guidance raise distinguishes it from the prior 0/4 catalyst_watch failures which were pure beats without raises. Use judgment — if ALL entry criteria are met, enter LOW conviction only. If any criterion fails at 3:15 PM, skip entirely.
-   AH earnings for SNOW: SNOW already reported AH Sep 2. No binary event tonight ✓.
-   BLS Friday gap risk: applies per Insight #5.
-   Entry_type: catalyst_watch if entered.
+⚠️ LABOR DAY WEEKEND — Mon Sep 7 market CLOSED. Any position held past 3:15 PM today faces a 3-DAY GAP through Tuesday Sep 9 open. Apply very high bar for overnight hold. Require: thesis still intact, price above VWAP at 3:15 PM, stop-loss gap risk < ~3–4% worst case.
 
-3. MGNI — ELIMINATED:
-   Noon price: $24.45 (−1.74% from prior close). Down all day — below yesterday's close, not a candidate.
-   Remove from watchlist entirely. Do not re-evaluate at 3:15 PM.
+MACRO AT 10 AM: SPY −0.12%, QQQ +0.56% — NORMAL REGIME.
+Dominant sector: XLK +1.11% (tech). Energy −1.56%, healthcare −0.96% weak.
+Primary catalyst: NVDA acquired Hugging Face for $12.9B (announced Sep 4). Lifted entire AI ecosystem (memory, equipment, infrastructure). This is the single driving force behind all four positions today.
 
-4. PLTR — DO NOT ENTER TODAY:
-   Noon price: $184.03 (+8.57%). No fresh Sep 3 catalyst. 30-min low $171.94 = 6.3% below — fails 4% hard cap. Thursday bar not clearable. Explicitly barred in prior handoff.
+POSITION STATUS AT OPEN (10 AM snapshot):
 
-5. GTLB — CONDITIONAL SKIP:
-   Still below $52 threshold. Skip unless dramatic reversal above $52 with volume before 3:15 PM.
+1. DELL ($522.47 entry, stop $510.27, TP $546.87):
+   - Catalyst: Sep 2 earnings beat (EPS $7.04 vs $4.92e, +43%), FY27 revenue guidance raised $167B→$192B, $95B AI server backlog, $60.9B record orders. Zacks Rank #2 Buy. Multiple analyst PT raises ($500 Cowen, $505 Truist).
+   - Entry_type: catalyst_watch. 30-min opening low $510.27 = stop reference.
+   - Note: Opened flat at $514, surged to $534.92 intraday high (9:35 AM), then pulled back to $522 consolidation zone. Entry at $522.47 is in that consolidation — not chasing the spike. VWAP at 10 AM: $526.47 (entry is slightly below VWAP — acceptable given strong thesis).
+   - OVERNIGHT HOLD CRITERIA: (a) above VWAP at 3:15 PM, (b) thesis intact (no negative news on DELL today), (c) 3-day gap risk acceptable — DELL's own $95B backlog is macro-independent, but check overall market tone. If all met, hold through weekend for continued catalog momentum (multiple analyst upgrades may come next week).
+   - CRITICAL: If DELL breaks below $510.27 before 3:15 PM → SELL immediately (stop triggered).
 
-6. TSLA — MONITOR ONLY, NOT A BUY:
-   Noon price: $383.40 (+7.4%). Cybercab launch event in Austin today. Rel vol 1.12× — below Thursday 2× bar. No confirmed guidance raise. Skip.
+2. SNDK ($1,655.73 entry, stop $1,581.00, TP $1,805.19):
+   - Catalyst: Q4 FY26 beat (EPS $39.25, +14.63% beat; revenue +371.6% YoY to $8.97B; datacenter revenue doubled sequentially to $2.98B). Zacks Rank #1 (Strong Buy). $93.9B in multiyear supply contracts with price floors. Samsung memory shortage (multiyear deals with NVDA/MSFT/Google announced) — SNDK directly benefits.
+   - Entry_type: scanner. Wide stop (30-min low $1,581 = 4.36% below entry). Rel vol 0.48× (low absolute, but large-cap norm).
+   - OVERNIGHT HOLD CRITERIA: (a) above VWAP at 3:15 PM (VWAP at 10 AM: $1,635.68), (b) AI memory sector still strong, (c) 3-day gap: SNDK has contracted revenue ($93.9B) — no binary events. Wide stop makes overnight gap risk manageable (hard stop is $1,581). Moderate case for weekend hold.
+   - CRITICAL: If SNDK breaks below $1,581 before 3:15 PM → SELL immediately.
 
-7. AVGO MISS CONTEXT:
-   AVGO −6.35% — guidance miss confirmed. Entire semi/AI sector underperforming. Do not enter semi names.
+3. MU ($990.71 entry, stop $969.00, TP $1,034.13):
+   - Catalyst: AI HBM4 memory demand; Sep 30 earnings expected +85% revenue YoY ($49-51B revenue guidance); NVDA deal amplifies AI compute demand. Very strong rel vol 3.7× at 10 AM (10.8M shares traded in first 40 min vs 2.95M expected).
+   - Entry_type: scanner (priority watchlist). 30-min low $969.00 = stop.
+   - Note: Sep 30 MU earnings — this is NOT a same-day binary event. Earnings are 26 days away. No binary event concern for this weekend.
+   - OVERNIGHT HOLD CRITERIA: (a) above VWAP at 3:15 PM (VWAP at 10 AM: $990.66 — entry just above), (b) no adverse Fed/macro news, (c) 3-day gap risk: MU faces no binary event. If tech/AI sector stays strong, MU continuation is reasonable through long weekend. Hold if thesis intact.
+   - CRITICAL: If MU breaks below $969.00 before 3:15 PM → SELL immediately.
 
-8. STOP-STREAK STATUS — RESET:
-   DUOL was exited discretionarily Sep 2 (NOT a stop-out). Streak does not extend. Standard Thursday criteria apply.
+4. KLAC ($184.41 entry, stop $175.87, TP $201.49):
+   - Catalyst: NVDA Hugging Face deal drives AI chip demand → more fab spending → KLAC equipment orders. Sector momentum. +7.28% from close. Perfect 6-bar consecutive uptrend at open (CLEANEST technical setup of all four).
+   - Entry_type: scanner. 30-min low $175.87 = stop (5.24% below entry — widest of the four stops, but within the 7% hard cap).
+   - OVERNIGHT HOLD CRITERIA: This is the WEAKEST case for overnight hold. Catalyst is sector_momentum (indirect/NVDA deal) without a company-specific beat or guidance raise. If KLAC has consolidated and is near session highs at 3:15 PM → consider exiting to reduce overnight gap risk over the 3-day weekend. Only hold if tech sector still very strong and KLAC is above VWAP.
+   - CRITICAL: If KLAC breaks below $175.87 before 3:15 PM → SELL immediately.
 
-9. DO NOT RE-ENTER:
-   CRM (stopped Sep 1), DG (stopped Aug 28), VEEV (stopped Aug 27), MRK (stopped Aug 27), ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18).
-   Also WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC, ASTS (non-tech).
-   DUOL: exited discretionarily Sep 2; do NOT re-enter today — BLS Friday gap risk. Re-evaluate next week.
-   HPE: sell-the-news crash (−9.6% open). Skip.
+SKIPPED CANDIDATES AT 10 AM:
+- ALAB: +12.84%, DISQUALIFIED — 30-min opening low $285.84 = 10.4% below entry (>7% hard cap, same rule that stopped DELL Sep 2). Thesis otherwise excellent.
+- AMAT: Priority watchlist, +5.18% — passed over in favor of KLAC (KLAC scanner-confirmed, better technical setup).
+- WDC: Priority watchlist, +5.73% — passed over in favor of KLAC for diversification (SNDK already covers storage/memory theme).
+- VRNS: Binary M&A event — DO NOT ENTER. Still pending. No update on Proofpoint/Thoma Bravo deal.
+- INTC: Priority watchlist, +3.52% — passed over; NVDA's new Vera CPU expansion directly threatens INTC's server CPU business. Headwind.
+
+DO NOT RE-ENTER:
+CRM (stopped Sep 1), DG (stopped Aug 28), VEEV/MRK/ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18). WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC, ASTS, HPE, AVGO, MGNI, GTLB.
 
 Catalyst status carry-forward:
-- DELL: CONFIRMED (EPS +43%, FY27 guidance raised $167B→$192B, $95B backlog) — NOT entered at 12 PM (rel vol 0.29×, fails Thursday bar). Re-evaluate at 3:15 PM — rel vol building to ≥2× is the critical gate. Entry_type: catalyst_watch if entered.
-- SNOW: CONFIRMED earnings beat + guidance raise ($5.84B→$6.07B revenue, margin 13.5%→14.5%) — NOT entered at 12 PM (below VWAP $372.24, fading, rel vol 1.11×). Re-evaluate at 3:15 PM if price reclaims VWAP. LOW conviction only. Entry_type: catalyst_watch if entered.
-- VRNS: PENDING — M&A binary event ongoing. DO NOT ENTER.
-- GTLB: FAILED price condition (below $52). Skip unless dramatic reversal.
-- AVGO: FAILED — guidance miss confirmed. No entry.
-- PLTR: NOT a catalyst watch entry — no fresh Sep 3 catalyst. Skip.
-- MGNI: FAILED — fading below prior close all day. Removed from watchlist.
+- DELL: ENTERED at $522.47 (catalyst_watch). Confirmed beat + guidance raise. ✓
+- SNDK: ENTERED at $1,655.73 (scanner). Confirmed prior beat + AI demand story. ✓
+- MU: ENTERED at $990.71 (scanner). AI memory demand + strong rel vol. ✓
+- KLAC: ENTERED at $184.41 (scanner). Sector momentum play. ✓
+- VRNS: PENDING — M&A binary event. DO NOT ENTER.
+- ALAB: CONFIRMED catalyst (AI connectivity, NVDA deal) but NOT entered — 30-min volatility disqualifier. If ALAB appears in 3:15 PM scanners, check intraday low vs entry; if >4% below potential entry, skip again.
 
 ---
 PRE-CHECK — Market day verification
