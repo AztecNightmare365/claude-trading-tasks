@@ -44,21 +44,19 @@ SUMMARY: 0 ON TRACK; 0 flagged; 0 pre-mkt sells. BLS NFP 8:30 AM dominant event 
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET 2026-09-03.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
+**9:30 AM ET 2026-09-04.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices. NFP jobs report 8:30 AM ET — market absorbed without dislocation (SPY −0.13%, QQQ +0.14% — NORMAL REGIME).
 
 Sells: NONE — 0 overnight positions.
 
 Catalyst entries: NONE.
-- AVGO: open $350.55 (−4.55% vs $367.24 close). FAILED (guidance miss). No entry.
-- HPE: open $46.85 (−9.60% vs $51.83 close). Sell-the-news crash. No entry.
-- DELL: open $486.31 (−1.20% vs $492.20 close). CONFIRMED/FLAT — opened below prior close. First-bar low $481.28. Pass to 10 AM (current $489.26; own catalyst intact).
-- MGNI: open $25.13 (+1.01% vs $24.88 close). 7 AM: CONFIRMED/FLAT. First bar clean (open $25.13→close $25.59, low $25.12), current $25.56 (+2.73%). Insight #8 requires VWAP hold + rel vol ≥1.5× — cannot fully validate at 9:30. Pass to 10 AM with strong flag. Spread 0.31% ✓.
-- VRNS: open $47.46 (+1.50%). Binary M&A event — DO NOT ENTER.
-- GTLB: open $50.41 (+1.65%). Below $52 threshold — skip.
+- DELL: open $513.81 (−0.50% vs $516.39 close). FLAT/DOWN — does not meet 1–2% gap-up threshold. Own catalyst (earnings beat, $192B guidance, $95B backlog) still valid. Pass to 10 AM. Spread 0.42% ✓.
+- VRNS: open $46.28 (−0.50% vs $46.51 close). Binary M&A event — DO NOT ENTER. Pass to 10 AM for binary resolution check.
 
 Portfolio sync: 0 positions live — exact handoff match. No manual adoptions.
 
-SPY $768.44 (+0.43%), QQQ $711.56 (+0.33%) — NORMAL REGIME.
+SPY $772.15 (−0.13%), QQQ $718.67 (+0.14%) — NORMAL REGIME. NFP absorbed; no macro dislocation.
+
+⚠ LABOR DAY NOTE: Mon Sep 7 market CLOSED — 3-day weekend gap risk on any new Sep 4 positions. 10 AM agent must weight heavily before entering any overnight hold.
 
 Status: 0 stop/TP sells, 0 catalyst entries, 0 positions open for 10 AM (100% cash, $896.81).
 
