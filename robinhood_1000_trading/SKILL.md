@@ -14,27 +14,30 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET 2026-09-03.** Live sync ••••6616: 0 positions — 100% cash. Exact handoff match.
+**7:00 AM ET 2026-09-04 (Friday).** Live sync ••••6616: 0 positions — 100% cash. Handoff match (3:15 PM Sep 3 session did not run).
 
 No overnight positions to assess.
 
-**Catalyst watch (AH Sep 2 results):**
-- AVGO: FAILED — Beat EPS $3.32 vs $3.24e + Rev $29.59B vs $29.36Be, but Q4 guidance light ($34.8B vs $35.03Be). Pre-mkt $356.01 (−3.06%). Caution mode — raise bar on all tech/semi entries.
-- HPE: CONFIRMED but sell-the-news — Beat EPS $1.11 vs $0.93e, Rev $12.2B vs $11.9Be; FY27 guidance raised. Pre-mkt $49.93 (−3.67%). Macro headwinds weighing despite beat.
-- DELL: CONFIRMED/FLAT — Initial AH +8-10% spike fully reversed by AVGO miss. Pre-mkt $483.05 (−1.86% vs $492.20 close). AVGO-conditional trigger NOT met. 10 AM: enter only if trending up + above VWAP; own catalyst still valid (FY27 $192B, $95B backlog). Thursday + AVGO miss = raise bar sharply.
-- MGNI: CONFIRMED/FLAT — Pre-mkt $25.22 (+1.37% vs $24.88 close); bid/ask spread ~10% (very thin). Upgrade thesis intact. 10 AM: evaluate if trending.
-- VRNS: PENDING — M&A talks "advanced stage," deal possible in weeks. Pre-mkt $46.98 (+0.47%). Binary event — DO NOT ENTER.
-- GTLB: SKIP — Pre-mkt $49.85 (+0.52%), still below $52. AVGO miss + price condition not met.
+**Pre-market (7 AM ET):**
+- SPY $773.77 (+0.08% vs $773.17 close). QQQ $721.18 (+0.49% vs $717.67 close). Near-flat.
 
-**Macro:**
-- Futures near-flat: S&P −0.07%, Nasdaq −0.20%.
-- Gulf fighting → oil ~$90; 10Y yield at 2-yr high. Risk-off tilt.
-- AVGO guidance miss is dominant overnight event; semis/AI under pressure.
-- Thursday Insight #1: worst day (23.1% WR, −$27.34 net). High bar for any entry.
+**⚠ KEY MACRO — BLS NFP JOBS REPORT 8:30 AM ET TODAY (Sep 4):**
+August nonfarm payrolls release at 8:30 AM — dominant pre-open event. Direction unknown (Aug data not yet in feed at 7 AM). Strong print → rate-hike fears, risk-off. Weak print → rate-cut hopes, risk-on. 10 AM agent: assess print direction before ANY new entry.
+
+**Catalyst watch — prior tickers resolved:**
+- VRNS: STILL PENDING — M&A binary event (Proofpoint/Thoma Bravo), no deal news overnight. DO NOT ENTER.
+- DELL: CONFIRMED own catalyst (never entered Sep 3 — rel vol stayed <0.3×). Own $95B backlog still valid. Monitor at 10 AM if price/vol confirm.
+- AVGO, HPE, MGNI, GTLB: FAILED Sep 3. No re-evaluation.
+
+**Overnight macro:**
+- Sep 3 strong close: Dow +1.2%, Nasdaq +1.4%, S&P +1.1%. Treasury yields fell, easing rate-hike fears.
+- OpenAI GPT-6 Astra framed as potential AGI — modest NVDA tailwind.
+- Labor Day Mon Sep 7 — market CLOSED. Any 3:15 PM Sep 4 overnight entry faces 3-day gap risk; 10 AM agent must weight heavily.
+- Semis still lagging (AVGO miss). Avoid semi names.
 
 Pre-market sells: **NONE** (0 overnight positions).
 
-SUMMARY: 0 ON TRACK; 0 pre-mkt sells; DELL CONFIRMED but AH spike reversed — evaluate at 10 AM on own momentum; AVGO/GTLB FAILED; MGNI FLAT (10 AM evaluate); VRNS PENDING. AVGO caution + Thursday = high bar for Sep 3.
+SUMMARY: 0 ON TRACK; 0 flagged; 0 pre-mkt sells. BLS NFP 8:30 AM dominant event — unknown direction. VRNS binary PENDING. Labor Day 3-day weekend = elevated gap risk on any new Sep 4 positions.
 
 ---
 
