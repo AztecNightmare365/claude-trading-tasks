@@ -338,21 +338,33 @@ Only log completed (exited) trades. Include trade_log.csv in the git commit from
 ---
 
 ## LEARNED INSIGHTS
-<!-- AGGRESSIVE MODE — set manually 2026-09-03 by the account owner. Prioritize
-     participation and movement over selectivity. These directives OVERRIDE any
-     conservative pattern-rules; the weekly review must preserve this posture. -->
+<!-- Updated by weekly review agent. Last updated: 2026-09-05. Based on 48 closed trades. -->
 
-MODE: AGGRESSIVE. The owner wants more entries. Trade actively; do NOT sit in cash when qualifying candidates exist. When in doubt between passing and taking a standard-bar setup, take it.
+MODE: AGGRESSIVE (owner-set 2026-09-03). Trade actively; do NOT sit in cash when qualifying candidates exist. The insights below are scoring/sizing preferences, NOT participation gates.
 
-ACTIVE RULES (these REPLACE the prior conservative ruleset):
-1. No day-of-week restriction. Trade every weekday on the standard bar. Do NOT raise the bar on Thursday or Wed-Fri.
-2. No sector restriction. Consumer, healthcare, industrial, energy, financials are all allowed on the standard bar.
-3. No stop-streak pause. A run of stop-outs does NOT skip a session. Keep taking qualifying setups.
-4. Scanner entries need only ONE confirming signal (above VWAP OR rel vol >=1.2x OR a dated catalyst) — do NOT require 2-of-3.
-5. catalyst_watch path is allowed on any confirmed catalyst (earnings_beat included) when the stock is trending up at entry.
-6. Deploy idle cash toward the 75% cap. Prefer taking up to 4 positions/session over holding cash.
+OVERALL: Win rate 41.7%, profit factor 1.17, net P&L $15.30
 
-STILL IN FORCE (risk rails — do NOT weaken these): per-trade stop-losses, dollar-risk position sizing, the 25% single-name cap, the 75% portfolio cap, and the hard disqualifiers for pending binary events (FDA / M&A / clinical readout / court ruling) and same-day earnings. These prevent uncontrolled gap losses; they do not block normal entries.
+SCORING / SIZING PREFERENCES (rank & size by these — never skip a session over them):
+1. Monday entries: 6/8 = 75.0% WR, +$56.06 net — give Monday setups a scoring boost; size at HIGH tier when all other criteria met. (N=8)
+2. Tuesday entries: 6/9 = 66.7% WR — strong day; score at HIGH tier for qualifying setups. Dollar net is pulled down by two outlier manual losses (AMD 12PM, AMAT 8/18); underlying win rate is solid. (N=9)
+3. Manual (user-selected) entries: 8/13 = 61.5% WR, avg +2.96% — when user manually flags a ticker on a confirmed catalyst, treat as HIGH conviction; size at HIGH tier. (N=13)
+4. Tech sector: 14/28 = 50.0% WR, +$40.46 net — the only sector with consistently positive net P&L; all non-tech sectors combined are -$25.16. Give tech a scoring boost over equal-quality non-tech setups. (N=28)
+5. "Other" catalyst: 4/6 = 66.7% WR, avg +1.34% — non-standard catalyst setups (product launches, market share gains, supply chain news) win as reliably as manual entries; do not penalize for lacking a textbook catalyst label. (N=6)
+6. Earnings_beat with explicit guidance raise in mega-cap tech: AMZN + PLTR ×3 = $58.37 from 4 trades — 54% of all gross wins. Prioritize confirmed-raise tech beats; size at HIGH tier. (N=4 qualifying)
+7. 3:15PM tech overnight entries: 4/6 = 66.7% WR — tech holds from 3:15PM are strong; size confidently when stop gap ≤4% and thesis intact. (N=6)
+8. analyst_upgrade catalyst: 2/4 = 50.0% WR — solid; score above sector_momentum; take all qualifying setups. (N=4)
+9. 10AM session: 13/31 = 41.9% WR, +$45.76 net — standard morning session; apply normal scoring. (N=31)
+10. sector_momentum catalyst: 2/7 = 28.6% WR, avg -0.09% — weakest catalyst label; still take qualifying setups (AGGRESSIVE MODE), but start at STANDARD or LOW tier unless paired with a stronger signal (manual, tech sector, Mon/Tue). (N=7)
 
-Context (not a brake): 44 trades, ~43% win rate, +$14 net. The owner accepts higher churn for more activity.
+SIZE-DOWN (don't skip — just take smaller): Consumer sector (2/5 = 40% WR, -$17.76 net; overnight consumer holds are especially destructive: DG -$10.08, ANF -$10.48, KO -$4.55; size at LOW-STANDARD for any overnight consumer hold). Financials (0/3 = 0% WR; size at LOW tier). Thursday entries (2/13 = 15.4% WR, -$25.17 net — far worst day; take qualifying setups but start at STANDARD tier, not HIGH). catalyst_watch entry path (0/5 = 0% WR so far; take these entries but size at LOW tier until win rate improves; confirm VWAP hold + continued uptrend). 12PM session (2/6 = 33.3% WR, -$15.21 net; do not re-enter a ticker already traded same day — AMD 12PM re-entry = -$14.73).
+LEAN INTO (rank highest, size larger): Manual tech entries on confirmed earnings beat + raised guidance — AMZN (+$21.30) + PLTR ×3 (+$37.07) = $58.37 from 4 trades, 54% of all gross wins. Pattern: large-cap tech, explicit guidance raise confirmed, high-conviction manual selection. No other trade category approaches this dollar contribution.
+
+STILL IN FORCE (risk rails — never weaken): per-trade stop-losses, dollar-risk sizing, 25% single-name cap, 75% portfolio cap, hard disqualifiers for pending binary events (FDA/M&A/clinical/court) and same-day earnings.
+
+RAW STATS:
+- Best catalyst: "other" (66.7% WR, N=6); earnings_beat (41.4% WR, N=29, +$25.11 net $ — driven by mega-cap tech beats)
+- Best sector: tech (50.0% WR, N=28, +$40.46 net); worst: financials (0.0% WR, N=3)
+- Best session to open: 3:15PM (50.0% WR, N=10); best by net $: 10AM (+$45.76, N=31)
+- Stop triggered rate: 50.0% of trades (24/48)
+- TP hit rate: 10.4% of trades (5/48)
 ---

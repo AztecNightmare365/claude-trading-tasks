@@ -179,30 +179,33 @@ Output a clean summary: positions exited (ticker, reason, gain/loss %), stops tr
 ---
 
 ## LEARNED INSIGHTS
-<!-- Updated by weekly review agent. Last updated: 2026-08-29. Based on 44 closed trades. -->
+<!-- Updated by weekly review agent. Last updated: 2026-09-05. Based on 48 closed trades. -->
 
-OVERALL: Win rate 43.2% (19/44), profit factor 1.16, net P&L +$14.05 (avg win +5.10%, avg loss -2.48%)
+MODE: AGGRESSIVE (owner-set 2026-09-03). Trade actively; do NOT sit in cash when qualifying candidates exist. The insights below are scoring/sizing preferences, NOT participation gates.
 
-TOP RULES (read before every session):
-1. Thursday is now the worst trading day: 3/13 = 23.1% WR, -$27.34 net. Aug 27 collapse (MRK -$6.02, ANF -$10.48, VEEV -$5.65 — all stopped out Friday open) confirms the pattern. Raise bar sharply on Thursdays: require confirmed guidance raise + rel vol ≥2× before any new Thursday entry. If conviction bar cannot be cleared, pass entirely. (N=13)
-2. Consumer sector is a money trap: 2/5 = 40% WR, -$17.76 net. DG (-$10.08) and ANF (-$10.48) gapped down through stops on "earnings beat" entries. Consumer retail beats frequently carry hidden guidance shortfalls that emerge overnight. Skip consumer retail unless ≥10% EPS beat AND confirmed guidance raise. (N=5)
-3. Scanner entries are now net negative: 11/27 = 40.7%, -$8.82 net. Last three scanner entries (ANF, VEEV, DG) all significant losses. Raise scanner bar: require ≥2 of 3 signals — above VWAP, rel vol ≥1.5×, catalyst = analyst_upgrade or earnings_beat WITH confirmed guidance raise. (N=27)
-4. Manual entries are the account's only profit engine: 8/13 = 61.5% WR, +$32.90 net vs scanner -$8.82. All durable gains come from high-conviction manual entries. Do not reflexively dismiss manual theses when catalyst is confirmed. (N=13)
-5. 3:15PM overnight entries are net negative: 4/8 = 50% WR, -$8.42 net. KO, MRK, ANF all gapped down at next-session open. Before any overnight hold from 3:15PM: (a) no consumer or healthcare sector; (b) confirmed guidance raise on catalyst; (c) gap risk <3% worst case. Losses outweigh wins despite a coin-flip WR — size overnight holds conservatively. (N=8)
-6. Monday is the best day to trade: 6/8 = 75% WR, +$56.06 net. Monday entries produce the most profit. Apply standard bar on Mondays — do NOT raise the bar on the account's most productive day. (N=8)
-7. Stop rate at all-time worst (52.3%): All 5 new trades since last review hit stops. When 3+ consecutive sessions result in stop-outs, skip the next session and reset rather than forcing new entries. A stop-loss streak signals low-quality market conditions. (N=44)
-8. catalyst_watch still 0/4, -$10.03 net: Never use catalyst_watch on earnings_beat catalysts. This path has produced zero wins in 4 attempts. Require VWAP hold + rel vol ≥1.5× before any catalyst_watch entry. (N=4)
-9. 12PM is the worst session by net: 2/6 = 33.3% WR, -$15.21 net. Only trade at 12PM if catalyst is fresh and materially stronger than the 10AM bar. Never re-enter a ticker already traded that day — AMD re-entry at 12PM was -$14.73. (N=6)
-10. Tech sector is the only reliably profitable sector: 13/24 = 54.2%, +$39.21 net. All non-tech sectors combined: -$25.16 on 20 trades. Concentrate exposure in tech; non-tech requires explicit exceptional justification. Financials (0/3), energy (0/2) are permanent avoids. (N=24 tech, 20 non-tech)
+OVERALL: Win rate 41.7%, profit factor 1.17, net P&L $15.30
 
-AVOID: Consumer retail overnight holds from 3:15PM — DG (-$10.08) and ANF (-$10.48) both gapped down sharply at next-morning open after Thursday 3:15PM entries on "earnings beat" catalysts. The last 5 new trades produced a net loss of -$28.55 with a 100% stop rate. This is the account's newest recurring failure mode.
+SCORING / SIZING PREFERENCES (rank & size by these — never skip a session over them):
+1. Monday entries: 6/8 = 75.0% WR, +$56.06 net — give Monday setups a scoring boost; size at HIGH tier when all other criteria met. (N=8)
+2. Tuesday entries: 6/9 = 66.7% WR — strong day; score at HIGH tier for qualifying setups. Dollar net is pulled down by two outlier manual losses (AMD 12PM, AMAT 8/18); underlying win rate is solid. (N=9)
+3. Manual (user-selected) entries: 8/13 = 61.5% WR, avg +2.96% — when user manually flags a ticker on a confirmed catalyst, treat as HIGH conviction; size at HIGH tier. (N=13)
+4. Tech sector: 14/28 = 50.0% WR, +$40.46 net — the only sector with consistently positive net P&L; all non-tech sectors combined are -$25.16. Give tech a scoring boost over equal-quality non-tech setups. (N=28)
+5. "Other" catalyst: 4/6 = 66.7% WR, avg +1.34% — non-standard catalyst setups (product launches, market share gains, supply chain news) win as reliably as manual entries; do not penalize for lacking a textbook catalyst label. (N=6)
+6. Earnings_beat with explicit guidance raise in mega-cap tech: AMZN + PLTR ×3 = $58.37 from 4 trades — 54% of all gross wins. Prioritize confirmed-raise tech beats; size at HIGH tier. (N=4 qualifying)
+7. 3:15PM tech overnight entries: 4/6 = 66.7% WR — tech holds from 3:15PM are strong; size confidently when stop gap ≤4% and thesis intact. (N=6)
+8. analyst_upgrade catalyst: 2/4 = 50.0% WR — solid; score above sector_momentum; take all qualifying setups. (N=4)
+9. 10AM session: 13/31 = 41.9% WR, +$45.76 net — standard morning session; apply normal scoring. (N=31)
+10. sector_momentum catalyst: 2/7 = 28.6% WR, avg -0.09% — weakest catalyst label; still take qualifying setups (AGGRESSIVE MODE), but start at STANDARD or LOW tier unless paired with a stronger signal (manual, tech sector, Mon/Tue). (N=7)
 
-LEAN INTO: Manual tech entries on confirmed earnings beats with raised guidance — AMZN (+$21.30), PLTR×3 (+$37.07 combined) anchor the account's profit. All share the same pattern: confirmed beat + explicit guidance raise, tech sector, high-conviction manual entry. No other trade category comes close in net dollar contribution.
+SIZE-DOWN (don't skip — just take smaller): Consumer sector (2/5 = 40% WR, -$17.76 net; overnight consumer holds are especially destructive: DG -$10.08, ANF -$10.48, KO -$4.55; size at LOW-STANDARD for any overnight consumer hold). Financials (0/3 = 0% WR; size at LOW tier). Thursday entries (2/13 = 15.4% WR, -$25.17 net — far worst day; take qualifying setups but start at STANDARD tier, not HIGH). catalyst_watch entry path (0/5 = 0% WR so far; take these entries but size at LOW tier until win rate improves; confirm VWAP hold + continued uptrend). 12PM session (2/6 = 33.3% WR, -$15.21 net; do not re-enter a ticker already traded same day — AMD 12PM re-entry = -$14.73).
+LEAN INTO (rank highest, size larger): Manual tech entries on confirmed earnings beat + raised guidance — AMZN (+$21.30) + PLTR ×3 (+$37.07) = $58.37 from 4 trades, 54% of all gross wins. Pattern: large-cap tech, explicit guidance raise confirmed, high-conviction manual selection. No other trade category approaches this dollar contribution.
+
+STILL IN FORCE (risk rails — never weaken): per-trade stop-losses, dollar-risk sizing, 25% single-name cap, 75% portfolio cap, hard disqualifiers for pending binary events (FDA/M&A/clinical/court) and same-day earnings.
 
 RAW STATS:
-- Best catalyst: analyst_upgrade (66.7% WR, N=3); earnings_beat net +$20.96 but only reliable with confirmed guidance raise
-- Best sector: tech (54.2% WR, +$39.21, N=24); worst: financials (0%, N=3), energy (0%, N=2)
-- Best session to open: Monday (75% WR, N=8); best by dollar net: 10AM (+$47.34, N=29)
-- Stop triggered rate: 52.3% of trades (23/44) — WORST EVER, FAR above <40% TARGET
-- TP hit rate: 11.4% of trades (5/44) — far below >30% TARGET
+- Best catalyst: "other" (66.7% WR, N=6); earnings_beat (41.4% WR, N=29, +$25.11 net $ — driven by mega-cap tech beats)
+- Best sector: tech (50.0% WR, N=28, +$40.46 net); worst: financials (0.0% WR, N=3)
+- Best session to open: 3:15PM (50.0% WR, N=10); best by net $: 10AM (+$45.76, N=31)
+- Stop triggered rate: 50.0% of trades (24/48)
+- TP hit rate: 10.4% of trades (5/48)
 ---
