@@ -48,3 +48,5 @@ date,ticker,shares,entry_price,exit_price,entry_session,entry_type,exit_session,
 2026-09-04,DELL,0.321799,522.53,517.69,10AM,catalyst_watch,3:15PM,earnings_beat,tech,-0.93,-1.56,discretionary
 2026-09-04,KLAC,0.911421,184.49,184.47,10AM,scanner,3:15PM,sector_momentum,tech,-0.01,-0.02,discretionary
 2026-09-08,MU,0.169687,990.94,1036.64,10AM,scanner,9:30AM,sector_momentum,tech,4.61,7.75,take_profit
+2026-09-08,SNDK,0.101497,1656.70,1797.00,10AM,scanner,12PM,sector_momentum,tech,8.47,14.24,take_profit
+2026-09-08,CBRS,0.690862,217.12,205.69,10AM,catalyst_watch,10AM,other,tech,-5.26,-7.90,stop_loss

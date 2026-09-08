@@ -24,87 +24,84 @@ _No content — see robinhood_1000_trading/SKILL.md for the live 3:15 PM handoff
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-09-04 (~12:00 PM ET — 12 PM reassessment complete)
+Last updated: 2026-09-08 (~12:15 PM ET — 12 PM reassessment complete)
 
-Open positions: 4 (all held from 10 AM session; no new buys — at 75% cap; no sells — all stops/TPs intact)
+Open positions: 3
 
 | Ticker | Shares | Entry Price | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
 |--------|--------|-------------|------|----|-----------|-----------------|------------|
-| DELL | 0.321799 | $522.53 | $510.27 | $546.87 | TBD by 3:15 PM | Confirmed earnings beat (+43% EPS), FY27 guidance raised $167B→$192B, $95B AI server backlog | catalyst_watch |
-| SNDK | 0.101497 | $1,656.70 | $1,665.00 ↑ | $1,805.19 | TBD by 3:15 PM | Q4 FY26 beat (rev +371.6% YoY, datacenter doubled seq), AI NAND demand, Zacks #1, NVDA deal tailwind | scanner |
-| MU | 0.169687 | $990.94 | $969.00 | $1,034.13 | TBD by 3:15 PM | AI HBM4 memory demand; strong rel vol; Sep 30 earnings 26 days away; NVDA Hugging Face deal tailwind | scanner |
-| KLAC | 0.911421 | $184.49 | $175.87 | $201.49 | TBD by 3:15 PM | Semicon equipment pick-and-shovel for AI chip fabs; +7.74% day; clean staircase uptrend since open | scanner |
+| GLW | 1.370944 | $164.85 | $168.00 ↑ | $176.87 | TBD by 3:15 PM | AI data center optical fiber surge; +9.78% day; Corning moving with LITE, COHR, CIEN sector (all +6-12%); stop trailed above breakeven; opened by 10 AM agent | scanner |
+| COHR | 0.322120 | $301.13 | $301.13 ↑ | $339.49 | TBD by 3:15 PM | AI optical transceiver/photonics sector rally; +9.35% day; fading from $315.70 high but above VWAP $304.81; stop trailed to breakeven; opened by 10 AM agent | scanner |
+| CRWV | 0.838194 | $102.518 | $100.00 | $107.55 | YES | AI cloud infrastructure; David Tepper Q2 Appaloosa 13F buy (Motley Fool article 8:30 AM today); 112.5% rev growth, $104B backlog; perfect staircase uptrend all day; no earnings tonight | scanner |
 
-Stop trail this session: SNDK stop raised $1,581.00 → $1,665.00 (up +2.54% from entry; trailed to above-breakeven intraday support — trade is now risk-free).
+Sessions completed today on this account:
+- 7 AM overnight brief: SNDK + MU held overnight (DELL/KLAC sold Sep 4). MU flagged near TP.
+- 9:30 AM open reaction: MU sold TP ($1,020.72 fill, logged as $1,036.64 estimated — actual fill lower), CBRS bought ($217.12 avg, 0.690862 sh, catalyst_watch).
+- 10 AM session (orders placed 10:11 AM; handoff NOT committed to repo): CBRS sold at stop ($205.69, −5.26%), GLW bought ($226 market, $164.85 avg), COHR bought ($97 market, $301.13 avg).
+- 12 PM reassessment: SNDK sold $1,797.00 (+8.47%, TP hit intraday at $1,806-1,807). CRWV bought $85.93 ($102.518 avg, 0.838194 sh). Stops trailed on GLW and COHR.
 
-Settled cash: $224.21
-Unsettled cash: $0
-Total account value: $902.85
-Portfolio invested: ~75.2% ($678.67 — at cap; no buying power available)
+⚠️ NOTE FOR 3:15 PM AGENT: The 10 AM agent ran but did NOT commit its handoff. GLW and COHR stop/TP targets are RECONSTRUCTED by the 12 PM agent based on opening-low methodology. Treat them as estimates — verify with current intraday data.
 
-75% cap for 3:15 PM: $902.85 × 0.75 = $677.14 — FULLY DEPLOYED. No additional buys unless a position is closed first.
+Settled cash: $0 (all deployed today)
+Unsettled (all settle Sep 9 T+1): ~$497.70 (MU ~$173 + CBRS ~$142 + SNDK ~$182)
+Total account value: ~$915
+Portfolio invested: ~45.6% ($417 across 3 positions — significant cap room available)
+
+75% cap: $915 × 0.75 = $686. Invested ~$417. Available to invest = ~$269 theoretically, but $0 settled cash. 3:15 PM agent can deploy new capital ONLY if positions are sold (proceeds also unsettled T+1, cannot fund same-day buys).
 
 ---
 
-NOTES FOR 3:15 PM AGENT (Fri Sep 4, 2026):
+NOTES FOR 3:15 PM AGENT (Tue Sep 8, 2026):
 
-⚠️ LABOR DAY WEEKEND — Mon Sep 7 market CLOSED. Any position held past 3:15 PM today faces a 3-DAY GAP through Tuesday Sep 9 open. Apply very high bar for overnight hold. Require: thesis still intact, price above VWAP at 3:15 PM, stop-loss gap risk < ~3–4% worst case.
-
-⚠️ NEW MACRO RISK — HOT JOBS REPORT (emerged since 10 AM session):
-August payrolls: 162K actual vs. 56K expected (nearly 3× consensus). Fed rate hike probability now ~51% for September (Polymarket). Treasury 2Y yield spiked to 4.425%. This is the dominant new macro factor since 10 AM. Broad market (SPY −0.42%, QQQ −0.02%) slightly weaker, but AI memory stocks (MU, SNDK, KLAC) have shrugged off the rate scare completely. Watch for rate-sensitive names (DELL) to underperform further if rates stay elevated into close.
-
-MACRO AT 12 PM: SPY −0.42%, QQQ −0.02% — NORMAL REGIME (below −1% gate).
-Memory/AI sector remains dominant: MU +4.32%, SNDK +9.24%, KLAC +7.74% despite SPY weakness.
-Rate hike risk elevated vs. 10 AM: Fed hike odds ~51%. Next test: Aug CPI Sep 11, Fed decision Sep 16.
+MACRO AT NOON: SPY −0.38%, QQQ +0.13% — NORMAL REGIME. Broad market slightly negative on rate concerns but tech holding. FOMC Sep 15-16; CPI Sep 11 next key event. Rate hike odds ~51% (hot Aug NFP from Sep 4 still in market).
 
 POSITION STATUS AT NOON (12 PM snapshot):
 
-1. DELL ($522.53 entry, stop $510.27, TP $546.87 | current ~$518.35):
-   - Noon P&L: −0.80% from entry. Below VWAP ($521.87). Day change +0.38% from prior close $516.39.
-   - Intraday: Opened $514 → spike to $534.92 (9:35 AM) → faded steadily to $512.03 low (10:30 AM, held above stop $510.27) → partial recovery to $525.13 (11:35 AM) → settled $518 at noon. Round-tripped ~89% of the gap-up.
-   - Thesis: Still intact — no new adverse DELL news. DELL COO quoted today reinforcing memory shortage tailwind. Analyst PT raises ($560-$735) still fresh. Rate sensitivity is the concern (growth name with high P/E) but underlying AI server demand ($95B backlog) is macro-independent.
-   - ⚠️ OVERNIGHT HOLD — ELEVATED CAUTION: DELL round-tripped its gap-up AND is now facing higher rate hike odds (51%). That's a compounded headwind for the 3-day weekend gap. Only hold overnight if: (a) DELL is ABOVE VWAP at 3:15 PM, (b) tech sector is NOT broadly weakening late in session, (c) no new negative analyst/news on DELL in the afternoon. If any criterion fails, exit.
-   - CRITICAL: If DELL breaks below $510.27 before 3:15 PM → SELL immediately.
+1. GLW ($164.85 entry, stop $168.00 ↑ TRAILED, TP $176.87 | current ~$169.17 at noon):
+   - Noon P&L: +2.62% from entry. Well above VWAP ($165.16). Day change +9.78%.
+   - Intraday: Clean staircase all day: opened $158.84 → $169.17 at noon with no meaningful retracements.
+   - Thesis: AI data center optical fiber infrastructure demand. Sector-wide rally with LITE +11.6%, COHR +9.4%, CIEN +6.6%, AAOI +9.1%. Company-specific catalyst unconfirmed — likely sector read-through from Ciena or major fiber contract news.
+   - Stop $168.00 is above breakeven ($164.85) — trade is risk-free.
+   - TP $176.87 is ~$7.70 (4.6%) above current. Achievable if sector rally continues into close.
+   - OVERNIGHT HOLD — SOLID CASE: Thesis intact, above VWAP, sector momentum strong, stop risk-free. Confirm no negative GLW-specific news before holding overnight.
 
-2. SNDK ($1,656.70 entry, stop $1,665.00 ↑ TRAILED, TP $1,805.19 | current ~$1,698.74):
-   - Noon P&L: +2.54% from entry. Well above VWAP ($1,658.29). Day change +9.24%.
-   - Stop trailed this session: $1,581 → $1,665. Trade is risk-free (stop > breakeven).
-   - Intraday: Found support at $1,581 (exact stop) at 9:30 AM open, then clean multi-hour rally to $1,699. Last 5-min bar surged to $1,699.43 — still pushing higher at noon.
-   - Thesis: Strongest of the four — prior earnings beat, $93.9B contracted revenue, AI NAND demand, shrugging off rate scare. YMTC market share gain (Thursday news) is known headwind but not driving price today.
-   - OVERNIGHT HOLD — SOLID CASE: Stop is now above breakeven — no risk of loss. If above VWAP and AI memory sector still strong at 3:15 PM, SNDK is the easiest hold through the weekend.
-   - CRITICAL: If SNDK breaks below $1,665.00 before 3:15 PM → SELL immediately (trailed stop).
+2. COHR ($301.13 entry, stop $301.13 ↑ TRAILED TO BREAKEVEN, TP $339.49 | current ~$308.57 at noon):
+   - Noon P&L: +2.47% from entry. Above VWAP ($304.81). Day change +9.35%.
+   - Intraday: Surged to $315.70 high (10:55 AM), then faded: $315.70 → $308.57 over the last hour (−2.26% from peak).
+   - Thesis: Same AI optical/photonics sector momentum as GLW. No company-specific catalyst.
+   - ⚠️ FADING FROM HIGH: COHR is in a declining trend since 10:55 AM — volume tapering. Pattern mirrors KLAC on Sep 4 (indirect sector momentum, faded into close, sold at 3:15 PM).
+   - Stop at breakeven $301.13 — no loss possible if stop holds.
+   - OVERNIGHT HOLD — WEAKEST CASE: Sector momentum only (no company-specific catalyst). If COHR is NOT in top 25% of intraday range at 3:15 PM or sector is softening → close. First position to consider exiting.
+   - CRITICAL: If COHR breaks below $301.13 before 3:15 PM → SELL immediately.
 
-3. MU ($990.94 entry, stop $969.00, TP $1,034.13 | current ~$999.60):
-   - Noon P&L: +0.87% from entry. Above VWAP ($994.67). Day change +4.32%.
-   - Intraday: Opened $971.88 → immediate low $969.00 (exact stop) → rapid recovery to $994 close on first bar → spent morning forming a base around $993-$1,003, repeatedly testing $1,000 level. Constructive.
-   - Thesis: TechInsights: memory crunch "heading to 10 out of 10 craziness" through 2027. MU DRAM market share increased to 24%. Sep 30 earnings 26 days away — no binary event this weekend.
-   - OVERNIGHT HOLD — MODERATE CASE: Above VWAP, thesis intact, no binary events. Rate hike risk is the headwind. Stop distance from current price = $999.60 − $969.00 = $30.60 (3.06% risk). Acceptable for a 3-day weekend if thesis holding.
-   - CRITICAL: If MU breaks below $969.00 before 3:15 PM → SELL immediately.
+3. CRWV ($102.518 entry, stop $100.00, TP $107.55 | just filled at noon — Opened by 12 PM reassessment):
+   - Entry: $102.518 (0.838194 sh, $85.93 total). Order 6aa0349a.
+   - Noon snapshot: essentially flat from entry (~$102.60 quoted just before fill).
+   - Thesis: David Tepper's Appaloosa Management added CRWV in Q2 (13F reported today 8:30 AM ET per Motley Fool). CRWV: 112.5% revenue growth YoY, $104B revenue backlog, sold-out capacity, P/S 5.8. Wall Street 62% upside target. Perfect staircase intraday: $92.88 open → $103+ with no round-trips. VWAP $98.86 (price +3.79% above VWAP). Above VWAP ✓, top 25% of range ✓.
+   - No earnings tonight (calendar checked; BRZE, AVO, CASY reporting AH — not CRWV).
+   - Stop $100.00: round number support. CRWV broke above $100 at 11:15 AM and never looked back. Stop distance 2.5%.
+   - TP $107.55: 2× stop distance above entry.
+   - Overnight flag: YES. Multi-day AI infrastructure narrative. Evaluate at 3:15 PM — hold if above VWAP and sector intact.
 
-4. KLAC ($184.49 entry, stop $175.87, TP $201.49 | current ~$186.33):
-   - Noon P&L: +1.00% from entry. Above VWAP ($183.51). Day change +7.74%.
-   - Intraday: Clean staircase: $175.87 → $186+ by 9:55 AM, consolidated $184-$186 midday, now back near $186.33.
-   - Thesis: Sector momentum (NVDA deal → AI chip demand → fab spending → KLAC equipment). +7.74% today confirms AI ecosystem participation.
-   - ⚠️ OVERNIGHT HOLD — WEAKEST CASE: No company-specific catalyst (beat/guidance raise). Catalyst is indirect sector momentum. If KLAC is not in the top 25% of its intraday range at 3:15 PM or tech sector is softening, this is the first to close. Stop distance = $186.33 − $175.87 = $10.46 (5.6% risk on a 3-day gap). Wide stop with indirect catalyst = highest gap-risk profile.
-   - CRITICAL: If KLAC breaks below $175.87 before 3:15 PM → SELL immediately.
+ADDITIONAL CANDIDATES FOR 3:15 PM (if buying power available from sales):
+- LITE (Lumentum): +11.6%, rel vol 1.16×, mkt cap $79B. Same optical sector as GLW/COHR — evaluate if one of those closes.
+- IONQ: +9.9%, rel vol 1.43×, mkt cap $16B. Raised FY2026 revenue guidance (SkyWater acquisition). Quantum computing; moderate risk; check if still above VWAP.
+- NOK: +6.9%, rel vol 1.34×, mkt cap $56B. Telecom. Weaker sector for this account.
 
-SKIPPED CANDIDATES AT 10 AM (carry-forward for 3:15 PM awareness):
-- ALAB: +12.84% today, DISQUALIFIED — 30-min opening low $285.84 = 10.4% below entry (>7% hard cap). Thesis excellent (AI connectivity, NVDA deal). Check intraday low vs entry at 3:15 PM; if >4% below potential entry, skip again.
-- AMAT: Priority watchlist, +5.18% — passed over at 10 AM in favor of KLAC.
-- WDC: Priority watchlist, +5.73% — passed over for diversification.
-- VRNS: Binary M&A event — DO NOT ENTER. Still pending.
-- INTC: +3.52% — passed over; NVDA Vera CPU is a direct headwind.
+DO NOT RE-ENTER (today):
+SNDK, MU, CBRS — all traded today; do not re-enter same day.
 
-DO NOT RE-ENTER:
+DO NOT RE-ENTER (ever/until noted):
 CRM (stopped Sep 1), DG (stopped Aug 28), VEEV/MRK/ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18). WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC, ASTS, HPE, AVGO, MGNI, GTLB.
+DELL, KLAC (closed Sep 4 discretionary — eligible Sep 9+).
+VRNS: M&A binary (Proofpoint/Thoma Bravo) STILL PENDING — DO NOT ENTER.
 
 Catalyst status carry-forward:
-- DELL: ENTERED at $522.53 (catalyst_watch). Confirmed beat + guidance raise. ✓ (above stop, thesis intact — rate headwind noted)
-- SNDK: ENTERED at $1,656.70 (scanner). Confirmed prior beat + AI demand story. ✓ (stop trailed to $1,665 — risk-free)
-- MU: ENTERED at $990.94 (scanner). AI memory demand + strong rel vol. ✓ (holding above stop)
-- KLAC: ENTERED at $184.49 (scanner). Sector momentum play. ✓ (holding above stop — weakest overnight case)
-- VRNS: PENDING — M&A binary event. DO NOT ENTER.
-- ALAB: CONFIRMED catalyst (AI connectivity, NVDA deal) but NOT entered — 30-min volatility disqualifier. Check again at 3:15 PM.
+- GLW: ENTERED (scanner). AI optical fiber sector momentum. ✓ (stop above breakeven)
+- COHR: ENTERED (scanner). AI optical/photonics sector momentum. ✓ (stop at breakeven — weakest overnight case)
+- CRWV: ENTERED (scanner, 12 PM session). Tepper 13F buy + AI infrastructure. ✓ (new position, overnight YES)
+- ALAB: −0.11% at Sep 8 open → NOT entered. Check Sep 9 if catalyst re-emerges.
+- VRNS: M&A binary PENDING. DO NOT ENTER until deal resolves.
 
 ---
 PRE-CHECK — Market day verification
