@@ -1,78 +1,39 @@
 {
-  "ts": "2026-09-04T19:30:00Z",
-  "source": "robinhood_1515_trading",
+  "ts": "2026-09-08T13:35:00Z",
+  "source": "robinhood_0930_open",
   "portfolio": {
-    "totalValue": 902.99,
-    "cash": 224.21,
-    "equityValue": 344.04,
-    "buyingPower": 224.21,
+    "totalValue": 912.42,
+    "cash": 558.93,
+    "equityValue": 353.49,
+    "buyingPower": 558.93,
     "positions": [
       {
         "ticker": "SNDK",
         "shares": 0.101497,
-        "entry": 1656.69,
-        "current": 1712.39,
-        "plPct": 3.36,
+        "entry": 1656.70,
+        "current": 1776.06,
+        "plPct": 7.20,
         "managed": true
       },
       {
         "ticker": "MU",
         "shares": 0.169687,
         "entry": 990.94,
-        "current": 1003.25,
-        "plPct": 1.24,
-        "managed": true
+        "current": 1036.64,
+        "plPct": 4.61,
+        "managed": true,
+        "note": "SELL ORDER PENDING — take_profit triggered at open (order 6aa00f03)"
+      },
+      {
+        "ticker": "CBRS",
+        "shares": 0.692870,
+        "entry": 216.49,
+        "current": 219.24,
+        "plPct": 1.27,
+        "managed": true,
+        "note": "BUY ORDER PENDING — catalyst_watch entry at open (order 6aa00f05)"
       }
     ]
   },
-  "fills": [
-    {
-      "id": "6a9ad1e6-dd3",
-      "side": "buy",
-      "ticker": "DELL",
-      "qty": 0.321799,
-      "price": 522.53,
-      "at": "2026-09-04T14:12:54Z"
-    },
-    {
-      "id": "6a9ad1e8-b3a",
-      "side": "buy",
-      "ticker": "SNDK",
-      "qty": 0.101497,
-      "price": 1656.69,
-      "at": "2026-09-04T14:12:56Z"
-    },
-    {
-      "id": "6a9ad1e9-8cd",
-      "side": "buy",
-      "ticker": "MU",
-      "qty": 0.169687,
-      "price": 990.94,
-      "at": "2026-09-04T14:12:57Z"
-    },
-    {
-      "id": "6a9ad1ea-cdc",
-      "side": "buy",
-      "ticker": "KLAC",
-      "qty": 0.911421,
-      "price": 184.49,
-      "at": "2026-09-04T14:12:59Z"
-    },
-    {
-      "id": "6a9b1b7a-b940-448e-9db4-612131ea44f9",
-      "side": "sell",
-      "ticker": "DELL",
-      "qty": 0.321799,
-      "price": 517.69,
-      "at": "2026-09-04T19:26:50Z"
-    },
-    {
-      "id": "6a9b1b7b-269b-43fe-9b18-378066abb8d5",
-      "side": "sell",
-      "ticker": "KLAC",
-      "qty": 0.911421,
-      "price": 184.47,
-      "at": "2026-09-04T19:26:51Z"
-    }
-  ]
+  "fills": []
 }

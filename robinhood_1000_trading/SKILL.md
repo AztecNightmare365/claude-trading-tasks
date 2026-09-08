@@ -43,21 +43,24 @@ SUMMARY: 1 ON TRACK (SNDK), 1 NEAR TP (MU — sell at open if ≥ $1,034.13). 0 
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET 2026-09-04.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices. NFP jobs report 8:30 AM ET — market absorbed without dislocation (SPY −0.13%, QQQ +0.14% — NORMAL REGIME).
+**9:30 AM ET 2026-09-08.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
 
-Sells: NONE — 0 overnight positions.
+**Sells:** MU — open $1,036.64 ≥ TP $1,034.13. +4.61% (+$7.75). Market sell 0.169687 sh (order 6aa00f03). SOLD — do not re-enter.
 
-Catalyst entries: NONE.
-- DELL: open $513.81 (−0.50% vs $516.39 close). FLAT/DOWN — does not meet 1–2% gap-up threshold. Own catalyst (earnings beat, $192B guidance, $95B backlog) still valid. Pass to 10 AM. Spread 0.42% ✓.
-- VRNS: open $46.28 (−0.50% vs $46.51 close). Binary M&A event — DO NOT ENTER. Pass to 10 AM for binary resolution check.
+**Catalyst entries:** CBRS — entry ~$216.49 est. (order 6aa00f05, $150 market, 0.692870 sh). Stop $215.64 (first bar low). TP $218.19 (2× stop dist). CS-4 AI accelerator GA + 165 MW Finland expansion. Overnight: YES. entry_type: catalyst_watch. LOW tier.
 
-Portfolio sync: 0 positions live — exact handoff match. No manual adoptions.
+**Catalyst watch resolution:**
+- CBRS: +4.38% gap-up, first bar positive → CONFIRMED — ENTERED
+- WDC: +2.92% but Kioxia M&A binary → HARD DISQUALIFIED
+- UCTT: +2.87% but bid/ask spread 1.33% → HARD DISQUALIFIED (>1%)
+- ALAB: −0.11% → FLAT/DOWN → pass to 10 AM
+- VRNS: M&A binary pending → DO NOT ENTER
 
-SPY $772.15 (−0.13%), QQQ $718.67 (+0.14%) — NORMAL REGIME. NFP absorbed; no macro dislocation.
+**Portfolio sync:** SNDK + MU exact handoff match. 0 manual adoptions.
 
-⚠ LABOR DAY NOTE: Mon Sep 7 market CLOSED — 3-day weekend gap risk on any new Sep 4 positions. 10 AM agent must weight heavily before entering any overnight hold.
+**SPY** $769.27 (−0.12%), **QQQ** $721.33 (+0.33%) — NORMAL REGIME.
 
-Status: 0 stop/TP sells, 0 catalyst entries, 0 positions open for 10 AM (100% cash, $896.81).
+Status: 1 TP sell, 1 catalyst entry, 2 positions open for 10 AM (SNDK + CBRS).
 
 ---
 
@@ -102,12 +105,13 @@ RAW STATS:
 
 Last updated: 2026-09-04 (~3:30 PM ET — 3:15 PM session complete)
 
-Open positions held overnight: 2 (SNDK and MU — both held from 10 AM session)
+Open positions held overnight: 2 (SNDK + CBRS — MU sold by 9:30 AM agent at take-profit)
 
 | Ticker | Shares | Entry Price | Stop | TP | Overnight Thesis (1 line) | Entry Type |
 |--------|--------|-------------|------|----|--------------------------|------------|
 | SNDK | 0.101497 | $1,656.69 | $1,665.00 | $1,805.19 | Q4 FY26 beat (rev +371.6% YoY, DC doubled seq.), AI NAND demand, risk-free stop (stop > breakeven), +10.1% day | scanner |
-| MU | 0.169687 | $990.94 | $969.00 | $1,034.13 | AI HBM4 memory demand, 24% DRAM share gain, $1,000 consolidation, above VWAP, stop gap 3.4% within Labor Day guideline | scanner |
+| MU | 0.169687 | $990.94 | $969.00 | $1,034.13 | **SOLD BY 9:30 AM AGENT — take_profit — do not re-enter.** TP $1,034.13 hit at open ($1,036.64). Order 6aa00f03. +4.61% (+$7.75). | scanner |
+| CBRS | 0.692870 | $216.49 (est.) | $215.64 | $218.19 | CS-4 AI accelerator GA + 165 MW Finland expansion; +4.38% gap-up at open, first bar positive, LOW-tier catalyst_watch entry | catalyst_watch |
 
 Sells at 3:15 PM session (confirmed fills):
 - DELL: 0.321799 sh sold at $517.69 (filled 19:26:50 UTC). Entry $522.53. P&L: −0.93% (−$1.56). Exit: discretionary — below VWAP at 3:15 PM ($518.64 < VWAP $522.63, failing required overnight criterion); declining trend from $527 at 1:25 PM to $518 by 3:15 PM; rate hike risk elevated (51%); 3-day Labor Day weekend gap.
@@ -123,13 +127,13 @@ Skipped new buy candidates (all evaluated and ruled out):
 - UCTT (+8.2%, rel vol 1.92x, above VWAP $71.85): Best remaining candidate — but stop distance 5.1% exceeds Labor Day 3-4% guideline; multi-month downtrend from $144 ATH (June 2026). Re-check Tue Sep 9.
 - SKHY: ADR — hard disqualified.
 
-Settled cash: $224.21 (pre-sell settled cash)
-Unsettled from today's sells (settles Tue Sep 9 T+1): ~$334.74 (DELL $166.59 + KLAC $168.15)
-Total settled cash at 10 AM Tue Sep 9: ~$558.95
-Total account value: ~$903 (SNDK ~$174 + MU ~$170 + $224.21 cash + ~$334.74 unsettled)
-Portfolio invested: ~38% (SNDK + MU only)
+Settled cash at 9:30 AM open: $558.93 (DELL+KLAC proceeds settled today)
+After 9:30 AM orders: ~$408.93 settled ($558.93 − $150 CBRS buy)
+Unsettled from MU sell today (settles Wed Sep 10 T+1): ~$175.88
+Total account value: ~$912 (SNDK ~$180 + CBRS ~$150 + $408.93 settled + $175.88 unsettled)
+Portfolio invested: ~37% (SNDK + CBRS only; MU proceeds unsettled)
 
-75% cap at Tue Sep 9 open: Use live account value × 0.75. Estimated buyable = ~$333 (cap-limited) with ~$559 settled cash available.
+75% cap at 10 AM: Use live account value × 0.75. Estimated buyable = ~$330 (cap-limited) with ~$409 settled cash available.
 
 ---
 CRITICAL NOTES FOR 7 AM / 10 AM AGENT (Tue Sep 9, 2026 — first day after Labor Day weekend):
