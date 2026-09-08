@@ -14,30 +14,29 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET 2026-09-04 (Friday).** Live sync ••••6616: 0 positions — 100% cash. Handoff match (3:15 PM Sep 3 session did not run).
+**7:00 AM ET 2026-09-08.** Live sync ••••6616: 2 positions (SNDK, MU). Exact handoff match — no manual changes over Labor Day 3-day gap.
 
-No overnight positions to assess.
+**Positions:**
+- SNDK: PM $1,771.19 (+1.79% vs $1,740.00 close). Stop $1,665 (+6.0% cushion). TP $1,805.19 (1.92% away). **ON TRACK.** AI NAND thesis intact; Zacks top growth stock pick Sep 7; mgmt presenting Citi/Goldman Sep 8–9.
+- MU: PM $1,033.56 (+1.67% vs $1,016.59 close). Stop $969 (+6.25% cushion). TP $1,034.13 ($0.57 / 0.055% away; ask $1,034.06). ⚠ **NEAR TP.** 9:30 AM agent: sell at market on open if price ≥ $1,034.13.
 
-**Pre-market (7 AM ET):**
-- SPY $773.77 (+0.08% vs $773.17 close). QQQ $721.18 (+0.49% vs $717.67 close). Near-flat.
+**Pre-market (7 AM ET):** SPY $767.83 (−0.31%). QQQ $718.99 (+0.00%). Mild broad-market softness.
 
-**⚠ KEY MACRO — BLS NFP JOBS REPORT 8:30 AM ET TODAY (Sep 4):**
-August nonfarm payrolls release at 8:30 AM — dominant pre-open event. Direction unknown (Aug data not yet in feed at 7 AM). Strong print → rate-hike fears, risk-off. Weak print → rate-cut hopes, risk-on. 10 AM agent: assess print direction before ANY new entry.
+**Pre-market sells:** NONE
 
-**Catalyst watch — prior tickers resolved:**
-- VRNS: STILL PENDING — M&A binary event (Proofpoint/Thoma Bravo), no deal news overnight. DO NOT ENTER.
-- DELL: CONFIRMED own catalyst (never entered Sep 3 — rel vol stayed <0.3×). Own $95B backlog still valid. Monitor at 10 AM if price/vol confirm.
-- AVGO, HPE, MGNI, GTLB: FAILED Sep 3. No re-evaluation.
+**Catalyst watch list:**
+- CBRS: PM −1.6%. CS-4 AI accelerator catalyst intact; valuation concerns flagged. MONITOR — require stop ≤8% at 10 AM.
+- WDC: No Sep 7–8 deal news found. Kioxia M&A binary (talks re-opened Jul) still unresolved. PENDING — MONITOR; check for deal news at 10 AM.
+- UCTT: No news. PENDING — MONITOR at 10 AM.
+- ALAB: S&P 500 inclusion bet + Q2 beat catalyst intact; up 12.8% Sep 4. CONFIRMED — verify intraday stop ≤8% from entry before any entry at 10 AM.
+- VRNS: Proofpoint/Thoma Bravo in advanced talks (Sep 3 WSJ); no deal announced. Binary ±15%. DO NOT ENTER.
 
 **Overnight macro:**
-- Sep 3 strong close: Dow +1.2%, Nasdaq +1.4%, S&P +1.1%. Treasury yields fell, easing rate-hike fears.
-- OpenAI GPT-6 Astra framed as potential AGI — modest NVDA tailwind.
-- Labor Day Mon Sep 7 — market CLOSED. Any 3:15 PM Sep 4 overnight entry faces 3-day gap risk; 10 AM agent must weight heavily.
-- Semis still lagging (AVGO miss). Avoid semi names.
+- US futures mildly neg: S&P −0.2%, Dow −0.7%, Nasdaq flat. Iran/Strait of Hormuz geopolitical + oil prices rising.
+- FOMC Sep 15–16 next meeting; CPI Sep 11 next key macro event. No overnight Fed commentary.
+- Rate hike odds ~51% (hot Aug NFP 162K from Sep 4 still in market). No new data overnight.
 
-Pre-market sells: **NONE** (0 overnight positions).
-
-SUMMARY: 0 ON TRACK; 0 flagged; 0 pre-mkt sells. BLS NFP 8:30 AM dominant event — unknown direction. VRNS binary PENDING. Labor Day 3-day weekend = elevated gap risk on any new Sep 4 positions.
+SUMMARY: 1 ON TRACK (SNDK), 1 NEAR TP (MU — sell at open if ≥ $1,034.13). 0 pre-market sells. 0 catalyst tickers confirmed gap-up. 0 emails sent.
 
 ---
 
