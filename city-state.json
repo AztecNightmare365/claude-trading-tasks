@@ -1,37 +1,35 @@
 {
-  "ts": "2026-09-08T13:35:00Z",
+  "ts": "2026-09-09T13:32:00Z",
   "source": "robinhood_0930_open",
   "portfolio": {
-    "totalValue": 912.42,
-    "cash": 558.93,
-    "equityValue": 353.49,
-    "buyingPower": 558.93,
+    "totalValue": 913.77,
+    "cash": 497.69,
+    "equityValue": 416.08,
+    "buyingPower": 497.69,
     "positions": [
       {
-        "ticker": "SNDK",
-        "shares": 0.101497,
-        "entry": 1656.70,
-        "current": 1776.06,
-        "plPct": 7.20,
+        "ticker": "GLW",
+        "shares": 1.370944,
+        "entry": 164.85,
+        "current": 169.39,
+        "plPct": 2.75,
         "managed": true
       },
       {
-        "ticker": "MU",
-        "shares": 0.169687,
-        "entry": 990.94,
-        "current": 1036.64,
-        "plPct": 4.61,
-        "managed": true,
-        "note": "SELL ORDER PENDING — take_profit triggered at open (order 6aa00f03)"
+        "ticker": "COHR",
+        "shares": 0.322120,
+        "entry": 301.13,
+        "current": 306.205,
+        "plPct": 1.69,
+        "managed": true
       },
       {
-        "ticker": "CBRS",
-        "shares": 0.692870,
-        "entry": 216.49,
-        "current": 219.24,
-        "plPct": 1.27,
-        "managed": true,
-        "note": "BUY ORDER PENDING — catalyst_watch entry at open (order 6aa00f05)"
+        "ticker": "CRWV",
+        "shares": 0.838194,
+        "entry": 102.518,
+        "current": 100.151,
+        "plPct": -2.31,
+        "managed": true
       }
     ]
   },

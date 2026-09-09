@@ -40,24 +40,26 @@ SUMMARY: 0 ON TRACK, 3 CRITICAL STOP BREACH (GLW/COHR/CRWV — no PM sells place
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET 2026-09-08.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
+**9:30 AM ET 2026-09-09.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
 
-**Sells:** MU — open $1,036.64 ≥ TP $1,034.13. +4.61% (+$7.75). Market sell 0.169687 sh (order 6aa00f03). SOLD — do not re-enter.
+**Sells:** NONE. All 3 stop-breach flags from overnight brief resolved ABOVE stop at the open print.
 
-**Catalyst entries:** CBRS — entry ~$216.49 est. (order 6aa00f05, $150 market, 0.692870 sh). Stop $215.64 (first bar low). TP $218.19 (2× stop dist). CS-4 AI accelerator GA + 165 MW Finland expansion. Overnight: YES. entry_type: catalyst_watch. LOW tier.
+**Stop checks at open:**
+- GLW: open $169.39 > stop $168.00 ✓ HOLD. (PM $165.80 was below stop, but open gapped up. Verizon 80M-mile fiber deal thesis intact.)
+- COHR: open $306.21 > stop $301.13 ✓ HOLD. (PM $297.94 was below stop, but open recovered strongly +1.43%.)
+- CRWV: open $100.15 > stop $100.00 ✓ HOLD (barely — $0.15 above stop). Sep 8 close $99.83 was below stop, but 9:30 AM agent does not sell on prior close if open is above stop. ⚠️ 10 AM: watch closely.
 
 **Catalyst watch resolution:**
-- CBRS: +4.38% gap-up, first bar positive → CONFIRMED — ENTERED
-- WDC: +2.92% but Kioxia M&A binary → HARD DISQUALIFIED
-- UCTT: +2.87% but bid/ask spread 1.33% → HARD DISQUALIFIED (>1%)
-- ALAB: −0.11% → FLAT/DOWN → pass to 10 AM
-- VRNS: M&A binary pending → DO NOT ENTER
+- ALAB: +1.13% gap-up ($292.11). CATALYST PENDING — Citi conference is intraday Sep 9, not overnight resolved. Pass to 10 AM.
+- VRNS: M&A binary pending → DO NOT ENTER.
 
-**Portfolio sync:** SNDK + MU exact handoff match. 0 manual adoptions.
+**Catalyst entries:** NONE.
 
-**SPY** $769.27 (−0.12%), **QQQ** $721.33 (+0.33%) — NORMAL REGIME.
+**Portfolio sync:** GLW + COHR + CRWV in live account — exact match with 7 AM overnight brief. 0 manual adoptions.
 
-Status: 1 TP sell, 1 catalyst entry, 2 positions open for 10 AM (SNDK + CBRS).
+**SPY** $763.71 (−0.29%), **QQQ** $716.12 (−0.31%) — NORMAL REGIME (both down <1%).
+
+Status: 0 stops/TP sells, 0 catalyst entries, 3 positions open for 10 AM (GLW + COHR + CRWV). ALAB PENDING — pass to 10 AM.
 
 ---
 
