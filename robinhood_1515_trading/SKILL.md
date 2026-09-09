@@ -24,84 +24,103 @@ _No content — see robinhood_1000_trading/SKILL.md for the live 3:15 PM handoff
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-09-08 (~12:15 PM ET — 12 PM reassessment complete)
+Last updated: 2026-09-09 (~12:15 PM ET — 12 PM reassessment complete)
 
-Open positions: 3
+Open positions: 6
 
 | Ticker | Shares | Entry Price | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
 |--------|--------|-------------|------|----|-----------|-----------------|------------|
-| GLW | 1.370944 | $164.85 | $168.00 ↑ | $176.87 | TBD by 3:15 PM | AI data center optical fiber surge; +9.78% day; Corning moving with LITE, COHR, CIEN sector (all +6-12%); stop trailed above breakeven; opened by 10 AM agent | scanner |
-| COHR | 0.322120 | $301.13 | $301.13 ↑ | $339.49 | TBD by 3:15 PM | AI optical transceiver/photonics sector rally; +9.35% day; fading from $315.70 high but above VWAP $304.81; stop trailed to breakeven; opened by 10 AM agent | scanner |
-| CRWV | 0.838194 | $102.518 | $100.00 | $107.55 | YES | AI cloud infrastructure; David Tepper Q2 Appaloosa 13F buy (Motley Fool article 8:30 AM today); 112.5% rev growth, $104B backlog; perfect staircase uptrend all day; no earnings tonight | scanner |
+| GLW | 1.370944 | $164.85 | $168.00 | $176.87 | TBD by 3:15 PM | AI optical fiber sector continuation; +1.49% today; stop above breakeven but only $0.42 cushion — check first; opened by 10 AM agent Sep 8 | scanner |
+| COHR | 0.322120 | $301.13 | $305.00 | $339.49 | TBD by 3:15 PM | AI optical/photonics sector; +1.89% today; near VWAP $308.73; stop trailed to $305 (intraday low support); opened by 10 AM agent Sep 8 | scanner |
+| SNDK | 0.065542 | $1,800.37 | $1,700.00 | $2,001.11 | YES | Memory/storage sector re-entry; +1.88% today; -1.65% from entry; no earnings until Oct 22-30; user/agent re-entry after TP hit Sep 8 | manual |
+| MU | 0.113307 | $1,041.42 | $983.00 | $1,158.00 | YES | Micron memory; +2.41% today; -1.64% from entry; MU earnings Sep 30 AH — do NOT hold overnight past Sep 29 | manual |
+| ALAB | 0.316564 | $306.42 | $293.00 | $333.00 | YES | Citi 2026 Global TMT Conference today + S&P 500 inclusion discussion + AI connectivity semiconductor leader; +5.69% today; -0.37% from entry | manual |
+| META | 0.032160 | ~$652.97 | $648.00 | $663.00 | YES | Meta Muse personal AI agent launch — confirmed product catalyst today; +6.55% today; above VWAP $648.58; opened by 12 PM reassessment | scanner |
 
-Sessions completed today on this account:
-- 7 AM overnight brief: SNDK + MU held overnight (DELL/KLAC sold Sep 4). MU flagged near TP.
-- 9:30 AM open reaction: MU sold TP ($1,020.72 fill, logged as $1,036.64 estimated — actual fill lower), CBRS bought ($217.12 avg, 0.690862 sh, catalyst_watch).
-- 10 AM session (orders placed 10:11 AM; handoff NOT committed to repo): CBRS sold at stop ($205.69, −5.26%), GLW bought ($226 market, $164.85 avg), COHR bought ($97 market, $301.13 avg).
-- 12 PM reassessment: SNDK sold $1,797.00 (+8.47%, TP hit intraday at $1,806-1,807). CRWV bought $85.93 ($102.518 avg, 0.838194 sh). Stops trailed on GLW and COHR.
+Sessions completed today on this account (Sep 9):
+- 7 AM overnight brief: assessed Sep 8 overnight positions (GLW, COHR, CRWV)
+- 9:30 AM open reaction: [no handoff committed — inferred from orders]
+- 10 AM session: CRWV sold at stop $99.81 (-2.64%); SNDK, MU, ALAB entered (manual/agent — tagged manual per portfolio sync)
+- 12 PM reassessment: COHR stop trailed $301.13->$305.00. GLW stop maintained $168.00 (tight). META bought $21 (0.032160 sh, ~$652.97 avg, order 6aa18578). No discretionary exits — all thesis intact.
 
-⚠️ NOTE FOR 3:15 PM AGENT: The 10 AM agent ran but did NOT commit its handoff. GLW and COHR stop/TP targets are RECONSTRUCTED by the 12 PM agent based on opening-low methodology. Treat them as estimates — verify with current intraday data.
+CRWV CLOSED (not in live portfolio):
+- Opened Sep 8 12 PM at $102.518 (0.838194 sh). Sold Sep 9 10 AM session at $99.81 — stop $100.00 triggered. PnL: -2.64% (-$2.27). Logged in trade_log.csv.
 
-Settled cash: $0 (all deployed today)
-Unsettled (all settle Sep 9 T+1): ~$497.70 (MU ~$173 + CBRS ~$142 + SNDK ~$182)
-Total account value: ~$915
-Portfolio invested: ~45.6% ($417 across 3 positions — significant cap room available)
+Settled cash: ~$143.69 (buying power after META buy)
+Unsettled: ~$83.66
+Total account value: ~$907.01
+Portfolio invested: ~74.9% (6 positions — at 75% cap)
 
-75% cap: $915 × 0.75 = $686. Invested ~$417. Available to invest = ~$269 theoretically, but $0 settled cash. 3:15 PM agent can deploy new capital ONLY if positions are sold (proceeds also unsettled T+1, cannot fund same-day buys).
+75% cap: $907 x 0.75 = $680. Invested ~$679. Essentially at cap — no new buys until a position sells.
 
 ---
+NOTES FOR 3:15 PM AGENT (Wed Sep 9, 2026):
 
-NOTES FOR 3:15 PM AGENT (Tue Sep 8, 2026):
+MACRO AT NOON: SPY -0.49%, QQQ -0.29% — NORMAL REGIME. US-Iran military confrontation driving oil above $100/barrel. Stagflation risk re-entered narrative — consumer/transport under pressure, tech/AI outperforming. FOMC Sep 15-16; CPI Sep 11.
 
-MACRO AT NOON: SPY −0.38%, QQQ +0.13% — NORMAL REGIME. Broad market slightly negative on rate concerns but tech holding. FOMC Sep 15-16; CPI Sep 11 next key event. Rate hike odds ~51% (hot Aug NFP from Sep 4 still in market).
+POSITION STATUS AT NOON:
 
-POSITION STATUS AT NOON (12 PM snapshot):
+1. GLW ($164.85 entry, stop $168.00, TP $176.87 | current ~$168.42):
+   - P&L: +2.18% from entry. Day: +1.49%.
+   - STOP PRIORITY #1: Stop $168.00 is only $0.42 below current — VERIFY price above $168.00 before any other decision. If below $168.00, SELL immediately.
+   - Below VWAP ($168.99) at noon. Intraday range: $167.36 low, $171.30 high. Holding $168-169 mid-session.
+   - If $168.50+ and sector intact at 3:15 PM -> hold overnight. If $168.00-168.50 -> judgment call. If below $168.00 -> stop triggered.
 
-1. GLW ($164.85 entry, stop $168.00 ↑ TRAILED, TP $176.87 | current ~$169.17 at noon):
-   - Noon P&L: +2.62% from entry. Well above VWAP ($165.16). Day change +9.78%.
-   - Intraday: Clean staircase all day: opened $158.84 → $169.17 at noon with no meaningful retracements.
-   - Thesis: AI data center optical fiber infrastructure demand. Sector-wide rally with LITE +11.6%, COHR +9.4%, CIEN +6.6%, AAOI +9.1%. Company-specific catalyst unconfirmed — likely sector read-through from Ciena or major fiber contract news.
-   - Stop $168.00 is above breakeven ($164.85) — trade is risk-free.
-   - TP $176.87 is ~$7.70 (4.6%) above current. Achievable if sector rally continues into close.
-   - OVERNIGHT HOLD — SOLID CASE: Thesis intact, above VWAP, sector momentum strong, stop risk-free. Confirm no negative GLW-specific news before holding overnight.
+2. COHR ($301.13 entry, stop $305.00 TRAILED, TP $339.49 | current ~$308.39):
+   - P&L: +2.42% from entry. Day: +1.89%.
+   - Near VWAP $308.73. Intraday range: $302.01 low, $313.33 high. Holding $306-310 range since 10:20 AM.
+   - Stop trailed to $305.00 (below $305.68 intraday low). Locked in $3.87/sh profit if stopped.
+   - Sector momentum only (no company-specific catalyst). If NOT in top 25% of intraday range ($311+) at 3:15 PM -> close (mirrors KLAC Sep 4 pattern). First position to consider exiting if sector softens.
 
-2. COHR ($301.13 entry, stop $301.13 ↑ TRAILED TO BREAKEVEN, TP $339.49 | current ~$308.57 at noon):
-   - Noon P&L: +2.47% from entry. Above VWAP ($304.81). Day change +9.35%.
-   - Intraday: Surged to $315.70 high (10:55 AM), then faded: $315.70 → $308.57 over the last hour (−2.26% from peak).
-   - Thesis: Same AI optical/photonics sector momentum as GLW. No company-specific catalyst.
-   - ⚠️ FADING FROM HIGH: COHR is in a declining trend since 10:55 AM — volume tapering. Pattern mirrors KLAC on Sep 4 (indirect sector momentum, faded into close, sold at 3:15 PM).
-   - Stop at breakeven $301.13 — no loss possible if stop holds.
-   - OVERNIGHT HOLD — WEAKEST CASE: Sector momentum only (no company-specific catalyst). If COHR is NOT in top 25% of intraday range at 3:15 PM or sector is softening → close. First position to consider exiting.
-   - CRITICAL: If COHR breaks below $301.13 before 3:15 PM → SELL immediately.
+3. SNDK ($1,800.37 entry, stop $1,700.00, TP $2,001.11 | current ~$1,770.70):
+   - P&L: -1.65% from entry. Day: +1.88%.
+   - Memory sector re-entry after TP hit Sep 8. Stop at 4% below current.
+   - Earnings: Oct 22-30 (WDC/SNDK). Safe for overnight. Tech sector manual entry — hold.
 
-3. CRWV ($102.518 entry, stop $100.00, TP $107.55 | just filled at noon — Opened by 12 PM reassessment):
-   - Entry: $102.518 (0.838194 sh, $85.93 total). Order 6aa0349a.
-   - Noon snapshot: essentially flat from entry (~$102.60 quoted just before fill).
-   - Thesis: David Tepper's Appaloosa Management added CRWV in Q2 (13F reported today 8:30 AM ET per Motley Fool). CRWV: 112.5% revenue growth YoY, $104B revenue backlog, sold-out capacity, P/S 5.8. Wall Street 62% upside target. Perfect staircase intraday: $92.88 open → $103+ with no round-trips. VWAP $98.86 (price +3.79% above VWAP). Above VWAP ✓, top 25% of range ✓.
-   - No earnings tonight (calendar checked; BRZE, AVO, CASY reporting AH — not CRWV).
-   - Stop $100.00: round number support. CRWV broke above $100 at 11:15 AM and never looked back. Stop distance 2.5%.
-   - TP $107.55: 2× stop distance above entry.
-   - Overnight flag: YES. Multi-day AI infrastructure narrative. Evaluate at 3:15 PM — hold if above VWAP and sector intact.
+4. MU ($1,041.42 entry, stop $983.00, TP $1,158.00 | current ~$1,024.35):
+   - P&L: -1.64% from entry. Day: +2.41%.
+   - MU earnings Sep 30 AH. Do NOT hold overnight past Sep 29. Safe for tonight.
+   - Memory sector momentum. Stop at 4% default.
 
-ADDITIONAL CANDIDATES FOR 3:15 PM (if buying power available from sales):
-- LITE (Lumentum): +11.6%, rel vol 1.16×, mkt cap $79B. Same optical sector as GLW/COHR — evaluate if one of those closes.
-- IONQ: +9.9%, rel vol 1.43×, mkt cap $16B. Raised FY2026 revenue guidance (SkyWater acquisition). Quantum computing; moderate risk; check if still above VWAP.
-- NOK: +6.9%, rel vol 1.34×, mkt cap $56B. Telecom. Weaker sector for this account.
+5. ALAB ($306.42 entry, stop $293.00, TP $333.00 | current ~$305.30):
+   - P&L: -0.37% from entry. Day: +5.69%.
+   - Catalyst: Citi 2026 Global TMT Conference today (Sep 9) + S&P 500 inclusion discussion + AI connectivity semiconductor leader (Scorpio X-Series production ramp).
+   - Monitor for any AH conference commentary. Stop at 4% default ($293).
 
-DO NOT RE-ENTER (today):
-SNDK, MU, CBRS — all traded today; do not re-enter same day.
+6. META (~$652.97 entry, stop $648.00, TP $663.00 | just filled at noon — Opened by 12 PM reassessment):
+   - Entry: ~$652.97 (0.032160 sh, $21 total). Order 6aa18578. Very small position.
+   - Thesis: Meta Muse personal AI agent — multi-day narrative. Above VWAP $648.58.
+   - Stop $648.00 (below VWAP). TP $663.00. Overnight: YES.
+   - No earnings tonight; Q3 typically late October.
+
+STOP PRIORITY ORDER FOR 3:15 PM:
+1. GLW $168.00 — tightest, check first
+2. COHR $305.00 — check if in top 25% of range ($311+) or below
+3. SNDK $1,700 / MU $983 / ALAB $293 — 4% buffers, more comfortable
+4. META $648.00 — very small position, check last
+
+ADDITIONAL CANDIDATES FOR 3:15 PM (if buying power available after sells):
+- WDC: +3.36%, priority watchlist memory/storage, earnings Oct 22-30. Same sector as SNDK/MU — only enter if one of those closes (concentration limit).
+- NET: +9.83%, Cloudflare, tech/AI sector. RelVol 0.83x (below 1.2x); sector momentum catalyst only (weaker).
+- SIG: +18.36%, earnings beat + raised guidance. Consumer sector (size down per learned insights). Intraday only if buying power available.
+
+DO NOT RE-ENTER (today Sep 9):
+CRWV — stopped out this morning. Do not re-enter same day.
 
 DO NOT RE-ENTER (ever/until noted):
 CRM (stopped Sep 1), DG (stopped Aug 28), VEEV/MRK/ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18). WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC, ASTS, HPE, AVGO, MGNI, GTLB.
-DELL, KLAC (closed Sep 4 discretionary — eligible Sep 9+).
 VRNS: M&A binary (Proofpoint/Thoma Bravo) STILL PENDING — DO NOT ENTER.
+ODD: Declining fundamentals (revenue -25% YoY, EBITDA -82%) — do not enter despite today's EPS beat.
+CSR: Pending M&A (IRT acquisition) — hard disqualifier, do not enter.
 
 Catalyst status carry-forward:
-- GLW: ENTERED (scanner). AI optical fiber sector momentum. ✓ (stop above breakeven)
-- COHR: ENTERED (scanner). AI optical/photonics sector momentum. ✓ (stop at breakeven — weakest overnight case)
-- CRWV: ENTERED (scanner, 12 PM session). Tepper 13F buy + AI infrastructure. ✓ (new position, overnight YES)
-- ALAB: −0.11% at Sep 8 open → NOT entered. Check Sep 9 if catalyst re-emerges.
-- VRNS: M&A binary PENDING. DO NOT ENTER until deal resolves.
+- GLW: HELD (scanner). AI optical fiber. Stop $168.00 — very close to current.
+- COHR: HELD (scanner). AI optical/photonics. Stop trailed to $305. Weakest overnight case.
+- SNDK: HELD (manual). Memory sector. Stop $1,700. Oct earnings.
+- MU: HELD (manual). Memory. Stop $983. Earnings Sep 30 AH — mandatory close by Sep 29.
+- ALAB: HELD (manual). Citi TMT Conference catalyst confirmed Sep 9 as predicted.
+- META: HELD (scanner, 12 PM). Muse AI agent launch. Overnight YES.
+- VRNS: M&A binary PENDING. DO NOT ENTER.
 
 ---
 PRE-CHECK — Market day verification
@@ -263,13 +282,13 @@ For each position, determine its quality tier, then set stop-loss and take-profi
 - Stop-loss: use today's intraday low as a reference, but hard cap at 8% below entry price. If the intraday low is more than 8% below your intended entry, the stock is too volatile to hold overnight — skip it. (Sizing uses actual stop distance, so a wider stop shrinks the position; dollar risk stays bounded.)
 
 - Position size — quality-tiered (use the highest tier the candidate earns):
-    HIGH conviction ($400 max): ALL five criteria met — (1) scanner-confirmed OR a high-conviction manual entry on a confirmed earnings beat + raised guidance, (2) relative volume ≥ 1.5x (waived for manual beat+raise entries where volume data is thin/lagging), (3) price above VWAP, (4) closing in top 25% of intraday range, (5) catalyst is analyst_upgrade, sector_momentum, or earnings_beat WITH raised guidance (a beat alone, without a raise, still does NOT qualify for this tier). Dollar risk limit: $20.00.
-    MEDIUM conviction ($250 max): scanner-confirmed OR manual entry + most criteria present but one missing (e.g. relative volume 1.2–1.5x, or strong catalyst but price slightly below VWAP). Dollar risk limit: $12.50.
+    HIGH conviction ($400 max): ALL five criteria met — (1) scanner-confirmed OR a high-conviction manual entry on a confirmed earnings beat + raised guidance, (2) relative volume >= 1.5x (waived for manual beat+raise entries where volume data is thin/lagging), (3) price above VWAP, (4) closing in top 25% of intraday range, (5) catalyst is analyst_upgrade, sector_momentum, or earnings_beat WITH raised guidance (a beat alone, without a raise, still does NOT qualify for this tier). Dollar risk limit: $20.00.
+    MEDIUM conviction ($250 max): scanner-confirmed OR manual entry + most criteria present but one missing (e.g. relative volume 1.2-1.5x, or strong catalyst but price slightly below VWAP). Dollar risk limit: $12.50.
     LOW conviction ($150 max): not in scanner (manual research only) and no manual conviction basis, OR earnings_beat without a guidance raise as sole catalyst, OR relative volume < 1.2x. Dollar risk limit: $7.50.
 
   Allocate each candidate its full tier-capped dollar amount — do NOT split the buyable amount evenly. Total deployed must still respect the 75% invested cap and settled-cash constraint from Step 3; if total tier amounts exceed buyable cash, cut lower-tier positions first. No single position may exceed 25% of total account value regardless of tier.
 
-  Dollar risk check: (entry price − stop price) × shares must not exceed the tier's dollar risk limit. Reduce shares to fit — never widen the stop.
+  Dollar risk check: (entry price - stop price) x shares must not exceed the tier's dollar risk limit. Reduce shares to fit — never widen the stop.
 
 - Take-profit: set at 2x the stop distance from entry (minimum 1:2 risk/reward ratio).
 
@@ -347,14 +366,14 @@ SCORING / SIZING PREFERENCES (rank & size by these — never skip a session over
 3. Manual (user-selected) entries: 8/13 = 61.5% WR, avg +2.96% — when user manually flags a ticker on a confirmed catalyst, treat as HIGH conviction; size at HIGH tier. (N=13)
 4. Tech sector: 14/28 = 50.0% WR, +$40.46 net — the only sector with consistently positive net P&L; all non-tech sectors combined are -$25.16. Give tech a scoring boost over equal-quality non-tech setups. (N=28)
 5. "Other" catalyst: 4/6 = 66.7% WR, avg +1.34% — non-standard catalyst setups (product launches, market share gains, supply chain news) win as reliably as manual entries; do not penalize for lacking a textbook catalyst label. (N=6)
-6. Earnings_beat with explicit guidance raise in mega-cap tech: AMZN + PLTR ×3 = $58.37 from 4 trades — 54% of all gross wins. Prioritize confirmed-raise tech beats; size at HIGH tier. (N=4 qualifying)
-7. 3:15PM tech overnight entries: 4/6 = 66.7% WR — tech holds from 3:15PM are strong; size confidently when stop gap ≤4% and thesis intact. (N=6)
+6. Earnings_beat with explicit guidance raise in mega-cap tech: AMZN + PLTR x3 = $58.37 from 4 trades — 54% of all gross wins. Prioritize confirmed-raise tech beats; size at HIGH tier. (N=4 qualifying)
+7. 3:15PM tech overnight entries: 4/6 = 66.7% WR — tech holds from 3:15PM are strong; size confidently when stop gap <=4% and thesis intact. (N=6)
 8. analyst_upgrade catalyst: 2/4 = 50.0% WR — solid; score above sector_momentum; take all qualifying setups. (N=4)
 9. 10AM session: 13/31 = 41.9% WR, +$45.76 net — standard morning session; apply normal scoring. (N=31)
 10. sector_momentum catalyst: 2/7 = 28.6% WR, avg -0.09% — weakest catalyst label; still take qualifying setups (AGGRESSIVE MODE), but start at STANDARD or LOW tier unless paired with a stronger signal (manual, tech sector, Mon/Tue). (N=7)
 
 SIZE-DOWN (don't skip — just take smaller): Consumer sector (2/5 = 40% WR, -$17.76 net; overnight consumer holds are especially destructive: DG -$10.08, ANF -$10.48, KO -$4.55; size at LOW-STANDARD for any overnight consumer hold). Financials (0/3 = 0% WR; size at LOW tier). Thursday entries (2/13 = 15.4% WR, -$25.17 net — far worst day; take qualifying setups but start at STANDARD tier, not HIGH). catalyst_watch entry path (0/5 = 0% WR so far; take these entries but size at LOW tier until win rate improves; confirm VWAP hold + continued uptrend). 12PM session (2/6 = 33.3% WR, -$15.21 net; do not re-enter a ticker already traded same day — AMD 12PM re-entry = -$14.73).
-LEAN INTO (rank highest, size larger): Manual tech entries on confirmed earnings beat + raised guidance — AMZN (+$21.30) + PLTR ×3 (+$37.07) = $58.37 from 4 trades, 54% of all gross wins. Pattern: large-cap tech, explicit guidance raise confirmed, high-conviction manual selection. No other trade category approaches this dollar contribution.
+LEAN INTO (rank highest, size larger): Manual tech entries on confirmed earnings beat + raised guidance — AMZN (+$21.30) + PLTR x3 (+$37.07) = $58.37 from 4 trades, 54% of all gross wins. Pattern: large-cap tech, explicit guidance raise confirmed, high-conviction manual selection. No other trade category approaches this dollar contribution.
 
 STILL IN FORCE (risk rails — never weaken): per-trade stop-losses, dollar-risk sizing, 25% single-name cap, 75% portfolio cap, hard disqualifiers for pending binary events (FDA/M&A/clinical/court) and same-day earnings.
 
