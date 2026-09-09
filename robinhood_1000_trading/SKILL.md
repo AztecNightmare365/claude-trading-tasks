@@ -14,29 +14,26 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET 2026-09-08.** Live sync ••••6616: 2 positions (SNDK, MU). Exact handoff match — no manual changes over Labor Day 3-day gap.
+**7:00 AM ET 2026-09-09.** Live sync ••••6616: 3 positions (GLW, COHR, CRWV). Exact match with 12 PM handoff. NOTE: 3:15 PM agent did NOT run Sep 8 — 12 PM handoff is authoritative.
 
 **Positions:**
-- SNDK: PM $1,771.19 (+1.79% vs $1,740.00 close). Stop $1,665 (+6.0% cushion). TP $1,805.19 (1.92% away). **ON TRACK.** AI NAND thesis intact; Zacks top growth stock pick Sep 7; mgmt presenting Citi/Goldman Sep 8–9.
-- MU: PM $1,033.56 (+1.67% vs $1,016.59 close). Stop $969 (+6.25% cushion). TP $1,034.13 ($0.57 / 0.055% away; ask $1,034.06). ⚠ **NEAR TP.** 9:30 AM agent: sell at market on open if price ≥ $1,034.13.
+- GLW: PM $165.80 (−0.10% vs $165.96 close). Stop $168.00 **BREACHED** (trailing; close also $165.96 < stop). **CRITICAL STOP BREACH** — thesis STRENGTHENED: Verizon 80M-mile fiber megadeal confirmed Sep 8; China Renaissance PT $238. Not a thesis break — mechanical trailing-stop trigger. No PM sell. 9:30 AM: evaluate reset vs honor stop given confirmed deal.
+- COHR: PM $297.94 (−1.31% vs $301.88 close). Stop $301.13 **BREACHED** (breakeven; below entry by 1.06%). **CRITICAL STOP BREACH** — no adverse overnight news; optical sector positive via GLW/Verizon. No PM sell. 9:30 AM: sell at market if below stop at open.
+- CRWV: PM $98.92 (−0.92% vs $99.83 close). Stop $100.00 **BREACHED** (was already below stop at Sep 8 close). **CRITICAL STOP BREACH** — $100 support broken; momentum cooling (RSI 72→55); no new catalyst. No PM sell. 9:30 AM: sell at market.
 
-**Pre-market (7 AM ET):** SPY $767.83 (−0.31%). QQQ $718.99 (+0.00%). Mild broad-market softness.
+**Pre-market:** SPY $763.02 (−0.38%). QQQ $714.67 (−0.52%). Mild weakness.
 
-**Pre-market sells:** NONE
+**Pre-market sells:** NONE.
 
 **Catalyst watch list:**
-- CBRS: PM −1.6%. CS-4 AI accelerator catalyst intact; valuation concerns flagged. MONITOR — require stop ≤8% at 10 AM.
-- WDC: No Sep 7–8 deal news found. Kioxia M&A binary (talks re-opened Jul) still unresolved. PENDING — MONITOR; check for deal news at 10 AM.
-- UCTT: No news. PENDING — MONITOR at 10 AM.
-- ALAB: S&P 500 inclusion bet + Q2 beat catalyst intact; up 12.8% Sep 4. CONFIRMED — verify intraday stop ≤8% from entry before any entry at 10 AM.
-- VRNS: Proofpoint/Thoma Bravo in advanced talks (Sep 3 WSJ); no deal announced. Binary ±15%. DO NOT ENTER.
+- ALAB: PM $286.00 (−0.99% vs $288.85). Citi conference presentation TODAY (Sep 9). CATALYST PENDING — intraday event, not overnight resolved. Q2 $392M +104% YoY. Monitor at 9:30/10 AM.
+- VRNS: M&A binary STILL PENDING (Proofpoint/Thoma Bravo talks, no deal). DO NOT ENTER.
 
 **Overnight macro:**
-- US futures mildly neg: S&P −0.2%, Dow −0.7%, Nasdaq flat. Iran/Strait of Hormuz geopolitical + oil prices rising.
-- FOMC Sep 15–16 next meeting; CPI Sep 11 next key macro event. No overnight Fed commentary.
-- Rate hike odds ~51% (hot Aug NFP 162K from Sep 4 still in market). No new data overnight.
+- No economic data Sep 9. Fed Gov. Waller leans hold at Sep 15–16 FOMC. CPI Sep 11 next key event.
+- Geopolitical: Iran/US strikes, oil elevated. Canada trade tensions rising. Rate hike odds ~51%.
 
-SUMMARY: 1 ON TRACK (SNDK), 1 NEAR TP (MU — sell at open if ≥ $1,034.13). 0 pre-market sells. 0 catalyst tickers confirmed gap-up. 0 emails sent.
+SUMMARY: 0 ON TRACK, 3 CRITICAL STOP BREACH (GLW/COHR/CRWV — no PM sells placed; 9:30 AM agent to action at open). ALAB PENDING (Citi conference intraday). 0 emails sent.
 
 ---
 
