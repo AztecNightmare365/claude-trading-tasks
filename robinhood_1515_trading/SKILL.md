@@ -24,102 +24,84 @@ _No content — see robinhood_1000_trading/SKILL.md for the live 3:15 PM handoff
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-09-09 (~12:15 PM ET — 12 PM reassessment complete)
+Last updated: 2026-09-10 (~12:10 PM ET — 12 PM reassessment complete)
 
-Open positions: 6
+Open positions: 2
 
 | Ticker | Shares | Entry Price | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
 |--------|--------|-------------|------|----|-----------|-----------------|------------|
-| GLW | 1.370944 | $164.85 | $168.00 | $176.87 | TBD by 3:15 PM | AI optical fiber sector continuation; +1.49% today; stop above breakeven but only $0.42 cushion — check first; opened by 10 AM agent Sep 8 | scanner |
-| COHR | 0.322120 | $301.13 | $305.00 | $339.49 | TBD by 3:15 PM | AI optical/photonics sector; +1.89% today; near VWAP $308.73; stop trailed to $305 (intraday low support); opened by 10 AM agent Sep 8 | scanner |
-| SNDK | 0.065542 | $1,800.37 | $1,700.00 | $2,001.11 | YES | Memory/storage sector re-entry; +1.88% today; -1.65% from entry; no earnings until Oct 22-30; user/agent re-entry after TP hit Sep 8 | manual |
-| MU | 0.113307 | $1,041.42 | $983.00 | $1,158.00 | YES | Micron memory; +2.41% today; -1.64% from entry; MU earnings Sep 30 AH — do NOT hold overnight past Sep 29 | manual |
-| ALAB | 0.316564 | $306.42 | $293.00 | $333.00 | YES | Citi 2026 Global TMT Conference today + S&P 500 inclusion discussion + AI connectivity semiconductor leader; +5.69% today; -0.37% from entry | manual |
-| META | 0.032160 | ~$652.97 | $648.00 | $663.00 | YES | Meta Muse personal AI agent launch — confirmed product catalyst today; +6.55% today; above VWAP $648.58; opened by 12 PM reassessment | scanner |
+| META | 0.032162 | $652.94 | $648.00 | $663.00 | YES | Meta Muse personal AI agent launch — confirmed product catalyst Sep 9; multi-day narrative; -0.07% from entry; opened by 12 PM reassessment Sep 9 | scanner |
+| AVAV | 0.959570 | $156.32 | $154.60 | $159.76 | YES | AeroVironment Q1 FY27 massive earnings beat ($0.59 EPS vs $0.24 est, revenue $480M vs $456M est); defense/drone sector; guidance reaffirmed; JP Morgan raised PT to $210; Opened by 12 PM reassessment Sep 10 | scanner |
 
-Sessions completed today on this account (Sep 9):
-- 7 AM overnight brief: assessed Sep 8 overnight positions (GLW, COHR, CRWV)
-- 9:30 AM open reaction: [no handoff committed — inferred from orders]
-- 10 AM session: CRWV sold at stop $99.81 (-2.64%); SNDK, MU, ALAB entered (manual/agent — tagged manual per portfolio sync)
-- 12 PM reassessment: COHR stop trailed $301.13->$305.00. GLW stop maintained $168.00 (tight). META bought $21 (0.032160 sh, ~$652.97 avg, order 6aa18578). No discretionary exits — all thesis intact.
+Sessions completed today on this account (Sep 10):
+- 7 AM overnight brief: assessed Sep 9 overnight positions
+- 9:30 AM open reaction: GLW sold (stop $168.00 → filled ~$164.67, -0.11%), COHR sold (stop $305.00 → filled ~$296.88, -1.41%), ALAB sold (stop $293.00 → filled ~$284.02, -7.31%) — all logged in trade_log.csv
+- 10 AM session: [no new handoff committed to this file — 9:30 AM handled the exits]
+- 12 PM reassessment: SNDK sold at stop ($1,699.30 < $1,700.00, -5.61%); MU sold at effective stop ($983.955 vs $983.00, $0.955 above — risk mgmt, sector breaking, 3hr unmonitored); AVAV bought $150 (earnings beat catalyst). META held (thesis intact). Orders 6aa2d608 (SNDK sell), 6aa2d60a (MU sell), 6aa2d60c (AVAV buy).
 
-CRWV CLOSED (not in live portfolio):
-- Opened Sep 8 12 PM at $102.518 (0.838194 sh). Sold Sep 9 10 AM session at $99.81 — stop $100.00 triggered. PnL: -2.64% (-$2.27). Logged in trade_log.csv.
+PORTFOLIO SYNC NOTE:
+- GLW, COHR, ALAB: Were in Sep 9 12 PM handoff. Confirmed closed by 9:30 AM session today — all three hit stops overnight/at open. Already logged in trade_log.csv by the 9:30 AM agent.
+- SNDK, MU: Sold this session at/near stop levels. Memory sector was -3.7% to -4.3% today (macro: rising bond yields, oil >$100 on US-Iran conflict, tech rotation). No company-specific thesis break — pure macro pressure.
 
-Settled cash: ~$143.69 (buying power after META buy)
-Unsettled: ~$83.66
-Total account value: ~$907.01
-Portfolio invested: ~74.9% (6 positions — at 75% cap)
+Settled cash: ~$77.35
+Unsettled: ~$634 (large — today's sells plus prior unsettled from prior sessions)
+Total account value: ~$869 (was $882.49; -$6.62 SNDK, -$6.51 MU)
+Portfolio invested: ~19.7% (2 positions, well under 75% cap)
 
-75% cap: $907 x 0.75 = $680. Invested ~$679. Essentially at cap — no new buys until a position sells.
+Available buying power at 3:15 PM: ~$77.35 settled (insufficient for meaningful new positions). Check buying power via get_portfolio — may be slightly different after order fills.
 
 ---
-NOTES FOR 3:15 PM AGENT (Wed Sep 9, 2026):
+NOTES FOR 3:15 PM AGENT (Thu Sep 10, 2026):
 
-MACRO AT NOON: SPY -0.49%, QQQ -0.29% — NORMAL REGIME. US-Iran military confrontation driving oil above $100/barrel. Stagflation risk re-entered narrative — consumer/transport under pressure, tech/AI outperforming. FOMC Sep 15-16; CPI Sep 11.
+MACRO AT NOON: SPY -0.49%, QQQ -0.81% — NORMAL REGIME but tech sector broadly weak. US-Iran military conflict driving oil above $100/barrel (WTI $97+, Brent $102+). Rising bond yields (10-yr 4.86%). Stagflation risk narrative. FOMC Sep 15-16. CPI Sep 11 (TOMORROW) — overnight macro risk. AH earnings tonight: ORCL, ADBE, CPRT, RH — could move tech sentiment.
 
-POSITION STATUS AT NOON:
+POSITION STATUS AT 12 PM:
 
-1. GLW ($164.85 entry, stop $168.00, TP $176.87 | current ~$168.42):
-   - P&L: +2.18% from entry. Day: +1.49%.
-   - STOP PRIORITY #1: Stop $168.00 is only $0.42 below current — VERIFY price above $168.00 before any other decision. If below $168.00, SELL immediately.
-   - Below VWAP ($168.99) at noon. Intraday range: $167.36 low, $171.30 high. Holding $168-169 mid-session.
-   - If $168.50+ and sector intact at 3:15 PM -> hold overnight. If $168.00-168.50 -> judgment call. If below $168.00 -> stop triggered.
+1. META ($652.94 entry, stop $648.00, TP $663.00 | current ~$652.49):
+   - P&L: -0.07% from entry. Day: -0.18%.
+   - Slightly BELOW VWAP ($653.23) at noon. Holding near entry.
+   - Thesis: Meta Muse personal AI agent launch (multi-day, confirmed Sep 9). Multiple ETF articles confirming catalyst narrative today. Bullish options flow ($88.9K call at $700 strike for March 2027).
+   - Stop $648.00 (well cushioned at $4.49 below current). No trail (not up 2% from entry).
+   - Overnight: YES. No earnings tonight. Q3 typically late October.
+   - CPI tomorrow (Sep 11) could cause volatility — watch overnight tech sentiment.
 
-2. COHR ($301.13 entry, stop $305.00 TRAILED, TP $339.49 | current ~$308.39):
-   - P&L: +2.42% from entry. Day: +1.89%.
-   - Near VWAP $308.73. Intraday range: $302.01 low, $313.33 high. Holding $306-310 range since 10:20 AM.
-   - Stop trailed to $305.00 (below $305.68 intraday low). Locked in $3.87/sh profit if stopped.
-   - Sector momentum only (no company-specific catalyst). If NOT in top 25% of intraday range ($311+) at 3:15 PM -> close (mirrors KLAC Sep 4 pattern). First position to consider exiting if sector softens.
-
-3. SNDK ($1,800.37 entry, stop $1,700.00, TP $2,001.11 | current ~$1,770.70):
-   - P&L: -1.65% from entry. Day: +1.88%.
-   - Memory sector re-entry after TP hit Sep 8. Stop at 4% below current.
-   - Earnings: Oct 22-30 (WDC/SNDK). Safe for overnight. Tech sector manual entry — hold.
-
-4. MU ($1,041.42 entry, stop $983.00, TP $1,158.00 | current ~$1,024.35):
-   - P&L: -1.64% from entry. Day: +2.41%.
-   - MU earnings Sep 30 AH. Do NOT hold overnight past Sep 29. Safe for tonight.
-   - Memory sector momentum. Stop at 4% default.
-
-5. ALAB ($306.42 entry, stop $293.00, TP $333.00 | current ~$305.30):
-   - P&L: -0.37% from entry. Day: +5.69%.
-   - Catalyst: Citi 2026 Global TMT Conference today (Sep 9) + S&P 500 inclusion discussion + AI connectivity semiconductor leader (Scorpio X-Series production ramp).
-   - Monitor for any AH conference commentary. Stop at 4% default ($293).
-
-6. META (~$652.97 entry, stop $648.00, TP $663.00 | just filled at noon — Opened by 12 PM reassessment):
-   - Entry: ~$652.97 (0.032160 sh, $21 total). Order 6aa18578. Very small position.
-   - Thesis: Meta Muse personal AI agent — multi-day narrative. Above VWAP $648.58.
-   - Stop $648.00 (below VWAP). TP $663.00. Overnight: YES.
-   - No earnings tonight; Q3 typically late October.
+2. AVAV ($156.32 entry, stop $154.60, TP $159.76 | current ~$156.19 at order time):
+   - OPENED BY 12 PM REASSESSMENT SEP 10. Overnight: YES.
+   - Catalyst: Q1 FY27 earnings beat reported Wednesday AH — $0.59 EPS vs $0.24 est (massive), revenue $480M vs $456M est. Record funded backlog $1.5B (+37% YoY). FY27 guidance reaffirmed ($2.125B-$2.225B rev, $3.02-$3.34 EPS).
+   - JP Morgan raised PT to $210 (Overweight). UBS raised PT to $170 (Neutral). Avg analyst PT $225.89.
+   - Sector: defense/industrial. Moving on earnings beat + US-Iran conflict tailwind for defense spending.
+   - Stop: $154.60 (Donchian intraday low support as of noon). TP: $159.76. Distance: $1.72/share.
+   - TIGHT STOP: Only $1.72 below entry. Afternoon volatility could breach stop. Check price first.
+   - No earnings tonight (just reported). No binary events pending.
+   - Shares: 0.959570 (order 6aa2d60c). $150 position. LOW tier per 12 PM rules.
 
 STOP PRIORITY ORDER FOR 3:15 PM:
-1. GLW $168.00 — tightest, check first
-2. COHR $305.00 — check if in top 25% of range ($311+) or below
-3. SNDK $1,700 / MU $983 / ALAB $293 — 4% buffers, more comfortable
-4. META $648.00 — very small position, check last
+1. AVAV $154.60 — tight ($1.72 below entry), check first. Sell if at or below $154.60.
+2. META $648.00 — well cushioned ($4.49 below current), check second.
 
-ADDITIONAL CANDIDATES FOR 3:15 PM (if buying power available after sells):
-- WDC: +3.36%, priority watchlist memory/storage, earnings Oct 22-30. Same sector as SNDK/MU — only enter if one of those closes (concentration limit).
-- NET: +9.83%, Cloudflare, tech/AI sector. RelVol 0.83x (below 1.2x); sector momentum catalyst only (weaker).
-- SIG: +18.36%, earnings beat + raised guidance. Consumer sector (size down per learned insights). Intraday only if buying power available.
+ADDITIONAL CANDIDATES FOR 3:15 PM (if buying power available):
+- Settled cash is only ~$77.35 — effectively NO buying power for new positions unless AVAV or META sells frees up proceeds.
+- If AVAV hits TP ($159.76) or META moves up significantly, look at AVAV continuation or sector plays.
+- ORCL/ADBE report AH tonight — if strong beats, tech sentiment could improve overnight.
+- Memory sector (SNDK, MU, WDC) was weak today — do NOT re-enter same day. Re-assess tomorrow.
 
-DO NOT RE-ENTER (today Sep 9):
-CRWV — stopped out this morning. Do not re-enter same day.
+DO NOT RE-ENTER (today Sep 10):
+SNDK — stopped out this session. Do not re-enter same day.
+MU — sold at stop this session. Do not re-enter same day.
+GLW — stopped out 9:30 AM. Do not re-enter same day.
+COHR — stopped out 9:30 AM. Do not re-enter same day.
+ALAB — stopped out 9:30 AM. Do not re-enter same day.
 
 DO NOT RE-ENTER (ever/until noted):
 CRM (stopped Sep 1), DG (stopped Aug 28), VEEV/MRK/ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18). WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC, ASTS, HPE, AVGO, MGNI, GTLB.
 VRNS: M&A binary (Proofpoint/Thoma Bravo) STILL PENDING — DO NOT ENTER.
-ODD: Declining fundamentals (revenue -25% YoY, EBITDA -82%) — do not enter despite today's EPS beat.
+ODD: Declining fundamentals (revenue -25% YoY, EBITDA -82%) — do not enter despite any beat.
 CSR: Pending M&A (IRT acquisition) — hard disqualifier, do not enter.
+SWKS: Pending acquisition of QRVO — M&A binary pending, hard disqualifier.
 
 Catalyst status carry-forward:
-- GLW: HELD (scanner). AI optical fiber. Stop $168.00 — very close to current.
-- COHR: HELD (scanner). AI optical/photonics. Stop trailed to $305. Weakest overnight case.
-- SNDK: HELD (manual). Memory sector. Stop $1,700. Oct earnings.
-- MU: HELD (manual). Memory. Stop $983. Earnings Sep 30 AH — mandatory close by Sep 29.
-- ALAB: HELD (manual). Citi TMT Conference catalyst confirmed Sep 9 as predicted.
-- META: HELD (scanner, 12 PM). Muse AI agent launch. Overnight YES.
+- META: HELD (scanner, 12PM Sep 9). Muse AI agent. Overnight YES. No earnings tonight.
+- AVAV: HELD (scanner, 12PM Sep 10). Earnings beat Q1 FY27. Overnight YES. No earnings tonight.
 - VRNS: M&A binary PENDING. DO NOT ENTER.
 
 ---
