@@ -42,26 +42,26 @@ SUMMARY: 2 CRITICAL STOP BREACH (GLW/COHR — no PM sells; 9:30 AM to action at 
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET 2026-09-09.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
+**9:30 AM ET 2026-09-10.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
 
-**Sells:** NONE. All 3 stop-breach flags from overnight brief resolved ABOVE stop at the open print.
+**Sells (stop_loss — 3 triggered):**
+- GLW: open $164.67 < stop $168.00 → SOLD 1.370944 sh at $164.671. P&L: −0.11% (−$0.25). Entry $164.85 [10AM Sep 8, scanner].
+- COHR: open $296.88 < stop $305.00 → SOLD 0.322120 sh at $296.880. P&L: −1.41% (−$1.37). Entry $301.13 [10AM Sep 8, scanner].
+- ALAB: open $290.90 < stop $293.00 → SOLD 0.316564 sh at $284.021. P&L: −7.31% (−$7.09). Entry $306.42 [10AM Sep 9, manual]. ⚠️ Heavy slippage — filled $8.98 below stop due to gap-down open.
 
-**Stop checks at open:**
-- GLW: open $169.39 > stop $168.00 ✓ HOLD. (PM $165.80 was below stop, but open gapped up. Verizon 80M-mile fiber deal thesis intact.)
-- COHR: open $306.21 > stop $301.13 ✓ HOLD. (PM $297.94 was below stop, but open recovered strongly +1.43%.)
-- CRWV: open $100.15 > stop $100.00 ✓ HOLD (barely — $0.15 above stop). Sep 8 close $99.83 was below stop, but 9:30 AM agent does not sell on prior close if open is above stop. ⚠️ 10 AM: watch closely.
+**META: TP NOT triggered.** Pre-market TP breach at $663.40 did NOT hold at open. Open $649.64 < TP $663.00 → HOLD. −0.51% from entry. Stop $648.00 still active.
 
-**Catalyst watch resolution:**
-- ALAB: +1.13% gap-up ($292.11). CATALYST PENDING — Citi conference is intraday Sep 9, not overnight resolved. Pass to 10 AM.
-- VRNS: M&A binary pending → DO NOT ENTER.
+**Positions held (above stop at open):**
+- SNDK: open $1,724.87 > stop $1,700.00 ✓ HOLD. ⚠️ GAP DOWN −2.23% vs close; first-bar low $1,705.20 (only $5.20 above stop). 10 AM: monitor.
+- MU: open $994.52 > stop $983.00 ✓ HOLD. ⚠️ GAP DOWN −3.23% vs close; first-bar low $985.31 ($2.31 above stop). PPI today driving broad softness.
 
-**Catalyst entries:** NONE.
+**Catalyst entries:** NONE (no watch list for Sep 10 — 3:15 PM agent did not run Sep 9).
 
-**Portfolio sync:** GLW + COHR + CRWV in live account — exact match with 7 AM overnight brief. 0 manual adoptions.
+**Portfolio sync:** 6 positions pre-open (GLW, COHR, SNDK, MU, ALAB, META) — exact match with 7 AM brief. 0 manual adoptions. After sells: 3 remain.
 
-**SPY** $763.71 (−0.29%), **QQQ** $716.12 (−0.31%) — NORMAL REGIME (both down <1%).
+**SPY** $758.02 (−0.57%), **QQQ** $708.31 (−1.12%) — NORMAL REGIME (SPY gate is <2% down; within bounds).
 
-Status: 0 stops/TP sells, 0 catalyst entries, 3 positions open for 10 AM (GLW + COHR + CRWV). ALAB PENDING — pass to 10 AM.
+Status: 3 stop sells (GLW/COHR/ALAB), 0 catalyst entries, 3 positions open for 10 AM (SNDK stop $1,700 ⚠️thin, MU stop $983 ⚠️thin, META stop $648).
 
 ---
 
@@ -103,6 +103,26 @@ RAW STATS:
 
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
+
+⚠️ AMENDED 2026-09-10 ~9:35 AM ET by 9:30 AM agent: 3 stops triggered. See OPEN REACTION UPDATE above for detail.
+
+SOLD BY 9:30 AM AGENT — do not re-enter:
+- GLW: stop_loss, filled $164.671 (stop $168.00 breached). Entry $164.85 [10AM Sep 8, scanner]. P&L: −0.11% (−$0.25).
+- COHR: stop_loss, filled $296.880 (stop $305.00 breached). Entry $301.13 [10AM Sep 8, scanner]. P&L: −1.41% (−$1.37).
+- ALAB: stop_loss, filled $284.021 (stop $293.00 breached). Entry $306.42 [10AM Sep 9, manual]. P&L: −7.31% (−$7.09). ⚠️ heavy slippage.
+
+OPEN POSITIONS — 3 remaining:
+
+| Ticker | Shares | Entry Price | Stop | TP | Overnight Thesis (1 line) | Entry Type |
+|--------|--------|-------------|------|----|--------------------------|------------|
+| SNDK | 0.065542 | $1,800.37 | $1,700.00 | $2,001.11 | Memory/storage re-entry; AI NAND; ⚠️ GAP DOWN today, first-bar low $1,705.20 (only $5.20 above stop) | manual |
+| MU | 0.113307 | $1,041.42 | $983.00 | $1,158.00 | Micron AI HBM4 demand; ⚠️ GAP DOWN today, first-bar low $985.31 ($2.31 above stop); close by Sep 29 (earnings Sep 30 AH) | manual |
+| META | 0.032162 | $652.97 | $648.00 | $663.00 | Meta Muse AI agent launch; TP $663 not hit at open; TP still live; stop $648 active | scanner |
+
+Settled cash: ~$227.35 (pre-trade). Sell proceeds GLW+COHR+ALAB ~$411 unsettled (settle Sep 11 T+1).
+Total account value: ~$886 | Portfolio invested: ~28% after 3 stops.
+
+---ORIGINAL Sep 4 HANDOFF (stale — superseded by amendment above)---
 
 Last updated: 2026-09-04 (~3:30 PM ET — 3:15 PM session complete)
 

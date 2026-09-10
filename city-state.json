@@ -1,37 +1,62 @@
 {
-  "ts": "2026-09-09T13:32:00Z",
+  "ts": "2026-09-10T13:35:30Z",
   "source": "robinhood_0930_open",
   "portfolio": {
-    "totalValue": 913.77,
-    "cash": 497.69,
-    "equityValue": 416.08,
-    "buyingPower": 497.69,
+    "totalValue": 886.99,
+    "cash": 227.35,
+    "equityValue": 659.64,
+    "buyingPower": 227.35,
     "positions": [
       {
-        "ticker": "GLW",
-        "shares": 1.370944,
-        "entry": 164.85,
-        "current": 169.39,
-        "plPct": 2.75,
+        "ticker": "SNDK",
+        "shares": 0.065542,
+        "entry": 1800.37,
+        "current": 1724.87,
+        "plPct": -4.19,
         "managed": true
       },
       {
-        "ticker": "COHR",
-        "shares": 0.322120,
-        "entry": 301.13,
-        "current": 306.205,
-        "plPct": 1.69,
+        "ticker": "MU",
+        "shares": 0.113307,
+        "entry": 1041.42,
+        "current": 994.52,
+        "plPct": -4.50,
         "managed": true
       },
       {
-        "ticker": "CRWV",
-        "shares": 0.838194,
-        "entry": 102.518,
-        "current": 100.151,
-        "plPct": -2.31,
+        "ticker": "META",
+        "shares": 0.032162,
+        "entry": 652.97,
+        "current": 649.64,
+        "plPct": -0.51,
         "managed": true
       }
     ]
   },
-  "fills": []
+  "fills": [
+    {
+      "id": "6aa2b1ef-c111-45b4-9bf9-8ae35e40bae8",
+      "side": "sell",
+      "ticker": "ALAB",
+      "qty": 0.316564,
+      "price": 284.021,
+      "at": "2026-09-10T13:34:39.198Z"
+    },
+    {
+      "id": "6aa2b202-4df8-4444-b028-66aef1b6db4d",
+      "side": "sell",
+      "ticker": "GLW",
+      "qty": 1.370944,
+      "price": 164.671,
+      "at": "2026-09-10T13:34:58.842Z"
+    },
+    {
+      "id": "6aa2b204-43d9-44a7-97fc-ecfeb983211b",
+      "side": "sell",
+      "ticker": "COHR",
+      "qty": 0.322120,
+      "price": 296.880,
+      "at": "2026-09-10T13:35:00.679Z"
+    }
+  ]
 }
