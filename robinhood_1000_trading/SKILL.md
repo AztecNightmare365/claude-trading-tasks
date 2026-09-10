@@ -104,39 +104,59 @@ RAW STATS:
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-⚠️ AMENDED 2026-09-10 ~9:35 AM ET by 9:30 AM agent: 3 stops triggered. See OPEN REACTION UPDATE above for detail.
+Last updated: 2026-09-10 (~3:20 PM ET — 3:15 PM session complete)
 
-SOLD BY 9:30 AM AGENT — do not re-enter:
-- GLW: stop_loss, filled $164.671 (stop $168.00 breached). Entry $164.85 [10AM Sep 8, scanner]. P&L: −0.11% (−$0.25).
-- COHR: stop_loss, filled $296.880 (stop $305.00 breached). Entry $301.13 [10AM Sep 8, scanner]. P&L: −1.41% (−$1.37).
-- ALAB: stop_loss, filled $284.021 (stop $293.00 breached). Entry $306.42 [10AM Sep 9, manual]. P&L: −7.31% (−$7.09). ⚠️ heavy slippage.
+Open positions held overnight: **0 — fully in cash**
 
-OPEN POSITIONS — 3 remaining:
+No overnight positions. Both positions (META and AVAV) hit stop-loss levels and were sold at market.
 
-| Ticker | Shares | Entry Price | Stop | TP | Overnight Thesis (1 line) | Entry Type |
-|--------|--------|-------------|------|----|--------------------------|------------|
-| SNDK | 0.065542 | $1,800.37 | $1,700.00 | $2,001.11 | Memory/storage re-entry; AI NAND; ⚠️ GAP DOWN today, first-bar low $1,705.20 (only $5.20 above stop) | manual |
-| MU | 0.113307 | $1,041.42 | $983.00 | $1,158.00 | Micron AI HBM4 demand; ⚠️ GAP DOWN today, first-bar low $985.31 ($2.31 above stop); close by Sep 29 (earnings Sep 30 AH) | manual |
-| META | 0.032162 | $652.97 | $648.00 | $663.00 | Meta Muse AI agent launch; TP $663 not hit at open; TP still live; stop $648 active | scanner |
+**SOLD THIS SESSION (stop_loss):**
+- META: 0.032162 sh sold at $644.921 (filled 19:20:48Z). Entry $652.94. P&L: −1.23% (−$0.26). Stop $648.00 breached — close $645.84 at 3:15 PM eval.
+- AVAV: 0.958682 sh sold at $149.6001 (filled 19:20:40Z). Entry $156.4648. P&L: −4.39% (−$6.58). Stop $154.60 breached — close $150.60 at 3:15 PM eval. (Opened by 12 PM reassessment Sep 10; earnings beat catalyst faded sharply into close on macro selling.)
 
-Settled cash: ~$227.35 (pre-trade). Sell proceeds GLW+COHR+ALAB ~$411 unsettled (settle Sep 11 T+1).
-Total account value: ~$886 | Portfolio invested: ~28% after 3 stops.
+**No new overnight buys opened.** Reasons:
+1. CPI report Sep 11 BMO (TOMORROW) — macro binary. Hot PPI today (+5.4% YoY annual, above 5.3% est.) raises probability of hot CPI → confirmed rate hike at FOMC Sep 15–16.
+2. CME FedWatch rate hike odds climbed to ~70% intraday.
+3. ORCL and ADBE reporting AH tonight — disqualified as candidates; tech sentiment uncertain.
+4. Only $77.35 settled cash available.
+5. Thursday (historically worst day for this account — 15.4% WR, −$25.17 net).
+6. Best scanner candidate RDDT (+6.6%): relVol 0.89x (below 1.2x threshold), below 50-day and 200-day SMA, bearish options flow — failed overnight filter.
 
----ORIGINAL Sep 4 HANDOFF (stale — superseded by amendment above)---
+**Portfolio:**
+- Settled cash: $77.35
+- Unsettled cash: ~$797 (prior unsettled $633.55 + today's sells ~$164)
+- Total account value: ~$875
+- Invested: 0%
 
-Last updated: 2026-09-04 (~3:30 PM ET — 3:15 PM session complete)
+**CATALYST WATCH LIST — for 10 AM agent Sep 11:**
+| Ticker | Catalyst | Timing | Direction Bias | Risk |
+|--------|----------|--------|----------------|------|
+| ORCL | Q1 FY27 earnings ($1.67 EPS est; cloud AI infra thesis) | AH tonight Sep 10 | Bullish if beat + cloud guidance raise | MEDIUM |
+| ADBE | Q3 FY26 earnings ($5.84 EPS est; AI headwinds, −27% YTD) | AH tonight Sep 10 | Cautious — AI competition narrative, Zacks Sell | HIGH |
+| RDDT | User growth catalyst: Piper Sandler note (8% MoM Aug, fastest of 2026), Goldman Sachs CEO conference | Continue trend (conditional on cool CPI) | Bullish if CPI prints cool and market opens up | MEDIUM |
 
-Open positions held overnight: 2 (SNDK + CBRS — MU sold by 9:30 AM agent at take-profit)
+**10 AM AGENT NOTES (Sep 11, 2026):**
 
-| Ticker | Shares | Entry Price | Stop | TP | Overnight Thesis (1 line) | Entry Type |
-|--------|--------|-------------|------|----|--------------------------|------------|
-| SNDK | 0.101497 | $1,656.69 | $1,665.00 | $1,805.19 | Q4 FY26 beat (rev +371.6% YoY, DC doubled seq.), AI NAND demand, risk-free stop (stop > breakeven), +10.1% day | scanner |
-| MU | 0.169687 | $990.94 | $969.00 | $1,034.13 | **SOLD BY 9:30 AM AGENT — take_profit — do not re-enter.** TP $1,034.13 hit at open ($1,036.64). Order 6aa00f03. +4.61% (+$7.75). | scanner |
-| CBRS | 0.692870 | $216.49 (est.) | $215.64 | $218.19 | CS-4 AI accelerator GA + 165 MW Finland expansion; +4.38% gap-up at open, first bar positive, LOW-tier catalyst_watch entry | catalyst_watch |
+MACRO OVERNIGHT RISKS:
+- CPI Sep 11 BMO (8:30 AM ET): Critical. August PPI today came in hot (+5.4% YoY); core inflation momentum elevated. If CPI hot → rate hike nearly certain Sep 15-16. If cool → relief rally possible.
+- ORCL/ADBE AH tonight: Tech sentiment driver for tomorrow open. ORCL down 3.4% today heading into print (cloud/AI infra narrative). ADBE weak YTD and faces competition narrative.
+- WTI crude $101+, 10yr yield 4.93% (highest since 2023), 30yr 5.35% (highest since 2007).
+- FOMC Sep 15–16: Rate hike decision week. All macro data this week feeds directly into that decision.
 
-Sells at 3:15 PM session (confirmed fills):
-- DELL: 0.321799 sh sold at $517.69 (filled 19:26:50 UTC). Entry $522.53. P&L: −0.93% (−$1.56). Exit: discretionary — below VWAP at 3:15 PM ($518.64 < VWAP $522.63, failing required overnight criterion); declining trend from $527 at 1:25 PM to $518 by 3:15 PM; rate hike risk elevated (51%); 3-day Labor Day weekend gap.
-- KLAC: 0.911421 sh sold at $184.47 (filled 19:26:51 UTC). Entry $184.49. P&L: −0.01% (−$0.02). Exit: discretionary — barely in top 25% by $0.08 margin with 2-hr declining trend from $187 high; indirect sector momentum only (no company-specific catalyst); 3-day weekend with 4.7% stop gap; weakest overnight case per 12 PM handoff.
+SECTOR CONTEXT TODAY:
+- Leading: XLC (comm services +0.7%) — RDDT, META benefited
+- Lagging: XLB (materials −1.3%), XLK (tech −1.0%), SMH (semis −2.3%)
+- Memory/semis sector broadly weak all day. Do NOT re-enter SNDK/MU/GLW/COHR/ALAB today (Sep 11).
+
+DO NOT RE-ENTER (Sep 10 stops, banned Sep 11):
+META, AVAV (same-day policy: do not re-enter day after stop)
+
+DO NOT RE-ENTER (standing bans):
+SNDK (stopped Sep 10 12PM), MU (stopped Sep 10 12PM), GLW (stopped Sep 10 9:30AM), COHR (stopped Sep 10 9:30AM), ALAB (stopped Sep 10 9:30AM), CRM (stopped Sep 1), DG (stopped Aug 28), VEEV/MRK/ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18). WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC, ASTS, HPE, AVGO, MGNI, GTLB.
+VRNS: M&A binary PENDING — DO NOT ENTER.
+SWKS: Pending acquisition of QRVO — M&A binary, hard disqualifier.
+QRVO: Target of SWKS acquisition — hard disqualifier.
+ODD, CSR: Hard disqualifiers (see prior notes).
 
 New buys at 3:15 PM: NONE
 
