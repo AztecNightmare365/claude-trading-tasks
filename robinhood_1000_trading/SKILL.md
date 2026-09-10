@@ -14,26 +14,28 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET 2026-09-09.** Live sync ••••6616: 3 positions (GLW, COHR, CRWV). Exact match with 12 PM handoff. NOTE: 3:15 PM agent did NOT run Sep 8 — 12 PM handoff is authoritative.
+**7:00 AM ET 2026-09-10.** Live sync ••••6616: 6 positions (GLW, COHR, SNDK, MU, ALAB, META). Exact match with 12 PM Sep 9 handoff. 3:15 PM agent did NOT run Sep 9 — 12 PM handoff is authoritative.
 
 **Positions:**
-- GLW: PM $165.80 (−0.10% vs $165.96 close). Stop $168.00 **BREACHED** (trailing; close also $165.96 < stop). **CRITICAL STOP BREACH** — thesis STRENGTHENED: Verizon 80M-mile fiber megadeal confirmed Sep 8; China Renaissance PT $238. Not a thesis break — mechanical trailing-stop trigger. No PM sell. 9:30 AM: evaluate reset vs honor stop given confirmed deal.
-- COHR: PM $297.94 (−1.31% vs $301.88 close). Stop $301.13 **BREACHED** (breakeven; below entry by 1.06%). **CRITICAL STOP BREACH** — no adverse overnight news; optical sector positive via GLW/Verizon. No PM sell. 9:30 AM: sell at market if below stop at open.
-- CRWV: PM $98.92 (−0.92% vs $99.83 close). Stop $100.00 **BREACHED** (was already below stop at Sep 8 close). **CRITICAL STOP BREACH** — $100 support broken; momentum cooling (RSI 72→55); no new catalyst. No PM sell. 9:30 AM: sell at market.
+- GLW: PM $165.99 (−1.47% vs $168.46 close). Stop $168.00 **BREACHED** (trailing; PM $2.01 below stop). **CRITICAL STOP BREACH** — thesis INTACT: Verizon 80M-mile fiber deal holds, no adverse news. Not a thesis break. No PM sell. 9:30 AM: sell at market if open below $168.00.
+- COHR: PM $299.40 (−1.34% vs $303.48 close). Stop $305.00 **BREACHED** (trailing; PM $5.60 below stop). **CRITICAL STOP BREACH** — no adverse news; Deutsche Bank Buy/$400 PT overnight. Thesis intact. No PM sell. 9:30 AM: sell at market if open below $305.00.
+- SNDK: PM $1,743.99 (−1.14% vs $1,764.17). Stop $1,700.00 → +2.58% cushion. **ON TRACK**. AI NAND thesis intact; buy rating/$2,100 PT maintained.
+- MU: PM $1,011.81 (−1.55% vs $1,027.77). Stop $983.00 → +2.84% cushion. **ON TRACK**. ⚠️ PPI today 8:30 AM + CPI Sep 11. Earnings Sep 30 — close by Sep 29.
+- ALAB: PM $295.46 (−1.69% vs $300.54). Stop $293.00 → +0.83% cushion only. **ON TRACK** ⚠️ very thin stop buffer. Citi conf (Sep 9) thesis intact. 9:30 AM: watch if open near $295.
+- META: PM $663.40 (+1.49% vs $653.69). TP $663.00 **BREACHED**. **TP BREACH** — do NOT PM sell; wait for open print. 9:30 AM: sell at market.
 
-**Pre-market:** SPY $763.02 (−0.38%). QQQ $714.67 (−0.52%). Mild weakness.
+**Pre-market:** SPY $762.91 (+0.07% flat). QQQ $714.33 (−0.28% mild weakness).
 
 **Pre-market sells:** NONE.
 
-**Catalyst watch list:**
-- ALAB: PM $286.00 (−0.99% vs $288.85). Citi conference presentation TODAY (Sep 9). CATALYST PENDING — intraday event, not overnight resolved. Q2 $392M +104% YoY. Monitor at 9:30/10 AM.
-- VRNS: M&A binary STILL PENDING (Proofpoint/Thoma Bravo talks, no deal). DO NOT ENTER.
+**Catalyst watch list:** 3:15 PM agent did not run Sep 9 — no watch list compiled for Sep 10. VRNS M&A binary STILL PENDING (Proofpoint/$5.4B bid, no deal closed) — DO NOT ENTER.
 
 **Overnight macro:**
-- No economic data Sep 9. Fed Gov. Waller leans hold at Sep 15–16 FOMC. CPI Sep 11 next key event.
-- Geopolitical: Iran/US strikes, oil elevated. Canada trade tensions rising. Rate hike odds ~51%.
+- PPI 8:30 AM ET today (Sep 10, exp +0.3% MoM/+5.3% YoY); CPI tomorrow Sep 11 — critical pre-FOMC data.
+- Oil >$100/barrel (Iran/US); rate hike odds ~51%; FOMC Sep 15–16.
+- Futures mixed; broad market near flat overnight.
 
-SUMMARY: 0 ON TRACK, 3 CRITICAL STOP BREACH (GLW/COHR/CRWV — no PM sells placed; 9:30 AM agent to action at open). ALAB PENDING (Citi conference intraday). 0 emails sent.
+SUMMARY: 2 CRITICAL STOP BREACH (GLW/COHR — no PM sells; 9:30 AM to action at open), 1 TP BREACH (META — 9:30 AM sell at market), 3 ON TRACK (SNDK/MU/ALAB). 0 catalyst tickers confirmed. Email sent: GLW/COHR stop breach + META TP alert.
 
 ---
 
