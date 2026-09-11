@@ -46,7 +46,7 @@ Hard exits — sell immediately (market order) if:
 
 Note: Robinhood does not support stop or limit trigger orders on fractional shares — this manual check IS the stop-loss mechanism.
 
-Trail the stop on winners: if a position is up more than 2% from entry and holding its gains, trail the stop-loss up to breakeven or the most recent intraday support level, whichever is higher. Never widen a stop.
+Trail the stop on winners: if a position is up more than 2% from entry and holding its gains, trail the stop-loss up to breakeven or the most recent intraday support level, whichever is higher. Never widen a stop. Never trail tighter than 1.5% below the current price — a tighter trail gets hit by normal noise before the position can reach take-profit, which is a big reason win rate (41.7%) is so far ahead of the take-profit hit rate (10.4%).
 
 Discretionary exits — sell only if there is a real thesis break, not just red noise. A discretionary exit requires BOTH: price down more than 1.5% from entry (or faded more than half a gap-up) AND a concretely weakened thesis (negative news, downgrade, guidance cut) — never "the market is down" alone.
 
@@ -66,6 +66,8 @@ After accounting for any sells from Step 3:
 - If buyable amount is less than $10, skip Steps 5 and 6 and go to Step 7
 
 Never use unsettled cash. Never let total invested positions exceed 75% of account value.
+
+SECTOR CAP — check before sizing any buy: look at the LIVE portfolio's sector mix (not just today's adds). Never open a position that would put more than 2 open positions, or more than 40% of total account value, in the same sector at once — tech included, even for priority-watchlist or scanner-boosted candidates. If a candidate would breach this, skip it (or shrink to whatever room remains) rather than concentrating further. Sept 10 2026 lost $29 in one session to 5 same-sector (tech/semi) stops firing together — this cap exists to stop that correlated pile-up from recurring.
 
 MARKET REGIME GATE — check before buying:
 Get SPY's current change % from prior close via get_equity_quotes(["SPY"]).
@@ -195,12 +197,12 @@ SCORING / SIZING PREFERENCES (rank & size by these — never skip a session over
 7. 3:15PM tech overnight entries: 4/6 = 66.7% WR — tech holds from 3:15PM are strong; size confidently when stop gap ≤4% and thesis intact. (N=6)
 8. analyst_upgrade catalyst: 2/4 = 50.0% WR — solid; score above sector_momentum; take all qualifying setups. (N=4)
 9. 10AM session: 13/31 = 41.9% WR, +$45.76 net — standard morning session; apply normal scoring. (N=31)
-10. sector_momentum catalyst: 2/7 = 28.6% WR, avg -0.09% — weakest catalyst label; still take qualifying setups (AGGRESSIVE MODE), but start at STANDARD or LOW tier unless paired with a stronger signal (manual, tech sector, Mon/Tue). (N=7)
+10. sector_momentum catalyst: 2/7 = 28.6% WR, avg -0.09% — weakest catalyst label. HARD REQUIREMENT (not just a sizing preference): a sector_momentum-only entry must show relative volume >=1.5x AND price above VWAP before it's allowed at all — missing either one, skip the candidate entirely rather than sizing down. When both are present, still start at STANDARD or LOW tier unless paired with a stronger signal (manual, tech sector, Mon/Tue). (N=7)
 
 SIZE-DOWN (don't skip — just take smaller): Consumer sector (2/5 = 40% WR, -$17.76 net; overnight consumer holds are especially destructive: DG -$10.08, ANF -$10.48, KO -$4.55; size at LOW-STANDARD for any overnight consumer hold). Financials (0/3 = 0% WR; size at LOW tier). Thursday entries (2/13 = 15.4% WR, -$25.17 net — far worst day; take qualifying setups but start at STANDARD tier, not HIGH). catalyst_watch entry path (0/5 = 0% WR so far; take these entries but size at LOW tier until win rate improves; confirm VWAP hold + continued uptrend). 12PM session (2/6 = 33.3% WR, -$15.21 net; do not re-enter a ticker already traded same day — AMD 12PM re-entry = -$14.73).
 LEAN INTO (rank highest, size larger): Manual tech entries on confirmed earnings beat + raised guidance — AMZN (+$21.30) + PLTR ×3 (+$37.07) = $58.37 from 4 trades, 54% of all gross wins. Pattern: large-cap tech, explicit guidance raise confirmed, high-conviction manual selection. No other trade category approaches this dollar contribution.
 
-STILL IN FORCE (risk rails — never weaken): per-trade stop-losses, dollar-risk sizing, 25% single-name cap, 75% portfolio cap, hard disqualifiers for pending binary events (FDA/M&A/clinical/court) and same-day earnings.
+STILL IN FORCE (risk rails — never weaken): per-trade stop-losses, dollar-risk sizing, 25% single-name cap, 75% portfolio cap, sector cap (max 2 positions / 40% of account in one sector — see Step 4), sector_momentum-catalyst entries hard-gated on relative volume >=1.5x AND price above VWAP (not a sizing-only preference), hard disqualifiers for pending binary events (FDA/M&A/clinical/court) and same-day earnings.
 
 RAW STATS:
 - Best catalyst: "other" (66.7% WR, N=6); earnings_beat (41.4% WR, N=29, +$25.11 net $ — driven by mega-cap tech beats)

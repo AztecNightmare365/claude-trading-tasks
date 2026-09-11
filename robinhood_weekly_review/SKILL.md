@@ -63,6 +63,8 @@ STEP 4 — Identify patterns and generate rules
 
 AGGRESSIVE MODE IS ACTIVE (set by the account owner 2026-09-03). Your insights must NOT reduce trading activity. Do NOT generate any rule that skips a session, pauses after a stop-streak, raises the entry bar by day-of-week, bans or penalizes a sector, or otherwise tells the agents to sit in cash. The owner has explicitly accepted higher churn in exchange for more participation.
 
+This restriction applies only to new rules YOU derive from this week's data in the SCORING / SIZING PREFERENCES list below. It does NOT apply to the STILL IN FORCE line (owner-set standing risk rails, added 2026-09-10 after a $29/-3.5% single-session loss from 5 correlated same-sector stops): the sector cap and the sector_momentum hard gate are permanent risk controls, not derived insights — copy that line forward unchanged in Step 5, do not soften it, and do not fold its content back into the data-derived preferences list above it.
+
 Express everything you learn as SCORING / RANKING preferences or position-SIZING guidance only — never as hard "skip" / "raise the bar" / "avoid" gates.
 - GOOD: "analyst_upgrade wins most — rank highest, size at HIGH tier"; "consumer earnings gap down overnight — keep taking them but size ~25% smaller."
 - FORBIDDEN: "skip consumer", "raise the bar on Thursday", "pause after 3 stop-outs", "require rel vol ≥2×".
@@ -106,7 +108,7 @@ SCORING / SIZING PREFERENCES (rank & size by these — never skip a session over
 SIZE-DOWN (don't skip — just take smaller): [patterns that lose more, e.g. a weak sector/day]
 LEAN INTO (rank highest, size larger): [best performing pattern]
 
-STILL IN FORCE (risk rails — never weaken): per-trade stop-losses, dollar-risk sizing, 25% single-name cap, 75% portfolio cap, hard disqualifiers for pending binary events (FDA/M&A/clinical/court) and same-day earnings.
+STILL IN FORCE (risk rails — never weaken): per-trade stop-losses, dollar-risk sizing, 25% single-name cap, 75% portfolio cap, sector cap (max 2 open positions / 40% of account value in one sector at a time — see each session's Step 3/4), sector_momentum-catalyst entries hard-gated on relative volume >=1.5x AND price above VWAP (not a sizing-only preference), hard disqualifiers for pending binary events (FDA/M&A/clinical/court) and same-day earnings.
 
 RAW STATS:
 - Best catalyst: [type] ([X]% win rate, N=[n])
