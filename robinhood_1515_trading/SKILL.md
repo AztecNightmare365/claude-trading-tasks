@@ -24,85 +24,98 @@ _No content — see robinhood_1000_trading/SKILL.md for the live 3:15 PM handoff
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-09-10 (~12:10 PM ET — 12 PM reassessment complete)
+Last updated: 2026-09-11 (~10:10 AM ET — 10 AM session complete)
 
-Open positions: 2
+Open positions: 3
 
-| Ticker | Shares | Entry Price | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
-|--------|--------|-------------|------|----|-----------|-----------------|------------|
-| META | 0.032162 | $652.94 | $648.00 | $663.00 | YES | Meta Muse personal AI agent launch — confirmed product catalyst Sep 9; multi-day narrative; -0.07% from entry; opened by 12 PM reassessment Sep 9 | scanner |
-| AVAV | 0.959570 | $156.32 | $154.60 | $159.76 | YES | AeroVironment Q1 FY27 massive earnings beat ($0.59 EPS vs $0.24 est, revenue $480M vs $456M est); defense/drone sector; guidance reaffirmed; JP Morgan raised PT to $210; Opened by 12 PM reassessment Sep 10 | scanner |
+| Ticker | Shares | Entry Price (est) | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
+|--------|--------|-------------------|------|----|-----------|-----------------|------------|
+| ORCL | 2.570860 | $155.5899 | $149.37 | $168.03 | YES | Q1 FY27 earnings beat+guidance raise (EPS $1.92 vs $1.67 est +15%, rev +30%, OCF +184%, full-year raised); cloud AI infra; opened by 9:30 AM agent Sep 11 | catalyst_watch |
+| BE | 0.623100 | ~$273.58 | $266.12 | $288.50 | TBD | ORCL CEO named BE fuel cells on Q1 FY27 earnings call for NM data center power; S&P 500 addition effective Sep 21 (index buying); AI power infrastructure play | scanner |
+| ATEC | 8.558550 | ~$9.99 | $9.345 | $11.28 | TBD | CEO Patrick Miles bought 115,000 shares ($1.01M) on Sep 10 — major insider conviction buy; Health Tech, spine surgery; UBS Buy PT $16 | scanner |
 
-Sessions completed today on this account (Sep 10):
-- 7 AM overnight brief: assessed Sep 9 overnight positions
-- 9:30 AM open reaction: GLW sold (stop $168.00 → filled ~$164.67, -0.11%), COHR sold (stop $305.00 → filled ~$296.88, -1.41%), ALAB sold (stop $293.00 → filled ~$284.02, -7.31%) — all logged in trade_log.csv
-- 10 AM session: [no new handoff committed to this file — 9:30 AM handled the exits]
-- 12 PM reassessment: SNDK sold at stop ($1,699.30 < $1,700.00, -5.61%); MU sold at effective stop ($983.955 vs $983.00, $0.955 above — risk mgmt, sector breaking, 3hr unmonitored); AVAV bought $150 (earnings beat catalyst). META held (thesis intact). Orders 6aa2d608 (SNDK sell), 6aa2d60a (MU sell), 6aa2d60c (AVAV buy).
+**NOTE on BE and ATEC entry prices**: Orders placed as market orders at ~10:07 AM ET; reference prices $273.58 (BE) and $9.99 (ATEC). Actual fills may differ slightly — verify via get_equity_positions and update stops/TPs proportionally if fill differs by more than 0.5% from reference.
+
+Sessions completed today on this account (Sep 11):
+- 7 AM overnight brief: confirmed 0 overnight positions, ORCL catalyst watch
+- 9:30 AM open reaction: ORCL bought (catalyst_watch, 2.570860 sh at $155.5899); CPI +0.4% in-line
+- 10 AM session: BE bought ($170.47, 0.6231 sh, MEDIUM); ATEC bought ($85.50, 8.5586 sh, LOW); no sells
 
 PORTFOLIO SYNC NOTE:
-- GLW, COHR, ALAB: Were in Sep 9 12 PM handoff. Confirmed closed by 9:30 AM session today — all three hit stops overnight/at open. Already logged in trade_log.csv by the 9:30 AM agent.
-- SNDK, MU: Sold this session at/near stop levels. Memory sector was -3.7% to -4.3% today (macro: rising bond yields, oil >$100 on US-Iran conflict, tech rotation). No company-specific thesis break — pure macro pressure.
+- ORCL: Opened by 9:30 AM agent today. Confirmed in live portfolio (2.570860 sh, avg cost $155.59). ✓
+- META and AVAV: Both closed by stop_loss at 3:15 PM Sep 10. NOT in portfolio. Already logged in trade_log.csv.
+- BE and ATEC: Opened this session. Orders placed 10:07 AM ET (IDs: BE=6aa40b29, ATEC=6aa40b2b). Verify fills via portfolio sync before Step 2.
 
-Settled cash: ~$77.35
-Unsettled: ~$634 (large — today's sells plus prior unsettled from prior sessions)
-Total account value: ~$869 (was $882.49; -$6.62 SNDK, -$6.51 MU)
-Portfolio invested: ~19.7% (2 positions, well under 75% cap)
+Settled cash: ~$219.09 (was $475.06 − $255.97 for BE+ATEC buys)
+Total account value: ~$876 (live; $401 ORCL + $170 BE + $86 ATEC + $219 cash)
+Portfolio invested: ~75% (at 75% cap — no additional buying power for new positions)
 
-Available buying power at 3:15 PM: ~$77.35 settled (insufficient for meaningful new positions). Check buying power via get_portfolio — may be slightly different after order fills.
+Available buying power at 3:15 PM: ~$0 (at 75% cap; ORCL alone is 45.8% of account in tech sector — sector cap also binding on tech). Use only if a position is sold.
 
 ---
-NOTES FOR 3:15 PM AGENT (Thu Sep 10, 2026):
+NOTES FOR 3:15 PM AGENT (Fri Sep 11, 2026):
 
-MACRO AT NOON: SPY -0.49%, QQQ -0.81% — NORMAL REGIME but tech sector broadly weak. US-Iran military conflict driving oil above $100/barrel (WTI $97+, Brent $102+). Rising bond yields (10-yr 4.86%). Stagflation risk narrative. FOMC Sep 15-16. CPI Sep 11 (TOMORROW) — overnight macro risk. AH earnings tonight: ORCL, ADBE, CPRT, RH — could move tech sentiment.
+MACRO AT 10 AM: SPY +1.07%, QQQ +1.06% — NORMAL REGIME. CPI Aug +0.4% MoM in-line (as expected; not hot enough to spike hike odds further). Tech relief rally. ORCL earnings beat driving AI data center sentiment. Oil WTI $99.30 (falling −3.1% today from $102 level — supportive). FOMC Sep 15–16 ahead — this weekend is critical.
 
-POSITION STATUS AT 12 PM:
+POSITION STATUS AT 10 AM:
 
-1. META ($652.94 entry, stop $648.00, TP $663.00 | current ~$652.49):
-   - P&L: -0.07% from entry. Day: -0.18%.
-   - Slightly BELOW VWAP ($653.23) at noon. Holding near entry.
-   - Thesis: Meta Muse personal AI agent launch (multi-day, confirmed Sep 9). Multiple ETF articles confirming catalyst narrative today. Bullish options flow ($88.9K call at $700 strike for March 2027).
-   - Stop $648.00 (well cushioned at $4.49 below current). No trail (not up 2% from entry).
-   - Overnight: YES. No earnings tonight. Q3 typically late October.
-   - CPI tomorrow (Sep 11) could cause volatility — watch overnight tech sentiment.
+1. ORCL ($155.5899 entry, stop $149.37, TP $168.03 | ~$156.11 at 10 AM = +0.33% from entry):
+   - Up +2.07% from yesterday's close ($152.94). Well above stop.
+   - Thesis: Q1 FY27 beat+raise (EPS $1.92 vs $1.67, rev +30%, OCF +184%, full-year guidance raised). Cloud AI infra narrative intact. UBS Buy, PT $250.
+   - Stop: $149.37 (hardened by 9:30 AM agent — 4% below entry). No trail yet (+0.33% not enough).
+   - Overnight: YES (already committed overnight from 9:30 AM entry).
+   - FOMC weekend risk: Sep 15-16 FOMC follows this weekend — monitor for any overnight macro shock.
+   - No binary events tonight.
 
-2. AVAV ($156.32 entry, stop $154.60, TP $159.76 | current ~$156.19 at order time):
-   - OPENED BY 12 PM REASSESSMENT SEP 10. Overnight: YES.
-   - Catalyst: Q1 FY27 earnings beat reported Wednesday AH — $0.59 EPS vs $0.24 est (massive), revenue $480M vs $456M est. Record funded backlog $1.5B (+37% YoY). FY27 guidance reaffirmed ($2.125B-$2.225B rev, $3.02-$3.34 EPS).
-   - JP Morgan raised PT to $210 (Overweight). UBS raised PT to $170 (Neutral). Avg analyst PT $225.89.
-   - Sector: defense/industrial. Moving on earnings beat + US-Iran conflict tailwind for defense spending.
-   - Stop: $154.60 (Donchian intraday low support as of noon). TP: $159.76. Distance: $1.72/share.
-   - TIGHT STOP: Only $1.72 below entry. Afternoon volatility could breach stop. Check price first.
-   - No earnings tonight (just reported). No binary events pending.
-   - Shares: 0.959570 (order 6aa2d60c). $150 position. LOW tier per 12 PM rules.
+2. BE ($273.58 est entry, stop $266.12, TP $288.50 | ~$275.66 at 10 AM = +0.76% from est entry):
+   - Up +6.64% from yesterday's close ($258.49).
+   - Thesis: ORCL CEO Clay Magouyrk named BE fuel cells on Q1 FY27 call (Sep 10 AH) as solution for NM data center power (bypassing delayed gas pipeline — "most environmentally friendly way"). Direct revenue validation. Also: S&P 500 inclusion effective Sep 21 (index fund forced buying ongoing).
+   - Stop: $266.12 (30-min low from 9:30-10:00 AM range). TP: $288.50 (2× stop distance).
+   - Above VWAP $272.81 at entry. Consolidating near top of opening range.
+   - Overnight: EVALUATE — clean energy/industrial sector, no earnings AH tonight. FOMC risk is primary headwind. If SPY holds gains into close, thesis for overnight is intact.
+   - Sector: Electronic Technology (clean energy/fuel cells) — NOT same sector as ORCL for correlation purposes.
+
+3. ATEC ($9.99 est entry, stop $9.345, TP $11.28 | ~$10.05 at 10 AM = +0.6% from est entry):
+   - Up +13.7% from yesterday's close ($8.84).
+   - Thesis: CEO Patrick Miles bought 115,000 shares ($1,013,150) on Sep 10 — significant insider conviction. UBS Buy PT $16. Spine surgery device company. Q2 rev beat ($213.5M vs $211.3M est), EPS in-line.
+   - Stop: $9.345 (30-min low). TP: $11.28. Stop distance $0.645 (6.5% from entry).
+   - Above VWAP $9.78, consolidating at new intraday highs ($10.05+) at 10 AM.
+   - Overnight: EVALUATE — healthcare sector, no binary events. Insider buying is multi-day narrative; can hold. But at $9.99 entry vs $23.29 52-wk high — recovery play, not strong uptrend. Size is small ($85), so risk is limited.
+   - Sector: Health Technology — no sector concentration issue.
 
 STOP PRIORITY ORDER FOR 3:15 PM:
-1. AVAV $154.60 — tight ($1.72 below entry), check first. Sell if at or below $154.60.
-2. META $648.00 — well cushioned ($4.49 below current), check second.
+1. BE $266.12 — check against current price; if below, sell.
+2. ATEC $9.345 — check against current price; if below, sell.
+3. ORCL $149.37 — check; unlikely to breach but confirm.
 
-ADDITIONAL CANDIDATES FOR 3:15 PM (if buying power available):
-- Settled cash is only ~$77.35 — effectively NO buying power for new positions unless AVAV or META sells frees up proceeds.
-- If AVAV hits TP ($159.76) or META moves up significantly, look at AVAV continuation or sector plays.
-- ORCL/ADBE report AH tonight — if strong beats, tech sentiment could improve overnight.
-- Memory sector (SNDK, MU, WDC) was weak today — do NOT re-enter same day. Re-assess tomorrow.
+OVERNIGHT HOLD EVALUATION (FOMC weekend Sep 13-14 context):
+- ORCL: Strong beat+raise, overnight YES (already committed from 9:30 AM entry). Thesis strong.
+- BE: Good catalyst, clean energy is not rate-sensitive like pure tech. S&P inclusion adds ongoing buy pressure. Overnight viable if closing above VWAP and SPY ends green. 
+- ATEC: Insider buy is multi-day but smaller conviction. Stop is relatively wide (6.5%). Only $85 position. Overnight only if price holding above $10.00 and closing near highs.
+- FOMC weekend: If you hold overnight, tight stops are critical. CPI was in-line (not hot), so FOMC is not certain hike — slight relief. But FOMC uncertainty adds risk to overnight tech/growth holds.
 
-DO NOT RE-ENTER (today Sep 10):
-SNDK — stopped out this session. Do not re-enter same day.
-MU — sold at stop this session. Do not re-enter same day.
-GLW — stopped out 9:30 AM. Do not re-enter same day.
-COHR — stopped out 9:30 AM. Do not re-enter same day.
-ALAB — stopped out 9:30 AM. Do not re-enter same day.
+DO NOT RE-ENTER (today Sep 11 — already in or stopped Sep 10):
+META — stopped Sep 10; banned for today.
+AVAV — stopped Sep 10; banned for today.
 
-DO NOT RE-ENTER (ever/until noted):
-CRM (stopped Sep 1), DG (stopped Aug 28), VEEV/MRK/ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18). WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC, ASTS, HPE, AVGO, MGNI, GTLB.
+DO NOT RE-ENTER (standing bans):
+SNDK (stopped Sep 10 12PM), MU (stopped Sep 10 12PM), GLW (stopped Sep 10 9:30AM), COHR (stopped Sep 10 9:30AM), ALAB (stopped Sep 10 9:30AM), CRM (stopped Sep 1), DG (stopped Aug 28), VEEV/MRK/ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18). WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC, ASTS, HPE, AVGO, MGNI, GTLB.
 VRNS: M&A binary (Proofpoint/Thoma Bravo) STILL PENDING — DO NOT ENTER.
-ODD: Declining fundamentals (revenue -25% YoY, EBITDA -82%) — do not enter despite any beat.
-CSR: Pending M&A (IRT acquisition) — hard disqualifier, do not enter.
-SWKS: Pending acquisition of QRVO — M&A binary pending, hard disqualifier.
+SWKS: Pending acquisition of QRVO — M&A binary, hard disqualifier.
+QRVO: Target of SWKS acquisition — hard disqualifier.
+ODD, CSR: Hard disqualifiers (see prior notes).
+ADBE: CEO transition (Narayen → Chakravarthy Dec 1) — thesis broken, do not enter.
+ACVA: M&A binary — Copart acquisition $10.50/sh pending regulatory approval. Hard disqualifier.
 
 Catalyst status carry-forward:
-- META: HELD (scanner, 12PM Sep 9). Muse AI agent. Overnight YES. No earnings tonight.
-- AVAV: HELD (scanner, 12PM Sep 10). Earnings beat Q1 FY27. Overnight YES. No earnings tonight.
-- VRNS: M&A binary PENDING. DO NOT ENTER.
+- ORCL: ENTERED at $155.59 (catalyst_watch, Sep 11 9:30 AM). Holding overnight.
+- BE: ENTERED at ~$273.58 (scanner, Sep 11 10 AM). Oracle fuel cell validation + S&P inclusion. Evaluate overnight at 3:15 PM.
+- ATEC: ENTERED at ~$9.99 (scanner, Sep 11 10 AM). CEO insider buy $1M+. Evaluate overnight at 3:15 PM.
+- ADBE: FAILED — CEO transition killed the beat. Do not chase.
+- RDDT: PENDING CPI gate. CPI was in-line (not cool) — gate not met. Price $155.10 (−0.16%); not above $158 trigger. Weak. Skip unless fresh catalyst.
+- ACVA: M&A binary (Copart $10.50/sh deal). HARD DISQUALIFIED — do not enter.
+- FEIM: Strong earnings beat Q1 FY27 (+173% EPS). BUT hard fade at open (peaked $89.76, faded to $82.83 by 10 AM, below VWAP $84.71). Skip unless price reclaims VWAP and relVol confirms.
+- RH: Q2 EPS beat (+52%) but revenue missed; BofA cut to Underperform $114. Gapped up, now below yesterday's close. Do not enter.
 
 ---
 PRE-CHECK — Market day verification
