@@ -14,28 +14,23 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET 2026-09-10.** Live sync ••••6616: 6 positions (GLW, COHR, SNDK, MU, ALAB, META). Exact match with 12 PM Sep 9 handoff. 3:15 PM agent did NOT run Sep 9 — 12 PM handoff is authoritative.
+**7:00 AM ET 2026-09-11.** Live sync ••••6616: 0 positions — fully in cash. Exact match with 3:15 PM Sep 10 handoff.
 
-**Positions:**
-- GLW: PM $165.99 (−1.47% vs $168.46 close). Stop $168.00 **BREACHED** (trailing; PM $2.01 below stop). **CRITICAL STOP BREACH** — thesis INTACT: Verizon 80M-mile fiber deal holds, no adverse news. Not a thesis break. No PM sell. 9:30 AM: sell at market if open below $168.00.
-- COHR: PM $299.40 (−1.34% vs $303.48 close). Stop $305.00 **BREACHED** (trailing; PM $5.60 below stop). **CRITICAL STOP BREACH** — no adverse news; Deutsche Bank Buy/$400 PT overnight. Thesis intact. No PM sell. 9:30 AM: sell at market if open below $305.00.
-- SNDK: PM $1,743.99 (−1.14% vs $1,764.17). Stop $1,700.00 → +2.58% cushion. **ON TRACK**. AI NAND thesis intact; buy rating/$2,100 PT maintained.
-- MU: PM $1,011.81 (−1.55% vs $1,027.77). Stop $983.00 → +2.84% cushion. **ON TRACK**. ⚠️ PPI today 8:30 AM + CPI Sep 11. Earnings Sep 30 — close by Sep 29.
-- ALAB: PM $295.46 (−1.69% vs $300.54). Stop $293.00 → +0.83% cushion only. **ON TRACK** ⚠️ very thin stop buffer. Citi conf (Sep 9) thesis intact. 9:30 AM: watch if open near $295.
-- META: PM $663.40 (+1.49% vs $653.69). TP $663.00 **BREACHED**. **TP BREACH** — do NOT PM sell; wait for open print. 9:30 AM: sell at market.
-
-**Pre-market:** SPY $762.91 (+0.07% flat). QQQ $714.33 (−0.28% mild weakness).
+**Overnight positions:** NONE.
 
 **Pre-market sells:** NONE.
 
-**Catalyst watch list:** 3:15 PM agent did not run Sep 9 — no watch list compiled for Sep 10. VRNS M&A binary STILL PENDING (Proofpoint/$5.4B bid, no deal closed) — DO NOT ENTER.
+**Catalyst watch list:**
+- ORCL: PM $163.00 (+6.58% vs $152.94 close). **CATALYST CONFIRMED — GAP UP.** Q1 FY27: Non-GAAP EPS $1.92 vs $1.67 est (+15% beat), rev +30% to $19.35B, OCF +184%. Cloud AI infra beat. Flag for 10 AM entry — confirm trending up at open. Not on banned list.
+- ADBE: PM $239.66 (−3.69% vs $248.83 close). **CATALYST FAILED (price).** Q3 FY26 beat ($6.13 EPS vs $5.84 est) + raised FY guidance — BUT CEO transition announced (Narayen → Chakravarthy, Dec 1). AH selling despite beat. **SKIP — do not enter.**
+- RDDT: PM $156.10 (+0.49% vs $155.34 close). **CATALYST PENDING (CPI gate).** 6.1% surge played out Thursday Sep 10 (relVol 0.89x, was rejected at 3:15 PM). Now flat. CPI 8:30 AM is the gating factor. MONITOR — if CPI cool and RDDT breaks above $158, re-evaluate at 10 AM.
 
-**Overnight macro:**
-- PPI 8:30 AM ET today (Sep 10, exp +0.3% MoM/+5.3% YoY); CPI tomorrow Sep 11 — critical pre-FOMC data.
-- Oil >$100/barrel (Iran/US); rate hike odds ~51%; FOMC Sep 15–16.
-- Futures mixed; broad market near flat overnight.
+**Macro:**
+- SPY PM $762.11 (+0.56%), QQQ PM $713.11 (+0.62%) — mild green.
+- CPI Aug 8:30 AM ET today: exp +0.4% MoM / +3.4% YoY; core +0.2% / +2.4%. Hot PPI yesterday raised hike odds to ~73%. Cool CPI = relief rally; hot = tech sell-off. FOMC Sep 15–16.
+- Oil declined overnight (supportive). ORCL beat driving positive tech PM sentiment.
 
-SUMMARY: 2 CRITICAL STOP BREACH (GLW/COHR — no PM sells; 9:30 AM to action at open), 1 TP BREACH (META — 9:30 AM sell at market), 3 ON TRACK (SNDK/MU/ALAB). 0 catalyst tickers confirmed. Email sent: GLW/COHR stop breach + META TP alert.
+**SUMMARY:** 0 overnight positions, 0 pre-market sells. Catalyst: ORCL CONFIRMED +6.58% (10 AM candidate), ADBE SKIP (CEO transition), RDDT MONITOR (CPI gate). Email sent: ORCL catalyst alert.
 
 ---
 
