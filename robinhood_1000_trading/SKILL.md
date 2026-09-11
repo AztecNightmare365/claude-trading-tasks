@@ -94,80 +94,99 @@ RAW STATS:
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-Last updated: 2026-09-10 (~3:20 PM ET — 3:15 PM session complete)
+Last updated: 2026-09-11 (~3:15 PM ET — 3:15 PM session complete)
 
-Open positions held overnight: **1 (ORCL — added by 9:30 AM open reaction agent, Sep 11)**
+Open positions held overnight: **3 (ORCL, BE, ATEC)**
 
-No overnight positions carried from 3:15 PM session. ORCL catalyst entry added by 9:30 AM agent.
+| Ticker | Shares | Entry Price | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
+|--------|--------|-------------|------|----|-----------|-----------------|------------|
+| ORCL | 2.570860 | $155.59 | $149.37 | $168.03 | YES | Q1 FY27 beat+raise (EPS $1.92 vs $1.67, rev +30%, OCF +184%, full-year raised); $664B RPO; cloud AI infra | catalyst_watch |
+| BE | 0.622357 | $273.91 | $266.12 | $288.50 | YES | ORCL CEO confirmed BE fuel cells for NM data center; S&P 500 inclusion Sep 21; Zacks #1 Strong Buy | scanner |
+| ATEC | 8.585630 | $9.96 | $9.96 | $11.28 | YES | CEO Patrick Miles bought 115,000 shares ($1.01M) Sep 10; UBS Buy PT $16; STOP AT BREAKEVEN — risk-free | scanner |
 
-**ADDED BY 9:30 AM AGENT:**
-- ORCL: 2.570860 sh | entry $155.5899 | stop $149.37 | TP $168.03 | catalyst: earnings_beat+guidance_raise (Q1 FY27 EPS +15%, rev +30%, cloud AI infra, full-year raised) | sector: tech | entry_type: catalyst_watch | overnight: YES | ⚠️ Volatile open — quoted $165.74 at 9:30:50, filled $155.59 at 9:34:46 (stock gapped up then faded -6.1% in 4 min; still +1.73% vs $152.94 close). UBS Buy, PT $250. No binary tonight.
+3:15 PM prices (vs entry and stops):
+- ORCL: $151.29 | −2.76% from entry | −1.08% on day | stop $149.37 (buffer $1.92 / 1.27%)
+- BE: $275.74 | +0.67% from entry | +6.68% on day | stop $266.12 (buffer $9.62 / 3.49%)
+- ATEC: $10.47 | +5.12% from entry | +18.43% on day | stop $9.96 breakeven (buffer $0.51 / 4.87%)
 
-**SOLD THIS SESSION (stop_loss):**
-- META: 0.032162 sh sold at $644.921 (filled 19:20:48Z). Entry $652.94. P&L: −1.23% (−$0.26). Stop $648.00 breached — close $645.84 at 3:15 PM eval.
-- AVAV: 0.958682 sh sold at $149.6001 (filled 19:20:40Z). Entry $156.4648. P&L: −4.39% (−$6.58). Stop $154.60 breached — close $150.60 at 3:15 PM eval. (Opened by 12 PM reassessment Sep 10; earnings beat catalyst faded sharply into close on macro selling.)
+Stop check: All three above stops. No hard exits triggered.
+Trail check: ORCL did not recover above $156 (no trail). BE below $279.49 trigger (no trail). ATEC below $10.50 trigger (no trail).
 
-**No new overnight buys opened.** Reasons:
-1. CPI report Sep 11 BMO (TOMORROW) — macro binary. Hot PPI today (+5.4% YoY annual, above 5.3% est.) raises probability of hot CPI → confirmed rate hike at FOMC Sep 15–16.
-2. CME FedWatch rate hike odds climbed to ~70% intraday.
-3. ORCL and ADBE reporting AH tonight — disqualified as candidates; tech sentiment uncertain.
-4. Only $77.35 settled cash available.
-5. Thursday (historically worst day for this account — 15.4% WR, −$25.17 net).
-6. Best scanner candidate RDDT (+6.6%): relVol 0.89x (below 1.2x threshold), below 50-day and 200-day SMA, bearish options flow — failed overnight filter.
+⚠️ ATEC near trail trigger: Closed $10.47 vs trigger $10.50. If ATEC opens Monday at or above $10.50, immediately trail stop to $10.05–$10.10 (intraday support from Sep 11).
 
-**Portfolio:**
-- Settled cash: $77.35
-- Unsettled cash: ~$797 (prior unsettled $633.55 + today's sells ~$164)
-- Total account value: ~$875
-- Invested: 0%
+No buys this session: Portfolio at 75% cap. Effective available = $1.74 (below $10 minimum). Steps 4 & 5 skipped.
 
-**CATALYST WATCH LIST — for 10 AM agent Sep 11:**
-| Ticker | Catalyst | Timing | Direction Bias | Risk |
-|--------|----------|--------|----------------|------|
-| ORCL | Q1 FY27 earnings ($1.67 EPS est; cloud AI infra thesis) | AH tonight Sep 10 | Bullish if beat + cloud guidance raise | MEDIUM |
-| ADBE | Q3 FY26 earnings ($5.84 EPS est; AI headwinds, −27% YTD) | AH tonight Sep 10 | Cautious — AI competition narrative, Zacks Sell | HIGH |
-| RDDT | User growth catalyst: Piper Sandler note (8% MoM Aug, fastest of 2026), Goldman Sachs CEO conference | Continue trend (conditional on cool CPI) | Bullish if CPI prints cool and market opens up | MEDIUM |
+Settled cash: $219.09
+Total account value: $869.54
+Portfolio invested: 74.8% (at 75% cap — no buying power unless a position stops out)
+SPY close: $764.90 (+0.93%) — NORMAL REGIME
 
-**10 AM AGENT NOTES (Sep 11, 2026):**
+Sessions completed Sep 11:
+- 7 AM: 0 overnight positions confirmed, ORCL catalyst watch
+- 9:30 AM: ORCL bought (catalyst_watch, 2.570860 sh at $155.59)
+- 10 AM: BE bought ($273.91, 0.622357 sh); ATEC bought ($9.96, 8.585630 sh)
+- 12 PM: ATEC stop trailed $9.345 → $9.96 (breakeven). No other orders.
+- 3:15 PM: All three holds. No buys (at cap). No sells.
 
-MACRO OVERNIGHT RISKS:
-- CPI Sep 11 BMO (8:30 AM ET): Critical. August PPI today came in hot (+5.4% YoY); core inflation momentum elevated. If CPI hot → rate hike nearly certain Sep 15-16. If cool → relief rally possible.
-- ORCL/ADBE AH tonight: Tech sentiment driver for tomorrow open. ORCL down 3.4% today heading into print (cloud/AI infra narrative). ADBE weak YTD and faces competition narrative.
-- WTI crude $101+, 10yr yield 4.93% (highest since 2023), 30yr 5.35% (highest since 2007).
-- FOMC Sep 15–16: Rate hike decision week. All macro data this week feeds directly into that decision.
+---
 
-SECTOR CONTEXT TODAY:
-- Leading: XLC (comm services +0.7%) — RDDT, META benefited
-- Lagging: XLB (materials −1.3%), XLK (tech −1.0%), SMH (semis −2.3%)
-- Memory/semis sector broadly weak all day. Do NOT re-enter SNDK/MU/GLW/COHR/ALAB today (Sep 11).
+NOTES FOR 7 AM / 10 AM AGENT (Monday Sep 14, 2026):
 
-DO NOT RE-ENTER (Sep 10 stops, banned Sep 11):
-META, AVAV (same-day policy: do not re-enter day after stop)
+⚠️ FOMC WEEK: Sep 15–16 meeting. Rate hike 25 bps at ~86–90% probability. Decision Wed Sep 16 at 2 PM ET. Monday's open will reflect FOMC positioning anxiety — do NOT confuse broad-market pressure with individual thesis breaks for our positions.
 
-DO NOT RE-ENTER (standing bans):
+ORCL ($151.29 close, stop $149.37 — TIGHT $1.92 buffer):
+- Thesis intact: Q1 FY27 beat+raise, $664B RPO, cloud AI infra. Multiple Buy ratings (Guggenheim $400, DA Davidson $225, Cantor $284, UBS $250).
+- Stock round-tripped entire earnings gap (high $167.67 → close $151.29, near day low). Digesting capex surprise ($28.5B Q1 actual vs $19.3B est) and FOMC anxiety.
+- Known concern (NOT new): Zacks flagged OpenAI reportedly >50% of backlog (concentration), BBB- credit downgrade, $70B capex FY2027, 4.7% dilution planned. These are priced in pre-earnings and explain the muted post-beat reaction.
+- ⚠️ If ORCL opens Monday below $149.37 → STOP HIT, sell immediately (market order, no hesitation).
+- If ORCL opens above $155 → consider trailing stop to $151–$152.
+
+BE ($275.74 close, stop $266.12 — wide $9.62 buffer):
+- Thesis very strong: ORCL CEO named BE fuel cells for NM data center (direct revenue catalyst, confirmed on Q1 FY27 call). S&P 500 inclusion Sep 21 (passive fund buying ongoing). Zacks #1 Strong Buy (104.3% projected 2026 revenue growth, 38% LT earnings growth, $20B backlog). Clean energy is NOT rate-sensitive — best FOMC insulation of the three positions.
+- If BE opens above $279.49 (2% above $273.91 entry) → trail stop to $272–$273.
+- TP $288.50. If opening near TP, evaluate partial take vs. holding for S&P inclusion.
+
+ATEC ($10.47 close, stop $9.96 BREAKEVEN — RISK-FREE):
+- Thesis: CEO Patrick Miles Form 4 confirmed 115,000 shares at $8.81 avg on Sep 10 ($1.01M). UBS Buy PT $16 (+52% upside from close). Health/medtech is least macro-sensitive of the three.
+- Context: Old securities lawsuits (May 2026, Q1 miss) are background. CEO bought AFTER investigations — insider confidence signal. Not a new headwind.
+- If ATEC opens at or above $10.50 → immediately trail stop to $10.05–$10.10.
+- TP $11.28 (+7.7% from $10.47 close).
+
+SECTOR MIX:
+- Tech (ORCL): ~44.7% of account — AT SECTOR CAP. No new tech positions regardless of buying power.
+- Clean energy (BE): ~19.7% of account.
+- Healthcare/medtech (ATEC): ~10.3% of account.
+
+MACRO AT CLOSE Sep 11:
+- SPY $764.90 (+0.93%), QQQ $715.68 (+0.99%) — positive Friday close into FOMC weekend
+- CPI Aug: +0.4% MoM in-line; core +0.3% (slightly hot vs +0.2% est)
+- Michigan Consumer Sentiment Sep prelim: 47.8 (second-lowest reading ever) — extreme consumer pessimism
+- WTI oil: −2.8% to ~$99.63 (pullback from $102, helpful for inflation path)
+- FOMC Sep 15–16: hike odds ~86–90%; decision Wed Sep 16 at 2 PM ET
+
+BUYING POWER AT MONDAY OPEN:
+- Settled cash: $219.09 (fully settled — no unsettled funds)
+- Effective headroom to 75% cap: ~$1.74 — NO new buys unless a position stops out first
+- If ORCL stops out → frees ~$389 → use in non-tech only (tech sector at cap regardless)
+- If BE stops out → frees ~$172 → evaluate; tech still blocked by ORCL
+- If ATEC stops out → frees ~$90 → very limited room opens
+
+DO NOT RE-ENTER (standing bans — carry forward to Monday):
+META, AVAV (stopped Sep 10 — do not re-enter Monday Sep 14)
 SNDK (stopped Sep 10 12PM), MU (stopped Sep 10 12PM), GLW (stopped Sep 10 9:30AM), COHR (stopped Sep 10 9:30AM), ALAB (stopped Sep 10 9:30AM), CRM (stopped Sep 1), DG (stopped Aug 28), VEEV/MRK/ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18). WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC, ASTS, HPE, AVGO, MGNI, GTLB.
-VRNS: M&A binary PENDING — DO NOT ENTER.
+VRNS: M&A binary (Proofpoint/Thoma Bravo) STILL PENDING — DO NOT ENTER.
 SWKS: Pending acquisition of QRVO — M&A binary, hard disqualifier.
 QRVO: Target of SWKS acquisition — hard disqualifier.
 ODD, CSR: Hard disqualifiers (see prior notes).
+ADBE: CEO transition (Narayen → Chakravarthy Dec 1) — thesis broken, do not enter.
+ACVA: Copart acquisition $10.50/sh DEAL CONFIRMED Sep 11 — hard disqualifier.
+RH: BofA cut to Underperform $114. Do not enter.
+RDDT: No fresh catalyst since CPI in-line Sep 11. Skip unless major new development.
 
-New buys at 3:15 PM: NONE
-
-Skipped new buy candidates (all evaluated and ruled out):
-- CBRS (Cerebras Systems, +10.5%, rel vol 2.40x, $45B cap): DISQUALIFIED — intraday low $190.79 is 9.3% below entry $210.35, exceeds 8% hard cap. CS-4 AI accelerator (Sep Q GA) + 165 MW Finland data center = strong catalyst. Re-check Tue Sep 9 if in top 25% and stop ≤8%.
-- ALAB (+10.3%, rel vol 1.71x, $49B cap): DISQUALIFIED — intraday low $285.84 is 8.4% below entry $312; same disqualifier as 10 AM session. Catalyst still valid.
-- WDC (+4.7%, priority watchlist): Not in top 25% of intraday range; confirmed Q4 FY26 beat + AI storage multi-year agreements; Kioxia merger discussions = M&A binary risk on 3-day weekend. Re-check Tue Sep 9 for deal news.
-- AMAT (+3.6%, priority watchlist): Not in top 25%; opened near high and faded all session. Intraday stop distance only 1.8%.
-- UCTT (+8.2%, rel vol 1.92x, above VWAP $71.85): Best remaining candidate — but stop distance 5.1% exceeds Labor Day 3-4% guideline; multi-month downtrend from $144 ATH (June 2026). Re-check Tue Sep 9.
-- SKHY: ADR — hard disqualified.
-
-Settled cash at 9:30 AM open: $558.93 (DELL+KLAC proceeds settled today)
-After 9:30 AM orders: ~$408.93 settled ($558.93 − $150 CBRS buy)
-Unsettled from MU sell today (settles Wed Sep 10 T+1): ~$175.88
-Total account value: ~$912 (SNDK ~$180 + CBRS ~$150 + $408.93 settled + $175.88 unsettled)
-Portfolio invested: ~37% (SNDK + CBRS only; MU proceeds unsettled)
-
-75% cap at 10 AM: Use live account value × 0.75. Estimated buyable = ~$330 (cap-limited) with ~$409 settled cash available.
+CATALYST WATCH LIST — for 10 AM agent Monday Sep 14, 2026:
+| Ticker | Catalyst | Timing | Direction Bias | Risk |
+|--------|----------|--------|----------------|------|
+| FEIM | Q1 FY26 earnings beat (+173% EPS vs est, rev $23.5M vs $18.2M est +29%); stock +30.7% Sep 11; market cap ~$679M (confirmed >$500M) | Continuation Mon Sep 14 (beat reported AH Sep 10, ran intraday Sep 11) | Bullish continuation if holds above Sep 11 close, profit-taking risk after 30%+ single-day run | MEDIUM — require: (1) buying power open, (2) VWAP reclaim + relVol ≥1.5x Monday morning, (3) catalyst qualifies as brand-new dated event (exception to 20%-in-5-days rule applies) |
 
 ---
 CRITICAL NOTES FOR 7 AM / 10 AM AGENT (Tue Sep 9, 2026 — first day after Labor Day weekend):
