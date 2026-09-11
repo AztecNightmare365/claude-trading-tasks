@@ -37,26 +37,21 @@ Execute all steps in order, then place all orders simultaneously.
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET 2026-09-10.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
+**9:30 AM ET 2026-09-11.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
 
-**Sells (stop_loss — 3 triggered):**
-- GLW: open $164.67 < stop $168.00 → SOLD 1.370944 sh at $164.671. P&L: −0.11% (−$0.25). Entry $164.85 [10AM Sep 8, scanner].
-- COHR: open $296.88 < stop $305.00 → SOLD 0.322120 sh at $296.880. P&L: −1.41% (−$1.37). Entry $301.13 [10AM Sep 8, scanner].
-- ALAB: open $290.90 < stop $293.00 → SOLD 0.316564 sh at $284.021. P&L: −7.31% (−$7.09). Entry $306.42 [10AM Sep 9, manual]. ⚠️ Heavy slippage — filled $8.98 below stop due to gap-down open.
+**Overnight positions:** NONE. 0 stop/TP sells.
 
-**META: TP NOT triggered.** Pre-market TP breach at $663.40 did NOT hold at open. Open $649.64 < TP $663.00 → HOLD. −0.51% from entry. Stop $648.00 still active.
+**Portfolio sync:** 0 positions pre-open — exact match with 7 AM brief and 3:15 PM handoff. 0 manual adoptions.
 
-**Positions held (above stop at open):**
-- SNDK: open $1,724.87 > stop $1,700.00 ✓ HOLD. ⚠️ GAP DOWN −2.23% vs close; first-bar low $1,705.20 (only $5.20 above stop). 10 AM: monitor.
-- MU: open $994.52 > stop $983.00 ✓ HOLD. ⚠️ GAP DOWN −3.23% vs close; first-bar low $985.31 ($2.31 above stop). PPI today driving broad softness.
+**SPY** $764.59 (+0.89%), **QQQ** $714.64 (+0.84%) — NORMAL REGIME. CPI +0.4% MoM in-line.
 
-**Catalyst entries:** NONE (no watch list for Sep 10 — 3:15 PM agent did not run Sep 9).
+**Catalyst entries (1):**
+- ORCL: CONFIRMED (Q1 FY27 EPS $1.92 vs $1.67 est +15%, rev +30%, OCF +184%, full-year guidance raised). Initial open quote $165.745 (+8.37%). Filled $155.5899 at 9:34:46 ET — stock faded sharply in first 4 min (+1.73% vs $152.94 close at fill). 2.570860 sh. Stop $149.37 (4% below entry). TP $168.03 (2× stop dist). entry_type: catalyst_watch. Overnight: YES. ⚠️ UBS Buy, PT $250. No binary tonight.
 
-**Portfolio sync:** 6 positions pre-open (GLW, COHR, SNDK, MU, ALAB, META) — exact match with 7 AM brief. 0 manual adoptions. After sells: 3 remain.
+**RDDT:** PENDING → passed to 10 AM (CPI in-line, not cool; 7 AM brief routed RDDT to 10 AM).
+**ADBE:** FAILED — CEO transition killed the beat. Skipped.
 
-**SPY** $758.02 (−0.57%), **QQQ** $708.31 (−1.12%) — NORMAL REGIME (SPY gate is <2% down; within bounds).
-
-Status: 3 stop sells (GLW/COHR/ALAB), 0 catalyst entries, 3 positions open for 10 AM (SNDK stop $1,700 ⚠️thin, MU stop $983 ⚠️thin, META stop $648).
+Status: 0 stop/TP sells, 1 catalyst entry (ORCL), 1 position open for 10 AM.
 
 ---
 
@@ -101,9 +96,12 @@ RAW STATS:
 
 Last updated: 2026-09-10 (~3:20 PM ET — 3:15 PM session complete)
 
-Open positions held overnight: **0 — fully in cash**
+Open positions held overnight: **1 (ORCL — added by 9:30 AM open reaction agent, Sep 11)**
 
-No overnight positions. Both positions (META and AVAV) hit stop-loss levels and were sold at market.
+No overnight positions carried from 3:15 PM session. ORCL catalyst entry added by 9:30 AM agent.
+
+**ADDED BY 9:30 AM AGENT:**
+- ORCL: 2.570860 sh | entry $155.5899 | stop $149.37 | TP $168.03 | catalyst: earnings_beat+guidance_raise (Q1 FY27 EPS +15%, rev +30%, cloud AI infra, full-year raised) | sector: tech | entry_type: catalyst_watch | overnight: YES | ⚠️ Volatile open — quoted $165.74 at 9:30:50, filled $155.59 at 9:34:46 (stock gapped up then faded -6.1% in 4 min; still +1.73% vs $152.94 close). UBS Buy, PT $250. No binary tonight.
 
 **SOLD THIS SESSION (stop_loss):**
 - META: 0.032162 sh sold at $644.921 (filled 19:20:48Z). Entry $652.94. P&L: −1.23% (−$0.26). Stop $648.00 breached — close $645.84 at 3:15 PM eval.

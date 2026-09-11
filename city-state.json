@@ -1,15 +1,30 @@
 {
-  "ts": "2026-09-10T19:21:00Z",
-  "source": "robinhood_1515_trading",
+  "ts": "2026-09-11T13:36:30Z",
+  "source": "robinhood_0930_open",
   "portfolio": {
-    "totalValue": 875.06,
-    "cash": 875.06,
-    "equityValue": 0,
-    "buyingPower": 77.35,
-    "positions": []
+    "totalValue": 874.71,
+    "cash": 475.06,
+    "equityValue": 399.65,
+    "buyingPower": 475.06,
+    "positions": [
+      {
+        "ticker": "ORCL",
+        "shares": 2.57086,
+        "entry": 155.5899,
+        "current": 155.455,
+        "plPct": -0.09,
+        "managed": true
+      }
+    ]
   },
   "fills": [
-    { "id": "6aa30307-f08e-49b9-8a44-848cf4d1ff3c", "side": "sell", "ticker": "AVAV", "qty": 0.958682, "price": 149.6001, "at": "2026-09-10T19:20:40.056Z" },
-    { "id": "6aa30310-5b2b-4788-87bc-001d1213f003", "side": "sell", "ticker": "META", "qty": 0.032162, "price": 644.921, "at": "2026-09-10T19:20:48.386Z" }
+    {
+      "id": "6aa40376-2d8d-44df-8d47-fc1206e3a0ab",
+      "side": "buy",
+      "ticker": "ORCL",
+      "qty": 2.57086,
+      "price": 155.5899,
+      "at": "2026-09-11T13:34:46.99Z"
+    }
   ]
 }
