@@ -223,33 +223,33 @@ Only log completed (exited) trades. Include trade_log.csv in the git commit from
 ---
 
 ## LEARNED INSIGHTS
-<!-- Updated by weekly review agent. Last updated: 2026-09-05. Based on 48 closed trades. -->
+<!-- Updated by weekly review agent. Last updated: 2026-09-12. Based on 59 closed trades. -->
 
 MODE: AGGRESSIVE (owner-set 2026-09-03). Trade actively; do NOT sit in cash when qualifying candidates exist. The insights below are scoring/sizing preferences, NOT participation gates.
 
-OVERALL: Win rate 41.7%, profit factor 1.17, net P&L $15.30
+OVERALL: Win rate 37.3%, profit factor 0.99, net P&L -$1.56
 
 SCORING / SIZING PREFERENCES (rank & size by these — never skip a session over them):
-1. Monday entries: 6/8 = 75.0% WR, +$56.06 net — give Monday setups a scoring boost; size at HIGH tier when all other criteria met. (N=8)
-2. Tuesday entries: 6/9 = 66.7% WR — strong day; score at HIGH tier for qualifying setups. Dollar net is pulled down by two outlier manual losses (AMD 12PM, AMAT 8/18); underlying win rate is solid. (N=9)
-3. Manual (user-selected) entries: 8/13 = 61.5% WR, avg +2.96% — when user manually flags a ticker on a confirmed catalyst, treat as HIGH conviction; size at HIGH tier. (N=13)
-4. Tech sector: 14/28 = 50.0% WR, +$40.46 net — the only sector with consistently positive net P&L; all non-tech sectors combined are -$25.16. Give tech a scoring boost over equal-quality non-tech setups. (N=28)
-5. "Other" catalyst: 4/6 = 66.7% WR, avg +1.34% — non-standard catalyst setups (product launches, market share gains, supply chain news) win as reliably as manual entries; do not penalize for lacking a textbook catalyst label. (N=6)
-6. Earnings_beat with explicit guidance raise in mega-cap tech: AMZN + PLTR ×3 = $58.37 from 4 trades — 54% of all gross wins. Prioritize confirmed-raise tech beats; size at HIGH tier. (N=4 qualifying)
-7. 3:15PM tech overnight entries: 4/6 = 66.7% WR — tech holds from 3:15PM are strong; size confidently when stop gap ≤4% and thesis intact. (N=6)
-8. analyst_upgrade catalyst: 2/4 = 50.0% WR — solid; score above sector_momentum; take all qualifying setups. (N=4)
-9. 10AM session: 13/31 = 41.9% WR, +$45.76 net — standard morning session; apply normal scoring. (N=31)
-10. sector_momentum catalyst: 2/7 = 28.6% WR, avg -0.09% — weakest catalyst label. HARD REQUIREMENT (not just a sizing preference): a sector_momentum-only entry must show relative volume >=1.5x AND price above VWAP before it's allowed at all — missing either one, skip the candidate entirely rather than sizing down. When both are present, still start at STANDARD or LOW tier unless paired with a stronger signal (manual, tech sector, Mon/Tue). (N=7)
+1. Monday entries: 6/8 = 75.0% WR, avg +$7.01/trade — give Monday setups a scoring boost; size at HIGH tier when all other criteria met. (N=8)
+2. Tuesday entries: 8/12 = 66.7% WR, avg +$1.32/trade — strong day; score at HIGH tier for qualifying setups. Includes Sep 8 sector momentum wins (MU +$7.75, SNDK +$14.24). (N=12)
+3. Manual (conviction) entries: 8/16 = 50.0% WR, net +$12.68 — when user or agent flags a ticker with high conviction on a confirmed catalyst, size at HIGH tier. (N=16)
+4. Tech sector: 16/38 = 42.1% WR — dominant sector with most data; score tech setups above equal-quality non-tech. (N=38)
+5. Earnings_beat + explicit guidance raise in mega-cap tech: AMZN + PLTR ×3 = $58.37 from 4 trades — 45% of all gross wins. Prioritize confirmed-raise tech beats; size at HIGH tier. (N=4 qualifying)
+6. analyst_upgrade catalyst: 2/4 = 50.0% WR — solid; score above sector_momentum; take all qualifying setups. (N=4 — small sample, continue tracking)
+7. 3:15PM session: 5/10 = 50.0% WR — best session win rate; size at STANDARD-HIGH for overnight holds with intact thesis; watch tail risk from consumer/high-vol overnight holds (see SIZE-DOWN). (N=10)
+8. 10AM session: 15/39 = 38.5% WR, net +$38.01 — reliable morning session with best absolute net P&L; apply normal scoring. (N=39)
+9. earnings_beat catalyst overall: 12/30 = 40.0% WR — most reliable single-word catalyst; score above sector_momentum and "other". (N=30)
+10. sector_momentum catalyst: 4/12 = 33.3% WR — weakest repeating catalyst. HARD REQUIREMENT (not just a sizing preference): a sector_momentum-only entry must show relative volume >=1.5x AND price above VWAP before it's allowed at all — missing either one, skip the candidate entirely rather than sizing down. When both are present, still start at STANDARD or LOW tier unless paired with a stronger signal (manual, tech sector, Mon/Tue). (N=12)
 
-SIZE-DOWN (don't skip — just take smaller): Consumer sector (2/5 = 40% WR, -$17.76 net; overnight consumer holds are especially destructive: DG -$10.08, ANF -$10.48, KO -$4.55; size at LOW-STANDARD for any overnight consumer hold). Financials (0/3 = 0% WR; size at LOW tier). Thursday entries (2/13 = 15.4% WR, -$25.17 net — far worst day; take qualifying setups but start at STANDARD tier, not HIGH). catalyst_watch entry path (0/5 = 0% WR so far; take these entries but size at LOW tier until win rate improves; confirm VWAP hold + continued uptrend). 12PM session (2/6 = 33.3% WR, -$15.21 net; do not re-enter a ticker already traded same day — AMD 12PM re-entry = -$14.73).
-LEAN INTO (rank highest, size larger): Manual tech entries on confirmed earnings beat + raised guidance — AMZN (+$21.30) + PLTR ×3 (+$37.07) = $58.37 from 4 trades, 54% of all gross wins. Pattern: large-cap tech, explicit guidance raise confirmed, high-conviction manual selection. No other trade category approaches this dollar contribution.
+SIZE-DOWN (don't skip — just take smaller): catalyst_watch entry path (0/6 = 0.0% WR, -$19.49 net — every catalyst_watch entry has lost; size at LOW tier until win rate improves; confirm VWAP hold + continued uptrend at time of entry). Thursday entries (3/20 = 15.0% WR, avg -$2.78/trade — worst day by far; take qualifying setups but start at STANDARD, not HIGH; do not stack multiple new Thursday entries in same sector). Industrial sector (1/6 = 16.7% WR — LOW-STANDARD tier). Consumer overnight holds (2/5 = 40% but DG -$10.08, ANF -$10.48, KO -$4.55 are three of the account's largest single losses — LOW tier for any overnight consumer hold). 12PM session (2/9 = 22.2% WR, avg -$2.70/trade — size ~20% smaller; never re-enter a ticker already stopped or traded same day).
+LEAN INTO (rank highest, size larger): Manual tech entries on confirmed earnings beat + raised guidance — AMZN (+$21.30) + PLTR ×3 (+$37.07) = $58.37 from 4 trades, 45% of all gross wins. Pattern: large-cap tech, explicit guidance raise confirmed, high-conviction entry. No other trade category approaches this dollar contribution.
 
-STILL IN FORCE (risk rails — never weaken): per-trade stop-losses, dollar-risk sizing, 25% single-name cap, 75% portfolio cap, sector cap (max 2 positions / 40% of account in one sector — see Step 3), sector_momentum-catalyst entries hard-gated on relative volume >=1.5x AND price above VWAP (not a sizing-only preference), hard disqualifiers for pending binary events (FDA/M&A/clinical/court) and same-day earnings.
+STILL IN FORCE (risk rails — never weaken): per-trade stop-losses, dollar-risk sizing, 25% single-name cap, 75% portfolio cap, sector cap (max 2 open positions / 40% of account value in one sector at a time — see each session's Step 3/4), sector_momentum-catalyst entries hard-gated on relative volume >=1.5x AND price above VWAP (not a sizing-only preference), hard disqualifiers for pending binary events (FDA/M&A/clinical/court) and same-day earnings.
 
 RAW STATS:
-- Best catalyst: "other" (66.7% WR, N=6); earnings_beat (41.4% WR, N=29, +$25.11 net $ — driven by mega-cap tech beats)
-- Best sector: tech (50.0% WR, N=28, +$40.46 net); worst: financials (0.0% WR, N=3)
-- Best session to open: 3:15PM (50.0% WR, N=10); best by net $: 10AM (+$45.76, N=31)
-- Stop triggered rate: 50.0% of trades (24/48)
-- TP hit rate: 10.4% of trades (5/48)
+- Best catalyst: analyst_upgrade (50.0% WR, N=4); earnings_beat (40.0% WR, N=30, best absolute $ contribution)
+- Best sector: tech (42.1% WR, N=38); healthcare (50.0% WR, N=4 — small sample)
+- Best session to open: 3:15PM (50.0% WR, N=10); best by net $: 10AM (+$38.01, N=39)
+- Stop triggered rate: 55.9% of trades (33/59)
+- TP hit rate: 11.9% of trades (7/59)
 ---
