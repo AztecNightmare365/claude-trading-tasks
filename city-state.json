@@ -1,38 +1,19 @@
 {
-  "ts": "2026-09-15T13:33:00Z",
-  "source": "robinhood_0930_open",
+  "ts": "2026-09-15T19:30:00Z",
+  "source": "robinhood_1515_trading",
   "portfolio": {
-    "totalValue": 845.16,
-    "cash": 219.09,
-    "equityValue": 92.42,
-    "buyingPower": 219.09,
+    "totalValue": 844.71,
+    "cash": 592.74,
+    "equityValue": 251.97,
+    "buyingPower": 59.09,
     "positions": [
-      {
-        "ticker": "ATEC",
-        "shares": 8.585630,
-        "entry": 9.96,
-        "current": 10.765,
-        "plPct": 8.08,
-        "managed": true
-      }
+      {"ticker": "ATEC", "shares": 8.585630, "entry": 9.96, "current": 10.71, "plPct": 7.53, "managed": true},
+      {"ticker": "FPS", "shares": 5.063291, "entry": 31.60, "current": 31.60, "plPct": 0.0, "managed": true}
     ]
   },
   "fills": [
-    {
-      "id": "6aa948d4-50ce-489a-baab-81d4426ee9fd",
-      "side": "sell",
-      "ticker": "ORCL",
-      "qty": 2.57086,
-      "price": 144.09,
-      "at": "2026-09-15T13:32:04Z"
-    },
-    {
-      "id": "6aa948d4-c1bc-4159-8c45-101e9f384e13",
-      "side": "sell",
-      "ticker": "BE",
-      "qty": 0.622357,
-      "price": 262.2434,
-      "at": "2026-09-15T13:32:05Z"
-    }
+    {"id": "6aa948d4-50ce-489a-baab-81d4426ee9fd", "side": "sell", "ticker": "ORCL", "qty": 2.570860, "price": 144.09, "at": "2026-09-15T13:32:04.369Z"},
+    {"id": "6aa948d4-c1bc-4159-8c45-101e9f384e13", "side": "sell", "ticker": "BE", "qty": 0.622357, "price": 262.2434, "at": "2026-09-15T13:32:05.114Z"},
+    {"id": "6aa99c4c-59b0-4bda-8505-c24f8b38a73e", "side": "buy", "ticker": "FPS", "qty": 5.063291, "price": 31.60, "at": "2026-09-15T19:28:12.738Z"}
   ]
 }
