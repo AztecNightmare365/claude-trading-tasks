@@ -37,21 +37,21 @@ Cause: Securities class action (China scandium supply chain) + macro; Sep 14 low
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET 2026-09-11.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
+**9:30 AM ET 2026-09-15.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
 
-**Overnight positions:** NONE. 0 stop/TP sells.
+**Sells executed (2 stop-loss):**
+- ORCL: open $144.09 | stop $149.37 | −7.39% / −$29.56 | 2.570860 sh | SOLD BY 9:30 AM AGENT — stop_loss — do not re-enter
+- BE: open $262.24 | stop $266.12 | −4.26% / −$7.26 | 0.622357 sh | SOLD BY 9:30 AM AGENT — stop_loss — do not re-enter
 
-**Portfolio sync:** 0 positions pre-open — exact match with 7 AM brief and 3:15 PM handoff. 0 manual adoptions.
+**ATEC held:** open $10.765 (−0.88% vs $10.86 Sep 14 close) | stop trailed $9.96 → $10.08 (open ≥$10.50 trigger met) | TP $11.28 | entry_type: scanner | Overnight: YES
 
-**SPY** $764.59 (+0.89%), **QQQ** $714.64 (+0.84%) — NORMAL REGIME. CPI +0.4% MoM in-line.
+**Portfolio sync:** Exact match with handoff (ORCL/BE/ATEC). 0 manual adoptions.
 
-**Catalyst entries (1):**
-- ORCL: CONFIRMED (Q1 FY27 EPS $1.92 vs $1.67 est +15%, rev +30%, OCF +184%, full-year guidance raised). Initial open quote $165.745 (+8.37%). Filled $155.5899 at 9:34:46 ET — stock faded sharply in first 4 min (+1.73% vs $152.94 close at fill). 2.570860 sh. Stop $149.37 (4% below entry). TP $168.03 (2× stop dist). entry_type: catalyst_watch. Overnight: YES. ⚠️ UBS Buy, PT $250. No binary tonight.
+**SPY** $759.90 (−0.13%), **QQQ** $708.54 (−0.09%) — NORMAL REGIME. FOMC week: decision Wed Sep 16 2 PM.
 
-**RDDT:** PENDING → passed to 10 AM (CPI in-line, not cool; 7 AM brief routed RDDT to 10 AM).
-**ADBE:** FAILED — CEO transition killed the beat. Skipped.
+**FEIM** $85.27 (−0.27% vs $85.50 Sep 14 close) — FLAT/DOWN at open. Passed to 10 AM. Do NOT enter at open.
 
-Status: 0 stop/TP sells, 1 catalyst entry (ORCL), 1 position open for 10 AM.
+**Status:** 2 stop-loss sells (ORCL/BE), 0 catalyst entries, 1 position open for 10 AM (ATEC).
 
 ---
 
@@ -96,18 +96,18 @@ RAW STATS:
 
 Last updated: 2026-09-11 (~3:15 PM ET — 3:15 PM session complete)
 
-Open positions held overnight: **3 (ORCL, BE, ATEC)**
+Open positions held overnight: **1 (ATEC)** — ORCL/BE sold by 9:30 AM agent (stop_loss)
 
 | Ticker | Shares | Entry Price | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
 |--------|--------|-------------|------|----|-----------|-----------------|------------|
-| ORCL | 2.570860 | $155.59 | $149.37 | $168.03 | YES | Q1 FY27 beat+raise (EPS $1.92 vs $1.67, rev +30%, OCF +184%, full-year raised); $664B RPO; cloud AI infra | catalyst_watch |
-| BE | 0.622357 | $273.91 | $266.12 | $288.50 | YES | ORCL CEO confirmed BE fuel cells for NM data center; S&P 500 inclusion Sep 21; Zacks #1 Strong Buy | scanner |
-| ATEC | 8.585630 | $9.96 | $9.96 | $11.28 | YES | CEO Patrick Miles bought 115,000 shares ($1.01M) Sep 10; UBS Buy PT $16; STOP AT BREAKEVEN — risk-free | scanner |
+| ORCL | 2.570860 | $155.59 | $149.37 | $168.03 | NO | ⚠️ SOLD BY 9:30 AM AGENT — stop_loss ($144.09, loss −7.39%) — do not re-enter | catalyst_watch |
+| BE | 0.622357 | $273.91 | $266.12 | $288.50 | NO | ⚠️ SOLD BY 9:30 AM AGENT — stop_loss ($262.24, loss −4.26%) — do not re-enter | scanner |
+| ATEC | 8.585630 | $9.96 | $10.08 | $11.28 | YES | CEO Patrick Miles bought 115,000 shares ($1.01M) Sep 10; UBS Buy PT $16; stop trailed to $10.08 (9:30 AM, open $10.765 ≥$10.50) | scanner |
 
 3:15 PM prices (vs entry and stops):
-- ORCL: $151.29 | −2.76% from entry | −1.08% on day | stop $149.37 (buffer $1.92 / 1.27%)
-- BE: $275.74 | +0.67% from entry | +6.68% on day | stop $266.12 (buffer $9.62 / 3.49%)
-- ATEC: $10.47 | +5.12% from entry | +18.43% on day | stop $9.96 breakeven (buffer $0.51 / 4.87%)
+- ORCL: $151.29 Sep 11 close → **SOLD 9:30 AM Sep 15 at $144.09 (stop_loss, −7.39% / −$29.56)**
+- BE: $275.74 Sep 11 close → **SOLD 9:30 AM Sep 15 at $262.24 (stop_loss, −4.26% / −$7.26)**
+- ATEC: $10.47 Sep 11 close | Sep 14 close $10.86 | Sep 15 open $10.765 | stop trailed to $10.08 | TP $11.28
 
 Stop check: All three above stops. No hard exits triggered.
 Trail check: ORCL did not recover above $156 (no trail). BE below $279.49 trigger (no trail). ATEC below $10.50 trigger (no trail).
