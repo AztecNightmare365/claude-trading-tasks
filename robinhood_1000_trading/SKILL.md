@@ -14,23 +14,23 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET 2026-09-11.** Live sync ••••6616: 0 positions — fully in cash. Exact match with 3:15 PM Sep 10 handoff.
+**7:00 AM ET 2026-09-15.** Live sync ••••6616: 3 positions (ORCL/BE/ATEC) — exact match Sep 11 handoff. No Sep 14 agent ran; stops missed over the long weekend.
 
-**Overnight positions:** NONE.
+**ORCL ⚠️ CRITICAL STOP BREACH** | PM $143.75 (bid $143.66) | −0.72% vs Sep 14 close $144.79 | stop $149.37 | $5.62 BELOW stop.
+Cause: Oracle layoffs/restructuring ($2.8B Sep 14) + FOMC macro (oil $107, 10Y 5.04%). PM sell FAILED — fractional shares (Robinhood blocks extended-hours fractional sells). **9:30 AM: MARKET SELL ALL 2.570860 sh immediately.**
 
-**Pre-market sells:** NONE.
+**BE ⚠️ CRITICAL STOP BREACH** | PM $258.50 (bid $258.01) | +0.56% vs Sep 14 close $257.05 | stop $266.12 | $7.62 BELOW stop.
+Cause: Securities class action (China scandium supply chain) + macro; Sep 14 low $249.05. PM sell FAILED — 0.622357 sh (<1 whole share). **9:30 AM: MARKET SELL ALL 0.622357 sh immediately.**
 
-**Catalyst watch list:**
-- ORCL: PM $163.00 (+6.58% vs $152.94 close). **CATALYST CONFIRMED — GAP UP.** Q1 FY27: Non-GAAP EPS $1.92 vs $1.67 est (+15% beat), rev +30% to $19.35B, OCF +184%. Cloud AI infra beat. Flag for 10 AM entry — confirm trending up at open. Not on banned list.
-- ADBE: PM $239.66 (−3.69% vs $248.83 close). **CATALYST FAILED (price).** Q3 FY26 beat ($6.13 EPS vs $5.84 est) + raised FY guidance — BUT CEO transition announced (Narayen → Chakravarthy, Dec 1). AH selling despite beat. **SKIP — do not enter.**
-- RDDT: PM $156.10 (+0.49% vs $155.34 close). **CATALYST PENDING (CPI gate).** 6.1% surge played out Thursday Sep 10 (relVol 0.89x, was rejected at 3:15 PM). Now flat. CPI 8:30 AM is the gating factor. MONITOR — if CPI cool and RDDT breaks above $158, re-evaluate at 10 AM.
+**ATEC ON TRACK** | PM $10.76 (last trade 4 AM ET) | −0.92% | stop $9.96 | $0.80 above stop. No adverse news. Bid/ask $9.90/$12.23 (23.5% — illiquid PM, use open print). Trail to $10.05–$10.10 if opens ≥$10.50.
 
-**Macro:**
-- SPY PM $762.11 (+0.56%), QQQ PM $713.11 (+0.62%) — mild green.
-- CPI Aug 8:30 AM ET today: exp +0.4% MoM / +3.4% YoY; core +0.2% / +2.4%. Hot PPI yesterday raised hike odds to ~73%. Cool CPI = relief rally; hot = tech sell-off. FOMC Sep 15–16.
-- Oil declined overnight (supportive). ORCL beat driving positive tech PM sentiment.
+**Pre-market sells placed:** NONE (fractional Robinhood constraint — extended hours requires whole shares).
 
-**SUMMARY:** 0 overnight positions, 0 pre-market sells. Catalyst: ORCL CONFIRMED +6.58% (10 AM candidate), ADBE SKIP (CEO transition), RDDT MONITOR (CPI gate). Email sent: ORCL catalyst alert.
+**Catalyst — FEIM:** Sep 14 close $85.50 (+5.5% continuation from Sep 11 ~$81). PM $86.02 flat. CONFIRMED. No buying power until ORCL/BE stops clear; flag for 10 AM evaluation.
+
+**Macro:** SPY PM $759.63 (−0.16%), QQQ PM $708.40 (−0.11%). Futures S&P −0.5%, Nasdaq −0.7%. FOMC Sep 16 2 PM: 88% hike probability (25bps to 3.75–4.00%). Brent $107.30 (+1.6%, Saudi pipeline drone attack). 10Y yield 5.04%.
+
+**SUMMARY:** 2 CRITICAL STOP BREACHES (ORCL/BE — PM sell impossible, fractional), 1 ON TRACK (ATEC), 0 pre-market sells. FEIM CONFIRMED continuation. Email sent.
 
 ---
 
