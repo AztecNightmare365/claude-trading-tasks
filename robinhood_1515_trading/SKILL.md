@@ -24,16 +24,16 @@ _No content — see robinhood_1000_trading/SKILL.md for the live 3:15 PM handoff
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-09-16 (~10:10 AM ET — 10 AM session complete)
+Last updated: 2026-09-16 (~12:00 PM ET — 12 PM reassessment complete)
 
 Open positions: 2
 
 | Ticker | Shares | Entry Price (actual) | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
 |--------|--------|----------------------|------|----|-----------|-----------------|------------|
-| ATEC | 8.585630 | $9.96 | $10.50 | $11.28 | TBD | CEO Patrick Miles bought 115,000 shares ($1.01M) Sep 10; UBS Buy PT $16; stop trailed to $10.50 (Sep 15 intraday support) | scanner |
-| FPS | 5.063291 | $31.60 | $31.25 | $35.80 | TBD | Q4 FY26 beat+raise: EPS $0.25 vs $0.23, rev $461.7M (+94% YoY), guidance raised $2.4–2.6B; data center power infra; stop TRAILED $29.50 → $31.25 this session | scanner |
+| ATEC | 8.585630 | $9.96 | $10.50 | $11.28 | TBD | CEO Patrick Miles bought 115,000 shares ($1.01M) Sep 10; UBS Buy PT $16; stop unchanged — 1.5% noise buffer rule prevents further trail at current price | scanner |
+| FPS | 5.063291 | $31.60 | $33.75 | $35.80 | TBD | Q4 FY26 beat+raise: EPS $0.25 vs $0.23, rev $461.7M (+94% YoY), guidance raised $2.4–2.6B; data center power infra; stop TRAILED $31.25 → $33.75 this session (pre-surge intraday support zone) | scanner |
 
-PORTFOLIO SYNC (10 AM — verified via live Robinhood positions):
+PORTFOLIO SYNC (12 PM — verified via live Robinhood positions):
 - ATEC: Confirmed 8.585630 sh, avg $9.96. ✓
 - FPS: Confirmed 5.063291 sh, avg $31.60. ✓
 - No manual additions. No manual removals detected.
@@ -43,54 +43,66 @@ Sessions completed today (Sep 16):
 - 7 AM overnight brief: ATEC/FPS on track; TCOM confirmed +3.92% PM gap (mixed Q2 result, LOW tier flagged); FOMC 2 PM ET flagged
 - 9:30 AM open reaction: ATEC opened $10.59 (HELD, stop $10.50); FPS opened $33.285 (HELD, trail trigger activated >$32.75)
 - 10 AM session: No sells. No buys. FPS stop trailed $29.50 → $31.25. TCOM catalyst watch skipped (fading, beat+raise unconfirmed).
+- 12 PM reassessment: No sells. No buys. FPS stop trailed $31.25 → $33.75. ATEC stop unchanged (1.5% rule prevents trail).
 
 Settled cash: $592.74
-Total account value: ~$856.47
-Portfolio invested: ~30.8% (ATEC ~$91, FPS ~$173)
+Total account value: ~$861.07
+Portfolio invested: ~31.2% (ATEC ~$91.57, FPS ~$176.81)
 
-Available buying power at 3:15 PM: ~$378 (well within 75% cap, all settled)
-Sector usage: Healthcare (ATEC ~10.6%), Energy/Industrial (FPS ~20.2%) — tech cap fully open
+Available buying power at 3:15 PM: ~$377 (75% cap: $645.80 minus $268.38 invested; all settled)
+Sector usage: Healthcare (ATEC ~10.6%), Energy/Industrial (FPS ~20.6%) — tech cap fully open
 
 ---
 NOTES FOR 3:15 PM AGENT (Wed Sep 16, 2026):
 
-⚠️ FOMC DECISION at 2:00 PM ET — 25 bps hike to 3.75-4.00% at ~92% probability. Decision and press conference will have occurred by your session. Evaluate market reaction BEFORE making any hold/sell/buy decisions:
-- If market rallied post-FOMC ("buy the news"): both positions likely higher; evaluate trailing stops aggressively for ATEC and FPS; larger buying power available for new overnight candidates
-- If market sold off mildly (hawkish language): caution regime may apply — check SPY change; if SPY −1% to −2%, reduce new position sizes by 50%; if SPY >−3%, market regime gate kicks in (skip all new buys)
-- If market sold off hard (SPY −3%+): check ATEC and FPS stops immediately; likely hold both through stop discipline; skip new buys per market regime gate
+⚠️ FOMC DECISION at 2:00 PM ET — WAS STILL PENDING at 12 PM handoff. Decision and press conference will have occurred by your session. Evaluate market reaction BEFORE making any hold/sell/buy decisions:
+- If market rallied post-FOMC ("buy the news"): both positions likely higher; evaluate trailing stops aggressively; FPS may have hit/be very near TP ($35.80); larger buying power available for new overnight candidates
+- If market sold off mildly (hawkish language): caution regime (SPY −1% to −2%); reduce new position sizes 50%; check ATEC stop $10.50 and FPS stop $33.75
+- If market sold off hard (SPY −3%+): check both stops immediately; skip new buys per market regime gate
 
-⚠️ ATEC CRITICAL: Touched stop $10.50 exactly on the 9:30 AM opening 5-min bar low, then bounced. Buffer is very thin — only ~$0.11 above stop at last print $10.61. Monitor closely.
-- If ATEC is at or below $10.50 at 3:15 PM → SELL IMMEDIATELY (stop triggered)
-- If ATEC closes above $10.90+ → consider trailing stop to $10.60 (Sept 16 intraday support, if established)
-- If ATEC closes above $11.00 → trail stop to $10.65 (Sept 15 intraday low)
+⚠️ ATEC STATUS AT 12 PM ($10.665):
+- Stop: $10.50 — UNCHANGED. Cannot trail further: 1.5% buffer cap = $10.505; current stop $10.50 is already at the limit.
+- Intraday 9:30–12 PM: Opened $10.59, dipped to $10.50 (first-bar low = exactly at stop), recovered. Spiked to $10.726 at 11:10 AM (18K vol), pulled back and consolidating at $10.665. Stable, no deterioration.
+- If ATEC at or below $10.50 at 3:15 PM → SELL IMMEDIATELY (stop triggered)
+- If ATEC closes above $10.90+ → trail stop to $10.60 (Sep 16 intraday support if established)
+- If ATEC closes above $11.00 → trail stop to $10.65
 - Thesis intact: CEO insider buy (Form 4 confirmed, $1.01M), UBS Buy PT $16, medtech = least rate-sensitive sector
 
-FPS POSITION DETAILS at 10 AM:
-- Current: ~$34.13 (vs $31.36 prior close +8.8%; vs $31.60 entry +8.0%)
-- Stop: TRAILED $29.50 → $31.25 today (trail trigger was opening above $32.75 per Sep 15 handoff)
-- TP: $35.80 — only $1.67 (+4.9%) away from $34.13
-- Intraday 10 AM: opened $33.16, surged to $34.48 by 9:40 AM, pulled back to $33.75, recovering to $34.13; above VWAP (~$33.96) ✓
-- FPS dramatically outperforming its energy sector (XLE −1.98%) — company-specific Q4 beat+raise driving it
-- Consider trailing stop further if FPS reaches $35.00+ at 3:15 PM close
+⚠️ FPS CRITICAL — TP IS VERY CLOSE ($34.92 at noon, TP $35.80):
+- Stop: TRAILED $31.25 → $33.75 this session. Trail justified by: pre-surge multi-touch support zone ($33.68-33.81, confirmed by multiple morning bars); 3.4% below current = safe FOMC buffer; above breakeven ($31.60). Stop is a MENTAL STOP — no standing order in Robinhood.
+- Intraday 9:30–12 PM: Opened $33.16 → $34.48 spike (9:35 AM) → consolidated $33.68-33.81 zone → second surge at 10:55 AM to $34.86 (256K volume!) → hit $35.40 intraday high at 11:45 AM → pulling back to $34.92 at noon.
+- TP $35.80 = only $0.88 away (+2.5%). FPS hit $35.40 intraday today.
+- Post-FOMC bullish: FPS prime candidate to hit TP $35.80. If it breaks through $35.50+, trail stop aggressively to $34.50-34.70 (post-surge support zone) — don't let a 10%+ winner slip back to 6%.
+- Post-FOMC bearish: $33.75 stop should hold unless SPY falls >4%. Check immediately at 3:15 PM.
+- If FPS hits TP ($35.80) → SELL at market.
+- Overnight hold consideration: If TP not hit but FPS closes above $35.00, hold overnight (beat+raise thesis supports continuation). If closes below $34.50 with thesis weakening, consider discretionary exit.
 
-MACRO AT 10 AM:
-- SPY $760.26 (+0.38%), QQQ $710.10 (+0.79%) — NORMAL REGIME; mild positive
-- Sector leaders: XLK +0.93% (tech/semi recovery from Sep 14–15 AI selloff), XLI +0.24%, XLV +0.22%
-- Sector laggards: XLE −1.98% (energy weak; oil stocks soft despite elevated crude), XLF −0.47%
-- Semi stocks recovering (INTC +4.3%, WDC +3.2%, CRDO +6.1%) but sector-wide rotation only — no company-specific catalysts driving individual stocks; Scanner 1 returned 0 results
+TCOM CARRY-FORWARD (UPDATED at 12 PM):
+- TCOM at 12 PM: $40.74 (+3.8% on day vs prev close $39.25). Now ABOVE the $40.50 re-entry threshold.
+- Evaluate at 3:15 PM: Enter ONLY IF (a) price still above $40.50 ✓ (confirmed at noon), (b) VWAP hold confirmed AT 3:15 PM, (c) volume shows sustained buying (not just a drift). FOMC-day LOW tier ($150 max) still applies.
+- If TCOM is below $40 at 3:15 PM → do not enter.
 
-WHY NO NEW BUYS PLACED AT 10 AM:
-1. Scanner 1 (3%+ + relVol ≥1.2x): 0 results — no genuine momentum with quality volume
-2. TCOM (catalyst watch): fading below VWAP ($39.89 vs VWAP $40.34) with unconfirmed beat+raise — SKIPPED
-3. All scanner 2 big-movers: sector_momentum only, all relVol < 1.5x hard gate; CIFR = Bitcoin miner; LUXE = earnings miss BMO today
-4. Priority sector (INTC, WDC): sector_momentum without meeting relVol hard gate (1.09x/0.38x vs 1.5x required)
-5. FOMC at 2 PM — appropriate to preserve buying power for post-decision 3:15 PM assessment
+12 PM SCANNER RESULTS (for 3:15 PM context — recheck fresh at 3:15 PM):
+- Scanner 1 (3%+ relVol ≥1.2x): 7 hits at noon. Key non-banned hits: ALVO, PNTG, BBNX, XTND — all rejected at noon (see below).
+- Scanner 2 (6%+ big movers): 32 hits at noon.
+- ALVO ($5.425): Barclays upgrade Underweight→Overweight PT $4→$8 (strong analyst_upgrade catalyst). Was AT VWAP at noon (fading from opening spike) — SKIPPED at 12 PM. If ALVO is above VWAP at 3:15 PM with sustained momentum, reconsider as LOW tier ($150 max) overnight hold.
+- BBNX ($20.48): Dilutive $150M secondary offering closing Thursday — offering overhang, skip.
+- XTND ($4.83): Below VWAP at noon, no fresh catalyst today — skip.
+- PNTG ($41.33): No dated catalyst today — skip.
+- INTC (+5.0%): SK hynix US production talks (unconfirmed rumor); relVol <1.2x fails sector_momentum gate — skip.
 
-CATALYST STATUS CARRY-FORWARD (for 3:15 PM):
-- TCOM: CONFIRMED gap up (+3.3% at open) but NOT entered — faded below VWAP by 10 AM, beat+raise unconfirmed (revenue decelerated, no guidance raise verified). Can re-evaluate at 3:15 PM ONLY if: (a) price has reclaimed above $40.50, (b) VWAP hold confirmed, (c) volume shows sustained buying. FOMC-day LOW tier ($150 max) still applies. If TCOM is below $40 at 3:15 PM, do not enter.
-- All other scanner candidates: FAILED or filtered out — do not chase.
+MACRO AT 12 PM:
+- SPY $760.70 (+0.44%), QQQ $710.66 (+0.87%) — NORMAL REGIME pre-FOMC
 
-DO NOT RE-ENTER (standing bans — carry forward from Sep 15):
+WHY NO NEW BUYS AT 12 PM:
+1. FOMC at 2 PM creates broad-market binary risk for unmonitored 3-hour hold
+2. Best candidate (ALVO) at VWAP, not above — likely fading opening spike; 12PM WR 22.2%
+3. BBNX: dilutive offering as catalyst
+4. XTND: below VWAP, no today catalyst
+5. PNTG: no dated catalyst
+6. INTC/WDC: relVol fails sector_momentum hard gate
+
+DO NOT RE-ENTER (standing bans — carry forward):
 ORCL (sold Sep 15 stop_loss), BE (sold Sep 15 stop_loss), META, AVAV (stopped Sep 10)
 SNDK (stopped Sep 10 12PM), MU (stopped Sep 10 12PM), GLW (stopped Sep 10 9:30AM), COHR (stopped Sep 10 9:30AM), ALAB (stopped Sep 10 9:30AM), CRM (stopped Sep 1), DG (stopped Aug 28), VEEV/MRK/ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18). WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC, ASTS, HPE, AVGO, MGNI, GTLB.
 VRNS: M&A binary (Proofpoint/Thoma Bravo) STILL PENDING.
