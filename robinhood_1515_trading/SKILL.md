@@ -24,111 +24,81 @@ _No content — see robinhood_1000_trading/SKILL.md for the live 3:15 PM handoff
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-09-11 (~12:00 PM ET — 12 PM reassessment complete)
+Last updated: 2026-09-16 (~10:10 AM ET — 10 AM session complete)
 
-Open positions: 3
+Open positions: 2
 
 | Ticker | Shares | Entry Price (actual) | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
 |--------|--------|----------------------|------|----|-----------|-----------------|------------|
-| ORCL | 2.570860 | $155.59 | $149.37 | $168.03 | YES | Q1 FY27 beat+raise (EPS $1.92 vs $1.67, rev +30%, OCF +184%, full-year raised); $664B RPO; cloud AI infra | catalyst_watch |
-| BE | 0.622357 | $273.91 | $266.12 | $288.50 | TBD | ORCL CEO confirmed BE fuel cells for NM data center on Q1 FY27 call; S&P 500 inclusion Sep 21; AI power infra | scanner |
-| ATEC | 8.585630 | $9.96 | $9.96 | $11.28 | TBD | CEO Patrick Miles bought 115,000 shares ($1.01M) Sep 10; UBS Buy PT $16; STOP TRAILED TO BREAKEVEN — position risk-free | scanner |
+| ATEC | 8.585630 | $9.96 | $10.50 | $11.28 | TBD | CEO Patrick Miles bought 115,000 shares ($1.01M) Sep 10; UBS Buy PT $16; stop trailed to $10.50 (Sep 15 intraday support) | scanner |
+| FPS | 5.063291 | $31.60 | $31.25 | $35.80 | TBD | Q4 FY26 beat+raise: EPS $0.25 vs $0.23, rev $461.7M (+94% YoY), guidance raised $2.4–2.6B; data center power infra; stop TRAILED $29.50 → $31.25 this session | scanner |
 
-PORTFOLIO SYNC (12 PM — verified via live Robinhood positions):
-- ORCL: Confirmed 2.570860 sh, avg $155.59. ✓
-- BE: Confirmed 0.622357 sh, avg $273.91 (actual fill; <0.5% variance from 10 AM estimate — stops/TPs unchanged). ✓
-- ATEC: Confirmed 8.585630 sh, avg $9.96 (actual fill; <0.5% variance from 10 AM estimate — stops/TPs unchanged). ✓
+PORTFOLIO SYNC (10 AM — verified via live Robinhood positions):
+- ATEC: Confirmed 8.585630 sh, avg $9.96. ✓
+- FPS: Confirmed 5.063291 sh, avg $31.60. ✓
 - No manual additions. No manual removals detected.
 - No pending orders.
 
-Sessions completed today on this account (Sep 11):
-- 7 AM overnight brief: confirmed 0 overnight positions, ORCL catalyst watch
-- 9:30 AM open reaction: ORCL bought (catalyst_watch, 2.570860 sh at $155.59); CPI +0.4% in-line
-- 10 AM session: BE bought ($170.47, 0.6224 sh, MEDIUM); ATEC bought ($85.47, 8.5856 sh, LOW); no sells
-- 12 PM reassessment: No buys, no sells. ATEC stop trailed $9.345 → $9.96 (breakeven). No orders placed.
+Sessions completed today (Sep 16):
+- 7 AM overnight brief: ATEC/FPS on track; TCOM confirmed +3.92% PM gap (mixed Q2 result, LOW tier flagged); FOMC 2 PM ET flagged
+- 9:30 AM open reaction: ATEC opened $10.59 (HELD, stop $10.50); FPS opened $33.285 (HELD, trail trigger activated >$32.75)
+- 10 AM session: No sells. No buys. FPS stop trailed $29.50 → $31.25. TCOM catalyst watch skipped (fading, beat+raise unconfirmed).
 
-Settled cash: $219.09
-Total account value: ~$871.30
-Portfolio invested: ~74.9% (at 75% cap — NO additional buying power; ORCL alone is ~45% of account in tech sector — sector cap also binding on tech)
+Settled cash: $592.74
+Total account value: ~$856.47
+Portfolio invested: ~30.8% (ATEC ~$91, FPS ~$173)
 
-Available buying power at 3:15 PM: ~$0 (at 75% cap). Use only if a position is sold.
+Available buying power at 3:15 PM: ~$378 (well within 75% cap, all settled)
+Sector usage: Healthcare (ATEC ~10.6%), Energy/Industrial (FPS ~20.2%) — tech cap fully open
 
 ---
-NOTES FOR 3:15 PM AGENT (Fri Sep 11, 2026):
+NOTES FOR 3:15 PM AGENT (Wed Sep 16, 2026):
 
-MACRO AT NOON: SPY +1.05%, QQQ +1.11% — NORMAL REGIME. All three major indexes up despite FOMC hike fears.
-- CPI Aug +0.4% MoM in-line; core +0.3% (slightly hot vs 0.2% expected). FOMC hike odds: ~86–90% for Sep 15–16 meeting.
-- Michigan Consumer Sentiment Sep preliminary: 47.8 (SECOND-LOWEST READING EVER; down 7.5% from Aug 51.7). Year-ahead inflation expectations jumped to 4.6%. Major macro headwind — consumers very pessimistic about economic outlook.
-- WTI oil −2.8% to ~$99.63 — pulling back from $102, helpful for inflation path. Gulf/Iran diplomatic talks in Oman (potential Strait of Hormuz deal).
-- Geopolitical: Oracle/NVDA/OpenAI/Cisco UAE data center being "revised" following Iran attacks (Reuters). Minor ORCL-specific risk — one project; does not break $664B RPO thesis.
-- FOMC Sep 15–16 this weekend: Rate hike nearly certain (~86–90%). PRIMARY overnight macro risk for all three positions.
-- Markets up despite headwinds: CBOE VIX −10.5% to 15.96. Oil decline providing relief.
+⚠️ FOMC DECISION at 2:00 PM ET — 25 bps hike to 3.75-4.00% at ~92% probability. Decision and press conference will have occurred by your session. Evaluate market reaction BEFORE making any hold/sell/buy decisions:
+- If market rallied post-FOMC ("buy the news"): both positions likely higher; evaluate trailing stops aggressively for ATEC and FPS; larger buying power available for new overnight candidates
+- If market sold off mildly (hawkish language): caution regime may apply — check SPY change; if SPY −1% to −2%, reduce new position sizes by 50%; if SPY >−3%, market regime gate kicks in (skip all new buys)
+- If market sold off hard (SPY −3%+): check ATEC and FPS stops immediately; likely hold both through stop discipline; skip new buys per market regime gate
 
-POSITION STATUS AT NOON:
+⚠️ ATEC CRITICAL: Touched stop $10.50 exactly on the 9:30 AM opening 5-min bar low, then bounced. Buffer is very thin — only ~$0.11 above stop at last print $10.61. Monitor closely.
+- If ATEC is at or below $10.50 at 3:15 PM → SELL IMMEDIATELY (stop triggered)
+- If ATEC closes above $10.90+ → consider trailing stop to $10.60 (Sept 16 intraday support, if established)
+- If ATEC closes above $11.00 → trail stop to $10.65 (Sept 15 intraday low)
+- Thesis intact: CEO insider buy (Form 4 confirmed, $1.01M), UBS Buy PT $16, medtech = least rate-sensitive sector
 
-1. ORCL (~$152.95 at noon = −1.70% from $155.59 entry | +0.003% on the day):
-   - News context: Multiple articles from 11:00–11:52 AM show ORCL at $153.63–$154.06 (+0.45–0.73%). Slipped slightly to $152.95 by noon. Stock largely round-tripping its post-earnings gap from the 9:30 AM open.
-   - Thesis: FULLY INTACT. $664B RPO (up $26B sequentially). OCI +121% YoY. Multiple analyst Buy ratings: Guggenheim $400, DA Davidson $225, Cantor $284, UBS $250.
-   - Morgan Stanley EW caution: gross margin pressure from $28.5B Q1 capex (vs $19.3B Street estimate). Management: capex funded by customer prepays/bring-your-own-hardware — not Oracle net cash. Not a thesis break; explains why stock is up only modestly on a big beat.
-   - Pre-market was $159.26 (gap +4.1%). Round-tripping on FOMC anxiety and capex surprise. Normal post-earnings digestion.
-   - Stop: $149.37 (2.3% below current; $3.58 buffer). No trail — position is −1.70% underwater from entry.
-   - Overnight: YES (committed from 9:30 AM entry). No binary events tonight. FOMC weekend risk is primary concern.
-   - If ORCL recovers above $156 by 3:15 PM, consider trailing stop toward $151–$152 (intraday support).
+FPS POSITION DETAILS at 10 AM:
+- Current: ~$34.13 (vs $31.36 prior close +8.8%; vs $31.60 entry +8.0%)
+- Stop: TRAILED $29.50 → $31.25 today (trail trigger was opening above $32.75 per Sep 15 handoff)
+- TP: $35.80 — only $1.67 (+4.9%) away from $34.13
+- Intraday 10 AM: opened $33.16, surged to $34.48 by 9:40 AM, pulled back to $33.75, recovering to $34.13; above VWAP (~$33.96) ✓
+- FPS dramatically outperforming its energy sector (XLE −1.98%) — company-specific Q4 beat+raise driving it
+- Consider trailing stop further if FPS reaches $35.00+ at 3:15 PM close
 
-2. BE (~$275.95 at noon = +0.74% from $273.91 entry | +6.75% on the day):
-   - Thesis: STRENGTHENED during session. Benzinga article explicitly quotes ORCL CEO Magouyrk naming BE fuel cells for NM data center: "most environmentally friendly way to generate power without waiting on the pipeline." Direct revenue catalyst confirmed.
-   - S&P 500 inclusion Sep 21 confirmed — passive fund buying ongoing.
-   - Additional bullish signals: Paul Pelosi holds ~15,000 shares at ~$190–$210 avg cost. Bullish whale call activity: $300-strike calls expiring Sep 18 (near-term upside bet). UBS raised PT to $325 (from $300); Clear Street raised to $330 (from $290).
-   - Stop: $266.12 ($9.83 below current; 3.6% buffer). TP: $288.50.
-   - Trail trigger: BE needs to reach $279.49+ (2% above $273.91 entry) before trailing. Not there yet at noon.
-   - Overnight: STRONG thesis. If price holds above $270 and SPY closes green, overnight YES. Clean energy sector is not rate-sensitive like pure tech — better FOMC insulation than ORCL.
+MACRO AT 10 AM:
+- SPY $760.26 (+0.38%), QQQ $710.10 (+0.79%) — NORMAL REGIME; mild positive
+- Sector leaders: XLK +0.93% (tech/semi recovery from Sep 14–15 AI selloff), XLI +0.24%, XLV +0.22%
+- Sector laggards: XLE −1.98% (energy weak; oil stocks soft despite elevated crude), XLF −0.47%
+- Semi stocks recovering (INTC +4.3%, WDC +3.2%, CRDO +6.1%) but sector-wide rotation only — no company-specific catalysts driving individual stocks; Scanner 1 returned 0 results
 
-3. ATEC (~$10.165 at noon = +2.06% from $9.96 entry | +14.99% on the day):
-   - STOP TRAILED: $9.345 → $9.96 (breakeven). POSITION IS NOW RISK-FREE.
-   - Trail validated: $9.96 is 2.01% below current $10.165 — above 1.5% noise buffer minimum. ✓
-   - CEO Form 4 SEC filing confirmed: Patrick Miles bought 115,000 shares at $8.81 avg on Sep 10 ($1.01M total). Multi-day narrative intact.
-   - UBS Buy PT $16 — significant upside ($5.83 from current, +57%).
-   - Stop: $9.96 (breakeven). TP: $11.28 (+10.9% from current).
-   - Overnight: RISK-FREE with stop at breakeven. If price holds above $10.00 into close, overnight is essentially free. Insider buy is multi-day narrative; health tech less macro-sensitive than ORCL.
-   - If ATEC rises above $10.50 by 3:15 PM, consider trailing stop further to $10.05–$10.10 intraday support.
+WHY NO NEW BUYS PLACED AT 10 AM:
+1. Scanner 1 (3%+ + relVol ≥1.2x): 0 results — no genuine momentum with quality volume
+2. TCOM (catalyst watch): fading below VWAP ($39.89 vs VWAP $40.34) with unconfirmed beat+raise — SKIPPED
+3. All scanner 2 big-movers: sector_momentum only, all relVol < 1.5x hard gate; CIFR = Bitcoin miner; LUXE = earnings miss BMO today
+4. Priority sector (INTC, WDC): sector_momentum without meeting relVol hard gate (1.09x/0.38x vs 1.5x required)
+5. FOMC at 2 PM — appropriate to preserve buying power for post-decision 3:15 PM assessment
 
-STOP PRIORITY ORDER FOR 3:15 PM:
-1. ATEC $9.96 — breakeven stop; check first; any major reversal shows immediately.
-2. BE $266.12 — wide buffer; check vs current; strong thesis supports hold.
-3. ORCL $149.37 — large buffer; check vs current; unlikely breach but confirm.
+CATALYST STATUS CARRY-FORWARD (for 3:15 PM):
+- TCOM: CONFIRMED gap up (+3.3% at open) but NOT entered — faded below VWAP by 10 AM, beat+raise unconfirmed (revenue decelerated, no guidance raise verified). Can re-evaluate at 3:15 PM ONLY if: (a) price has reclaimed above $40.50, (b) VWAP hold confirmed, (c) volume shows sustained buying. FOMC-day LOW tier ($150 max) still applies. If TCOM is below $40 at 3:15 PM, do not enter.
+- All other scanner candidates: FAILED or filtered out — do not chase.
 
-OVERNIGHT HOLD EVALUATION (FOMC weekend Sep 13–14 context):
-- ORCL: YES (already committed). Beat+raise thesis intact. Morgan Stanley nuance not a reversal. FOMC hike is already 86–90% priced in — markets up today confirms market has digested it. Stop at $149.37.
-- BE: EVALUATE at 3:15 PM. Clean energy not rate-sensitive; S&P inclusion provides ongoing buy pressure; ORCL fuel cell validation is fresh confirmed catalyst. Overnight viable if closing above $270 and SPY holds green.
-- ATEC: EVALUATE at 3:15 PM. ZERO risk with stop at breakeven. If closing above $10.00, overnight is essentially free. Health tech less macro-sensitive. Insider buy supports continuation.
-
-BUY OPPORTUNITIES AT 3:15 PM:
-At 75% cap — NO buying power unless a position stops out. ORCL tech sector at ~45% of account (cap binding — no new tech adds regardless of buying power). If BE or ATEC stops, room opens in non-tech sectors.
-- FEIM: Up 30.7% to $81.13 on Q1 beat (+173% EPS, +31.4% rev vs est). Potential candidate IF buying power opens — FIRST verify market cap >$500M (likely below threshold given ~$94M annualized revenue; hard disqualifier if below). If market cap clears: require VWAP reclaim + sustained relative volume.
-- RH: Q2 mixed (EPS beat, revenue miss; BofA cut to Underperform $114). Do not enter.
-
-DO NOT RE-ENTER (today Sep 11 — already in or stopped Sep 10):
-META — stopped Sep 10; banned for today.
-AVAV — stopped Sep 10; banned for today.
-
-DO NOT RE-ENTER (standing bans):
+DO NOT RE-ENTER (standing bans — carry forward from Sep 15):
+ORCL (sold Sep 15 stop_loss), BE (sold Sep 15 stop_loss), META, AVAV (stopped Sep 10)
 SNDK (stopped Sep 10 12PM), MU (stopped Sep 10 12PM), GLW (stopped Sep 10 9:30AM), COHR (stopped Sep 10 9:30AM), ALAB (stopped Sep 10 9:30AM), CRM (stopped Sep 1), DG (stopped Aug 28), VEEV/MRK/ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18). WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC, ASTS, HPE, AVGO, MGNI, GTLB.
-VRNS: M&A binary (Proofpoint/Thoma Bravo) STILL PENDING — DO NOT ENTER.
+VRNS: M&A binary (Proofpoint/Thoma Bravo) STILL PENDING.
 SWKS: Pending acquisition of QRVO — M&A binary, hard disqualifier.
 QRVO: Target of SWKS acquisition — hard disqualifier.
-ODD, CSR: Hard disqualifiers (see prior notes).
-ADBE: CEO transition (Narayen → Chakravarthy Dec 1) — thesis broken, do not enter. Q3 beat today but stock down 0.4% — confirms thesis failure.
-ACVA: M&A binary — Copart acquisition $10.50/sh DEAL CONFIRMED TODAY (definitive agreement). Hard disqualifier. Do not enter.
-
-Catalyst status carry-forward:
-- ORCL: ENTERED at $155.59 (catalyst_watch, Sep 11 9:30 AM). Holding overnight YES.
-- BE: ENTERED at $273.91 (scanner, Sep 11 10 AM). ORCL fuel cell validation confirmed + S&P inclusion. Evaluate overnight at 3:15 PM.
-- ATEC: ENTERED at $9.96 (scanner, Sep 11 10 AM). CEO insider buy $1M+. Stop at breakeven — risk-free. Evaluate overnight at 3:15 PM.
-- ADBE: FAILED — CEO transition killed thesis. Q3 beat today insufficient; stock down. Do not chase.
-- RDDT: PENDING. CPI in-line — gate not met. No fresh catalyst. Skip unless major new development.
-- ACVA: M&A binary — Copart acquisition CONFIRMED at $10.50/sh today. Hard disqualified. Do not enter.
-- FEIM: Q1 beat (+173% EPS, +31.4% revenue). Up 30.7% to $81.13 today. Potential 3:15 PM candidate IF buying power opens — verify market cap >$500M first (likely below threshold). If market cap clears: require VWAP reclaim + sustained relative volume.
-- RH: Q2 mixed (EPS beat, revenue miss; BofA cut to Underperform $114). Do not enter.
+VAL: Pending merger with RIG (Transocean) — M&A binary, hard disqualifier.
+ODD, CSR, ADBE, ACVA, RH, RDDT: Standing bans (see prior sessions).
+LUXE: Earnings miss BMO today (EPS −$0.209 vs −$0.140 est) — do not enter.
 
 ---
 PRE-CHECK — Market day verification
