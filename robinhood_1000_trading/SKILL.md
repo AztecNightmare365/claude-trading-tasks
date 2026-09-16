@@ -93,121 +93,84 @@ RAW STATS:
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-Last updated: 2026-09-15 (~3:28 PM ET — 3:15 PM session complete)
+Last updated: 2026-09-16 (~3:30 PM ET — 3:15 PM session complete)
 
-Open positions held overnight: **2 (ATEC + FPS)**
+Open positions held overnight: **2 (FPS + LITE)**
 
-| Ticker | Shares | Entry Price | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
-|--------|--------|-------------|------|----|-----------|-----------------|------------|
-| ATEC | 8.585630 | $9.96 | $10.50 | $11.28 | YES | CEO Patrick Miles bought 115,000 shares ($1.01M) Sep 10; UBS Buy PT $16; stop trailed $10.08→$10.50 (Sep 15 intraday support) | scanner |
-| FPS | 5.063291 | $31.60 | $29.50 | $35.80 | YES | Q4 FY26 beat+raise: EPS $0.25 vs $0.23 est; rev $461.7M vs $425.6M (+94% YoY); guidance raised $2.4–2.6B; 3.3× book-to-bill; data center power infra | scanner |
+| Ticker | Shares | Entry Price (actual) | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
+|--------|--------|----------------------|------|----|-----------|-----------------|------------|
+| FPS | 5.063291 | $31.60 | $33.75 | $35.80 | YES | Q4 FY26 beat+raise: EPS $0.25 vs $0.23, rev $461.7M (+94% YoY), guidance raised $2.4–2.6B; data center power infra; closed $35.20 (above $35.00 hold threshold) | scanner |
+| LITE | 0.279569 | $894.23 | $855.18 | $972.33 | YES | CEO raised LT guidance at ECOC 2026 (~$40 EPS power by FY2028, "big order uptick"); Deutsche Bank Buy $1,200 + Evercore ISI Outperform $1,100 initiated Sep 16; AI photonics/optics secular theme | scanner |
+
+⚠️ BOTH STOPS ARE MENTAL — no standing stop orders in Robinhood (fractional shares).
 
 3:15 PM prices and status:
-- ATEC: ~$10.71 at close (off $10.77 open; stop trailed $10.08 → $10.50 this session; risk-free; thesis intact)
-- FPS: filled $31.60 at 3:28 PM ET ($160.00 market order; Q4 earnings beat BMO today; intraday range $29.50–$33.09)
-- ORCL: SOLD 9:30 AM Sep 15 at $144.09 (stop_loss, −7.39% / −$29.56) — DO NOT RE-ENTER
-- BE: SOLD 9:30 AM Sep 15 at $262.24 (stop_loss, −4.26% / −$7.26) — DO NOT RE-ENTER
+- FPS: $35.196 at 3:29 PM ET | stop $33.75 | buffer +$1.45 (+4.1%) | HELD ✓ | above $35.00 → overnight hold confirmed
+- LITE: $894.395 at 3:29 PM ET | entry $894.23 | stop $855.18 | buffer +$39.22 (+4.4%) | BOUGHT $250.00 (0.279569 sh) | fills: 6aaaeddb-0821-4e43-8bf8-89a7f113450f
+- ATEC: SOLD $10.4401 (stop_loss; price hit $10.445 at 3:27 PM vs stop $10.50) — DO NOT RE-ENTER
 
-Stop check: ATEC $10.71 >> $10.50 stop ✓ | FPS $31.60 >> $29.50 stop ✓
+Settled cash: $342.74
+Total account value: $860.62
+Portfolio invested: 49.8% (FPS ~20.7%, LITE ~29.1%)
+Buying power (settled, spendable): $342.74
+SPY close: ~$751.82 (−0.74% vs Sep 15 close $757.39) — post-FOMC mild sell-off; NORMAL REGIME
 
-Settled cash: $59.09
-Total account value: ~$844.71
-Portfolio invested: ~29.8% (ample buying power after ORCL/BE cash settles)
-SPY close: ~$757.12 (−0.49% vs Sep 14) — NORMAL REGIME
-
-Sessions completed Sep 15:
-- 7 AM: ORCL/BE critical stop breach confirmed; ATEC on track; FEIM continuation flagged
-- 9:30 AM: ORCL sold $144.09 (stop_loss); BE sold $262.24 (stop_loss); ATEC held, stop trailed $9.96→$10.08
-- 3:15 PM: ATEC held (stop trailed $10.08→$10.50); FPS bought ($31.60, 5.063291 sh, MEDIUM tier, scanner)
+Sessions completed today (Sep 16):
+- 7 AM: ATEC/FPS on track; TCOM confirmed +3.92% PM gap (mixed Q2, LOW tier flagged); FOMC 2 PM ET flagged
+- 9:30 AM: ATEC opened $10.59 (HELD, stop $10.50); FPS opened $33.285 (HELD, trail trigger activated)
+- 10 AM: No sells. No buys. FPS stop trailed $29.50 → $31.25. TCOM skipped (fading).
+- 12 PM: No sells. No buys. FPS stop trailed $31.25 → $33.75. ATEC stop unchanged (1.5% rule).
+- 3:15 PM: ATEC SOLD $10.4401 (stop_loss, +4.82%/+$4.12). LITE BOUGHT $250.00 @ $894.23. FPS HELD.
 
 ---
 
-NOTES FOR 7 AM / 10 AM AGENT (Wed Sep 16, 2026):
+NOTES FOR 7 AM / 10 AM AGENT (Thu Sep 17, 2026):
 
-⚠️ FOMC DAY: Rate decision Wed Sep 16 at 2:00 PM ET. 25 bps hike at ~88% probability. The 10 AM agent runs BEFORE the 2 PM decision. Evaluate whether to hold FPS and ATEC through FOMC or close ahead of it. Both sectors (healthcare, energy/power) are relatively rate-insensitive, but overnight FOMC anxiety could create early-session volatility.
+⚠️ FOMC RESULT CONFIRMED: Fed hiked 25bps to 3.75–4.00% on Sep 16 at 2:00 PM ET. Post-FOMC: SPY went from +0.44% at noon to −0.74% at 3:15 PM (broad market mild sell-off, ~−1.2% intraday swing from peak post-decision). 10Y yield ~4.95–5.04%. Decision was largely priced in (88-92% probability). Market regime entering Sep 17: NORMAL (SPY −0.74% on Sep 16; no caution/risk-off trigger).
 
-MACRO AT CLOSE SEP 15:
-- SPY ~$757 (−0.49%), QQQ ~$704 (−0.68%) — mild weakness into FOMC day
-- 10Y yield 5.041% (highest since July 2007) — elevated; FOMC hike is substantially priced in
-- Brent crude $107.30 (+1.6%) — Saudi pipeline drone attack; oil elevated
-- Chip stocks recovered today (QCOM +4.5%, sector recovery from Monday AI selloff) but broad indexes soft
-- AMZN: lost cloud computing centers in Bahrain/UAE (Iran conflict) — geopolitical risk ongoing
+⚠️ FPS CRITICAL — TP VERY CLOSE ($35.80):
+- FPS at $35.196 at 3:29 PM Sep 16. Closed above $35.00 → overnight hold confirmed. TP $35.80 = only $0.60 (+1.7%) away. Stop $33.75 (pre-surge multi-touch support zone, mental).
+- Sep 16 intraday high: $35.40 at 11:45 AM. FPS has been very close to TP today.
+- If FPS opens above $35.80 in pre-market or at open → SELL IMMEDIATELY at market (TP hit).
+- If FPS opens $34.50–$35.80 with positive momentum → hold; consider trailing stop to $34.20–34.50 (Sep 16 afternoon intraday support zone).
+- If FPS breaks above $35.50 at any point → trail stop aggressively to $34.50–34.70 (pre-surge support confirmed).
+- Beat+raise thesis intact. Data center power infra secular. No binary events overnight.
 
-ATEC (~$10.71 close, stop $10.50 — $0.21 buffer, 2.0%):
-- Thesis: CEO Patrick Miles Form 4 confirmed 115,000 sh at $8.81 (Sep 10, $1.01M). UBS Buy PT $16 (+49% upside). Health/medtech = least FOMC-sensitive sector.
-- Position is risk-free (stop $10.50 > entry $9.96). Intraday: opened $10.77, high $10.925, drifted to close ~$10.71.
-- ⚠️ If ATEC opens below $10.50 → sell immediately (stop triggered).
-- If ATEC opens above $11.00 → consider trailing stop to $10.65 (Sep 15 intraday low).
-- TP $11.28 (+5.3% from close).
+⚠️ LITE — NEW OVERNIGHT POSITION:
+- Entry $894.23 (0.279569 sh, $250.00 MEDIUM tier, scanner). Stop $855.18 (Sep 16 opening-bar intraday low). TP $972.33 (+8.7% from entry).
+- Catalyst: CEO guidance raise at ECOC 2026 conference (LT EPS ~$40 by FY2028, "big order uptick in AI optics demand") + Deutsche Bank initiated Buy @ $1,200 + Evercore ISI initiated Outperform @ $1,100 — all Sep 16.
+- At close: $894.40, slightly BELOW VWAP ($902.95) due to post-FOMC broad market pull. Thesis NOT broken — entire market sold post-FOMC. AI photonics/optics = multi-day secular catalyst.
+- ⚠️ If LITE opens below $855.18 → SELL IMMEDIATELY (stop triggered).
+- At 7 AM / 10 AM: check pre-market level. If pre-market above $870 and trend recovering → thesis intact, hold. LITE prev close Sep 15 = $838.96; even at $855 it's +1.9% from last close.
+- Dollar risk check: 0.279569 sh × $39.05 stop distance = $10.92 (within $12.50 MEDIUM limit ✓).
 
-FPS (~$31.60 entry/fill, stop $29.50 — $2.10 buffer, 7.7%):
-- Thesis: Q4 FY26 earnings beat reported BMO Sep 15. EPS $0.25 vs $0.23 est (+8.7%). Revenue $461.7M vs $425.6M est (+94% YoY). Guidance raised $2.4–2.6B FY2026. Bookings +375% YoY, 3.3× book-to-bill. Backlog $3.0B (+256% YoY). Data center + grid power infrastructure = secular AI capex theme, not rate-driven.
-- Intraday Sep 15: opened $30.95, hit high $33.09 by 9:55 AM, consolidated $31.50–$32.75 all day, late dip to fill area ~$31.60.
-- FOMC consideration: FPS is energy/industrial. Rate hike already priced in at 88%. Data center power = secular capex, not credit-cycle dependent. Manageable FOMC risk.
-- If FPS opens below $31.00 → check for adverse news; if none, hold (stop at $29.50).
-- If FPS opens above $32.75 → consider trailing stop to $31.25 (all-day post-open support level).
-- TP $35.80 (2× R from entry; = +13.3% from fill).
+⚠️ ATEC SOLD — DO NOT RE-ENTER:
+- Sold at $10.4401 (stop triggered; stop was $10.50; price fell to $10.445 by 3:27 PM). 
+- P&L: +4.82% / +$4.12. 6-day hold (Sep 10 3:15 PM session → Sep 16 3:15 PM).
+- Add ATEC to standing DO NOT RE-ENTER list.
 
-BUYING POWER AT TOMORROW OPEN:
-- Settled cash: $59.09
-- ⚠️ ORCL+BE unsettled proceeds: ~$533.64 — SETTLES Wednesday Sep 16 morning
-- After settlement: ~$592.73 total settled cash available
-- Recommend: NO new positions before 2 PM FOMC decision unless very strong non-rate-sensitive thesis with confirming volume
-- If ATEC stops → frees ~$91.96; If FPS stops → frees ~$149.37 at stop price
+MACRO OVERNIGHT Sep 16–17:
+- Brent crude ~$107+ (Saudi drone attack on pipeline infrastructure; geopolitical risk elevated)
+- 10Y yield ~4.95–5.04% post-FOMC
+- Middle East: AMZN lost cloud data centers in Bahrain/UAE; geopolitical risk ongoing
+- Sep 17 economic data: weekly jobless claims 8:30 AM ET; any Fed speaker commentary
+- Sep 17 earnings: ~3 BMO, ~6 after close; no high-conviction beat candidates identified
 
 DO NOT RE-ENTER (standing bans — carry forward):
-ORCL (sold Sep 15 stop_loss), BE (sold Sep 15 stop_loss), META, AVAV (stopped Sep 10)
+ATEC (stopped Sep 16 stop_loss), ORCL (sold Sep 15 stop_loss), BE (sold Sep 15 stop_loss), META, AVAV (stopped Sep 10)
 SNDK (stopped Sep 10 12PM), MU (stopped Sep 10 12PM), GLW (stopped Sep 10 9:30AM), COHR (stopped Sep 10 9:30AM), ALAB (stopped Sep 10 9:30AM), CRM (stopped Sep 1), DG (stopped Aug 28), VEEV/MRK/ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18). WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC, ASTS, HPE, AVGO, MGNI, GTLB.
 VRNS: M&A binary (Proofpoint/Thoma Bravo) STILL PENDING.
 SWKS: Pending acquisition of QRVO — M&A binary, hard disqualifier.
 QRVO: Target of SWKS acquisition — hard disqualifier.
 VAL: Pending merger with RIG (Transocean) — M&A binary, hard disqualifier.
 ODD, CSR, ADBE, ACVA, RH, RDDT: Standing bans (see prior sessions).
+LUXE: Earnings miss BMO Sep 16 — banned.
+AMRX: Pending acquisition of Kashiv BioSciences ($750M, shareholder approval required) — M&A binary, hard disqualifier.
+BBNX: Dilutive $150M secondary offering closing this week — skip.
+TCOM: Failed $40.50 re-entry threshold at 3:15 PM Sep 16 ($40.43); no longer a watch candidate.
 
-CATALYST WATCH LIST — for 10 AM agent Wed Sep 16, 2026:
-| Ticker | Catalyst | Timing | Direction Bias | Risk |
-|--------|----------|--------|----------------|------|
-| TCOM | Q2 2026 earnings AH tonight Sep 15 | Open reaction Sep 16 | Neutral-bullish (China travel recovery) | MEDIUM — require beat+raise confirmed; enter at 1–2% above Sep 15 close; VWAP + relVol ≥1.2x; FOMC day = LOW tier only ($150 max) |
+Catalyst watch list for Thu Sep 17, 2026: none identified with sufficient conviction.
 
-Note: No significant BMO earnings Sep 16 identified. FOMC at 2 PM is the primary event — size all new positions conservatively and prioritize non-rate-sensitive sectors.
-
----
-CRITICAL NOTES FOR 7 AM / 10 AM AGENT (Tue Sep 9, 2026 — first day after Labor Day weekend):
-
-⚠️ LABOR DAY 3-DAY GAP: Mon Sep 7 market CLOSED. Positions SNDK and MU held Fri 3:30 PM → Tue 9:30 AM open.
-
-MACRO AT CLOSE Sep 4:
-- SPY: $769.65 (−0.46% day). QQQ: $717.70 (+0.004%). Normal regime — tech near-flat.
-- Fed Gov. Waller (Sep 4 afternoon): dovish — "maintain status quo at September FOMC unless surprise inflation." Reduces near-term rate hike risk vs. morning's 51% pricing.
-- 10Y yield: ~4.77% (easing from 4.82%). VIX: 14.32 (−5.8%). Risk sentiment improving into close.
-- NFP Aug: 162K vs 56K expected — hot jobs print. Fed hike odds now 51% (up from morning). Next tests: CPI Sep 11, FOMC Sep 16.
-- Semiconductor sector: dominant theme today — SNDK +10.1%, MU +4.75%, KLAC +6.7%. AI NAND demand narrative intact.
-
-POSITION STATUS AT CLOSE:
-1. SNDK ($1,656.69 entry, stop $1,665.00, TP $1,805.19 | ~$1,711 at 3:15 PM):
-   - Day P&L: +$5.65 unrealized (+3.36%). Stop gap: 2.7% from close — within Labor Day guideline. Trade risk-free (stop > breakeven).
-   - If SNDK opens below $1,665.00 at Tue Sep 9 open → sell immediately.
-   - If SNDK opens above $1,720+ → consider trailing stop to $1,700+ at 10 AM.
-   - Thesis: no earnings tonight or BMO Sep 9. Q4 FY26 beat intact. AI NAND narrative = strongest position.
-
-2. MU ($990.94 entry, stop $969.00, TP $1,034.13 | ~$1,003 at 3:15 PM):
-   - Day P&L: +$2.09 unrealized (+1.24%). Stop gap: 3.4% from close — at Labor Day guideline.
-   - If MU opens below $969.00 at Tue Sep 9 open → sell immediately.
-   - If MU opens above $1,015 → consider trailing stop to $985 at 10 AM.
-   - Thesis: no earnings tonight or BMO Sep 9. Sep 30 earnings = 25 days away. AI HBM4 demand intact.
-
-DO NOT RE-ENTER:
-CRM (stopped Sep 1), DG (stopped Aug 28), VEEV/MRK/ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18). WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC, ASTS, HPE, AVGO, MGNI, GTLB.
-DELL (closed today — discretionary; can re-enter Tue Sep 9 if above VWAP with volume + rate hike odds not worsening).
-KLAC (closed today — discretionary; can re-enter Tue Sep 9 if thesis strengthens; no company-specific catalyst yet).
-VRNS: M&A binary event STILL PENDING — DO NOT ENTER until Proofpoint/Thoma Bravo deal resolves.
-
-Catalyst watch list for Tue Sep 9:
-CBRS | CS-4 AI accelerator (Sep Q GA), 165 MW Finland data center expansion | Tue Sep 9 open continuation | Bullish | MEDIUM (require stop ≤8% from entry at 10 AM; if in top 25% and vol confirms → HIGH conviction entry)
-WDC | Q4 FY26 beat + AI storage multi-year contracts; Kioxia merger discussions | Tue Sep 9 open | Bullish / M&A risk | MEDIUM-HIGH (check weekend deal news first; if no deal update → treat as priority watchlist)
-UCTT | AI fab supply chain recovery, Q2 beat (rev +24% YoY), Q3 guide $700M-$750M | Tue Sep 9 | Bullish conditional | MEDIUM (require stop ≤5% and in top 25% — downtrend from $144 ATH requires confirmation)
-ALAB | AI connectivity (NVDA deal tailwind), confirmed catalyst — intraday vol still disqualifying | Tue Sep 9 | Bullish | MEDIUM (check intraday low vs entry; if ≤8% → eligible)
-VRNS | M&A binary (Proofpoint/Thoma Bravo) STILL PENDING | Unknown | Binary ±15% | HIGH RISK — DO NOT ENTER without deal resolution
 ---
 
 ## AFTER-HOURS UPDATE
