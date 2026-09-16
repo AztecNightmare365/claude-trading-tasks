@@ -33,21 +33,24 @@ Execute all steps in order, then place all orders simultaneously.
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET 2026-09-15.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
+**9:30 AM ET 2026-09-16.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
 
-**Sells executed (2 stop-loss):**
-- ORCL: open $144.09 | stop $149.37 | −7.39% / −$29.56 | 2.570860 sh | SOLD BY 9:30 AM AGENT — stop_loss — do not re-enter
-- BE: open $262.24 | stop $266.12 | −4.26% / −$7.26 | 0.622357 sh | SOLD BY 9:30 AM AGENT — stop_loss — do not re-enter
+**Sells executed: NONE.**
+- ATEC: open $10.59 (vs $10.66 close, −0.65%) | stop $10.50 | buffer +$0.09 | HELD ✓
+- FPS: open $33.285 (vs $31.36 close, +6.13%) | stop $29.50 | buffer +$3.785 | HELD ✓
 
-**ATEC held:** open $10.765 (−0.88% vs $10.86 Sep 14 close) | stop trailed $9.96 → $10.08 (open ≥$10.50 trigger met) | TP $11.28 | entry_type: scanner | Overnight: YES
+**Catalyst — TCOM:** open $40.54 (+3.29% vs $39.25 close) | GAP UP confirmed. First 5-min bar unverifiable (API error; <1 min of trading at query time). 7 AM brief flagged for 10 AM confirmation (VWAP + relVol ≥1.2x). **Passed to 10 AM.** LOW tier ($150 max) on FOMC day.
 
-**Portfolio sync:** Exact match with handoff (ORCL/BE/ATEC). 0 manual adoptions.
+**Portfolio sync:** Exact match (ATEC/FPS). 0 manual adoptions.
 
-**SPY** $759.90 (−0.13%), **QQQ** $708.54 (−0.09%) — NORMAL REGIME. FOMC week: decision Wed Sep 16 2 PM.
+**SPY** $759.45 (+0.27%), **QQQ** $708.43 (+0.55%) — NORMAL REGIME. FOMC decision 2 PM ET.
 
-**FEIM** $85.27 (−0.27% vs $85.50 Sep 14 close) — FLAT/DOWN at open. Passed to 10 AM. Do NOT enter at open.
+**Notes for 10 AM:**
+- FPS opened $33.285 > $32.75 trail trigger → consider trailing stop $29.50 → $31.25
+- ATEC opened $10.59, below $11.00 trail trigger → stop unchanged at $10.50
+- TCOM: enter if still ≥1% above $39.25 + VWAP hold + relVol ≥1.2x + first bar positive. LOW tier ($150, stop 4% below entry, TP 2× stop distance).
 
-**Status:** 2 stop-loss sells (ORCL/BE), 0 catalyst entries, 1 position open for 10 AM (ATEC).
+**Status:** 0 sells, 0 catalyst entries, 2 positions open for 10 AM (ATEC + FPS).
 
 ---
 
