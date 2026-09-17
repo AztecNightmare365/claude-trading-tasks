@@ -61,3 +61,4 @@ date,ticker,shares,entry_price,exit_price,entry_session,entry_type,exit_session,
 2026-09-15,ORCL,2.570860,155.59,144.09,9:30AM,catalyst_watch,9:30AM,earnings_beat,tech,-7.39,-29.56,stop_loss
 2026-09-15,BE,0.622357,273.91,262.2434,10AM,scanner,9:30AM,sector_momentum,energy,-4.26,-7.26,stop_loss
 2026-09-10,ATEC,8.585630,9.96,10.4401,3:15PM,scanner,3:15PM,analyst_upgrade,healthcare,4.82,4.12,stop_loss
+2026-09-15,FPS,5.063291,31.60,37.204,3:15PM,scanner,9:30AM,earnings_beat,industrial,17.73,28.37,take_profit

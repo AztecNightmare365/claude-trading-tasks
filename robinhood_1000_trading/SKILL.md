@@ -33,24 +33,20 @@ Execute all steps in order, then place all orders simultaneously.
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET 2026-09-16.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
+**9:30 AM ET 2026-09-17.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
 
-**Sells executed: NONE.**
-- ATEC: open $10.59 (vs $10.66 close, −0.65%) | stop $10.50 | buffer +$0.09 | HELD ✓
-- FPS: open $33.285 (vs $31.36 close, +6.13%) | stop $29.50 | buffer +$3.785 | HELD ✓
+**Sells executed: 1.**
+- FPS: first-bar open $36.61, last trade $36.86 (+5.8% vs $34.84 close) | TP $35.80 BREACHED | SOLD 5.063291 sh @ $37.204 fill | entry $31.60 | **+17.73% / +$28.37** ✓
 
-**Catalyst — TCOM:** open $40.54 (+3.29% vs $39.25 close) | GAP UP confirmed. First 5-min bar unverifiable (API error; <1 min of trading at query time). 7 AM brief flagged for 10 AM confirmation (VWAP + relVol ≥1.2x). **Passed to 10 AM.** LOW tier ($150 max) on FOMC day.
+**Catalyst entries: NONE.** Catalyst watch list: none identified for Sep 17.
 
-**Portfolio sync:** Exact match (ATEC/FPS). 0 manual adoptions.
+**Portfolio sync:** Exact match (FPS/LITE at open). 0 manual adoptions.
 
-**SPY** $759.45 (+0.27%), **QQQ** $708.43 (+0.55%) — NORMAL REGIME. FOMC decision 2 PM ET.
+**SPY** $762.91 (+1.17%), **QQQ** $715.76 (+1.56%) — NORMAL REGIME.
 
-**Notes for 10 AM:**
-- FPS opened $33.285 > $32.75 trail trigger → consider trailing stop $29.50 → $31.25
-- ATEC opened $10.59, below $11.00 trail trigger → stop unchanged at $10.50
-- TCOM: enter if still ≥1% above $39.25 + VWAP hold + relVol ≥1.2x + first bar positive. LOW tier ($150, stop 4% below entry, TP 2× stop distance).
+**LITE open:** first-bar $934.97, last $938.53 (+2.1% vs $919.40 close) | stop $855.18 | TP $972.33 | buffer +$83.35 (+9.7%) | first-bar low $933.45 | HELD ✓
 
-**Status:** 0 sells, 0 catalyst entries, 2 positions open for 10 AM (ATEC + FPS).
+**Status:** 1 TP sell (FPS +$28.37), 0 catalyst entries, 1 position open for 10 AM (LITE).
 
 ---
 
@@ -99,7 +95,7 @@ Open positions held overnight: **2 (FPS + LITE)**
 
 | Ticker | Shares | Entry Price (actual) | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
 |--------|--------|----------------------|------|----|-----------|-----------------|------------|
-| FPS | 5.063291 | $31.60 | $33.75 | $35.80 | YES | Q4 FY26 beat+raise: EPS $0.25 vs $0.23, rev $461.7M (+94% YoY), guidance raised $2.4–2.6B; data center power infra; closed $35.20 (above $35.00 hold threshold) | scanner |
+| FPS | SOLD | $31.60→$37.204 | — | — | — | SOLD BY 9:30 AM AGENT — take_profit @ $37.204 (+17.73% / +$28.37) — do not re-enter | scanner |
 | LITE | 0.279569 | $894.23 | $855.18 | $972.33 | YES | CEO raised LT guidance at ECOC 2026 (~$40 EPS power by FY2028, "big order uptick"); Deutsche Bank Buy $1,200 + Evercore ISI Outperform $1,100 initiated Sep 16; AI photonics/optics secular theme | scanner |
 
 ⚠️ BOTH STOPS ARE MENTAL — no standing stop orders in Robinhood (fractional shares).

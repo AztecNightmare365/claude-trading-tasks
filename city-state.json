@@ -1,18 +1,18 @@
 {
-  "ts": "2026-09-16T19:28:28Z",
-  "source": "robinhood_1515_trading",
+  "ts": "2026-09-17T13:32:00Z",
+  "source": "robinhood_0930_open",
   "portfolio": {
-    "totalValue": 860.62,
+    "totalValue": 881.10,
     "cash": 432.37,
-    "equityValue": 428.25,
-    "buyingPower": 342.74,
+    "equityValue": 448.73,
+    "buyingPower": 432.37,
     "positions": [
-      { "ticker": "FPS", "shares": 5.063291, "entry": 31.60, "current": 35.1964, "plPct": 11.38, "managed": true },
-      { "ticker": "LITE", "shares": 0.279569, "entry": 894.23, "current": 894.395, "plPct": 0.02, "managed": true }
+      { "ticker": "FPS", "shares": 5.063291, "entry": 31.60, "current": 37.204, "plPct": 17.73, "managed": true },
+      { "ticker": "LITE", "shares": 0.279569, "entry": 894.23, "current": 938.53, "plPct": 4.95, "managed": true }
     ]
   },
   "fills": [
-    { "id": "6aaaedda-4379-4622-8319-49dc2a6943a4", "side": "sell", "ticker": "ATEC", "qty": 8.585630, "price": 10.4401, "at": "2026-09-16T19:28:26.765Z" },
-    { "id": "6aaaeddb-0821-4e43-8bf8-89a7f113450f", "side": "buy", "ticker": "LITE", "qty": 0.279569, "price": 894.2324, "at": "2026-09-16T19:28:27.902Z" }
+    { "id": "6aabebcb-3c11-4131-aaff-01cb1466b308", "side": "sell", "ticker": "FPS", "qty": 5.0, "price": 37.204, "at": "2026-09-17T13:31:55.548Z" },
+    { "id": "6aabebcb-3ffc-44b3-9ba1-b1d523eb3ced", "side": "sell", "ticker": "FPS", "qty": 0.063291, "price": 37.204, "at": "2026-09-17T13:31:55.548Z" }
   ]
 }
