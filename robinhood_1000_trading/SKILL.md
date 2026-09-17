@@ -14,19 +14,19 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET 2026-09-16.** Live sync ••••6616: 2 positions (ATEC/FPS) — exact match Sep 15 handoff.
+**7:00 AM ET 2026-09-17.** Live sync ••••6616: 2 positions (FPS/LITE) — exact match Sep 16 3:15 PM handoff.
 
-**ATEC ON TRACK** | PM $10.66 (last trade 8 PM ET AH; no fresh PM print today) | 0.00% vs $10.66 close | stop $10.50 | +$0.16 (+1.5%) above stop | bid $9.61/ask $11.78 (22% spread — illiquid noise, use open print). No adverse overnight news. Thesis intact (CEO insider buy Sep 10, UBS PT $16). Medtech = least FOMC-sensitive.
+**FPS TP BREACH** | PM $36.38 (+4.42% vs $34.84 close) | TP $35.80 BREACHED (+1.6%) | stop $33.75 | +7.2% above stop | bid $35.95/ask $36.39 (1.2%). No adverse overnight news; Q4 beat+raise thesis intact, backlog $1.98B, mfg expansion plans. → ⚠️ SELL AT MARKET at open (TP hit). Pre-market limit NOT placed — TP breach protocol = wait for open print.
 
-**FPS ON TRACK** | PM $31.74 | +1.20% vs $31.36 close | stop $29.50 | +$2.24 (+7.1%) above stop | bid/ask $31.70/$31.99 (0.9%). Motley Fool overnight article confirms Q4 beat thesis (94% YoY rev, AI capex secular theme). No adverse news.
+**LITE ON TRACK** | PM $937.80 (+2.00% vs $919.40 close) | stop $855.18 | +8.8% above stop | TP $972.33 (−3.7% away) | bid $937.57/ask $938.88 (0.1%). No adverse news. CEO guidance raise ECOC 2026, DB Buy $1,200 + Evercore $1,100 intact. AI photonics thesis developing; LITE reg-session close $919.40 (rallied +2.8% from 3:29 PM entry price).
 
 **Pre-market sells placed:** NONE.
 
-**Catalyst — TCOM:** PM $40.79 (+3.92% vs $39.25 close). Q2 reported AH Sep 15: rev +6% YoY (RMB15.7B; decelerated from Q1 +17%); net loss $361M (RMB5.2B one-time regulatory penalty); international platform +50% YoY. CATALYST CONFIRMED — PRE-MARKET GAP UP. ⚠️ Beat+raise per handoff NOT fully met (revenue decelerated; no guidance raise confirmed). Bid $40.70/ask $41.00 (0.7% — tight). FOMC day = LOW tier only ($150 max). Flag for 10 AM: confirm at open with VWAP + relVol ≥1.2x before entry.
+**Catalyst watch list:** None (handoff: none identified).
 
-**Macro:** SPY PM $759.63 (+0.30%), QQQ PM $708.40 (+0.55%) — cautiously positive pre-FOMC. FOMC 2 PM ET: 92% probability 25bps hike to 3.75–4.00% (Warsh hawkish; largely priced in). 10Y yield ~5.04%. Brent ~$107 (Saudi drone attack elevated).
+**Macro:** SPY PM $760.70 (+0.88%), QQQ PM $712.80 (+1.15%) — post-FOMC relief rally. 2Y yield 4.72% (easing from 4.95%). Jobless claims 8:30 AM ET. Saudi/Brent $107+ geopolitical risk ongoing.
 
-**SUMMARY:** 2 positions ON TRACK (ATEC/FPS), 0 flagged, 0 pre-market sells. TCOM CONFIRMED +3.92% PM gap but mixed result (beat+raise unconfirmed); LOW tier at 10 AM. Email sent (TCOM gap alert).
+**SUMMARY:** 1 ON TRACK (LITE), 1 TP BREACH (FPS → SELL AT OPEN), 0 pre-market sells, 0 catalyst tickers. No email sent.
 
 ---
 
