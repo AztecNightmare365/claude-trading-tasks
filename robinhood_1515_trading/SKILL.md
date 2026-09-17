@@ -24,55 +24,68 @@ _No content — see robinhood_1000_trading/SKILL.md for the live 3:15 PM handoff
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-09-17 (~10:10 AM ET — 10 AM session complete)
+Last updated: 2026-09-17 (~12:10 PM ET — 12 PM reassessment complete)
 
 Open positions: 2
 
 | Ticker | Shares | Entry Price (actual) | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
 |--------|--------|----------------------|------|----|-----------|-----------------|------------|
-| LITE | 0.279569 | $894.23 | $855.18 | $972.33 | YES | CEO raised LT guidance at ECOC 2026 (~$40 EPS by FY2028); Deutsche Bank Buy $1,200 + Evercore ISI Outperform $1,100 initiated Sep 16; AI photonics/optics secular theme | scanner |
-| INTC | 0.866033 | $108.4484 | $104.70 | $115.95 | TBD | Multiple analyst upgrades today: Tigress Financial Buy PT $118→$145 (Terafab, AI-driven turnaround) + Northland new Outperform PT $120 (server CPU shortage tailwinds, SpaceX/Tesla Terafab); AI/foundry turnaround narrative accelerating | scanner |
+| LITE | 0.279569 | $894.23 | $902.00 | $972.33 | YES | CEO raised LT guidance at ECOC 2026 (~$40 EPS by FY2028); Deutsche Bank Buy $1,200 + Evercore ISI Outperform $1,100 initiated Sep 16; AI photonics/optics secular theme | scanner |
+| INTC | 0.866033 | $108.4484 | $109.14 | $115.95 | YES | Multiple analyst upgrades today: Tigress Financial Buy PT $118→$145 (Terafab, AI-driven turnaround) + Northland new Outperform PT $120 (server CPU shortage tailwinds, SpaceX/Tesla Terafab); AI/foundry turnaround narrative; stop now above cost basis | scanner |
 
 ⚠️ BOTH STOPS ARE MENTAL — no standing stop orders in Robinhood (fractional shares).
 
-10 AM prices and status:
-- LITE: $920.36 at ~10:09 AM ET | entry $894.23 | stop $855.18 | TP $972.33 | buffer +$65.18 (+7.6%) | HELD ✓
-  - Note: faded from open high ~$938 to $920 (gap mostly round-tripped). Thesis fully intact — AI photonics, analyst upgrades all Sep 16. No adverse news. Hold for TP or stop.
-- INTC: BOUGHT $93.92 (0.866033 sh) @ $108.4484 fill at 10:09 AM | stop $104.70 (30-min low) | TP $115.95 | dollar risk $3.25
-  - Catalyst: Tigress Financial Buy PT $145 + Northland new Outperform $120, both Sep 17. Strong sustained uptrend from open ($104.72→$109+, then consolidated $108.45).
+12 PM prices and status:
+- LITE: $918.59 at ~12:00 PM ET | entry $894.23 | stop TRAILED $855.18→$902.00 | TP $972.33 | gain +2.73% from entry | HELD ✓
+  - Intraday: opened $934.97, surged to $945 high, faded hard to low $902.00 (10:25-10:30 ET double-bottom), then recovered to $919. Gap fully round-tripped but thesis intact. Stop trailed to $902 (1.82% below current).
+- INTC: $110.90 at ~12:00 PM ET | entry $108.4484 | stop TRAILED $104.70→$109.14 | TP $115.95 | gain +2.26% from entry (+9.74% from prior close) | HELD ✓
+  - Intraday: opened $104.72 (at original stop!), immediately surged to $109.20 by 9:50 ET, bought $93.92 @ $108.4484, then steady grind to $110.90 by noon. Stop $109.14 is now ABOVE entry ($108.4484) — position is risk-free. Overnight flag upgraded TBD→YES.
 
-Settled cash: $338.45
-Total account value: ~$878.04 (post-buy)
-Portfolio invested: ~40.0% (LITE ~29.3%, INTC ~10.7%)
+No new positions opened this session — tech sector cap reached (LITE + INTC = 2 tech positions at ~40% of account).
+
+Settled cash: $338.45 (unchanged — no trades this session)
+Total account value: ~$879.68
+Portfolio invested: ~40.1% (LITE ~29.2%, INTC ~10.9%)
 Buying power (settled, spendable): $338.45
-SPY at ~10:09 AM: $760.80 (+0.89%) — NORMAL REGIME
+SPY at noon: $762.55 (+1.13%) — NORMAL REGIME
+QQQ at noon: $716.71 (+1.70%)
 
 Sessions completed today (Sep 17):
 - 7 AM: FPS TP breach flagged (+4.42% PM vs $35.80 TP), LITE on track (+2.0% PM). Exact portfolio match.
 - 9:30 AM: FPS SOLD @ $37.204 (+17.73%/+$28.37 ✓). LITE HELD (open $934.97, last $938.53).
 - 10 AM: LITE HELD (faded to $920.36, thesis intact). INTC BOUGHT $93.92 @ $108.4484 (analyst_upgrade).
+- 12 PM: Both positions held. Stops trailed. No new buys (tech sector cap full). INTC overnight flag TBD→YES.
 
 ---
 NOTES FOR 3:15 PM AGENT (Thu Sep 17, 2026):
 
-⚠️ LITE — OVERNIGHT HOLD POSITION:
-- Entry $894.23, stop $855.18, TP $972.33. At 10 AM: $920.36 (+2.92% from entry, +7.6% above stop).
-- Faded from open $934.97 to ~$920 — gap mostly round-tripped due to post-FOMC mean-reversion; thesis NOT broken.
-- Watch at 3:15 PM: if LITE is above $920 (10 AM level) with any upward momentum → hold overnight thesis intact; TP $972.33 is −5.6% away.
-- If LITE recovers toward $938-$940 with volume → confirm momentum resuming; TP remains the target.
-- If LITE drops below $894 (entry price) at 3:15 PM → thesis weakening; check for any negative news before deciding; discretionary exit if thesis broken.
-- If LITE at or below $855.18 at 3:15 PM → SELL IMMEDIATELY (stop triggered).
+⚠️ TECH SECTOR CAP FULL — CRITICAL:
+- LITE (tech) + INTC (tech) = 2 tech positions at ~40% of account = AT the hard cap.
+- Do NOT add any tech at 3:15 PM unless prices have moved enough to bring tech allocation below 40%.
+- TEM (Tempus AI, +14.1% today, Piper Sandler upgrade) is classified as "Technology Services" by Robinhood — tech sector cap blocks it. Only eligible if tech allocation drops below cap AND all other criteria are met.
 
-⚠️ INTC — NEW POSITION (TODAY 10 AM):
-- Entry $108.4484 (0.866033 sh, $93.92, sector-capped MEDIUM/small). Stop $104.70 (30-min low), TP $115.95. Dollar risk $3.25.
-- Catalyst: Tigress Financial Buy PT $145 (AI turnaround, Terafab, Xeon demand) + Northland new Outperform PT $120 (server CPU shortage, SpaceX/Tesla Terafab). Also SK Hynix deal buzz (unconfirmed).
-- ⚠️ SK Hynix deal buzz is UNCONFIRMED (rumor-level). If a regulatory filing or signed-deal announcement surfaces, the SK Hynix angle becomes a potential M&A binary — evaluate for hard disqualification at 3:15 PM.
-- At 3:15 PM: if INTC above $108.45 (entry) with thesis intact → evaluate for overnight hold (AI/foundry multi-day thesis).
-- If INTC below entry but above stop → no discretionary exit unless thesis broken; let stop do its job.
-- If INTC at or below $104.70 at 3:15 PM → SELL (stop triggered).
-- Sector: tech. Combined tech exposure with LITE = 40.0% of account at sector cap. Do NOT add more tech at 3:15 PM unless prices have moved enough to create room under the 40% cap.
+⚠️ LITE — OVERNIGHT HOLD (stop trailed to $902.00):
+- Entry $894.23, stop $902.00 (trailed from $855.18), TP $972.33. At noon: $918.59 (+2.73% from entry).
+- Intraday formed double-bottom at $902.00 (10:25 and 10:30 ET); recovered to $919. Thesis intact.
+- At 3:15 PM: if LITE above $902 with thesis intact → hold overnight; TP $972.33 is ~5.8% away.
+- If LITE at or below $902.00 → SELL IMMEDIATELY (stop triggered).
+- If LITE recovering above $920-925 with volume into close → momentum resuming; overnight hold confirmed.
+- If LITE below $902 but still above entry AND new adverse news emerged → evaluate discretionary exit.
 
-Catalyst watch list for Thu Sep 17 afternoon: None identified at 10 AM.
+⚠️ INTC — STRONG OVERNIGHT HOLD (stop at $109.14, above cost basis = risk-free):
+- Entry $108.4484 (0.866033 sh), stop $109.14 (ABOVE entry — any exit at/above stop = breakeven or better), TP $115.95.
+- At noon: $110.90 (+9.74% from prior close). Grinding up steadily all session. Multiple analyst upgrades ($120-$145 PTs). Strong multi-day AI/foundry thesis.
+- Stop is above cost basis: this trade can only break even or win. Very strong case for overnight hold.
+- At 3:15 PM: if INTC above $109.14 with thesis intact → HOLD OVERNIGHT. TP $115.95 is 4.6% away and achievable tomorrow.
+- If INTC at or below $109.14 → SELL (stop triggered, though would be a breakeven or slight gain).
+- ⚠️ SK Hynix deal buzz STILL UNCONFIRMED as of noon. If signed-deal/regulatory filing surfaces → evaluate M&A binary; consider discretionary exit before the event.
+
+Candidate watch for 3:15 PM:
+- TEM ($79.53, +13.7%, tech sector per Robinhood): Piper Sandler Overweight upgrade, federal AI grant, Q2 beat. Already trading 4.8% above analyst $76 PT. Only eligible if tech allocation drops below 40% cap. RelVol 1.40x.
+- MRNA ($158.45, +8.81%, healthcare): Cancer vaccine momentum without fresh Sep 17 catalyst. RelVol 1.25x. If a specific catalyst emerges and relVol improves to ≥1.5x, reconsider. Non-tech sector.
+- SDGR (+16.4%, healthcare): AI drug discovery. RelVol 1.10x — below threshold; only eligible with fresh catalyst + relVol improvement.
+
+Catalyst watch list for Thu Sep 17 afternoon: None identified.
 
 DO NOT RE-ENTER (standing bans — carry forward):
 ATEC (stopped Sep 16 stop_loss), ORCL (sold Sep 15 stop_loss), BE (sold Sep 15 stop_loss), META, AVAV (stopped Sep 10)
@@ -85,8 +98,7 @@ ODD, CSR, ADBE, ACVA, RH, RDDT: Standing bans (see prior sessions).
 LUXE: Earnings miss BMO Sep 16 — banned.
 AMRX: Pending acquisition of Kashiv BioSciences ($750M, shareholder approval required) — M&A binary, hard disqualifier.
 BBNX: Dilutive $150M secondary offering closing this week — skip.
-TCOM: Failed $40.50 re-entry threshold at 3:15 PM Sep 16 ($40.43); no longer a watch candidate.
-GNRC: Up +19.9% on Amazon AI data center deal ($2.4B-$8B) but hard-fading since open ($230.62 → $209); do not chase — sell-the-news dynamic.
+GNRC: Hard-fading sell-the-news (Amazon data center deal) — do not chase.
 
 ---
 PRE-CHECK — Market day verification
