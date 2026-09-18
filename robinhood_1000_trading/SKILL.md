@@ -14,19 +14,19 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET 2026-09-17.** Live sync ••••6616: 2 positions (FPS/LITE) — exact match Sep 16 3:15 PM handoff.
+**7:00 AM ET 2026-09-18.** Live sync ••••6616: 2 positions (INTC/MRNA) — exact match Sep 17 3:15 PM handoff.
 
-**FPS TP BREACH** | PM $36.38 (+4.42% vs $34.84 close) | TP $35.80 BREACHED (+1.6%) | stop $33.75 | +7.2% above stop | bid $35.95/ask $36.39 (1.2%). No adverse overnight news; Q4 beat+raise thesis intact, backlog $1.98B, mfg expansion plans. → ⚠️ SELL AT MARKET at open (TP hit). Pre-market limit NOT placed — TP breach protocol = wait for open print.
+**INTC ON TRACK** | PM $111.59 (+2.57% vs $108.80 close) | stop $109.14 (+2.2% cushion) | TP $115.95 (−3.8% away) | bid/ask $111.50/$111.59 (0.08%). SK Hynix U.S. memory fab collaboration reports + chip sector rally; Melius Research $200 PT. Thesis intact & strengthening.
 
-**LITE ON TRACK** | PM $937.80 (+2.00% vs $919.40 close) | stop $855.18 | +8.8% above stop | TP $972.33 (−3.7% away) | bid $937.57/ask $938.88 (0.1%). No adverse news. CEO guidance raise ECOC 2026, DB Buy $1,200 + Evercore $1,100 intact. AI photonics thesis developing; LITE reg-session close $919.40 (rallied +2.8% from 3:29 PM entry price).
+**MRNA ON TRACK / NEAR TP** | PM $160.15 (+1.32% vs $158.07 close) | stop $155.00 (+3.2% cushion) | TP $161.03 (−0.55% away) | bid/ask $159.81/$160.25 (0.27%). Argus Buy $180 (FDA COVID-19 vaccine approval). mRNA cancer vaccine Phase 3 thesis intact. ⚠️ TP $161.03 may hit at open — 10 AM agent: be ready to sell if TP prints.
 
 **Pre-market sells placed:** NONE.
 
-**Catalyst watch list:** None (handoff: none identified).
+**Catalyst watch list:** None identified.
 
-**Macro:** SPY PM $760.70 (+0.88%), QQQ PM $712.80 (+1.15%) — post-FOMC relief rally. 2Y yield 4.72% (easing from 4.95%). Jobless claims 8:30 AM ET. Saudi/Brent $107+ geopolitical risk ongoing.
+**Macro:** SPY PM $762.12 (+0.19%), QQQ PM $720.01 (+0.43%). Futures S&P +0.2%, Nasdaq +0.4% — mildly positive post-FOMC (Sep 16). No major econ releases today (next CPI Oct 13).
 
-**SUMMARY:** 1 ON TRACK (LITE), 1 TP BREACH (FPS → SELL AT OPEN), 0 pre-market sells, 0 catalyst tickers. No email sent.
+**SUMMARY:** 2 ON TRACK (INTC + MRNA), 0 flagged, 0 pre-market sells; 0 catalyst tickers. MRNA near TP — watch at open. No email sent.
 
 ---
 
