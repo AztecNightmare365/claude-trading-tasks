@@ -1,62 +1,29 @@
 {
-  "ts": "2026-09-17T19:25:00Z",
-  "source": "robinhood_1515_trading",
+  "ts": "2026-09-18T13:37:00Z",
+  "source": "robinhood_0930_open",
   "portfolio": {
-    "totalValue": 871.55,
-    "cash": 526.19,
-    "equityValue": 345.38,
-    "buyingPower": 88.45,
+    "totalValue": 873.164974345,
+    "cash": 526.2,
+    "equityValue": 346.964974345,
+    "buyingPower": 526.2,
     "positions": [
       {
         "ticker": "INTC",
         "shares": 0.866033,
-        "entry": 108.4484,
-        "current": 110.115,
-        "plPct": 1.54,
+        "entry": 108.45,
+        "current": 110.41,
+        "plPct": 1.81,
         "managed": true
       },
       {
         "ticker": "MRNA",
         "shares": 1.592264,
-        "entry": 157.009,
-        "current": 157.009,
-        "plPct": 0.0,
+        "entry": 157.01,
+        "current": 157.89,
+        "plPct": 0.56,
         "managed": true
       }
     ]
   },
-  "fills": [
-    {
-      "id": "6aabebcb-1156-4265-8652-ea64fdc48119",
-      "side": "sell",
-      "ticker": "FPS",
-      "qty": 5.063291,
-      "price": 37.204,
-      "at": "2026-09-17T13:31:55Z"
-    },
-    {
-      "id": "6aabf4a6-9d26-46e2-bf2a-f8081cd276b1",
-      "side": "buy",
-      "ticker": "INTC",
-      "qty": 0.866033,
-      "price": 108.4484,
-      "at": "2026-09-17T14:09:42Z"
-    },
-    {
-      "id": "6aac3e49-3554-4b94-a0ab-d7df603b80c7",
-      "side": "sell",
-      "ticker": "LITE",
-      "qty": 0.279569,
-      "price": 892.0001,
-      "at": "2026-09-17T19:23:53Z"
-    },
-    {
-      "id": "6aac3e4a-8f78-4a86-931e-19cc27de3117",
-      "side": "buy",
-      "ticker": "MRNA",
-      "qty": 1.592264,
-      "price": 157.009,
-      "at": "2026-09-17T19:23:54Z"
-    }
-  ]
+  "fills": []
 }

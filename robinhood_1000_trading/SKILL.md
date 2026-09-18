@@ -33,20 +33,21 @@ Execute all steps in order, then place all orders simultaneously.
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET 2026-09-17.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
+**9:30 AM ET 2026-09-18.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
 
-**Sells executed: 1.**
-- FPS: first-bar open $36.61, last trade $36.86 (+5.8% vs $34.84 close) | TP $35.80 BREACHED | SOLD 5.063291 sh @ $37.204 fill | entry $31.60 | **+17.73% / +$28.37** ✓
+**Sells executed: NONE.**
 
-**Catalyst entries: NONE.** Catalyst watch list: none identified for Sep 17.
+**Catalyst entries: NONE.** Catalyst watch list for Sep 18: none confirmed.
 
-**Portfolio sync:** Exact match (FPS/LITE at open). 0 manual adoptions.
+**Portfolio sync:** Exact match (INTC/MRNA at open). 0 manual adoptions.
 
-**SPY** $762.91 (+1.17%), **QQQ** $715.76 (+1.56%) — NORMAL REGIME.
+**SPY** $761.21 (+0.07%), **QQQ** $718.77 (+0.26%) — NORMAL REGIME.
 
-**LITE open:** first-bar $934.97, last $938.53 (+2.1% vs $919.40 close) | stop $855.18 | TP $972.33 | buffer +$83.35 (+9.7%) | first-bar low $933.45 | HELD ✓
+**INTC open:** first-bar $109.84, last $110.41 (+1.48% vs $108.80 close) | stop $109.14 | TP $115.95 | first-bar low $109.22 (above stop ✓) | HELD ✓
 
-**Status:** 1 TP sell (FPS +$28.37), 0 catalyst entries, 1 position open for 10 AM (LITE).
+**MRNA open:** first-bar $158.59, last $157.89 (−0.11% vs $158.07 close) | stop $155.00 | TP $161.03 | first-bar low $156.86 (above stop ✓) | first-bar high $159.79 (below TP ✓) | HELD ✓
+
+**Status:** 0 stop/TP sells, 0 catalyst entries, 2 positions open for 10 AM (INTC + MRNA).
 
 ---
 
