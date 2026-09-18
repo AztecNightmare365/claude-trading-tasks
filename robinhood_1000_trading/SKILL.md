@@ -90,73 +90,61 @@ RAW STATS:
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-Last updated: 2026-09-17 (~3:25 PM ET — 3:15 PM session complete)
+Last updated: 2026-09-18 (~3:27 PM ET — 3:15 PM session complete)
 
-Open positions held overnight: **2 (INTC + MRNA)**
+Open positions held overnight: **2 (MSTR + INSP)**
 
-| Ticker | Shares | Entry Price (actual) | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
-|--------|--------|----------------------|------|----|-----------|-----------------|------------|
-| INTC | 0.866033 | $108.4484 | $109.14 | $115.95 | YES | Multiple analyst upgrades (Tigress Buy PT $145, Northland Outperform $120); AI/foundry turnaround; stop ABOVE cost basis = risk-free trade | scanner |
-| MRNA | 1.592264 | $157.009 | $155.00 | $161.03 | YES | Phase 3 mRNA cancer vaccine (intismeran autogene + Merck Keytruda) confirmed positive; Sep 17 morning catalyst spike (420K share volume bar at 9:55 AM); relVol 1.725x sustained; healthcare sector, no binary events | scanner |
+| Ticker | Shares | Entry Price (actual fill) | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
+|--------|--------|---------------------------|------|----|-----------|-----------------|------------|
+| MSTR | 1.015625 | $153.5999 | $141.31 | $178.18 | YES | Bitcoin through $80K + SEC tokenized stock trading pilot (5-yr exemption); technical breakout above 200-day EMA ($152); CEO Phong Le bullish interview; making new intraday highs at close; relVol 1.95x | scanner |
+| INSP | 2.809548 | $77.2366 | $71.43 | $88.86 | YES | Stifel upgrade to Buy PT $75→$80 (Sep 18 morning); Q2 beat + FY26 guidance raised (Aug 3); relVol 1.63x; above VWAP $75.97; healthcare, no binary events | scanner |
 
 ⚠️ BOTH STOPS ARE MENTAL — no standing stop orders in Robinhood (fractional shares).
 
-3:15–3:25 PM prices and status:
-- INTC: $110.115 at ~3:15 PM ET | entry $108.4484 | stop $109.14 (above entry — risk-free) | TP $115.95 | gain +1.54% from entry | HELD ✓
-  - Grinding up all day from $104.72 open. Afternoon range $109.60–$111.17, consolidating ~$110.10. Thesis intact: multiple analyst upgrades (Tigress Buy PT $145, Northland Outperform $120). SK Hynix deal still unconfirmed — if signed deal/regulatory filing surfaces, evaluate discretionary exit before event.
-- LITE: SOLD $892.00 at 3:23 PM ET — stop triggered (stop $902.00, breached ~3:05 PM, filled at market). Entry $894.23. P&L: −0.25% / −$0.62. LITE not on standing ban — may revisit on separate session if recovers above $902.
-- MRNA: BOUGHT 1.592264 sh @ $157.009 ($250.00 MEDIUM tier, scanner). Stop $155.00 (key intraday support tested twice: morning pre-surge consolidation at 1:30 PM and afternoon low). TP $161.03. Today's HOD was $161.84.
+3:15–3:27 PM fill details:
+- MSTR: Filled $153.5999 (1.015625 sh, $156 MEDIUM tier). Stop $141.31 (8% cap: $153.60 × 0.92). TP $178.18.
+  - Making new intraday highs into the close (day high $153.58+, 3:15 PM bar 345K shares — highest vol bar of session). Broke above 200-day EMA ($152) for first time since May. RSI 63.56 (not overbought). Bitcoin $80K+ fresh catalyst. CEO Phong Le bullish Bitcoin Magazine interview same day.
+  - WEEKEND RISK: Bitcoin trades 24/7. If BTC retraces hard from $80K over the weekend, MSTR will open lower Mon Sep 21. Stop $141.31 limits loss to $12.47. At 10 AM Monday: check Bitcoin weekend price first.
+- INSP: Filled $77.2366 (2.809548 sh, $217 HIGH tier, capped at 25% of account). Stop $71.43 (intraday low, just above 8% cap of $71.06). TP $88.86.
+  - Stifel Buy upgrade PT $75→$80 drove 7.4% morning jump to HOD $78.80. Mild afternoon consolidation to ~$77.32 (80% of intraday range) is normal post-upgrade behavior. Well above VWAP $75.97. No binary events near-term.
+  - At 10 AM Monday: Stifel upgrade still fresh (2 days old). Check for any additional analyst commentary or negative news. TP $88.86 is above Stifel's $80 PT — consider discretionary exit near $80 if stock runs there quickly.
 
-Settled cash: $88.45 (after MRNA buy: $338.45 − $250.00)
-Unsettled cash: $437.74 (FPS $188.37 + LITE $249.37)
-Total account value: ~$871.55
-Portfolio invested: ~39.6% (INTC ~10.9%, MRNA ~28.7%)
-Buying power (settled, spendable): $88.45
-SPY at 3:15 PM: ~$762.82 (+1.16%) — NORMAL REGIME; QQQ +1.70%
+Settled cash: $153.20 (after buys: $526.20 − $373.00)
+Unsettled cash: ~$341.10 (INTC $93.93 settles Mon Sep 21; MRNA $247.17 settles Tue Sep 22)
+Total account value: ~$867.30
+Portfolio invested: ~43.0% (MSTR 18.0%, INSP 25.0%)
+Buying power (settled, spendable): $153.20
+SPY at 3:15 PM: $761.16 (+0.06%) — NORMAL REGIME; QQQ +0.32%
 
-Sessions completed today (Sep 17):
-- 7 AM: FPS TP breach flagged (+4.42% PM vs $35.80 TP), LITE on track (+2.0% PM). Exact portfolio match.
-- 9:30 AM: FPS SOLD @ $37.204 (+17.73%/+$28.37 ✓). LITE HELD (open $934.97, last $938.53).
-- 10 AM: LITE HELD (faded to $920.36, thesis intact). INTC BOUGHT $93.92 @ $108.4484 (analyst_upgrade).
-- 12 PM: Both positions held. Stops trailed. No new buys (tech sector cap full). INTC overnight TBD→YES.
-- 3:15 PM: LITE SOLD $892.00 (stop_loss, −0.25%/−$0.62). MRNA BOUGHT $250.00 @ $157.009. INTC HELD.
+Sessions completed today (Sep 18):
+- 7 AM: INTC on track (+2.57% PM, $111.59), MRNA near TP (+1.32% PM, $160.15). Exact portfolio match.
+- 9:30 AM: No sells. INTC/MRNA holds confirmed (stops clear). 0 catalyst entries.
+- 10 AM: INTC SOLD $108.46 (stop_loss, +0.01%/+$0.01). MRNA HELD ($155 stop approached but held).
+- 12 PM: MRNA SOLD $155.23 (stop_loss, −1.13%/−$2.83). 0 new buys (no qualifying candidates).
+- 3:15 PM: MSTR BOUGHT $156 @ $153.5999 (scanner, MEDIUM). INSP BOUGHT $217 @ $77.2366 (scanner, HIGH). 2 positions held into Mon Sep 21.
 
 ---
 
-NOTES FOR 7 AM / 10 AM AGENT (Fri Sep 18, 2026):
+NOTES FOR 7 AM / 10 AM AGENT (Mon Sep 21, 2026):
 
-⚠️ INTC — OVERNIGHT HOLD (stop $109.14, above cost basis = risk-free):
-- Entry $108.4484 (0.866033 sh), stop $109.14 (ABOVE entry), TP $115.95. Close ~$110.10 (+1.54% from entry, +8.97% from Sep 16 close $101.05).
-- Thesis: Multiple analyst upgrades Sep 17 — Tigress Financial Buy PT $118→$145 (Terafab, AI-driven turnaround) + Northland new Outperform PT $120 (server CPU shortage, SpaceX/Tesla Terafab demand). AI/foundry turnaround narrative intact.
-- Stop $109.14 is ABOVE cost basis — this position can only break even or win overnight.
-- At 7 AM / 10 AM: if INTC above $109.14 with thesis intact → hold. TP $115.95 is +5.3% above 3:15 PM price.
-- ⚠️ SK Hynix deal buzz STILL UNCONFIRMED as of 3:15 PM. If signed-deal/regulatory filing surfaces → evaluate M&A binary; consider discretionary exit before event.
+⚠️ MSTR — WEEKEND HOLD (Bitcoin proxy; stop $141.31 = 8% below entry):
+- Entry $153.5999 (1.015625 sh), stop $141.31, TP $178.18.
+- Catalyst: Bitcoin cleared $80K (new round-number milestone), SEC announced 5-year tokenized stock trading pilot exemption (Sep 17), CFTC eased prediction market rules. CEO Phong Le gave bullish Bitcoin Magazine interview Sep 18.
+- Technical: Broke above 200-day EMA ($152) for first time since May. RSI 63.56 (not overbought, room to run). Made new intraday highs at the close bar (345K vol).
+- WEEKEND RISK: Bitcoin trades 24/7. Check BTC price first thing Monday morning. If BTC is below ~$75K, MSTR may open near or below stop — be ready to sell immediately. If BTC held $80K+ over the weekend, MSTR should open flat or higher.
+- At 10 AM: if above $141.31 and Bitcoin thesis intact → hold. If below $141.31 → sell immediately (mental stop). TP $178.18 is +16.1% above entry.
 
-⚠️ MRNA — NEW OVERNIGHT HOLD (stop $155.00, TP $161.03):
-- Entry $157.009 (1.592264 sh, $250.00 MEDIUM tier, scanner). Stop $155.00, TP $161.03.
-- Catalyst: Phase 3 positive results confirmed for mRNA cancer vaccine (intismeran autogene, Moderna + Merck Keytruda combination). Sep 17 morning spike at 9:55 AM on 420K share volume (+from $155→$161.84 intraday high). relVol 1.725x sustained all day. Healthcare sector (no sector cap conflict).
-- At 7 AM / 10 AM: if MRNA above $155.00 → hold. TP $161.03 is just below today's HOD $161.84 — any gap-up opening above HOD = strong confirmation. Watch for further Phase 3 coverage or FDA commentary.
-- Risk: stock closed $157.01, down from $161.84 HOD (at 66% of intraday range). Overnight consolidation risk is real. Stop $155.00 (1.3% below entry) provides controlled downside.
-- MRNA earnings: Q3 2026 expected October/November — no binary event tonight or Sep 18.
+⚠️ INSP — OVERNIGHT HOLD (healthcare; stop $71.43 = intraday low):
+- Entry $77.2366 (2.809548 sh), stop $71.43, TP $88.86.
+- Catalyst: Stifel upgraded to Buy, PT raised $75→$80 (Sep 18 morning). Q2 2026 beat + FY26 guidance raised (Aug 3). Oppenheimer Buy $85 (Aug 4). CMS finalized higher payment rates for sleep apnea procedures.
+- Stock ran $71.43 open → $78.80 HOD on upgrade news; mild afternoon consolidation to $77.32 is normal. VWAP $75.97 well below stop.
+- At 10 AM: if above $71.43 and upgrade thesis intact → hold. Consider discretionary exit near $80 (Stifel PT) if stock runs there quickly. UBS maintains Sell $40 PT (Aug 5); stock at $77 is already above average analyst consensus ~$57 — only the Stifel/Oppenheimer bull cases support current price.
+- Note: stop at $71.43 is intraday low from Sep 18 — any gap below that level → sell.
 
-LITE — SOLD (stop_loss, do NOT ban from future trades):
-- Stop $902.00 triggered ~3:05 PM (double-bottom support broke). Filled at market $892.00 at 3:23 PM.
-- P&L: −0.25% / −$0.62. LITE thesis (CEO guidance raise, DB/Evercore upgrades) remains valid long-term; stop was trailed correctly. May revisit if stock recovers above $902 in a future session.
-
-MACRO OVERNIGHT Sep 17–18:
-- SPY +1.16% Sep 17 — NORMAL REGIME. QQQ +1.70%.
-- 2Y yield ~4.72% (easing from 4.95% post-FOMC)
-- Brent crude ~$107+ (geopolitical ongoing)
-- Sep 18 is Friday: end-of-week profit-taking risk for big movers (INTC +8.97% on day); watch for gap-fade at open
-- No high-market-cap earnings tonight per Robinhood calendar — confirmed empty
-- Weekly jobless claims were the main Sep 17 econ data; no major econ events Sep 18 AM
-
-WATCH LIST for 7 AM / 10 AM (not bought tonight):
-- VICR ($217.50, +18.3%, tech): Sep 16 VPD licensing to AI OEM. Catalyst confirmed. Closing near HOD, above VWAP. ⚠️ Not purchased tonight due to Thursday tech-sector stacking rule (INTC opened same day). At 10 AM on Friday: if gap-up confirmed and INTC sold/exited, tech allocation room opens for VICR. ⚠️ 5-day move ~22% — only enter with strong open confirmation.
-- SDGR ($29.29, +22.4%, healthcare): AI drug discovery. 5-day move +55.8% from Sep 10 low → HARD DISQUALIFIER tonight. Research Sep 17 specific catalyst before any 10 AM entry (no confirmed news identified at 3:15 PM).
+SAME-DAY RULE — eligible again Mon Sep 21 (ban expired at Sep 18 close): MRNA, INTC
 
 DO NOT RE-ENTER (standing bans — carry forward):
-ATEC (stopped Sep 16 stop_loss), ORCL (sold Sep 15 stop_loss), BE (sold Sep 15 stop_loss), META, AVAV (stopped Sep 10)
+ATEC (stopped Sep 16), ORCL (sold Sep 15), BE (sold Sep 15), META, AVAV (stopped Sep 10)
 SNDK (stopped Sep 10 12PM), MU (stopped Sep 10 12PM), GLW (stopped Sep 10 9:30AM), COHR (stopped Sep 10 9:30AM), ALAB (stopped Sep 10 9:30AM), CRM (stopped Sep 1), DG (stopped Aug 28), VEEV/MRK/ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18). WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC, ASTS, HPE, AVGO, MGNI, GTLB.
 VRNS: M&A binary (Proofpoint/Thoma Bravo) STILL PENDING.
 SWKS: Pending acquisition of QRVO — M&A binary, hard disqualifier.
@@ -164,11 +152,20 @@ QRVO: Target of SWKS acquisition — hard disqualifier.
 VAL: Pending merger with RIG (Transocean) — M&A binary, hard disqualifier.
 ODD, CSR, ADBE, ACVA, RH, RDDT: Standing bans (see prior sessions).
 LUXE: Earnings miss BMO Sep 16 — banned.
-AMRX: Pending acquisition of Kashiv BioSciences ($750M, shareholder approval required) — M&A binary, hard disqualifier.
+AMRX: Pending acquisition of Kashiv BioSciences — M&A binary, hard disqualifier.
 BBNX: Dilutive $150M secondary offering closing this week — skip.
 GNRC: Hard-fading sell-the-news (Amazon data center deal) — do not chase.
 
-Catalyst watch list for Fri Sep 18, 2026: none confirmed with sufficient conviction.
+SECTOR CAP STATUS (entering Mon Sep 21):
+- Crypto/digital assets: 1 position (MSTR). Room for 1 more.
+- Healthcare: 1 position (INSP). Room for 1 more.
+- All other sectors: 0 positions. Full room.
+
+Catalyst watch list for Mon Sep 21, 2026: none confirmed.
+- No high-cap earnings BMO Monday (Robinhood calendar confirmed empty for Sep 21)
+- No FDA PDUFA dates identified for Sep 21
+- Sep 22: KBH (Q3 PM), AZO (Q4 AM), THO (Q4 AM) — none relevant to current holdings
+- Weekend macro watch: Bitcoin price (key for MSTR), 10-yr Treasury (Schmid hawkish Sep 18, 5.0%), S&P futures Sunday evening
 
 ---
 

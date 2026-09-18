@@ -1,29 +1,60 @@
 {
-  "ts": "2026-09-18T13:37:00Z",
-  "source": "robinhood_0930_open",
+  "ts": "2026-09-18T19:27:30Z",
+  "source": "robinhood_1515_trading",
   "portfolio": {
-    "totalValue": 873.164974345,
-    "cash": 526.2,
-    "equityValue": 346.964974345,
-    "buyingPower": 526.2,
+    "totalValue": 867.30,
+    "cash": 153.20,
+    "equityValue": 373.00,
+    "buyingPower": 153.20,
     "positions": [
       {
-        "ticker": "INTC",
-        "shares": 0.866033,
-        "entry": 108.45,
-        "current": 110.41,
-        "plPct": 1.81,
-        "managed": true
+        "ticker": "MSTR",
+        "shares": 1.015625,
+        "entry": 153.5999,
+        "current": 153.5999,
+        "plPct": 0.0,
+        "managed": true,
+        "stop": 141.31,
+        "tp": 178.18,
+        "catalyst": "sector_momentum",
+        "sector": "financials/crypto"
       },
       {
-        "ticker": "MRNA",
-        "shares": 1.592264,
-        "entry": 157.01,
-        "current": 157.89,
-        "plPct": 0.56,
-        "managed": true
+        "ticker": "INSP",
+        "shares": 2.809548,
+        "entry": 77.2366,
+        "current": 77.2366,
+        "plPct": 0.0,
+        "managed": true,
+        "stop": 71.43,
+        "tp": 88.86,
+        "catalyst": "analyst_upgrade",
+        "sector": "healthcare"
       }
     ]
   },
-  "fills": []
+  "fills": [
+    {
+      "id": "6aad90a1-331c-482e-ab42-fdd4749dc285",
+      "side": "buy",
+      "ticker": "MSTR",
+      "qty": 1.015625,
+      "price": 153.5999,
+      "dollar": 156.00,
+      "at": "2026-09-18T19:27:29.792Z",
+      "session": "3:15PM",
+      "entry_type": "scanner"
+    },
+    {
+      "id": "6aad90a2-d9a4-404e-860f-ef267fa77f81",
+      "side": "buy",
+      "ticker": "INSP",
+      "qty": 2.809548,
+      "price": 77.2366,
+      "dollar": 217.00,
+      "at": "2026-09-18T19:27:30.786Z",
+      "session": "3:15PM",
+      "entry_type": "scanner"
+    }
+  ]
 }
