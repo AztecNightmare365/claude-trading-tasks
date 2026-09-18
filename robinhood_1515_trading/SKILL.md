@@ -24,68 +24,69 @@ _No content — see robinhood_1000_trading/SKILL.md for the live 3:15 PM handoff
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-09-17 (~12:10 PM ET — 12 PM reassessment complete)
+Last updated: 2026-09-18 (~10:10 AM ET — 10 AM session complete)
 
-Open positions: 2
+Open positions: 1
 
 | Ticker | Shares | Entry Price (actual) | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
 |--------|--------|----------------------|------|----|-----------|-----------------|------------|
-| LITE | 0.279569 | $894.23 | $902.00 | $972.33 | YES | CEO raised LT guidance at ECOC 2026 (~$40 EPS by FY2028); Deutsche Bank Buy $1,200 + Evercore ISI Outperform $1,100 initiated Sep 16; AI photonics/optics secular theme | scanner |
-| INTC | 0.866033 | $108.4484 | $109.14 | $115.95 | YES | Multiple analyst upgrades today: Tigress Financial Buy PT $118→$145 (Terafab, AI-driven turnaround) + Northland new Outperform PT $120 (server CPU shortage tailwinds, SpaceX/Tesla Terafab); AI/foundry turnaround narrative; stop now above cost basis | scanner |
+| MRNA | 1.592264 | $157.009 | $155.00 | $161.03 | TBD | Phase 3 mRNA cancer vaccine (intismeran autogene + Merck Keytruda) confirmed positive; healthcare sector, no binary events | scanner |
 
-⚠️ BOTH STOPS ARE MENTAL — no standing stop orders in Robinhood (fractional shares).
+⚠️ STOP IS MENTAL — no standing stop order in Robinhood (fractional shares).
 
-12 PM prices and status:
-- LITE: $918.59 at ~12:00 PM ET | entry $894.23 | stop TRAILED $855.18→$902.00 | TP $972.33 | gain +2.73% from entry | HELD ✓
-  - Intraday: opened $934.97, surged to $945 high, faded hard to low $902.00 (10:25-10:30 ET double-bottom), then recovered to $919. Gap fully round-tripped but thesis intact. Stop trailed to $902 (1.82% below current).
-- INTC: $110.90 at ~12:00 PM ET | entry $108.4484 | stop TRAILED $104.70→$109.14 | TP $115.95 | gain +2.26% from entry (+9.74% from prior close) | HELD ✓
-  - Intraday: opened $104.72 (at original stop!), immediately surged to $109.20 by 9:50 ET, bought $93.92 @ $108.4484, then steady grind to $110.90 by noon. Stop $109.14 is now ABOVE entry ($108.4484) — position is risk-free. Overnight flag upgraded TBD→YES.
+10 AM prices and status:
+- MRNA: $156.12 at ~10:07 AM ET | entry $157.009 | stop $155.00 | TP $161.03 | loss −0.57% from entry | HELD ✓
+  - Intraday: opened $158.59, surged to HOD $159.79 (first bar), then faded steadily to $155.48 low (~10:00 AM, barely above stop), partially recovered to $156.12 by 10:07. Stop $155.00 NOT breached. Thesis (Phase 3 cancer vaccine) intact — no adverse news Sep 18. XLV −0.55%, broad healthcare soft on Friday profit-taking.
+  - ⚠️ STOP $155.00 very close — only ~$1.12 cushion at 10:07 AM. Monitor closely at 12 PM and 3:15 PM.
 
-No new positions opened this session — tech sector cap reached (LITE + INTC = 2 tech positions at ~40% of account).
+- INTC: SOLD $108.4601 at 10:02 AM ET — stop triggered (stop $109.14, breached ~9:50 AM bars, filled at market). Entry $108.4484. P&L: +0.01%/+$0.01 (stop was above entry — risk-free trade). INTC not on ban list — may revisit in a future session.
 
-Settled cash: $338.45 (unchanged — no trades this session)
-Total account value: ~$879.68
-Portfolio invested: ~40.1% (LITE ~29.2%, INTC ~10.9%)
-Buying power (settled, spendable): $338.45
-SPY at noon: $762.55 (+1.13%) — NORMAL REGIME
-QQQ at noon: $716.71 (+1.70%)
+No new positions opened this session.
 
-Sessions completed today (Sep 17):
-- 7 AM: FPS TP breach flagged (+4.42% PM vs $35.80 TP), LITE on track (+2.0% PM). Exact portfolio match.
-- 9:30 AM: FPS SOLD @ $37.204 (+17.73%/+$28.37 ✓). LITE HELD (open $934.97, last $938.53).
-- 10 AM: LITE HELD (faded to $920.36, thesis intact). INTC BOUGHT $93.92 @ $108.4484 (analyst_upgrade).
-- 12 PM: Both positions held. Stops trailed. No new buys (tech sector cap full). INTC overnight flag TBD→YES.
+Settled cash: $526.20 (INTC proceeds unsettled until Mon Sep 21; all prior proceeds settled)
+Unsettled cash: $93.93 (INTC sale, settles Sep 21)
+Total account value: ~$868.74
+Portfolio invested: ~28.6% (MRNA only)
+Buying power (settled, spendable): $526.20
+SPY at 10 AM: ~$759.78 (−0.12%) — NORMAL REGIME
+QQQ at 10 AM: ~$717.89 (+0.14%)
+
+Sessions completed today (Sep 18):
+- 7 AM: INTC on track (+2.57% PM, $111.59), MRNA near TP (+1.32% PM, $160.15). Exact portfolio match. No pre-market sells.
+- 9:30 AM: No sells. INTC first-bar low $109.22 > stop $109.14 ✓; MRNA first-bar low $156.86 > stop $155.00 ✓. 0 catalyst entries.
+- 10 AM: INTC SOLD $108.46 (stop_loss, +0.01%/+$0.01). MRNA HELD. 0 new buys — primary scanner 0 results; all scan 2 candidates were crypto/SEC-tokenized-trading sector_momentum with relVol <1.2x (hard gate fail); LITE gapped up then faded hard below its open price by 10 AM.
 
 ---
-NOTES FOR 3:15 PM AGENT (Thu Sep 17, 2026):
+NOTES FOR 3:15 PM AGENT (Fri Sep 18, 2026):
 
-⚠️ TECH SECTOR CAP FULL — CRITICAL:
-- LITE (tech) + INTC (tech) = 2 tech positions at ~40% of account = AT the hard cap.
-- Do NOT add any tech at 3:15 PM unless prices have moved enough to bring tech allocation below 40%.
-- TEM (Tempus AI, +14.1% today, Piper Sandler upgrade) is classified as "Technology Services" by Robinhood — tech sector cap blocks it. Only eligible if tech allocation drops below cap AND all other criteria are met.
+⚠️ MRNA — CLOSE TO STOP, WATCH CAREFULLY:
+- Entry $157.009 (1.592264 sh), stop $155.00 (~1.3% below entry), TP $161.03.
+- At 10:07 AM: $156.12 (−0.57% from entry). Intraday low was $155.50 (barely above stop).
+- Thesis: Phase 3 mRNA cancer vaccine with Merck Keytruda still intact. No adverse news Sep 18.
+- At 3:15 PM: if MRNA above $155.00 with thesis intact → evaluate overnight hold. TP $161.03 is ~3.1% away.
+- If MRNA at or below $155.00 → SELL IMMEDIATELY (stop triggered).
+- Friday end-of-week context: healthcare sector XLV −0.55% today. Weigh week-end risk carefully for overnight decision.
+- If MRNA recovers above $157.50 with sustained volume → overnight hold reasonable. If still near $155-156 and fading → close before weekend.
 
-⚠️ LITE — OVERNIGHT HOLD (stop trailed to $902.00):
-- Entry $894.23, stop $902.00 (trailed from $855.18), TP $972.33. At noon: $918.59 (+2.73% from entry).
-- Intraday formed double-bottom at $902.00 (10:25 and 10:30 ET); recovered to $919. Thesis intact.
-- At 3:15 PM: if LITE above $902 with thesis intact → hold overnight; TP $972.33 is ~5.8% away.
-- If LITE at or below $902.00 → SELL IMMEDIATELY (stop triggered).
-- If LITE recovering above $920-925 with volume into close → momentum resuming; overnight hold confirmed.
-- If LITE below $902 but still above entry AND new adverse news emerged → evaluate discretionary exit.
+INTC — SOLD today (stop_loss, NOT on ban list):
+- Stop $109.14 triggered ~9:50 AM. Filled $108.46. Entry $108.4484. P&L: +0.01%/+$0.01.
+- INTC thesis (Tigress $145, Northland $120, AI/foundry) remains valid. Faded Sep 18 on profit-taking after +8.97% Sep 17 gain.
+- Same-day rule: do NOT re-enter INTC today. May revisit in a future session above $109.14 support.
 
-⚠️ INTC — STRONG OVERNIGHT HOLD (stop at $109.14, above cost basis = risk-free):
-- Entry $108.4484 (0.866033 sh), stop $109.14 (ABOVE entry — any exit at/above stop = breakeven or better), TP $115.95.
-- At noon: $110.90 (+9.74% from prior close). Grinding up steadily all session. Multiple analyst upgrades ($120-$145 PTs). Strong multi-day AI/foundry thesis.
-- Stop is above cost basis: this trade can only break even or win. Very strong case for overnight hold.
-- At 3:15 PM: if INTC above $109.14 with thesis intact → HOLD OVERNIGHT. TP $115.95 is 4.6% away and achievable tomorrow.
-- If INTC at or below $109.14 → SELL (stop triggered, though would be a breakeven or slight gain).
-- ⚠️ SK Hynix deal buzz STILL UNCONFIRMED as of noon. If signed-deal/regulatory filing surfaces → evaluate M&A binary; consider discretionary exit before the event.
+LITE — NOT A POSITION (monitoring):
+- LITE Sep 17 close: $893.61. Sep 18 open: $917.54. HOD $951.60 at 9:35-9:40 AM, then faded hard every bar to ~$909 by 10:07 AM (below open price). Hard reversal — not entered.
+- LITE not on ban list. At 3:15 PM: if LITE has stabilized and is recovering above $920 with volume → eligible (thesis CEO guidance raise + DB/Evercore upgrades still valid). If still fading or below $902 → pass.
 
-Candidate watch for 3:15 PM:
-- TEM ($79.53, +13.7%, tech sector per Robinhood): Piper Sandler Overweight upgrade, federal AI grant, Q2 beat. Already trading 4.8% above analyst $76 PT. Only eligible if tech allocation drops below 40% cap. RelVol 1.40x.
-- MRNA ($158.45, +8.81%, healthcare): Cancer vaccine momentum without fresh Sep 17 catalyst. RelVol 1.25x. If a specific catalyst emerges and relVol improves to ≥1.5x, reconsider. Non-tech sector.
-- SDGR (+16.4%, healthcare): AI drug discovery. RelVol 1.10x — below threshold; only eligible with fresh catalyst + relVol improvement.
+SECTOR CAP STATUS:
+- Tech: 0 positions. Tech sector CLEAR — room for up to 2 tech positions / 40% cap.
+- Healthcare: 1 position (MRNA, ~28.6%). Room for 1 more healthcare position if qualifying.
 
-Catalyst watch list for Thu Sep 17 afternoon: None identified.
+TODAY'S MARKET CONTEXT:
+- All sectors slightly red at 10 AM: XLK −0.18%, XLV −0.55%, XLE −0.22%, XLF −0.49%, XLI −0.23%, XLC −0.90%.
+- Crypto/digital-asset sector strong (SEC approved 5-year tokenized stock trading exemption): MSTR +9.3%, COIN +6.7%, MARA +7.8% — but all on <0.5x relVol. Sector momentum only.
+- MG (Mistras Group) +5.7% on $20.35/share buyout — pending M&A binary, hard disqualifier.
+
+DO NOT RE-ENTER TODAY (same-day rule): INTC
 
 DO NOT RE-ENTER (standing bans — carry forward):
 ATEC (stopped Sep 16 stop_loss), ORCL (sold Sep 15 stop_loss), BE (sold Sep 15 stop_loss), META, AVAV (stopped Sep 10)
@@ -99,6 +100,8 @@ LUXE: Earnings miss BMO Sep 16 — banned.
 AMRX: Pending acquisition of Kashiv BioSciences ($750M, shareholder approval required) — M&A binary, hard disqualifier.
 BBNX: Dilutive $150M secondary offering closing this week — skip.
 GNRC: Hard-fading sell-the-news (Amazon data center deal) — do not chase.
+
+Catalyst watch list: none.
 
 ---
 PRE-CHECK — Market day verification
