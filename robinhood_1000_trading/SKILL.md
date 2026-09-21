@@ -33,21 +33,21 @@ Execute all steps in order, then place all orders simultaneously.
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET 2026-09-18.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
+**9:30 AM ET 2026-09-21.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
 
 **Sells executed: NONE.**
 
-**Catalyst entries: NONE.** Catalyst watch list for Sep 18: none confirmed.
+**Catalyst entries: NONE.** Catalyst watch list for Sep 21: none.
 
-**Portfolio sync:** Exact match (INTC/MRNA at open). 0 manual adoptions.
+**Portfolio sync:** Exact match (MSTR/INSP at open). 0 manual adoptions.
 
-**SPY** $761.21 (+0.07%), **QQQ** $718.77 (+0.26%) — NORMAL REGIME.
+**SPY** $766.58 (+0.64%), **QQQ** $728.67 (+1.00%) — NORMAL REGIME.
 
-**INTC open:** first-bar $109.84, last $110.41 (+1.48% vs $108.80 close) | stop $109.14 | TP $115.95 | first-bar low $109.22 (above stop ✓) | HELD ✓
+**MSTR open:** $165.86 (+7.76% vs $153.92 close) | stop $141.31 (14.8% cushion) | TP $178.18 (7.4% away) | Bitcoin thesis intact; gap-up on weekend BTC $81K+ | HELD ✓
 
-**MRNA open:** first-bar $158.59, last $157.89 (−0.11% vs $158.07 close) | stop $155.00 | TP $161.03 | first-bar low $156.86 (above stop ✓) | first-bar high $159.79 (below TP ✓) | HELD ✓
+**INSP open:** $76.45 (−0.43% vs $76.78 close) | stop $71.43 (6.6% cushion) | TP $88.86 (16.2% away) | bid/ask $76.00/$77.45 (wide at open, normal) | Stifel upgrade thesis intact | HELD ✓
 
-**Status:** 0 stop/TP sells, 0 catalyst entries, 2 positions open for 10 AM (INTC + MRNA).
+**Status:** 0 stop/TP sells, 0 catalyst entries, 2 positions open for 10 AM (MSTR + INSP).
 
 ---
 
