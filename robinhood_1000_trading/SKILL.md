@@ -14,19 +14,19 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET 2026-09-18.** Live sync ••••6616: 2 positions (INTC/MRNA) — exact match Sep 17 3:15 PM handoff.
+**7:00 AM ET 2026-09-21.** Live sync ••••6616: 2 positions (MSTR/INSP) — exact match Sep 18 3:15 PM handoff.
 
-**INTC ON TRACK** | PM $111.59 (+2.57% vs $108.80 close) | stop $109.14 (+2.2% cushion) | TP $115.95 (−3.8% away) | bid/ask $111.50/$111.59 (0.08%). SK Hynix U.S. memory fab collaboration reports + chip sector rally; Melius Research $200 PT. Thesis intact & strengthening.
+**MSTR ON TRACK** | PM $162.20 (+5.38% vs $153.92 close) | stop $141.31 (+12.9% cushion) | TP $178.18 (−8.97% away) | bid/ask $162.04/$162.20 (0.10%) | Bitcoin $81,407 at 4 AM ET (held $80K+ all weekend); CEO Saylor posted BTC purchase hint (unconfirmed); thesis intact & strengthening.
 
-**MRNA ON TRACK / NEAR TP** | PM $160.15 (+1.32% vs $158.07 close) | stop $155.00 (+3.2% cushion) | TP $161.03 (−0.55% away) | bid/ask $159.81/$160.25 (0.27%). Argus Buy $180 (FDA COVID-19 vaccine approval). mRNA cancer vaccine Phase 3 thesis intact. ⚠️ TP $161.03 may hit at open — 10 AM agent: be ready to sell if TP prints.
+**INSP MONITOR** | Last trade $76.79 (11 PM ET stale) | PM bid $74.80/ask $85.75 (14.6% spread — illiquid) | prev close $76.78 | stop $71.43 (+4.5% above bid) | No adverse overnight news; Stifel Buy thesis intact. Wide spread = noise. Do NOT pre-market sell. 10 AM: use first open print.
 
 **Pre-market sells placed:** NONE.
 
-**Catalyst watch list:** None identified.
+**Catalyst watch list:** None (per Sep 18 3:15 PM handoff).
 
-**Macro:** SPY PM $762.12 (+0.19%), QQQ PM $720.01 (+0.43%). Futures S&P +0.2%, Nasdaq +0.4% — mildly positive post-FOMC (Sep 16). No major econ releases today (next CPI Oct 13).
+**Macro:** SPY PM $766.75 (+0.67%), QQQ PM $728.18 (+0.93%). S&P futures +0.7%, Nasdaq +1.1%. Oil −3% (Houthi attack on Saudi Arabia over weekend) supporting equity rally. Goolsbee spoke 5:30 AM; Chicago Fed CFNAI 7:30 AM — no surprise Fed news.
 
-**SUMMARY:** 2 ON TRACK (INTC + MRNA), 0 flagged, 0 pre-market sells; 0 catalyst tickers. MRNA near TP — watch at open. No email sent.
+**SUMMARY:** 1 ON TRACK (MSTR), 1 MONITOR (INSP thin PM/no adverse news), 0 pre-market sells; 0 catalyst tickers. No email sent.
 
 ---
 
