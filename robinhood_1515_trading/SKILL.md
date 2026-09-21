@@ -24,70 +24,76 @@ _No content — see robinhood_1000_trading/SKILL.md for the live 3:15 PM handoff
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-09-21 (~10:08 AM ET — 10 AM session complete)
+Last updated: 2026-09-21 (~12:10 PM ET — 12 PM reassessment complete)
 
-Open positions: **4 (MSTR + INSP + INTC + CIEN)**
+Open positions: **4 (MSTR + INSP + INTC + NUAI)**
 
 ⚠️ ALL STOPS ARE MENTAL — no standing stop orders in Robinhood (fractional shares).
 
 | Ticker | Shares | Entry Price (actual fill) | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
 |--------|--------|---------------------------|------|----|-----------|-----------------|------------|
-| MSTR | 1.015625 | $153.5999 | $141.31 | $178.18 | YES (carried from 3:15 PM Sep 18) | Bitcoin $80K+ thesis intact; gap-up to $167.57 (+8.87%) on continued BTC strength and SEC tokenized trading; above VWAP | scanner |
-| INSP | 2.809548 | $77.2366 | $71.43 | $88.86 | YES (carried from 3:15 PM Sep 18) | Stifel Buy upgrade PT $75→$80 (Sep 18); Q2 beat+FY26 guidance raised; −1.07% today is noise, thesis intact | scanner |
-| INTC | 1.159850 | $118.1187 | $114.93 | $124.50 | YES | SK Hynix US fab manufacturing deal (exploring Ohio campus lease); AI foundry turnaround narrative; priority watchlist, +9.43% open; relVol high on intraday basis; above VWAP $116.91; Monday | scanner |
-| CIEN | 0.381647 | $358.9700 | $356.46 | $363.99 | YES | Evercore ISI upgrade In-Line→Outperform today, PT $375→$550; investor forum targets $14B revenue by 2029, $10B backlog; analyst_upgrade catalyst (best WR type); above VWAP $361.69 | scanner |
+| MSTR | 1.015625 | $153.5999 | $163.50 | $178.18 | YES (carried from 3:15 PM Sep 18) | Bitcoin +6% thesis intact; stop trailed $141.31→$163.50 (1.77% below noon $166.45, above breakeven $153.60) | scanner |
+| INSP | 2.809548 | $77.2366 | $71.43 | $88.86 | YES (carried from 3:15 PM Sep 18) | Stifel Buy upgrade + Freedom Capital PT raised $71→$97 today (Sep 21); −1.68% from entry is noise, thesis strengthened not broken | scanner |
+| INTC | 1.159850 | $118.1187 | $122.00 | $124.50 | YES | SK Hynix US fab deal intact; stop trailed $114.93→$122.00; TP $124.50 touched intraday (H $124.64 at 11:40 AM) then pulled back to $124.00 | scanner |
+| NUAI | 17.677410 | $7.7500 | $7.49 | $8.27 | YES | 20-year 200-207 MW PPA signed with Vistra/Luminant for Texas AI Data Center Phase 1 (Sep 21, 2026); relVol 1.90x; energy/AI infra sector | scanner |
 
-10 AM session actions:
-- MSTR: HELD — +8.87% today ($167.57), 18.6% above stop, TP $178.18 (+6.1% away). Bitcoin thesis intact and strengthening.
-- INSP: HELD — −0.48% today ($76.41), −1.07% from entry (noise threshold), 6.5% above stop. Stifel thesis intact.
-- INTC: BOUGHT $137.00 @ $118.1187 avg (1.159850 sh) — SK Hynix manufacturing partnership + AI turnaround; priority watchlist; Monday entry boost; stop $114.93 (30-min low); TP $124.50.
-- CIEN: BOUGHT $137.00 @ $358.97 avg (0.381647 sh) — Evercore ISI analyst_upgrade today (best catalyst type by WR); stop $356.46 (30-min low); TP $363.99.
+12 PM reassessment actions:
+- CIEN: SOLD (take profit) — TP $363.99 breached intraday 6+ times (high $367.62 at open, $366.28 at 10:30 AM, $365.65 at 11:35 AM); noon price ~$363.90. PnL est. +1.39% / +$1.90. CIEN proceeds ~$138.90 unsettled (T+1, available tomorrow).
+- MSTR: HELD — +8.36% from entry at noon ($166.45). Stop trailed $141.31 → $163.50. Bitcoin +6% thesis intact.
+- INSP: HELD — −1.68% from entry ($75.94). Price condition for discretionary exit met (>1.5% below entry), but thesis NOT broken — Freedom Capital just raised PT to $97 today. Hold and let stop work.
+- INTC: HELD — +4.98% from entry ($124.00). TP $124.50 touched intraday (H $124.64 at 11:40 AM) then pulled back. Stop trailed $114.93 → $122.00.
+- NUAI: BOUGHT $137 @ $7.75 (17.677 sh) — 20-year Vistra PPA catalyst; relVol 1.90x; stop $7.49; TP $8.27. Opened by 12 PM reassessment.
 
-⚠️ CIEN STOP IS TIGHT: $356.46 stop is only $2.51 (0.7%) below entry $358.97. First bar showed wide range ($357–$367) — monitor carefully at 12 PM and 3:15 PM for any close below $356.46.
-
-Settled cash: ~$220.30 (after buys: $494.30 − $274.00)
-Total account value: ~$879.17
-Portfolio invested: ~74.9% (MSTR ~19.4%, INSP ~24.4%, INTC ~15.6%, CIEN ~15.6%)
-Buying power (settled, spendable): ~$220.30
-SPY at 10 AM: $767.63 (+0.78%) — NORMAL REGIME; QQQ +1.56%
+Settled cash: ~$83.30 (after NUAI buy; CIEN proceeds ~$138.90 UNSETTLED — available tomorrow T+1)
+Total account value: ~$887
+Portfolio invested: ~74.9% (MSTR ~19.1%, INSP ~24.1%, INTC ~16.2%, NUAI ~15.5%)
+Buying power (settled, spendable TODAY): ~$83.30
+SPY at noon: $770.56 (+1.16%) — NORMAL REGIME; QQQ +2.16%
 
 Sessions completed today (Sep 21):
-- 7 AM: MSTR on track (+5.38% PM, $162.20), INSP monitor (wide PM spread, no adverse news). Exact portfolio match. 0 pre-market sells.
+- 7 AM: MSTR on track (+5.38% PM, $162.20), INSP monitor. Exact portfolio match. 0 pre-market sells.
 - 9:30 AM: No sells. MSTR open $165.86 (+7.76%), INSP open $76.45 (−0.43%). NORMAL REGIME. No catalyst entries.
 - 10 AM: MSTR HELD, INSP HELD. INTC BOUGHT $137 @ $118.12. CIEN BOUGHT $137 @ $358.97.
+- 12 PM: CIEN SOLD at TP (+$1.90). Stops trailed: MSTR $141.31→$163.50, INTC $114.93→$122.00. NUAI BOUGHT $137 @ $7.75.
 
 ---
-NOTES FOR 12 PM / 3:15 PM AGENT (Mon Sep 21, 2026):
+NOTES FOR 3:15 PM AGENT (Mon Sep 21, 2026):
 
-**MSTR — OVERNIGHT HOLD (Bitcoin proxy; stop $141.31):**
-- Running well, +8.87% today. Current $167.57, TP $178.18 (+6.1% away). Bitcoin thesis intact.
-- Stop $141.31 still in effect (was 8% below original entry $153.60; now 15.7% cushion at current price).
-- If MSTR hits $178.18 → take profit.
+**MSTR — OVERNIGHT HOLD (Bitcoin proxy; stop $163.50):**
+- Running very well, +8.36% from entry at noon ($166.45). TP $178.18 (+7.1% away).
+- Stop trailed from $141.31 → $163.50 (1.77% below noon price; well above breakeven $153.60).
+- Bitcoin up ~6% today. If BTC continues overnight, MSTR could gap further toward TP.
+- If MSTR hits $178.18 → take profit at 3:15 PM.
 
 **INSP — OVERNIGHT HOLD (healthcare; stop $71.43):**
-- Mildly underwater −1.07%, stop at $71.43 is 6.5% below current $76.41. Thesis intact.
-- Consider discretionary exit near $80 (Stifel PT) if stock runs there. 
-- UBS has a Sell $40 PT — stock above analyst consensus ~$57, only bull cases support $77+.
+- Down −1.68% from entry ($75.94 vs $77.24 entry). Stop at $71.43 is 6.1% below noon — wide cushion.
+- Thesis STRENGTHENED at noon: Freedom Capital Markets raised PT to $97 (Benzinga Sep 21 9:03 AM article); Stifel $80 upgrade still in effect; Oppenheimer $85 PT on record.
+- UBS Sell $40 PT remains the bear case but stock is holding above $75.
+- No new adverse news. Hold through 3:15 PM.
 
-**INTC — TODAY'S BUY (semiconductor; stop $114.93):**
-- Stop $114.93 = 30-min session low (3.31% below entry). TP $124.50 (+5.4% above entry).
-- Catalyst: SK Hynix manufacturing partnership (leasing Intel Ohio fab) + multiple analyst targets ($120–$145). No M&A binary — this is a strategic deal, not acquisition.
-- No earnings until late October. Priority watchlist ticker.
-- ⚠️ If stock pulls back toward stop, re-check: (a) Is SK Hynix deal still in play? (b) Is broad semi sector still green? If both intact, hold.
+**INTC — TODAY'S BUY (semiconductor; stop $122.00):**
+- +4.98% from entry at noon ($124.00). Stop trailed to $122.00 (1.6% below noon). TP $124.50.
+- TP was touched at 11:40 AM (H $124.64) then pulled back to $124.00 at noon — another attempt likely.
+- The 9:35 AM opening bar touched the old stop of $114.93 exactly but recovered immediately; position is now $5.88/share in the money from entry.
+- SK Hynix fab deal catalyst intact. No M&A binary. No earnings until late October. Priority watchlist.
+- At 3:15 PM: if INTC is near or above $124.50 TP → take profit or trail further; if below $122.00 → sell.
 
-**CIEN — TODAY'S BUY (telecom equipment; stop $356.46):**
-- Stop $356.46 = 30-min session low (only 0.7% below entry $358.97). TP $363.99 (+1.4% above entry).
-- Catalyst: Evercore ISI upgrade today (In-Line→Outperform, PT $375→$550). Barclays PT $548, Northland PT $550 also fresh. Investor forum Sep 17 — $14B revenue target 2029, $10B backlog.
-- ⚠️ TIGHT STOP: Monitor closely at 12 PM. If CIEN is below $356.46 → sell immediately. If CIEN approaches TP $363.99, consider whether to let run (analyst PTs are $375–$550, TP at $363.99 is conservative).
-- No earnings near-term (Ciena fiscal year ends Oct 31 — next earnings December quarter).
+**NUAI — OPENED BY 12 PM REASSESSMENT (energy/AI infra; stop $7.49):**
+- Entry $7.75, stop $7.49 (midday support since 10 AM = lowest post-open level), TP $8.27.
+- Catalyst: 20-year 200-207 MW PPA SIGNED with Vistra/Luminant for Phase 1 Texas Critical Data Center in Permian Basin. Behind-the-meter power from adjacent natural gas plant — no ERCOT dependency. Real contracted revenue catalyst (not speculative).
+- relVol 1.90x, Scan B qualified. Up +32.6% on the day ($5.86→$7.78). Momentum sustained and consolidating above $7.50 all morning.
+- Overnight flag: YES. AI/data center infra theme, 20-year contracted durable catalyst, no near-term earnings.
+- Stop $7.49 = midday support since 10 AM; only 3.4% below entry — tight, clean level.
+- At 3:15 PM: check vs stop $7.49 and TP $8.27. Thesis intact as long as PPA is in place (it is — deal is signed).
 
-**SECTOR CAP STATUS (entering 12 PM / 3:15 PM):**
+**SECTOR CAP STATUS (entering 3:15 PM):**
 - Crypto/digital assets: 1 position (MSTR). Room for 1 more.
 - Healthcare: 1 position (INSP). Room for 1 more.
-- **Tech (Electronic Technology): 2 positions (INTC + CIEN). AT SECTOR CAP — no new tech buys.**
-- All other sectors: 0 positions. Full room.
+- Tech (Electronic Technology): 1 position (INTC). Room for 1 more.
+- Energy/AI Infra: 1 position (NUAI). Room for 1 more.
+- All other sectors: 0 positions.
 
-**SAME-DAY RULE (Sep 21):** No new same-day bans today (no stops triggered).
+**SAME-DAY RULE (Sep 21):** No new same-day bans (no stops triggered today).
 
 DO NOT RE-ENTER (standing bans — carry forward):
 ATEC (stopped Sep 16), ORCL (sold Sep 15), BE (sold Sep 15), META, AVAV (stopped Sep 10)
@@ -103,8 +109,10 @@ BBNX: Dilutive $150M secondary offering — skip.
 GNRC: Hard-fading sell-the-news — do not chase.
 WBD: Pending M&A binary — Paramount Skydance acquiring WBD (proposed). Hard disqualifier.
 PSKY: Target in WBD/Paramount Skydance deal — hard disqualifier.
+CIEN: Sold today Sep 21 at TP — no re-entry ban (won, clean exit).
+GRAL: Do not enter — FDA AdCom Sep 23, pending binary regulatory event.
 
-Catalyst watch list: none. No confirmed catalyst entries at open (watch list was empty for Sep 21).
+Catalyst watch list: none.
 
 ---
 PRE-CHECK — Market day verification
