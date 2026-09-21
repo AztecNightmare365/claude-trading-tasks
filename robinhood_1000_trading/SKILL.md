@@ -90,82 +90,103 @@ RAW STATS:
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-Last updated: 2026-09-18 (~3:27 PM ET — 3:15 PM session complete)
+Last updated: 2026-09-21 (~3:25 PM ET — 3:15 PM session complete)
 
-Open positions held overnight: **2 (MSTR + INSP)**
+Open positions held overnight: **4 (MSTR + INSP + NUAI + QCOM)**
+
+⚠️ ALL STOPS ARE MENTAL — no standing stop orders in Robinhood (fractional shares).
 
 | Ticker | Shares | Entry Price (actual fill) | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
 |--------|--------|---------------------------|------|----|-----------|-----------------|------------|
-| MSTR | 1.015625 | $153.5999 | $141.31 | $178.18 | YES | Bitcoin through $80K + SEC tokenized stock trading pilot (5-yr exemption); technical breakout above 200-day EMA ($152); CEO Phong Le bullish interview; making new intraday highs at close; relVol 1.95x | scanner |
-| INSP | 2.809548 | $77.2366 | $71.43 | $88.86 | YES | Stifel upgrade to Buy PT $75→$80 (Sep 18 morning); Q2 beat + FY26 guidance raised (Aug 3); relVol 1.63x; above VWAP $75.97; healthcare, no binary events | scanner |
+| MSTR | 1.015625 | $153.5999 | $163.50 | $178.18 | YES (carried since 3:15 PM Sep 18) | Bitcoin +8.4% today, thesis intact; stop trailed $141.31→$163.50 (well above breakeven $153.60) | scanner |
+| INSP | 2.809548 | $77.2366 | $71.43 | $88.86 | YES (carried since 3:15 PM Sep 18) | Thesis STRENGTHENED today: Freedom Capital Markets raised PT $71→$97 (Sep 21 9:03 AM); Stifel Buy PT $80 still in effect | scanner |
+| NUAI | 17.658735 | $7.7582 | $7.49 | $8.27 | YES (opened by 12 PM session Sep 21) | 20-year 200-207 MW PPA SIGNED with Vistra/Luminant for Texas AI Data Center Phase 1; consolidated above $7.50 all afternoon (+34.6% on day) | scanner |
+| QCOM | 0.428056 | $194.6003 | $179.25 | $226.05 | YES | Snapdragon Summit Day 1 tomorrow Sep 22 in Maui: Snapdragon 8 Elite Gen 6 (TSMC 2nm) expected; Amazon AWS AI chip partnership; strong close (vol 192K final bar, price at HOD, above VWAP $189.26) | scanner |
 
-⚠️ BOTH STOPS ARE MENTAL — no standing stop orders in Robinhood (fractional shares).
+3:15–3:25 PM fill details:
+- INTC SOLD (stop_loss): 1.159850 sh @ $121.5701. Entry was $118.1187 (10 AM session). PnL: +2.92% / +$4.00. Stop $122.00 triggered (price $121.47 at 3:15 PM check).
+- QCOM BOUGHT: 0.428056 sh @ $194.6003 ($83.30 full settled cash). Stop $179.25 (intraday low, 8.0% below entry). TP $226.05 (2× stop distance).
 
-3:15–3:27 PM fill details:
-- MSTR: Filled $153.5999 (1.015625 sh, $156 MEDIUM tier). Stop $141.31 (8% cap: $153.60 × 0.92). TP $178.18.
-  - Making new intraday highs into the close (day high $153.58+, 3:15 PM bar 345K shares — highest vol bar of session). Broke above 200-day EMA ($152) for first time since May. RSI 63.56 (not overbought). Bitcoin $80K+ fresh catalyst. CEO Phong Le bullish Bitcoin Magazine interview same day.
-  - WEEKEND RISK: Bitcoin trades 24/7. If BTC retraces hard from $80K over the weekend, MSTR will open lower Mon Sep 21. Stop $141.31 limits loss to $12.47. At 10 AM Monday: check Bitcoin weekend price first.
-- INSP: Filled $77.2366 (2.809548 sh, $217 HIGH tier, capped at 25% of account). Stop $71.43 (intraday low, just above 8% cap of $71.06). TP $88.86.
-  - Stifel Buy upgrade PT $75→$80 drove 7.4% morning jump to HOD $78.80. Mild afternoon consolidation to ~$77.32 (80% of intraday range) is normal post-upgrade behavior. Well above VWAP $75.97. No binary events near-term.
-  - At 10 AM Monday: Stifel upgrade still fresh (2 days old). Check for any additional analyst commentary or negative news. TP $88.86 is above Stifel's $80 PT — consider discretionary exit near $80 if stock runs there quickly.
+Settled cash: ~$0.00 (all $83.30 deployed to QCOM)
+Settled cash TOMORROW (T+1, Sep 22): ~$279.87 (CIEN $138.86 + INTC $141.01 both settle Sep 22)
+Total account value: ~$883.85
+Portfolio invested: ~68.3% (MSTR 19.2%, INSP 24.0%, NUAI 15.8%, QCOM 9.4%)
+Buying power (settled, spendable TODAY): ~$0.00 — TOMORROW: ~$279.87
+SPY at 3:15 PM: $774.36 (+1.66%) — NORMAL REGIME; QQQ +2.80%
 
-Settled cash: $153.20 (after buys: $526.20 − $373.00)
-Unsettled cash: ~$341.10 (INTC $93.93 settles Mon Sep 21; MRNA $247.17 settles Tue Sep 22)
-Total account value: ~$867.30
-Portfolio invested: ~43.0% (MSTR 18.0%, INSP 25.0%)
-Buying power (settled, spendable): $153.20
-SPY at 3:15 PM: $761.16 (+0.06%) — NORMAL REGIME; QQQ +0.32%
-
-Sessions completed today (Sep 18):
-- 7 AM: INTC on track (+2.57% PM, $111.59), MRNA near TP (+1.32% PM, $160.15). Exact portfolio match.
-- 9:30 AM: No sells. INTC/MRNA holds confirmed (stops clear). 0 catalyst entries.
-- 10 AM: INTC SOLD $108.46 (stop_loss, +0.01%/+$0.01). MRNA HELD ($155 stop approached but held).
-- 12 PM: MRNA SOLD $155.23 (stop_loss, −1.13%/−$2.83). 0 new buys (no qualifying candidates).
-- 3:15 PM: MSTR BOUGHT $156 @ $153.5999 (scanner, MEDIUM). INSP BOUGHT $217 @ $77.2366 (scanner, HIGH). 2 positions held into Mon Sep 21.
+Sessions completed today (Sep 21):
+- 7 AM: MSTR on track (+5.38% PM, $162.20), INSP monitor. Exact portfolio match.
+- 9:30 AM: No sells. MSTR open $165.86 (+7.76%), INSP open $76.45. NORMAL REGIME.
+- 10 AM: MSTR HELD, INSP HELD. INTC BOUGHT $137 @ $118.12. CIEN BOUGHT $137 @ $358.97.
+- 12 PM: CIEN SOLD at TP (+$1.90). Stops trailed: MSTR $141.31→$163.50, INTC $114.93→$122.00. NUAI BOUGHT $137 @ $7.76.
+- 3:15 PM: INTC SOLD (stop $122.00 triggered, exit $121.57, +$4.00). QCOM BOUGHT $83.30 @ $194.60. MSTR/INSP/NUAI HELD overnight.
 
 ---
 
-NOTES FOR 7 AM / 10 AM AGENT (Mon Sep 21, 2026):
+NOTES FOR 7 AM / 10 AM AGENT (Tue Sep 22, 2026):
 
-⚠️ MSTR — WEEKEND HOLD (Bitcoin proxy; stop $141.31 = 8% below entry):
-- Entry $153.5999 (1.015625 sh), stop $141.31, TP $178.18.
-- Catalyst: Bitcoin cleared $80K (new round-number milestone), SEC announced 5-year tokenized stock trading pilot exemption (Sep 17), CFTC eased prediction market rules. CEO Phong Le gave bullish Bitcoin Magazine interview Sep 18.
-- Technical: Broke above 200-day EMA ($152) for first time since May. RSI 63.56 (not overbought, room to run). Made new intraday highs at the close bar (345K vol).
-- WEEKEND RISK: Bitcoin trades 24/7. Check BTC price first thing Monday morning. If BTC is below ~$75K, MSTR may open near or below stop — be ready to sell immediately. If BTC held $80K+ over the weekend, MSTR should open flat or higher.
-- At 10 AM: if above $141.31 and Bitcoin thesis intact → hold. If below $141.31 → sell immediately (mental stop). TP $178.18 is +16.1% above entry.
+⚠️ MSTR — OVERNIGHT HOLD (Bitcoin proxy; stop $163.50):
+- Running +8.63% from entry at close ($166.86). TP $178.18 is +6.8% away.
+- Stop trailed $141.31→$163.50 (well above breakeven $153.60). Bitcoin was ~+6% on the day Sep 21.
+- Check BTC pre-market before 10 AM. If BTC gaps down hard overnight, MSTR may open near $163.50 stop.
+- At 10 AM: if at or below $163.50 → SELL. If above and BTC thesis intact → HOLD. If MSTR hits $178.18 → TAKE PROFIT.
 
-⚠️ INSP — OVERNIGHT HOLD (healthcare; stop $71.43 = intraday low):
-- Entry $77.2366 (2.809548 sh), stop $71.43, TP $88.86.
-- Catalyst: Stifel upgraded to Buy, PT raised $75→$80 (Sep 18 morning). Q2 2026 beat + FY26 guidance raised (Aug 3). Oppenheimer Buy $85 (Aug 4). CMS finalized higher payment rates for sleep apnea procedures.
-- Stock ran $71.43 open → $78.80 HOD on upgrade news; mild afternoon consolidation to $77.32 is normal. VWAP $75.97 well below stop.
-- At 10 AM: if above $71.43 and upgrade thesis intact → hold. Consider discretionary exit near $80 (Stifel PT) if stock runs there quickly. UBS maintains Sell $40 PT (Aug 5); stock at $77 is already above average analyst consensus ~$57 — only the Stifel/Oppenheimer bull cases support current price.
-- Note: stop at $71.43 is intraday low from Sep 18 — any gap below that level → sell.
+⚠️ INSP — OVERNIGHT HOLD (healthcare; stop $71.43):
+- Down −2.43% from entry ($75.37 vs $77.24 entry) at close. Stop $71.43 provides 5.2% cushion from close.
+- Thesis STRENGTHENED Sep 21: Freedom Capital Markets raised PT to $97 (Benzinga 9:03 AM); Stifel Buy $80 still in effect; Oppenheimer $85 PT on record.
+- UBS Sell $40 PT remains the bear case — stock is holding above $75.
+- No binary events near-term. Let the stop work.
+- At 10 AM: if at or below $71.43 → SELL. Above and thesis intact → HOLD. TP $88.86.
 
-SAME-DAY RULE — eligible again Mon Sep 21 (ban expired at Sep 18 close): MRNA, INTC
+⚠️ NUAI — OVERNIGHT HOLD (energy/AI infra; stop $7.49):
+- Entry $7.7582, close ~$7.895 (+1.76%). Stop $7.49 is midday support (lowest post-open print today).
+- Catalyst: 20-year 200-207 MW PPA SIGNED with Vistra/Luminant for Texas AI Data Center Phase 1 — behind-the-meter power, no ERCOT dependency. Real contracted revenue.
+- Up +34.6% on the day from prior close $5.86. Consolidating above $7.50 all afternoon.
+- At 10 AM: if at or below $7.49 → SELL. Above and PPA thesis intact → HOLD. TP $8.27 (+4.8% from close).
+
+⚠️ QCOM — NEW OVERNIGHT BUY (semiconductor; stop $179.25):
+- Entry $194.6003 (0.428056 sh, $83.30). Stop $179.25 (intraday low, ~8% below entry). TP $226.05.
+- Catalyst: Snapdragon Summit Day 1 starts Sep 22 in Maui, Hawaii. New Snapdragon 8 Elite Gen 6 (TSMC 2nm process) expected. Amazon AWS customized AI chip partnership (announced last week). Agentic AI theme featured prominently at Summit.
+- Strong close: volume surged to 192K shares in final 5-min bar (vs ~60K earlier average); price at day high $195.31; above VWAP $189.26. Up +9.62% on the day. Monday entry (75% WR per learned insights).
+- Priority sector watchlist (semiconductor). QQQ +2.80% on the day.
+- At 10 AM: check if Snapdragon Summit Day 1 news is positive. If Snapdragon 8 Elite Gen 6 well-received → HOLD/trail stop. If stock at or below $179.25 → SELL.
+- No earnings until Q2 FY2027 (~November 2026). Snapdragon Summit is product launch event, NOT an earnings binary.
+
+SECTOR CAP STATUS (entering Tue Sep 22):
+- Crypto/digital assets: 1 position (MSTR). Room for 1 more.
+- Healthcare: 1 position (INSP). Room for 1 more.
+- Energy/AI Infra: 1 position (NUAI). Room for 1 more.
+- Tech (Electronic Technology): 1 position (QCOM). Room for 1 more.
+- All other sectors: 0 positions.
+
+SAME-DAY RULE (Sep 22): INTC banned today (stopped Sep 21, 3:15 PM). No other same-day bans from today's exits.
 
 DO NOT RE-ENTER (standing bans — carry forward):
 ATEC (stopped Sep 16), ORCL (sold Sep 15), BE (sold Sep 15), META, AVAV (stopped Sep 10)
 SNDK (stopped Sep 10 12PM), MU (stopped Sep 10 12PM), GLW (stopped Sep 10 9:30AM), COHR (stopped Sep 10 9:30AM), ALAB (stopped Sep 10 9:30AM), CRM (stopped Sep 1), DG (stopped Aug 28), VEEV/MRK/ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18). WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC, ASTS, HPE, AVGO, MGNI, GTLB.
+INTC: STOPPED Sep 21 (3:15 PM, stop triggered at $121.47 vs $122.00) — same-day ban active Sep 22.
 VRNS: M&A binary (Proofpoint/Thoma Bravo) STILL PENDING.
 SWKS: Pending acquisition of QRVO — M&A binary, hard disqualifier.
 QRVO: Target of SWKS acquisition — hard disqualifier.
 VAL: Pending merger with RIG (Transocean) — M&A binary, hard disqualifier.
 ODD, CSR, ADBE, ACVA, RH, RDDT: Standing bans (see prior sessions).
 LUXE: Earnings miss BMO Sep 16 — banned.
-AMRX: Pending acquisition of Kashiv BioSciences — M&A binary, hard disqualifier.
-BBNX: Dilutive $150M secondary offering closing this week — skip.
-GNRC: Hard-fading sell-the-news (Amazon data center deal) — do not chase.
+AMRX: Pending acquisition of Kashiv BioSciences ($750M) — M&A binary, hard disqualifier.
+BBNX: Dilutive $150M secondary offering — skip.
+GNRC: Hard-fading sell-the-news — do not chase.
+WBD: Pending M&A binary (Paramount Skydance acquiring WBD) — hard disqualifier.
+PSKY: Target in WBD/Paramount Skydance deal — hard disqualifier.
+CIEN: Sold Sep 21 at TP — no re-entry ban (clean exit).
+TTAN: Active securities fraud investigation (BFA Law Sep 21) — skip.
+GRAL: FDA AdCom Sep 23 pending binary event — banned.
 
-SECTOR CAP STATUS (entering Mon Sep 21):
-- Crypto/digital assets: 1 position (MSTR). Room for 1 more.
-- Healthcare: 1 position (INSP). Room for 1 more.
-- All other sectors: 0 positions. Full room.
+Catalyst watch list for Tue Sep 22, 2026:
+AZO | earnings_beat | BMO Sep 22 | neutral-positive (consensus EPS $53.40; consumer auto parts resilience) | LOW
+GIS | earnings_beat | BMO Sep 22 | neutral (defensive consumer staples, consensus $1.05) | LOW
+KBH | earnings_beat | BMO Sep 22 | neutral (housing, limited momentum context) | MEDIUM
+THO | earnings_beat | BMO Sep 22 | neutral (RVs/consumer discretionary, consensus $1.35) | LOW
 
-Catalyst watch list for Mon Sep 21, 2026: none confirmed.
-- No high-cap earnings BMO Monday (Robinhood calendar confirmed empty for Sep 21)
-- No FDA PDUFA dates identified for Sep 21
-- Sep 22: KBH (Q3 PM), AZO (Q4 AM), THO (Q4 AM) — none relevant to current holdings
-- Weekend macro watch: Bitcoin price (key for MSTR), 10-yr Treasury (Schmid hawkish Sep 18, 5.0%), S&P futures Sunday evening
+Note: QCOM Snapdragon Summit Day 1 is Sep 22 — live catalyst for existing QCOM position, not a new watch entry.
 
 ---
 

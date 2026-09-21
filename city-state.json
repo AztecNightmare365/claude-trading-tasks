@@ -1,37 +1,24 @@
 {
-  "ts": "2026-09-21T13:30:40Z",
-  "source": "robinhood_0930_open",
+  "ts": "2026-09-21T19:25:00Z",
+  "source": "robinhood_1515_trading",
   "portfolio": {
-    "totalValue": 877.5618196,
-    "cash": 494.3,
-    "equityValue": 383.2618196,
-    "buyingPower": 494.3,
+    "totalValue": 883.85,
+    "cash": 279.87,
+    "equityValue": 603.98,
+    "buyingPower": 0.00,
     "positions": [
-      {
-        "ticker": "MSTR",
-        "shares": 1.015625,
-        "entry": 153.5999,
-        "current": 165.86,
-        "plPct": 7.98,
-        "managed": true,
-        "stop": 141.31,
-        "tp": 178.18,
-        "catalyst": "sector_momentum",
-        "sector": "financials/crypto"
-      },
-      {
-        "ticker": "INSP",
-        "shares": 2.809548,
-        "entry": 77.2366,
-        "current": 76.45,
-        "plPct": -1.02,
-        "managed": true,
-        "stop": 71.43,
-        "tp": 88.86,
-        "catalyst": "analyst_upgrade",
-        "sector": "healthcare"
-      }
+      { "ticker": "MSTR", "shares": 1.015625,  "entry": 153.5999, "current": 166.855, "plPct": 8.63,  "managed": true },
+      { "ticker": "INSP", "shares": 2.809548,  "entry": 77.24,    "current": 75.365,  "plPct": -2.43, "managed": true },
+      { "ticker": "NUAI", "shares": 17.658735, "entry": 7.76,     "current": 7.895,   "plPct": 1.74,  "managed": true },
+      { "ticker": "QCOM", "shares": 0.428056,  "entry": 194.6003, "current": 194.60,  "plPct": 0.00,  "managed": true }
     ]
   },
-  "fills": []
+  "fills": [
+    { "id": "6ab13a4b-7cd4-4360-baa2-290fb3c4f6cb", "side": "buy",  "ticker": "INTC", "qty": 1.159850,  "price": 118.1187, "at": "2026-09-21T14:08:11.676Z" },
+    { "id": "6ab13a4c-47d0-40e1-a705-9590198a8b5f", "side": "buy",  "ticker": "CIEN", "qty": 0.381647,  "price": 358.97,   "at": "2026-09-21T14:08:12.453Z" },
+    { "id": "6ab1570b-a14a-4c5c-b7e7-7f7569eb44c5", "side": "sell", "ticker": "CIEN", "qty": 0.381647,  "price": 363.8323, "at": "2026-09-21T16:10:51.305Z" },
+    { "id": "6ab1570c-70e7-4fe2-ace7-c687df44ec6d", "side": "buy",  "ticker": "NUAI", "qty": 17.658735, "price": 7.7582,   "at": "2026-09-21T16:10:53.184Z" },
+    { "id": "6ab18315-e20a-41bb-9cd7-e24bc77283d3", "side": "sell", "ticker": "INTC", "qty": 1.159850,  "price": 121.5701, "at": "2026-09-21T19:18:45.149Z" },
+    { "id": "6ab18432-5136-4fa2-b5fd-1a50fe85e95b", "side": "buy",  "ticker": "QCOM", "qty": 0.428056,  "price": 194.6003, "at": "2026-09-21T19:23:31.160Z" }
+  ]
 }
