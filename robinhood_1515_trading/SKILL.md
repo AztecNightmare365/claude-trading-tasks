@@ -24,7 +24,7 @@ _No content — see robinhood_1000_trading/SKILL.md for the live 3:15 PM handoff
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-09-22 (~10:15 AM ET — 10 AM session complete)
+Last updated: 2026-09-22 (~12:00 PM ET — 12 PM reassessment complete)
 
 Open positions: **5 (MSTR + INSP + QCOM + OMER + SHOP)**
 
@@ -32,66 +32,66 @@ Open positions: **5 (MSTR + INSP + QCOM + OMER + SHOP)**
 
 | Ticker | Shares | Entry Price (actual fill) | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
 |--------|--------|---------------------------|------|----|-----------|-----------------|------------|
-| MSTR | 1.015625 | $153.5999 | $163.50 | $178.18 | YES (carried from 3:15 PM Sep 18) | Bitcoin thesis intact; +11.0% from entry; stop trailed $141.31→$163.50; BTC ~$85.4K | scanner |
-| INSP | 2.809548 | $77.2366 | $71.43 | $88.86 | YES (carried from 3:15 PM Sep 18) | Freedom Capital $97 + Stifel $80 thesis intact; −3.86% from entry but no thesis break; stop provides 3.8% cushion from today's price | scanner |
-| QCOM | 0.428056 | $194.6003 | $179.25 | $226.05 | YES (carried from 3:15 PM Sep 21) | Snapdragon Summit Day 1 today Sep 22 in Maui — Snapdragon 8 Elite Gen 6 + Amazon AWS AI chip partnership | scanner |
-| OMER | 4.572770 | ~$20.20 | $19.30 | $22.00 | NO (opened today 10 AM) | Cantor Fitzgerald upgraded to Overweight PT $22 today (Sep 22) — Yartemlea launch strong; new 52-week high; analyst_upgrade catalyst | scanner |
-| SHOP | 0.617690 | ~$149.54 | $144.25 | $160.12 | NO (opened today 10 AM) | Meta Muse AI agent + Shop Pay integration announced today — Shopify becomes default checkout for Meta's AI agent | scanner |
+| MSTR | 1.015625 | $153.60 | $167.00 | $178.18 | YES (carried from 3:15 PM Sep 18) | Bitcoin thesis intact; +10.45% from entry at noon ($169.65); stop trailed $163.50→$167.00 (just below day's opening low $167.25); BTC ~$85,923 | scanner |
+| INSP | 2.809548 | $77.2366 | $71.43 | $88.86 | YES (carried from 3:15 PM Sep 18) | Freedom Capital $97 + Stifel $80 thesis intact; −5.03% from entry at noon ($73.36); price drifting but no thesis break; stop provides 2.6% cushion from noon price | scanner |
+| QCOM | 0.428056 | $194.60 | $179.25 | $226.05 | YES (carried from 3:15 PM Sep 21) | Snapdragon Summit Day 1 in Maui today; +0.99% from entry at noon ($196.53); U.S.-China tech trade talks positive backdrop | scanner |
+| OMER | 4.571889 | $20.20 | $19.30 | $22.00 | NO (opened today 10 AM) | Cantor Fitzgerald upgraded to Overweight PT $22 today (Sep 22) — Yartemlea launch strong; −0.79% from entry at noon ($20.04); still in scanner | scanner |
+| SHOP | 0.617694 | $149.54 | $144.25 | $160.12 | NO (opened today 10 AM) | Meta Muse AI agent + Shop Pay integration — confirmed partnership; −0.52% from entry at noon ($148.76); still in big-mover scan | scanner |
 
-10 AM session actions:
-- MSTR: HELD — +11.0% from entry ($170.45 at 10 AM). Stop $163.50. BTC ~$85.4K, thesis intact.
-- INSP: HELD — −3.86% from entry ($74.25 at 10 AM). Stop $71.43 (3.8% cushion). Freedom Capital $97 + Stifel $80 intact. Price condition for discretionary exit met but thesis NOT broken — hold and let stop work.
-- QCOM: HELD — −0.55% from entry ($193.53 at 10 AM). Stop $179.25 (7.4% cushion). Snapdragon Summit live catalyst today.
-- NUAI: NOT IN PORTFOLIO — sold by 9:30 AM agent (stop $7.49 breached at open $7.15; filled $6.8701; PnL −11.45% / −$15.68). Do not re-enter.
-- OMER: BOUGHT $92.37 @ ~$20.20 (4.572770 sh) — Cantor Fitzgerald upgrade to Overweight PT $22 TODAY; new 52-week high ($20.50 intraday); analyst_upgrade catalyst; above VWAP; rel vol ~8x pace.
-- SHOP: BOUGHT $92.37 @ ~$149.54 (0.617690 sh) — Meta Muse AI agent + Shop Pay integration announced today; large-cap ($177B); above VWAP.
+12 PM session actions:
+- MSTR: HELD — +10.45% from entry ($169.65 at noon). Stop TRAILED $163.50 → $167.00 (day's opening low support $167.25; 1.56% buffer from noon price). BTC ~$85,923 (+0.56%), thesis intact.
+- INSP: HELD — −5.03% from entry ($73.36 at noon). Steady drift lower all day (opened $75.64, now $73.36). Stop $71.43 provides 2.6% cushion. Price condition for discretionary exit met but thesis (Freedom Capital $97, Stifel $80) NOT broken — hold. No new adverse news.
+- QCOM: HELD — +0.99% from entry ($196.53 at noon). Snapdragon Summit live, U.S.-China tech talks positive backdrop. Not yet +2% from entry, no trail triggered.
+- OMER: HELD — −0.79% from entry ($20.04 at noon). Still in Scanner 1 (+8.38% vs yesterday). Analyst upgrade catalyst intact.
+- SHOP: HELD — −0.52% from entry ($148.76 at noon). Meta Muse catalyst intact; still in big-mover scanner (+7.87% vs yesterday).
+- NO NEW BUYS: Portfolio at 75% cap ($646.10 invested / $646.49 maximum). Only $0.39 of room below cap — less than the $10 minimum for any new position.
 
-Settled cash: ~$95.12 (after OMER+SHOP buys; CIEN+INTC proceeds from Sep 21 settled today)
-Total account value: ~$865.74
-Portfolio invested: ~75.0% (MSTR ~20.0%, INSP ~24.1%, OMER ~10.7%, SHOP ~10.7%, QCOM ~9.6%)
-Buying power (settled, spendable TODAY): ~$95.12
-SPY at 10 AM: $773.85 (+0.05%) — NORMAL REGIME; QQQ +0.48%
+Settled cash: $95.12 (unchanged — today's buys OMER/SHOP unsettled; CIEN/INTC proceeds settled)
+Total account value: $861.99 (INSP drift lower from 10 AM estimate $865.74)
+Portfolio invested: ~75.0% ($646.10 / $861.99)
+Buying power (settled): $95.12 — but usable buying room only $0.39 due to 75% cap; do NOT open new positions unless account value rises or a position is sold
+SPY at noon: $773.17 (−0.04%) — NORMAL REGIME; QQQ $744.59 (+0.42%)
 
 Sessions completed today (Sep 22):
 - 7 AM: MSTR/INSP/NUAI/QCOM ON TRACK per overnight brief. NUAI flagged thin bid below stop.
 - 9:30 AM: NUAI STOP SOLD ($6.8701, −11.45%). MSTR/INSP/QCOM HELD. No catalyst entries.
 - 10 AM: MSTR/INSP/QCOM HELD. OMER BOUGHT $92.37. SHOP BOUGHT $92.37.
+- 12 PM: ALL 5 HELD. MSTR stop trailed $163.50→$167.00. No sells, no new buys (at 75% cap).
 
 ---
 NOTES FOR 3:15 PM AGENT (Tue Sep 22, 2026):
 
-⚠️ MSTR — OVERNIGHT HOLD (Bitcoin proxy; stop $163.50):
-- Running +11.0% from entry ($170.45 at 10 AM). TP $178.18 is +4.5% away.
-- Stop $163.50 is well above breakeven ($153.60). BTC ~$85.4K and trending.
-- If MSTR reaches $178.18 by 3:15 PM → TAKE PROFIT. If still below, trail stop to most recent 2-day support level.
+⚠️ MSTR — OVERNIGHT HOLD (Bitcoin proxy; stop $167.00):
+- Running +10.45% from entry at noon ($169.65). TP $178.18 is +5.1% away.
+- Stop TRAILED to $167.00 (from $163.50) — just below day's opening low support of $167.25. 1.56% buffer from noon price.
+- BTC at ~$85,923 (+0.56% today) — bullish. Thesis intact.
+- If MSTR reaches $178.18 by 3:15 PM → TAKE PROFIT. If still below, evaluate trailing stop to most recent intraday support (day's low has been $167.25; afternoon support formed $168.22–$168.62 range).
+- Note: 12 PM could NOT trail closer than $167.00 without violating the 1.5% intraday noise rule. 3:15 PM agent may trail further if MSTR has held above $169 all afternoon.
 
 ⚠️ INSP — OVERNIGHT HOLD (healthcare; stop $71.43):
-- Down −3.86% from entry ($74.25 vs $77.24 entry) at 10 AM. Stop $71.43 is 3.8% below today's price.
-- Thesis INTACT: Freedom Capital Markets PT $97 (raised Sep 21) + Stifel Buy PT $80 + Oppenheimer PT $85 all still active.
-- UBS Sell $40 PT is the bear case but stock holding above $74.
-- Do NOT use discretionary exit unless BOTH price condition AND thesis break occur. Today's decline is noise, not thesis failure.
-- If at or below $71.43 at 3:15 PM → SELL. Above and thesis intact → HOLD overnight.
+- Down −5.03% from entry at noon ($73.36 vs $77.24 entry). Drifted from $75.64 open to $73.36 over the full session. Stop $71.43 = 2.6% cushion from noon price.
+- Thesis INTACT: Freedom Capital Markets PT $97 (raised Sep 21) + Stifel Buy PT $80 + Oppenheimer PT $85 all still active. No new adverse news today.
+- UBS Sell $40 PT is the bear case — but stock holding well above it.
+- Do NOT use discretionary exit unless BOTH price condition AND thesis break occur. Decline is noise, not thesis failure.
+- If at or below $71.43 at 3:15 PM → SELL immediately. Above and thesis intact → HOLD overnight.
+- ⚠️ Position is now −5.03% from entry, which is meaningful. The stop at $71.43 must hold. If you see any new negative news (reimbursement ruling, downgrade, guidance cut) → discretionary exit immediately.
 
 ⚠️ QCOM — OVERNIGHT HOLD (semiconductor; stop $179.25):
-- Snapdragon Summit Day 1 today in Maui. Watch for Snapdragon 8 Elite Gen 6 (TSMC 2nm) reception news during the day.
-- −0.55% from entry ($193.53 at 10 AM). Stop $179.25 is 7.4% below current — wide cushion.
-- If Snapdragon Summit news very positive → consider trailing stop up. If adverse summit news emerges → evaluate thesis.
-- TP $226.05 (+16.8% from current). If at or below $179.25 → SELL. Above and summit thesis intact → HOLD.
+- +0.99% from entry at noon ($196.53 vs $194.60 entry). Snapdragon Summit Day 1 in Maui today; Qualcomm showing positive response (up +1.18% on the day). U.S.-China tech trade talks as additional tailwind.
+- Stop $179.25 = 8.8% cushion from noon price — very wide, appropriate for overnight with multi-day catalyst.
+- If Snapdragon Summit news from afternoon sessions is very positive → consider trailing stop up to $185–$188. If adverse summit news (disappointing reception, competing product revealed) → evaluate thesis and potentially exit.
+- TP $226.05 (+15.0% from noon). If at or below $179.25 → SELL. Above and summit thesis intact → HOLD overnight.
 
 ⚠️ OMER — TODAY'S BUY (healthcare; stop $19.30):
-- Entry ~$20.20, stop $19.30 (4.5% below), TP $22.00 (aligns with Cantor Fitzgerald's $22 PT).
-- Catalyst: Cantor Fitzgerald upgraded to Overweight from Neutral TODAY with PT $22 — driven by strong Yartemlea commercial launch and Q2 beat.
-- OMER hit new 52-week high today ($20.50 intraday). Best catalyst type by historical WR (57.1%).
-- Healthcare sector: INSP + OMER = 2 positions (AT SECTOR CAP — do not add more healthcare).
-- This is an INTRADAY position (not intended for overnight hold unless thesis very strong by 3:15 PM).
-- At 3:15 PM: if above $19.30 and OMER is holding/advancing → consider overnight hold at 3:15 PM session. If near TP $22 → take profit.
+- Entry $20.20, noon $20.04 (−0.79%). Stop $19.30 (3.7% below noon). TP $22.00.
+- Catalyst: Cantor Fitzgerald upgraded to Overweight PT $22 TODAY — Yartemlea launch strong. Still in Scanner 1 at noon (rel vol 1.44×, +8.38% vs yesterday's close).
+- Healthcare sector: INSP + OMER = 2 positions (AT SECTOR CAP — no new healthcare entries).
+- Overnight flag set to NO (intraday position). At 3:15 PM: if above $19.30 and OMER is holding or advancing → consider overnight hold. If near TP $22 → take profit. The analyst_upgrade catalyst (57.1% historical WR) supports overnight hold if thesis is still strong.
 
 ⚠️ SHOP — TODAY'S BUY (commercial services; stop $144.25):
-- Entry ~$149.54, stop $144.25 (3.5% below), TP $160.12.
-- Catalyst: Meta Muse AI agent now routes purchases through Shopify/Shop Pay — CONFIRMED partnership announced today.
-- Large-cap ($177B), liquid position. QQQ +0.48% supporting tech-adjacent names.
-- This is an INTRADAY position.
-- At 3:15 PM: if above $144.25 and catalyst thesis holding (no negative Meta/SHOP news) → consider overnight. If near TP $160 → take profit.
+- Entry $149.54, noon $148.76 (−0.52%). Stop $144.25 (3.0% below noon). TP $160.12.
+- Catalyst: Meta Muse AI agent + Shop Pay confirmed partnership (still active). Still in big-mover scanner (+7.87% vs yesterday, large-cap $167B).
+- Overnight flag set to NO (intraday position). At 3:15 PM: if above $144.25 and Meta/SHOP catalyst holding → consider overnight. If near TP $160 → take profit. QQQ +0.42% supportive today.
 
 SECTOR CAP STATUS (entering 3:15 PM):
 - Crypto/digital assets: 1 position (MSTR). Room for 1 more.
@@ -99,6 +99,8 @@ SECTOR CAP STATUS (entering 3:15 PM):
 - Electronic Technology/Semiconductor: 1 position (QCOM). Room for 1 more.
 - Commercial Services: 1 position (SHOP). Room for 1 more.
 - All other sectors: 0 positions.
+
+⚠️ PORTFOLIO CAP WARNING: At 75.0% deployed ($646.10 / $861.99). No new positions unless a current position is sold OR account value rises appreciably. Only ~$0.39 of room below cap. The 3:15 PM agent must sell a position before opening any new one, or verify cap has room after price moves.
 
 SAME-DAY RULE (Sep 22): INTC banned today (stopped Sep 21, 3:15 PM). NUAI banned today (stopped by 9:30 AM agent). No other same-day bans.
 
@@ -123,13 +125,13 @@ TTAN: Active securities fraud investigation (BFA Law Sep 21) — skip.
 GRAL: FDA AdCom Sep 23 pending binary event — banned.
 VKTX: Clinical trial readout today (VK2735 maintenance data) + Phase 3 still pending = binary risk — skip until Phase 3 complete.
 
-Catalyst watch list for Tue Sep 22, 2026 (carry-forward status):
-OMER | analyst_upgrade | TODAY Sep 22 | ENTERED at ~$20.20 — Cantor Fitzgerald Overweight PT $22 | open position
-SHOP | partnership_catalyst | TODAY Sep 22 | ENTERED at ~$149.54 — Meta Muse AI + Shop Pay | open position
-AZO | earnings_beat | BMO Sep 22 | CONFIRMED-MIXED — EPS beat $56.05/$54.18 est, rev miss $6.59B/$6.71B est — not strong enough for momentum entry. Do not chase.
-THO | earnings_beat | BMO Sep 22 | FAILED — EPS miss $0.78/$0.88 est. Do not enter.
-GIS | earnings_beat | BMO Sep 23 | PENDING — reports tomorrow morning (handoff date was off by 1 day). Watch for tomorrow's 10 AM session.
-KBH | earnings_beat | AFH Sep 22 | PENDING — reports after the close today. If EPS beat with positive guidance, eligible for catalyst_watch entry tomorrow at 10 AM. Check at 3:15 PM if results are out early.
+Catalyst watch list carry-forward (from 10 AM handoff, status as of noon Sep 22):
+OMER | analyst_upgrade | TODAY Sep 22 | ENTERED at $20.20 — open position, stop $19.30
+SHOP | partnership_catalyst | TODAY Sep 22 | ENTERED at $149.54 — open position, stop $144.25
+AZO | earnings_beat | BMO Sep 22 | CONFIRMED-MIXED — EPS beat, rev miss — do not chase.
+THO | earnings_beat | BMO Sep 22 | FAILED — EPS miss. Do not enter.
+GIS | earnings_beat | BMO Sep 23 | PENDING — reports tomorrow morning. Watch for 10 AM session Wed Sep 23.
+KBH | earnings_beat | AFH Sep 22 | PENDING — reports after today's close. If EPS beat with positive guidance → eligible for catalyst_watch entry at 10 AM tomorrow. Check at 3:15 PM if results are out early.
 
 ---
 PRE-CHECK — Market day verification
