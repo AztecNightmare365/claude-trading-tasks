@@ -14,19 +14,23 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET 2026-09-21.** Live sync ••••6616: 2 positions (MSTR/INSP) — exact match Sep 18 3:15 PM handoff.
+**7:00 AM ET 2026-09-22.** Live sync ••••6616: 4 positions (MSTR/INSP/NUAI/QCOM) — exact match 3:15 PM Sep 21 handoff.
 
-**MSTR ON TRACK** | PM $162.20 (+5.38% vs $153.92 close) | stop $141.31 (+12.9% cushion) | TP $178.18 (−8.97% away) | bid/ask $162.04/$162.20 (0.10%) | Bitcoin $81,407 at 4 AM ET (held $80K+ all weekend); CEO Saylor posted BTC purchase hint (unconfirmed); thesis intact & strengthening.
+**MSTR ON TRACK** | PM $166.37 (−1.26% vs $168.50) | stop $163.50 (+1.7% cushion) | TP $178.18 | BTC hit $87K overnight (Sep 21 10 PM ET), curr ~$85.4K (+3.5% 24h); Strategy bought 950 BTC $75.7M Sep 14–20 (846K total); thesis intact & strengthening.
 
-**INSP MONITOR** | Last trade $76.79 (11 PM ET stale) | PM bid $74.80/ask $85.75 (14.6% spread — illiquid) | prev close $76.78 | stop $71.43 (+4.5% above bid) | No adverse overnight news; Stifel Buy thesis intact. Wide spread = noise. Do NOT pre-market sell. 10 AM: use first open print.
+**INSP ON TRACK** | PM $75.13 (−0.79% vs $75.72) | stop $71.43 (+4.9% cushion) | TP $88.86 | bid/ask $68.59/$80.00 (wide PM spread — typical for INSP) | No adverse news; Freedom Capital Buy $97 + Stifel Buy $80 intact.
+
+**NUAI MONITOR** | PM $7.60 (−0.70% vs $7.65) | stop $7.49 (+1.4% last trade; bid $7.46 below stop) | TP $8.27 | PPA thesis intact; bid below stop is thin PM noise. 10 AM: use first open print — do NOT pre-market sell.
+
+**QCOM ON TRACK** | PM $193.99 (−0.12% vs $194.23) | stop $179.25 (+7.6% cushion) | TP $226.05 | GOOGL partnership announced; Snapdragon Summit Day 1 today Sep 22 in Maui; minor PM pullback = normal after +9.6% Mon rally.
 
 **Pre-market sells placed:** NONE.
 
-**Catalyst watch list:** None (per Sep 18 3:15 PM handoff).
+**Catalyst watch:** AZO — BMO EPS $56.05 beat ($54.18 est), rev miss $6.59B/$6.71B est → CONFIRMED MIXED (not strong enough for momentum entry). THO — BMO EPS $0.78 miss ($0.88 est), rev beat → FAILED, skip. GIS — reports Sep 23 (handoff date was off by 1 day) → PENDING. KBH — reports AFH today Sep 22 (not BMO) → PENDING.
 
-**Macro:** SPY PM $766.75 (+0.67%), QQQ PM $728.18 (+0.93%). S&P futures +0.7%, Nasdaq +1.1%. Oil −3% (Houthi attack on Saudi Arabia over weekend) supporting equity rally. Goolsbee spoke 5:30 AM; Chicago Fed CFNAI 7:30 AM — no surprise Fed news.
+**Macro:** BTC $85.4K+ (hit $87K overnight, "Extreme Greed"). SPY PM +0.08%, QQQ PM +0.10% (flat). Brent $101 (+1%, Iranian airline sanctions). Richmond Fed Barkin 1 PM ET; 57.6% Oct hike probability. Trump-Xi summit Thu Sep 24 supporting AI/tech.
 
-**SUMMARY:** 1 ON TRACK (MSTR), 1 MONITOR (INSP thin PM/no adverse news), 0 pre-market sells; 0 catalyst tickers. No email sent.
+**SUMMARY:** 3 ON TRACK (MSTR/INSP/QCOM), 1 MONITOR (NUAI thin cushion/bid below stop), 0 pre-market sells; 1 catalyst confirmed-mixed (AZO), 1 failed (THO), 2 pending (GIS/KBH). No email sent.
 
 ---
 
