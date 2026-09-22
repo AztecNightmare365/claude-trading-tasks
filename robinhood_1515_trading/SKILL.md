@@ -24,80 +24,89 @@ _No content — see robinhood_1000_trading/SKILL.md for the live 3:15 PM handoff
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-09-21 (~12:10 PM ET — 12 PM reassessment complete)
+Last updated: 2026-09-22 (~10:15 AM ET — 10 AM session complete)
 
-Open positions: **4 (MSTR + INSP + INTC + NUAI)**
+Open positions: **5 (MSTR + INSP + QCOM + OMER + SHOP)**
 
 ⚠️ ALL STOPS ARE MENTAL — no standing stop orders in Robinhood (fractional shares).
 
 | Ticker | Shares | Entry Price (actual fill) | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
 |--------|--------|---------------------------|------|----|-----------|-----------------|------------|
-| MSTR | 1.015625 | $153.5999 | $163.50 | $178.18 | YES (carried from 3:15 PM Sep 18) | Bitcoin +6% thesis intact; stop trailed $141.31→$163.50 (1.77% below noon $166.45, above breakeven $153.60) | scanner |
-| INSP | 2.809548 | $77.2366 | $71.43 | $88.86 | YES (carried from 3:15 PM Sep 18) | Stifel Buy upgrade + Freedom Capital PT raised $71→$97 today (Sep 21); −1.68% from entry is noise, thesis strengthened not broken | scanner |
-| INTC | 1.159850 | $118.1187 | $122.00 | $124.50 | YES | SK Hynix US fab deal intact; stop trailed $114.93→$122.00; TP $124.50 touched intraday (H $124.64 at 11:40 AM) then pulled back to $124.00 | scanner |
-| NUAI | 17.677410 | $7.7500 | $7.49 | $8.27 | YES | 20-year 200-207 MW PPA signed with Vistra/Luminant for Texas AI Data Center Phase 1 (Sep 21, 2026); relVol 1.90x; energy/AI infra sector | scanner |
+| MSTR | 1.015625 | $153.5999 | $163.50 | $178.18 | YES (carried from 3:15 PM Sep 18) | Bitcoin thesis intact; +11.0% from entry; stop trailed $141.31→$163.50; BTC ~$85.4K | scanner |
+| INSP | 2.809548 | $77.2366 | $71.43 | $88.86 | YES (carried from 3:15 PM Sep 18) | Freedom Capital $97 + Stifel $80 thesis intact; −3.86% from entry but no thesis break; stop provides 3.8% cushion from today's price | scanner |
+| QCOM | 0.428056 | $194.6003 | $179.25 | $226.05 | YES (carried from 3:15 PM Sep 21) | Snapdragon Summit Day 1 today Sep 22 in Maui — Snapdragon 8 Elite Gen 6 + Amazon AWS AI chip partnership | scanner |
+| OMER | 4.572770 | ~$20.20 | $19.30 | $22.00 | NO (opened today 10 AM) | Cantor Fitzgerald upgraded to Overweight PT $22 today (Sep 22) — Yartemlea launch strong; new 52-week high; analyst_upgrade catalyst | scanner |
+| SHOP | 0.617690 | ~$149.54 | $144.25 | $160.12 | NO (opened today 10 AM) | Meta Muse AI agent + Shop Pay integration announced today — Shopify becomes default checkout for Meta's AI agent | scanner |
 
-12 PM reassessment actions:
-- CIEN: SOLD (take profit) — TP $363.99 breached intraday 6+ times (high $367.62 at open, $366.28 at 10:30 AM, $365.65 at 11:35 AM); noon price ~$363.90. PnL est. +1.39% / +$1.90. CIEN proceeds ~$138.90 unsettled (T+1, available tomorrow).
-- MSTR: HELD — +8.36% from entry at noon ($166.45). Stop trailed $141.31 → $163.50. Bitcoin +6% thesis intact.
-- INSP: HELD — −1.68% from entry ($75.94). Price condition for discretionary exit met (>1.5% below entry), but thesis NOT broken — Freedom Capital just raised PT to $97 today. Hold and let stop work.
-- INTC: HELD — +4.98% from entry ($124.00). TP $124.50 touched intraday (H $124.64 at 11:40 AM) then pulled back. Stop trailed $114.93 → $122.00.
-- NUAI: BOUGHT $137 @ $7.75 (17.677 sh) — 20-year Vistra PPA catalyst; relVol 1.90x; stop $7.49; TP $8.27. Opened by 12 PM reassessment.
+10 AM session actions:
+- MSTR: HELD — +11.0% from entry ($170.45 at 10 AM). Stop $163.50. BTC ~$85.4K, thesis intact.
+- INSP: HELD — −3.86% from entry ($74.25 at 10 AM). Stop $71.43 (3.8% cushion). Freedom Capital $97 + Stifel $80 intact. Price condition for discretionary exit met but thesis NOT broken — hold and let stop work.
+- QCOM: HELD — −0.55% from entry ($193.53 at 10 AM). Stop $179.25 (7.4% cushion). Snapdragon Summit live catalyst today.
+- NUAI: NOT IN PORTFOLIO — sold by 9:30 AM agent (stop $7.49 breached at open $7.15; filled $6.8701; PnL −11.45% / −$15.68). Do not re-enter.
+- OMER: BOUGHT $92.37 @ ~$20.20 (4.572770 sh) — Cantor Fitzgerald upgrade to Overweight PT $22 TODAY; new 52-week high ($20.50 intraday); analyst_upgrade catalyst; above VWAP; rel vol ~8x pace.
+- SHOP: BOUGHT $92.37 @ ~$149.54 (0.617690 sh) — Meta Muse AI agent + Shop Pay integration announced today; large-cap ($177B); above VWAP.
 
-Settled cash: ~$83.30 (after NUAI buy; CIEN proceeds ~$138.90 UNSETTLED — available tomorrow T+1)
-Total account value: ~$887
-Portfolio invested: ~74.9% (MSTR ~19.1%, INSP ~24.1%, INTC ~16.2%, NUAI ~15.5%)
-Buying power (settled, spendable TODAY): ~$83.30
-SPY at noon: $770.56 (+1.16%) — NORMAL REGIME; QQQ +2.16%
+Settled cash: ~$95.12 (after OMER+SHOP buys; CIEN+INTC proceeds from Sep 21 settled today)
+Total account value: ~$865.74
+Portfolio invested: ~75.0% (MSTR ~20.0%, INSP ~24.1%, OMER ~10.7%, SHOP ~10.7%, QCOM ~9.6%)
+Buying power (settled, spendable TODAY): ~$95.12
+SPY at 10 AM: $773.85 (+0.05%) — NORMAL REGIME; QQQ +0.48%
 
-Sessions completed today (Sep 21):
-- 7 AM: MSTR on track (+5.38% PM, $162.20), INSP monitor. Exact portfolio match. 0 pre-market sells.
-- 9:30 AM: No sells. MSTR open $165.86 (+7.76%), INSP open $76.45 (−0.43%). NORMAL REGIME. No catalyst entries.
-- 10 AM: MSTR HELD, INSP HELD. INTC BOUGHT $137 @ $118.12. CIEN BOUGHT $137 @ $358.97.
-- 12 PM: CIEN SOLD at TP (+$1.90). Stops trailed: MSTR $141.31→$163.50, INTC $114.93→$122.00. NUAI BOUGHT $137 @ $7.75.
+Sessions completed today (Sep 22):
+- 7 AM: MSTR/INSP/NUAI/QCOM ON TRACK per overnight brief. NUAI flagged thin bid below stop.
+- 9:30 AM: NUAI STOP SOLD ($6.8701, −11.45%). MSTR/INSP/QCOM HELD. No catalyst entries.
+- 10 AM: MSTR/INSP/QCOM HELD. OMER BOUGHT $92.37. SHOP BOUGHT $92.37.
 
 ---
-NOTES FOR 3:15 PM AGENT (Mon Sep 21, 2026):
+NOTES FOR 3:15 PM AGENT (Tue Sep 22, 2026):
 
-**MSTR — OVERNIGHT HOLD (Bitcoin proxy; stop $163.50):**
-- Running very well, +8.36% from entry at noon ($166.45). TP $178.18 (+7.1% away).
-- Stop trailed from $141.31 → $163.50 (1.77% below noon price; well above breakeven $153.60).
-- Bitcoin up ~6% today. If BTC continues overnight, MSTR could gap further toward TP.
-- If MSTR hits $178.18 → take profit at 3:15 PM.
+⚠️ MSTR — OVERNIGHT HOLD (Bitcoin proxy; stop $163.50):
+- Running +11.0% from entry ($170.45 at 10 AM). TP $178.18 is +4.5% away.
+- Stop $163.50 is well above breakeven ($153.60). BTC ~$85.4K and trending.
+- If MSTR reaches $178.18 by 3:15 PM → TAKE PROFIT. If still below, trail stop to most recent 2-day support level.
 
-**INSP — OVERNIGHT HOLD (healthcare; stop $71.43):**
-- Down −1.68% from entry ($75.94 vs $77.24 entry). Stop at $71.43 is 6.1% below noon — wide cushion.
-- Thesis STRENGTHENED at noon: Freedom Capital Markets raised PT to $97 (Benzinga Sep 21 9:03 AM article); Stifel $80 upgrade still in effect; Oppenheimer $85 PT on record.
-- UBS Sell $40 PT remains the bear case but stock is holding above $75.
-- No new adverse news. Hold through 3:15 PM.
+⚠️ INSP — OVERNIGHT HOLD (healthcare; stop $71.43):
+- Down −3.86% from entry ($74.25 vs $77.24 entry) at 10 AM. Stop $71.43 is 3.8% below today's price.
+- Thesis INTACT: Freedom Capital Markets PT $97 (raised Sep 21) + Stifel Buy PT $80 + Oppenheimer PT $85 all still active.
+- UBS Sell $40 PT is the bear case but stock holding above $74.
+- Do NOT use discretionary exit unless BOTH price condition AND thesis break occur. Today's decline is noise, not thesis failure.
+- If at or below $71.43 at 3:15 PM → SELL. Above and thesis intact → HOLD overnight.
 
-**INTC — TODAY'S BUY (semiconductor; stop $122.00):**
-- +4.98% from entry at noon ($124.00). Stop trailed to $122.00 (1.6% below noon). TP $124.50.
-- TP was touched at 11:40 AM (H $124.64) then pulled back to $124.00 at noon — another attempt likely.
-- The 9:35 AM opening bar touched the old stop of $114.93 exactly but recovered immediately; position is now $5.88/share in the money from entry.
-- SK Hynix fab deal catalyst intact. No M&A binary. No earnings until late October. Priority watchlist.
-- At 3:15 PM: if INTC is near or above $124.50 TP → take profit or trail further; if below $122.00 → sell.
+⚠️ QCOM — OVERNIGHT HOLD (semiconductor; stop $179.25):
+- Snapdragon Summit Day 1 today in Maui. Watch for Snapdragon 8 Elite Gen 6 (TSMC 2nm) reception news during the day.
+- −0.55% from entry ($193.53 at 10 AM). Stop $179.25 is 7.4% below current — wide cushion.
+- If Snapdragon Summit news very positive → consider trailing stop up. If adverse summit news emerges → evaluate thesis.
+- TP $226.05 (+16.8% from current). If at or below $179.25 → SELL. Above and summit thesis intact → HOLD.
 
-**NUAI — OPENED BY 12 PM REASSESSMENT (energy/AI infra; stop $7.49):**
-- Entry $7.75, stop $7.49 (midday support since 10 AM = lowest post-open level), TP $8.27.
-- Catalyst: 20-year 200-207 MW PPA SIGNED with Vistra/Luminant for Phase 1 Texas Critical Data Center in Permian Basin. Behind-the-meter power from adjacent natural gas plant — no ERCOT dependency. Real contracted revenue catalyst (not speculative).
-- relVol 1.90x, Scan B qualified. Up +32.6% on the day ($5.86→$7.78). Momentum sustained and consolidating above $7.50 all morning.
-- Overnight flag: YES. AI/data center infra theme, 20-year contracted durable catalyst, no near-term earnings.
-- Stop $7.49 = midday support since 10 AM; only 3.4% below entry — tight, clean level.
-- At 3:15 PM: check vs stop $7.49 and TP $8.27. Thesis intact as long as PPA is in place (it is — deal is signed).
+⚠️ OMER — TODAY'S BUY (healthcare; stop $19.30):
+- Entry ~$20.20, stop $19.30 (4.5% below), TP $22.00 (aligns with Cantor Fitzgerald's $22 PT).
+- Catalyst: Cantor Fitzgerald upgraded to Overweight from Neutral TODAY with PT $22 — driven by strong Yartemlea commercial launch and Q2 beat.
+- OMER hit new 52-week high today ($20.50 intraday). Best catalyst type by historical WR (57.1%).
+- Healthcare sector: INSP + OMER = 2 positions (AT SECTOR CAP — do not add more healthcare).
+- This is an INTRADAY position (not intended for overnight hold unless thesis very strong by 3:15 PM).
+- At 3:15 PM: if above $19.30 and OMER is holding/advancing → consider overnight hold at 3:15 PM session. If near TP $22 → take profit.
 
-**SECTOR CAP STATUS (entering 3:15 PM):**
+⚠️ SHOP — TODAY'S BUY (commercial services; stop $144.25):
+- Entry ~$149.54, stop $144.25 (3.5% below), TP $160.12.
+- Catalyst: Meta Muse AI agent now routes purchases through Shopify/Shop Pay — CONFIRMED partnership announced today.
+- Large-cap ($177B), liquid position. QQQ +0.48% supporting tech-adjacent names.
+- This is an INTRADAY position.
+- At 3:15 PM: if above $144.25 and catalyst thesis holding (no negative Meta/SHOP news) → consider overnight. If near TP $160 → take profit.
+
+SECTOR CAP STATUS (entering 3:15 PM):
 - Crypto/digital assets: 1 position (MSTR). Room for 1 more.
-- Healthcare: 1 position (INSP). Room for 1 more.
-- Tech (Electronic Technology): 1 position (INTC). Room for 1 more.
-- Energy/AI Infra: 1 position (NUAI). Room for 1 more.
+- Healthcare: 2 positions (INSP + OMER). AT CAP — no new healthcare entries.
+- Electronic Technology/Semiconductor: 1 position (QCOM). Room for 1 more.
+- Commercial Services: 1 position (SHOP). Room for 1 more.
 - All other sectors: 0 positions.
 
-**SAME-DAY RULE (Sep 21):** No new same-day bans (no stops triggered today).
+SAME-DAY RULE (Sep 22): INTC banned today (stopped Sep 21, 3:15 PM). NUAI banned today (stopped by 9:30 AM agent). No other same-day bans.
 
 DO NOT RE-ENTER (standing bans — carry forward):
 ATEC (stopped Sep 16), ORCL (sold Sep 15), BE (sold Sep 15), META, AVAV (stopped Sep 10)
 SNDK (stopped Sep 10 12PM), MU (stopped Sep 10 12PM), GLW (stopped Sep 10 9:30AM), COHR (stopped Sep 10 9:30AM), ALAB (stopped Sep 10 9:30AM), CRM (stopped Sep 1), DG (stopped Aug 28), VEEV/MRK/ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18). WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC, ASTS, HPE, AVGO, MGNI, GTLB.
+INTC: STOPPED Sep 21 (same-day ban Sep 22).
+NUAI: STOPPED Sep 22 9:30 AM (same-day ban; do not re-enter).
 VRNS: M&A binary (Proofpoint/Thoma Bravo) STILL PENDING.
 SWKS: Pending acquisition of QRVO — M&A binary, hard disqualifier.
 QRVO: Target of SWKS acquisition — hard disqualifier.
@@ -107,12 +116,20 @@ LUXE: Earnings miss BMO Sep 16 — banned.
 AMRX: Pending acquisition of Kashiv BioSciences ($750M) — M&A binary, hard disqualifier.
 BBNX: Dilutive $150M secondary offering — skip.
 GNRC: Hard-fading sell-the-news — do not chase.
-WBD: Pending M&A binary — Paramount Skydance acquiring WBD (proposed). Hard disqualifier.
+WBD: Pending M&A binary (Paramount Skydance acquiring WBD) — hard disqualifier.
 PSKY: Target in WBD/Paramount Skydance deal — hard disqualifier.
-CIEN: Sold today Sep 21 at TP — no re-entry ban (won, clean exit).
-GRAL: Do not enter — FDA AdCom Sep 23, pending binary regulatory event.
+CIEN: Sold Sep 21 at TP — no re-entry ban (clean exit).
+TTAN: Active securities fraud investigation (BFA Law Sep 21) — skip.
+GRAL: FDA AdCom Sep 23 pending binary event — banned.
+VKTX: Clinical trial readout today (VK2735 maintenance data) + Phase 3 still pending = binary risk — skip until Phase 3 complete.
 
-Catalyst watch list: none.
+Catalyst watch list for Tue Sep 22, 2026 (carry-forward status):
+OMER | analyst_upgrade | TODAY Sep 22 | ENTERED at ~$20.20 — Cantor Fitzgerald Overweight PT $22 | open position
+SHOP | partnership_catalyst | TODAY Sep 22 | ENTERED at ~$149.54 — Meta Muse AI + Shop Pay | open position
+AZO | earnings_beat | BMO Sep 22 | CONFIRMED-MIXED — EPS beat $56.05/$54.18 est, rev miss $6.59B/$6.71B est — not strong enough for momentum entry. Do not chase.
+THO | earnings_beat | BMO Sep 22 | FAILED — EPS miss $0.78/$0.88 est. Do not enter.
+GIS | earnings_beat | BMO Sep 23 | PENDING — reports tomorrow morning (handoff date was off by 1 day). Watch for tomorrow's 10 AM session.
+KBH | earnings_beat | AFH Sep 22 | PENDING — reports after the close today. If EPS beat with positive guidance, eligible for catalyst_watch entry tomorrow at 10 AM. Check at 3:15 PM if results are out early.
 
 ---
 PRE-CHECK — Market day verification
