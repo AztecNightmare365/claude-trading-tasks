@@ -37,21 +37,25 @@ Execute all steps in order, then place all orders simultaneously.
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET 2026-09-21.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
+**9:30 AM ET 2026-09-22.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
 
-**Sells executed: NONE.**
+**Sells executed: 1 — NUAI stop_loss.** Entry $7.7582; stop $7.49; open print $7.15 (−6.54% vs close) — decisive breach. Filled $6.8701 (slippage on thin liquidity). PnL −11.45% / −$15.68.
 
-**Catalyst entries: NONE.** Catalyst watch list for Sep 21: none.
+**Catalyst entries: NONE.** AZO: confirmed-mixed (EPS $56.05 beat / rev miss — not strong enough per 7 AM brief). THO: FAILED (EPS miss). GIS: PENDING (reports Sep 23, not today). KBH: PENDING (reports AFH today, earnings not out yet). No CATALYST CONFIRMED — GAP UP.
 
-**Portfolio sync:** Exact match (MSTR/INSP at open). 0 manual adoptions.
+**Portfolio sync:** Exact match (MSTR/INSP/NUAI/QCOM). 0 manual adoptions. NUAI now closed.
 
-**SPY** $766.58 (+0.64%), **QQQ** $728.67 (+1.00%) — NORMAL REGIME.
+**SPY** $774.05 (+0.07%), **QQQ** $742.00 (+0.07%) — NORMAL REGIME.
 
-**MSTR open:** $165.86 (+7.76% vs $153.92 close) | stop $141.31 (14.8% cushion) | TP $178.18 (7.4% away) | Bitcoin thesis intact; gap-up on weekend BTC $81K+ | HELD ✓
+**MSTR open:** $168.20 (−0.18% vs $168.50 close) | stop $163.50 (+2.7% cushion) | TP $178.18 | BTC thesis intact | HELD ✓
 
-**INSP open:** $76.45 (−0.43% vs $76.78 close) | stop $71.43 (6.6% cushion) | TP $88.86 (16.2% away) | bid/ask $76.00/$77.45 (wide at open, normal) | Stifel upgrade thesis intact | HELD ✓
+**INSP open:** $75.65 (−0.09% vs $75.72 close) | stop $71.43 (+5.7% cushion) | TP $88.86 | thesis intact | HELD ✓
 
-**Status:** 0 stop/TP sells, 0 catalyst entries, 2 positions open for 10 AM (MSTR + INSP).
+**NUAI open:** $7.15 (−6.54%) | **STOP TRIGGERED** ($7.15 < $7.49 stop) | SOLD $6.8701 | −11.45% / −$15.68 ✓
+
+**QCOM open:** $193.35 (−0.45% vs $194.23 close) | stop $179.25 (+7.3% cushion) | TP $226.05 | Snapdragon Summit Day 1 today | HELD ✓
+
+**Status:** 1 stop sell (NUAI), 0 catalyst entries, 3 positions open for 10 AM (MSTR + INSP + QCOM).
 
 ---
 
@@ -104,7 +108,7 @@ Open positions held overnight: **4 (MSTR + INSP + NUAI + QCOM)**
 |--------|--------|---------------------------|------|----|-----------|-----------------|------------|
 | MSTR | 1.015625 | $153.5999 | $163.50 | $178.18 | YES (carried since 3:15 PM Sep 18) | Bitcoin +8.4% today, thesis intact; stop trailed $141.31→$163.50 (well above breakeven $153.60) | scanner |
 | INSP | 2.809548 | $77.2366 | $71.43 | $88.86 | YES (carried since 3:15 PM Sep 18) | Thesis STRENGTHENED today: Freedom Capital Markets raised PT $71→$97 (Sep 21 9:03 AM); Stifel Buy PT $80 still in effect | scanner |
-| NUAI | 17.658735 | $7.7582 | $7.49 | $8.27 | YES (opened by 12 PM session Sep 21) | 20-year 200-207 MW PPA SIGNED with Vistra/Luminant for Texas AI Data Center Phase 1; consolidated above $7.50 all afternoon (+34.6% on day) | scanner |
+| NUAI | — | — | — | — | — | **SOLD BY 9:30 AM AGENT — stop_loss — do not re-enter** (open $7.15 < stop $7.49; filled $6.8701; PnL −11.45% / −$15.68) | — |
 | QCOM | 0.428056 | $194.6003 | $179.25 | $226.05 | YES | Snapdragon Summit Day 1 tomorrow Sep 22 in Maui: Snapdragon 8 Elite Gen 6 (TSMC 2nm) expected; Amazon AWS AI chip partnership; strong close (vol 192K final bar, price at HOD, above VWAP $189.26) | scanner |
 
 3:15–3:25 PM fill details:
