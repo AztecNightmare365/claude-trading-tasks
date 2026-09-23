@@ -102,81 +102,66 @@ RAW STATS:
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-Last updated: 2026-09-21 (~3:25 PM ET — 3:15 PM session complete)
+Last updated: 2026-09-23 (~3:22 PM ET — 3:15 PM session complete)
 
-Open positions held overnight: **4 (MSTR + INSP + NUAI + QCOM)**
+Open positions held overnight: **1 (QCOM only)**
 
 ⚠️ ALL STOPS ARE MENTAL — no standing stop orders in Robinhood (fractional shares).
 
 | Ticker | Shares | Entry Price (actual fill) | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
 |--------|--------|---------------------------|------|----|-----------|-----------------|------------|
-| MSTR | 1.015625 | $153.5999 | — | — | — | **SOLD BY 9:30 AM AGENT — stop_loss — do not re-enter** (open $166.915 < stop $167.00; filled $167.6001; PnL +9.11% / +$14.22) | scanner |
-| INSP | 2.809548 | $77.2366 | — | — | — | **SOLD BY 9:30 AM AGENT — stop_loss — do not re-enter** (open $71.30 < stop $71.43; filled $71.0601; PnL −8.00% / −$17.35) | scanner |
-| NUAI | — | — | — | — | — | **SOLD BY 9:30 AM AGENT — stop_loss — do not re-enter** (open $7.15 < stop $7.49; filled $6.8701; PnL −11.45% / −$15.68) | — |
-| QCOM | 0.428056 | $194.6003 | $179.25 | $226.05 | YES | Snapdragon Summit Day 1 tomorrow Sep 22 in Maui: Snapdragon 8 Elite Gen 6 (TSMC 2nm) expected; Amazon AWS AI chip partnership; strong close (vol 192K final bar, price at HOD, above VWAP $189.26) | scanner |
+| QCOM | 0.428056 | $194.60 | $179.25 | $226.05 | YES | Snapdragon Summit Day 2 in Maui (Agentic PC keynote Sep 23); Trump-Xi meeting Sep 24 positive US-China trade backdrop; closed strong (+1.54% vs entry, trending up final 30 min) | scanner |
 
-3:15–3:25 PM fill details:
-- INTC SOLD (stop_loss): 1.159850 sh @ $121.5701. Entry was $118.1187 (10 AM session). PnL: +2.92% / +$4.00. Stop $122.00 triggered (price $121.47 at 3:15 PM check).
-- QCOM BOUGHT: 0.428056 sh @ $194.6003 ($83.30 full settled cash). Stop $179.25 (intraday low, 8.0% below entry). TP $226.05 (2× stop distance).
+3:15 PM session actions:
+- OMER SOLD (discretionary): 4.571889 sh @ $20.5341 (+1.65% / +$1.53). 12 PM NO overnight flag; below $20.60 threshold; closing weak (bottom quartile of range, ~15% from low); no new overnight catalyst since noon.
+- IONQ SOLD (discretionary): 4.962768 sh @ $42.680 (−0.81% / −$1.73). 12 PM NO overnight flag; extra scrutiny (sector_momentum 30.8% WR); below $43.00 threshold AND below VWAP ($42.78 vs VWAP $42.86) at close; pre-market catalysts fully priced in.
+- QCOM HELD: $197.60 (+1.54% vs $194.60 entry). Closing strong — trending up $0.57 final 30 min. No trailing yet ($197.60 < $198.49 trail threshold). Summit thesis intact.
+- NO NEW BUYS: Settled cash $2.90 (< $10 minimum). All today's proceeds unsettled, settle Sep 24.
 
-Settled cash: ~$0.00 (all $83.30 deployed to QCOM)
-Settled cash TOMORROW (T+1, Sep 22): ~$279.87 (CIEN $138.86 + INTC $141.01 both settle Sep 22)
-Total account value: ~$883.85
-Portfolio invested: ~68.3% (MSTR 19.2%, INSP 24.0%, NUAI 15.8%, QCOM 9.4%)
-Buying power (settled, spendable TODAY): ~$0.00 — TOMORROW: ~$279.87
-SPY at 3:15 PM: $774.36 (+1.66%) — NORMAL REGIME; QQQ +2.80%
+Settled cash: $2.90
+Unsettled (settles Sep 24): ~$760.60 (MSTR/INSP/SHOP $454.93 + OMER $93.87 + IONQ $211.80)
+Total account value: ~$848.09
+Portfolio invested: ~10.0% (QCOM only, $84.58 / $848.09)
 
-Sessions completed today (Sep 21):
-- 7 AM: MSTR on track (+5.38% PM, $162.20), INSP monitor. Exact portfolio match.
-- 9:30 AM: No sells. MSTR open $165.86 (+7.76%), INSP open $76.45. NORMAL REGIME.
-- 10 AM: MSTR HELD, INSP HELD. INTC BOUGHT $137 @ $118.12. CIEN BOUGHT $137 @ $358.97.
-- 12 PM: CIEN SOLD at TP (+$1.90). Stops trailed: MSTR $141.31→$163.50, INTC $114.93→$122.00. NUAI BOUGHT $137 @ $7.76.
-- 3:15 PM: INTC SOLD (stop $122.00 triggered, exit $121.57, +$4.00). QCOM BOUGHT $83.30 @ $194.60. MSTR/INSP/NUAI HELD overnight.
+SPY at 3:15 PM: $767.87 (−0.71%) — NORMAL REGIME; QQQ $740.96 (−0.87%)
+
+Sessions completed today (Sep 23):
+- 7 AM: MSTR/INSP critical stop breach flagged. QCOM/OMER/SHOP ON TRACK.
+- 9:30 AM: MSTR STOPPED ($167.60, +9.11%/+$14.22). INSP STOPPED ($71.06, −8.00%/−$17.35). QCOM/OMER/SHOP HELD.
+- 10 AM (10:06 AM): SHOP STOPPED ($137.70, −7.92%/−$7.31). IONQ BOUGHT $213.54 @ $43.028 avg.
+- 12 PM: ALL 3 HELD (QCOM/OMER/IONQ). IONQ stop $41.80/TP $45.48 set. No new buys ($2.90 settled).
+- 3:15 PM: OMER SOLD (disc. +1.65%/+$1.53). IONQ SOLD (disc. −0.81%/−$1.73). QCOM HELD overnight.
 
 ---
 
-NOTES FOR 7 AM / 10 AM AGENT (Tue Sep 22, 2026):
+NOTES FOR 7 AM / 10 AM AGENT (Thu Sep 24, 2026):
 
-⚠️ MSTR — OVERNIGHT HOLD (Bitcoin proxy; stop $163.50):
-- Running +8.63% from entry at close ($166.86). TP $178.18 is +6.8% away.
-- Stop trailed $141.31→$163.50 (well above breakeven $153.60). Bitcoin was ~+6% on the day Sep 21.
-- Check BTC pre-market before 10 AM. If BTC gaps down hard overnight, MSTR may open near $163.50 stop.
-- At 10 AM: if at or below $163.50 → SELL. If above and BTC thesis intact → HOLD. If MSTR hits $178.18 → TAKE PROFIT.
-
-⚠️ INSP — OVERNIGHT HOLD (healthcare; stop $71.43):
-- Down −2.43% from entry ($75.37 vs $77.24 entry) at close. Stop $71.43 provides 5.2% cushion from close.
-- Thesis STRENGTHENED Sep 21: Freedom Capital Markets raised PT to $97 (Benzinga 9:03 AM); Stifel Buy $80 still in effect; Oppenheimer $85 PT on record.
-- UBS Sell $40 PT remains the bear case — stock is holding above $75.
-- No binary events near-term. Let the stop work.
-- At 10 AM: if at or below $71.43 → SELL. Above and thesis intact → HOLD. TP $88.86.
-
-⚠️ NUAI — OVERNIGHT HOLD (energy/AI infra; stop $7.49):
-- Entry $7.7582, close ~$7.895 (+1.76%). Stop $7.49 is midday support (lowest post-open print today).
-- Catalyst: 20-year 200-207 MW PPA SIGNED with Vistra/Luminant for Texas AI Data Center Phase 1 — behind-the-meter power, no ERCOT dependency. Real contracted revenue.
-- Up +34.6% on the day from prior close $5.86. Consolidating above $7.50 all afternoon.
-- At 10 AM: if at or below $7.49 → SELL. Above and PPA thesis intact → HOLD. TP $8.27 (+4.8% from close).
-
-⚠️ QCOM — NEW OVERNIGHT BUY (semiconductor; stop $179.25):
-- Entry $194.6003 (0.428056 sh, $83.30). Stop $179.25 (intraday low, ~8% below entry). TP $226.05.
-- Catalyst: Snapdragon Summit Day 1 starts Sep 22 in Maui, Hawaii. New Snapdragon 8 Elite Gen 6 (TSMC 2nm process) expected. Amazon AWS customized AI chip partnership (announced last week). Agentic AI theme featured prominently at Summit.
-- Strong close: volume surged to 192K shares in final 5-min bar (vs ~60K earlier average); price at day high $195.31; above VWAP $189.26. Up +9.62% on the day. Monday entry (75% WR per learned insights).
-- Priority sector watchlist (semiconductor). QQQ +2.80% on the day.
-- At 10 AM: check if Snapdragon Summit Day 1 news is positive. If Snapdragon 8 Elite Gen 6 well-received → HOLD/trail stop. If stock at or below $179.25 → SELL.
+⚠️ QCOM — SOLE OVERNIGHT HOLD (Electronic Technology/Semiconductor; stop $179.25):
+- 3:15 PM close: ~$197.60 (+1.54% vs $194.60 entry). Day range: $193.23 low to $199.61 high.
+- Thesis: Snapdragon Summit Day 2 (Agentic PC keynote in Maui, Sep 23 — keynote happens after market close). Trump-Xi bilateral meeting Sep 24 (U.S.-China trade talks → QCOM China revenue positive). U.S.-China tech backdrop broadly supportive.
+- Trail stop: if QCOM opens at or above $198.49 (+2% from entry) → trail stop to $194.60 (breakeven) or most recent intraday support (whichever higher). Did NOT trigger Sep 23 (close $197.60 < $198.49).
+- TP $226.05 (+14.4% from 3:15 PM close). Stop $179.25 (−9.3% from close).
 - No earnings until Q2 FY2027 (~November 2026). Snapdragon Summit is product launch event, NOT an earnings binary.
+- If at or below $179.25 at open → SELL immediately. If above and Summit thesis intact → HOLD.
+- Sector: Electronic Technology (tech). 1 tech position held overnight. Room for 1 more tech.
 
-SECTOR CAP STATUS (entering Tue Sep 22):
-- Crypto/digital assets: 1 position (MSTR). Room for 1 more.
-- Healthcare: 1 position (INSP). Room for 1 more.
-- Energy/AI Infra: 1 position (NUAI). Room for 1 more.
-- Tech (Electronic Technology): 1 position (QCOM). Room for 1 more.
+⚠️ BUYING POWER SEP 24 (SIGNIFICANT — ACTIVE BUYING DAY):
+- Settles Sep 24: ~$760.60 in cash + $2.90 settled = ~$763.50 total.
+- 75% cap: ~$848 × 0.75 = $636. With QCOM ~$84.58, available to invest: ~$551.
+- ⚠️ Thursday is LOW-WR day (4/22 = 18.2%, net −$52.52). Start all new buys at LOW tier; require stronger-than-usual catalysts; NEVER stack multiple new Thursday entries in same sector.
+
+SECTOR CAP STATUS (entering Thu Sep 24):
+- Electronic Technology/Tech: 1 position (QCOM). Room for 1 more.
+- Healthcare: 0 positions. Room for 2.
 - All other sectors: 0 positions.
 
-SAME-DAY RULE (Sep 22): INTC banned today (stopped Sep 21, 3:15 PM). No other same-day bans from today's exits.
+SAME-DAY RULE (Sep 24): No same-day bans from Sep 24 opens. MSTR/INSP/SHOP bans from Sep 23 EXPIRED.
 
 DO NOT RE-ENTER (standing bans — carry forward):
 ATEC (stopped Sep 16), ORCL (sold Sep 15), BE (sold Sep 15), META, AVAV (stopped Sep 10)
 SNDK (stopped Sep 10 12PM), MU (stopped Sep 10 12PM), GLW (stopped Sep 10 9:30AM), COHR (stopped Sep 10 9:30AM), ALAB (stopped Sep 10 9:30AM), CRM (stopped Sep 1), DG (stopped Aug 28), VEEV/MRK/ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18). WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC, ASTS, HPE, AVGO, MGNI, GTLB.
-INTC: STOPPED Sep 21 (3:15 PM, stop triggered at $121.47 vs $122.00) — same-day ban active Sep 22.
+INTC: STOPPED Sep 21 — permanent ban (stopped twice in 2 days Sep 18 & Sep 21).
+NUAI: STOPPED Sep 22 9:30 AM — permanent ban.
 VRNS: M&A binary (Proofpoint/Thoma Bravo) STILL PENDING.
 SWKS: Pending acquisition of QRVO — M&A binary, hard disqualifier.
 QRVO: Target of SWKS acquisition — hard disqualifier.
@@ -190,15 +175,19 @@ WBD: Pending M&A binary (Paramount Skydance acquiring WBD) — hard disqualifier
 PSKY: Target in WBD/Paramount Skydance deal — hard disqualifier.
 CIEN: Sold Sep 21 at TP — no re-entry ban (clean exit).
 TTAN: Active securities fraud investigation (BFA Law Sep 21) — skip.
-GRAL: FDA AdCom Sep 23 pending binary event — banned.
+GRAL: FDA AdCom Sep 23 — check for AdCom result BMO Sep 24 (approval vote may clear the binary).
+VKTX: Clinical trial readout Sep 23 (VK2735 maintenance data) — check outcome BMO Sep 24; Phase 3 still pending; skip until Phase 3 complete.
+IONQ: Sold Sep 23 (discretionary, −0.81%) — no permanent ban; re-entry allowed Sep 24 if new thesis develops.
+OMER: Sold Sep 23 (discretionary, +1.65%) — no permanent ban; re-entry allowed Sep 24 if analyst thesis strengthens.
+MSTR: STOPPED Sep 23 9:30 AM — same-day ban expired; re-entry allowed Sep 24 if Bitcoin thesis intact.
+INSP: STOPPED Sep 23 9:30 AM — same-day ban expired; re-entry allowed Sep 24 if analyst thesis intact.
+SHOP: STOPPED Sep 23 10 AM — same-day ban expired; re-entry allowed Sep 24 if Meta Connect tailwind persists.
 
-Catalyst watch list for Tue Sep 22, 2026:
-AZO | earnings_beat | BMO Sep 22 | neutral-positive (consensus EPS $53.40; consumer auto parts resilience) | LOW
-GIS | earnings_beat | BMO Sep 22 | neutral (defensive consumer staples, consensus $1.05) | LOW
-KBH | earnings_beat | BMO Sep 22 | neutral (housing, limited momentum context) | MEDIUM
-THO | earnings_beat | BMO Sep 22 | neutral (RVs/consumer discretionary, consensus $1.35) | LOW
+Catalyst watch list for Sep 24 2026:
+DRI | earnings_beat | BMO Sep 24 | positive bias (EPS est $2.05-2.06, rev ~$3.21B +10.2% Y/Y; beat in 5 consecutive quarters) | MEDIUM (consumer sector; binary event; no pre-announced guidance raise; apply LOW tier per consumer overnight insights if entering)
 
-Note: QCOM Snapdragon Summit Day 1 is Sep 22 — live catalyst for existing QCOM position, not a new watch entry.
+Macro note: Trump-Xi bilateral meeting Sep 24 — U.S.-China trade talks potentially bullish for tech/semis (direct QCOM catalyst); watch for tariff/trade headlines before open.
+AH awareness only (not actionable at 10 AM): COST earnings AH Sep 24 (EPS ~$6.55, consistent beater); NKE earnings AH Sep 24.
 
 ---
 

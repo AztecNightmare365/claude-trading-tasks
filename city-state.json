@@ -1,19 +1,21 @@
 {
-  "ts": "2026-09-23T13:32:10Z",
-  "source": "robinhood_0930_open",
+  "ts": "2026-09-23T19:22:10Z",
+  "source": "robinhood_1515_trading",
   "portfolio": {
-    "totalValue": 855.92,
-    "cash": 216.44,
-    "equityValue": 269.61,
-    "buyingPower": 216.44,
+    "totalValue": 848.09,
+    "cash": 763.50,
+    "equityValue": 84.58,
+    "buyingPower": 2.90,
     "positions": [
-      { "ticker": "QCOM", "shares": 0.428056, "entry": 194.60, "current": 198.44, "plPct": 1.97, "managed": true },
-      { "ticker": "OMER", "shares": 4.571889, "entry": 20.20,  "current": 20.735, "plPct": 2.65, "managed": true },
-      { "ticker": "SHOP", "shares": 0.617694, "entry": 149.54, "current": 145.49, "plPct": -2.71, "managed": true }
+      { "ticker": "QCOM", "shares": 0.428056, "entry": 194.60, "current": 197.60, "plPct": 1.54, "managed": true }
     ]
   },
   "fills": [
     { "id": "6ab3d4d4-571c-4797-bf7a-9d510aeffb85", "side": "sell", "ticker": "MSTR", "qty": 1.015625, "price": 167.6001, "at": "2026-09-23T13:32:04.713Z" },
-    { "id": "6ab3d4d6-2430-48e9-aaa4-c6203ef4c92b", "side": "sell", "ticker": "INSP", "qty": 2.809548, "price": 71.0601, "at": "2026-09-23T13:32:06.321Z" }
+    { "id": "6ab3d4d6-2430-48e9-aaa4-c6203ef4c92b", "side": "sell", "ticker": "INSP", "qty": 2.809548, "price": 71.0601, "at": "2026-09-23T13:32:06.321Z" },
+    { "id": "6ab3dcd5-0c9b-44ff-88be-5511570561d7", "side": "buy",  "ticker": "IONQ", "qty": 4.962768, "price": 43.0284, "at": "2026-09-23T14:06:13.52Z" },
+    { "id": "6ab3dcdb-f292-4bba-98a9-ae42b5e9aa1e", "side": "sell", "ticker": "SHOP", "qty": 0.617694, "price": 137.7014, "at": "2026-09-23T14:06:19.358Z" },
+    { "id": "6ab426dc-9fe2-494e-b329-f933eaa23c34", "side": "sell", "ticker": "OMER", "qty": 4.571889, "price": 20.5341, "at": "2026-09-23T19:22:05.085Z" },
+    { "id": "6ab426de-4aad-437f-b1aa-5406b130eb16", "side": "sell", "ticker": "IONQ", "qty": 4.962768, "price": 42.6800, "at": "2026-09-23T19:22:06.219Z" }
   ]
 }
