@@ -14,23 +14,25 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET 2026-09-22.** Live sync ••••6616: 4 positions (MSTR/INSP/NUAI/QCOM) — exact match 3:15 PM Sep 21 handoff.
+**7:00 AM ET 2026-09-23.** Live sync ••••6616: 5 positions — exact match 12 PM Sep 22. ⚠️ 3:15 PM Sep 22 DID NOT RUN; 12 PM state carries. OMER/SHOP were intraday-only; 9:30 AM must evaluate hold legitimacy.
 
-**MSTR ON TRACK** | PM $166.37 (−1.26% vs $168.50) | stop $163.50 (+1.7% cushion) | TP $178.18 | BTC hit $87K overnight (Sep 21 10 PM ET), curr ~$85.4K (+3.5% 24h); Strategy bought 950 BTC $75.7M Sep 14–20 (846K total); thesis intact & strengthening.
+**MSTR ⚠️ CRITICAL STOP BREACH** | PM $166.13 (−0.72% vs $167.33) | stop $167.00 | −0.52% BELOW stop | BTC $86,589 (+0.78% overnight, thesis intact). Breach marginal, BTC up. NO pre-market sell (noise, not thesis failure). 9:30 AM: sell if open < $167.00.
 
-**INSP ON TRACK** | PM $75.13 (−0.79% vs $75.72) | stop $71.43 (+4.9% cushion) | TP $88.86 | bid/ask $68.59/$80.00 (wide PM spread — typical for INSP) | No adverse news; Freedom Capital Buy $97 + Stifel Buy $80 intact.
+**INSP ⚠️ CRITICAL STOP BREACH** | Close $71.30 < stop $71.43 (Sep 22 close; 3:15 PM missed) | PM bid $64.48/ask $78.15 (21% spread, illiquid) | No adverse news; FC $97 + Stifel $80 intact. NO pre-market sell (21% spread). 9:30 AM: SELL AT OPEN.
 
-**NUAI MONITOR** | PM $7.60 (−0.70% vs $7.65) | stop $7.49 (+1.4% last trade; bid $7.46 below stop) | TP $8.27 | PPA thesis intact; bid below stop is thin PM noise. 10 AM: use first open print — do NOT pre-market sell.
+**QCOM ON TRACK** | PM $196.51 (−0.89% vs $198.27) | stop $179.25 (+8.8%) | TP $226.05 | Snapdragon Summit Day 2 today (Agentic PC keynote); thesis intact.
 
-**QCOM ON TRACK** | PM $193.99 (−0.12% vs $194.23) | stop $179.25 (+7.6% cushion) | TP $226.05 | GOOGL partnership announced; Snapdragon Summit Day 1 today Sep 22 in Maui; minor PM pullback = normal after +9.6% Mon rally.
+**OMER ON TRACK** | PM $20.91 (−0.67% vs $21.05) | stop $19.30 (+8.3%) | TP $22.00 | NTAP effective Oct 1; no adverse news.
+
+**SHOP ON TRACK** | PM $147.00 (−0.50% vs $147.74) | stop $144.25 (+1.9%) | TP $160.12 | Meta Connect 2026 starts today — thesis strengthening.
 
 **Pre-market sells placed:** NONE.
 
-**Catalyst watch:** AZO — BMO EPS $56.05 beat ($54.18 est), rev miss $6.59B/$6.71B est → CONFIRMED MIXED (not strong enough for momentum entry). THO — BMO EPS $0.78 miss ($0.88 est), rev beat → FAILED, skip. GIS — reports Sep 23 (handoff date was off by 1 day) → PENDING. KBH — reports AFH today Sep 22 (not BMO) → PENDING.
+**Catalyst watch:** KBH — EPS $1.05 beat, margin guidance cut, AH −2.23% → FAILED, skip. GIS — adj EPS $0.75 miss, op profit −11% → FAILED, skip.
 
-**Macro:** BTC $85.4K+ (hit $87K overnight, "Extreme Greed"). SPY PM +0.08%, QQQ PM +0.10% (flat). Brent $101 (+1%, Iranian airline sanctions). Richmond Fed Barkin 1 PM ET; 57.6% Oct hike probability. Trump-Xi summit Thu Sep 24 supporting AI/tech.
+**Macro:** BTC $86,589 (+0.78%). SPY PM −0.06%, QQQ PM −0.27% (flat). Nasdaq futures +0.76%. Fed speeches 10:05/10:20 AM ET (key direction catalyst). Meta Connect Sep 23-24 (SHOP tailwind).
 
-**SUMMARY:** 3 ON TRACK (MSTR/INSP/QCOM), 1 MONITOR (NUAI thin cushion/bid below stop), 0 pre-market sells; 1 catalyst confirmed-mixed (AZO), 1 failed (THO), 2 pending (GIS/KBH). No email sent.
+**SUMMARY:** 3 ON TRACK (QCOM/OMER/SHOP), 2 CRITICAL BREACH deferred (MSTR −0.52%/BTC up/marginal; INSP 21% spread), 0 pre-market sells; 2 catalysts FAILED (KBH/GIS). Email sent.
 
 ---
 
