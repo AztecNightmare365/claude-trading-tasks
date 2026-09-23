@@ -1,18 +1,19 @@
 {
-  "ts": "2026-09-22T13:32:00Z",
+  "ts": "2026-09-23T13:32:10Z",
   "source": "robinhood_0930_open",
   "portfolio": {
-    "totalValue": 867.72,
-    "cash": 401.18,
-    "equityValue": 466.54,
-    "buyingPower": 279.86,
+    "totalValue": 855.92,
+    "cash": 216.44,
+    "equityValue": 269.61,
+    "buyingPower": 216.44,
     "positions": [
-      { "ticker": "MSTR", "shares": 1.015625, "entry": 153.60, "current": 168.73, "plPct": 9.85, "managed": true },
-      { "ticker": "INSP", "shares": 2.809548, "entry": 77.24,  "current": 75.7425, "plPct": -1.94, "managed": true },
-      { "ticker": "QCOM", "shares": 0.428056, "entry": 194.60, "current": 192.43, "plPct": -1.11, "managed": true }
+      { "ticker": "QCOM", "shares": 0.428056, "entry": 194.60, "current": 198.44, "plPct": 1.97, "managed": true },
+      { "ticker": "OMER", "shares": 4.571889, "entry": 20.20,  "current": 20.735, "plPct": 2.65, "managed": true },
+      { "ticker": "SHOP", "shares": 0.617694, "entry": 149.54, "current": 145.49, "plPct": -2.71, "managed": true }
     ]
   },
   "fills": [
-    { "id": "6ab28340-f2e3-417b-99df-c1b043d9ff0f", "side": "sell", "ticker": "NUAI", "qty": 17.658735, "price": 6.8701, "at": "2026-09-22T13:31:44.653Z" }
+    { "id": "6ab3d4d4-571c-4797-bf7a-9d510aeffb85", "side": "sell", "ticker": "MSTR", "qty": 1.015625, "price": 167.6001, "at": "2026-09-23T13:32:04.713Z" },
+    { "id": "6ab3d4d6-2430-48e9-aaa4-c6203ef4c92b", "side": "sell", "ticker": "INSP", "qty": 2.809548, "price": 71.0601, "at": "2026-09-23T13:32:06.321Z" }
   ]
 }

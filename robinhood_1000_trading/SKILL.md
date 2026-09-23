@@ -39,25 +39,27 @@ Execute all steps in order, then place all orders simultaneously.
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET 2026-09-22.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
+**9:30 AM ET 2026-09-23.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
 
-**Sells executed: 1 — NUAI stop_loss.** Entry $7.7582; stop $7.49; open print $7.15 (−6.54% vs close) — decisive breach. Filled $6.8701 (slippage on thin liquidity). PnL −11.45% / −$15.68.
+**Sells executed: 2 — MSTR stop_loss, INSP stop_loss.**
 
-**Catalyst entries: NONE.** AZO: confirmed-mixed (EPS $56.05 beat / rev miss — not strong enough per 7 AM brief). THO: FAILED (EPS miss). GIS: PENDING (reports Sep 23, not today). KBH: PENDING (reports AFH today, earnings not out yet). No CATALYST CONFIRMED — GAP UP.
+MSTR: stop $167.00 (trailed by 12 PM Sep 22); open print $166.915 (−0.25% vs $167.33 close) — breach confirmed. Filled $167.6001 (positive slippage vs open). Entry $153.5999 → **+9.11% / +$14.22** ✓
 
-**Portfolio sync:** Exact match (MSTR/INSP/NUAI/QCOM). 0 manual adoptions. NUAI now closed.
+INSP: stop $71.43; last trade = prior close $71.30 (spread $71.06/$71.80 at open) — breach confirmed (close $71.30 < stop $71.43; 3:15 PM Sep 22 missed). Filled $71.0601. Entry $77.2366 → **−8.00% / −$17.35** ✓
 
-**SPY** $774.05 (+0.07%), **QQQ** $742.00 (+0.07%) — NORMAL REGIME.
+**Catalyst entries: NONE.** KBH FAILED, GIS FAILED (per 7 AM brief). No CATALYST CONFIRMED — GAP UP.
 
-**MSTR open:** $168.20 (−0.18% vs $168.50 close) | stop $163.50 (+2.7% cushion) | TP $178.18 | BTC thesis intact | HELD ✓
+**Portfolio sync:** 5 positions live — exact match to overnight brief. 0 manual adoptions. MSTR/INSP now closed.
 
-**INSP open:** $75.65 (−0.09% vs $75.72 close) | stop $71.43 (+5.7% cushion) | TP $88.86 | thesis intact | HELD ✓
+**SPY** $772.61 (−0.10%), **QQQ** $746.13 (−0.18%) — NORMAL REGIME.
 
-**NUAI open:** $7.15 (−6.54%) | **STOP TRIGGERED** ($7.15 < $7.49 stop) | SOLD $6.8701 | −11.45% / −$15.68 ✓
+**QCOM open:** $198.44 (+0.09% vs $198.27) | stop $179.25 (+10.6%) | TP $226.05 | Snapdragon Summit Day 2 | HELD ✓
 
-**QCOM open:** $193.35 (−0.45% vs $194.23 close) | stop $179.25 (+7.3% cushion) | TP $226.05 | Snapdragon Summit Day 1 today | HELD ✓
+**OMER open:** $20.735 (−1.50% vs $21.05) | stop $19.30 (+7.0%) | TP $22.00 | entry $20.20 | 4.571889 sh | NTAP acq Oct 1 | HELD ✓ ⚠️ Opened Sep 22; 3:15 PM did not run — carry stop/TP.
 
-**Status:** 1 stop sell (NUAI), 0 catalyst entries, 3 positions open for 10 AM (MSTR + INSP + QCOM).
+**SHOP open:** $145.49 (−1.52% vs $147.74) | stop $144.25 (+0.85%) | TP $160.12 | entry $149.54 | 0.617694 sh | Meta Connect Sep 23-24 | HELD ✓ ⚠️ Opened Sep 22; THIN cushion ($145.49 vs $144.25 stop) — monitor closely.
+
+**Status:** 2 stop sells (MSTR/INSP), 0 catalyst entries, 3 positions open for 10 AM (QCOM + OMER + SHOP).
 
 ---
 
@@ -108,8 +110,8 @@ Open positions held overnight: **4 (MSTR + INSP + NUAI + QCOM)**
 
 | Ticker | Shares | Entry Price (actual fill) | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
 |--------|--------|---------------------------|------|----|-----------|-----------------|------------|
-| MSTR | 1.015625 | $153.5999 | $163.50 | $178.18 | YES (carried since 3:15 PM Sep 18) | Bitcoin +8.4% today, thesis intact; stop trailed $141.31→$163.50 (well above breakeven $153.60) | scanner |
-| INSP | 2.809548 | $77.2366 | $71.43 | $88.86 | YES (carried since 3:15 PM Sep 18) | Thesis STRENGTHENED today: Freedom Capital Markets raised PT $71→$97 (Sep 21 9:03 AM); Stifel Buy PT $80 still in effect | scanner |
+| MSTR | 1.015625 | $153.5999 | — | — | — | **SOLD BY 9:30 AM AGENT — stop_loss — do not re-enter** (open $166.915 < stop $167.00; filled $167.6001; PnL +9.11% / +$14.22) | scanner |
+| INSP | 2.809548 | $77.2366 | — | — | — | **SOLD BY 9:30 AM AGENT — stop_loss — do not re-enter** (open $71.30 < stop $71.43; filled $71.0601; PnL −8.00% / −$17.35) | scanner |
 | NUAI | — | — | — | — | — | **SOLD BY 9:30 AM AGENT — stop_loss — do not re-enter** (open $7.15 < stop $7.49; filled $6.8701; PnL −11.45% / −$15.68) | — |
 | QCOM | 0.428056 | $194.6003 | $179.25 | $226.05 | YES | Snapdragon Summit Day 1 tomorrow Sep 22 in Maui: Snapdragon 8 Elite Gen 6 (TSMC 2nm) expected; Amazon AWS AI chip partnership; strong close (vol 192K final bar, price at HOD, above VWAP $189.26) | scanner |
 
