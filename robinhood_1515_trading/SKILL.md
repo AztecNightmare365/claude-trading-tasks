@@ -24,82 +24,69 @@ _No content — see robinhood_1000_trading/SKILL.md for the live 3:15 PM handoff
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-09-23 (~12:00 PM ET — 12 PM reassessment complete)
+Last updated: 2026-09-24 (~10:10 AM ET — 10 AM session complete)
 
-Open positions: **3 (QCOM + OMER + IONQ)**
+Open positions: **1 (QCOM only)**
 
 ⚠️ ALL STOPS ARE MENTAL — no standing stop orders in Robinhood (fractional shares).
 
 | Ticker | Shares | Entry Price (actual fill) | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
 |--------|--------|---------------------------|------|----|-----------|-----------------|------------|
-| QCOM | 0.428056 | $194.60 | $179.25 | $226.05 | YES (carried from 3:15 PM Sep 21) | Snapdragon Summit Day 2 in Maui (Agentic PC keynote); U.S.-China tech trade talks positive; dipped to $193.23 intraday but recovered to +0.79% from entry | scanner |
-| OMER | 4.571889 | $20.20 | $19.30 | $22.00 | NO (opened 10 AM Sep 22) | Cantor Fitzgerald Overweight PT $22 (Sep 22); Yartemlea launch strong; NTAP reimbursement effective Oct 1; +1.58% from entry at noon | scanner |
-| IONQ | 4.962768 | $43.028 | $41.80 | $45.48 | NO (opened 10 AM Sep 23 — Opened by 10 AM agent) | Quantum sector momentum: Motley Fool article promoting IONQ vs PLTR (pre-mkt Sep 23) + IonQ/Synopsys IEEE Best Paper Award; 2.74× volume; −0.65% from entry at noon; stop/TP set by 12 PM agent | scanner |
+| QCOM | 0.428056 | $194.60 | $179.25 | $226.05 | YES (held from Sep 23 3:15 PM) | Snapdragon Summit "Agentic PC Has Arrived" confirmed; Trump-Xi trade truce extended 2 months to Jan 10 (bullish QCOM China revenue); −1.18% from entry at 10 AM but thesis fully intact, no thesis break | scanner |
 
-12 PM session actions:
-- PORTFOLIO SYNC: 10 AM agent ran at 10:06 AM ET but did NOT write handoff. SHOP found absent (sold by 10 AM agentic session at $137.70 stop_loss, −7.92%/−$7.31 — stop $144.25 breached). IONQ found present (bought by 10 AM agentic session at $43.028 avg, $213.54 total, 4.962768 sh).
-- QCOM: HELD — +0.79% at noon ($196.14). Day low $193.23 (intraday dip below entry $194.60; recovered strongly). No trailing (not yet +2% from entry). Snapdragon Summit Day 2 thesis intact.
-- OMER: HELD — +1.58% at noon ($20.52). Volume low today (0.31× vs 30-day avg). No trailing. Analyst upgrade + NTAP catalyst intact.
-- IONQ: HELD — −0.65% at noon ($42.75). Stop $41.80 NEW (set by 12 PM agent). TP $45.48 NEW (set by 12 PM). Price condition for discretionary exit met (>50% gap round-trip from $45.83 open) but thesis NOT broken — no new adverse news since 10 AM buy. Overnight flag: NO.
-- NO NEW BUYS: Buying power $2.90 (< $10 minimum — $454.93 unsettled from today's MSTR/INSP/SHOP sales, settles Sep 24).
+10 AM session actions:
+- PORTFOLIO SYNC: Exact match to 3:15 PM Sep 23 handoff — 1 position (QCOM only). No manual adoptions.
+- QCOM: HELD — −1.18% at 10 AM ($192.315 vs $194.60 entry; −2.50% vs $197.24 close). Stop $179.25 NOT triggered. TP $226.05 NOT triggered. 30-min low $194.26 at open, price gapped to $196.49 at 9:30 AM open. Trail threshold $198.49 NOT triggered. Holding for Snapdragon Summit + Trump-Xi trade thesis.
+- NO SELLS: Stop $179.25 not triggered; −1.18% from entry below 1.5% discretionary threshold; thesis intact.
+- NO NEW BUYS: All candidates disqualified (see notes below).
+- SPY: $765.47 (−0.30%) — NORMAL REGIME. QQQ: $737.06 (−0.56%).
 
-Settled cash: $2.90 (unsettled $454.93 from today's MSTR/INSP/SHOP sales — settles Sep 24)
-Total account value: $847.41
-Portfolio invested: ~46.0% ($389.94 / $847.41)
-Buying power note: Well below 75% cap ($245+ room available) but settled cash nearly zero. Full buying power resumes Sep 24.
-
-SPY at noon: $768.46 (−0.64%) — NORMAL REGIME; QQQ $740.34 (−0.95%)
-
-Sessions completed today (Sep 23):
-- 7 AM: MSTR/INSP critical stop breach flagged. QCOM/OMER/SHOP ON TRACK.
-- 9:30 AM: MSTR STOPPED ($167.60, +9.11%/+$14.22). INSP STOPPED ($71.06, −8.00%/−$17.35). QCOM/OMER/SHOP HELD.
-- 10 AM: (10:06 AM ET, handoff NOT written) SHOP STOPPED ($137.70, −7.92%/−$7.31). IONQ BOUGHT $213.54 @ $43.028 avg.
-- 12 PM: ALL 3 HELD. IONQ stop/TP established. No new buys (buying power $2.90). No trailing.
+Settled cash: $763.52 (fully settled — Sep 23 proceeds settled today as expected)
+Total account value: $845.84
+Portfolio invested: ~9.7% (QCOM $82.32 / $845.84)
 
 ---
-NOTES FOR 3:15 PM AGENT (Tue Sep 23, 2026):
+NOTES FOR 3:15 PM AGENT (Thu Sep 24, 2026):
 
 ⚠️ QCOM — OVERNIGHT HOLD (Electronic Technology/Semiconductor; stop $179.25):
-- +0.79% at noon ($196.14 vs $194.60 entry). TP $226.05 (+15.2% from noon).
-- Day low $193.23 at 10:25 AM — intraday dip below entry, recovered well to $196+ range.
-- Snapdragon Summit Day 2 (Agentic PC keynote in Maui today). U.S.-China tech trade talks positive backdrop.
-- Trail stop if QCOM reaches $198.49 (+2% from entry) → trail to $194.60 (breakeven) or most recent intraday support, whichever higher.
-- Stop $179.25 is wide (8.8% below noon price) — appropriate for multi-day summit catalyst.
-- If at or below $179.25 → SELL immediately. Above and summit thesis intact → HOLD overnight.
+- 10 AM: $192.315 (−1.18% vs $194.60 entry; −2.50% vs $197.24 Sep 23 close).
+- Thesis INTACT: Snapdragon Summit "Agentic PC Has Arrived" keynote (Sep 23) fully confirmed. Trump-Xi trade truce extended 2 months to Jan 10 — direct QCOM China revenue positive. Today's weakness is broad-market pressure (XLK −1.03%, 10-yr yield high), NOT a thesis break.
+- Trail threshold $198.49: NOT triggered. Stop remains $179.25 (intraday low Sep 23 was $193.23; not a new low today).
+- Stop $179.25 (−7.2% from 10 AM price, −8.0% from entry). TP $226.05 (+17.5% from 10 AM price).
+- No earnings until Q2 FY2027 (~November 2026). No binary events.
+- ⚠️ WEEKEND RISK: If held overnight Thu → this position goes to Friday close; any further hold after 3:15 PM Fri would be over the weekend. Assess carefully at 3:15 PM Fri. Today (Thu) hold is fine if thesis intact.
+- Sector: Electronic Technology/Tech. 1 position. Room for 1 more tech.
+- COST reports AH today (awareness only — not related to QCOM thesis). NKE reports AH today (awareness only).
 
-⚠️ OMER — SEP 22 BUY (Health Technology; stop $19.30):
-- Entry $20.20, noon $20.52 (+1.58%). Stop $19.30 (6.4% below noon). TP $22.00.
-- Catalyst: Cantor Fitzgerald Overweight PT $22 (Sep 22); Yartemlea strong launch; NTAP (New Technology Add-on Payment) effective Oct 1 supports hospital adoption.
-- Volume low today (0.31× vs 30-day avg, 501K shares). Stock drifted from $20.97 high to $20.52.
-- Overnight flag: NO. At 3:15 PM: if above $20.60 and analyst upgrade thesis intact → strongly consider overnight hold (analyst_upgrade catalyst = 57.1% WR historically). NTAP effective Oct 1 is 8 days away and is a near-term positive catalyst.
-- Healthcare sector: 1 position (OMER only). Room for 1 more.
-- If at or below $19.30 → SELL immediately.
-
-⚠️ IONQ — 10 AM AGENTIC BUY (Electronic Technology/Quantum Computing; stop $41.80):
-- Entry $43.028 (filled 10:06 AM ET by 10 AM agentic session). Noon $42.75 (−0.65%). Stop $41.80 (2.86% below entry). TP $45.48.
-- Catalyst: Quantum sector momentum — Motley Fool article pre-mkt Sep 23 highlighting IONQ as top quantum pick vs PLTR (287% YoY revenue growth, 70% analyst upside consensus, vertical integration via SkyWater acquisition). IonQ/Synopsys IEEE Best Paper Award at IEEE Quantum Week 2026.
-- Intraday: opened $45.83 (+12.5% gap from $40.74 close), faded to $41.63 low, stabilized $42.35–$43.50 zone for 2.5+ hours. Volume 2.74× (51.6M vs 18.8M avg). Both rel vol ≥1.5× AND price above VWAP ~$42.76 were confirmed at time of 10 AM buy.
-- Price condition for discretionary exit: MET (faded 60.5% of the +$5.09 gap). Thesis NOT broken — no new adverse news since buy.
-- Overnight flag: NO. At 3:15 PM: if closing above $43.00 and above intraday VWAP → evaluate overnight hold. If fades below $42.35 support before 3:15 PM → watch closely (consider discretionary sell if support fails twice). Stop $41.80 provides defense.
-- Sector: Electronic Technology (tech). QCOM + IONQ = 2 tech positions. AT SECTOR CAP — no new tech entries.
-- No earnings through Sep 25 (confirmed).
-- NOTE: Sector_momentum catalyst (30.8% historical WR — weakest repeating catalyst). 10 AM handoff was not written; stop/TP set by 12 PM agent. Apply extra scrutiny at 3:15 PM before holding overnight.
+⚠️ NO NEW BUYS TODAY (10 AM session):
+10 AM session found 0 qualifying candidates. Reasons:
+- P (Everpure +18.1%): BEST CATALYST (Financial Analyst Meeting, FY28 +39-45% guidance, analyst upgrades, S&P 500 addition). Disqualified: 30-min low $113.51 = 12.3% below ~$129.50 entry → exceeds 7% hard cap. Confirmed uptrend through 10 AM, ABOVE VWAP ($130 vs VWAP $126.87). If P shows up in 3:15 PM scanners and its intraday low is manageable → consider as catalyst_watch entry.
+- FRVO (Fervo Energy +7%): Cape Station "first power milestone" catalyst. Disqualified: fading throughout session (18.49 open → 17.50 at 10 AM), below VWAP ($17.50 vs $17.97). Also securities fraud investigation notice filed Sep 23.
+- QMCO (Quantum +10.3%): Strong uptrend but 30-min low $25.10 = 12.4% below entry + no fresh Sep 24 catalyst found.
+- TWST (Twist Bioscience +9.5%): Strong uptrend but 30-min low $156.83 = 9.6% below entry.
+- DNA (Ginkgo Bioworks +9.4%): 30-min low 10% below entry + revenue −48% YoY (declining fundamentals).
+- SNX (TD Synnex): Earnings beat (EPS $5.68 vs $4.65 est) + raised guidance — but stock DOWN −11.5% (sell-the-news). Not eligible.
+- CBRL (Cracker Barrel +3.6%): Earnings beat BMO but FADING — down from +8% open to +3.6% at 10 AM. Not confirmed momentum.
+- GRAL (+5.9%): FDA AdCom 7-2 favorable Sep 23. HARD DISQUALIFIED — formal FDA approval still pending early 2027 (binary event remains active).
+- PRGO (Perrigo +5.6%): No identifiable catalyst found for today's specific move.
+- All others: negative on the day.
 
 SECTOR CAP STATUS (entering 3:15 PM):
-- Electronic Technology/Tech: 2 positions (QCOM + IONQ). AT CAP — no new tech entries.
-- Health Technology/Healthcare: 1 position (OMER). Room for 1 more.
+- Electronic Technology/Tech: 1 position (QCOM). Room for 1 more.
+- Healthcare: 0 positions. Room for 2.
 - All other sectors: 0 positions.
 
-⚠️ BUYING POWER: $2.90 settled cash only. $454.93 unsettled (MSTR/INSP/SHOP proceeds settle Sep 24). No new positions today unless a current position is sold. $245+ room below 75% cap — buying power fully restores Sep 24.
+BUYING POWER (3:15 PM):
+- Settled cash: ~$763.52 (no new trades today — value may shift slightly with QCOM price movement)
+- 75% cap: $845.84 × 0.75 = $634.38; minus QCOM market value ~$82 = ~$552 available to invest
+- Effective buyable: ~$552 (limited by 75% cap, not cash)
+- THURSDAY RULE: Start all new buys at LOW tier; require stronger-than-usual catalysts; no stacking same sector.
 
-SAME-DAY RULE (Sep 23): MSTR banned today (stopped 9:30 AM). INSP banned today (stopped 9:30 AM). SHOP banned today (stopped 10 AM agentic session).
+SAME-DAY RULE (Sep 24): No same-day bans from today's session (no stops triggered). MSTR/INSP/SHOP bans from Sep 23 EXPIRED per handoff.
 
 DO NOT RE-ENTER (standing bans — carry forward):
 ATEC (stopped Sep 16), ORCL (sold Sep 15), BE (sold Sep 15), META, AVAV (stopped Sep 10)
 SNDK (stopped Sep 10 12PM), MU (stopped Sep 10 12PM), GLW (stopped Sep 10 9:30AM), COHR (stopped Sep 10 9:30AM), ALAB (stopped Sep 10 9:30AM), CRM (stopped Sep 1), DG (stopped Aug 28), VEEV/MRK/ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18). WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC, ASTS, HPE, AVGO, MGNI, GTLB.
-MSTR: STOPPED Sep 23 9:30 AM (same-day ban today).
-INSP: STOPPED Sep 23 9:30 AM (same-day ban today).
-SHOP: STOPPED Sep 23 10 AM (same-day ban today; do not re-enter).
 INTC: STOPPED Sep 21 — permanent ban (stopped twice in 2 days Sep 18 & Sep 21).
 NUAI: STOPPED Sep 22 9:30 AM — permanent ban.
 VRNS: M&A binary (Proofpoint/Thoma Bravo) STILL PENDING.
@@ -115,14 +102,23 @@ WBD: Pending M&A binary (Paramount Skydance acquiring WBD) — hard disqualifier
 PSKY: Target in WBD/Paramount Skydance deal — hard disqualifier.
 CIEN: Sold Sep 21 at TP — no re-entry ban (clean exit).
 TTAN: Active securities fraud investigation (BFA Law Sep 21) — skip.
-GRAL: FDA AdCom Sep 23 — banned (binary event today).
-VKTX: Clinical trial readout today (VK2735 maintenance data) + Phase 3 still pending — skip until Phase 3 complete.
+GRAL: FDA formal approval still pending early 2027 — HARD DISQUALIFIER (binary event active). AdCom was 7-2 favorable but FDA decision not expected until early 2027.
+VKTX: Phase 2 data positive (Sep 23) but Phase 3 still pending — skip until Phase 3 complete.
+MSTR: Re-entry allowed Sep 24 (same-day ban from Sep 23 expired).
+INSP: Re-entry allowed Sep 24 (same-day ban from Sep 23 expired).
+SHOP: Re-entry allowed Sep 24 (same-day ban from Sep 23 expired).
+IONQ: Re-entry allowed Sep 24 — no permanent ban (sold Sep 23 discretionary).
+OMER: Re-entry allowed Sep 24 — no permanent ban (sold Sep 23 discretionary).
+FRVO: Securities fraud investigation notice (Sep 23 GlobeNewswire); apply extra scrutiny if considering; faded hard today.
+SNX: Earnings beat but sold off −11.5% (sell-the-news Sep 24); no-entry for today.
+DNA: Declining fundamentals (revenue −48% YoY), no fresh catalyst — skip.
 
 Catalyst watch list carry-forward:
-OMER | analyst_upgrade | Sep 22 | ENTERED at $20.20 — open position, stop $19.30
-SHOP | partnership_catalyst | Sep 22 | STOPPED Sep 23 10 AM at $137.70 (−7.92%) — do not re-enter
-GIS | earnings_beat | BMO Sep 23 | FAILED per 7 AM brief (adj EPS miss vs consensus, op profit −11%) — do not enter
-KBH | earnings_beat | AFH Sep 22 | FAILED — do not enter
+DRI | earnings_beat | BMO Sep 24 | FAILED — EPS beat but revenue missed; open −3.18%; do not enter
+GRAL | FDA AdCom | Sep 23 | CONFIRMED FAVORABLE (7-2 vote) but formal FDA approval pending early 2027 → HARD DISQUALIFIER remains; do not enter
+VKTX | clinical_readout | Sep 23 | Phase 2 positive but Phase 3 pending → SKIP per standing rule
+P | analyst_meeting_guidance | Sep 24 | CONFIRMED — FAM +39-45% FY28 growth guidance; STRONG uptrend; disqualified at 10 AM by 30-min low rule only. Re-evaluate at 3:15 PM if intraday consolidation makes stop-loss viable.
+SNX | earnings_beat | BMO Sep 24 | FAILED PRICE — EPS big beat but stock -11.5% (sell-the-news); do not enter
 
 ---
 PRE-CHECK — Market day verification
