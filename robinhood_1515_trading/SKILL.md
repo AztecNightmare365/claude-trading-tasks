@@ -24,65 +24,69 @@ _No content — see robinhood_1000_trading/SKILL.md for the live 3:15 PM handoff
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-09-24 (~10:10 AM ET — 10 AM session complete)
+Last updated: 2026-09-24 (~12:07 PM ET — 12 PM reassessment complete)
 
-Open positions: **1 (QCOM only)**
+Open positions: **2 (QCOM + P)**
 
 ⚠️ ALL STOPS ARE MENTAL — no standing stop orders in Robinhood (fractional shares).
 
 | Ticker | Shares | Entry Price (actual fill) | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
 |--------|--------|---------------------------|------|----|-----------|-----------------|------------|
-| QCOM | 0.428056 | $194.60 | $179.25 | $226.05 | YES (held from Sep 23 3:15 PM) | Snapdragon Summit "Agentic PC Has Arrived" confirmed; Trump-Xi trade truce extended 2 months to Jan 10 (bullish QCOM China revenue); −1.18% from entry at 10 AM but thesis fully intact, no thesis break | scanner |
+| QCOM | 0.428056 | $194.60 | $179.25 | $226.05 | YES (held from Sep 23 3:15 PM) | Snapdragon Summit "Agentic PC Has Arrived" confirmed; Apple patent license renewed today (effective Apr 1, 2027); Trump-Xi trade truce extended 2 months to Jan 10; thesis strengthened at 12 PM | scanner |
+| P | 0.927350 | $129.40 | $126.25 | $135.70 | YES (Opened by 12 PM reassessment) | S&P 500 index inclusion confirmed + FAM +39-45% FY28 guidance raise; institutional buying catalyst supports overnight; above VWAP; post-10 AM $126.25 support established | scanner |
 
-10 AM session actions:
-- PORTFOLIO SYNC: Exact match to 3:15 PM Sep 23 handoff — 1 position (QCOM only). No manual adoptions.
-- QCOM: HELD — −1.18% at 10 AM ($192.315 vs $194.60 entry; −2.50% vs $197.24 close). Stop $179.25 NOT triggered. TP $226.05 NOT triggered. 30-min low $194.26 at open, price gapped to $196.49 at 9:30 AM open. Trail threshold $198.49 NOT triggered. Holding for Snapdragon Summit + Trump-Xi trade thesis.
-- NO SELLS: Stop $179.25 not triggered; −1.18% from entry below 1.5% discretionary threshold; thesis intact.
-- NO NEW BUYS: All candidates disqualified (see notes below).
-- SPY: $765.47 (−0.30%) — NORMAL REGIME. QQQ: $737.06 (−0.56%).
+12 PM reassessment actions:
+- PORTFOLIO SYNC: Exact match to 10 AM handoff — 1 position (QCOM only). No manual adoptions.
+- QCOM: HELD — $193.03 at noon (−0.81% vs $194.60 entry; −2.13% vs $197.24 Sep 23 close). Stop $179.25 NOT triggered. TP $226.05 NOT triggered. Apple patent license renewal announced 7:50 AM today — thesis STRENGTHENED. No trailing (price −0.81% from entry; +2% threshold not met). Thesis fully intact.
+- P: BOUGHT at 12 PM — $120.00 market order; 0.927350 shares at ~$129.40. Post-10 AM intraday low $126.25 (10:15 AM ET) established viable stop. Price above VWAP ($129.40 vs $127.61). RelVol 1.63x. Catalyst: S&P 500 inclusion + FAM +39-45% FY28 guidance raise. Sized LOW tier × 80% (Thursday + 12PM adjustments). Order ID: 6ab54aa5-ea81-44ee-b7ff-77ae7a9d4f16.
+- NO SELLS: No stops triggered; no take-profits triggered; no discretionary exits.
+- SPY: $764.07 (−0.49%) — NORMAL REGIME. QQQ: $735.87 (−0.72%).
 
-Settled cash: $763.52 (fully settled — Sep 23 proceeds settled today as expected)
-Total account value: $845.84
-Portfolio invested: ~9.7% (QCOM $82.32 / $845.84)
+Settled cash: ~$643.52 (est. after $120 P fill; $763.52 − $120.00)
+Total account value: ~$846.15
+Portfolio invested: ~23.9% (QCOM ~$82.63 + P ~$120.00)
 
 ---
 NOTES FOR 3:15 PM AGENT (Thu Sep 24, 2026):
 
-⚠️ QCOM — OVERNIGHT HOLD (Electronic Technology/Semiconductor; stop $179.25):
-- 10 AM: $192.315 (−1.18% vs $194.60 entry; −2.50% vs $197.24 Sep 23 close).
-- Thesis INTACT: Snapdragon Summit "Agentic PC Has Arrived" keynote (Sep 23) fully confirmed. Trump-Xi trade truce extended 2 months to Jan 10 — direct QCOM China revenue positive. Today's weakness is broad-market pressure (XLK −1.03%, 10-yr yield high), NOT a thesis break.
-- Trail threshold $198.49: NOT triggered. Stop remains $179.25 (intraday low Sep 23 was $193.23; not a new low today).
-- Stop $179.25 (−7.2% from 10 AM price, −8.0% from entry). TP $226.05 (+17.5% from 10 AM price).
-- No earnings until Q2 FY2027 (~November 2026). No binary events.
-- ⚠️ WEEKEND RISK: If held overnight Thu → this position goes to Friday close; any further hold after 3:15 PM Fri would be over the weekend. Assess carefully at 3:15 PM Fri. Today (Thu) hold is fine if thesis intact.
-- Sector: Electronic Technology/Tech. 1 position. Room for 1 more tech.
-- COST reports AH today (awareness only — not related to QCOM thesis). NKE reports AH today (awareness only).
+⚠️ MACRO CONTEXT AT NOON: 10-year Treasury yield at 5.11% (highest since 2007). Oracle force majeure story weighing on tech broadly. SPY −0.49%, QQQ −0.72% at noon. NORMAL REGIME but macro headwinds are real.
 
-⚠️ NO NEW BUYS TODAY (10 AM session):
-10 AM session found 0 qualifying candidates. Reasons:
-- P (Everpure +18.1%): BEST CATALYST (Financial Analyst Meeting, FY28 +39-45% guidance, analyst upgrades, S&P 500 addition). Disqualified: 30-min low $113.51 = 12.3% below ~$129.50 entry → exceeds 7% hard cap. Confirmed uptrend through 10 AM, ABOVE VWAP ($130 vs VWAP $126.87). If P shows up in 3:15 PM scanners and its intraday low is manageable → consider as catalyst_watch entry.
-- FRVO (Fervo Energy +7%): Cape Station "first power milestone" catalyst. Disqualified: fading throughout session (18.49 open → 17.50 at 10 AM), below VWAP ($17.50 vs $17.97). Also securities fraud investigation notice filed Sep 23.
-- QMCO (Quantum +10.3%): Strong uptrend but 30-min low $25.10 = 12.4% below entry + no fresh Sep 24 catalyst found.
-- TWST (Twist Bioscience +9.5%): Strong uptrend but 30-min low $156.83 = 9.6% below entry.
-- DNA (Ginkgo Bioworks +9.4%): 30-min low 10% below entry + revenue −48% YoY (declining fundamentals).
-- SNX (TD Synnex): Earnings beat (EPS $5.68 vs $4.65 est) + raised guidance — but stock DOWN −11.5% (sell-the-news). Not eligible.
-- CBRL (Cracker Barrel +3.6%): Earnings beat BMO but FADING — down from +8% open to +3.6% at 10 AM. Not confirmed momentum.
-- GRAL (+5.9%): FDA AdCom 7-2 favorable Sep 23. HARD DISQUALIFIED — formal FDA approval still pending early 2027 (binary event remains active).
-- PRGO (Perrigo +5.6%): No identifiable catalyst found for today's specific move.
-- All others: negative on the day.
+⚠️ QCOM — OVERNIGHT HOLD (Electronic Technology/Semiconductor; stop $179.25):
+- 12 PM: $193.03 (−0.81% vs $194.60 entry; −2.13% vs $197.24 Sep 23 close).
+- Thesis INTACT and STRENGTHENED: Apple patent license renewed today (7:50 AM ET, effective Apr 1, 2027) — major intellectual-property overhang removed. Snapdragon Summit "Agentic PC Has Arrived" news continues positive. Weakness is macro (10yr yield 5.11%, tech headwind), NOT a thesis break.
+- Trail threshold NOT triggered. Stop remains $179.25. TP $226.05.
+- No earnings until Q2 FY2027 (~November 2026). No binary events.
+- ⚠️ WEEKEND RISK: If held overnight Thu → goes to Friday close. Assess carefully at 3:15 PM Fri; any hold past 3:15 PM Fri is over the weekend.
+- Sector: Electronic Technology/Tech. 1 tech position. Room for 1 more tech.
+- COST reports AH today (awareness only). NKE reports AH today (awareness only).
+
+⚠️ P (Everpure) — OVERNIGHT YES (Industrial/Consumer; Opened by 12 PM reassessment):
+- Entry: $129.40 (0.927350 shares, $120 market order, ~12:07 PM ET)
+- Stop: $126.25 (post-10 AM intraday support, 10:15 AM ET low) — −2.44% from entry
+- TP: $135.70 (+4.87% from entry) — 1:2 R/R ✓
+- Overnight flag: YES — S&P 500 inclusion forces continued institutional/index-fund buying; no earnings AH tonight (last reported Aug 26, 2026 AH)
+- Catalyst: S&P 500 index addition (confirmed) + FAM +39–45% FY28 guidance raise (confirmed Sep 24)
+- Price at noon: ~$129.40; VWAP $127.61 (above ✓); RelVol 1.63x ✓
+- Entry type: scanner
 
 SECTOR CAP STATUS (entering 3:15 PM):
-- Electronic Technology/Tech: 1 position (QCOM). Room for 1 more.
-- Healthcare: 0 positions. Room for 2.
-- All other sectors: 0 positions.
+- Electronic Technology/Semiconductor (QCOM): 1 position. Room for 1 more.
+- Industrial/Consumer (P/Everpure): 1 position. Room for 1 more.
+- Healthcare: 0. All other sectors: 0.
 
 BUYING POWER (3:15 PM):
-- Settled cash: ~$763.52 (no new trades today — value may shift slightly with QCOM price movement)
-- 75% cap: $845.84 × 0.75 = $634.38; minus QCOM market value ~$82 = ~$552 available to invest
-- Effective buyable: ~$552 (limited by 75% cap, not cash)
-- THURSDAY RULE: Start all new buys at LOW tier; require stronger-than-usual catalysts; no stacking same sector.
+- Settled cash: ~$643.52 (est.)
+- 75% cap: $846 × 0.75 = $634.50; minus QCOM ~$82.63 minus P ~$120.00 = ~$432 available to invest
+- Effective buyable: ~$432 (75% cap is the constraint, not cash)
+- ⚠️ THURSDAY RULE: Start all new buys at LOW tier; require stronger-than-usual catalysts; no stacking same sector.
 
-SAME-DAY RULE (Sep 24): No same-day bans from today's session (no stops triggered). MSTR/INSP/SHOP bans from Sep 23 EXPIRED per handoff.
+SAME-DAY RULE (Sep 24): P bought today at 12 PM — same-day ban applies only if it is STOPPED before 3:15 PM (currently an open position, no ban). MSTR/INSP/SHOP bans from Sep 23 EXPIRED.
+
+CANDIDATE NOTES FROM 12 PM SESSION (for 3:15 PM reference):
+- NBIS (Nebius Group +6.75%): BNP Paribus Exane upgrade today (Outperform, target $399 vs prior $260). SKIPPED at 12 PM — Michael Burry actively shorting (doubled down Sep 22, 2026); bearish whale $243.7K put trade today (Oct 16, $220 strike); Oracle force majeure weighing on tech; Thursday + 12PM penalty; relVol 1.21x barely above threshold. Reassess at 3:15 PM if tech recovers. Post-10 AM low ~$236.84.
+- TWST (Twist Bioscience +7%): Clear fade from $179.83 peak (10:30 AM) to ~$170 at noon (−5.3%). Do not enter — momentum not sustained.
+- PRGO (Perrigo +6.6%): Still no identifiable catalyst. Skip.
+- All other scan candidates: Low relVol (<1.2x), no catalyst, or ADR-disqualified.
 
 DO NOT RE-ENTER (standing bans — carry forward):
 ATEC (stopped Sep 16), ORCL (sold Sep 15), BE (sold Sep 15), META, AVAV (stopped Sep 10)
@@ -109,16 +113,17 @@ INSP: Re-entry allowed Sep 24 (same-day ban from Sep 23 expired).
 SHOP: Re-entry allowed Sep 24 (same-day ban from Sep 23 expired).
 IONQ: Re-entry allowed Sep 24 — no permanent ban (sold Sep 23 discretionary).
 OMER: Re-entry allowed Sep 24 — no permanent ban (sold Sep 23 discretionary).
-FRVO: Securities fraud investigation notice (Sep 23 GlobeNewswire); apply extra scrutiny if considering; faded hard today.
+FRVO: Securities fraud investigation notice (Sep 23 GlobeNewswire); faded hard today — skip.
 SNX: Earnings beat but sold off −11.5% (sell-the-news Sep 24); no-entry for today.
 DNA: Declining fundamentals (revenue −48% YoY), no fresh catalyst — skip.
+TWST: Fading hard from 10:30 AM peak — do not chase at 3:15 PM unless fresh catalyst.
 
 Catalyst watch list carry-forward:
 DRI | earnings_beat | BMO Sep 24 | FAILED — EPS beat but revenue missed; open −3.18%; do not enter
 GRAL | FDA AdCom | Sep 23 | CONFIRMED FAVORABLE (7-2 vote) but formal FDA approval pending early 2027 → HARD DISQUALIFIER remains; do not enter
 VKTX | clinical_readout | Sep 23 | Phase 2 positive but Phase 3 pending → SKIP per standing rule
-P | analyst_meeting_guidance | Sep 24 | CONFIRMED — FAM +39-45% FY28 growth guidance; STRONG uptrend; disqualified at 10 AM by 30-min low rule only. Re-evaluate at 3:15 PM if intraday consolidation makes stop-loss viable.
-SNX | earnings_beat | BMO Sep 24 | FAILED PRICE — EPS big beat but stock -11.5% (sell-the-news); do not enter
+P | analyst_meeting_guidance | Sep 24 | ENTERED at 12 PM ($129.40, 0.927350 shares) — now tracked as open position above
+SNX | earnings_beat | BMO Sep 24 | FAILED PRICE — EPS big beat but stock −11.5% (sell-the-news); do not enter
 
 ---
 PRE-CHECK — Market day verification
