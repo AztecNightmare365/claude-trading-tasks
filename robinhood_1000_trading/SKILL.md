@@ -92,92 +92,104 @@ RAW STATS:
 ## HANDOFF FROM LAST 3:15 PM SESSION
 <!-- This block is overwritten at the end of every 3:15 PM session. Read it before Step 1. -->
 
-Last updated: 2026-09-23 (~3:22 PM ET — 3:15 PM session complete)
+Last updated: 2026-09-24 (~3:27 PM ET — 3:15 PM session complete)
 
-Open positions held overnight: **1 (QCOM only)**
+Open positions held overnight: **3 (QCOM + RVMD + ADPT)**
 
 ⚠️ ALL STOPS ARE MENTAL — no standing stop orders in Robinhood (fractional shares).
 
 | Ticker | Shares | Entry Price (actual fill) | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
 |--------|--------|---------------------------|------|----|-----------|-----------------|------------|
-| QCOM | 0.428056 | $194.60 | $179.25 | $226.05 | YES | Snapdragon Summit Day 2 in Maui (Agentic PC keynote Sep 23); Trump-Xi meeting Sep 24 positive US-China trade backdrop; closed strong (+1.54% vs entry, trending up final 30 min) | scanner |
+| QCOM | 0.428056 | $194.60 | $179.25 | $226.05 | YES (held from Sep 23) | Apple patent license renewed Sep 24 (Apr 1, 2027 effective); Snapdragon Summit "Agentic PC Has Arrived" confirmed; Trump-Xi truce extended 2 months; macro headwinds NOT a thesis break | scanner |
+| RVMD | 0.752996 | $199.2042 | $189.84 | $217.93 | YES (opened Sep 24 3:27 PM) | Goldman Sachs Buy reinitiated Sep 24 ($267 target = +34% implied upside); surged $193→$200 in final 70 min on news with massive volume; no binary events until Nov 4 earnings | scanner |
+| ADPT | 4.087207 | $29.3599 | $27.51 | $33.06 | YES (opened Sep 24 3:27 PM) | BTIG raised target $25→$34 (+36%) Sep 24, keeps Buy; closed at new intraday highs with late-day volume surge; no known binary events pending | scanner |
 
 3:15 PM session actions:
-- OMER SOLD (discretionary): 4.571889 sh @ $20.5341 (+1.65% / +$1.53). 12 PM NO overnight flag; below $20.60 threshold; closing weak (bottom quartile of range, ~15% from low); no new overnight catalyst since noon.
-- IONQ SOLD (discretionary): 4.962768 sh @ $42.680 (−0.81% / −$1.73). 12 PM NO overnight flag; extra scrutiny (sector_momentum 30.8% WR); below $43.00 threshold AND below VWAP ($42.78 vs VWAP $42.86) at close; pre-market catalysts fully priced in.
-- QCOM HELD: $197.60 (+1.54% vs $194.60 entry). Closing strong — trending up $0.57 final 30 min. No trailing yet ($197.60 < $198.49 trail threshold). Summit thesis intact.
-- NO NEW BUYS: Settled cash $2.90 (< $10 minimum). All today's proceeds unsettled, settle Sep 24.
+- P SOLD (stop_loss): 0.926814 sh @ $123.6501 (−4.50% / −$5.40). Stop $126.25 triggered; intraday price $124.23 at 3:15 PM scan → filled $123.65. Entry was 12PM scanner (S&P 500 inclusion + FAM guidance raise).
+- QCOM HELD: ~$194.12 (−0.25% vs $194.60 entry). Late-day bars trending up ($193.99→$194.62 in final 15 min). Apple patent license strengthens thesis. Trail threshold $198.49 NOT triggered — stop unchanged at $179.25.
+- RVMD BOUGHT: $150 market order @ $199.2042 avg (0.752996 shares). Goldman Sachs Buy reinitiation ($267 PT) drove massive late-day surge; analyst_upgrade catalyst (57.1% WR best in system).
+- ADPT BOUGHT: $120 market order @ $29.3599 avg (4.087207 shares). BTIG target hike ($25→$34) Sep 24. Closing at new day highs with volume.
+- SPY: $767.44 (−0.05% vs prior close) — NORMAL REGIME. QQQ: $740.43 (−0.10%).
+- NBIS: SKIPPED — Michael Burry active short (doubled down Sep 22) + whale puts + tech not recovered; handoff condition "if tech recovers" not met.
+- GDDY: SKIPPED — M&A binary (Gen Digital early-stage takeover approach unconfirmed; hard disqualifier).
+- BLLN/WRBY/TWST: SKIPPED — intraday low >8% below entry (11.6%, 14.2%, 13.1% respectively); too volatile per hard rule.
 
-Settled cash: $2.90
-Unsettled (settles Sep 24): ~$760.60 (MSTR/INSP/SHOP $454.93 + OMER $93.87 + IONQ $211.80)
-Total account value: ~$848.09
-Portfolio invested: ~10.0% (QCOM only, $84.58 / $848.09)
-
-SPY at 3:15 PM: $767.87 (−0.71%) — NORMAL REGIME; QQQ $740.96 (−0.87%)
-
-Sessions completed today (Sep 23):
-- 7 AM: MSTR/INSP critical stop breach flagged. QCOM/OMER/SHOP ON TRACK.
-- 9:30 AM: MSTR STOPPED ($167.60, +9.11%/+$14.22). INSP STOPPED ($71.06, −8.00%/−$17.35). QCOM/OMER/SHOP HELD.
-- 10 AM (10:06 AM): SHOP STOPPED ($137.70, −7.92%/−$7.31). IONQ BOUGHT $213.54 @ $43.028 avg.
-- 12 PM: ALL 3 HELD (QCOM/OMER/IONQ). IONQ stop $41.80/TP $45.48 set. No new buys ($2.90 settled).
-- 3:15 PM: OMER SOLD (disc. +1.65%/+$1.53). IONQ SOLD (disc. −0.81%/−$1.73). QCOM HELD overnight.
+Settled cash: $373.52
+Unsettled (P proceeds, settle Sep 25): $114.57
+Settled tomorrow AM (Sep 25): ~$488.09
+Total account value: ~$841.18
+Portfolio invested: ~42.0% (QCOM ~$83 + RVMD ~$150 + ADPT ~$120 ≈ $353 / $841)
 
 ---
 
-NOTES FOR 7 AM / 10 AM AGENT (Thu Sep 24, 2026):
+NOTES FOR 7 AM / 10 AM AGENT (Fri Sep 25, 2026):
 
-⚠️ QCOM — SOLE OVERNIGHT HOLD (Electronic Technology/Semiconductor; stop $179.25):
-- 3:15 PM close: ~$197.60 (+1.54% vs $194.60 entry). Day range: $193.23 low to $199.61 high.
-- Thesis: Snapdragon Summit Day 2 (Agentic PC keynote in Maui, Sep 23 — keynote happens after market close). Trump-Xi bilateral meeting Sep 24 (U.S.-China trade talks → QCOM China revenue positive). U.S.-China tech backdrop broadly supportive.
-- Trail stop: if QCOM opens at or above $198.49 (+2% from entry) → trail stop to $194.60 (breakeven) or most recent intraday support (whichever higher). Did NOT trigger Sep 23 (close $197.60 < $198.49).
-- TP $226.05 (+14.4% from 3:15 PM close). Stop $179.25 (−9.3% from close).
-- No earnings until Q2 FY2027 (~November 2026). Snapdragon Summit is product launch event, NOT an earnings binary.
-- If at or below $179.25 at open → SELL immediately. If above and Summit thesis intact → HOLD.
-- Sector: Electronic Technology (tech). 1 tech position held overnight. Room for 1 more tech.
+⚠️ QCOM — OVERNIGHT HOLD (Electronic Technology/Semiconductor; stop $179.25):
+- 3:15 PM close: ~$194.12 (−0.25% vs $194.60 entry; −1.58% vs $197.24 Sep 23 close).
+- Stop $179.25 NOT triggered. TP $226.05 NOT triggered. Trail threshold $198.49 NOT triggered.
+- Thesis INTACT + STRENGTHENED: Apple patent license renewed (7:50 AM Sep 24, effective Apr 1, 2027). Snapdragon Summit "Agentic PC Has Arrived" confirmed. Trump-Xi truce extended 2 months to Jan 10.
+- No earnings until Q2 FY2027 (~November 2026). No binary events.
+- ⚠️ FRIDAY: Position going into Friday. Assess at 10 AM carefully — any hold past 3:15 PM Fri is over the weekend.
 
-⚠️ BUYING POWER SEP 24 (SIGNIFICANT — ACTIVE BUYING DAY):
-- Settles Sep 24: ~$760.60 in cash + $2.90 settled = ~$763.50 total.
-- 75% cap: ~$848 × 0.75 = $636. With QCOM ~$84.58, available to invest: ~$551.
-- ⚠️ Thursday is LOW-WR day (4/22 = 18.2%, net −$52.52). Start all new buys at LOW tier; require stronger-than-usual catalysts; NEVER stack multiple new Thursday entries in same sector.
+⚠️ RVMD — NEW OVERNIGHT (Healthcare/Biotech; stop $189.84):
+- Entry: $199.2042, 0.752996 shares (order ID: 6ab57998-b603-419c-8ca0-5f044855aa1b)
+- Stop: $189.84 (Sep 24 intraday low; −4.69% from entry)
+- TP: $217.93 (+9.38%; 2:1 R/R ✓)
+- Catalyst: Goldman Sachs reinitiated Buy on Sep 24 with $267 price target (vs $199 = +34% upside). Stock ran $193→$200 in final 70 min on volume spike (127K+ shares/bar at 18:45 UTC).
+- No earnings until Nov 4, 2026. Pipeline: RAS(ON) inhibitors daraxonrasib + zoldonrasib; no imminent Phase 3 readout before earnings.
+- 10 AM: check for gap continuation; any pre-market follow-on analyst coverage.
 
-SECTOR CAP STATUS (entering Thu Sep 24):
-- Electronic Technology/Tech: 1 position (QCOM). Room for 1 more.
-- Healthcare: 0 positions. Room for 2.
-- All other sectors: 0 positions.
+⚠️ ADPT — NEW OVERNIGHT (Healthcare/Biotech; stop $27.51):
+- Entry: $29.3599, 4.087207 shares (order ID: 6ab5799a-5a3e-4992-8a21-2d5b41417b84)
+- Stop: $27.51 (Sep 24 intraday low; −6.30% from entry)
+- TP: $33.06 (+12.60%; 2:1 R/R ✓)
+- Catalyst: BTIG raised price target to $34 from $25 (+36% increase), maintains Buy. Closed at new intraday highs ($29.37) with significant late-day volume (59K at 18:45 UTC, 55K at 19:05 UTC).
+- No known binary events. Q3 2026 earnings expected late October/early November.
+- 10 AM: check pre-market; any follow-on coverage or healthcare sector momentum.
 
-SAME-DAY RULE (Sep 24): No same-day bans from Sep 24 opens. MSTR/INSP/SHOP bans from Sep 23 EXPIRED.
+SECTOR CAP STATUS (entering Fri Sep 25):
+- Electronic Technology/Tech (QCOM): 1 position. Room for 1 more.
+- Healthcare (RVMD + ADPT): 2 positions. AT CAP — no more healthcare buys until one exits.
+- All other sectors: 0 positions. Room for 2 each.
 
-DO NOT RE-ENTER (standing bans — carry forward):
-ATEC (stopped Sep 16), ORCL (sold Sep 15), BE (sold Sep 15), META, AVAV (stopped Sep 10)
-SNDK (stopped Sep 10 12PM), MU (stopped Sep 10 12PM), GLW (stopped Sep 10 9:30AM), COHR (stopped Sep 10 9:30AM), ALAB (stopped Sep 10 9:30AM), CRM (stopped Sep 1), DG (stopped Aug 28), VEEV/MRK/ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18). WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC, ASTS, HPE, AVGO, MGNI, GTLB.
-INTC: STOPPED Sep 21 — permanent ban (stopped twice in 2 days Sep 18 & Sep 21).
-NUAI: STOPPED Sep 22 9:30 AM — permanent ban.
+BUYING POWER (Sep 25, 10 AM):
+- Settled cash tomorrow: ~$488.09 ($373.52 today's settled + $114.57 P proceeds settling Sep 25)
+- 75% cap: $841 × 0.75 = $630.75; minus QCOM ~$83 minus RVMD ~$150 minus ADPT ~$120 = ~$278 available to invest
+- Effective buyable: ~$278 (75% cap is the constraint)
+- ⚠️ FRIDAY: New overnight positions added Fri go over the weekend. Apply extra caution and require very strong catalysts for any new Friday buys.
+
+SAME-DAY RULE (Sep 25): No same-day bans. P stopped today at 3:15 PM — not banned tomorrow (stop_loss doesn't impose next-day re-entry ban per SKILL.md logic; the same-day ban only applies when a position is stopped intraday, not by the 3:15 PM agent itself).
+
+DO NOT RE-ENTER (standing bans — carry forward + new Sep 24 additions):
+ATEC (Sep 16), ORCL (Sep 15), BE (Sep 15), META, AVAV (Sep 10), SNDK (Sep 10 12PM), MU (Sep 10 12PM), GLW (Sep 10 9:30AM), COHR (Sep 10 9:30AM), ALAB (Sep 10 9:30AM), CRM (Sep 1), DG (Aug 28), VEEV/MRK/ANF (Aug 27), TGT (Aug 26), FOXA (Aug 18). WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC, ASTS, HPE, AVGO, MGNI, GTLB.
+INTC: permanent ban (stopped twice Sep 18 & Sep 21).
+NUAI: permanent ban (stopped Sep 22 9:30 AM).
 VRNS: M&A binary (Proofpoint/Thoma Bravo) STILL PENDING.
 SWKS: Pending acquisition of QRVO — M&A binary, hard disqualifier.
 QRVO: Target of SWKS acquisition — hard disqualifier.
 VAL: Pending merger with RIG (Transocean) — M&A binary, hard disqualifier.
-ODD, CSR, ADBE, ACVA, RH, RDDT: Standing bans (see prior sessions).
+ODD, CSR, ADBE, ACVA, RH, RDDT: Standing bans.
 LUXE: Earnings miss BMO Sep 16 — banned.
-AMRX: Pending acquisition of Kashiv BioSciences ($750M) — M&A binary, hard disqualifier.
+AMRX: Pending acquisition of Kashiv BioSciences — M&A binary, hard disqualifier.
 BBNX: Dilutive $150M secondary offering — skip.
 GNRC: Hard-fading sell-the-news — do not chase.
 WBD: Pending M&A binary (Paramount Skydance acquiring WBD) — hard disqualifier.
 PSKY: Target in WBD/Paramount Skydance deal — hard disqualifier.
-CIEN: Sold Sep 21 at TP — no re-entry ban (clean exit).
+CIEN: Sold Sep 21 at TP — no re-entry ban.
 TTAN: Active securities fraud investigation (BFA Law Sep 21) — skip.
-GRAL: FDA AdCom Sep 23 — check for AdCom result BMO Sep 24 (approval vote may clear the binary).
-VKTX: Clinical trial readout Sep 23 (VK2735 maintenance data) — check outcome BMO Sep 24; Phase 3 still pending; skip until Phase 3 complete.
-IONQ: Sold Sep 23 (discretionary, −0.81%) — no permanent ban; re-entry allowed Sep 24 if new thesis develops.
-OMER: Sold Sep 23 (discretionary, +1.65%) — no permanent ban; re-entry allowed Sep 24 if analyst thesis strengthens.
-MSTR: STOPPED Sep 23 9:30 AM — same-day ban expired; re-entry allowed Sep 24 if Bitcoin thesis intact.
-INSP: STOPPED Sep 23 9:30 AM — same-day ban expired; re-entry allowed Sep 24 if analyst thesis intact.
-SHOP: STOPPED Sep 23 10 AM — same-day ban expired; re-entry allowed Sep 24 if Meta Connect tailwind persists.
+GRAL: FDA formal approval pending early 2027 — HARD DISQUALIFIER (AdCom 7-2 favorable but FDA decision not until early 2027).
+VKTX: Phase 2 positive (Sep 23); Phase 3 still pending → skip until Phase 3 complete.
+MSTR/INSP/SHOP: Bans from Sep 23 expired. Re-entry allowed.
+IONQ/OMER: Sold Sep 23 (discretionary). No permanent ban; re-entry allowed.
+FRVO: Securities fraud investigation notice (Sep 23 GlobeNewswire) — skip.
+SNX: Sell-the-news Sep 24 (−11.5%) — no entry today; ban expires Sep 25.
+DNA: Declining fundamentals (revenue −48% YoY), no fresh catalyst — skip.
+GDDY: ⚠️ NEW Sep 24 — M&A binary (Gen Digital early-stage takeover approach; unconfirmed; could resolve overnight) — hard disqualifier until deal confirmed or denied.
 
-Catalyst watch list for Sep 24 2026:
-DRI | earnings_beat | BMO Sep 24 | positive bias (EPS est $2.05-2.06, rev ~$3.21B +10.2% Y/Y; beat in 5 consecutive quarters) | MEDIUM (consumer sector; binary event; no pre-announced guidance raise; apply LOW tier per consumer overnight insights if entering)
+Catalyst watch list for Sep 25, 2026:
+COST | Q4 FY2026 AH earnings | AH Sep 24 (results now available) | Pre-announced strong sales (+11.3% YoY, $93.9B net) but stock reportedly slipped post-release | MEDIUM (awareness only — consumer macro signal; NOT an actionable 10 AM entry)
 
-Macro note: Trump-Xi bilateral meeting Sep 24 — U.S.-China trade talks potentially bullish for tech/semis (direct QCOM catalyst); watch for tariff/trade headlines before open.
-AH awareness only (not actionable at 10 AM): COST earnings AH Sep 24 (EPS ~$6.55, consistent beater); NKE earnings AH Sep 24.
+No additional BMO Sep 25 catalyst entries identified (light earnings day). No FDA PDUFA dates for Sep 25 identified.
 
 ---
 

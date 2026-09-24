@@ -1,14 +1,21 @@
 {
-  "ts": "2026-09-24T13:30:18Z",
-  "source": "robinhood_0930_open",
+  "ts": "2026-09-24T19:28:00Z",
+  "source": "robinhood_1515_trading",
   "portfolio": {
-    "totalValue": 847.22,
-    "cash": 763.52,
-    "equityValue": 83.70,
-    "buyingPower": 763.52,
+    "totalValue": 841.18,
+    "cash": 373.52,
+    "equityValue": 353.09,
+    "buyingPower": 373.52,
     "positions": [
-      { "ticker": "QCOM", "shares": 0.428056, "entry": 194.60, "current": 195.58, "plPct": 0.50, "managed": true }
+      { "ticker": "QCOM", "shares": 0.428056, "entry": 194.60, "current": 194.12, "plPct": -0.25, "managed": true },
+      { "ticker": "RVMD", "shares": 0.752996, "entry": 199.2042, "current": 199.2042, "plPct": 0.00, "managed": true },
+      { "ticker": "ADPT", "shares": 4.087207, "entry": 29.3599, "current": 29.3599, "plPct": 0.00, "managed": true }
     ]
   },
-  "fills": []
+  "fills": [
+    { "id": "6ab54aa5-ea81-44ee-b7ff-77ae7a9d4f16", "side": "buy",  "ticker": "P",    "qty": 0.926814, "price": 129.4758, "at": "2026-09-24T16:07:01.591Z" },
+    { "id": "6ab57997-2943-4ef1-810b-bc4e617bfd17", "side": "sell", "ticker": "P",    "qty": 0.926814, "price": 123.6501, "at": "2026-09-24T19:27:19.822Z" },
+    { "id": "6ab57998-b603-419c-8ca0-5f044855aa1b", "side": "buy",  "ticker": "RVMD", "qty": 0.752996, "price": 199.2042, "at": "2026-09-24T19:27:21.032Z" },
+    { "id": "6ab5799a-5a3e-4992-8a21-2d5b41417b84", "side": "buy",  "ticker": "ADPT", "qty": 4.087207, "price": 29.3599,  "at": "2026-09-24T19:27:22.355Z" }
+  ]
 }
