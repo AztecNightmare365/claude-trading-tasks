@@ -37,27 +37,19 @@ Execute all steps in order, then place all orders simultaneously.
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET 2026-09-23.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
+**9:30 AM ET 2026-09-24.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
 
-**Sells executed: 2 — MSTR stop_loss, INSP stop_loss.**
+**Sells executed: NONE.**
 
-MSTR: stop $167.00 (trailed by 12 PM Sep 22); open print $166.915 (−0.25% vs $167.33 close) — breach confirmed. Filled $167.6001 (positive slippage vs open). Entry $153.5999 → **+9.11% / +$14.22** ✓
+**Catalyst entries: NONE.** DRI FAILED — Q1 FY2027 revenue missed analyst expectations (EPS beat, rev miss); open −3.18% ($213.69 → $206.89). Do not enter. Pass to 10 AM agent.
 
-INSP: stop $71.43; last trade = prior close $71.30 (spread $71.06/$71.80 at open) — breach confirmed (close $71.30 < stop $71.43; 3:15 PM Sep 22 missed). Filled $71.0601. Entry $77.2366 → **−8.00% / −$17.35** ✓
+**Portfolio sync:** 1 position live — QCOM 0.428056 sh @ $194.60 avg — exact match to overnight brief. 0 manual adoptions.
 
-**Catalyst entries: NONE.** KBH FAILED, GIS FAILED (per 7 AM brief). No CATALYST CONFIRMED — GAP UP.
+**SPY** $764.03 (−0.49%), **QQQ** $734.98 (−0.84%) — NORMAL REGIME.
 
-**Portfolio sync:** 5 positions live — exact match to overnight brief. 0 manual adoptions. MSTR/INSP now closed.
+**QCOM open:** first-bar open $196.49 / low $194.26 / close $194.53; current $195.58 (+0.50% vs $194.60 entry) | stop $179.25 (+9.2% cushion) | TP $226.05 | trail threshold $198.49 NOT triggered | Snapdragon Summit + Trump-Xi truce thesis intact | HELD ✓
 
-**SPY** $772.61 (−0.10%), **QQQ** $746.13 (−0.18%) — NORMAL REGIME.
-
-**QCOM open:** $198.44 (+0.09% vs $198.27) | stop $179.25 (+10.6%) | TP $226.05 | Snapdragon Summit Day 2 | HELD ✓
-
-**OMER open:** $20.735 (−1.50% vs $21.05) | stop $19.30 (+7.0%) | TP $22.00 | entry $20.20 | 4.571889 sh | NTAP acq Oct 1 | HELD ✓ ⚠️ Opened Sep 22; 3:15 PM did not run — carry stop/TP.
-
-**SHOP open:** $145.49 (−1.52% vs $147.74) | stop $144.25 (+0.85%) | TP $160.12 | entry $149.54 | 0.617694 sh | Meta Connect Sep 23-24 | HELD ✓ ⚠️ Opened Sep 22; THIN cushion ($145.49 vs $144.25 stop) — monitor closely.
-
-**Status:** 2 stop sells (MSTR/INSP), 0 catalyst entries, 3 positions open for 10 AM (QCOM + OMER + SHOP).
+**Status:** 0 stop/TP sells, 0 catalyst entries, 1 position open for 10 AM (QCOM only).
 
 ---
 
