@@ -14,25 +14,23 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET 2026-09-23.** Live sync ••••6616: 5 positions — exact match 12 PM Sep 22. ⚠️ 3:15 PM Sep 22 DID NOT RUN; 12 PM state carries. OMER/SHOP were intraday-only; 9:30 AM must evaluate hold legitimacy.
+**7:00 AM ET 2026-09-24.** Live sync ••••6616: 1 position — QCOM only, exact match to 3:15 PM Sep 23 handoff.
 
-**MSTR ⚠️ CRITICAL STOP BREACH** | PM $166.13 (−0.72% vs $167.33) | stop $167.00 | −0.52% BELOW stop | BTC $86,589 (+0.78% overnight, thesis intact). Breach marginal, BTC up. NO pre-market sell (noise, not thesis failure). 9:30 AM: sell if open < $167.00.
-
-**INSP ⚠️ CRITICAL STOP BREACH** | Close $71.30 < stop $71.43 (Sep 22 close; 3:15 PM missed) | PM bid $64.48/ask $78.15 (21% spread, illiquid) | No adverse news; FC $97 + Stifel $80 intact. NO pre-market sell (21% spread). 9:30 AM: SELL AT OPEN.
-
-**QCOM ON TRACK** | PM $196.51 (−0.89% vs $198.27) | stop $179.25 (+8.8%) | TP $226.05 | Snapdragon Summit Day 2 today (Agentic PC keynote); thesis intact.
-
-**OMER ON TRACK** | PM $20.91 (−0.67% vs $21.05) | stop $19.30 (+8.3%) | TP $22.00 | NTAP effective Oct 1; no adverse news.
-
-**SHOP ON TRACK** | PM $147.00 (−0.50% vs $147.74) | stop $144.25 (+1.9%) | TP $160.12 | Meta Connect 2026 starts today — thesis strengthening.
+**QCOM ON TRACK** | PM $194.44 (−1.42% vs $197.24 close; ~flat vs $194.60 entry) | stop $179.25 (+7.8%) | TP $226.05 | Thesis STRENGTHENED: Snapdragon Summit Day 2 "Agentic PC Has Arrived" keynote confirmed; Google "Googlebook" laptops (Snapdragon X Elite + Gemini AI) announced overnight. Trump-Xi trade truce extended 2 months → bullish QCOM China revenue. PM decline = broad tech/rate pressure, NOT thesis break. Trail threshold $198.49 not triggered.
 
 **Pre-market sells placed:** NONE.
 
-**Catalyst watch:** KBH — EPS $1.05 beat, margin guidance cut, AH −2.23% → FAILED, skip. GIS — adj EPS $0.75 miss, op profit −11% → FAILED, skip.
+**Catalyst watch:**
+- DRI: Q1 FY2027 BMO Sep 24; conf call 8:30 AM ET. Est EPS $2.06 / rev $3.21B. Actual results unconfirmed → **CATALYST PENDING**. 10 AM agent: verify beat/miss at open. Consumer sector → LOW tier sizing if entering.
+- GRAL (awareness): FDA AdCom voted 7-2 favorable (Sep 23); binary potentially clearing. Not on formal watch list; 10 AM may evaluate if momentum confirmed.
+- VKTX (awareness): Phase 2 VK2735 maintenance data positive (Sep 23); Phase 3 still pending → SKIP per standing rule.
 
-**Macro:** BTC $86,589 (+0.78%). SPY PM −0.06%, QQQ PM −0.27% (flat). Nasdaq futures +0.76%. Fed speeches 10:05/10:20 AM ET (key direction catalyst). Meta Connect Sep 23-24 (SHOP tailwind).
+**Macro:**
+- Trump-Xi summit: U.S.-China trade truce extended 2 months to Jan 10 (direct QCOM catalyst; bullish tech/semis).
+- Fed raised 25bps → 3.75–4.00%; 10-yr yield ~5.11% (multi-decade high); energy-driven inflation pressure.
+- SPY PM −0.47%, QQQ PM −0.86% — modest weakness, no risk-off signal.
 
-**SUMMARY:** 3 ON TRACK (QCOM/OMER/SHOP), 2 CRITICAL BREACH deferred (MSTR −0.52%/BTC up/marginal; INSP 21% spread), 0 pre-market sells; 2 catalysts FAILED (KBH/GIS). Email sent.
+**SUMMARY:** 1 ON TRACK (QCOM), 0 flagged, 0 pre-market sells; DRI PENDING (verify at open). Email: NOT SENT.
 
 ---
 
