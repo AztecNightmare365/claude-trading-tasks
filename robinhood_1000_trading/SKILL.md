@@ -14,23 +14,26 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET 2026-09-24.** Live sync ••••6616: 1 position — QCOM only, exact match to 3:15 PM Sep 23 handoff.
+**7:00 AM ET 2026-09-25.** Live sync ••••6616: 3 positions — QCOM, RVMD, ADPT — exact match to 3:15 PM Sep 24 handoff.
 
-**QCOM ON TRACK** | PM $194.44 (−1.42% vs $197.24 close; ~flat vs $194.60 entry) | stop $179.25 (+7.8%) | TP $226.05 | Thesis STRENGTHENED: Snapdragon Summit Day 2 "Agentic PC Has Arrived" keynote confirmed; Google "Googlebook" laptops (Snapdragon X Elite + Gemini AI) announced overnight. Trump-Xi trade truce extended 2 months → bullish QCOM China revenue. PM decline = broad tech/rate pressure, NOT thesis break. Trail threshold $198.49 not triggered.
+**QCOM ON TRACK** | PM $195.64 (+0.71% vs $194.26 close; +0.53% vs $194.60 entry) | stop $179.25 (−8.4%) | TP $226.05 | PickNik Robotics acquisition announced overnight (robotics AI software; additive to agentic thesis, not a thesis break); CFO: shares "well-priced" after Amazon deal.
+
+**RVMD ON TRACK** | PM $201.00 (+0.57% vs $199.86 close; +0.90% vs $199.20 entry) | stop $189.84 (−5.5%) | TP $217.93 | Goldman Sachs reiterated Buy 4:50 AM ET Sep 25 — overnight reinforcement of analyst_upgrade catalyst.
+
+**ADPT ON TRACK** | PM $29.57 (flat vs $29.57 close; +0.72% vs $29.36 entry) | stop $27.51 (−6.9%) | TP $33.06 | No overnight news; BTIG thesis intact. PM bid/ask $29.26/$30.00 (2.5% spread) — thin but normal for small-cap biotech.
 
 **Pre-market sells placed:** NONE.
 
 **Catalyst watch:**
-- DRI: Q1 FY2027 BMO Sep 24; conf call 8:30 AM ET. Est EPS $2.06 / rev $3.21B. Actual results unconfirmed → **CATALYST PENDING**. 10 AM agent: verify beat/miss at open. Consumer sector → LOW tier sizing if entering.
-- GRAL (awareness): FDA AdCom voted 7-2 favorable (Sep 23); binary potentially clearing. Not on formal watch list; 10 AM may evaluate if momentum confirmed.
-- VKTX (awareness): Phase 2 VK2735 maintenance data positive (Sep 23); Phase 3 still pending → SKIP per standing rule.
+- COST: Q4 FY2026 AH Sep 24 → CONFIRMED — FLAT/DOWN | Sales +11.3% YoY ($93.9B net) beat; stock slipped post-release. Awareness only — NOT an actionable entry.
 
 **Macro:**
-- Trump-Xi summit: U.S.-China trade truce extended 2 months to Jan 10 (direct QCOM catalyst; bullish tech/semis).
-- Fed raised 25bps → 3.75–4.00%; 10-yr yield ~5.11% (multi-decade high); energy-driven inflation pressure.
-- SPY PM −0.47%, QQQ PM −0.86% — modest weakness, no risk-off signal.
+- Futures mildly positive: S&P 500 +0.3%, Nasdaq-100 +0.5%, DJIA +0.2%.
+- Econ data today: Durable Goods 8:30 AM ET; Michigan Consumer Sentiment (final) 10:00 AM ET.
+- 10-yr yield ~5.11% headwind persists; no new Fed commentary overnight.
+- SPY PM +0.33%, QQQ PM +0.60% — slight positive tone.
 
-**SUMMARY:** 1 ON TRACK (QCOM), 0 flagged, 0 pre-market sells; DRI PENDING (verify at open). Email: NOT SENT.
+**SUMMARY:** 3 ON TRACK (QCOM/RVMD/ADPT), 0 flagged, 0 pre-market sells; COST CONFIRMED-FLAT/DOWN. Email: NOT SENT.
 
 ---
 
