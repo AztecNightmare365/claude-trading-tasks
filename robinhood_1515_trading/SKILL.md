@@ -24,106 +24,104 @@ _No content — see robinhood_1000_trading/SKILL.md for the live 3:15 PM handoff
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-09-24 (~12:07 PM ET — 12 PM reassessment complete)
+Last updated: 2026-09-25 (~10:02 AM ET — 10 AM session complete)
 
-Open positions: **2 (QCOM + P)**
+Open positions: **3 (QCOM + RVMD + ADPT)**
 
 ⚠️ ALL STOPS ARE MENTAL — no standing stop orders in Robinhood (fractional shares).
 
 | Ticker | Shares | Entry Price (actual fill) | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
 |--------|--------|---------------------------|------|----|-----------|-----------------|------------|
-| QCOM | 0.428056 | $194.60 | $179.25 | $226.05 | YES (held from Sep 23 3:15 PM) | Snapdragon Summit "Agentic PC Has Arrived" confirmed; Apple patent license renewed today (effective Apr 1, 2027); Trump-Xi trade truce extended 2 months to Jan 10; thesis strengthened at 12 PM | scanner |
-| P | 0.927350 | $129.40 | $126.25 | $135.70 | YES (Opened by 12 PM reassessment) | S&P 500 index inclusion confirmed + FAM +39-45% FY28 guidance raise; institutional buying catalyst supports overnight; above VWAP; post-10 AM $126.25 support established | scanner |
+| QCOM | 0.428056 | $194.60 | $179.25 | $226.05 | YES (held from Sep 23) | Apple patent license renewed; Snapdragon Summit “Agentic PC Has Arrived” confirmed; PickNik Robotics acquisition announced overnight (agentic AI additive); Trump-Xi truce extended | scanner |
+| RVMD | 0.752996 | $199.2042 | $189.84 | $217.93 | YES (opened Sep 24 3:27 PM) | Goldman Sachs Buy reinitiated Sep 24 ($267 target = +34% upside); no binary events until Nov 4 earnings | scanner |
+| ADPT | 4.087207 | $29.3599 | $27.51 | $33.06 | YES (opened Sep 24 3:27 PM) | BTIG raised target $25→$34 (+36%) Sep 24; closed at new intraday highs with volume; no known binary events | scanner |
 
-12 PM reassessment actions:
-- PORTFOLIO SYNC: Exact match to 10 AM handoff — 1 position (QCOM only). No manual adoptions.
-- QCOM: HELD — $193.03 at noon (−0.81% vs $194.60 entry; −2.13% vs $197.24 Sep 23 close). Stop $179.25 NOT triggered. TP $226.05 NOT triggered. Apple patent license renewal announced 7:50 AM today — thesis STRENGTHENED. No trailing (price −0.81% from entry; +2% threshold not met). Thesis fully intact.
-- P: BOUGHT at 12 PM — $120.00 market order; 0.927350 shares at ~$129.40. Post-10 AM intraday low $126.25 (10:15 AM ET) established viable stop. Price above VWAP ($129.40 vs $127.61). RelVol 1.63x. Catalyst: S&P 500 inclusion + FAM +39-45% FY28 guidance raise. Sized LOW tier × 80% (Thursday + 12PM adjustments). Order ID: 6ab54aa5-ea81-44ee-b7ff-77ae7a9d4f16.
+10 AM session actions:
+- PORTFOLIO SYNC: Exact match to 3:15 PM Sep 24 handoff — 3 positions (QCOM + RVMD + ADPT). No manual adoptions.
+- QCOM: HELD — $201.61 (+3.60% vs $194.60 entry; +3.78% vs $194.26 close). Stop $179.25 NOT triggered. TP $226.05 NOT triggered. ⚠️ TRAIL THRESHOLD $198.49 EXCEEDED — price at 10 AM is $201.61. Stop not adjusted in 10 AM session (no trailing formula defined here); 3:15 PM agent should evaluate trailing stop. PickNik Robotics acquisition overnight (agentic thesis additive). Thesis INTACT + STRENGTHENED.
+- RVMD: HELD — $203.02 (+1.92% vs $199.20 entry). Stop $189.84 NOT triggered. TP $217.93 NOT triggered. Goldman Buy thesis intact.
+- ADPT: HELD — $29.31 (−0.17% vs $29.36 entry — noise). Stop $27.51 NOT triggered. TP $33.06 NOT triggered. BTIG thesis intact.
+- NO BUYS: 0 candidates met Step 4 criteria (see Candidate Notes below).
 - NO SELLS: No stops triggered; no take-profits triggered; no discretionary exits.
-- SPY: $764.07 (−0.49%) — NORMAL REGIME. QQQ: $735.87 (−0.72%).
+- SPY: $769.44 (+0.29%) — NORMAL REGIME. QQQ: $744.44 (+0.45%). XLK tech +0.90% (leading sector).
 
-Settled cash: ~$643.52 (est. after $120 P fill; $763.52 − $120.00)
-Total account value: ~$846.15
-Portfolio invested: ~23.9% (QCOM ~$82.63 + P ~$120.00)
+Settled cash: $488.12 (unchanged — no trades)
+Total account value: $847.09
+Portfolio invested: ~42.4% (QCOM ~$86.31 + RVMD ~$152.87 + ADPT ~$119.80 = $358.98)
 
 ---
-NOTES FOR 3:15 PM AGENT (Thu Sep 24, 2026):
+NOTES FOR 3:15 PM AGENT (Fri Sep 25, 2026):
 
-⚠️ MACRO CONTEXT AT NOON: 10-year Treasury yield at 5.11% (highest since 2007). Oracle force majeure story weighing on tech broadly. SPY −0.49%, QQQ −0.72% at noon. NORMAL REGIME but macro headwinds are real.
+⚠️ FRIDAY — THIS IS THE LAST SESSION BEFORE THE WEEKEND. Any position held past 3:15 PM goes over Saturday–Sunday. Apply extra caution.
 
-⚠️ QCOM — OVERNIGHT HOLD (Electronic Technology/Semiconductor; stop $179.25):
-- 12 PM: $193.03 (−0.81% vs $194.60 entry; −2.13% vs $197.24 Sep 23 close).
-- Thesis INTACT and STRENGTHENED: Apple patent license renewed today (7:50 AM ET, effective Apr 1, 2027) — major intellectual-property overhang removed. Snapdragon Summit "Agentic PC Has Arrived" news continues positive. Weakness is macro (10yr yield 5.11%, tech headwind), NOT a thesis break.
-- Trail threshold NOT triggered. Stop remains $179.25. TP $226.05.
-- No earnings until Q2 FY2027 (~November 2026). No binary events.
-- ⚠️ WEEKEND RISK: If held overnight Thu → goes to Friday close. Assess carefully at 3:15 PM Fri; any hold past 3:15 PM Fri is over the weekend.
-- Sector: Electronic Technology/Tech. 1 tech position. Room for 1 more tech.
-- COST reports AH today (awareness only). NKE reports AH today (awareness only).
+⚠️ QCOM — TRAIL THRESHOLD EXCEEDED (Electronic Technology/Semiconductor; stop $179.25):
+- 10 AM: $201.61 (+3.60% vs $194.60 entry; +3.78% vs $194.26 close).
+- Trail threshold $198.49 CROSSED — consider trailing stop up. Reference points: break-even $194.60 as floor; or trail to today’s 30-min session low (~$201.52 area). 3:15 PM agent discretion.
+- Stop $179.25 (unchanged from 10 AM). TP $226.05.
+- Thesis INTACT + STRENGTHENED: Apple patent license + Snapdragon Summit + PickNik Robotics acquisition overnight. No earnings until Q2 FY2027 (~Nov 2026). No binary events.
+- ⚠️ WEEKEND DECISION: Assess at 3:15 PM whether to hold QCOM over weekend. Thesis is strong; macro headwinds (10-yr yield ~5.11%) persist.
 
-⚠️ P (Everpure) — OVERNIGHT YES (Industrial/Consumer; Opened by 12 PM reassessment):
-- Entry: $129.40 (0.927350 shares, $120 market order, ~12:07 PM ET)
-- Stop: $126.25 (post-10 AM intraday support, 10:15 AM ET low) — −2.44% from entry
-- TP: $135.70 (+4.87% from entry) — 1:2 R/R ✓
-- Overnight flag: YES — S&P 500 inclusion forces continued institutional/index-fund buying; no earnings AH tonight (last reported Aug 26, 2026 AH)
-- Catalyst: S&P 500 index addition (confirmed) + FAM +39–45% FY28 guidance raise (confirmed Sep 24)
-- Price at noon: ~$129.40; VWAP $127.61 (above ✓); RelVol 1.63x ✓
-- Entry type: scanner
+⚠️ RVMD — OVERNIGHT HOLD (Healthcare/Biotech; stop $189.84):
+- 10 AM: $203.02 (+1.92% vs $199.20 entry; +1.58% vs $199.86 close).
+- Stop $189.84 NOT triggered (6.5% cushion). TP $217.93 NOT triggered.
+- Thesis: Goldman Sachs Buy reinitiation ($267 PT). No earnings until Nov 4, 2026.
+- ⚠️ WEEKEND DECISION: Assess whether to hold over weekend. Healthcare sector soft today (XLV −0.45%).
+
+⚠️ ADPT — OVERNIGHT HOLD (Healthcare/Biotech; stop $27.51):
+- 10 AM: $29.31 (−0.17% vs $29.36 entry — noise).
+- Stop $27.51 NOT triggered (6.1% cushion). TP $33.06 NOT triggered.
+- Thesis: BTIG raised target $25→$34 (+36%) Sep 24. No known binary events.
+- ⚠️ WEEKEND DECISION: Flat/slightly red vs entry; thesis intact but sector (healthcare) soft. Assess at 3:15 PM.
 
 SECTOR CAP STATUS (entering 3:15 PM):
-- Electronic Technology/Semiconductor (QCOM): 1 position. Room for 1 more.
-- Industrial/Consumer (P/Everpure): 1 position. Room for 1 more.
-- Healthcare: 0. All other sectors: 0.
+- Electronic Technology/Tech (QCOM): 1 position. Room for 1 more.
+- Healthcare (RVMD + ADPT): 2 positions. AT CAP — no more healthcare buys until one exits.
+- All other sectors: 0 positions. Room for 2 each.
 
 BUYING POWER (3:15 PM):
-- Settled cash: ~$643.52 (est.)
-- 75% cap: $846 × 0.75 = $634.50; minus QCOM ~$82.63 minus P ~$120.00 = ~$432 available to invest
-- Effective buyable: ~$432 (75% cap is the constraint, not cash)
-- ⚠️ THURSDAY RULE: Start all new buys at LOW tier; require stronger-than-usual catalysts; no stacking same sector.
+- Settled cash: $488.12
+- 75% cap: $847.09 × 0.75 = $635.32; minus QCOM ~$86.31 minus RVMD ~$152.87 minus ADPT ~$119.80 = ~$276 available to invest
+- Effective buyable: ~$276 (75% cap is the constraint)
+- ⚠️ FRIDAY: Extra caution required — very strong catalysts only for any new Friday overnight buys.
 
-SAME-DAY RULE (Sep 24): P bought today at 12 PM — same-day ban applies only if it is STOPPED before 3:15 PM (currently an open position, no ban). MSTR/INSP/SHOP bans from Sep 23 EXPIRED.
+SAME-DAY RULE (Sep 25): No same-day bans. P stopped at 3:15 PM Sep 24 (stop_loss by 3:15 PM agent) — no re-entry ban carries to Sep 25.
 
-CANDIDATE NOTES FROM 12 PM SESSION (for 3:15 PM reference):
-- NBIS (Nebius Group +6.75%): BNP Paribus Exane upgrade today (Outperform, target $399 vs prior $260). SKIPPED at 12 PM — Michael Burry actively shorting (doubled down Sep 22, 2026); bearish whale $243.7K put trade today (Oct 16, $220 strike); Oracle force majeure weighing on tech; Thursday + 12PM penalty; relVol 1.21x barely above threshold. Reassess at 3:15 PM if tech recovers. Post-10 AM low ~$236.84.
-- TWST (Twist Bioscience +7%): Clear fade from $179.83 peak (10:30 AM) to ~$170 at noon (−5.3%). Do not enter — momentum not sustained.
-- PRGO (Perrigo +6.6%): Still no identifiable catalyst. Skip.
-- All other scan candidates: Low relVol (<1.2x), no catalyst, or ADR-disqualified.
+CANDIDATE NOTES FROM 10 AM SESSION:
+- AKAM (+8.1%, $119.36): Real catalyst — Anthropic $11.6B/7-year cloud deal + UBS PT raised $143→$148 today. BUT hard fade from open ($125.41→$119.00 by 10 AM), below VWAP ($122.56). Failed momentum confirmation. No ban — watch for base-building above $118; if AKAM consolidates and shows renewed volume, may re-qualify at 3:15 PM.
+- DDOG (+7.3%, ~$277): Strong price action above VWAP, consolidating near session highs. But zero today-specific news found; sector momentum only (0.40x rel vol → fails ≥1.5x hard gate). No ban — if catalyst surfaces, reassess.
+- AMAT (+2.30%, $485): Priority watchlist, above VWAP, steady intraday uptrend. Sector_momentum catalyst only (tech AI-infra narrative). Sector_momentum + Friday = worst combination (30.8% WR + 18.2% Friday WR). Did not meet very-strong-catalyst threshold. No ban.
+- JBL (+6.0%, ~$329): AKAM deal directly named Jabil ($1.7B memory authorization). SKIP — Q4 earnings Sep 30 BMO (binary risk) + 0.17x rel vol. No ban; watch after Sep 30 earnings.
+- AESI (+16.8%, ~$12.83): AI data center power (283 MW + 328 MW Caterpillar agreements with frontier AI lab). Spike-and-fade confirmed post-9:35 spike. Energy sector −0.75%. Widening losses. Skip.
 
 DO NOT RE-ENTER (standing bans — carry forward):
-ATEC (stopped Sep 16), ORCL (sold Sep 15), BE (sold Sep 15), META, AVAV (stopped Sep 10)
-SNDK (stopped Sep 10 12PM), MU (stopped Sep 10 12PM), GLW (stopped Sep 10 9:30AM), COHR (stopped Sep 10 9:30AM), ALAB (stopped Sep 10 9:30AM), CRM (stopped Sep 1), DG (stopped Aug 28), VEEV/MRK/ANF (stopped Aug 27), TGT (stopped Aug 26), FOXA (stopped Aug 18). WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC, ASTS, HPE, AVGO, MGNI, GTLB.
-INTC: STOPPED Sep 21 — permanent ban (stopped twice in 2 days Sep 18 & Sep 21).
-NUAI: STOPPED Sep 22 9:30 AM — permanent ban.
+ATEC (Sep 16), ORCL (Sep 15), BE (Sep 15), META, AVAV (Sep 10), SNDK (Sep 10 12PM), MU (Sep 10 12PM), GLW (Sep 10 9:30AM), COHR (Sep 10 9:30AM), ALAB (Sep 10 9:30AM), CRM (Sep 1), DG (Aug 28), VEEV/MRK/ANF (Aug 27), TGT (Aug 26), FOXA (Aug 18). WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC, ASTS, HPE, AVGO, MGNI, GTLB.
+INTC: permanent ban (stopped twice Sep 18 & Sep 21).
+NUAI: permanent ban (stopped Sep 22 9:30 AM).
 VRNS: M&A binary (Proofpoint/Thoma Bravo) STILL PENDING.
 SWKS: Pending acquisition of QRVO — M&A binary, hard disqualifier.
 QRVO: Target of SWKS acquisition — hard disqualifier.
 VAL: Pending merger with RIG (Transocean) — M&A binary, hard disqualifier.
-ODD, CSR, ADBE, ACVA, RH, RDDT: Standing bans (see prior sessions).
+ODD, CSR, ADBE, ACVA, RH, RDDT: Standing bans.
 LUXE: Earnings miss BMO Sep 16 — banned.
-AMRX: Pending acquisition of Kashiv BioSciences ($750M) — M&A binary, hard disqualifier.
+AMRX: Pending acquisition of Kashiv BioSciences — M&A binary, hard disqualifier.
 BBNX: Dilutive $150M secondary offering — skip.
 GNRC: Hard-fading sell-the-news — do not chase.
 WBD: Pending M&A binary (Paramount Skydance acquiring WBD) — hard disqualifier.
 PSKY: Target in WBD/Paramount Skydance deal — hard disqualifier.
-CIEN: Sold Sep 21 at TP — no re-entry ban (clean exit).
+CIEN: Sold Sep 21 at TP — no re-entry ban.
 TTAN: Active securities fraud investigation (BFA Law Sep 21) — skip.
-GRAL: FDA formal approval still pending early 2027 — HARD DISQUALIFIER (binary event active). AdCom was 7-2 favorable but FDA decision not expected until early 2027.
-VKTX: Phase 2 data positive (Sep 23) but Phase 3 still pending — skip until Phase 3 complete.
-MSTR: Re-entry allowed Sep 24 (same-day ban from Sep 23 expired).
-INSP: Re-entry allowed Sep 24 (same-day ban from Sep 23 expired).
-SHOP: Re-entry allowed Sep 24 (same-day ban from Sep 23 expired).
-IONQ: Re-entry allowed Sep 24 — no permanent ban (sold Sep 23 discretionary).
-OMER: Re-entry allowed Sep 24 — no permanent ban (sold Sep 23 discretionary).
-FRVO: Securities fraud investigation notice (Sep 23 GlobeNewswire); faded hard today — skip.
-SNX: Earnings beat but sold off −11.5% (sell-the-news Sep 24); no-entry for today.
-DNA: Declining fundamentals (revenue −48% YoY), no fresh catalyst — skip.
-TWST: Fading hard from 10:30 AM peak — do not chase at 3:15 PM unless fresh catalyst.
+GRAL: FDA formal approval pending early 2027 — HARD DISQUALIFIER.
+VKTX: Phase 2 positive (Sep 23); Phase 3 still pending → skip.
+MSTR/INSP/SHOP: Bans expired. Re-entry allowed.
+IONQ/OMER: Sold Sep 23 discretionary. Re-entry allowed.
+FRVO: Securities fraud investigation (Sep 23 GlobeNewswire) — skip.
+SNX: Sell-the-news Sep 24 (−11.5%) — ban expired Sep 25; very low rel vol today (0.06x); reassess if vol recovers.
+DNA: Declining fundamentals — skip.
+GDDY: M&A binary (Gen Digital early-stage takeover approach unconfirmed) — hard disqualifier until resolved.
+P: Stopped at 3:15 PM Sep 24 (stop_loss, −4.50%). No permanent ban; same-day ban expired.
 
 Catalyst watch list carry-forward:
-DRI | earnings_beat | BMO Sep 24 | FAILED — EPS beat but revenue missed; open −3.18%; do not enter
-GRAL | FDA AdCom | Sep 23 | CONFIRMED FAVORABLE (7-2 vote) but formal FDA approval pending early 2027 → HARD DISQUALIFIER remains; do not enter
-VKTX | clinical_readout | Sep 23 | Phase 2 positive but Phase 3 pending → SKIP per standing rule
-P | analyst_meeting_guidance | Sep 24 | ENTERED at 12 PM ($129.40, 0.927350 shares) — now tracked as open position above
-SNX | earnings_beat | BMO Sep 24 | FAILED PRICE — EPS big beat but stock −11.5% (sell-the-news); do not enter
+COST | Q4 FY2026 AH Sep 24 | CONFIRMED — FLAT/DOWN | Sales beat but stock slipped; no entry taken; do not chase.
 
 ---
 PRE-CHECK — Market day verification
