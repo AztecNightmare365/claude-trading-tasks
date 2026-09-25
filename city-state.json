@@ -1,16 +1,19 @@
 {
-  "ts": "2026-09-25T13:31:00Z",
-  "source": "robinhood_0930_open",
+  "ts": "2026-09-25T19:15:00Z",
+  "source": "robinhood_1515_trading",
   "portfolio": {
-    "totalValue": 842.47,
-    "cash": 488.12,
-    "equityValue": 354.35,
-    "buyingPower": 488.12,
+    "totalValue": 848.7322307409,
+    "cash": 288.12,
+    "equityValue": 560.6122307409,
+    "buyingPower": 288.12,
     "positions": [
-      { "ticker": "QCOM", "shares": 0.428056, "entry": 194.60, "current": 195.43, "plPct": 0.43, "managed": true },
-      { "ticker": "RVMD", "shares": 0.752996, "entry": 199.20, "current": 198.03, "plPct": -0.59, "managed": true },
-      { "ticker": "ADPT", "shares": 4.087207, "entry": 29.36, "current": 29.76, "plPct": 1.36, "managed": true }
+      { "ticker": "QCOM", "shares": 0.428056, "entry": 194.60, "current": 203.155, "plPct": 4.40, "managed": true },
+      { "ticker": "RVMD", "shares": 0.752996, "entry": 199.20, "current": 207.530, "plPct": 4.18, "managed": true },
+      { "ticker": "ADPT", "shares": 4.087207, "entry": 29.36, "current": 29.260, "plPct": -0.34, "managed": true },
+      { "ticker": "TSEM", "shares": 0.853493, "entry": 234.33, "current": 231.741, "plPct": -1.11, "managed": true }
     ]
   },
-  "fills": []
+  "fills": [
+    { "id": "6ab69cb1-fba9-4157-8470-c537a52e5e32", "side": "buy", "ticker": "TSEM", "qty": 0.853493, "price": 234.3311, "at": "2026-09-25T16:09:21.318Z" }
+  ]
 }
