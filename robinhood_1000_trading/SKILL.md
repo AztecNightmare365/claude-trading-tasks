@@ -40,19 +40,23 @@ Execute all steps in order, then place all orders simultaneously.
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET 2026-09-24.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
+**9:30 AM ET 2026-09-25.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
 
-**Sells executed: NONE.**
+**Sells executed: NONE.** All 3 positions above stop at open.
 
-**Catalyst entries: NONE.** DRI FAILED — Q1 FY2027 revenue missed analyst expectations (EPS beat, rev miss); open −3.18% ($213.69 → $206.89). Do not enter. Pass to 10 AM agent.
+**Catalyst entries: NONE.** COST CONFIRMED-FLAT/DOWN — do not enter; pass to 10 AM agent.
 
-**Portfolio sync:** 1 position live — QCOM 0.428056 sh @ $194.60 avg — exact match to overnight brief. 0 manual adoptions.
+**Portfolio sync:** 3 positions live — QCOM 0.428056 sh @ $194.60, RVMD 0.752996 sh @ $199.20, ADPT 4.087207 sh @ $29.36 — exact match to handoff. 0 manual adoptions.
 
-**SPY** $764.03 (−0.49%), **QQQ** $734.98 (−0.84%) — NORMAL REGIME.
+**SPY** $768.03 (+0.11%), **QQQ** $742.27 (+0.16%) — NORMAL REGIME.
 
-**QCOM open:** first-bar open $196.49 / low $194.26 / close $194.53; current $195.58 (+0.50% vs $194.60 entry) | stop $179.25 (+9.2% cushion) | TP $226.05 | trail threshold $198.49 NOT triggered | Snapdragon Summit + Trump-Xi truce thesis intact | HELD ✓
+**QCOM open:** first-bar open $195.00 / low $194.53 / close $195.12; current $195.43 (+0.43% vs $194.60 entry) | stop $179.25 (8.3% cushion) | TP $226.05 | HELD ✓
 
-**Status:** 0 stop/TP sells, 0 catalyst entries, 1 position open for 10 AM (QCOM only).
+**RVMD open:** first-bar open $200.23 / low $198.03 / close $198.03; current $198.03 (−0.59% vs $199.20 entry) | stop $189.84 (4.1% cushion) | TP $217.93 | Faded from open high $200.87; Goldman Buy thesis intact; above stop | HELD ✓
+
+**ADPT open:** first-bar open $29.73 / low $29.60 / close $29.76; current $29.76 (+1.36% vs $29.36 entry) | stop $27.51 (7.6% cushion) | TP $33.06 | HELD ✓
+
+**Status:** 0 stop/TP sells, 0 catalyst entries, 3 positions open for 10 AM (QCOM / RVMD / ADPT).
 
 ---
 
