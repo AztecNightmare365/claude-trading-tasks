@@ -24,83 +24,60 @@ _No content — see robinhood_1000_trading/SKILL.md for the live 3:15 PM handoff
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-09-25 (~12:09 PM ET — 12 PM reassessment complete)
+Last updated: 2026-09-28 (~10:09 AM ET — 10 AM session complete)
 
-Open positions: **4 (QCOM + RVMD + ADPT + TSEM)**
+Open positions: **2 (ADPT + KOD)**
 
 ⚠️ ALL STOPS ARE MENTAL — no standing stop orders in Robinhood (fractional shares).
 
 | Ticker | Shares | Entry Price (actual fill) | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
 |--------|--------|---------------------------|------|----|-----------|-----------------|------------|
-| QCOM | 0.428056 | $194.60 | $200.10 ⬆️ trailed | $226.05 | YES (held from Sep 23) | Apple patent license renewed; Snapdragon Summit “Agentic PC Has Arrived” confirmed; PickNik Robotics acquisition (agentic AI additive); thesis intact + strengthened | scanner |
-| RVMD | 0.752996 | $199.20 | $204.00 ⬆️ trailed | $217.93 | YES (opened Sep 24 3:27 PM) | Goldman Sachs Buy reinitiated ($267 PT); BofA raised to $265; midday breakout to new intraday highs; no binary events until Nov 4 earnings | scanner |
-| ADPT | 4.087207 | $29.36 | $27.51 | $33.06 | YES (opened Sep 24 3:27 PM) | BTIG raised target $25→$34 (+36%) Sep 24; thesis intact; no known binary events | scanner |
-| TSEM | 0.853750 | $234.26 | $227.50 | $247.78 | YES | Mizuho initiated Outperform/$300 PT today (Sep 25); sustained momentum all session; no earnings until Nov 16; Opened by 12 PM reassessment | scanner |
+| ADPT | 4.087207 | $29.36 | $27.51 | $33.06 | YES | BTIG raised target $25→$34 (+36%) Sep 24; flat 4 days but thesis intact; no known binary events | scanner |
+| KOD | 2.498808 | $83.72 | $77.86 | $95.44 | YES | DAYBREAK Phase III wet AMD positive topline results confirmed Sep 28; BLA filing Q4 2026; UBS Buy/$80 PT; no binary events ahead | scanner |
 
-12 PM session actions:
-- PORTFOLIO SYNC: Exact match to 10 AM handoff — 3 positions (QCOM + RVMD + ADPT). No manual adoptions.
-- QCOM: HELD — $204.43 (+5.05% vs $194.60 entry). Stop $179.25 NOT triggered. TP $226.05 NOT triggered. Stop TRAILED $179.25 → $200.10 (above breakeven $194.60; below 1.5% noise ceiling $201.36; anchored to post-pullback consolidation zone). Thesis INTACT.
-- RVMD: HELD — $208.77 (+4.80% vs $199.20 entry). Stop $189.84 NOT triggered. TP $217.93 NOT triggered. Major breakout at 11 AM from ~$204 consolidation to $211.51 high; pulling back to $208.77 at noon. Stop TRAILED $189.84 → $204.00 (just below breakout bar; above breakeven $199.20; below 1.5% ceiling $205.64).
-- ADPT: HELD — $29.435 (+0.26% vs $29.36 entry). Stop $27.51 NOT triggered. TP $33.06 NOT triggered. Not up 2% from entry — no trail triggered. Thesis intact (BTIG $34 PT).
-- TSEM BOUGHT: $200 market order, 0.853750 shares at $234.26. Catalyst: Mizuho Outperform initiation / $300 PT (today). Confirmed sustained momentum all session (open $223.31 → $234.26, steadily climbing, NOT a spike-and-fade). Stop $227.50, TP $247.78, overnight YES.
-- NO SELLS: No stops triggered; no take-profits triggered; no discretionary exits.
-- SPY: $770.07 (+0.38%) — NORMAL REGIME. QQQ: $743.68 (+0.35%). Tech sector leading.
+10 AM session actions (Sep 28, 2026):
+- PORTFOLIO SYNC: 9:30 AM agent sold QCOM, RVMD, TSEM (all stop_loss). Only ADPT carried forward. Exact match to OPEN REACTION UPDATE. No manual adoptions.
+- ADPT: HELD — $29.44 (+0.27% vs $29.36 entry). Stop $27.51 NOT triggered. TP $33.06 NOT triggered. Recovery from $29.00 open; thesis intact; BTIG $34 PT.
+- KOD: BOUGHT — $209.20 market order, 2.498808 shares at $83.72 fill. Catalyst: DAYBREAK Phase III wet AMD positive topline results — Zenkuda (tarcocimab tedromer) + KSI-501 both met primary endpoints. BLA filing Q4 2026. Confirmed +141% move from $32.35 prev close, rel vol 16.8×, above VWAP $72.28 at entry. Stop $77.86 (7% mental stop), TP $95.44. Overnight: YES.
+- NO SELLS: ADPT held; no stop/TP triggers; no discretionary exits.
+- SPY: $768.16 (−0.41%) — NORMAL REGIME. QQQ: $738.56 (−0.80%). Tech/semi broadly weak; healthcare (XLV −0.09%) and energy (XLE +0.73%) leading.
 
-Settled cash: ~$288.12 (after $200 TSEM buy; $488.12 − $200.00)
-Total account value: ~$853 (approximately unchanged; equity up ~$200, cash down ~$200)
-Portfolio invested: ~66% (QCOM ~$87.50 + RVMD ~$157.20 + ADPT ~$120.32 + TSEM ~$200.00 = ~$565.02)
+Settled cash: $78.92 (after $209.20 KOD buy; $288.12 − $209.20)
+Unsettled cash: $428.34 (from QCOM/RVMD/TSEM 9:30 AM stop sells — settles tomorrow Sep 29)
+Total account value: ~$836.79 (equity ~$329.53 + cash $507.26)
+Portfolio invested: ~39.4% (ADPT ~$120.33 + KOD ~$209.20 = ~$329.53)
 
 ---
-NOTES FOR 3:15 PM AGENT (Fri Sep 25, 2026):
+NOTES FOR 3:15 PM AGENT (Mon Sep 28, 2026):
 
-⚠️ FRIDAY — THIS IS THE LAST SESSION BEFORE THE WEEKEND. All 4 positions held past 3:15 PM go over Saturday–Sunday. Apply extra caution on each overnight decision.
-
-⚠️ NOTE: The 1 PM and 2 PM stop monitors are RETIRED. The 12 PM reassessment was the last stop check. You are seeing these positions cold from noon — check current prices carefully vs all stop levels before anything else.
-
-⚠️ QCOM — Electronic Technology/Semiconductor; stop NOW $200.10 (trailed from $179.25):
-- Noon: $204.43 (+5.05% vs $194.60 entry; +5.23% vs $194.26 prior close).
-- Stop $200.10 NOT triggered at noon. TP $226.05 NOT triggered.
-- Trail already done at noon: stop moved $179.25 → $200.10. Do not widen. May trail further at 3:15 PM if price has continued higher.
-- Thesis INTACT + STRENGTHENED: Apple patent license + Snapdragon Summit + PickNik Robotics acquisition. No earnings until Q2 FY2027 (~Nov 2026).
-- ⚠️ WEEKEND DECISION: Strong thesis supports hold; macro headwinds (10-yr yield ~5.11%) persist. Assess final price action at 3:15 PM.
-
-⚠️ RVMD — Healthcare/Biotech; stop NOW $204.00 (trailed from $189.84):
-- Noon: $208.77 (+4.80% vs $199.20 entry). Major breakout at 11 AM. TP $217.93 is 4.4% away.
-- Stop $204.00 anchored to breakout level. Do not widen. May trail further if price has held above $210.
-- Thesis: Goldman Buy ($267 PT) + BofA PT $265. No earnings until Nov 4, 2026.
-- ⚠️ WEEKEND DECISION: Strong intraday momentum, TP within striking distance. Healthcare sector was soft earlier; assess by close.
+⚠️ SETTLED CASH VERY LOW ($78.92). No meaningful new buys today unless a position exits. Tomorrow Sep 29, $428.34 settles.
 
 ⚠️ ADPT — Healthcare/Biotech; stop $27.51 (unchanged):
-- Noon: $29.435 (+0.26% vs $29.36 entry). Flat near entry. Dipped to $28.877 intraday but recovered.
-- Stop $27.51 NOT triggered (6.1% cushion). TP $33.06 NOT triggered.
-- Thesis: BTIG raised target $25→$34 (+36%) Sep 24. No known binary events.
-- ⚠️ WEEKEND DECISION: Essentially flat vs entry; weak intraday performance. Thesis intact but ADPT has not confirmed upside. Scrutinize carefully — if broad market weakens into close, consider discretionary exit.
+- 10 AM: $29.44 (+0.27% vs $29.36 entry). Recovery from $29.00 open.
+- Stop $27.51 provides 6.6% cushion. TP $33.06 still 12.3% away.
+- Thesis: BTIG $34 PT intact. No binary events. 4th day in position (Sep 24 entry).
+- ⚠️ If ADPT remains flat/red at 3:15 PM (5 days flat with no momentum + broad market down), reassess discretionary exit. Thesis intact but no price confirmation.
 
-⚠️ TSEM — Technology/Semiconductor; stop $227.50; TP $247.78; OPENED BY 12 PM REASSESSMENT:
-- Entry: $234.26, 0.853750 shares, $200 position.
-- Catalyst: Mizuho initiated Outperform / $300 PT today (Sep 25). Confirmed sustained momentum (open $223.31→$234.26, steadily rising all session, NOT a spike-and-fade). RelVol 0.485× (low but eligible as big mover ≥6%).
-- No earnings until Nov 16, 2026. No binary events. No ban history.
-- Stop distance: $6.76 (2.89% below entry). TP = $247.78 (2× stop distance). Overnight flag: YES.
-- ⚠️ WEEKEND DECISION: Analyst initiation is a multi-day catalyst. Tech sector strong today. Overnight is reasonable if price holds above $227.50 stop at close.
+⚠️ KOD — Health Technology/Biotechnology; stop $77.86; TP $95.44; OPENED 10 AM:
+- Entry: $83.72, 2.498808 shares, $209.20 position.
+- Catalyst: DAYBREAK Phase III wet AMD positive topline data confirmed Sep 28. Zenkuda (tarcocimab tedromer) + KSI-501 both met primary endpoints (p=0.0007). BLA filing planned Q4 2026. UBS reiterates Buy/$80; Goldman Neutral/$36 (bearish outlier — ignore for thesis).
+- Stop $77.86 (7% below $83.72 fill). TP $95.44 (2× stop distance from entry).
+- ⚠️ POST-BINARY VOLATILITY: Post-trial-data pops often see intraday profit-taking. If KOD fades toward VWAP ($72.28) or below $77.86 stop, honor the stop — do not widen. If KOD holds above $90+, consider trailing stop to protect gains.
+- No earnings AH today. No pending binary events.
+- Overnight: YES — BLA filing Q4 2026 is a multi-week catalyst.
 
 SECTOR CAP STATUS (entering 3:15 PM):
-- Technology/Semiconductor (QCOM + TSEM): 2 positions. AT CAP — no new tech buys.
-- Healthcare/Biotech (RVMD + ADPT): 2 positions. AT CAP — no new healthcare buys.
+- Healthcare/Biotech (ADPT + KOD): 2 positions. AT CAP — no new healthcare buys until one exits.
+- Technology/Semiconductor: 0 positions. Room for 2.
 - All other sectors: 0 positions. Room for 2 each.
 
 BUYING POWER (3:15 PM):
-- Settled cash: ~$288.12
-- 75% cap: ~$853 × 0.75 = ~$639.75; minus ~$565 invested = ~$75 available to invest
-- Effective buyable: ~$75 (75% cap is the constraint; very little room)
-- ⚠️ FRIDAY + both major sectors at cap: new buys extremely unlikely. Only exceptional non-tech, non-healthcare catalyst would qualify.
+- Settled cash: $78.92 (not enough for a meaningful new position at any tier)
+- 75% cap: ~$836.79 × 0.75 = ~$627.59; minus ~$329.53 invested = ~$298.06 available
+- Effective buyable: ~$78.92 (settled cash is the binding constraint)
+- ⚠️ Healthcare AT CAP + virtually no settled cash. Effectively no new buys today.
 
-SAME-DAY RULE (Sep 25): No same-day bans active. TSEM opened today by 12 PM agent — do not re-enter if it stops.
-
-CANDIDATE NOTES FROM 12 PM SESSION:
-- AKAM (+6.1%, $117.14): Continued fading from open high of $125.41. Now below 10 AM’s $118 watch floor. Momentum broken — skip. No ban.
-- DDOG (+6.04%, $272.41): Sector_momentum only, 0.40× rel vol → hard gate fails. Skip. No ban.
-- AESI (+18.5%, $13.025): AI data center power deal (Form 8-K, $613.5M in agreements). Spike-then-consolidation pattern; energy sector; Friday + 12PM combo = poor EV. Skipped. No ban — assess at 3:15 PM if momentum resumes.
-- WDC: Priority watchlist, but only +0.77% today — failed 2% threshold. Skip.
+SAME-DAY RULE (Sep 28): QCOM, RVMD, TSEM — all stopped at 9:30 AM — DO NOT RE-ENTER today.
 
 DO NOT RE-ENTER (standing bans — carry forward):
 ATEC (Sep 16), ORCL (Sep 15), BE (Sep 15), META, AVAV (Sep 10), SNDK (Sep 10 12PM), MU (Sep 10 12PM), GLW (Sep 10 9:30AM), COHR (Sep 10 9:30AM), ALAB (Sep 10 9:30AM), CRM (Sep 1), DG (Aug 28), VEEV/MRK/ANF (Aug 27), TGT (Aug 26), FOXA (Aug 18). WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC, ASTS, HPE, AVGO, MGNI, GTLB.
@@ -124,14 +101,20 @@ VKTX: Phase 2 positive (Sep 23); Phase 3 still pending → skip.
 MSTR/INSP/SHOP: Bans expired. Re-entry allowed.
 IONQ/OMER: Sold Sep 23 discretionary. Re-entry allowed.
 FRVO: Securities fraud investigation (Sep 23 GlobeNewswire) — skip.
-SNX: Sell-the-news Sep 24 (−11.5%) — ban expired Sep 25; very low rel vol; reassess if vol recovers.
+SNX: Sell-the-news Sep 24 (−11.5%) — ban expired Sep 25; reassess if vol recovers.
 DNA: Declining fundamentals — skip.
 GDDY: M&A binary (Gen Digital early-stage takeover approach unconfirmed) — hard disqualifier until resolved.
 P: Stopped at 3:15 PM Sep 24 (stop_loss, −4.50%). No permanent ban; same-day ban expired.
-TSEM: Opened today by 12 PM agent — no re-entry if stopped today.
+PYPL: M&A binary (unconfirmed Meta $90B takeover) — hard disqualifier until confirmed/denied.
+QCOM: Stopped 9:30 AM Sep 28 — same-day ban Sep 28 only; no permanent ban.
+RVMD: Stopped 9:30 AM Sep 28 — same-day ban Sep 28 only; re-entry allowed tomorrow (Goldman/BofA PTs intact).
+TSEM: Stopped 9:30 AM Sep 28 — same-day ban Sep 28 only; no permanent ban.
 
 Catalyst watch list carry-forward:
-COST | Q4 FY2026 AH Sep 24 | CONFIRMED — FLAT/DOWN | Sales beat but stock slipped; no entry taken; do not chase.
+JEF | Earnings AH Sep 28 | PENDING — reports tonight; do not enter ahead; check Tue 10 AM if beat + raise confirmed.
+MTN | Earnings AH Sep 28 | PENDING — reports tonight (off-peak Q4, neutral bias).
+SRRK | FDA PDUFA Sep 30 | HARD DISQUALIFIER — FDA binary + healthcare AT CAP; awareness only.
+KOD | Phase III DAYBREAK | ENTERED at $83.72 — positive topline data confirmed today; in portfolio; manage stop $77.86 / TP $95.44.
 
 ---
 PRE-CHECK — Market day verification
