@@ -1,17 +1,22 @@
 {
-  "ts": "2026-09-28T13:32:30Z",
-  "source": "robinhood_0930_open",
+  "ts": "2026-09-28T19:15:00Z",
+  "source": "robinhood_1515_trading",
   "portfolio": {
-    "totalValue": 834.69,
-    "cash": 288.12,
-    "equityValue": 546.57,
-    "buyingPower": 288.12,
+    "totalValue": 853.18,
+    "cash": 428.34,
+    "equityValue": 424.84,
+    "buyingPower": 0.00,
     "positions": [
-      { "ticker": "QCOM", "shares": 0.428056, "entry": 194.60, "current": 198.125, "plPct": 1.81, "managed": true },
-      { "ticker": "RVMD", "shares": 0.752996, "entry": 199.20, "current": 203.00, "plPct": 1.91, "managed": true },
-      { "ticker": "ADPT", "shares": 4.087207, "entry": 29.36, "current": 29.135, "plPct": -0.77, "managed": true },
-      { "ticker": "TSEM", "shares": 0.853493, "entry": 234.33, "current": 223.60, "plPct": -4.58, "managed": true }
+      { "ticker": "ADPT", "shares": 4.087207, "entry": 29.36, "current": 28.12,  "plPct": -4.22, "managed": true },
+      { "ticker": "KOD",  "shares": 2.498808, "entry": 83.72, "current": 91.55,  "plPct":  9.35, "managed": true },
+      { "ticker": "CAAP", "shares": 3.060100, "entry": 25.79, "current": 26.215, "plPct":  1.65, "managed": true }
     ]
   },
-  "fills": []
+  "fills": [
+    { "id": "6aba6c5e-58f7-4975-880a-078306b8c517", "side": "sell", "ticker": "QCOM", "qty": 0.428056, "price": 197.4757, "at": "2026-09-28T13:32:14.700Z" },
+    { "id": "6aba6c5f-a5b2-4802-8d89-2916e2c3fe1d", "side": "sell", "ticker": "RVMD", "qty": 0.752996, "price": 202.5401, "at": "2026-09-28T13:32:15.754Z" },
+    { "id": "6aba6c60-9957-4995-88e3-b50e16ea60e0", "side": "sell", "ticker": "TSEM", "qty": 0.853493, "price": 224.1401, "at": "2026-09-28T13:32:16.955Z" },
+    { "id": "6aba74f2-f282-4050-8c53-dbc701d12db1", "side": "buy",  "ticker": "KOD",  "qty": 2.498808, "price": 83.7199,  "at": "2026-09-28T14:08:50.996Z" },
+    { "id": "6aba90c0-ded9-41fb-adb4-9b36f0f9c1c8", "side": "buy",  "ticker": "CAAP", "qty": 3.060100, "price": 25.79,    "at": "2026-09-28T16:07:28.364Z" }
+  ]
 }
