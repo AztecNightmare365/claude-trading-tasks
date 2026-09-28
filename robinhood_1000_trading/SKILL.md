@@ -40,23 +40,27 @@ Execute all steps in order, then place all orders simultaneously.
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET 2026-09-25.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
+**9:30 AM ET 2026-09-28.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
 
-**Sells executed: NONE.** All 3 positions above stop at open.
+**Sells executed: 3 STOP-LOSS.** QCOM, RVMD, TSEM all opened below their stops. Orders placed at 9:32 AM ET at market.
 
-**Catalyst entries: NONE.** COST CONFIRMED-FLAT/DOWN — do not enter; pass to 10 AM agent.
+**Catalyst entries: NONE.** JEF/MTN report AH today (earnings binary — hard disqualifier); SRRK = FDA binary. No entries.
 
-**Portfolio sync:** 3 positions live — QCOM 0.428056 sh @ $194.60, RVMD 0.752996 sh @ $199.20, ADPT 4.087207 sh @ $29.36 — exact match to handoff. 0 manual adoptions.
+**Portfolio sync:** 4 positions live — exact match to handoff. 0 manual adoptions.
 
-**SPY** $768.03 (+0.11%), **QQQ** $742.27 (+0.16%) — NORMAL REGIME.
+**SPY** $767.77 (−0.46%), **QQQ** $740.00 (−0.60%) — NORMAL REGIME (SPY <1% down; no gate triggered).
 
-**QCOM open:** first-bar open $195.00 / low $194.53 / close $195.12; current $195.43 (+0.43% vs $194.60 entry) | stop $179.25 (8.3% cushion) | TP $226.05 | HELD ✓
+**QCOM** open $199.02, last $198.125 < stop $200.10 → SOLD stop_loss. Entry $194.60, +1.81% / +$1.51. First-bar low $197.52.
 
-**RVMD open:** first-bar open $200.23 / low $198.03 / close $198.03; current $198.03 (−0.59% vs $199.20 entry) | stop $189.84 (4.1% cushion) | TP $217.93 | Faded from open high $200.87; Goldman Buy thesis intact; above stop | HELD ✓
+**RVMD** open $203.51, last $203.00 < stop $204.00 → SOLD stop_loss. Entry $199.20, +1.91% / +$2.86. First-bar low $203.00.
 
-**ADPT open:** first-bar open $29.73 / low $29.60 / close $29.76; current $29.76 (+1.36% vs $29.36 entry) | stop $27.51 (7.6% cushion) | TP $33.06 | HELD ✓
+**TSEM** open $226.44, last $223.60 < stop $227.50 → SOLD stop_loss. Entry $234.33, −4.58% / −$9.16. First-bar low $223.18.
 
-**Status:** 0 stop/TP sells, 0 catalyst entries, 3 positions open for 10 AM (QCOM / RVMD / ADPT).
+**ADPT** open $29.00, last $29.135 > stop $27.51 → HELD. Entry $29.36, −0.77% (below discretionary 1.5% threshold; thesis intact; BTIG $34 PT). TP $33.06.
+
+**Net 9:30 AM P&L:** −$4.79 (QCOM +$1.51, RVMD +$2.86, TSEM −$9.16).
+
+**Status:** 3 stop sells, 0 catalyst entries, 1 position open for 10 AM (ADPT).
 
 ---
 
@@ -108,10 +112,10 @@ Open positions held overnight: **4 (QCOM + RVMD + ADPT + TSEM)**
 
 | Ticker | Shares | Entry Price (actual fill) | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
 |--------|--------|---------------------------|------|----|-----------|-----------------|------------|
-| QCOM | 0.428056 | $194.60 | $200.10 ⬆️ trailed | $226.05 | YES | Apple patent license + Snapdragon Summit "Agentic PC Has Arrived" + PickNik Robotics acquisition; multi-catalyst thesis intact | scanner |
-| RVMD | 0.752996 | $199.20 | $204.00 ⬆️ trailed | $217.93 | YES | Goldman Sachs Buy reinitiated ($267 PT) + BofA raised to $265; breakout held; no binary events until Nov 4 earnings | scanner |
-| ADPT | 4.087207 | $29.36 | $27.51 | $33.06 | YES | BTIG raised target $25→$34 (+36%) Sep 24; thesis intact; flat vs entry but stop provides 5.9% cushion; no known binary events | scanner |
-| TSEM | 0.853493 | $234.33 | $227.50 | $247.78 | YES | Mizuho initiated Outperform/$300 PT Sep 25; +6.65% vs prior close; multi-day analyst initiation catalyst | scanner |
+| ~~QCOM~~ | ~~0.428056~~ | ~~$194.60~~ | ~~$200.10~~ | ~~$226.05~~ | — | **SOLD BY 9:30 AM AGENT — stop_loss ($198.125 < $200.10) — do not re-enter** | scanner |
+| ~~RVMD~~ | ~~0.752996~~ | ~~$199.20~~ | ~~$204.00~~ | ~~$217.93~~ | — | **SOLD BY 9:30 AM AGENT — stop_loss ($203.00 < $204.00) — do not re-enter** | scanner |
+| ADPT | 4.087207 | $29.36 | $27.51 | $33.06 | YES | BTIG raised target $25→$34 (+36%) Sep 24; thesis intact; flat vs entry but stop provides cushion; no known binary events | scanner |
+| ~~TSEM~~ | ~~0.853493~~ | ~~$234.33~~ | ~~$227.50~~ | ~~$247.78~~ | — | **SOLD BY 9:30 AM AGENT — stop_loss ($223.60 < $227.50) — do not re-enter** | scanner |
 
 3:15 PM session actions (Sep 25, 2026):
 - PORTFOLIO SYNC: Exact match to 12 PM handoff — 4 positions (QCOM + RVMD + ADPT + TSEM). No manual adoptions.
