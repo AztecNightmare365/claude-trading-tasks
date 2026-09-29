@@ -42,27 +42,23 @@ Execute all steps in order, then place all orders simultaneously.
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET 2026-09-28.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices.
+**9:30 AM ET 2026-09-29.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices. LIQUIDATION MODE active — no buys.
 
-**Sells executed: 3 STOP-LOSS.** QCOM, RVMD, TSEM all opened below their stops. Orders placed at 9:32 AM ET at market.
+**Sells executed: NONE.** No stops triggered; no TPs triggered at open.
 
-**Catalyst entries: NONE.** JEF/MTN report AH today (earnings binary — hard disqualifier); SRRK = FDA binary. No entries.
+**Catalyst entries: NONE.** LIQUIDATION MODE — no new buys. KMX/CCL pass to 10 AM (10 AM will also skip — LIQUIDATION MODE).
 
-**Portfolio sync:** 4 positions live — exact match to handoff. 0 manual adoptions.
+**Portfolio sync:** 3 positions live — exact match to handoff (ADPT/KOD/CAAP). 0 manual adoptions.
 
-**SPY** $767.77 (−0.46%), **QQQ** $740.00 (−0.60%) — NORMAL REGIME (SPY <1% down; no gate triggered).
+**SPY** $766.15 (+0.07%), **QQQ** $739.40 (+0.39%) — NORMAL REGIME (SPY <1% down; no gate triggered).
 
-**QCOM** open $199.02, last $198.125 < stop $200.10 → SOLD stop_loss. Entry $194.60, +1.81% / +$1.51. First-bar low $197.52.
+**ADPT** open $29.295 > stop $27.51 → HELD. Entry $29.36, −0.22%. TP $33.06. Spread 0.93%.
 
-**RVMD** open $203.51, last $203.00 < stop $204.00 → SOLD stop_loss. Entry $199.20, +1.91% / +$2.86. First-bar low $203.00.
+**KOD** open $90.68 > stop $83.72 → HELD. PM GAP DOWN WARNING DID NOT MATERIALIZE — opened above prior close $89.92 (+0.84%). Entry $83.72, +8.31%. TP $95.44.
 
-**TSEM** open $226.44, last $223.60 < stop $227.50 → SOLD stop_loss. Entry $234.33, −4.58% / −$9.16. First-bar low $223.18.
+**CAAP** no new open trade (last trade yesterday's close $26.05; bid $25.42 / ask $27.00, spread 6.2%). Bid $25.42 > stop $24.80 → NOT triggered. Spread too wide for discretionary sell per LIQUIDATION.MD. Entry $25.79, ~+1.0%. TP $27.80. HELD — pass to 10 AM.
 
-**ADPT** open $29.00, last $29.135 > stop $27.51 → HELD. Entry $29.36, −0.77% (below discretionary 1.5% threshold; thesis intact; BTIG $34 PT). TP $33.06.
-
-**Net 9:30 AM P&L:** −$4.79 (QCOM +$1.51, RVMD +$2.86, TSEM −$9.16).
-
-**Status:** 3 stop sells, 0 catalyst entries, 1 position open for 10 AM (ADPT).
+**Status:** 0 stop/TP sells, 0 catalyst entries, 3 positions open for 10 AM (ADPT/KOD/CAAP). LIQUIDATION MODE.
 
 ---
 
