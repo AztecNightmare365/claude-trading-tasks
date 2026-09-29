@@ -49,8 +49,15 @@ take-profit / binary-event exits happen at 9:30; discretionary profit-taking
   with it.
 
 ## 5. When the account holds no positions
-Confirm with get_portfolio, write a one-line handoff ("Liquidation complete —
-all cash, 0 positions"), commit, and stop. No analysis, no candidate search.
+After placing your sells, call get_portfolio again. If it shows ZERO open
+positions (including hand-bought ones), put this exact line in your handoff:
+
+    LIQUIDATION COMPLETE — all cash, 0 positions
+
+Only write that line when get_portfolio confirms zero positions — an automatic
+checker reads it and switches the whole trading schedule off. If you are
+already flat when a session starts, write the same line, commit, and stop. No
+analysis, no candidate search.
 
 ## 6. Weekly review (Saturday)
 Do not edit or remove this file and do not re-enable buying. Aaron will turn
