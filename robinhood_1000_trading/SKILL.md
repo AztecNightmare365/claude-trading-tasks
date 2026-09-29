@@ -14,26 +14,26 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET 2026-09-28.** Live sync ••••6616: 4 positions — QCOM/RVMD/ADPT/TSEM — exact match to 3:15 PM Sep 25 handoff.
+**7:00 AM ET 2026-09-29.** Live sync ••••6616: 3 positions — ADPT/KOD/CAAP — exact match to 3:15 PM Sep 28 handoff. 0 manual adoptions.
 
-**QCOM ⚠️ CRITICAL STOP BREACH** | PM $199.34 (7:00 AM ET; bid $199.00/ask $199.39) −1.30% vs $201.97 close | stop $200.10 (trailed) → $0.76 below (−0.38%) | TP $226.05 | No new adverse news; tech sector rotation + yield 5.18%. Thesis intact. NO PM sell — marginal breach, no catalyst failure. **9:30 AM: honor stop at open; sell at market if below $200.10.**
+**ADPT ON TRACK** | PM $29.01 +1.75% ($28.51 close; −1.19% vs $29.36 entry) | stop $27.51 → 5.2% cushion | TP $33.06 | No overnight news; BTIG $34 PT intact. PM spread $29/$30 (3.4% — illiquid). Next earnings Nov 4. | **9:30/10AM: hold; honor stop ≤$27.51.**
 
-**RVMD ⚠️ GAP DOWN / NEAR STOP** | Early PM low $198.01 (5:31 AM ET, −3.40%) on AbbVie buyout denial news; recovered — bid $203.88/ask $204.89 at 7:01 AM | stop $204.00 → bid $0.12 below | TP $217.93 | Goldman $267 PT + BofA $265 thesis intact; buyout buzz was NOT stated thesis. NO PM sell. **9:30 AM: honor stop if below $204.00 at open.**
+**KOD ⚠️ GAP DOWN WARNING** | PM $87.93 −2.21% ($89.92 close) | stop $83.72 (breakeven) → 4.8% cushion | TP $95.44 | No adverse overnight news — normal post-binary-pop fade after +183% day. DAYBREAK Phase 3 + BLA Q4 2026 thesis intact. Spread 0.56%. | **10AM: hold; honor stop ≤$83.72; TP at $95.44.**
 
-**ADPT ⚠️ GAP DOWN WARNING** | PM $28.72 (12:21 AM ET, −2.41%); bid $28.51/ask $29.79 (4.5% spread — thin) | stop $27.51 → 4.2% cushion | TP $33.06 | No material news (Form 4 filing only). BTIG $34 PT intact. NO PM sell (wide spread, no thesis break). **9:30 AM: reassess discretionary exit if opens below $29.00 per handoff note.**
-
-**TSEM ⚠️ CRITICAL STOP BREACH** | PM $225.57 (6:38 AM ET; bid $225.72/ask $226.59) −2.13% vs $230.47 close | stop $227.50 → $1.93 below (−0.85%) | TP $247.78 | No adverse news; tech/semi sector rotation. Mizuho $300 + Barclays $310 + Stifel $270 thesis intact. NO PM sell — marginal breach, no catalyst failure. **9:30 AM: honor stop at open; sell at market if below $227.50.**
+**CAAP ON TRACK** | PM $26.05 0% ($26.05 close; last trade 12:01 AM ET — very thin; bid/ask $23.42/$27.00 spread 14% unusable) | stop $24.80 → 4.8% cushion | TP $27.80 | No Argentine adverse news. Concession thesis intact. | **10AM: hold; honor stop ≤$24.80; sell at TP ≥$27.80.**
 
 **PM sells placed:** NONE.
 
 **Catalyst watch:**
-- JEF: CATALYST PENDING — reports AH today Sep 28; do not enter ahead; check Tue 10 AM if beat + raise
-- MTN: CATALYST PENDING — reports AH today Sep 28 (off-peak Q4; neutral bias)
-- SRRK: CATALYST PENDING — FDA PDUFA Sep 30; hard disqualifier (FDA binary + healthcare AT CAP)
+- JEF: FLAT/DOWN — beat EPS $1.08 vs $1.00; AH −3.1% sell-the-news; PM $47.10 (−0.06%); no guidance raise. **SKIP.**
+- MTN: FLAT/DOWN — rev beat ($278M vs $274M) but EPS −$5.34; pass sales −12%; PM $134.12 (−2.88%). **SKIP.**
+- CCL: PENDING — BMO today (conf call 10 AM); PM $22.39 (+1.1%). Hard disqualifier until confirmed; evaluate at 10 AM.
+- KMX: CONFIRMED GAP UP — EPS $1.16 vs $0.68 (+70% beat), rev $7.88B vs $7.06B; PM $58.85 (+4.07%). Consumer LOW tier — evaluate at 10 AM (spread $58.00/$58.87 = 1.48% borderline).
+- SRRK: HARD DISQUALIFIER (FDA PDUFA Sep 30; healthcare AT CAP).
 
-**Macro:** SPY PM −0.46% ($767.82), QQQ PM −0.83% ($738.34). Tech/metals rotating into energy (XLE +1.47%). 10-yr yield 5.1840%. No Fed commentary overnight.
+**Macro:** SPY PM +0.12% ($766.52), QQQ +0.33% ($738.96). 10-yr yield 5.27% (19-yr high, up from 5.18%). US-Iran tensions elevated oil. Fed hiked at Sep meeting (first since 2023). Consumer confidence + JOLTS data today.
 
-**SUMMARY:** 2 CRITICAL STOP BREACH (QCOM/TSEM), 2 GAP DOWN WARNING (RVMD near-stop/ADPT), 0 PM sells; 3 catalyst PENDING. **9:30 AM MUST honor stops: QCOM $200.10, TSEM $227.50.** Email: SENT.
+**SUMMARY:** 2 ON TRACK (ADPT/CAAP), 1 GAP DOWN WARNING (KOD), 0 PM sells; JEF/MTN SKIP, CCL pending/KMX confirmed gap up (both evaluate at 10 AM), SRRK disqualified. Email: SENT (KMX catalyst confirmed).
 
 ---
 
