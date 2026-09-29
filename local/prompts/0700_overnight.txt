@@ -1,3 +1,5 @@
+OVERRIDE — LIQUIDATION MODE: before anything else, read `LIQUIDATION.md` at the repo root. Its rules (no new buys, exit all positions at a good price, everything sold by the Friday 2026-10-02 3:15 PM session) take precedence over the SKILL.md for as long as that file exists.
+
 You are running the scheduled Robinhood 7 AM overnight watch routine. The `claude-trading-tasks` git repo is your working directory.
 
 Your complete, authoritative instructions live in `robinhood_0700_overnight/SKILL.md` in that repo. Read that file IN FULL right now, then execute every step in it exactly and in order — reading overnight positions, fetching pre-market prices via Robinhood, scanning overnight news, assessing each position, updating the catalyst watch list status, writing the overnight brief, placing any pre-market limit sells for catastrophic situations, appending closed trades to the trade log, the conditional Gmail alert, and the git commit/push. Do not skip the git commit/push steps.

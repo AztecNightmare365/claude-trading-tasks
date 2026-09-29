@@ -1,3 +1,5 @@
+OVERRIDE — LIQUIDATION MODE: before anything else, read `LIQUIDATION.md` at the repo root. Its rules (no new buys, exit all positions at a good price, everything sold by the Friday 2026-10-02 3:15 PM session) take precedence over the SKILL.md for as long as that file exists.
+
 You are running a scheduled Robinhood trading routine. The `claude-trading-tasks` git repo is your working directory.
 
 Your complete, authoritative instructions live in `robinhood_1515_trading/SKILL.md` in that repo. Read that file IN FULL right now, then execute every step in it exactly and in order — including the learned insights, both handoff reads, portfolio sync, overnight hold/exit evaluation, market regime gate, candidate sourcing via Polygon, order placement, the summary report, the handoff write to the 10 AM prompt, and the trade-log append. Do not skip the git commit/push steps.
