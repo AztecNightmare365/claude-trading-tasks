@@ -26,88 +26,23 @@ _No content — see robinhood_1000_trading/SKILL.md for the live 3:15 PM handoff
 ## HANDOFF FROM LAST 10 AM SESSION
 <!-- This block is overwritten at the end of every 10 AM session and updated by the 12 PM reassessment agent. Read it before Step 1. -->
 
-Last updated: 2026-09-29 (~12:00 PM ET — 12 PM reassessment complete)
+Last updated: 2026-10-02 (~10:00 AM ET — 10 AM session complete)
 
-LIQUIDATION MODE — no buys; all cash by Fri 10-02 3:15 PM.
+**LIQUIDATION COMPLETE — all cash, 0 positions**
 
-Open positions: **1 (ADPT)**
+Open positions: **0 — all sold.**
 
-⚠️ ALL STOPS ARE MENTAL — no standing stop orders in Robinhood (fractional shares).
+10 AM session actions (Fri Oct 2, 2026):
+- PORTFOLIO SYNC: get_portfolio confirmed equity_value $0, 0 open positions. Exact match to 9:30 AM open reaction update (ADPT stop-loss sold at open by 9:30 AM agent; fill $27.2901 at 9:31:22 AM ET).
+- No positions to evaluate, no sells to place, no buys (LIQUIDATION MODE).
+- SPY: $769.98 (+0.78% vs prev close $763.99) — NORMAL REGIME. QQQ: $751.67 (+1.30%).
 
-| Ticker | Shares | Entry Price (actual fill) | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
-|--------|--------|---------------------------|------|----|-----------|-----------------|------------|
-| ADPT | 4.087207 | $29.36 | $27.51 | $33.06 | YES | BTIG raised target $25→$34 (+36%) Sep 24; thesis intact; hold per LIQUIDATION rule 3c until recovery to $29.21+ | scanner |
+Settled cash: $729.85
+Unsettled cash: $111.54 (ADPT proceeds from 9:30 AM stop sell — **settles Mon 2026-10-05**)
+Total account value: $841.39
+Portfolio invested: 0%
 
-12 PM reassessment actions (Sep 29, 2026):
-- PORTFOLIO SYNC: Exact match — ADPT 4.087207 shares @ $29.36 confirmed live. No manual changes detected.
-- ADPT: HELD — $28.765 (−2.03% vs $29.36 entry; +0.90% on day vs $28.51 close). Stop $27.51 NOT triggered. TP $33.06 NOT triggered. Recovery target $29.21 NOT reached. Trending constructively today. No binary events. BTIG $34 PT intact.
-- No trailing: ADPT is underwater (−2.03%), stop trail requires ≥+2.0% gain — not applicable.
-- No orders placed this session.
-- SPY: $763.13 (−0.32%) — NORMAL REGIME. QQQ: $737.00 (+0.06%).
-
-Settled cash: $428.34 (from QCOM/RVMD/TSEM Sep 28 sells — settled today Sep 29)
-Unsettled cash: ~$301.51 (KOD+CAAP proceeds Sep 29 — settles Wed Sep 30)
-Total account value: $847.36
-Portfolio invested: ~13.9% (ADPT $117.51 only)
-
----
-NOTES FOR 3:15 PM AGENT (Tue Sep 29, 2026):
-
-LIQUIDATION MODE ACTIVE — NO NEW BUYS. Skip candidate search steps.
-
-⚠️ ADPT — Healthcare/Biotech; stop $27.51; TP $33.06:
-- 10 AM: $28.901 (−1.56% vs entry). 12 PM: $28.765 (−2.03% vs entry, +0.90% on day). 8th day in position, entered Sep 24.
-- Per LIQUIDATION rule 3c: hold for recovery; stop $27.51 intact. At 3:15 PM — SELL if recovered to $29.21+ (within 0.5% of entry $29.36). HOLD if still below $29.21 and thesis intact; stop $27.51 still active.
-- From Thursday 10-01 3:15 PM session onward: sell ADPT outright regardless of price per liquidation rule 3b.
-- Deadline: if still open at Friday 10-02 3:15 PM, sell at market regardless of P&L.
-- No binary events. No earnings. BTIG $34 PT intact as of 12 PM.
-- Recovery target: $29.21. Gap to close from 12 PM price: +$0.445 (+1.55%). Watching for afternoon momentum.
-
-SECTOR CAP STATUS:
-- Healthcare/Biotech (ADPT): 1 position. (LIQUIDATION MODE — no new buys regardless.)
-- All other sectors: 0 positions.
-
-BUYING POWER:
-- Settled cash: $428.34 — DO NOT USE (LIQUIDATION MODE, no new buys).
-- Unsettled: ~$301.51 (settles Sep 30 — DO NOT USE).
-
-SAME-DAY RULE (Sep 29): No bans active. (LIQUIDATION MODE — no new buys in any case.)
-
-DO NOT RE-ENTER (standing bans — carry forward):
-ATEC (Sep 16), ORCL (Sep 15), BE (Sep 15), META, AVAV (Sep 10), SNDK (Sep 10 12PM), MU (Sep 10 12PM), GLW (Sep 10 9:30AM), COHR (Sep 10 9:30AM), ALAB (Sep 10 9:30AM), CRM (Sep 1), DG (Aug 28), VEEV/MRK/ANF (Aug 27), TGT (Aug 26), FOXA (Aug 18). WDAY, MRVL, ADSK, S, YEXT, ESTC, CNXC, ASTS, HPE, AVGO, MGNI, GTLB.
-INTC: permanent ban (stopped twice Sep 18 & Sep 21).
-NUAI: permanent ban (stopped Sep 22 9:30 AM).
-VRNS: M&A binary (Proofpoint/Thoma Bravo) STILL PENDING.
-SWKS: Pending acquisition of QRVO — M&A binary, hard disqualifier.
-QRVO: Target of SWKS acquisition — hard disqualifier.
-VAL: Pending merger with RIG (Transocean) — M&A binary, hard disqualifier.
-ODD, CSR, ADBE, ACVA, RH, RDDT: Standing bans.
-LUXE: Earnings miss BMO Sep 16 — banned.
-AMRX: Pending acquisition of Kashiv BioSciences — M&A binary, hard disqualifier.
-BBNX: Dilutive $150M secondary offering — skip.
-GNRC: Hard-fading sell-the-news — do not chase.
-WBD: Pending M&A binary (Paramount Skydance acquiring WBD) — hard disqualifier.
-PSKY: Target in WBD/Paramount Skydance deal — hard disqualifier.
-CIEN: Sold Sep 21 at TP — no re-entry ban.
-TTAN: Active securities fraud investigation (BFA Law Sep 21) — skip.
-GRAL: FDA formal approval pending early 2027 — HARD DISQUALIFIER.
-VKTX: Phase 2 positive (Sep 23); Phase 3 still pending → skip.
-MSTR/INSP/SHOP: Bans expired. Re-entry allowed.
-IONQ/OMER: Sold Sep 23 discretionary. Re-entry allowed.
-FRVO: Securities fraud investigation (Sep 23 GlobeNewswire) — skip.
-SNX: Sell-the-news Sep 24 (−11.5%) — ban expired Sep 25.
-DNA: Declining fundamentals — skip.
-GDDY: M&A binary (Gen Digital early-stage takeover approach unconfirmed) — hard disqualifier until resolved.
-P: Stopped at 3:15 PM Sep 24 — no permanent ban.
-PYPL: M&A binary (unconfirmed Meta $90B takeover) — hard disqualifier until confirmed/denied.
-
-Catalyst watch list carry-forward:
-JEF | CONFIRMED FLAT/DOWN — EPS beat $1.08 vs $1.00; AH −3.1% sell-the-news; no guidance raise. SKIP — do not enter.
-MTN | CONFIRMED FLAT/DOWN — rev beat but EPS miss; pass sales −12%; PM −2.88%. SKIP.
-CCL | PENDING at 10 AM — BMO today; 10 AM skipped (LIQUIDATION MODE). Monitor only — no entry.
-KMX | CONFIRMED GAP UP — EPS $1.16 vs $0.68 (+70% beat). Skipped (LIQUIDATION MODE). Monitor only — no entry.
-SRRK | FDA PDUFA Sep 30 — HARD DISQUALIFIER; awareness only.
-KOD | EXITED — sold $88.9201 (+6.21%) at 10 AM 9/29. No re-entry ban.
+Catalyst watch list: none (LIQUIDATION MODE — no new entries tracked).
 
 ---
 PRE-CHECK — Market day verification
