@@ -16,26 +16,17 @@ Execute all steps in order, then place all orders simultaneously.
 ## OVERNIGHT BRIEF
 <!-- Updated by this agent each morning. Read by the 9:15 AM and 9:30 AM agents. -->
 
-**7:00 AM ET 2026-09-29.** Live sync ••••6616: 3 positions — ADPT/KOD/CAAP — exact match to 3:15 PM Sep 28 handoff. 0 manual adoptions.
+**7:00 AM ET 2026-10-02.** LIQUIDATION MODE — no buys; all cash by Fri 10-02 3:15 PM. Live sync ••••6616: 1 position — ADPT — confirmed match to 12 PM Sep 29 handoff. 0 manual adoptions.
 
-**ADPT ON TRACK** | PM $29.01 +1.75% ($28.51 close; −1.19% vs $29.36 entry) | stop $27.51 → 5.2% cushion | TP $33.06 | No overnight news; BTIG $34 PT intact. PM spread $29/$30 (3.4% — illiquid). Next earnings Nov 4. | **9:30/10AM: hold; honor stop ≤$27.51.**
+**ADPT ON TRACK** | PM $27.86 +1.79% (Oct 1 close $27.37; entry $29.36 −5.10%) | stop $27.51 → $0.35 cushion (1.26%) | TP $33.06 | ⚠️ Oct 1 closed $27.37 — BELOW stop $27.51; no agent ran Thu/Fri to catch it. Pre-market recovered above stop. Goldman Sachs initiated Buy/$35 PT Oct 1 (new positive). BTIG $34 PT intact. Spread $27.00/$29.30 = 8.5% (illiquid). | **⚠️ FRIDAY DEADLINE: honor stop ≤$27.51 at open; SELL by 3:15 PM per LIQUIDATION.**
 
-**KOD ⚠️ GAP DOWN WARNING** | PM $87.93 −2.21% ($89.92 close) | stop $83.72 (breakeven) → 4.8% cushion | TP $95.44 | No adverse overnight news — normal post-binary-pop fade after +183% day. DAYBREAK Phase 3 + BLA Q4 2026 thesis intact. Spread 0.56%. | **10AM: hold; honor stop ≤$83.72; TP at $95.44.**
+**PM sells placed:** NONE (pre-market above stop; thesis intact/strengthened by GS initiation; 8.5% spread — worse fill than open print).
 
-**CAAP ON TRACK** | PM $26.05 0% ($26.05 close; last trade 12:01 AM ET — very thin; bid/ask $23.42/$27.00 spread 14% unusable) | stop $24.80 → 4.8% cushion | TP $27.80 | No Argentine adverse news. Concession thesis intact. | **10AM: hold; honor stop ≤$24.80; sell at TP ≥$27.80.**
+**Catalyst watch:** All prior entries resolved (JEF/MTN/CCL/KMX SKIP; SRRK PDUFA Sep 30 — past). LIQUIDATION MODE — no new entries.
 
-**PM sells placed:** NONE.
+**Macro:** SPY PM $768.00 (+0.53%), QQQ PM $747.50 (+0.73%). Futures green (S&P +0.49%, Nasdaq +0.74%). September NFP jobs report at 8:30 AM ET today. Fed Funds 3.88%; next FOMC Oct 28.
 
-**Catalyst watch:**
-- JEF: FLAT/DOWN — beat EPS $1.08 vs $1.00; AH −3.1% sell-the-news; PM $47.10 (−0.06%); no guidance raise. **SKIP.**
-- MTN: FLAT/DOWN — rev beat ($278M vs $274M) but EPS −$5.34; pass sales −12%; PM $134.12 (−2.88%). **SKIP.**
-- CCL: PENDING — BMO today (conf call 10 AM); PM $22.39 (+1.1%). Hard disqualifier until confirmed; evaluate at 10 AM.
-- KMX: CONFIRMED GAP UP — EPS $1.16 vs $0.68 (+70% beat), rev $7.88B vs $7.06B; PM $58.85 (+4.07%). Consumer LOW tier — evaluate at 10 AM (spread $58.00/$58.87 = 1.48% borderline).
-- SRRK: HARD DISQUALIFIER (FDA PDUFA Sep 30; healthcare AT CAP).
-
-**Macro:** SPY PM +0.12% ($766.52), QQQ +0.33% ($738.96). 10-yr yield 5.27% (19-yr high, up from 5.18%). US-Iran tensions elevated oil. Fed hiked at Sep meeting (first since 2023). Consumer confidence + JOLTS data today.
-
-**SUMMARY:** 2 ON TRACK (ADPT/CAAP), 1 GAP DOWN WARNING (KOD), 0 PM sells; JEF/MTN SKIP, CCL pending/KMX confirmed gap up (both evaluate at 10 AM), SRRK disqualified. Email: SENT (KMX catalyst confirmed).
+**SUMMARY:** 1 ON TRACK (ADPT), 0 flagged, 0 PM sells; Friday deadline — SELL ADPT by 3:15 PM today.
 
 ---
 
