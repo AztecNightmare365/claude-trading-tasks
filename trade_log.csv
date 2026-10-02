@@ -79,3 +79,4 @@ date,ticker,shares,entry_price,exit_price,entry_session,entry_type,exit_session,
 2026-09-28,TSEM,0.853493,234.330000,223.600000,12PM,scanner,9:30AM,analyst_upgrade,tech,-4.58,-9.16,stop_loss
 2026-09-29,KOD,2.498808,83.720000,88.920100,10AM,scanner,10AM,fda,healthcare,6.21,12.99,liquidation
 2026-09-29,CAAP,3.060100,25.790000,25.920100,12PM,scanner,10AM,other,industrial,0.50,0.40,liquidation
+2026-10-02,ADPT,4.087207,29.360000,27.290100,3:15PM,scanner,9:30AM,analyst_upgrade,healthcare,-7.05,-8.46,stop_loss

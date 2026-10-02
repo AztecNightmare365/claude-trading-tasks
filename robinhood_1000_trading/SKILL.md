@@ -33,23 +33,21 @@ Execute all steps in order, then place all orders simultaneously.
 ## OPEN REACTION UPDATE
 <!-- Written by the 9:30 AM open reaction agent. Replaced (not appended) each run. -->
 
-**9:30 AM ET 2026-09-29.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices. LIQUIDATION MODE active — no buys.
+**9:30 AM ET 2026-10-02.** No PRE-MARKET BRIEF (retired); used 7 AM overnight brief + live open prices. LIQUIDATION MODE active — no buys. **FRIDAY DEADLINE.**
 
-**Sells executed: NONE.** No stops triggered; no TPs triggered at open.
+**LIQUIDATION COMPLETE — all cash, 0 positions**
 
-**Catalyst entries: NONE.** LIQUIDATION MODE — no new buys. KMX/CCL pass to 10 AM (10 AM will also skip — LIQUIDATION MODE).
+**Sells executed: ADPT — STOP LOSS.** Open $27.31 ≤ stop $27.51 → market sell 4.087207 shares. Fill $27.2901 at 9:31:22 AM ET. P&L: −7.05% / −$8.46. Order ID: 6abfb22a.
 
-**Portfolio sync:** 3 positions live — exact match to handoff (ADPT/KOD/CAAP). 0 manual adoptions.
+**Catalyst entries: NONE.** LIQUIDATION MODE — no buys.
 
-**SPY** $766.15 (+0.07%), **QQQ** $739.40 (+0.39%) — NORMAL REGIME (SPY <1% down; no gate triggered).
+**Portfolio sync (pre-sell):** 1 position live (ADPT 4.087207 shares @ $29.36 entry). Exact match to 7 AM overnight brief. 0 manual adoptions.
 
-**ADPT** open $29.295 > stop $27.51 → HELD. Entry $29.36, −0.22%. TP $33.06. Spread 0.93%.
+**SPY** $770.38 (+0.84%), **QQQ** $750.53 (+1.15%) — NORMAL REGIME.
 
-**KOD** open $90.68 > stop $83.72 → HELD. PM GAP DOWN WARNING DID NOT MATERIALIZE — opened above prior close $89.92 (+0.84%). Entry $83.72, +8.31%. TP $95.44.
+**Post-sell check:** get_portfolio confirmed equity_value $0, 0 open positions. LIQUIDATION COMPLETE.
 
-**CAAP** no new open trade (last trade yesterday's close $26.05; bid $25.42 / ask $27.00, spread 6.2%). Bid $25.42 > stop $24.80 → NOT triggered. Spread too wide for discretionary sell per LIQUIDATION.MD. Entry $25.79, ~+1.0%. TP $27.80. HELD — pass to 10 AM.
-
-**Status:** 0 stop/TP sells, 0 catalyst entries, 3 positions open for 10 AM (ADPT/KOD/CAAP). LIQUIDATION MODE.
+**Status:** 1 stop sell (ADPT −7.05%), 0 catalyst entries, 0 positions open for 10 AM. Account $841.39 all cash ($729.85 settled + ~$111.54 unsettled ADPT proceeds, settles Mon 10-05).
 
 ---
 
@@ -94,13 +92,15 @@ RAW STATS:
 
 Last updated: 2026-09-28 (~3:15 PM ET — 3:15 PM session complete)
 
-Open positions held overnight: **3 (ADPT + KOD + CAAP)**
+**LIQUIDATION COMPLETE — all cash, 0 positions** _(ADPT stop_loss sold 9:30 AM 2026-10-02; KOD/CAAP liquidation sold 2026-09-29 10 AM)_
+
+Open positions held overnight: **0 — all sold.**
 
 ⚠️ ALL STOPS ARE MENTAL — no standing stop orders in Robinhood (fractional shares).
 
 | Ticker | Shares | Entry Price (actual fill) | Stop | TP | Overnight | Thesis (1 line) | Entry Type |
 |--------|--------|---------------------------|------|----|-----------|-----------------|------------|
-| ADPT | 4.087207 | $29.36 | $27.51 | $33.06 | YES | BTIG raised target $25→$34 (+36%) Sep 24; no thesis break at close; stop $27.51 provides only 2.2% cushion — watch for gap-down | scanner |
+| ADPT | 4.087207 | $29.36 | $27.51 | $33.06 | YES | **SOLD BY 9:30 AM AGENT 2026-10-02 — stop_loss — do not re-enter** (open $27.31 < stop $27.51; fill $27.2901; −7.05%) | scanner |
 | KOD | 2.498808 | $83.72 | **$83.72 (trailed to breakeven from $77.86 — closed above $90 trigger)** | $95.44 | YES | DAYBREAK Phase III wet AMD positive topline Sep 28; BLA filing Q4 2026; closed $91.55 (+9.35%); TP $95.44 only 4.25% away | scanner |
 | CAAP | 3.060100 | $25.79 | $24.80 | $27.80 | YES | Argentine govt $7.3B airport concession extension (+18yr to Feb 2056) announced Sep 28; closed $26.215 (+1.65%); catalyst intact | scanner |
 
